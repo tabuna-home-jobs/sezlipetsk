@@ -65,68 +65,13 @@ IncludeTemplateLangFile(__FILE__);
 	</div>
 </header>
 <!--Слайдер-->
-<?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
-	"",
-	Array(
-		"COMPONENT_TEMPLATE" => "oez",
-		"IBLOCK_ID" => "MAIN_SLIDER"
-	)
-);?>
-<!--Слайдер-->
-<section class="slider-wrap container hidden-xs">
-
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-		</ol>
-
-		<!-- Wrapper for slides -->
-		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/slide1.jpg" alt="...">
-
-				<div class="carousel-caption">
-					<div class="container">
-						<div class="col-xs-6">
-							<h2 class="header_caption_slider">Лучшая промышленная площадка Европы</h2>
-
-							<div class="body_caption_slider">Ускоренное развитие — лучшая антикризисная стратегия</div>
-							<div class="button_caption_slider"><a>ПОДРОБНЕЕ</a></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/slide1.jpg" alt="...">
-
-				<div class="carousel-caption">
-					<div class="container">
-						<div class="col-xs-6">
-							<h2 class="header_caption_slider">Лучшая промышленная площадка Европы</h2>
-
-							<div class="body_caption_slider">Ускоренное развитие — лучшая антикризисная стратегия</div>
-							<div class="button_caption_slider"><a>ПОДРОБНЕЕ</a></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Controls -->
-		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-			<span class="glyphicon  glyphicon glyphicon-menu-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-			<span class="glyphicon  glyphicon glyphicon-menu-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
-
-</section>
+	<?$APPLICATION->IncludeComponent(
+		"custom:news.list",
+		"",
+		Array(
+			"IBLOCK_ID" => "MAIN_SLIDER"
+		)
+	);?>
 <!--Слайдер-->
 <div class="main container">
 
