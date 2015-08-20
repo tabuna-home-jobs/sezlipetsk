@@ -64,7 +64,17 @@ IncludeTemplateLangFile(__FILE__);
 		</div>
 	</div>
 </header>
-<section class="slider-wrap container hidden-xs"><!--Слайдер-->
+<!--Слайдер-->
+<?$APPLICATION->IncludeComponent(
+	"bitrix:news.list",
+	"",
+	Array(
+		"COMPONENT_TEMPLATE" => "oez",
+		"IBLOCK_ID" => "MAIN_SLIDER"
+	)
+);?>
+<!--Слайдер-->
+<section class="slider-wrap container hidden-xs">
 
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
@@ -117,6 +127,7 @@ IncludeTemplateLangFile(__FILE__);
 	</div>
 
 </section>
+<!--Слайдер-->
 <div class="main container">
 
 
