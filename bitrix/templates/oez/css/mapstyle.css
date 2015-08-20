@@ -1,0 +1,280 @@
+
+.krugoo{
+    width: 1263px !important;
+    height: 312px !important;
+    max-width: 1263px !important;
+}
+.title-zone{
+    color: #333;
+    font-family: FedraSansPro;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 44px 44px 0 44px;
+}
+.info-zone{
+    font-family: FedraSansPro;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #727272;
+    padding: 0 44px 0 44px;
+}
+.info-zone span{
+    color: #333;
+}
+.watch-this{
+    color: #d94462;
+    font-family: FedraSansPro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 0 44px 0 44px;
+}
+.wrapper-tooltip{
+    margin: 4px;
+    -webkit-box-shadow: rgb(83, 83, 83) 3px 3px 5px;
+    box-shadow: rgb(83, 83, 83) 3px 3px 5px;
+    display: block;
+    position: absolute;
+    left: 128px;
+    top: 478px;
+    z-index: 9999;
+    background: rgb(238, 238, 238);
+    width: 365px;
+}
+/* уголок у подсказки
+.tooltip-zone:before{
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -40px;
+  top: 220px;
+  border: 20px solid transparent;
+  border-right: 20px solid rgb(238, 238, 238);
+}
+*/
+.info-zone p{
+    margin: 0;
+}
+.tooltip-zone{
+    display: none;
+}
+.imgMap{
+    box-shadow: inset 0 0 6px;
+    width: 100%;
+    height: 330px;
+    overflow: scroll;
+    position: relative;
+    overflow-y: hidden;
+    border-radius: 18px;
+}
+
+/* хром, сафари */
+.imgMap::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+.imgMap { -ms-overflow-style: none; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+.imgMap { overflow: -moz-scrollbars-none; }
+
+.table-info td, .table-info tr{
+    border: none;
+    border-top: none !important;
+}
+.table-info td:first-child{
+    width: 48px;
+}
+.table-info td:nth-child(3){
+    width: 48px;
+}
+.table-info .sec-td{
+    width: 350px;
+}
+.info-maschtab{
+    color: #666;
+    font-family: FNormal;
+    font-size: 12px;
+    font-weight: 300;
+}
+.wrapper-tooltip > img{
+    width: 100%;
+}
+.spec-table-info{
+    position: relative;
+    top: -300px;
+    left: 70px;
+}
+.spec-table-info td:first-child{
+    width:10px;
+    padding: 8px 0;
+}
+.spec-table-info td:nth-child(2){
+    padding: 8px 0;
+}
+.nav-tabs li{
+    border: none;
+}
+.nav-tabs li.active > a{
+    border:none;
+    color: #e53d45;
+}
+.nav-tabs>li>a:hover{
+    color: #e53d45;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: none;
+    color:#333;
+    font-size: 12px;
+}
+.nav-tabs > li > a:hover{
+    background: none;
+    border: none;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    cursor: default;
+    background-color: #fff;
+    border: none;
+    border-bottom-color: transparent;
+}
+.nav-tabs{
+    border-bottom: none;
+}
+.sub-map{
+    position: absolute;
+    top: 340px;
+    width: 325px;
+    height: 324px;
+    left: 41px;
+    display: none;
+    z-index: 9000000;
+}
+.block_top .tab-content{
+    position: relative;
+}
+#control-button-1{
+    position: absolute;
+    top: 238px;
+    left: 363px;
+    z-index: 999;
+    cursor: pointer;
+}
+#control-button-1:hover, #control-button-2:hover{
+    opacity: 0.7;
+}
+#control-button-2{
+    position: absolute;
+    top: 175px;
+    left: 563px;
+    z-index: 999;
+    cursor: pointer;
+}
+.nav-tabs li a{
+    position: relative;
+}
+.nav-tabs li a span{
+    position: absolute;
+    left: -20px;
+    top: -5px;
+}
+.nav-tab-map li {
+    padding-left: 40px !important;
+}
+.nav-tab-map li a{
+    padding-left: 20px;
+}
+.nav-tab-map li:nth-child(1) span{
+    content: url("img/maparea/icons/1(grey).png");
+}
+.nav-tab-map li.active:nth-child(1) span{
+    content: url("img/maparea/icons/1.png");
+}
+.nav-tab-map li:hover:nth-child(1) span{
+    content: url("img/maparea/icons/1.png");
+}
+.nav-tab-map li:nth-child(3) span{
+    content: url("img/maparea/icons/3(grey).png");
+}
+.nav-tab-map li.active:nth-child(3) span{
+    content: url("img/maparea/icons/3.png");
+}
+.nav-tab-map li:hover:nth-child(3) span{
+    content: url("img/maparea/icons/3.png");
+}
+.nav-tab-map li:nth-child(4) span{
+    content: url("img/maparea/icons/4(grey).png");
+}
+.nav-tab-map li.active:nth-child(4) span{
+    content: url("img/maparea/icons/4.png");
+}
+.nav-tab-map li:hover:nth-child(4) span{
+    content: url("img/maparea/icons/4.png");
+}
+.nav-tab-map li:nth-child(5) span{
+    content: url("img/maparea/icons/6(grey).png");
+}
+.nav-tab-map li.active:nth-child(5) span{
+    content: url("img/maparea/icons/6.png");
+}
+.nav-tab-map li:hover:nth-child(5) span{
+    content: url("img/maparea/icons/6.png");
+}
+.nav-tab-map li:nth-child(6) span{
+    content: url("img/maparea/icons/2(grey).png");
+}
+.nav-tab-map li.active:nth-child(6) span{
+    content: url("img/maparea/icons/2.png");
+}
+.nav-tab-map li:hover:nth-child(6) span{
+    content: url("img/maparea/icons/2.png");
+}
+.nav-tab-map li:nth-child(7) span{
+    content: url("img/maparea/icons/9(grey).png");
+}
+.nav-tab-map li.active:nth-child(7) span{
+    content: url("img/maparea/icons/9.png");
+}
+.nav-tab-map li:hover:nth-child(7) span{
+    content: url("img/maparea/icons/9.png");
+}
+.nav-tab-map li:nth-child(8) span{
+    content: url("img/maparea/icons/5(grey).png");
+}
+.nav-tab-map li.active:nth-child(8) span{
+    content: url("img/maparea/icons/5.png");
+}
+.nav-tab-map li:hover:nth-child(8) span{
+    content: url("img/maparea/icons/5.png");
+}
+.nav-tab-map li:nth-child(9) span{
+    content: url("img/maparea/icons/7(grey).png");
+}
+.nav-tab-map li.active:nth-child(9) span{
+    content: url("img/maparea/icons/7.png");
+}
+.nav-tab-map li:hover:nth-child(9) span{
+    content: url("img/maparea/icons/7.png");
+}
+.nav-tab-map li:nth-child(10) span{
+    content: url("img/maparea/icons/8(grey).png");
+}
+.nav-tab-map li.active:nth-child(10) span{
+    content: url("img/maparea/icons/8.png");
+}
+.nav-tab-map li:hover:nth-child(10) span{
+    content: url("img/maparea/icons/8.png");
+}
+
+.sub-map2{
+    position: absolute;
+    top: 320px;
+    width: 325px;
+    height: 324px;
+    left: 101px;
+    display: none;
+    z-index: 9000001;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - SEZLIPETSK_SEZLIPETSK@193.111.141.198" uuid="a4f92363-cbe1-42ec-8e40-de69ad6fcdb0">
+      <secret-storage>master_key</secret-storage>
+      <user-name>SEZLIPETSK_oez</user-name>
+      <schema-pattern>SEZLIPETSK_SEZLIPETSK.*</schema-pattern>
+      <default-schemas>SEZLIPETSK_SEZLIPETSK.*</default-schemas>
+    </data-source>
+  </component>
+</project>

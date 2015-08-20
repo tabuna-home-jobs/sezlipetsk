@@ -1,0 +1,424 @@
+2015-08-17 10:29:22 -  - exec CUpdateClient::GetUpdatesList
+2015-08-17 10:29:22 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:29:22 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.0.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.0.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.0.0&bitm_form=15.0.1&bitm_calendar=15.0.3&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.3&bitm_seo=15.0.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:29:22 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:29:22 -  - TIME GetUpdatesList(request) 0.418 sec
+2015-08-17 10:29:22 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:29:41 -  - exec CUpdateClient::GetUpdatesList
+2015-08-17 10:29:41 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:29:41 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.0.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.0.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.0.0&bitm_form=15.0.1&bitm_calendar=15.0.3&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.3&bitm_seo=15.0.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:29:41 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:29:42 -  - TIME GetUpdatesList(request) 0.449 sec
+2015-08-17 10:29:42 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:29:53 -  - exec CUpdateClient::RegisterVersion
+2015-08-17 10:29:53 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:29:53 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.0.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.0.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.0.0&bitm_form=15.0.1&bitm_calendar=15.0.3&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.3&bitm_seo=15.0.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&query_type=register
+2015-08-17 10:29:53 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:29:53 -  - TIME RegisterVersion(request) 0.372 sec
+2015-08-17 10:29:53 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:29:53 -  - TIME UnGzipArchive 0.001 sec
+2015-08-17 10:29:53 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:29:53 - CURV - Product registered successfully!
+2015-08-17 10:29:53 - UPD_SUCCESS - Registered
+2015-08-17 10:30:03 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:03 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:03 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.0.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.0.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.0.0&bitm_form=15.0.1&bitm_calendar=15.0.3&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.3&bitm_seo=15.0.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:03 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:03 -  - TIME LoadModulesUpdates(request) 0.431 sec
+2015-08-17 10:30:03 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:04 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:04 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:04 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:04 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:05 - DOWNLOAD - Time - 0.81849503517151 sec
+2015-08-17 10:30:05 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:05 -  - TIME UnGzipArchive 0.017 sec
+2015-08-17 10:30:05 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796605/iblock/updater15.5.4/index.php'
+2015-08-17 10:30:05 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796605/iblock/updater15.5.4/index.php': CopyFiles(install/components, components)
+2015-08-17 10:30:05 -  - TIME UpdateStepModules 0.017 sec
+2015-08-17 10:30:05 - UPD_SUCCESS - Updated: iblock (15.5.4)<br><li>Исправлена ошибка работы комплексных компонент bitrix:catalog, bitrix:news, bitrix:photo при использовании кастомных решений показа 404-й страницы <li>Исправлена ошибка шаблона компонента catalog.top
+2015-08-17 10:30:06 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:06 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:06 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.0.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.0.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.0.0&bitm_form=15.0.1&bitm_calendar=15.0.3&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.0.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:06 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:06 -  - TIME LoadModulesUpdates(request) 0.27 sec
+2015-08-17 10:30:06 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:07 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:07 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:07 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:07 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:08 - DOWNLOAD - Time - 0.67490005493164 sec
+2015-08-17 10:30:08 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:08 -  - TIME UnGzipArchive 0.009 sec
+2015-08-17 10:30:08 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796608/vote/updater15.5.0.php'
+2015-08-17 10:30:08 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796608/vote/updater15.5.0.php': CopyFiles(install/components, components)
+2015-08-17 10:30:08 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796608/vote/updater15.5.0.php': CopyFiles(install/public/tools, tools)
+2015-08-17 10:30:08 -  - TIME UpdateStepModules 0.028 sec
+2015-08-17 10:30:08 - UPD_SUCCESS - Updated: vote (15.5.0)<br><li>Совместимость с IE8. <li>Исправление ошибок.
+2015-08-17 10:30:09 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:09 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:09 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.0.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.0.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.0.3&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.0.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:09 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:09 -  - TIME LoadModulesUpdates(request) 0.241 sec
+2015-08-17 10:30:09 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:09 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:10 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:10 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:10 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:11 - DOWNLOAD - Time - 0.77906489372253 sec
+2015-08-17 10:30:11 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:11 -  - TIME UnGzipArchive 0.012 sec
+2015-08-17 10:30:11 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796611/learning/updater15.5.0.php'
+2015-08-17 10:30:11 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796611/learning/updater15.5.0.php': CopyFiles(install/components, components)
+2015-08-17 10:30:11 -  - TIME UpdateStepModules 0.026 sec
+2015-08-17 10:30:11 - UPD_SUCCESS - Updated: learning (15.5.0)<br><li>Исправлены неправильные редиректы после добавления/редактирования/удаления уроков. <li>Оптимизированы запросы проверки прав доступа. <li>Добавлена новая колонка \"Среднее время ответа\" в попытках с возможностью сортировки и фильтрации. <li>Компоненты chapter.detail, lesson.detail, test.list, test.self, test теперь проверяют активность курса. <li>Учебные группы: исправлены ошибки с правами доступа. <li>Форма редактирования урока теперь не требует обязательного наличия поля \"Анонс\". <li>Незначительные исправления.
+2015-08-17 10:30:11 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:11 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:11 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.0.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.0.3&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.0.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:11 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:12 -  - TIME LoadModulesUpdates(request) 0.404 sec
+2015-08-17 10:30:12 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:12 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:13 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:13 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:13 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:14 - DOWNLOAD - Time - 0.52632093429565 sec
+2015-08-17 10:30:14 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:14 -  - TIME UnGzipArchive 0.003 sec
+2015-08-17 10:30:14 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796614/seo/updater15.5.0.php'
+2015-08-17 10:30:14 -  - TIME UpdateStepModules 0.054 sec
+2015-08-17 10:30:14 - UPD_SUCCESS - Updated: seo (15.5.0)<br><li>Исправлена ошибка автогенерации карты сайта. <li>Поддержка нового функционала модуля \"Конверсия\". 
+2015-08-17 10:30:15 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:15 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:15 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.0.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.0.3&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.0&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:15 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:15 -  - TIME LoadModulesUpdates(request) 0.241 sec
+2015-08-17 10:30:15 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:15 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:16 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:16 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:16 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:17 - DOWNLOAD - Time - 0.72519183158875 sec
+2015-08-17 10:30:17 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:17 -  - TIME UnGzipArchive 0.009 sec
+2015-08-17 10:30:17 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796617/seo/updater15.5.1.php'
+2015-08-17 10:30:17 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796617/seo/updater15.5.1.php': CopyFiles(install/tools, tools)
+2015-08-17 10:30:17 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1439796617/seo/updater15.5.1.php': Query(UPDATE b_seo_search_engine SET CLIENT_ID='',CLIENT_SECRET='',SETTINGS='' WHERE CODE='yandex_direct', )
+2015-08-17 10:30:17 -  - TIME UpdateStepModules 0.059 sec
+2015-08-17 10:30:17 - UPD_SUCCESS - Updated: seo (15.5.1)<br><li>Изменения в механизме работы Яндекс.Директ. 
+2015-08-17 10:30:17 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:17 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:17 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.0.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.0.3&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.1&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:17 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:18 -  - TIME LoadModulesUpdates(request) 0.481 sec
+2015-08-17 10:30:18 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:18 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:19 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:19 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:19 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:20 - DOWNLOAD - Time - 0.56249284744263 sec
+2015-08-17 10:30:20 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:20 -  - TIME UnGzipArchive 0.002 sec
+2015-08-17 10:30:20 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796620/seo/updater15.5.2.php'
+2015-08-17 10:30:20 -  - TIME UpdateStepModules 0.066 sec
+2015-08-17 10:30:20 - UPD_SUCCESS - Updated: seo (15.5.2)<br><li>Изменения для работы функционала \"Конверсия\".
+2015-08-17 10:30:20 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:20 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:20 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.0.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.0.3&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.2&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:20 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:21 -  - TIME LoadModulesUpdates(request) 0.313 sec
+2015-08-17 10:30:21 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:21 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:22 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:22 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:22 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:22 - DOWNLOAD - Time - 0.62400484085083 sec
+2015-08-17 10:30:22 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:22 -  - TIME UnGzipArchive 0.009 sec
+2015-08-17 10:30:22 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796622/seo/updater15.5.3.php'
+2015-08-17 10:30:22 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796622/seo/updater15.5.3.php': CopyFiles(install/admin, admin)
+2015-08-17 10:30:26 -  - TIME UpdateStepModules 3.308 sec
+2015-08-17 10:30:26 - UPD_SUCCESS - Updated: seo (15.5.3)<br><li>Автоконтекст: возможность автоматизированного включения и отключения рекламных объявлений Яндекс.Директ.
+2015-08-17 10:30:26 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:26 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:26 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.0.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.0.3&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.3&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:26 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:27 -  - TIME LoadModulesUpdates(request) 0.212 sec
+2015-08-17 10:30:27 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:27 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:28 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:28 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:28 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:29 - DOWNLOAD - Time - 0.64520597457886 sec
+2015-08-17 10:30:29 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:29 -  - TIME UnGzipArchive 0.001 sec
+2015-08-17 10:30:29 -  - TIME UpdateStepModules 0.01 sec
+2015-08-17 10:30:29 - UPD_SUCCESS - Updated: seo (15.5.4)<br><li>Исправлена ошибка при отключенном модуле cоциальных cервисов.
+2015-08-17 10:30:29 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:29 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:29 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.0.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.0.3&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:29 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:30 -  - TIME LoadModulesUpdates(request) 0.352 sec
+2015-08-17 10:30:30 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:30 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:31 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:31 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:31 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:31 - DOWNLOAD - Time - 0.47689199447632 sec
+2015-08-17 10:30:31 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:31 -  - TIME UnGzipArchive 0.004 sec
+2015-08-17 10:30:31 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796631/wiki/updater15.5.0.php'
+2015-08-17 10:30:31 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796631/wiki/updater15.5.0.php': CopyFiles(install/components, components)
+2015-08-17 10:30:31 -  - TIME UpdateStepModules 0.095 sec
+2015-08-17 10:30:31 - UPD_SUCCESS - Updated: wiki (15.5.0)<br><li>Исправлена ошибка некорректной индексации комментариев к статьям вики. <li>Исправление других незначительных ошибок. 
+2015-08-17 10:30:32 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:32 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:32 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.0.3&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:32 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:32 -  - TIME LoadModulesUpdates(request) 0.217 sec
+2015-08-17 10:30:32 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:32 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:33 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:33 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:33 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:34 - DOWNLOAD - Time - 0.66791701316833 sec
+2015-08-17 10:30:34 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:34 -  - TIME UnGzipArchive 0.018 sec
+2015-08-17 10:30:34 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796634/calendar/updater15.5.0.php'
+2015-08-17 10:30:34 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796634/calendar/updater15.5.0.php': CopyFiles(install/activities, activities)
+2015-08-17 10:30:34 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796634/calendar/updater15.5.0.php': CopyFiles(install/components, components)
+2015-08-17 10:30:34 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796634/calendar/updater15.5.0.php': CopyFiles(install/js, js)
+2015-08-17 10:30:34 -  - TIME UpdateStepModules 0.025 sec
+2015-08-17 10:30:34 - UPD_SUCCESS - Updated: calendar (15.5.0)<br><li>Исправления ошибок.
+2015-08-17 10:30:35 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:35 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:35 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.3&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:35 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:35 -  - TIME LoadModulesUpdates(request) 0.245 sec
+2015-08-17 10:30:35 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:36 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:36 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:36 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:36 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:37 - DOWNLOAD - Time - 0.54029297828674 sec
+2015-08-17 10:30:37 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:37 -  - TIME UnGzipArchive 0.002 sec
+2015-08-17 10:30:37 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796637/highloadblock/updater15.0.4/index.php'
+2015-08-17 10:30:37 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796637/highloadblock/updater15.0.4/index.php': CopyFiles(install/components, components)
+2015-08-17 10:30:37 -  - TIME UpdateStepModules 0.011 sec
+2015-08-17 10:30:37 - UPD_SUCCESS - Updated: highloadblock (15.0.4)<br><li>Исправлены ошибки пользовательского свойства инфоблока \"Справочник\".
+2015-08-17 10:30:38 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:38 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:38 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:38 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:38 -  - TIME LoadModulesUpdates(request) 0.189 sec
+2015-08-17 10:30:38 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:38 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:39 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:39 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:39 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:39 - DOWNLOAD - Time - 0.58139801025391 sec
+2015-08-17 10:30:39 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:39 -  - TIME UnGzipArchive 0.012 sec
+2015-08-17 10:30:39 -  - TIME UpdateStepModules 0.01 sec
+2015-08-17 10:30:40 - UPD_SUCCESS - Updated: abtest ()
+2015-08-17 10:30:40 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:40 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:40 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_abtest=15.5.0&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:40 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:40 -  - TIME LoadModulesUpdates(request) 0.209 sec
+2015-08-17 10:30:40 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:41 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:41 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:41 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:41 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:42 - DOWNLOAD - Time - 0.55807399749756 sec
+2015-08-17 10:30:42 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:42 -  - TIME UnGzipArchive 0.009 sec
+2015-08-17 10:30:42 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796642/abtest/updater15.5.1.php'
+2015-08-17 10:30:42 -  - TIME UpdateStepModules 0.022 sec
+2015-08-17 10:30:42 - UPD_SUCCESS - Updated: abtest (15.5.1)<br><li>Модуль для A/B-тестирования.
+2015-08-17 10:30:43 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:43 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:43 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_abtest=15.5.1&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:43 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:43 -  - TIME LoadModulesUpdates(request) 0.253 sec
+2015-08-17 10:30:43 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:43 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:44 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:44 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:44 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:45 - DOWNLOAD - Time - 0.76019501686096 sec
+2015-08-17 10:30:45 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:45 -  - TIME UnGzipArchive 0.009 sec
+2015-08-17 10:30:45 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796645/abtest/updater15.5.2.php'
+2015-08-17 10:30:45 -  - TIME UpdateStepModules 0.024 sec
+2015-08-17 10:30:45 - UPD_SUCCESS - Updated: abtest (15.5.2)<br><li>Исправления и улучшения.
+2015-08-17 10:30:45 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:45 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:45 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_abtest=15.5.2&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:45 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:46 -  - TIME LoadModulesUpdates(request) 0.348 sec
+2015-08-17 10:30:46 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:46 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:48 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:48 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:48 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:49 - DOWNLOAD - Time - 0.52783894538879 sec
+2015-08-17 10:30:49 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:49 -  - TIME UnGzipArchive 0.001 sec
+2015-08-17 10:30:49 -  - TIME UpdateStepModules 0.004 sec
+2015-08-17 10:30:49 - UPD_SUCCESS - Updated: abtest (15.5.3)<br><li>Убран срез по А/Б тестам из пульса конверсии. 
+2015-08-17 10:30:49 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:49 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:49 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_abtest=15.5.3&bitm_idea=15.0.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:49 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:50 -  - TIME LoadModulesUpdates(request) 0.369 sec
+2015-08-17 10:30:50 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:50 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:51 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:51 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:51 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:51 - DOWNLOAD - Time - 0.7564001083374 sec
+2015-08-17 10:30:51 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:51 -  - TIME UnGzipArchive 0.013 sec
+2015-08-17 10:30:51 -  - TIME UpdateStepModules 0.012 sec
+2015-08-17 10:30:51 - UPD_SUCCESS - Updated: conversion ()
+2015-08-17 10:30:52 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:52 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:52 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_abtest=15.5.3&bitm_idea=15.0.1&bitm_conversion=15.5.0&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:52 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:53 -  - TIME LoadModulesUpdates(request) 0.272 sec
+2015-08-17 10:30:53 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:53 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:54 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:54 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:54 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:54 - DOWNLOAD - Time - 0.65222597122192 sec
+2015-08-17 10:30:54 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:54 -  - TIME UnGzipArchive 0.014 sec
+2015-08-17 10:30:54 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796654/conversion/updater15.5.1/index.php'
+2015-08-17 10:30:54 -  - TIME UpdateStepModules 0.024 sec
+2015-08-17 10:30:54 - UPD_SUCCESS - Updated: conversion (15.5.1)<br><li>Модуль конверсии.
+2015-08-17 10:30:55 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:55 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:55 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_abtest=15.5.3&bitm_idea=15.0.1&bitm_conversion=15.5.1&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:55 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:56 -  - TIME LoadModulesUpdates(request) 0.47 sec
+2015-08-17 10:30:56 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:56 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:30:57 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:57 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:57 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:58 - DOWNLOAD - Time - 0.89721488952637 sec
+2015-08-17 10:30:58 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:30:58 -  - TIME UnGzipArchive 0.013 sec
+2015-08-17 10:30:58 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796658/conversion/updater15.5.2.php'
+2015-08-17 10:30:58 -  - TIME UpdateStepModules 0.01 sec
+2015-08-17 10:30:58 - UPD_SUCCESS - Updated: conversion (15.5.2)<br><li>Обновлен АПИ отчетов. <li>Добавлена настройка валюты модуля. <li>Исправление ошибок. 
+2015-08-17 10:30:59 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:30:59 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:30:59 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_abtest=15.5.3&bitm_idea=15.0.1&bitm_conversion=15.5.2&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:30:59 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:30:59 -  - TIME LoadModulesUpdates(request) 0.296 sec
+2015-08-17 10:30:59 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:30:59 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:31:00 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:31:00 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:31:00 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:31:01 - DOWNLOAD - Time - 0.77627515792847 sec
+2015-08-17 10:31:01 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:31:01 -  - TIME UnGzipArchive 0.006 sec
+2015-08-17 10:31:01 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796661/conversion/updater15.5.3.php'
+2015-08-17 10:31:01 -  - TIME UpdateStepModules 0.018 sec
+2015-08-17 10:31:01 - UPD_SUCCESS - Updated: conversion (15.5.3)<br><li>Поддержка добавления кастомных атрибутов в отчет на сводной странице. <li>Поддержка добавления кастомных срезов по атрибутам на сводной странице. <li>Исправление ошибок. 
+2015-08-17 10:31:02 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:31:02 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:31:02 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_abtest=15.5.3&bitm_idea=15.0.1&bitm_conversion=15.5.3&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:31:02 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:31:02 -  - TIME LoadModulesUpdates(request) 0.447 sec
+2015-08-17 10:31:02 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:31:02 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:31:03 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:31:03 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:31:03 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:31:04 - DOWNLOAD - Time - 0.64305710792542 sec
+2015-08-17 10:31:04 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:31:04 -  - TIME UnGzipArchive 0.003 sec
+2015-08-17 10:31:04 -  - TIME UpdateStepModules 0.009 sec
+2015-08-17 10:31:04 - UPD_SUCCESS - Updated: conversion (15.5.4)<br><li>Улучшена работа в композитном режиме. <li>Исправление ошибок. 
+2015-08-17 10:31:05 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:31:05 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:31:05 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.1&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.5&bitm_webservice=11.5.0&bitm_abtest=15.5.3&bitm_idea=15.0.1&bitm_conversion=15.5.4&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:31:05 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:31:05 -  - TIME LoadModulesUpdates(request) 0.375 sec
+2015-08-17 10:31:05 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:31:05 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:31:06 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:31:06 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:31:06 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:31:08 - DOWNLOAD - Time - 1.6643619537354 sec
+2015-08-17 10:31:08 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:31:08 -  - TIME UnGzipArchive 0.052 sec
+2015-08-17 10:31:08 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796668/pull/updater15.5.2.php'
+2015-08-17 10:31:08 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796668/pull/updater15.5.2.php': CopyFiles(install/components, components)
+2015-08-17 10:31:08 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796668/im/updater15.5.6.php'
+2015-08-17 10:31:08 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796668/im/updater15.5.6.php': CopyFiles(install/components, components)
+2015-08-17 10:31:08 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1439796668/im/updater15.5.6.php': CopyFiles(install/js, js)
+2015-08-17 10:31:08 -  - TIME UpdateStepModules 0.057 sec
+2015-08-17 10:31:08 - UPD_SUCCESS - Updated: im (15.5.6)<br><li>Добавлена возможность упоминать пользователей в чатах. <li>Исправлена ошибка, при которой уведомление при входящем звонке не закрывалось, если подключен телефонный аппарат. <li>Добавлен статус \"Пользователь пользуется мобильным приложением\". <li>Добавлена поддержка локальных уведомлений о сообщениях в чатах для мобильного приложения. <li>Добавлены push-уведомления о новых сообщениях в групповом чате для мобильного приложения. <li>Добавлена возможность отключить push-уведомления о новых сообщениях в групповом чате. 
+2015-08-17 10:31:08 - UPD_SUCCESS - Updated: pull (15.5.2)<br><li>Незначительные исправления и улучшения.
+2015-08-17 10:31:09 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:31:09 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:31:09 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.2&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.6&bitm_webservice=11.5.0&bitm_abtest=15.5.3&bitm_idea=15.0.1&bitm_conversion=15.5.4&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:31:09 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:31:09 -  - TIME LoadModulesUpdates(request) 0.255 sec
+2015-08-17 10:31:09 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:31:10 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:31:11 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:31:11 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:31:11 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:31:11 - DOWNLOAD - Time - 0.57462000846863 sec
+2015-08-17 10:31:11 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:31:11 -  - TIME UnGzipArchive 0.001 sec
+2015-08-17 10:31:11 - CSURUS1 - Run updater '/bitrix/updates/update_m1439796671/im/updater15.5.7.php'
+2015-08-17 10:31:12 -  - TIME UpdateStepModules 1.316 sec
+2015-08-17 10:31:12 - UPD_SUCCESS - Updated: im (15.5.7)<br><li>Незначительные исправления и улучшения.
+2015-08-17 10:31:13 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:31:13 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:31:13 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.2&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.7&bitm_webservice=11.5.0&bitm_abtest=15.5.3&bitm_idea=15.0.1&bitm_conversion=15.5.4&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:31:13 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:31:14 -  - TIME LoadModulesUpdates(request) 0.451 sec
+2015-08-17 10:31:14 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:31:14 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:31:15 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:31:15 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:31:15 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:31:16 - DOWNLOAD - Time - 0.62365293502808 sec
+2015-08-17 10:31:16 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:31:16 -  - TIME UnGzipArchive 0.001 sec
+2015-08-17 10:31:16 -  - TIME UpdateStepModules 0.002 sec
+2015-08-17 10:31:16 - UPD_SUCCESS - Updated: pull (15.5.3)<br><li>Незначительные исправления и улучшения.
+2015-08-17 10:31:17 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:31:17 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:31:17 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.3&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.7&bitm_webservice=11.5.0&bitm_abtest=15.5.3&bitm_idea=15.0.1&bitm_conversion=15.5.4&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:31:17 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:31:17 -  - TIME LoadModulesUpdates(request) 0.418 sec
+2015-08-17 10:31:17 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:31:17 - LMU01 - LoadModulesUpdates-Step
+2015-08-17 10:31:18 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:31:18 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:31:18 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:31:19 - DOWNLOAD - Time - 0.43172001838684 sec
+2015-08-17 10:31:19 -  - exec CUpdateClient::UnGzipArchive
+2015-08-17 10:31:19 -  - TIME UnGzipArchive 0.001 sec
+2015-08-17 10:31:19 -  - TIME UpdateStepModules 0.002 sec
+2015-08-17 10:31:19 - UPD_SUCCESS - Updated: pull (15.5.4)<br><li>Незначительные исправления и улучшения.
+2015-08-17 10:31:21 -  - exec CUpdateClient::LoadModulesUpdates
+2015-08-17 10:31:21 -  - exec CUpdateClient::CollectRequestData
+2015-08-17 10:31:21 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=15.5.1&VERSION=15.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=sezlipetsk.ru&CHHB=sezlipetsk.ru&CSAB=193.111.141.198&CANGZIP=Y&CLIENT_PHPVER=5.5.9-1ubuntu4.11&stable=Y&rerere=Y&bitm_main=15.5.1&bitm_perfmon=15.5.0&bitm_support=14.5.1&bitm_learning=15.5.0&bitm_translate=14.0.0&bitm_pull=15.5.4&bitm_wiki=15.5.0&bitm_socialnetwork=15.5.1&bitm_highloadblock=15.0.4&bitm_fileman=15.5.1&bitm_im=15.5.7&bitm_webservice=11.5.0&bitm_abtest=15.5.3&bitm_idea=15.0.1&bitm_conversion=15.5.4&bitm_vote=15.5.0&bitm_form=15.0.1&bitm_calendar=15.5.0&bitm_bitrixcloud=15.5.0&bitm_mobileapp=15.0.5&bitm_currency=15.5.0&bitm_blog=15.5.0&bitm_mail=15.0.4&bitm_iblock=15.5.4&bitm_seo=15.5.4&bitm_clouds=15.5.0&bitm_forum=15.5.0&bitm_bizproc=15.5.0&bitm_photogallery=15.0.0&bitm_scale=14.5.2&bitm_advertising=15.5.1&bitm_search=15.5.0&bitm_subscribe=15.0.2&bitm_socialservices=15.5.1&bitm_statistic=15.0.1&bitm_compression=14.0.0&bitm_security=15.5.2&bitm_sender=15.5.2&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2015-08-17 10:31:21 -  - exec CUpdateClient::GetHTTPPage
+2015-08-17 10:31:21 -  - TIME LoadModulesUpdates(request) 0.306 sec
+2015-08-17 10:31:21 -  - exec CUpdateClient::ParseServerData
+2015-08-17 10:31:21 - STEP - Finish - NOUPDATES
+2015-08-17 10:31:21 - STEP - Finish - NOUPDATES
