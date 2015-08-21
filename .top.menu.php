@@ -2,21 +2,21 @@
 $aMenuLinks = Array(
 	Array(
 		"О проекте", 
-		"blogs/", 
+		"about/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Инвестору", 
-		"job/", 
+		"investor/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Потребителям", 
-		"photo/", 
+		"consumer/", 
 		Array(), 
 		Array(), 
 		"" 
