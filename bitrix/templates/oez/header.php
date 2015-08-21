@@ -161,24 +161,20 @@ IncludeTemplateLangFile(__FILE__);
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 block_news">
-			<div class="news_name">
-				Новости
-				<a class="all">
-					Все новости
-					<span class="glyphicon glyphicon-menu-right"></span>
-				</a>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-sm-6 col-xs-12 news_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/news.jpg"></div>
-				<div class="col-md-12 col-sm-6 col-xs-12 news_text">
-					<div class="news_date">26 февраля 2015</div>
-					<div class="text_news">
-						Руководство компании «Кемин Индастриз» рассматривает возможность размещения предприятия...
-					</div>
-				</div>
-			</div>
-		</div>
+		<!--Последняя новость на главной-->
+		<?$APPLICATION->IncludeComponent(
+				"custom:news.list",
+				"main_news",
+				Array(
+					"DISPLAY_DATE" => "Y",
+					"DISPLAY_PICTURE" => "Y",
+					"DISPLAY_PREVIEW_TEXT" => "Y",
+					"IBLOCK_TYPE" => "news",
+					"IBLOCK_ID" => "infoportal_news_s1",
+					"NEWS_COUNT" => "1"
+				)
+		);?>
+		<!--Последняя новость на главной-->
 		<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 row block_stats">
 			<div class="col-xs-12 news_name">Целевые показатели роста</div>
 			<div class="col-xs-12 pokazateli"><div class="col-sm-6 col-xs-12 col-md-12 stat_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/stat.jpg"></div>

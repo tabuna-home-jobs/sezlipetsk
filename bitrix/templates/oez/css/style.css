@@ -2930,3 +2930,7 @@ background-color:transparent!important;
   font-family: FNormal;
   text-decoration: none;
 }
+.news_img img{
+  width: 270px;
+  height: 181px;
+}
