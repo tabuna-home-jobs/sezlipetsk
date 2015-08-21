@@ -64,7 +64,7 @@ IncludeTemplateLangFile(__FILE__);
 		</div>
 	</div>
 </header>
-<!--Слайдер-->
+<!--Верхний слайдер-->
 	<?$APPLICATION->IncludeComponent(
 		"custom:news.list",
 		"",
@@ -72,10 +72,8 @@ IncludeTemplateLangFile(__FILE__);
 			"IBLOCK_ID" => "MAIN_SLIDER"
 		)
 	);?>
-<!--Слайдер-->
+<!--Верхний слайдер-->
 <div class="main container">
-
-
 	<section class="main_blocks row">
 		<div class="col-lg-6 col-md-8 col-xs-12 blocks_left">
 			<div class="row">
@@ -90,9 +88,9 @@ IncludeTemplateLangFile(__FILE__);
 									<div class="item_dop">по ОЭЗ ППТ «Липецк»</div>
 								</div>
 								<div class="block_icon">
-                            <span class="item_block_img">
-                                      <img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/compas.png"/>
-                                      <img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/compas_2.png"/>
+                                <span class="item_block_img">
+                                  <img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/compas.png"/>
+                                  <img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/compas_2.png"/>
                                 </span>
 								</div>
 							</a>
@@ -105,12 +103,11 @@ IncludeTemplateLangFile(__FILE__);
 								</div>
 								<div class="item_bod">
 									<div class="item_name">Резиденты ОЭЗ</div>
-
 								</div>
 								<div class="block_icon">
-                            <span class="item_block_img">
-                                      <img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/people.png"/>
-                                      <img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/people_2.png"/>
+                                <span class="item_block_img">
+                                  <img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/people.png"/>
+                                  <img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/people_2.png"/>
                                 </span>
 								</div></a>
 						</div>
@@ -128,7 +125,8 @@ IncludeTemplateLangFile(__FILE__);
 								</div>
 								<div class="block_icon_arrow">
 									<span class="glyphicon glyphicon-menu-right"></span>
-								</div></a>
+								</div>
+							</a>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
@@ -164,14 +162,19 @@ IncludeTemplateLangFile(__FILE__);
 			</div>
 		</div>
 		<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 block_news">
-			<div class="news_name">Новости<a class="all">Все новости <span
-						class="glyphicon glyphicon-menu-right"></span></a></div>
+			<div class="news_name">
+				Новости
+				<a class="all">
+					Все новости
+					<span class="glyphicon glyphicon-menu-right"></span>
+				</a>
+			</div>
 			<div class="row">
 				<div class="col-md-12 col-sm-6 col-xs-12 news_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/news.jpg"></div>
 				<div class="col-md-12 col-sm-6 col-xs-12 news_text">
 					<div class="news_date">26 февраля 2015</div>
-					<div class="text_news">Руководство компании «Кемин Индастриз» рассматривает возможность размещения
-					                       предприятия...
+					<div class="text_news">
+						Руководство компании «Кемин Индастриз» рассматривает возможность размещения предприятия...
 					</div>
 				</div>
 			</div>
@@ -188,30 +191,14 @@ IncludeTemplateLangFile(__FILE__);
 		</div>
 	</section>
 
-	<section class="partners">
-		<div class="partners_name">
-			<div>
-				<h2>Нам доверяют мировые лидеры</h2>
-				<a class="all">Все резиденты <span
-						class="glyphicon glyphicon-menu-right"></span></a>
-			</div>
-		</div>
-
-
-		<div class="slider_partners">
-			<div><div class="partners_p"></div><a><img src="<?=SITE_TEMPLATE_PATH?>/img/1.jpg"></a></div>
-			<div><a><img src="<?=SITE_TEMPLATE_PATH?>/img/2.jpg"></a></div>
-			<div><a><img src="<?=SITE_TEMPLATE_PATH?>/img/3.jpg"></a></div>
-			<div><a><img src="<?=SITE_TEMPLATE_PATH?>/img/4.jpg"></a></div>
-			<div><a><img src="<?=SITE_TEMPLATE_PATH?>/img/2.jpg"></a></div>
-			<div><a><img src="<?=SITE_TEMPLATE_PATH?>/img/1.jpg"></a></div>
-			<div><a><img src="<?=SITE_TEMPLATE_PATH?>/img/1.jpg"></a></div>
-			<div><a><img src="<?=SITE_TEMPLATE_PATH?>/img/2.jpg"></a></div>
-			<div><a><img src="<?=SITE_TEMPLATE_PATH?>/img/3.jpg"></a></div>
-			<div><a><img src="<?=SITE_TEMPLATE_PATH?>/img/4.jpg"></a></div>
-			<div><a><img src="<?=SITE_TEMPLATE_PATH?>/img/2.jpg"></a></div>
-			<div><a><img src="<?=SITE_TEMPLATE_PATH?>/img/1.jpg"></a></div>
-		</div>
-	</section>
+	<!--Нижняя карусел партнеров-->
+		<?$APPLICATION->IncludeComponent(
+			"custom:news.list",
+			"partners",
+			Array(
+				"IBLOCK_ID" => "BOTTOM_CARUSEL"
+			)
+		);?>
+	<!--Нижняя карусел партнеров-->
 
 </div>
