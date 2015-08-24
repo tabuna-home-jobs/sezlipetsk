@@ -76,68 +76,17 @@ $APPLICATION->SetTitle("Личный кабинет");
 				</div>
 				<div id="main_content_tabs" class="tab-content">
 					<div role="tabpanel" class="tab-pane fade active in" id="login_panel">
-						<div class="remember_form_main">
-							<div class="remember_form_cell">
-								<div class="remember_form">
-									<div class="close_r_f_container"><a class="close_r_f"></a></div>
-									<div class="row">
-										<div class="col-xs-12">
-											<div class="r_f_heder">Напомнить пароль</div>
-										</div>
-									</div>
-									<div row>
-										<div class="col-xs-12 col-sm-12 col-md-3 r_f_left">E-mail</div>
-										<div class="col-xs-12 col-sm-12 col-md-6 r_l_right">
-											<form>
-												<input type="email">
-												<button>ОТПРАВИТЬ</button>
-											</form>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<form>
-							<div class="inputs_container">
-								<div class="row">
-									<div class="col-xs-6 labels_left">
-										Логин
-									</div>
-									<div class="col-xs-6 inputs_right">
-										<input type="text" name="login">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-6 labels_left">
-										Пароль
-									</div>
-									<div class="col-xs-6 inputs_right">
-										<input type="text" name="login">
-
-										<div class="remember_a"><a id="remember_pass">Забыли пароль ?</a>
-
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-6 labels_left">
-										Введите символы
-										с картинки
-									</div>
-									<div class="col-xs-6 inputs_right">
-										<input type="text" name="login">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-6 labels_left">
-
-									</div>
-									<div class="col-xs-6 inputs_right">
-										<button>ОТПРАВИТЬ</button>
-									</div>
-								</div>
-							</div>
-						</form>
+						<!--Авторизация-->
+						<?$APPLICATION->IncludeComponent(
+							"custom:system.auth.form",
+							"",
+							Array(
+								"REGISTER_URL" => "register.php",
+								"PROFILE_URL" => "profile.php",
+								"SHOW_ERRORS" => "Y"
+							)
+						);?>
+						<!--Авторизация-->
 					</div>
 					<div role="tabpanel" class="tab-pane fade" id="registration_panel">
 						<form>
