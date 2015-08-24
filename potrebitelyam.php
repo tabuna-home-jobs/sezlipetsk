@@ -9,8 +9,20 @@ $APPLICATION->SetTitle("Потребителям");
 		<div class="container">
 			<div class="row top_block">
 				<div class="left_part col-xs-12 col-sm-12 col-md-7">
-					<div class="breadcr"><a>Главная</a> / Потребителям</div>
-					<h1>Потребителям </h1>
+					<!--Хеебный крош-->
+					<?$APPLICATION->IncludeComponent(
+						"custom:breadcrumb",
+						"",
+						Array(
+							"COMPONENT_TEMPLATE" => "oez",
+							"START_FROM" => "0",
+							"PATH" => "",
+							"SITE_ID" => "s1"
+						)
+					);
+					?>
+					<!--Хлебные крошки-->
+					<h1><?=$APPLICATION->GetTitle();?></h1>
 
 					<div class="scrollbar-outer resize_scroll">
 						<div class="lin">
