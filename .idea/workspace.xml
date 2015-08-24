@@ -2,7 +2,590 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/document.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/images/announcement.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/images/bx-video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/iblock.vote/ajax/images/empty.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/iblock.vote/ajax/images/empty.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/iblock.vote/ajax/images/empty.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/iblock.vote/ajax/images/empty.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/gif-dark/feed-icon-10x10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/gif-light/feed-icon-10x10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/gif-dark/feed-icon-10x10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/gif-light/feed-icon-10x10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/gif-dark/feed-icon-10x10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/gif-light/feed-icon-10x10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/gif-dark/feed-icon-10x10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/gif-light/feed-icon-10x10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/gif-dark/feed-icon-10x10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/gif-light/feed-icon-10x10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/gif-dark/feed-icon-10x10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/gif-light/feed-icon-10x10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/jpg-black/feed-icon-10x10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/jpg-white/feed-icon-10x10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/jpg-black/feed-icon-10x10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/jpg-white/feed-icon-10x10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/jpg-black/feed-icon-10x10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/jpg-white/feed-icon-10x10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/jpg-black/feed-icon-10x10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/jpg-white/feed-icon-10x10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/jpg-black/feed-icon-10x10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/jpg-white/feed-icon-10x10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/jpg-black/feed-icon-10x10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/jpg-white/feed-icon-10x10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/png/feed-icon-10x10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/png/feed-icon-10x10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/png/feed-icon-10x10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/png/feed-icon-10x10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/png/feed-icon-10x10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/png/feed-icon-10x10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/gif-dark/feed-icon-12x12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/gif-light/feed-icon-12x12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/gif-dark/feed-icon-12x12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/gif-light/feed-icon-12x12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/gif-dark/feed-icon-12x12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/gif-light/feed-icon-12x12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/gif-dark/feed-icon-12x12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/gif-light/feed-icon-12x12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/gif-dark/feed-icon-12x12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/gif-light/feed-icon-12x12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/gif-dark/feed-icon-12x12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/gif-light/feed-icon-12x12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/jpg-black/feed-icon-12x12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/jpg-white/feed-icon-12x12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/jpg-black/feed-icon-12x12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/jpg-white/feed-icon-12x12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/jpg-black/feed-icon-12x12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/jpg-white/feed-icon-12x12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/jpg-black/feed-icon-12x12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/jpg-white/feed-icon-12x12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/jpg-black/feed-icon-12x12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/jpg-white/feed-icon-12x12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/jpg-black/feed-icon-12x12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/jpg-white/feed-icon-12x12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/png/feed-icon-12x12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/png/feed-icon-12x12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/png/feed-icon-12x12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/png/feed-icon-12x12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/png/feed-icon-12x12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/png/feed-icon-12x12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/png/feed-icon-14x14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/png/feed-icon-14x14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/png/feed-icon-14x14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/png/feed-icon-14x14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/png/feed-icon-14x14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/png/feed-icon-14x14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/gif-dark/feed-icon-16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/gif-light/feed-icon-16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/gif-dark/feed-icon-16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/gif-light/feed-icon-16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/gif-dark/feed-icon-16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/gif-light/feed-icon-16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/gif-dark/feed-icon-16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/gif-light/feed-icon-16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/gif-dark/feed-icon-16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/gif-light/feed-icon-16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/gif-dark/feed-icon-16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/gif-light/feed-icon-16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/jpg-black/feed-icon-16x16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/jpg-white/feed-icon-16x16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/jpg-black/feed-icon-16x16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/jpg-white/feed-icon-16x16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/jpg-black/feed-icon-16x16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/jpg-white/feed-icon-16x16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/jpg-black/feed-icon-16x16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/jpg-white/feed-icon-16x16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/jpg-black/feed-icon-16x16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/jpg-white/feed-icon-16x16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/jpg-black/feed-icon-16x16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/jpg-white/feed-icon-16x16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/png/feed-icon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/png/feed-icon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/png/feed-icon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/png/feed-icon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/png/feed-icon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/png/feed-icon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/gif-dark/feed-icon-24x24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/gif-light/feed-icon-24x24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/gif-dark/feed-icon-24x24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/gif-light/feed-icon-24x24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/gif-dark/feed-icon-24x24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/gif-light/feed-icon-24x24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/gif-dark/feed-icon-24x24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/gif-light/feed-icon-24x24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/gif-dark/feed-icon-24x24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/gif-light/feed-icon-24x24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/gif-dark/feed-icon-24x24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/gif-light/feed-icon-24x24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/jpg-black/feed-icon-24x24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/jpg-white/feed-icon-24x24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/jpg-black/feed-icon-24x24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/jpg-white/feed-icon-24x24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/jpg-black/feed-icon-24x24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/jpg-white/feed-icon-24x24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/jpg-black/feed-icon-24x24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/jpg-white/feed-icon-24x24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/jpg-black/feed-icon-24x24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/jpg-white/feed-icon-24x24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/jpg-black/feed-icon-24x24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/jpg-white/feed-icon-24x24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/png/feed-icon-24x24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/png/feed-icon-24x24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/png/feed-icon-24x24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/png/feed-icon-24x24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/png/feed-icon-24x24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/png/feed-icon-24x24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/gif-dark/feed-icon-32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/gif-light/feed-icon-32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/gif-dark/feed-icon-32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/gif-light/feed-icon-32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/gif-dark/feed-icon-32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/gif-light/feed-icon-32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/gif-dark/feed-icon-32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/gif-light/feed-icon-32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/gif-dark/feed-icon-32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/gif-light/feed-icon-32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/gif-dark/feed-icon-32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/gif-light/feed-icon-32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/jpg-black/feed-icon-32x32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/jpg-white/feed-icon-32x32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/jpg-black/feed-icon-32x32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/jpg-white/feed-icon-32x32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/jpg-black/feed-icon-32x32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/jpg-white/feed-icon-32x32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/jpg-black/feed-icon-32x32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/jpg-white/feed-icon-32x32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/jpg-black/feed-icon-32x32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/jpg-white/feed-icon-32x32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/jpg-black/feed-icon-32x32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/jpg-white/feed-icon-32x32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/images/png/feed-icon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/images/png/feed-icon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/images/png/feed-icon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/images/png/feed-icon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/images/png/feed-icon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/images/png/feed-icon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/images/general.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/images/news.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/images/news_list.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/images/notice.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/images/order.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/iblock.vote/ajax/images/over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/iblock.vote/ajax/images/over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/iblock.vote/ajax/images/over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/iblock.vote/ajax/images/over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/images/portal.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/images/pr.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/iblock.vote/ajax/images/voted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/iblock.vote/ajax/images/voted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/iblock.vote/ajax/images/voted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/iblock.vote/ajax/images/voted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/.description.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/lang/en/.description.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/lang/ru/.description.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.detail/.default/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.detail/.default/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.detail/.default/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.detail/.default/lang/ua/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/ua/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/news.detail/.default/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/news.detail/.default/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/news.detail/.default/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/news.detail/.default/lang/ua/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/ua/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.detail/.default/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.detail/.default/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.detail/.default/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.detail/.default/lang/ua/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/ua/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/.default/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/.default/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/.default/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/main_news/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/main_news/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/main_news/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/partners/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/partners/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/partners/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/table/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/table/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/table/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.detail/.default/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.detail/.default/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.detail/.default/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.detail/.default/lang/ua/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/ua/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.detail/.default/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.detail/.default/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.detail/.default/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.detail/.default/lang/ua/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/ua/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/lang/ua/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/ua/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/lang/en/help/.tooltips.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/lang/ru/help/.tooltips.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/search.page/.default/chain_template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/search.page/.default/chain_template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/search.page/.default/chain_template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/search.page/.default/chain_template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/component.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/lang/en/component.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/lang/ru/component.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/news.detail/.default/component_epilog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.detail/.default/component_epilog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/en/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/ru/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/ua/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/en/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/ru/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/ua/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/en/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/ru/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/ua/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/en/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/ru/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/ua/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/en/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/ru/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/ua/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/en/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/ru/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/ua/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/en/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/ru/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/ua/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/en/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/ru/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/ua/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/en/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/ru/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/ua/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/en/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/ru/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/ua/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/en/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/ru/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/ua/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/en/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/ru/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/ua/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/potrebitelyam.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/iblock.vote/ajax/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.detail/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.list/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/news.list/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/iblock.vote/ajax/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.detail/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.list/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/iblock.vote/ajax/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.detail/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.list/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.list/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/iblock.vote/ajax/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.list/.default/result_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/rss.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/rss.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/rss.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/rss.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/rss.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/rss.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/rss_section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/rss_section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/rss_section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/rss_section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/rss_section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/rss_section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/script.map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/script.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/en/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/ru/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/ua/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/en/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/ru/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/ua/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/en/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/ru/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/ua/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/en/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/ru/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/ua/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/en/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/ru/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/ua/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/en/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/ru/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/ua/search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/en/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/ru/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/lang/ua/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/en/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/ru/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/lang/ua/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/en/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/ru/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/lang/ua/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/en/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/ru/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/lang/ua/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/en/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/ru/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/lang/ua/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/en/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/ru/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/lang/ua/section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/iblock.vote/ajax/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/iblock.vote/ajax/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/.default/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/themes/black/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/themes/blue/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/themes/green/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/themes/red/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/themes/wood/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/themes/yellow/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/main_news/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/partners/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/table/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/iblock.vote/ajax/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/iblock.vote/ajax/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/themes/black/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/themes/blue/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/themes/green/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/themes/red/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/themes/wood/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/themes/yellow/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/catalog.filter/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/catalog.filter/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/catalog.filter/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/catalog.filter/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/iblock.vote/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/iblock.vote/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/iblock.vote/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/iblock.vote/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/iblock.vote/ajax/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/iblock.vote/ajax/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/iblock.vote/ajax/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/iblock.vote/ajax/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.detail/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.detail/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.detail/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.index/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.list/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.list/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.list/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.list/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.list/list/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/news.list/photo/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/rss.out/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/rss.out/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/rss.out/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/search.form/flat/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/search.form/flat/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/search.form/flat/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/search.form/flat/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/search.page/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/search.page/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/search.page/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/national_news/bitrix/search.page/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/news.detail/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/news.detail/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/news.detail/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/news.index/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/news.list/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/rss.out/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/rss.out/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/news_themes/bitrix/rss.out/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/catalog.filter/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/catalog.filter/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/catalog.filter/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/catalog.filter/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/iblock.vote/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/iblock.vote/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/iblock.vote/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/iblock.vote/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/iblock.vote/ajax/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/iblock.vote/ajax/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/iblock.vote/ajax/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/iblock.vote/ajax/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.detail/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.detail/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.detail/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.detail/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.index/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.list/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.list/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.list/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.list/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.list/list/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/news.list/photo/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/rss.out/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/rss.out/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/rss.out/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/search.form/flat/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/search.form/flat/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/search.form/flat/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/search.form/flat/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/search.page/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/search.page/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/search.page/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/news/template/bitrix/search.page/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/flat/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/main_news/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/main_news/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/main_news/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/official/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/partners/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/partners/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/partners/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/table/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/table/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news.list/templates/table/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/catalog.filter/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/catalog.filter/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/catalog.filter/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/catalog.filter/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/iblock.vote/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/iblock.vote/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/iblock.vote/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/iblock.vote/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/iblock.vote/ajax/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/iblock.vote/ajax/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/iblock.vote/ajax/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/iblock.vote/ajax/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.detail/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.detail/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.detail/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.index/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.list/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.list/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.list/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.list/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.list/list/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.list/photo/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/rss.out/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/rss.out/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/rss.out/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/search.form/flat/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/search.form/flat/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/search.form/flat/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/search.form/flat/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/search.page/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/search.page/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/search.page/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/search.page/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.detail/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.detail/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.detail/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.index/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.list/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/rss.out/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/rss.out/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/rss.out/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/catalog.filter/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/catalog.filter/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/catalog.filter/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/catalog.filter/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/iblock.vote/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/iblock.vote/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/iblock.vote/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/iblock.vote/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/iblock.vote/ajax/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/iblock.vote/ajax/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/iblock.vote/ajax/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/iblock.vote/ajax/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.index/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.list/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.list/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.list/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.list/.default/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.list/list/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.list/photo/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/rss.out/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/rss.out/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/rss.out/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/search.form/flat/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/search.form/flat/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/search.form/flat/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/search.form/flat/lang/ua/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/search.page/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/search.page/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/search.page/.default/lang/ru/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/search.page/.default/lang/ua/template.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/d1/d1fcc4d6b01472eb4145c2317c425042.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_sec_filter_mask/3e/3e109cefdbde61bf61a07dc79523b3a8.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/138/1388cf51d2beae30dff2a13c54898e09.jpg" afterPath="$PROJECT_DIR$/upload/iblock/138/1388cf51d2beae30dff2a13c54898e09.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/document.pdf" afterPath="$PROJECT_DIR$/document.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.top.menu.php" afterPath="$PROJECT_DIR$/.top.menu.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/01/0188d3b3a37dc7ecc0c406ecb1ddeb6f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/01/0188d3b3a37dc7ecc0c406ecb1ddeb6f.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/04/04a58fbc129e55281761b04e356f29c7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/04/04a58fbc129e55281761b04e356f29c7.php" />
@@ -10,14 +593,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_counter/07/07eb0f1993c4710915ed575997ed9396.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_counter/07/07eb0f1993c4710915ed575997ed9396.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/0f/0fdcad74e7dd0747b52ec8a3903df906.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/0f/0fdcad74e7dd0747b52ec8a3903df906.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_undo/11/110947219f7935a3082cb17064564cfb.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_undo/11/110947219f7935a3082cb17064564cfb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/12/12fe59ed4fd47eb7f7e38cdc8ffb4896.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock/12/12fe59ed4fd47eb7f7e38cdc8ffb4896.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/14/148cdd800b38eee62e9002de046141bf.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/14/148cdd800b38eee62e9002de046141bf.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/14/149676c3683da148057e50e22c6187de.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/14/149676c3683da148057e50e22c6187de.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/16/16908b0605f2645dfcb4c3a8d248cef3.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/16/16908b0605f2645dfcb4c3a8d248cef3.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_clouds_file_bucket/1a/1a01acc5e163d73a3f7a6fb4c387651a.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_clouds_file_bucket/1a/1a01acc5e163d73a3f7a6fb4c387651a.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/22/226878c4c6dd2ca4262d621eb6b444a3.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/22/226878c4c6dd2ca4262d621eb6b444a3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/23/23e2893e2d083db8e5b22aaf4480f749.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/23/23e2893e2d083db8e5b22aaf4480f749.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/27/27850a3654870e28053dd5b6d2051c3e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/27/27850a3654870e28053dd5b6d2051c3e.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/27/27d1e53c214abb6ad3ffa27f9cb319c6.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/27/27d1e53c214abb6ad3ffa27f9cb319c6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2d/2d01653203ee8a1e4595bd0b27d636f2.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/2d/2d01653203ee8a1e4595bd0b27d636f2.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2f/2f0a715c791f6536876a0da8bd0cae52.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/2f/2f0a715c791f6536876a0da8bd0cae52.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/30/305fc6170bcce5bc4bad231293fe15e4.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/30/305fc6170bcce5bc4bad231293fe15e4.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/35/35292448e1f054810f95a63c2de00899.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/35/35292448e1f054810f95a63c2de00899.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/36/369f2b1f918fb10d6c5bf03eba4ad513.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/36/369f2b1f918fb10d6c5bf03eba4ad513.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/3f/3f8d868428f85a975e6b093594fafd51.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/3f/3f8d868428f85a975e6b093594fafd51.php" />
@@ -27,22 +614,35 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45de2c44c106ab11b08ddc54666aa803.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45de2c44c106ab11b08ddc54666aa803.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/events/49/4950220e4a6334e2e99b5f0eb44e033c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/events/49/4950220e4a6334e2e99b5f0eb44e033c.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/4a/4a67fa0ef6cf3626cb58b476e55ddedd.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/4a/4a67fa0ef6cf3626cb58b476e55ddedd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/4a/4a6d950e7b4790479f950d2a5921c62d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/4a/4a6d950e7b4790479f950d2a5921c62d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_undo/4b/4b5a141538fd8a5e38ef69216841756a.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_undo/4b/4b5a141538fd8a5e38ef69216841756a.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/4d/4ddd3d008a59ee248a70e8d70e0f258e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/4d/4ddd3d008a59ee248a70e8d70e0f258e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/53/53a48a97784fa1997b084e8af68c6b84.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/53/53a48a97784fa1997b084e8af68c6b84.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/55/5585b8ebad58e8064a1c7284562b5b47.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/55/5585b8ebad58e8064a1c7284562b5b47.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/56/56286db91a415d6c554aab4b073a79e0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/56/56286db91a415d6c554aab4b073a79e0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/56/56aad0e153c501be1c28648601caef55.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/56/56aad0e153c501be1c28648601caef55.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/site_checker/5c/5c6da7e88d19bbeee0ae40ae271e99a1.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/site_checker/5c/5c6da7e88d19bbeee0ae40ae271e99a1.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/5f/5fcf5d4913eda654c69ac02b8024e015.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/5f/5fcf5d4913eda654c69ac02b8024e015.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/61/61244a318777143305e19d3c2eb65dcd.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/61/61244a318777143305e19d3c2eb65dcd.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/64/641e0f27ba21967a793f5359d448f984.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/64/641e0f27ba21967a793f5359d448f984.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/65/65b7157158e194d714f3a0c683f9afce.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/65/65b7157158e194d714f3a0c683f9afce.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/67/676186d848f3e2c452a086a860975cfa.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/67/676186d848f3e2c452a086a860975cfa.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/68/68878f8d908da869005ed3b1bbb77198.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/68/68878f8d908da869005ed3b1bbb77198.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/6d/6daed732b1ba274a5ad375c57252e9eb.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/6d/6daed732b1ba274a5ad375c57252e9eb.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/6f/6f97271a0fc772b44d92133e33a39e85.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/6f/6f97271a0fc772b44d92133e33a39e85.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/71/71c06b469c2eb5bb0fe1b706f1751744.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/71/71c06b469c2eb5bb0fe1b706f1751744.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/74/74ae411d554f04027801d562a04ad6e2.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/74/74ae411d554f04027801d562a04ad6e2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/74/74efdb6b526a10c2ecd9ad22f6abd634.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/74/74efdb6b526a10c2ecd9ad22f6abd634.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/76/760ebbd1d5f0099742b91efaeba1483a.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/76/760ebbd1d5f0099742b91efaeba1483a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/7c/7cb93b462f93813afb092a09de7dee07.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fileman_stickers_count/7c/7cb93b462f93813afb092a09de7dee07.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/80/80d0df1c506cfa11d255d489ea901529.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/80/80d0df1c506cfa11d255d489ea901529.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_vote_perm/81/81a09378f1f504f2a3a044ffce9c5f45.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_vote_perm/81/81a09378f1f504f2a3a044ffce9c5f45.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/86/86b9dddd7150a33754b9e29d826083b0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/86/86b9dddd7150a33754b9e29d826083b0.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/86/86f3ae27fdb89eca2c8542e08137eacb.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/86/86f3ae27fdb89eca2c8542e08137eacb.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/87/873202c2404c65d99ea73d27b5cfa2d5.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/87/873202c2404c65d99ea73d27b5cfa2d5.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/8a/8a6771cf0faa05bbec84465de484e41d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/8a/8a6771cf0faa05bbec84465de484e41d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/8a/8a72b382e6a173833dc5d73deca9a3a0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/8a/8a72b382e6a173833dc5d73deca9a3a0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/8c/8c508fbab90bcf2990ec578aff24d13d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/8c/8c508fbab90bcf2990ec578aff24d13d.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/8f/8fe219017d20cdcb03fa4ee11303fc00.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/8f/8fe219017d20cdcb03fa4ee11303fc00.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/90/90867669113f8bc762765a132add4562.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/90/90867669113f8bc762765a132add4562.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/94/94ce3a26724eea812b5d5794bbbe05c4.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/94/94ce3a26724eea812b5d5794bbbe05c4.php" />
@@ -52,21 +652,29 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/9f/9fd9f8a49d26441e9f82db4dc1ada745.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/9f/9fd9f8a49d26441e9f82db4dc1ada745.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/a9/a987537279ba1ea67b8673cf28697d8f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/a9/a987537279ba1ea67b8673cf28697d8f.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/aa/aac7c831cdd8f2b58559c862f99bf946.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/aa/aac7c831cdd8f2b58559c862f99bf946.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/aa/aaf690b3a09e9d3a00ca3c89ec9b8b24.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/aa/aaf690b3a09e9d3a00ca3c89ec9b8b24.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/ae/aed7204eb58ee498fabe4985f2096983.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/ae/aed7204eb58ee498fabe4985f2096983.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_undo/b1/b1c1dd88eacebcc868cd588d24fbb55c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_undo/b1/b1c1dd88eacebcc868cd588d24fbb55c.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/b2/b21d3c2ec406ac96b9b443675c383d36.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/b2/b21d3c2ec406ac96b9b443675c383d36.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/b2/b2405e0fd2bec8e8480579e5f5fd3162.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/b2/b2405e0fd2bec8e8480579e5f5fd3162.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b3/b3d102e05659b57fe9571855dab3fb50.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b3/b3d102e05659b57fe9571855dab3fb50.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b3/b3fcb28d7555a1c8631cec61e264ec75.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b3/b3fcb28d7555a1c8631cec61e264ec75.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/b4/b41953f2bfbb14fe6047697d6684ea17.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/b4/b41953f2bfbb14fe6047697d6684ea17.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/b5/b5fef86cde416d168f79a4d2cbdd0e09.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/b5/b5fef86cde416d168f79a4d2cbdd0e09.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_vote_channel/b7/b7f3ff71e536959e566b3c8eece744e4.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_vote_channel/b7/b7f3ff71e536959e566b3c8eece744e4.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/b8/b8513619e22442ff9fbe3b6ed34d693c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/b8/b8513619e22442ff9fbe3b6ed34d693c.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/bb/bb0e6d1fa4da842766fa444a1c7c0043.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/bb/bb0e6d1fa4da842766fa444a1c7c0043.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/bd/bd21575483a0787a72df6dead4cb9a56.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/bd/bd21575483a0787a72df6dead4cb9a56.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/bd/bda1eed3dc15287945960c947a0cc6bc.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/bd/bda1eed3dc15287945960c947a0cc6bc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/c0/c0a6035229545c96522ff35e2b8c37a0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/c0/c0a6035229545c96522ff35e2b8c37a0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_vote/c4/c4ca4238a0b923820dcc509a6f75849b.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_vote/c4/c4ca4238a0b923820dcc509a6f75849b.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/c5/c50f038ed6291a78ea68e4a590830017.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/c5/c50f038ed6291a78ea68e4a590830017.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/cb/cb54184b9c7e54769569a0636a8eca91.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/cb/cb54184b9c7e54769569a0636a8eca91.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/d1/d1488b9513ec7d04c698f45da389882e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/d1/d1488b9513ec7d04c698f45da389882e.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/medialib/types/d1/d1cf12f4520f651e0fa5d54ee9301d94.php" afterPath="$PROJECT_DIR$/bitrix/cache/medialib/types/d1/d1cf12f4520f651e0fa5d54ee9301d94.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_pull_channel/d1/d1cf62e72dcea4f0840e5eee21b31592.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_pull_channel/d1/d1cf62e72dcea4f0840e5eee21b31592.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/da/da574eafa0e60e60faaf2a88513bf82a.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/da/da574eafa0e60e60faaf2a88513bf82a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/e0/e0adad38e1621b6d293028f934f3c26e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/e0/e0adad38e1621b6d293028f934f3c26e.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/e4/e46a7cd1240e5249e769c3b594014c74.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/e4/e46a7cd1240e5249e769c3b594014c74.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/e5/e56397d99b3a76ae3f02219877fed2c7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/e5/e56397d99b3a76ae3f02219877fed2c7.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/e6/e6de97c4d404954fc411cff4540da30a.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/e6/e6de97c4d404954fc411cff4540da30a.php" />
@@ -77,9 +685,35 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/f8/f8aa25bde9b456c6549a597dc3ee0512.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/f8/f8aa25bde9b456c6549a597dc3ee0512.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fb/fbebca4e0e7b3b5d5031caeb6b93a51f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fb/fbebca4e0e7b3b5d5031caeb6b93a51f.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/fc/fc70ad1863cba1f1760c13e7b4e20a98.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/fc/fc70ad1863cba1f1760c13e7b4e20a98.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/oez/header.php" afterPath="$PROJECT_DIR$/bitrix/templates/oez/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/oez/css/style.css" afterPath="$PROJECT_DIR$/bitrix/templates/oez/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/info_light_red/kernel_main/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/info_light_red/kernel_main/info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/oez/template_68de9d52870672dd9fb415b4106292a0/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/oez/template_68de9d52870672dd9fb415b4106292a0/info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/oez/template_742d695635c7f75c9e17d8448d2599b1/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/oez/template_742d695635c7f75c9e17d8448d2599b1/info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/oez/template_a94404bc77d9c371a1635dc1e6e400da/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/oez/template_a94404bc77d9c371a1635dc1e6e400da/info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/oez/template_c7a3c99c76a06d9036bc6dcc52107c3b/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/oez/template_c7a3c99c76a06d9036bc6dcc52107c3b/info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/oez/template_ec9e4266dada5ed75c4a7fea9c8b6d4a/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/css/s1/oez/template_ec9e4266dada5ed75c4a7fea9c8b6d4a/info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/info_light_red/kernel_main/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/info_light_red/kernel_main/info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/info_light_red/kernel_pull/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/info_light_red/kernel_pull/info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/oez/template_65e8f0299d1624370a9143f0a17ecd13/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/oez/template_65e8f0299d1624370a9143f0a17ecd13/info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/oez/template_70b07ac8c83c5ff29a3baff77e1daecb/info.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/js/s1/oez/template_70b07ac8c83c5ff29a3baff77e1daecb/info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/info_light_red/kernel_main/kernel_main.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/info_light_red/kernel_main/kernel_main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/js/s1/info_light_red/kernel_main/kernel_main.js" afterPath="$PROJECT_DIR$/bitrix/cache/js/s1/info_light_red/kernel_main/kernel_main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/js/s1/info_light_red/kernel_main/kernel_main.map.js" afterPath="$PROJECT_DIR$/bitrix/cache/js/s1/info_light_red/kernel_main/kernel_main.map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/info_light_red/kernel_main/kernel_main0.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/info_light_red/kernel_main/kernel_main0.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/js/s1/info_light_red/kernel_pull/kernel_pull.js" afterPath="$PROJECT_DIR$/bitrix/cache/js/s1/info_light_red/kernel_pull/kernel_pull.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/js/s1/info_light_red/kernel_pull/kernel_pull.map.js" afterPath="$PROJECT_DIR$/bitrix/cache/js/s1/info_light_red/kernel_pull/kernel_pull.map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/js/s1/oez/template_65e8f0299d1624370a9143f0a17ecd13/template_65e8f0299d1624370a9143f0a17ecd13.js" afterPath="$PROJECT_DIR$/bitrix/cache/js/s1/oez/template_65e8f0299d1624370a9143f0a17ecd13/template_65e8f0299d1624370a9143f0a17ecd13.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_68de9d52870672dd9fb415b4106292a0/template_68de9d52870672dd9fb415b4106292a0.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_68de9d52870672dd9fb415b4106292a0/template_68de9d52870672dd9fb415b4106292a0.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_68de9d52870672dd9fb415b4106292a0/template_68de9d52870672dd9fb415b4106292a00.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_68de9d52870672dd9fb415b4106292a0/template_68de9d52870672dd9fb415b4106292a00.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/js/s1/oez/template_70b07ac8c83c5ff29a3baff77e1daecb/template_70b07ac8c83c5ff29a3baff77e1daecb.js" afterPath="$PROJECT_DIR$/bitrix/cache/js/s1/oez/template_70b07ac8c83c5ff29a3baff77e1daecb/template_70b07ac8c83c5ff29a3baff77e1daecb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/js/s1/oez/template_70b07ac8c83c5ff29a3baff77e1daecb/template_70b07ac8c83c5ff29a3baff77e1daecb.map.js" afterPath="$PROJECT_DIR$/bitrix/cache/js/s1/oez/template_70b07ac8c83c5ff29a3baff77e1daecb/template_70b07ac8c83c5ff29a3baff77e1daecb.map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_742d695635c7f75c9e17d8448d2599b1/template_742d695635c7f75c9e17d8448d2599b1.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_742d695635c7f75c9e17d8448d2599b1/template_742d695635c7f75c9e17d8448d2599b1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_742d695635c7f75c9e17d8448d2599b1/template_742d695635c7f75c9e17d8448d2599b10.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_742d695635c7f75c9e17d8448d2599b1/template_742d695635c7f75c9e17d8448d2599b10.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_a94404bc77d9c371a1635dc1e6e400da/template_a94404bc77d9c371a1635dc1e6e400da.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_a94404bc77d9c371a1635dc1e6e400da/template_a94404bc77d9c371a1635dc1e6e400da.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_a94404bc77d9c371a1635dc1e6e400da/template_a94404bc77d9c371a1635dc1e6e400da0.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_a94404bc77d9c371a1635dc1e6e400da/template_a94404bc77d9c371a1635dc1e6e400da0.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_c7a3c99c76a06d9036bc6dcc52107c3b/template_c7a3c99c76a06d9036bc6dcc52107c3b.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_c7a3c99c76a06d9036bc6dcc52107c3b/template_c7a3c99c76a06d9036bc6dcc52107c3b.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_c7a3c99c76a06d9036bc6dcc52107c3b/template_c7a3c99c76a06d9036bc6dcc52107c3b0.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_c7a3c99c76a06d9036bc6dcc52107c3b/template_c7a3c99c76a06d9036bc6dcc52107c3b0.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_ec9e4266dada5ed75c4a7fea9c8b6d4a/template_ec9e4266dada5ed75c4a7fea9c8b6d4a.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_ec9e4266dada5ed75c4a7fea9c8b6d4a/template_ec9e4266dada5ed75c4a7fea9c8b6d4a.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_ec9e4266dada5ed75c4a7fea9c8b6d4a/template_ec9e4266dada5ed75c4a7fea9c8b6d4a0.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/oez/template_ec9e4266dada5ed75c4a7fea9c8b6d4a/template_ec9e4266dada5ed75c4a7fea9c8b6d4a0.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sezlipetsk.iws" />
@@ -125,18 +759,58 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21023513">
-              <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+            <state vertical-scroll-proportion="-7.037037">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.827586">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="potrebitelyam.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/potrebitelyam.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18533887">
+              <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="16.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verstka/16.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-126.0">
+              <caret line="213" column="6" selection-start-line="66" selection-start-column="0" selection-end-line="213" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbconn.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/php_interface/dbconn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.189655">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -162,31 +836,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".parameters.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/partners/.parameters.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/partners/template.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/components/custom/search.form/templates/oez/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -224,6 +878,9 @@
         <option value="$PROJECT_DIR$/bitrix/templates/oez/css/style.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/oez/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/php.ini" />
+        <option value="$PROJECT_DIR$/potrebitelyam.php" />
       </list>
     </option>
   </component>
@@ -239,10 +896,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
-    <option name="y" value="3" />
-    <option name="width" value="1383" />
-    <option name="height" value="901" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1375" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -267,8 +924,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,7 +970,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oez" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,11 +992,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="calendar" />
+              <option name="myItemId" value="oez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,6 +1064,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,18 +1087,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/main_news" />
-      <recent name="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/partners" />
       <recent name="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix" />
       <recent name="$PROJECT_DIR$/bitrix/components/custom" />
+      <recent name="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/main_news" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template" />
       <recent name="$PROJECT_DIR$/bitrix/templates/oez/components" />
       <recent name="$PROJECT_DIR$/bitrix/components" />
       <recent name="$PROJECT_DIR$/bitrix/components/bitrix" />
       <recent name="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix" />
-      <recent name="$PROJECT_DIR$/bitrix/templates/oez/css" />
     </key>
   </component>
   <component name="RunManager">
@@ -483,7 +1188,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440148056708</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="на главной остались только блоки, берем курс на личный кадинет">
+      <created>1440162125308</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1440162125308</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -496,11 +1207,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="3" width="1383" height="901" extended-state="6" />
+    <frame x="65" y="24" width="1375" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27389014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2784048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -544,45 +1255,14 @@
     <MESSAGE value="добавлен компонент слайдера" />
     <MESSAGE value="навел порядок в директориях, добавил карусель партнеров" />
     <MESSAGE value="Добавлен модуль новостей на главную (выводится последняя новость с картинкой и превью)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен модуль новостей на главную (выводится последняя новость с картинкой и превью)" />
+    <MESSAGE value="на главной остались только блоки, берем курс на личный кадинет" />
+    <option name="LAST_COMMIT_MESSAGE" value="на главной остались только блоки, берем курс на личный кадинет" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/main_news/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2910" column="21" selection-start-line="2910" selection-start-column="21" selection-end-line="2910" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/partners/.parameters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/partners/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/components/custom/search.form/templates/oez/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -711,13 +1391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/dbconn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39419088">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/.settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -767,13 +1440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.bottom.menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -785,13 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -905,7 +1564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,14 +1571,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.037037">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/modules/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/dbconn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.189655">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/page_templates/forum/template.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21023513">
-          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+          <caret line="331" column="2" selection-start-line="331" selection-start-column="2" selection-end-line="331" selection-end-column="2" />
+          <folding>
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439970813532" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439970813532" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.827586">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verstka/16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-126.0">
+          <caret line="213" column="6" selection-start-line="66" selection-start-column="0" selection-end-line="213" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15767635">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18533887">
+          <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
           <folding />
         </state>
       </provider>
