@@ -106,7 +106,8 @@ $APPLICATION->SetTitle("Потребителям");
 				</div>
 				<div class="col-md-12 col-lg-6 col-xs-12 block_item">
 					<div class="item_block">
-						<a class="item_block_a"><div class="hover_container">
+						<a href="/internet-priemnaya.php" class="item_block_a">
+							<div class="hover_container">
 								<div class="hover"></div>
 							</div>
 							<div class="item_bod">
@@ -118,7 +119,8 @@ $APPLICATION->SetTitle("Потребителям");
                                       <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_16(3)white.png"/>
                                       <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_16(3).png"/>
                                 </span>
-							</div></a>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>

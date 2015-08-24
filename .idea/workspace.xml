@@ -2,42 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/images/breadcrumb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/templates/.default/images/breadcrumbs_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/.description.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/lang/en/.description.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/lang/ru/.description.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/lang/en/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/lang/ru/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/lang/en/help/.tooltips.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/lang/ru/help/.tooltips.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/component.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/lang/en/component.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/lang/ru/component.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/templates/.default/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/templates/.default/style.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/templates/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/templates/.default/images/sec-unlocked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/templates/.default/images/sec.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/images/user_authform.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/.description.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/lang/en/.description.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/lang/ru/.description.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/lang/en/help/.tooltips.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/lang/ru/help/.tooltips.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/component.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/lang/en/component.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/lang/ru/component.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/internet-priemnaya.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lichnyy-kabinet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/templates/.default/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/templates/.default/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/templates/.default/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/templates/.default/lang/en/template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/templates/.default/lang/ru/template.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/bd/bda1eed3dc15287945960c947a0cc6bc.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/01/0188d3b3a37dc7ecc0c406ecb1ddeb6f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/01/0188d3b3a37dc7ecc0c406ecb1ddeb6f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/04/04a58fbc129e55281761b04e356f29c7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/04/04a58fbc129e55281761b04e356f29c7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_counter/07/07eb0f1993c4710915ed575997ed9396.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_counter/07/07eb0f1993c4710915ed575997ed9396.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/0f/0fdcad74e7dd0747b52ec8a3903df906.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/0f/0fdcad74e7dd0747b52ec8a3903df906.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/14/149676c3683da148057e50e22c6187de.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/14/149676c3683da148057e50e22c6187de.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/16/16908b0605f2645dfcb4c3a8d248cef3.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/16/16908b0605f2645dfcb4c3a8d248cef3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/27/27850a3654870e28053dd5b6d2051c3e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/27/27850a3654870e28053dd5b6d2051c3e.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/27/27d1e53c214abb6ad3ffa27f9cb319c6.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/27/27d1e53c214abb6ad3ffa27f9cb319c6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/36/369f2b1f918fb10d6c5bf03eba4ad513.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/36/369f2b1f918fb10d6c5bf03eba4ad513.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/41/416acb540279140f55ddb5b83b7646b7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/41/416acb540279140f55ddb5b83b7646b7.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45d2709d1cf143b83df37e1f6a54bc7c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45d2709d1cf143b83df37e1f6a54bc7c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45de2c44c106ab11b08ddc54666aa803.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/45/45de2c44c106ab11b08ddc54666aa803.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/4a/4a67fa0ef6cf3626cb58b476e55ddedd.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/4a/4a67fa0ef6cf3626cb58b476e55ddedd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/4a/4a6d950e7b4790479f950d2a5921c62d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/4a/4a6d950e7b4790479f950d2a5921c62d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/4d/4ddd3d008a59ee248a70e8d70e0f258e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/4d/4ddd3d008a59ee248a70e8d70e0f258e.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/55/5585b8ebad58e8064a1c7284562b5b47.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/55/5585b8ebad58e8064a1c7284562b5b47.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/56/56aad0e153c501be1c28648601caef55.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/56/56aad0e153c501be1c28648601caef55.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/site_checker/5c/5c6da7e88d19bbeee0ae40ae271e99a1.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/security/site_checker/5c/5c6da7e88d19bbeee0ae40ae271e99a1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/5f/5fcf5d4913eda654c69ac02b8024e015.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/5f/5fcf5d4913eda654c69ac02b8024e015.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/61/61244a318777143305e19d3c2eb65dcd.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/61/61244a318777143305e19d3c2eb65dcd.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/65/65b7157158e194d714f3a0c683f9afce.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/65/65b7157158e194d714f3a0c683f9afce.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/67/676186d848f3e2c452a086a860975cfa.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/67/676186d848f3e2c452a086a860975cfa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/68/68878f8d908da869005ed3b1bbb77198.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/68/68878f8d908da869005ed3b1bbb77198.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/74/74ae411d554f04027801d562a04ad6e2.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/74/74ae411d554f04027801d562a04ad6e2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/76/760ebbd1d5f0099742b91efaeba1483a.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/76/760ebbd1d5f0099742b91efaeba1483a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/80/80d0df1c506cfa11d255d489ea901529.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/80/80d0df1c506cfa11d255d489ea901529.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/87/873202c2404c65d99ea73d27b5cfa2d5.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/87/873202c2404c65d99ea73d27b5cfa2d5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/8a/8a6771cf0faa05bbec84465de484e41d.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/8a/8a6771cf0faa05bbec84465de484e41d.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/8f/8fe219017d20cdcb03fa4ee11303fc00.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/8f/8fe219017d20cdcb03fa4ee11303fc00.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/9a/9af5a4c25331d8bd4c5d68555ab1f760.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/9a/9af5a4c25331d8bd4c5d68555ab1f760.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/9d/9d8c68225868ee036081eef8be4a9b38.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task/9d/9d8c68225868ee036081eef8be4a9b38.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/a9/a987537279ba1ea67b8673cf28697d8f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/a9/a987537279ba1ea67b8673cf28697d8f.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/b2/b21d3c2ec406ac96b9b443675c383d36.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/b2/b21d3c2ec406ac96b9b443675c383d36.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/b2/b2405e0fd2bec8e8480579e5f5fd3162.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/b2/b2405e0fd2bec8e8480579e5f5fd3162.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b3/b3d102e05659b57fe9571855dab3fb50.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b3/b3d102e05659b57fe9571855dab3fb50.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b3/b3fcb28d7555a1c8631cec61e264ec75.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/b3/b3fcb28d7555a1c8631cec61e264ec75.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/b4/b41953f2bfbb14fe6047697d6684ea17.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/b4/b41953f2bfbb14fe6047697d6684ea17.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/b8/b8513619e22442ff9fbe3b6ed34d693c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_user_field/b8/b8513619e22442ff9fbe3b6ed34d693c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/bd/bd21575483a0787a72df6dead4cb9a56.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/bd/bd21575483a0787a72df6dead4cb9a56.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/c0/c0a6035229545c96522ff35e2b8c37a0.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang_domain/c0/c0a6035229545c96522ff35e2b8c37a0.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/c5/c50f038ed6291a78ea68e4a590830017.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/c5/c50f038ed6291a78ea68e4a590830017.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/d1/d1488b9513ec7d04c698f45da389882e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_task_operation/d1/d1488b9513ec7d04c698f45da389882e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/e0/e0adad38e1621b6d293028f934f3c26e.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_iblock_type/e0/e0adad38e1621b6d293028f934f3c26e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/e4/e46a7cd1240e5249e769c3b594014c74.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/e4/e46a7cd1240e5249e769c3b594014c74.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/e5/e56397d99b3a76ae3f02219877fed2c7.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/e5/e56397d99b3a76ae3f02219877fed2c7.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/e6/e6de97c4d404954fc411cff4540da30a.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/e6/e6de97c4d404954fc411cff4540da30a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/eb/eb3508c4ba55f931e8c612a0cb61f17c.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/eb/eb3508c4ba55f931e8c612a0cb61f17c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/ec/eca380947aa83b89ebfde8658c6bb7b6.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/access_check/ec/eca380947aa83b89ebfde8658c6bb7b6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/f0/f0715a75607aea70415b87f705acc850.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_file/f0/f0715a75607aea70415b87f705acc850.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/f0/f0fc06318e8ac66f82152783eff5c4d8.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/user_option/f0/f0fc06318e8ac66f82152783eff5c4d8.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/f8/f8aa25bde9b456c6549a597dc3ee0512.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/b_lang/f8/f8aa25bde9b456c6549a597dc3ee0512.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fb/fbebca4e0e7b3b5d5031caeb6b93a51f.php" afterPath="$PROJECT_DIR$/bitrix/managed_cache/MYSQL/fb/fbebca4e0e7b3b5d5031caeb6b93a51f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/oez/footer.php" afterPath="$PROJECT_DIR$/bitrix/templates/oez/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/potrebitelyam.php" afterPath="$PROJECT_DIR$/potrebitelyam.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -111,11 +149,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="potrebitelyam.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="potrebitelyam.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/potrebitelyam.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.969571">
-              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+            <state vertical-scroll-proportion="-4.962963">
+              <caret line="138" column="66" selection-start-line="138" selection-start-column="65" selection-end-line="138" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="internet-priemnaya.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/internet-priemnaya.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.9482758">
+              <caret line="51" column="62" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lichnyy-kabinet.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lichnyy-kabinet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3416321">
+              <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="83" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="19.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verstka/19.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.851851">
+              <caret line="260" column="6" selection-start-line="60" selection-start-column="0" selection-end-line="260" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="18.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/verstka/18.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.8148148">
+              <caret line="160" column="6" selection-start-line="66" selection-start-column="0" selection-end-line="160" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -124,8 +205,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.444445">
-              <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
+            <state vertical-scroll-proportion="-17.62963">
+              <caret line="76" column="34" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -136,26 +217,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-15.518518">
               <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbconn.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/php_interface/dbconn.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.189655">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2916" column="1" selection-start-line="2916" selection-start-column="1" selection-end-line="2916" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -199,6 +260,8 @@
         <option value="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/templates/.default/template.php" />
         <option value="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/templates/.default/style.css" />
         <option value="$PROJECT_DIR$/potrebitelyam.php" />
+        <option value="$PROJECT_DIR$/internet-priemnaya.php" />
+        <option value="$PROJECT_DIR$/lichnyy-kabinet.php" />
       </list>
     </option>
   </component>
@@ -384,63 +447,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="breadcrumb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="breadcrumb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -582,7 +589,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440405682244</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Добавлены хлебные крошки">
+      <created>1440408620169</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1440408620169</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -645,49 +658,14 @@
     <MESSAGE value="Добавлен модуль новостей на главную (выводится последняя новость с картинкой и превью)" />
     <MESSAGE value="на главной остались только блоки, берем курс на личный кадинет" />
     <MESSAGE value="Добавлена страница &quot;потребителям&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлена страница &quot;потребителям&quot;" />
+    <MESSAGE value="Добавлены хлебные крошки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены хлебные крошки" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/include/socials.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/info_light_red/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="8" selection-start-line="39" selection-start-column="4" selection-end-line="53" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/.settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -999,14 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.444445">
-          <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.185185">
@@ -1042,11 +1012,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/verstka/18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8148148">
+          <caret line="160" column="6" selection-start-line="66" selection-start-column="0" selection-end-line="160" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.62963">
+          <caret line="76" column="34" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/bitrix/main.user.link/images/icon_popup.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/potrebitelyam.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.969571">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        <state vertical-scroll-proportion="-4.962963">
+          <caret line="138" column="66" selection-start-line="138" selection-start-column="65" selection-end-line="138" selection-end-column="66" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verstka/19.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.851851">
+          <caret line="260" column="6" selection-start-line="60" selection-start-column="0" selection-end-line="260" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internet-priemnaya.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9482758">
+          <caret line="51" column="62" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lichnyy-kabinet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3416321">
+          <caret line="74" column="82" selection-start-line="74" selection-start-column="82" selection-end-line="74" selection-end-column="83" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
