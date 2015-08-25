@@ -89,75 +89,18 @@
 						<!--Авторизация-->
 					</div>
 					<div role="tabpanel" class="tab-pane fade" id="registration_panel">
-						<form>
-							<div class="inputs_container">
-								<div class="row">
-									<div class="col-xs-6 labels_left">
-										<span class="star_red">*</span> Фамилия Имя Отчество
-									</div>
-									<div class="col-xs-6 inputs_right">
-										<input type="text" name="login">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-6 labels_left">
-										<span class="star_red">*</span> Наименование организации
-									</div>
-									<div class="col-xs-6 inputs_right">
-										<input type="text" name="login">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-6 labels_left">
-										<span class="star_red">*</span> Должность
-									</div>
-									<div class="col-xs-6 inputs_right">
-										<input type="text" name="login">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-6 labels_left">
-										<span class="star_red">*</span> Телефон
-									</div>
-									<div class="col-xs-6 inputs_right">
-										<input type="text" name="login">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-6 labels_left">
-										<span class="star_red">*</span> Email
-									</div>
-									<div class="col-xs-6 inputs_right">
-										<input type="text" name="login">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-6 labels_left">
-										<span class="star_red">*</span> Кадастровый номер земельного участка
-									</div>
-									<div class="col-xs-6 inputs_right">
-										<input type="text" name="login">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-6 labels_left">
-										<span class="star_red">*</span> Введите символы
-										                                с картинки
-									</div>
-									<div class="col-xs-6 inputs_right">
-										<input type="text" name="login">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-6 labels_left">
-
-									</div>
-									<div class="col-xs-6 inputs_right">
-										<button>ОТПРАВИТЬ</button>
-									</div>
-								</div>
-							</div>
-						</form>
+						<!--Регистрация-->
+						<?$APPLICATION->IncludeComponent(
+							"custom:main.register",
+							"",
+							Array(
+								"REGISTER_URL" => "register.php",
+								"PROFILE_URL" => "profile.php",
+								"SHOW_ERRORS" => "Y",
+								"USE_CAPTCHA" => "Y"
+							)
+						);?>
+						<!--Регистрация-->
 					</div>
 					<script type="text/javascript">
 						$(document).ready(function(){
