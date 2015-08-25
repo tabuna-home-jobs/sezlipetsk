@@ -1,5 +1,5 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Интернет-приемная");
 ?>
 
@@ -46,10 +46,10 @@ $APPLICATION->SetTitle("Интернет-приемная");
 						<div class="row cabinet_block_heder">
 							<div class="col-xs-12 col-md-6 cabinet_block_name"><h3>Личный кабинет</h3></div>
 							<div class="col-xs-12 col-md-6 cabinet_block_vhod">
-								<a href="/lichnyy-kabinet.php">
+								<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/">
 									ВХОД <span class="glyphicon glyphicon-menu-right"></span>
 								</a>
-								<a href="/lichnyy-kabinet.php#registration">РЕГИСТРАЦИЯ</a>
+								<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/#registration">РЕГИСТРАЦИЯ</a>
 							</div>
 						</div>
 						<div class="cabinet_block_links">
@@ -113,4 +113,4 @@ $APPLICATION->SetTitle("Интернет-приемная");
 		</section>
 	</div>
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php");?>

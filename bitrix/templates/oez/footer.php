@@ -74,6 +74,6 @@
 		</div>
 	</div>
 	<?
-		$APPLICATION->AddChainItem($APPLICATION->GetTitle());
+		//$APPLICATION->AddChainItem($APPLICATION->GetTitle());
 	?>
 </footer>

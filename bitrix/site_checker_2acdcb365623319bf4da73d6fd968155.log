@@ -216,3 +216,47 @@ CHARSET=utf8, COLLATION=utf8_unicode_ci
 39% done
 2015-Aug-24 16:36:51 Структура базы данных (check_mysql_table_structure): Ok
 42% done
+2015-Aug-24 16:36:54 Структура базы данных (check_mysql_table_structure): Ok
+44% done
+2015-Aug-24 16:37:14 Структура базы данных (check_mysql_table_structure): Ok
+47% done
+2015-Aug-24 16:37:29 Структура базы данных (check_mysql_table_structure): Ok
+50% done
+2015-Aug-24 16:37:59 Структура базы данных (check_mysql_table_structure): Ok
+52% done
+2015-Aug-24 16:38:02 Структура базы данных (check_mysql_table_structure): Ok
+55% done
+2015-Aug-24 16:38:07 Структура базы данных (check_mysql_table_structure): Ok
+57% done
+2015-Aug-24 16:38:11 Структура базы данных (check_mysql_table_structure): Ok
+60% done
+2015-Aug-24 16:38:51 Структура базы данных (check_mysql_table_structure): Ok
+63% done
+2015-Aug-24 16:39:07 Структура базы данных (check_mysql_table_structure): Ok
+65% done
+2015-Aug-24 16:39:10 Структура базы данных (check_mysql_table_structure): Ok
+68% done
+2015-Aug-24 16:40:05 Структура базы данных (check_mysql_table_structure): Ok
+71% done
+2015-Aug-24 16:40:14 Структура базы данных (check_mysql_table_structure): Ok
+73% done
+2015-Aug-24 16:40:56 Структура базы данных (check_mysql_table_structure): Ok
+76% done
+2015-Aug-24 16:40:57 Структура базы данных (check_mysql_table_structure): Ok
+78% done
+2015-Aug-24 16:40:58 Структура базы данных (check_mysql_table_structure): Ok
+81% done
+2015-Aug-24 16:41:03 Структура базы данных (check_mysql_table_structure): Ok
+84% done
+2015-Aug-24 16:41:04 Структура базы данных (check_mysql_table_structure): Ok
+86% done
+2015-Aug-24 16:41:18 Структура базы данных (check_mysql_table_structure): Ok
+89% done
+2015-Aug-24 16:41:46 Структура базы данных (check_mysql_table_structure): Ok
+92% done
+2015-Aug-24 16:42:11 Структура базы данных (check_mysql_table_structure): Ok
+94% done
+2015-Aug-24 16:42:32 Структура базы данных (check_mysql_table_structure): Ok
+97% done
+2015-Aug-24 16:42:33 Структура базы данных (check_mysql_table_structure): Ok
+Успешно

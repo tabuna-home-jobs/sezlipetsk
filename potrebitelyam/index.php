@@ -1,8 +1,8 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords_inner", "Потребителям");
-$APPLICATION->SetPageProperty("title", "Потребителям");
-$APPLICATION->SetTitle("Потребителям");
+	require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+	$APPLICATION->SetPageProperty("keywords_inner", "Потребителям");
+	$APPLICATION->SetPageProperty("title", "Потребителям");
+	$APPLICATION->SetTitle("Потребителям");
 ?>
 <div class="main ">
 	<section class="top_block_main">
@@ -11,14 +11,14 @@ $APPLICATION->SetTitle("Потребителям");
 				<div class="left_part col-xs-12 col-sm-12 col-md-7">
 					<!--Хеебный крош-->
 					<?$APPLICATION->IncludeComponent(
-						"custom:breadcrumb",
-						"",
-						Array(
-							"COMPONENT_TEMPLATE" => "oez",
-							"START_FROM" => "0",
-							"PATH" => "",
-							"SITE_ID" => "s1"
-						)
+							"custom:breadcrumb",
+							"",
+							Array(
+									"COMPONENT_TEMPLATE" => "oez",
+									"START_FROM" => "0",
+									"PATH" => "",
+									"SITE_ID" => "s1"
+							)
 					);
 					?>
 					<!--Хлебные крошки-->
@@ -106,7 +106,7 @@ $APPLICATION->SetTitle("Потребителям");
 				</div>
 				<div class="col-md-12 col-lg-6 col-xs-12 block_item">
 					<div class="item_block">
-						<a href="/internet-priemnaya.php" class="item_block_a">
+						<a href="/potrebitelyam/internet-priemnaya/" class="item_block_a">
 							<div class="hover_container">
 								<div class="hover"></div>
 							</div>

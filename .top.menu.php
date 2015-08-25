@@ -16,7 +16,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Потребителям", 
-		"/potrebitelyam.php", 
+		"/potrebitelyam/", 
 		Array(), 
 		Array(), 
 		"" 
