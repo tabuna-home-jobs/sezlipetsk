@@ -24,7 +24,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
          <div class="hover"></div>
         </div>
         <div class="item_bod">
-         <div class="item_name">Виртуальный тур</div>
+         <div class="item_name">Виртуальный тур123</div>
          <div class="item_dop">по ОЭЗ ППТ «Липецк»</div>
         </div>
         <div class="block_icon">
