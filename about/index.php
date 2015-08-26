@@ -118,7 +118,8 @@ $APPLICATION->SetTitle("О проекте");
 					"DISPLAY_PREVIEW_TEXT" => "Y",
 					"IBLOCK_TYPE" => "news",
 					"IBLOCK_ID" => "infoportal_news_s1",
-					"NEWS_COUNT" => "2"
+					"NEWS_COUNT" => "2",
+					"PREVIEW_TRUNCATE_LEN" => "100",
 				)
 			);?>
 			<!--Последняя новость на главной-->
