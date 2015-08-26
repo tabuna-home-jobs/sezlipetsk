@@ -1,1 +1,22 @@
-# Created by .ignore support plugin (hsz.mobi)
+/bitrix/activities/bitrix/ 
+/bitrix/admin 
+/bitrix/cache 
+/bitrix/components/bitrix/ 
+/bitrix/gadgets/bitrix 
+/bitrix/controller_log 
+/bitrix/image_uploader 
+/bitrix/images 
+/bitrix/js 
+/bitrix/managed_cache 
+/bitrix/stack_cache 
+/bitrix/modules 
+/bitrix/otp 
+/bitrix/sounds 
+/bitrix/template/ 
+/bitrix/themes 
+/bitrix/tmp 
+/bitrix/tools 
+/bitrix/wizards/bitrix 
+/bitrix/[^/]*\.php$ 
+/upload 
+/bitrix/php_interface 
