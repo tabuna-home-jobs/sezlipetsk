@@ -46,10 +46,26 @@ $APPLICATION->SetTitle("Интернет-приемная");
 						<div class="row cabinet_block_heder">
 							<div class="col-xs-12 col-md-6 cabinet_block_name"><h3>Личный кабинет</h3></div>
 							<div class="col-xs-12 col-md-6 cabinet_block_vhod">
-								<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/">
-									ВХОД <span class="glyphicon glyphicon-menu-right"></span>
-								</a>
-								<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/#registration">РЕГИСТРАЦИЯ</a>
+
+								<?
+									//Если зареган то покажем только вход
+									if ($USER->IsAuthorized()){
+								?>
+									<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/">
+										ВХОД <span class="glyphicon glyphicon-menu-right"></span>
+									</a>
+								<?
+									//Если не зарегистрирован то выводим обе кнопочки
+									}else{
+								?>
+									<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/">
+										ВХОД <span class="glyphicon glyphicon-menu-right"></span>
+									</a>
+
+									<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/#registration">РЕГИСТРАЦИЯ</a>
+								<?
+									}
+								?>
 							</div>
 						</div>
 						<div class="cabinet_block_links">

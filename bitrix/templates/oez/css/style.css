@@ -1386,6 +1386,7 @@ border: none;
   text-align: center;
   background-color: #f9f9f9;
   padding-top: 60px;
+  height: 480px;
 }
 .login_form_container {
 
@@ -2845,6 +2846,10 @@ background-color:transparent!important;
   background-color: white;
   border-radius: 5px;
 }
+.avatar img{
+  max-width: 70px;
+  max-height: 70px;
+}
 .ssylki_top {
   margin-bottom: 10px;
 }
@@ -2937,4 +2942,6 @@ background-color:transparent!important;
 .foot_adres div:nth-child(2){
   width: 90%;
 }
-
+.scroll-content{
+  padding-right: 15px !important;
+}

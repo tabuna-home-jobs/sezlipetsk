@@ -63,63 +63,215 @@
 
 			</div>
 		</div>
-		<div class="col-xs-12 col-md-6 login_part_right max_height_block">
-			<div class="login_form_container">
+		<?  //Если авторизован то показываем личный кабинет
+			if ($USER->IsAuthorized()) {
+				?>
+				<div class="col-xs-12 col-md-6 login_part_right max_height_block">
+					<div class="login_form_container">
+						<div class="avatar">
+							<div>
+								<?  //Берем фотку текущего пользователя
+									//Если её нет то по дефолту картинку показываем
+									if($USER->GetParam("PERSONAL_PHOTO")) {
+								?>
+									<img src="<?= CFile::GetPath($USER->GetParam("PERSONAL_PHOTO")); ?>">
+								<?
+									}else{
+								?>
+									<img src="<?=SITE_TEMPLATE_PATH?>/img/icons/avatar.png">
+								<?
+									}
+								?>
+							</div>
+						</div>
+						<div class="lk_name"><?=$USER->GetFullName()?></div>
+						<div class="lk_description">
+							<?
+								//Берем текущего пользователя по ID
+								$rsUser = CUser::GetByID($USER->GetId());
+								$arUser = $rsUser->Fetch();
+							?>
+							<div><?=$arUser["PERSONAL_PROFESSION"]?></div>
+							<div>т. <?=$arUser["PERSONAL_PHONE"]?></div>
+							<div>Е. <?=$USER->GetEmail()?></div>
+							<div>Кадастровый номер: 57</div>
+						</div>
+						<div class="red_a">
+							<a href="/">РЕДАКТИРОВАТЬ</a>
+							<a href="/index.php?logout=yes">ВЫХОД</a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<section>
+						<div class="col-md-6 col-sm-12 ">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 left_padding_remove">
+									<div class="col-sm-12 col-xs-12 block_item ">
+										<div class="item_block hight_item_block">
+											<a class="item_block_a_small" href="">
+												<div class="hover_container">
+													<div class="hover"></div>
+												</div>
+												<div class="item_bod">
+													<div class="item_name">Показания приборов учета</div>
+													<div class="item_dop">Для получения льгот и преференций компании или частному предпринимателю необходимо получить статус резидента</div>
+												</div>
+												<div class="block_icon_arrow">
+													<span class="glyphicon glyphicon-menu-right"></span>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-6 left_padding_remove">
+									<div class="col-sm-12 col-xs-12 block_item">
+										<div class="item_block">
+											<a class="item_block_a_small" href="">
+												<div class="hover_container">
+													<div class="hover"></div>
+												</div>
+												<div class="item_bod">
+													<div class="item_name">Направить обращение/
+													                       жалобу</div>
+													<div class="item_dop"></div>
+												</div>
+												<div class="block_icon_arrow">
+													<span class="glyphicon glyphicon-menu-right"></span>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="col-sm-12 col-xs-12 block_item">
+										<div class="item_block">
+											<a class="item_block_a_small" href="">
+												<div class="hover_container">
+													<div class="hover"></div>
+												</div>
+												<div class="item_bod">
+													<div class="item_name">Проверка статуса заявки на тех. присоединение к сетям электроснабжения</div>
+													<div class="item_dop"></div>
+												</div>
+												<div class="block_icon_arrow">
+													<span class="glyphicon glyphicon-menu-right"></span>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-12">
+							<div class="row">
+								<div class="col-sm-6 col-xs-12 block_item ">
+									<div class="item_block hight_item_block">
+										<a class="item_block_a" href="">
+											<div class="hover_container">
+												<div class="hover"></div>
+											</div>
+											<div class="item_bod">
+												<div class="item_name">Подать заявку на тех. присоединение к сетям электроснабжения</div>
+												<div class="item_dop">Для получения льгот и преференций компании или частному предпринимателю необходимо получить статус резидента</div>
+											</div>
+											<div class="block_icon">
+                                    <span class="item_block_img">
+                                      <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/mail.png"/>
+                                      <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/mail_2.png"/>
+                                    </span>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-6 col-xs-12 block_item ">
+									<div class="item_block hight_item_block">
+										<a class="item_block_a" href="">
+											<div class="hover_container">
+												<div class="hover"></div>
+											</div>
+											<div class="item_bod">
+												<div class="item_name">Оценка качества обслуживания</div>
+												<div class="item_dop">Для получения льгот и преференций компании или частному предпринимателю необходимо получить статус резидента</div>
+											</div>
+											<div class="block_icon">
+                                    <span class="item_block_img">
+                                      <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/palec.png"/>
+                                      <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/palec_2.png"/>
+                                    </span>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+				</section>
+				</div>
+				<?
+					//Иначе предлагаем зарегаться или залогиниться
+					}else{
+				?>
+				<div class="col-xs-12 col-md-6 login_part_right max_height_block">
+					<div class="login_form_container">
 
-				<div class="row login_form_heder">
-					<a href="#login_panel" id="input-tab" role="tab" class="login_punct active_login_punkt"
-					   data-toggle="tab"
-					   aria-controls="login_panel"
-					   aria-expanded="true">ВХОД</a>
-					<a href="#registration_panel" id="reg-tab" role="tab" data-toggle="tab" class="login_punct"
-					   aria-controls="registration_panel" aria-expanded="true">РЕГИСТРАЦИЯ</a>
-				</div>
-				<div id="main_content_tabs" class="tab-content">
-					<div role="tabpanel" class="tab-pane fade active in" id="login_panel">
-						<!--Авторизация-->
-						<?$APPLICATION->IncludeComponent(
-							"custom:system.auth.form",
-							"",
-							Array(
-								"REGISTER_URL" => "register.php",
-								"PROFILE_URL" => "profile.php",
-								"SHOW_ERRORS" => "Y"
-							)
-						);?>
-						<!--Авторизация-->
+						<div class="row login_form_heder">
+							<a href="#login_panel" id="input-tab" role="tab" class="login_punct active_login_punkt"
+							   data-toggle="tab"
+							   aria-controls="login_panel"
+							   aria-expanded="true">ВХОД</a>
+							<a href="#registration_panel" id="reg-tab" role="tab" data-toggle="tab" class="login_punct"
+							   aria-controls="registration_panel" aria-expanded="true">РЕГИСТРАЦИЯ</a>
+						</div>
+						<div id="main_content_tabs" class="tab-content">
+							<div role="tabpanel" class="tab-pane fade active in" id="login_panel">
+								<!--Авторизация-->
+								<? $APPLICATION->IncludeComponent(
+									"custom:system.auth.form",
+									"",
+									Array(
+										"REGISTER_URL" => "register.php",
+										"PROFILE_URL"  => "/potrebitelyam/internet-priemnaya/lichnyy-kabinet/",
+										"SHOW_ERRORS"  => "Y"
+									)
+								); ?>
+								<!--Авторизация-->
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="registration_panel">
+								<!--Регистрация-->
+								<? $APPLICATION->IncludeComponent(
+									"custom:main.register",
+									"",
+									Array(
+										"USER_PROPERTY_NAME" => "",
+										"SEF_MODE"           => "N",
+										"SHOW_FIELDS"        => Array("UF_POSITION"),
+										"REQUIRED_FIELDS"    => Array("PERSONAL_MOBILE", "PERSONAL_NOTES"),
+										"AUTH"               => "Y",
+										"USE_BACKURL"        => "Y",
+										"SUCCESS_PAGE"       => $APPLICATION->GetCurPageParam('', array('backurl')),
+										"SET_TITLE"          => "N",
+										"USER_PROPERTY"      => Array()
+									)
+								); ?>
+								<!--Регистрация-->
+							</div>
+							<script type="text/javascript">
+								$(document).ready(function () {
+									//Если юзер нажаол на регистрацию
+									//то делаем таб регистрации активным
+									var hashReg = location.hash;
+									if (hashReg) {
+										$("#reg-tab").click();
+									}
+								});
+							</script>
+						</div>
 					</div>
-					<div role="tabpanel" class="tab-pane fade" id="registration_panel">
-						<!--Регистрация-->
-						<?$APPLICATION->IncludeComponent(
-							"custom:main.register",
-							"",
-							Array(
-								"USER_PROPERTY_NAME" => "",
-								"SEF_MODE" => "N",
-								"SHOW_FIELDS" => Array("UF_POSITION"),
-								"REQUIRED_FIELDS" => Array("PERSONAL_MOBILE", "PERSONAL_NOTES"),
-								"AUTH" => "Y",
-								"USE_BACKURL" => "Y",
-								"SUCCESS_PAGE" => $APPLICATION->GetCurPageParam('',array('backurl')),
-								"SET_TITLE" => "N",
-								"USER_PROPERTY" => Array()
-							)
-						);?>
-						<!--Регистрация-->
-					</div>
-					<script type="text/javascript">
-						$(document).ready(function(){
-							//Если юзер нажаол на регистрацию
-							//то делаем таб регистрации активным
-							var hashReg = location.hash;
-							if(hashReg){
-								$("#reg-tab").click();
-							}
-						});
-					</script>
 				</div>
-			</div>
-		</div>
+
+				<?
+			}?>
+
+
+
 	</div>
 </div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
