@@ -111,7 +111,7 @@ $APPLICATION->SetTitle("О проекте");
 			<!--Последняя новость на главной-->
 			<?$APPLICATION->IncludeComponent(
 				"custom:news.list",
-				"main_news",
+				"about_news",
 				Array(
 					"DISPLAY_DATE" => "Y",
 					"DISPLAY_PICTURE" => "Y",
@@ -122,7 +122,9 @@ $APPLICATION->SetTitle("О проекте");
 				)
 			);?>
 			<!--Последняя новость на главной-->
-			<!--<div class="col-md-6 col-sm-12 col-xs-12 block_news">
+
+
+			<!--<<div class="col-md-6 col-sm-12 col-xs-12 block_news">
 				<div class="news_name">Новости<a class="all">Все новости <span
 							class="glyphicon glyphicon-menu-right"></span></a></div>
 				<div class="row">
@@ -140,9 +142,9 @@ $APPLICATION->SetTitle("О проекте");
 							<div class="news_date">26 февраля 2015</div>
 							<div class="text_news">Руководство компании «Кемин Индастриз» рассматривает возможность размещения предприятия...</div>
 						</div>
-					</div>-->
+					</div>
 				</div>
-			</div>
+			</div>-->
 		</section>
 
 		<section class="block_citata">
