@@ -144,7 +144,7 @@ $APPLICATION->SetTitle("О проекте");
 		"CACHE_TYPE" => "A",
 		"CACHE_TIME" => "36000000",
 		"CACHE_FILTER" => "N",
-		"CACHE_GROUPS" => "Y",
+		"CACHE_GROUPS" => "N",
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"SET_TITLE" => "N",
 		"SET_BROWSER_TITLE" => "N",
