@@ -1,1 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
+bitrix/cache/
+bitrix/managed_cache/
+*.log
