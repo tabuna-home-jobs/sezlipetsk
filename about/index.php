@@ -248,7 +248,7 @@ $APPLICATION->SetTitle("О проекте");
 				<div class="col-md-6">
 					<div class="col-md-6 in_page_block">
 						<div class="item_block in_page_block">
-							<a class="item_block_a"><div class="hover_container">
+							<a href="/about/upravlyayushchaya-kompaniya" class="item_block_a"><div class="hover_container">
 									<div class="hover"></div>
 								</div>
 								<div class="item_bod">
