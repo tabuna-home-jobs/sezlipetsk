@@ -90,11 +90,13 @@
 								//Берем текущего пользователя по ID
 								$rsUser = CUser::GetByID($USER->GetId());
 								$arUser = $rsUser->Fetch();
+
 							?>
-							<div><?=$arUser["PERSONAL_PROFESSION"]?></div>
+							<div><?=$arUser["WORK_COMPANY"]?></div>
+							<div><?=$arUser["UF_POSITION"]?></div>
 							<div>т. <?=$arUser["PERSONAL_PHONE"]?></div>
 							<div>Е. <?=$USER->GetEmail()?></div>
-							<div>Кадастровый номер: 57</div>
+							<div>Кадастровый номер: <?=$arUser['UF_CADASTR']?></div>
 						</div>
 						<div class="red_a">
 							<a href="/">РЕДАКТИРОВАТЬ</a>
