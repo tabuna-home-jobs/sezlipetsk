@@ -173,35 +173,12 @@ $APPLICATION->SetTitle("О проекте");
 	),
 	false
 );?>
-			<!--Последняя новость на главной-->
 
-
-			<!--<<div class="col-md-6 col-sm-12 col-xs-12 block_news">
-				<div class="news_name">Новости<a class="all">Все новости <span
-							class="glyphicon glyphicon-menu-right"></span></a></div>
-				<div class="row">
-
-					-<div class="news_item col-md-6 row">
-						<div class="col-md-12 col-sm-6 col-xs-12 news_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/news.jpg"></div>
-						<div class="col-md-12 col-sm-6 col-xs-12 news_text">
-							<div class="news_date">26 февраля 2015</div>
-							<div class="text_news">Руководство компании «Кемин Индастриз» рассматривает возможность размещения предприятия...</div>
-						</div>
-					</div>
-					<div class="news_item col-md-6 row">
-						<div class="col-md-12 col-sm-6 col-xs-12 news_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/news.jpg"></div>
-						<div class="col-md-12 col-sm-6 col-xs-12 news_text">
-							<div class="news_date">26 февраля 2015</div>
-							<div class="text_news">Руководство компании «Кемин Индастриз» рассматривает возможность размещения предприятия...</div>
-						</div>
-					</div>
-				</div>
-			</div>-->
 		</section>
 
 		<section class="block_citata">
 			<div class="row">
-				<div class="col-md-6 citata">
+				<!--<div class="col-md-6 citata">
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 						<!-- Indicators -->
 						<ol class="carousel-indicators">
@@ -231,7 +208,7 @@ $APPLICATION->SetTitle("О проекте");
 							<span class="sr-only">Next</span>
 						</a>
 					</div>
-				</div>
+				</div>-->
 				<div class="col-md-6">
 					<div class="col-md-6 in_page_block">
 						<div class="item_block in_page_block">
