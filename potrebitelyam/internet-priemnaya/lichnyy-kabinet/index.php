@@ -94,10 +94,15 @@
 							"custom:main.register",
 							"",
 							Array(
-								"REGISTER_URL" => "register.php",
-								"PROFILE_URL" => "profile.php",
-								"SHOW_ERRORS" => "Y",
-								"USE_CAPTCHA" => "Y"
+								"USER_PROPERTY_NAME" => "",
+								"SEF_MODE" => "N",
+								"SHOW_FIELDS" => Array("UF_POSITION"),
+								"REQUIRED_FIELDS" => Array("PERSONAL_MOBILE", "PERSONAL_NOTES"),
+								"AUTH" => "Y",
+								"USE_BACKURL" => "Y",
+								"SUCCESS_PAGE" => $APPLICATION->GetCurPageParam('',array('backurl')),
+								"SET_TITLE" => "N",
+								"USER_PROPERTY" => Array()
 							)
 						);?>
 						<!--Регистрация-->
