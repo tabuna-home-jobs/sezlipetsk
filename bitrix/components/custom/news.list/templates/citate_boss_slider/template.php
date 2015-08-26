@@ -43,6 +43,7 @@ $this->setFrameMode(true);
 							</a>
 						</div>
 					<?else:?>
+
 						<div class="item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
 							<a>
 								<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
