@@ -75,6 +75,7 @@
 									if($USER->GetParam("PERSONAL_PHOTO")) {
 								?>
 									<img src="<?=CFile::GetPath($USER->GetParam("PERSONAL_PHOTO"));?>">
+
 								<?
 									}else{
 								?>
