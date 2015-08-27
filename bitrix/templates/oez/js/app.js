@@ -10,7 +10,7 @@ $(window).resize(function () {
 
     //размеры модальной формы
     $('.remember_form').css('max-height', $(window).height());
-
+/*
     //блок по высоте родителя
     var max_height_block = $('.max_height_block').parent().height();
     var max_width_block = $('.max_height_block').parent().width();
@@ -20,7 +20,7 @@ $(window).resize(function () {
     } else {
         $('.max_height_block').css('min-height', '300px');
     }
-
+*/
 
     //ховер кружок на блоках
     $('.item_block').each(function () {
@@ -152,6 +152,7 @@ $('.scrollbar-outer1').scrollbar();
         $('.active_step').removeClass('active_step').prev().addClass('active_step');
     });
 
+    /*
     //блок по высоте родителя
     var max_height_block = $('.max_height_block').parent().height();
     var max_width_block = $('.max_height_block').parent().width();
@@ -161,7 +162,7 @@ $('.scrollbar-outer1').scrollbar();
     } else {
         $('.max_height_block').css('min-height', '300px');
     }
-
+*/
 
     //смена класса в блоке ВХОД/РЕГИСТРАЦИЯ
     $('.login_punct').click(function () {
