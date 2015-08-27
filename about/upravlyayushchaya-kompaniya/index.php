@@ -138,6 +138,8 @@ $APPLICATION->SetTitle("Управляющая компания");
 						</div>
 					</a>
 				</div>
+
+
 				<div class="col-sm-6">
 					<a class="inform_item_a">
 						<div class="inform_item row">
