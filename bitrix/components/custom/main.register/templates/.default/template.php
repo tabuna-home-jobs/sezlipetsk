@@ -45,6 +45,34 @@ if($arResult["BACKURL"] <> ''):
 	<input type="hidden" name="backurl" value="<?=$arResult["BACKURL"]?>" />
 <?
 endif;
+
+	$newArr = array();
+	//Делаем массив таким как нам надо
+	//Перетусовываем элементы по местам
+	for($i = 0; count($arResult["SHOW_FIELDS"]) > $i; $i++){
+		if($arResult["SHOW_FIELDS"][$i] == "NAME"){
+			$newArr[0] = $arResult["SHOW_FIELDS"][$i];
+		}elseif($arResult["SHOW_FIELDS"][$i] == "SECOND_NAME"){
+			$newArr[1] = $arResult["SHOW_FIELDS"][$i];
+		}elseif($arResult["SHOW_FIELDS"][$i] == "LAST_NAME"){
+			$newArr[2] = $arResult["SHOW_FIELDS"][$i];
+		}elseif($arResult["SHOW_FIELDS"][$i] == "WORK_COMPANY"){
+			$newArr[3] = $arResult["SHOW_FIELDS"][$i];
+		}elseif($arResult["SHOW_FIELDS"][$i] == "PERSONAL_PHONE"){
+			$newArr[4] = $arResult["SHOW_FIELDS"][$i];
+		}elseif($arResult["SHOW_FIELDS"][$i] == "EMAIL"){
+			$newArr[5] = $arResult["SHOW_FIELDS"][$i];
+		}elseif($arResult["SHOW_FIELDS"][$i] == "PASSWORD"){
+			$newArr[6] = $arResult["SHOW_FIELDS"][$i];
+		}elseif($arResult["SHOW_FIELDS"][$i] == "CONFIRM_PASSWORD"){
+			$newArr[7] = $arResult["SHOW_FIELDS"][$i];
+		}
+	}
+	//Сортируем по ключу
+	ksort($newArr);
+	//И получаем замечательный вывод
+	$arResult["SHOW_FIELDS"] = $newArr;
+
 ?>
 
 
