@@ -50,7 +50,6 @@ $arResult["USE_EMAIL_CONFIRMATION"] = (COption::GetOptionString("main", "new_use
 
 // apply core fields to user defined
 $arDefaultFields = array(
-	"LOGIN",
 	"PASSWORD",
 	"CONFIRM_PASSWORD",
 );
@@ -77,6 +76,38 @@ $arResult["VALUES"] = array();
 $arResult["ERRORS"] = array();
 $register_done = false;
 
+// ********************* User properties ***************************************************
+$arResult["USER_PROPERTIES"] = array("SHOW" => "N");
+$arUserFields = $USER_FIELD_MANAGER->GetUserFields("USER", 0, LANGUAGE_ID);
+if (is_array($arUserFields) && count($arUserFields) > 0)
+{
+	if (!is_array($arParams["USER_PROPERTY"]))
+		$arParams["USER_PROPERTY"] = array($arParams["USER_PROPERTY"]);
+	foreach ($arUserFields as $FIELD_NAME => $arUserField)
+	{
+
+		if (!in_array($FIELD_NAME, $arParams["USER_PROPERTY"]) && $arUserField["MANDATORY"] != "Y")
+		{
+			continue;
+		}
+
+		if (in_array($FIELD_NAME, $arResult["REQUIRED_FIELDS"])){
+			$arUserField["MANDATORY"]="Y";
+		}
+
+		$arUserField["EDIT_FORM_LABEL"] = strLen($arUserField["EDIT_FORM_LABEL"]) > 0 ? $arUserField["EDIT_FORM_LABEL"] : $arUserField["FIELD_NAME"];
+		$arUserField["EDIT_FORM_LABEL"] = htmlspecialcharsEx($arUserField["EDIT_FORM_LABEL"]);
+		$arUserField["~EDIT_FORM_LABEL"] = $arUserField["EDIT_FORM_LABEL"];
+		$arResult["USER_PROPERTIES"]["DATA"][$FIELD_NAME] = $arUserField;
+	}
+}
+if (!empty($arResult["USER_PROPERTIES"]["DATA"]))
+{
+	$arResult["USER_PROPERTIES"]["SHOW"] = "Y";
+	$arResult["bVarsFromForm"] = (count($arResult['ERRORS']) <= 0) ? false : true;
+}
+// ******************** /User properties ***************************************************
+
 // register user
 if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_REQUEST["register_submit_button"]) && !$USER->IsAuthorized())
 {
@@ -94,13 +125,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_REQUEST["register_submit_bu
 				$arResult["ERRORS"][] = GetMessage("main_register_decode_err", array("#ERRCODE#"=>$errno));
 		}
 	}
-
 	// check emptiness of required fields
 	foreach ($arResult["SHOW_FIELDS"] as $key)
 	{
 		if ($key != "PERSONAL_PHOTO" && $key != "WORK_LOGO")
 		{
 			$arResult["VALUES"][$key] = $_REQUEST["REGISTER"][$key];
+
 			if (in_array($key, $arResult["REQUIRED_FIELDS"]) && trim($arResult["VALUES"][$key]) == '')
 				$arResult["ERRORS"][$key] = GetMessage("REGISTER_FIELD_REQUIRED");
 		}
@@ -113,6 +144,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_REQUEST["register_submit_bu
 		}
 	}
 
+	//check emptiness of required user_properties
+	foreach ($arUserFields as $FIELD_NAME => $arUserField)
+	{
+		if (!in_array($FIELD_NAME, $arParams["USER_PROPERTY"]))
+		{
+			continue;
+		}
+		$arResult["VALUES"][$FIELD_NAME] = $_REQUEST[$FIELD_NAME];
+		$arResult["USER_PROPERTIES"]["DATA"][$FIELD_NAME]["VALUE"] = $_REQUEST[$FIELD_NAME];
+		if (in_array($FIELD_NAME, $arResult["REQUIRED_FIELDS"]) && trim($arResult["VALUES"][$FIELD_NAME]) == ''){
+			$arResult["ERRORS"][$FIELD_NAME] = GetMessage("REGISTER_FIELD_REQUIRED",Array("#FIELD_NAME#"=>'"'.$arUserField["EDIT_FORM_LABEL"].'"'));
+		}
+	}
 	if(isset($_REQUEST["REGISTER"]["TIME_ZONE"]))
 		$arResult["VALUES"]["TIME_ZONE"] = $_REQUEST["REGISTER"]["TIME_ZONE"];
 
@@ -139,7 +183,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_REQUEST["register_submit_bu
 		{
 			$arError = $arResult["ERRORS"];
 			foreach($arError as $key => $error)
-				if(intval($key) == 0 && $key !== 0) 
+				if(intval($key) == 0 && $key !== 0)
 					$arError[$key] = str_replace("#FIELD_NAME#", '"'.$key.'"', $error);
 			CEventLog::Log("SECURITY", "USER_REGISTER_FAIL", "main", false, implode("<br>", $arError));
 		}
@@ -156,7 +200,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_REQUEST["register_submit_bu
 
 		$arResult['VALUES']["USER_IP"] = $_SERVER["REMOTE_ADDR"];
 		$arResult['VALUES']["USER_HOST"] = @gethostbyaddr($_SERVER["REMOTE_ADDR"]);
-		
+
 		if($arResult["VALUES"]["AUTO_TIME_ZONE"] <> "Y" && $arResult["VALUES"]["AUTO_TIME_ZONE"] <> "N")
 			$arResult["VALUES"]["AUTO_TIME_ZONE"] = "";
 
@@ -250,45 +294,19 @@ foreach ($arResult["REQUIRED_FIELDS"] as $field)
 $arResult["BACKURL"] = htmlspecialcharsbx($_REQUEST["backurl"]);
 
 // get countries list
-if (in_array("PERSONAL_COUNTRY", $arResult["SHOW_FIELDS"]) || in_array("WORK_COUNTRY", $arResult["SHOW_FIELDS"])) 
+if (in_array("PERSONAL_COUNTRY", $arResult["SHOW_FIELDS"]) || in_array("WORK_COUNTRY", $arResult["SHOW_FIELDS"]))
 	$arResult["COUNTRIES"] = GetCountryArray();
 
 // get date format
-if (in_array("PERSONAL_BIRTHDAY", $arResult["SHOW_FIELDS"])) 
+if (in_array("PERSONAL_BIRTHDAY", $arResult["SHOW_FIELDS"]))
 	$arResult["DATE_FORMAT"] = CLang::GetDateFormat("SHORT");
-
-// ********************* User properties ***************************************************
-$arResult["USER_PROPERTIES"] = array("SHOW" => "N");
-$arUserFields = $USER_FIELD_MANAGER->GetUserFields("USER", 0, LANGUAGE_ID);
-if (is_array($arUserFields) && count($arUserFields) > 0)
-{
-	if (!is_array($arParams["USER_PROPERTY"]))
-		$arParams["USER_PROPERTY"] = array($arParams["USER_PROPERTY"]);
-
-	foreach ($arUserFields as $FIELD_NAME => $arUserField)
-	{
-		if (!in_array($FIELD_NAME, $arParams["USER_PROPERTY"]) && $arUserField["MANDATORY"] != "Y")
-			continue;
-
-		$arUserField["EDIT_FORM_LABEL"] = strLen($arUserField["EDIT_FORM_LABEL"]) > 0 ? $arUserField["EDIT_FORM_LABEL"] : $arUserField["FIELD_NAME"];
-		$arUserField["EDIT_FORM_LABEL"] = htmlspecialcharsEx($arUserField["EDIT_FORM_LABEL"]);
-		$arUserField["~EDIT_FORM_LABEL"] = $arUserField["EDIT_FORM_LABEL"];
-		$arResult["USER_PROPERTIES"]["DATA"][$FIELD_NAME] = $arUserField;
-	}
-}
-if (!empty($arResult["USER_PROPERTIES"]["DATA"]))
-{
-	$arResult["USER_PROPERTIES"]["SHOW"] = "Y";
-	$arResult["bVarsFromForm"] = (count($arResult['ERRORS']) <= 0) ? false : true;
-}
-// ******************** /User properties ***************************************************
 
 // initialize captcha
 if ($arResult["USE_CAPTCHA"] == "Y")
 	$arResult["CAPTCHA_CODE"] = htmlspecialcharsbx($APPLICATION->CaptchaGetCode());
 
 // set title
-if ($arParams["SET_TITLE"] == "Y") 
+if ($arParams["SET_TITLE"] == "Y")
 	$APPLICATION->SetTitle(GetMessage("REGISTER_DEFAULT_TITLE"));
 
 //time zones

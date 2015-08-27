@@ -75,7 +75,7 @@
 					   aria-controls="registration_panel" aria-expanded="true">РЕГИСТРАЦИЯ</a>
 				</div>
 				<div id="main_content_tabs" class="tab-content">
-					<div role="tabpanel" class="tab-pane fade active in" id="login_panel">
+					<div role="tabpanel" <?=!isset($_POST["REGISTER"]) ? 'class="tab-pane fade active in"' : 'class="tab-pane fade"'?> id="login_panel">
 						<!--Авторизация-->
 						<?$APPLICATION->IncludeComponent(
 							"custom:system.auth.form",
@@ -88,23 +88,42 @@
 						);?>
 						<!--Авторизация-->
 					</div>
-					<div role="tabpanel" class="tab-pane fade" id="registration_panel">
+					<div role="tabpanel" <?=isset($_POST["REGISTER"]) ? 'class="tab-pane fade active in"' : 'class="tab-pane fade"'?> id="registration_panel">
 						<!--Регистрация-->
 						<?$APPLICATION->IncludeComponent(
-							"custom:main.register",
-							"",
-							Array(
-								"USER_PROPERTY_NAME" => "",
-								"SEF_MODE" => "N",
-								"SHOW_FIELDS" => Array("UF_POSITION"),
-								"REQUIRED_FIELDS" => Array("PERSONAL_MOBILE", "PERSONAL_NOTES"),
-								"AUTH" => "Y",
-								"USE_BACKURL" => "Y",
-								"SUCCESS_PAGE" => $APPLICATION->GetCurPageParam('',array('backurl')),
-								"SET_TITLE" => "N",
-								"USER_PROPERTY" => Array()
-							)
-						);?>
+	"custom:main.register",
+	".default",
+	array(
+		"USER_PROPERTY_NAME" => "",
+		"SEF_MODE" => "N",
+		"SHOW_FIELDS" => array(
+			0 => "NAME",
+			1 => "SECOND_NAME",
+			2 => "LAST_NAME",
+			3 => "PERSONAL_PHONE",
+			4 => "WORK_COMPANY",
+		),
+		"REQUIRED_FIELDS" => array(
+			0 => "NAME",
+			1 => "SECOND_NAME",
+			2 => "LAST_NAME",
+			3 => "PERSONAL_PHONE",
+			4 => "WORK_COMPANY",
+			5 => "UF_POSITION",
+			6 => "UF_CADASTR",
+		),
+		"AUTH" => "Y",
+		"USE_BACKURL" => "Y",
+		"SUCCESS_PAGE" => $APPLICATION->GetCurPageParam("",array("backurl")),
+		"SET_TITLE" => "N",
+		"USER_PROPERTY" => array(
+			0 => "UF_POSITION",
+			1 => "UF_CADASTR",
+		),
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 						<!--Регистрация-->
 					</div>
 					<script type="text/javascript">
