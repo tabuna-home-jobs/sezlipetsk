@@ -18,7 +18,7 @@
 if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)
 	die();
 ?>
- <div class="inputs_container">
+
 
 <?if($USER->IsAuthorized()):?>
 
@@ -39,6 +39,7 @@ elseif($arResult["USE_EMAIL_CONFIRMATION"] === "Y"):
 <?endif?>
 
 <form method="post" action="<?=POST_FORM_ACTION_URI?>" name="regform" enctype="multipart/form-data">
+	<div class="inputs_container">
 <?
 if($arResult["BACKURL"] <> ''):
 ?>
@@ -79,7 +80,9 @@ endif;
 <?foreach ($arResult["SHOW_FIELDS"] as $FIELD):?>
 	<?if($FIELD == "AUTO_TIME_ZONE" && $arResult["TIME_ZONE_ENABLED"] == true):?>
 		<div class="row">
-			<div class="col-xs-6 labels_left"><?echo GetMessage("main_profile_time_zones_auto")?><?if ($arResult["REQUIRED_FIELDS_FLAGS"][$FIELD] == "Y"):?><span class="starrequired">*</span><?endif?></div>
+			<div class="col-xs-6 labels_left"><span class="star_red">*</span>
+				<?echo GetMessage("main_profile_time_zones_auto")?>
+				<?if ($arResult["REQUIRED_FIELDS_FLAGS"][$FIELD] == "Y"):?><?endif?></div>
 			<div class="col-xs-6 inputs_right">
 				<select name="REGISTER[AUTO_TIME_ZONE]" onchange="this.form.elements['REGISTER[TIME_ZONE]'].disabled=(this.value != 'N')">
 					<option value=""><?echo GetMessage("main_profile_time_zones_auto_def")?></option>
@@ -100,12 +103,14 @@ endif;
 		</div>
 	<?else:?>
 		<div class="row">
-			<div class="col-xs-6 labels_left"><?=GetMessage("REGISTER_FIELD_" . $FIELD)?>:<?if ($arResult["REQUIRED_FIELDS_FLAGS"][$FIELD] == "Y"):?><span class="starrequired">*</span><?endif?></div>
-			<div class="col-xs-6 labels_left"><?
+			<div class="col-xs-6 labels_left"><span class="star_red">*</span><?=GetMessage("REGISTER_FIELD_" . $FIELD)?>:<?if ($arResult["REQUIRED_FIELDS_FLAGS"][$FIELD] == "Y"):?>
+					<?endif?>
+			</div>
+			<div class="col-xs-6 inputs_right"><?
 	switch ($FIELD)
 	{
 		case "PASSWORD":
-			?><input size="30" type="password" name="REGISTER[<?=$FIELD?>]" value="<?=$arResult["VALUES"][$FIELD]?>" autocomplete="off" class="bx-auth-input" />
+			?><input  type="password" name="REGISTER[<?=$FIELD?>]" value="<?=$arResult["VALUES"][$FIELD]?>" autocomplete="off" />
 <?if($arResult["SECURE_AUTH"]):?>
 				<span class="bx-auth-secure" id="bx_auth_secure" title="<?echo GetMessage("AUTH_SECURE_NOTE")?>" style="display:none">
 					<div class="bx-auth-secure-icon"></div>
@@ -122,7 +127,7 @@ document.getElementById('bx_auth_secure').style.display = 'inline-block';
 <?
 			break;
 		case "CONFIRM_PASSWORD":
-			?><input size="30" type="password" name="REGISTER[<?=$FIELD?>]" value="<?=$arResult["VALUES"][$FIELD]?>" autocomplete="off" /><?
+			?><input type="password" name="REGISTER[<?=$FIELD?>]" value="<?=$arResult["VALUES"][$FIELD]?>" autocomplete="off" /><?
 			break;
 
 		case "PERSONAL_GENDER":
@@ -146,7 +151,7 @@ document.getElementById('bx_auth_secure').style.display = 'inline-block';
 
 		case "PERSONAL_PHOTO":
 		case "WORK_LOGO":
-			?><input size="30" type="file" name="REGISTER_FILES_<?=$FIELD?>" /><?
+			?><input type="file" name="REGISTER_FILES_<?=$FIELD?>" /><?
 			break;
 
 		case "PERSONAL_NOTES":
@@ -166,11 +171,11 @@ document.getElementById('bx_auth_secure').style.display = 'inline-block';
 <?if($arResult["USER_PROPERTIES"]["SHOW"] == "Y"):?>
 	<?foreach ($arResult["USER_PROPERTIES"]["DATA"] as $FIELD_NAME => $arUserField):?>
 	<div class="row">
-	 <div class="col-xs-6 labels_left">
-	<?=$arUserField["EDIT_FORM_LABEL"]?>:<?if ($arUserField["MANDATORY"]=="Y"):?><span class="starrequired">*</span><?endif;?></div>
-	 <div class="col-xs-6 labels_left">
+	 <div class="col-xs-6 labels_left"><span class="star_red">*</span>
+	<?=$arUserField["EDIT_FORM_LABEL"]?>:<?if ($arUserField["MANDATORY"]=="Y"):?><?endif;?></div>
+	 <div class="col-xs-6 inputs_right">
 			<?$APPLICATION->IncludeComponent(
-				"bitrix:system.field.edit",
+				"custom:system.field.edit",
 				$arUserField["USER_TYPE"]["USER_TYPE_ID"],
 				array("bVarsFromForm" => $arResult["bVarsFromForm"], "arUserField" => $arUserField, "form_name" => "regform"), null, array("HIDE_ICONS"=>"Y"));?>
 	</div>
@@ -202,12 +207,12 @@ if ($arResult["USE_CAPTCHA"] == "Y")
 
                                     </div>
                                     <div class="col-xs-6 inputs_right">
-                                        <input type="submit" name="register_submit_button" value="<?=GetMessage("AUTH_REGISTER")?>" />
+                                        <input type="submit" class="sub-button" name="register_submit_button" value="<?=GetMessage("AUTH_REGISTER")?>" />
                                     </div>
                                 </div>
 <p><?echo $arResult["GROUP_POLICY"]["PASSWORD_REQUIREMENTS"];?></p>
-<p><span class="starrequired">*</span><?=GetMessage("AUTH_REQ")?></p>
-
+<p><span class="star_red">*</span><?=GetMessage("AUTH_REQ")?></p>
+	</div>
 </form>
 <?endif?>
-</div>
+
