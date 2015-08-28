@@ -13,6 +13,12 @@ $arUrlRewrite = array(
 		"PATH" => "",
 	),
 	array(
+		"CONDITION" => "#^/about/rezidenty/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/about/rezidenty/index.php",
+	),
+	array(
 		"CONDITION" => "#^/nationalnews/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
@@ -37,10 +43,10 @@ $arUrlRewrite = array(
 		"PATH" => "/themes/index.php",
 	),
 	array(
-		"CONDITION" => "#^/forum/#",
+		"CONDITION" => "#^/blogs/#",
 		"RULE" => "",
-		"ID" => "bitrix:forum",
-		"PATH" => "/forum/index.php",
+		"ID" => "bitrix:blog",
+		"PATH" => "/blogs/index.php",
 	),
 	array(
 		"CONDITION" => "#^/photo/#",
@@ -49,10 +55,10 @@ $arUrlRewrite = array(
 		"PATH" => "/photo/index.php",
 	),
 	array(
-		"CONDITION" => "#^/blogs/#",
+		"CONDITION" => "#^/forum/#",
 		"RULE" => "",
-		"ID" => "bitrix:blog",
-		"PATH" => "/blogs/index.php",
+		"ID" => "bitrix:forum",
+		"PATH" => "/forum/index.php",
 	),
 	array(
 		"CONDITION" => "#^/news/#",
