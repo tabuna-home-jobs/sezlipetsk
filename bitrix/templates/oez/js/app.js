@@ -129,28 +129,28 @@ $('.scrollbar-outer1').scrollbar();
      }
 
      });*/
-    $('.next_step').click(function () {
-        var but = $(this);
-        but.parent().parent().removeClass('step_item_active').next().addClass('step_item_active');
-        $('.active_step').removeClass('active_step').next().addClass('active_step');
-        var table_height = 0;
-        $('.column_heder').each(function () {
-            var height = $(this).height();
-            if (table_height < height) {
-                table_height = height;
-            }
-        });
-        $('.column_heder').height(table_height);
-        $('.textarea_input').each(function () {
-            var height = $(this).parent().prev().height();
-            $(this).height(height);
-        });
-    });
-    $('.back_step').click(function () {
-        var but = $(this);
-        but.parent().parent().removeClass('step_item_active').prev().addClass('step_item_active');
-        $('.active_step').removeClass('active_step').prev().addClass('active_step');
-    });
+    // $('.next_step').click(function () {
+    //     var but = $(this);
+    //     but.parent().parent().removeClass('step_item_active').next().addClass('step_item_active');
+    //     $('.active_step').removeClass('active_step').next().addClass('active_step');
+    //     var table_height = 0;
+    //     $('.column_heder').each(function () {
+    //         var height = $(this).height();
+    //         if (table_height < height) {
+    //             table_height = height;
+    //         }
+    //     });
+    //     $('.column_heder').height(table_height);
+    //     $('.textarea_input').each(function () {
+    //         var height = $(this).parent().prev().height();
+    //         $(this).height(height);
+    //     });
+    // });
+    // $('.back_step').click(function () {
+    //     var but = $(this);
+    //     but.parent().parent().removeClass('step_item_active').prev().addClass('step_item_active');
+    //     $('.active_step').removeClass('active_step').prev().addClass('active_step');
+    // });
 
     /*
     //блок по высоте родителя

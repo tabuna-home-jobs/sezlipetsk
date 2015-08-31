@@ -1,56 +1,56 @@
-2015-Aug-26 12:04:29 Наличие необходимых модулей php (check_php_modules): Ok
+2015-Aug-28 10:36:41 Наличие необходимых модулей php (check_php_modules): Ok
 Все необходимые модули установлены
-2015-Aug-26 12:04:30 Обязательные параметры PHP (check_php_settings): Fail
+2015-Aug-28 10:36:42 Обязательные параметры PHP (check_php_settings): Fail
 Ошибка! Значение max_input_vars должно быть не ниже 10000. Текущее значение: 1000
-2015-Aug-26 12:04:31 Модули веб-сервера (check_security): Ok
+2015-Aug-28 10:36:42 Модули веб-сервера (check_security): Ok
 Конфликтов не выявлено
-2015-Aug-26 12:04:31 Значения переменных сервера (check_server_vars): Fail
+2015-Aug-28 10:36:43 Значения переменных сервера (check_server_vars): Fail
 Ошибка! Текущий домен не валидный (sezlipetsk). Может содержать только цифры, латинские буквы и дефис. Должен содержать точку.
-2015-Aug-26 12:04:32 Сохранение сессии (check_session): Ok
+2015-Aug-28 10:36:43 Сохранение сессии (check_session): Ok
 50% done
-2015-Aug-26 12:04:33 Сохранение сессии (check_session): Ok
+2015-Aug-28 10:36:44 Сохранение сессии (check_session): Ok
 Успешно
-2015-Aug-26 12:04:33 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+2015-Aug-28 10:36:44 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
 Правильные. Сайт работает в UTF кодировке
-2015-Aug-26 12:04:34 Работа с сокетами (check_socket): Ok
+2015-Aug-28 10:36:45 Работа с сокетами (check_socket): Ok
 Connection to sezlipetsk:80	Success
 
 Успешно
-2015-Aug-26 12:04:34 Параметры подключения к базе данных (check_dbconn_settings): Ok
+2015-Aug-28 10:36:45 Параметры подключения к базе данных (check_dbconn_settings): Ok
 Успешно
-2015-Aug-26 12:04:37 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+2015-Aug-28 10:36:48 Лишний вывод в файлах конфигурации (check_dbconn): Ok
 Connection to sezlipetsk:80	Success
 
 Успешно
-2015-Aug-26 12:04:38 Выполнение агентов на cron (check_bx_crontab): Warning
+2015-Aug-28 10:36:48 Выполнение агентов на cron (check_bx_crontab): Warning
 Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
-2015-Aug-26 12:04:38 Сохранение сессии без UserAgent (check_session_ua): Ok
+2015-Aug-28 10:36:49 Сохранение сессии без UserAgent (check_session_ua): Ok
 50% done
 Connection to sezlipetsk:80	Success
 
-2015-Aug-26 12:04:39 Сохранение сессии без UserAgent (check_session_ua): Ok
+2015-Aug-28 10:36:49 Сохранение сессии без UserAgent (check_session_ua): Ok
 Connection to sezlipetsk:80	Success
 
 Успешно
-2015-Aug-26 12:04:40 Настройки сайтов (check_sites): Ok
+2015-Aug-28 10:36:50 Настройки сайтов (check_sites): Ok
 Правильные
-2015-Aug-26 12:04:40 Служебные скрипты в корне сайта (check_install_scripts): Ok
+2015-Aug-28 10:36:50 Служебные скрипты в корне сайта (check_install_scripts): Ok
 Отсутствуют
-2015-Aug-26 12:04:41 Передача объектов по ссылке (check_clone): Ok
+2015-Aug-28 10:36:51 Передача объектов по ссылке (check_clone): Ok
 Успешно
-2015-Aug-26 12:04:42 Размер стека и pcre.recursion_limit (check_pcre_recursion): Fail
+2015-Aug-28 10:36:51 Размер стека и pcre.recursion_limit (check_pcre_recursion): Fail
 Connection to sezlipetsk:80	Success
 
 Ошибка! Не работает
-2015-Aug-26 12:04:42 Вызов method_exists на строке (check_method_exists): Ok
+2015-Aug-28 10:36:52 Вызов method_exists на строке (check_method_exists): Ok
 Connection to sezlipetsk:80	Success
 
 Успешно
-2015-Aug-26 12:04:43 Загрузка файла (check_upload): Ok
+2015-Aug-28 10:36:53 Загрузка файла (check_upload): Ok
 Connection to sezlipetsk:80	Success
 
 Успешно
-2015-Aug-26 12:04:43 Загрузка файла больше 4Мб (check_upload_big): Fail
+2015-Aug-28 10:36:53 Загрузка файла больше 4Мб (check_upload_big): Fail
 Connection to sezlipetsk:80	Success
 == Request ==
 POST /bitrix/admin/site_checker.php?test_type=upload_test&unique_id=f08e934138695c6d28c1625fa1e8093a&big=1&raw=0 HTTP/1.1
@@ -66,7 +66,7 @@ Content-Type: image/gif
 == Response ==
 HTTP/1.1 200 OK
 Server: nginx/1.4.6 (Ubuntu)
-Date: Wed, 26 Aug 2015 09:04:43 GMT
+Date: Fri, 28 Aug 2015 07:36:53 GMT
 Content-Type: text/html; charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -92,71 +92,161 @@ Array
 ==========
 
 Ошибка! Не работает
-2015-Aug-26 12:04:44 Загрузка файла через php://input (check_upload_raw): Ok
+2015-Aug-28 10:36:54 Загрузка файла через php://input (check_upload_raw): Ok
 Connection to sezlipetsk:80	Success
 
 Успешно
-2015-Aug-26 12:04:45 Передача POST запроса с большим числом параметров (check_post): Ok
+2015-Aug-28 10:36:54 Передача POST запроса с большим числом параметров (check_post): Ok
 Connection to sezlipetsk:80	Success
 
 Успешно
-2015-Aug-26 12:04:45 Отправка почты (check_mail): Fail
+2015-Aug-28 10:36:55 Отправка почты (check_mail): Fail
 Ошибка! Не работает
-2015-Aug-26 12:04:46 Отправка почтового сообщения больше 64Кб (check_mail_big): Fail
+2015-Aug-28 10:36:55 Отправка почтового сообщения больше 64Кб (check_mail_big): Fail
 Ошибка! Не работает
-2015-Aug-26 12:04:47 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+2015-Aug-28 10:36:56 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
 Успешно
-2015-Aug-26 12:04:47 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+2015-Aug-28 10:36:56 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
 50% done
 Connection to sezlipetsk:80	Success
 
-2015-Aug-26 12:04:48 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+2015-Aug-28 10:36:57 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
 Connection to sezlipetsk:80	Success
 
 Успешно
-2015-Aug-26 12:04:49 Фактическое ограничение памяти (check_memory_limit): Ok
+2015-Aug-28 10:36:57 Фактическое ограничение памяти (check_memory_limit): Ok
 20% done
 Connection to sezlipetsk:80	Success
 
-2015-Aug-26 12:04:49 Фактическое ограничение памяти (check_memory_limit): Ok
+2015-Aug-28 10:36:58 Фактическое ограничение памяти (check_memory_limit): Ok
 40% done
 Connection to sezlipetsk:80	Success
 
-2015-Aug-26 12:04:50 Фактическое ограничение памяти (check_memory_limit): Ok
+2015-Aug-28 10:36:58 Фактическое ограничение памяти (check_memory_limit): Ok
 60% done
 Connection to sezlipetsk:80	Success
 
-2015-Aug-26 12:04:51 Фактическое ограничение памяти (check_memory_limit): Ok
+2015-Aug-28 10:36:59 Фактическое ограничение памяти (check_memory_limit): Ok
 80% done
 Connection to sezlipetsk:80	Success
 
-2015-Aug-26 12:04:52 Фактическое ограничение памяти (check_memory_limit): Ok
+2015-Aug-28 10:37:00 Фактическое ограничение памяти (check_memory_limit): Ok
 Connection to sezlipetsk:80	Success
 
 Не менее 256 М
-2015-Aug-26 12:04:52 Работа с файлами кеша (check_cache): Ok
+2015-Aug-28 10:37:00 Работа с файлами кеша (check_cache): Ok
 Успешно
-2015-Aug-26 12:04:53 Доступ к серверу обновлений (check_update): Ok
+2015-Aug-28 10:37:01 Доступ к серверу обновлений (check_update): Ok
 Успешно
-2015-Aug-26 12:04:54 HTTP авторизация (check_http_auth): Ok
+2015-Aug-28 10:37:01 HTTP авторизация (check_http_auth): Ok
 Connection to sezlipetsk:80	Success
 
 Успешно
-2015-Aug-26 12:04:54 Создание и запуск файла (check_exec): Ok
+2015-Aug-28 10:37:02 Создание и запуск файла (check_exec): Ok
 Connection to sezlipetsk:80	Success
 
 Успешно
-2015-Aug-26 12:04:55 Функция getimagesize для swf (check_getimagesize): Warning
+2015-Aug-28 10:37:03 Функция getimagesize для swf (check_getimagesize): Warning
 Замечание. Вставка swf роликов может не работать
-2015-Aug-26 12:04:56 Версия MySQL-сервера (check_mysql_bug_version): Ok
+2015-Aug-28 10:37:03 Версия MySQL-сервера (check_mysql_bug_version): Ok
 Успешно
-2015-Aug-26 12:04:58 Время на БД и веб-сервере (check_mysql_time): Fail
-Ошибка! Время отличается на 1 секунд
-2015-Aug-26 12:04:58 Режим работы MySQL (check_mysql_mode): Ok
+2015-Aug-28 10:37:05 Время на БД и веб-сервере (check_mysql_time): Fail
+Ошибка! Время отличается на 2 секунд
+2015-Aug-28 10:37:05 Режим работы MySQL (check_mysql_mode): Ok
 Успешно
-2015-Aug-26 12:04:59 Кодировка соединения (check_mysql_connection_charset): Ok
+2015-Aug-28 10:37:06 Кодировка соединения (check_mysql_connection_charset): Ok
 character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
 Успешно
-2015-Aug-26 12:05:00 Кодировка базы данных (check_mysql_db_charset): Ok
+2015-Aug-28 10:37:07 Кодировка базы данных (check_mysql_db_charset): Ok
 CHARSET=utf8, COLLATION=utf8_unicode_ci
+Успешно
+2015-Aug-28 10:37:17 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+17% done
+2015-Aug-28 10:37:27 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+35% done
+2015-Aug-28 10:37:37 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+53% done
+2015-Aug-28 10:37:47 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+71% done
+2015-Aug-28 10:37:57 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+88% done
+2015-Aug-28 10:38:03 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+Успешно
+2015-Aug-28 10:38:10 Структура базы данных (check_mysql_table_structure): Ok
+0% done
+2015-Aug-28 10:38:10 Структура базы данных (check_mysql_table_structure): Ok
+2% done
+2015-Aug-28 10:38:21 Структура базы данных (check_mysql_table_structure): Ok
+5% done
+2015-Aug-28 10:38:42 Структура базы данных (check_mysql_table_structure): Ok
+7% done
+2015-Aug-28 10:38:44 Структура базы данных (check_mysql_table_structure): Ok
+10% done
+2015-Aug-28 10:38:44 Структура базы данных (check_mysql_table_structure): Ok
+13% done
+2015-Aug-28 10:39:15 Структура базы данных (check_mysql_table_structure): Ok
+15% done
+2015-Aug-28 10:39:39 Структура базы данных (check_mysql_table_structure): Ok
+18% done
+2015-Aug-28 10:39:41 Структура базы данных (check_mysql_table_structure): Ok
+21% done
+2015-Aug-28 10:39:47 Структура базы данных (check_mysql_table_structure): Ok
+23% done
+2015-Aug-28 10:39:48 Структура базы данных (check_mysql_table_structure): Ok
+26% done
+2015-Aug-28 10:39:59 Структура базы данных (check_mysql_table_structure): Ok
+28% done
+2015-Aug-28 10:40:00 Структура базы данных (check_mysql_table_structure): Ok
+31% done
+2015-Aug-28 10:40:22 Структура базы данных (check_mysql_table_structure): Ok
+34% done
+2015-Aug-28 10:40:30 Структура базы данных (check_mysql_table_structure): Ok
+36% done
+2015-Aug-28 10:40:33 Структура базы данных (check_mysql_table_structure): Ok
+39% done
+2015-Aug-28 10:40:33 Структура базы данных (check_mysql_table_structure): Ok
+42% done
+2015-Aug-28 10:40:36 Структура базы данных (check_mysql_table_structure): Ok
+44% done
+2015-Aug-28 10:40:44 Структура базы данных (check_mysql_table_structure): Ok
+47% done
+2015-Aug-28 10:40:58 Структура базы данных (check_mysql_table_structure): Ok
+50% done
+2015-Aug-28 10:40:59 Структура базы данных (check_mysql_table_structure): Ok
+52% done
+2015-Aug-28 10:41:16 Структура базы данных (check_mysql_table_structure): Ok
+55% done
+2015-Aug-28 10:41:17 Структура базы данных (check_mysql_table_structure): Ok
+57% done
+2015-Aug-28 10:42:18 Структура базы данных (check_mysql_table_structure): Ok
+60% done
+2015-Aug-28 10:42:20 Структура базы данных (check_mysql_table_structure): Ok
+63% done
+2015-Aug-28 10:42:27 Структура базы данных (check_mysql_table_structure): Ok
+65% done
+2015-Aug-28 10:42:32 Структура базы данных (check_mysql_table_structure): Ok
+68% done
+2015-Aug-28 10:42:34 Структура базы данных (check_mysql_table_structure): Ok
+71% done
+2015-Aug-28 10:42:46 Структура базы данных (check_mysql_table_structure): Ok
+73% done
+2015-Aug-28 10:42:47 Структура базы данных (check_mysql_table_structure): Ok
+76% done
+2015-Aug-28 10:42:59 Структура базы данных (check_mysql_table_structure): Ok
+78% done
+2015-Aug-28 10:43:13 Структура базы данных (check_mysql_table_structure): Ok
+81% done
+2015-Aug-28 10:43:30 Структура базы данных (check_mysql_table_structure): Ok
+84% done
+2015-Aug-28 10:43:51 Структура базы данных (check_mysql_table_structure): Ok
+86% done
+2015-Aug-28 10:43:59 Структура базы данных (check_mysql_table_structure): Ok
+89% done
+2015-Aug-28 10:44:00 Структура базы данных (check_mysql_table_structure): Ok
+92% done
+2015-Aug-28 10:44:14 Структура базы данных (check_mysql_table_structure): Ok
+94% done
+2015-Aug-28 10:44:21 Структура базы данных (check_mysql_table_structure): Ok
+97% done
+2015-Aug-28 10:44:21 Структура базы данных (check_mysql_table_structure): Ok
 Успешно

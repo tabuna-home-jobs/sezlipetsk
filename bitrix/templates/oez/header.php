@@ -16,7 +16,7 @@ IncludeTemplateLangFile(__FILE__);
 	<link href="<?=SITE_TEMPLATE_PATH?>/slick/slick.css" rel="stylesheet" type="text/css"/>
 	<link href="<?=SITE_TEMPLATE_PATH?>/slick/slick-theme.css" rel="stylesheet" type="text/css"/>
 	<?$APPLICATION->ShowHead();?>
-	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery-2.1.4.min.js"></script>
+	<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/jquery-2.1.4.min.js');?>
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/bootstrap.min.js"></script>
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.slimscroll.js"></script>
 	<script src="<?=SITE_TEMPLATE_PATH?>/slick/slick.min.js"></script>
