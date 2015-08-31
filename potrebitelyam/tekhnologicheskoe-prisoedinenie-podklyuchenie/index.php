@@ -2,7 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Технологическое присоединение / подключение");
 ?><?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"custom:news.list_connect",
 	"",
 	Array(
 		"COMPONENT_TEMPLATE" => ".default",
