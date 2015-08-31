@@ -3,3 +3,4 @@ bitrix/managed_cache/
 bitrix/stack_cache/
 .idea/ 
 *.log
+upload/tmp

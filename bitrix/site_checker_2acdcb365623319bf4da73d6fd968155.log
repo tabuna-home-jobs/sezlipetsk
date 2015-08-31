@@ -1,162 +1,128 @@
-2015-Aug-26 12:04:29 Наличие необходимых модулей php (check_php_modules): Ok
+2015-Aug-28 14:34:32 Наличие необходимых модулей php (check_php_modules): Ok
 Все необходимые модули установлены
-2015-Aug-26 12:04:30 Обязательные параметры PHP (check_php_settings): Fail
+2015-Aug-28 14:34:33 Обязательные параметры PHP (check_php_settings): Fail
 Ошибка! Значение max_input_vars должно быть не ниже 10000. Текущее значение: 1000
-2015-Aug-26 12:04:31 Модули веб-сервера (check_security): Ok
+2015-Aug-28 14:34:33 Модули веб-сервера (check_security): Ok
 Конфликтов не выявлено
-2015-Aug-26 12:04:31 Значения переменных сервера (check_server_vars): Fail
-Ошибка! Текущий домен не валидный (sezlipetsk). Может содержать только цифры, латинские буквы и дефис. Должен содержать точку.
-2015-Aug-26 12:04:32 Сохранение сессии (check_session): Ok
+2015-Aug-28 14:34:34 Значения переменных сервера (check_server_vars): Ok
+Корректные
+2015-Aug-28 14:34:34 Сохранение сессии (check_session): Ok
 50% done
-2015-Aug-26 12:04:33 Сохранение сессии (check_session): Ok
+2015-Aug-28 14:34:35 Сохранение сессии (check_session): Ok
 Успешно
-2015-Aug-26 12:04:33 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
-Правильные. Сайт работает в UTF кодировке
-2015-Aug-26 12:04:34 Работа с сокетами (check_socket): Ok
-Connection to sezlipetsk:80	Success
+2015-Aug-28 14:34:35 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Fail
+Ошибка! Строковые функции работают некорректно. Такая ситуация может возникать из-за ошибки в PHP 5.6 (https://bugs.php.net/bug.php?id=68644), в этом случае надо установить более раннюю или более позднюю версию PHP.
+2015-Aug-28 14:34:36 Работа с сокетами (check_socket): Ok
+Connection to sezlipetsk.local:80	Success
 
 Успешно
-2015-Aug-26 12:04:34 Параметры подключения к базе данных (check_dbconn_settings): Ok
+2015-Aug-28 14:34:36 Параметры подключения к базе данных (check_dbconn_settings): Ok
 Успешно
-2015-Aug-26 12:04:37 Лишний вывод в файлах конфигурации (check_dbconn): Ok
-Connection to sezlipetsk:80	Success
+2015-Aug-28 14:34:41 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+Connection to sezlipetsk.local:80	Success
 
 Успешно
-2015-Aug-26 12:04:38 Выполнение агентов на cron (check_bx_crontab): Warning
+2015-Aug-28 14:34:41 Выполнение агентов на cron (check_bx_crontab): Warning
 Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
-2015-Aug-26 12:04:38 Сохранение сессии без UserAgent (check_session_ua): Ok
+2015-Aug-28 14:34:42 Сохранение сессии без UserAgent (check_session_ua): Ok
 50% done
-Connection to sezlipetsk:80	Success
+Connection to sezlipetsk.local:80	Success
 
-2015-Aug-26 12:04:39 Сохранение сессии без UserAgent (check_session_ua): Ok
-Connection to sezlipetsk:80	Success
+2015-Aug-28 14:34:43 Сохранение сессии без UserAgent (check_session_ua): Ok
+Connection to sezlipetsk.local:80	Success
 
 Успешно
-2015-Aug-26 12:04:40 Настройки сайтов (check_sites): Ok
+2015-Aug-28 14:34:43 Настройки сайтов (check_sites): Ok
 Правильные
-2015-Aug-26 12:04:40 Служебные скрипты в корне сайта (check_install_scripts): Ok
+2015-Aug-28 14:34:44 Служебные скрипты в корне сайта (check_install_scripts): Ok
 Отсутствуют
-2015-Aug-26 12:04:41 Передача объектов по ссылке (check_clone): Ok
+2015-Aug-28 14:34:45 Передача объектов по ссылке (check_clone): Ok
 Успешно
-2015-Aug-26 12:04:42 Размер стека и pcre.recursion_limit (check_pcre_recursion): Fail
-Connection to sezlipetsk:80	Success
+2015-Aug-28 14:35:05 Размер стека и pcre.recursion_limit (check_pcre_recursion): Fail
+Connection to sezlipetsk.local:80	Success
 
 Ошибка! Не работает
-2015-Aug-26 12:04:42 Вызов method_exists на строке (check_method_exists): Ok
-Connection to sezlipetsk:80	Success
+2015-Aug-28 14:35:06 Вызов method_exists на строке (check_method_exists): Ok
+Connection to sezlipetsk.local:80	Success
 
 Успешно
-2015-Aug-26 12:04:43 Загрузка файла (check_upload): Ok
-Connection to sezlipetsk:80	Success
+2015-Aug-28 14:35:06 Загрузка файла (check_upload): Ok
+Connection to sezlipetsk.local:80	Success
 
 Успешно
-2015-Aug-26 12:04:43 Загрузка файла больше 4Мб (check_upload_big): Fail
-Connection to sezlipetsk:80	Success
-== Request ==
-POST /bitrix/admin/site_checker.php?test_type=upload_test&unique_id=f08e934138695c6d28c1625fa1e8093a&big=1&raw=0 HTTP/1.1
-Host: sezlipetsk
-Content-Type: multipart/form-data; boundary=--------f329c9f0861881cdc66d32fd8e63d0b7
-Content-Length: 4200195
+2015-Aug-28 14:35:07 Загрузка файла больше 4Мб (check_upload_big): Ok
+Connection to sezlipetsk.local:80	Success
 
-----------f329c9f0861881cdc66d32fd8e63d0b7
-Content-Disposition: form-data; name="test_file"; filename="site_checker.bin
-Content-Type: image/gif
+Успешно
+2015-Aug-28 14:35:07 Загрузка файла через php://input (check_upload_raw): Ok
+Connection to sezlipetsk.local:80	Success
 
-()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~����������������������������������������������������������������������������������������������������������������()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~����������������������������������������������������������������������������������������������������������������()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~������������������������������������������������������������������������������������������������������������� ... (4200449 bytes)
-== Response ==
-HTTP/1.1 200 OK
-Server: nginx/1.4.6 (Ubuntu)
-Date: Wed, 26 Aug 2015 09:04:43 GMT
-Content-Type: text/html; charset=UTF-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Vary: Accept-Encoding
-X-Content-Type-Options: nosniff
+Успешно
+2015-Aug-28 14:35:08 Передача POST запроса с большим числом параметров (check_post): Ok
+Connection to sezlipetsk.local:80	Success
 
-== Body ==
-move_uploaded_file(,/home/ladynskiy/sezlipetsk/bitrix/tmp/site_checker.bin)=false
-$_FILES=
-Array
-(
-    [test_file] => Array
-        (
-            [name] => site_checker.bin
-            [type] => 
-            [tmp_name] => 
-            [error] => 1
-            [size] => 0
-        )
-
-)
-
-==========
-
+Успешно
+2015-Aug-28 14:35:09 Отправка почты (check_mail): Fail
 Ошибка! Не работает
-2015-Aug-26 12:04:44 Загрузка файла через php://input (check_upload_raw): Ok
-Connection to sezlipetsk:80	Success
-
-Успешно
-2015-Aug-26 12:04:45 Передача POST запроса с большим числом параметров (check_post): Ok
-Connection to sezlipetsk:80	Success
-
-Успешно
-2015-Aug-26 12:04:45 Отправка почты (check_mail): Fail
+2015-Aug-28 14:35:09 Отправка почтового сообщения больше 64Кб (check_mail_big): Fail
 Ошибка! Не работает
-2015-Aug-26 12:04:46 Отправка почтового сообщения больше 64Кб (check_mail_big): Fail
-Ошибка! Не работает
-2015-Aug-26 12:04:47 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+2015-Aug-28 14:35:10 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
 Успешно
-2015-Aug-26 12:04:47 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+2015-Aug-28 14:35:10 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
 50% done
-Connection to sezlipetsk:80	Success
+Connection to sezlipetsk.local:80	Success
 
-2015-Aug-26 12:04:48 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
-Connection to sezlipetsk:80	Success
+2015-Aug-28 14:35:11 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Connection to sezlipetsk.local:80	Success
 
 Успешно
-2015-Aug-26 12:04:49 Фактическое ограничение памяти (check_memory_limit): Ok
+2015-Aug-28 14:35:11 Фактическое ограничение памяти (check_memory_limit): Ok
 20% done
-Connection to sezlipetsk:80	Success
+Connection to sezlipetsk.local:80	Success
 
-2015-Aug-26 12:04:49 Фактическое ограничение памяти (check_memory_limit): Ok
+2015-Aug-28 14:35:12 Фактическое ограничение памяти (check_memory_limit): Ok
 40% done
-Connection to sezlipetsk:80	Success
+Connection to sezlipetsk.local:80	Success
 
-2015-Aug-26 12:04:50 Фактическое ограничение памяти (check_memory_limit): Ok
+2015-Aug-28 14:35:13 Фактическое ограничение памяти (check_memory_limit): Ok
 60% done
-Connection to sezlipetsk:80	Success
+Connection to sezlipetsk.local:80	Success
 
-2015-Aug-26 12:04:51 Фактическое ограничение памяти (check_memory_limit): Ok
+2015-Aug-28 14:35:13 Фактическое ограничение памяти (check_memory_limit): Ok
 80% done
-Connection to sezlipetsk:80	Success
+Connection to sezlipetsk.local:80	Success
 
-2015-Aug-26 12:04:52 Фактическое ограничение памяти (check_memory_limit): Ok
-Connection to sezlipetsk:80	Success
+2015-Aug-28 14:35:14 Фактическое ограничение памяти (check_memory_limit): Ok
+Connection to sezlipetsk.local:80	Success
 
 Не менее 256 М
-2015-Aug-26 12:04:52 Работа с файлами кеша (check_cache): Ok
+2015-Aug-28 14:35:14 Работа с файлами кеша (check_cache): Ok
 Успешно
-2015-Aug-26 12:04:53 Доступ к серверу обновлений (check_update): Ok
+2015-Aug-28 14:35:15 Доступ к серверу обновлений (check_update): Ok
 Успешно
-2015-Aug-26 12:04:54 HTTP авторизация (check_http_auth): Ok
-Connection to sezlipetsk:80	Success
+2015-Aug-28 14:35:16 HTTP авторизация (check_http_auth): Ok
+Connection to sezlipetsk.local:80	Success
 
 Успешно
-2015-Aug-26 12:04:54 Создание и запуск файла (check_exec): Ok
-Connection to sezlipetsk:80	Success
+2015-Aug-28 14:35:16 Создание и запуск файла (check_exec): Ok
+Connection to sezlipetsk.local:80	Success
 
 Успешно
-2015-Aug-26 12:04:55 Функция getimagesize для swf (check_getimagesize): Warning
+2015-Aug-28 14:35:17 Функция getimagesize для swf (check_getimagesize): Warning
 Замечание. Вставка swf роликов может не работать
-2015-Aug-26 12:04:56 Версия MySQL-сервера (check_mysql_bug_version): Ok
+2015-Aug-28 14:35:18 Версия MySQL-сервера (check_mysql_bug_version): Ok
 Успешно
-2015-Aug-26 12:04:58 Время на БД и веб-сервере (check_mysql_time): Fail
+2015-Aug-28 14:35:19 Время на БД и веб-сервере (check_mysql_time): Fail
 Ошибка! Время отличается на 1 секунд
-2015-Aug-26 12:04:58 Режим работы MySQL (check_mysql_mode): Ok
+2015-Aug-28 14:35:19 Режим работы MySQL (check_mysql_mode): Ok
 Успешно
-2015-Aug-26 12:04:59 Кодировка соединения (check_mysql_connection_charset): Ok
+2015-Aug-28 14:35:20 Кодировка соединения (check_mysql_connection_charset): Ok
 character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
 Успешно
-2015-Aug-26 12:05:00 Кодировка базы данных (check_mysql_db_charset): Ok
+2015-Aug-28 14:35:21 Кодировка базы данных (check_mysql_db_charset): Ok
 CHARSET=utf8, COLLATION=utf8_unicode_ci
 Успешно
+2015-Aug-28 14:35:32 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+18% done
+2015-Aug-28 14:35:42 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+36% done
