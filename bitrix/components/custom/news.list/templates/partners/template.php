@@ -16,9 +16,9 @@ $this->setFrameMode(true);
 <section class="partners">
 	<div class="partners_name">
 		<div>
-			<h2>Нам доверяют мировые лидеры</h2>
+			<h2><?=GetMessage('TITLE_BLOCK_PARTNERS');?></h2>
 			<a class="all">
-				Все резиденты
+				<?=GetMessage('LINK_ALL');?>
 				<span class="glyphicon glyphicon-menu-right"></span>
 			</a>
 		</div>

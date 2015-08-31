@@ -20,9 +20,9 @@ $this->setFrameMode(true);
 		?>
 
 		<div class="news_name">
-			Новости
+			<?=GetMessage('TITLE_BLOCK')?>
 			<a href="news" class="all">
-				Все новости
+				<?=GetMessage('LINK_ALL_NEWS')?>
 				<span class="glyphicon glyphicon-menu-right"></span>
 			</a>
 		</div>
