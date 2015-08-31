@@ -8,6 +8,14 @@ $DBName = "SEZLIPETSK_SEZLIPETSK";
 $DBDebug = false;
 $DBDebugToFile = false;
 
+	//Для локализации
+	$_SESSION["LANG_UI"];
+	if(isset($_REQUEST['lang_ui']))
+		$_SESSION["LANG_UI"] = ($_REQUEST['lang_ui']=='ru'?'ru':'en');
+
+	if(!isset($_REQUEST['lang']) && isset($_SESSION["LANG_UI"]))
+		define(LANGUAGE_ID, $_SESSION["LANG_UI"]);
+
 define("DELAY_DB_CONNECT", true);
 define("CACHED_b_file", 3600);
 define("CACHED_b_file_bucket_size", 10);

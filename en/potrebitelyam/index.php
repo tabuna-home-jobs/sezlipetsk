@@ -1,8 +1,8 @@
 <?
 	require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-	$APPLICATION->SetPageProperty("keywords_inner", "Потребителям");
-	$APPLICATION->SetPageProperty("title", "Потребителям");
-	$APPLICATION->SetTitle("Потребителям");
+	$APPLICATION->SetPageProperty("keywords_inner", "Customers");
+	$APPLICATION->SetPageProperty("title", "Customers");
+	$APPLICATION->SetTitle("Customers");
 ?>
 <div class="main ">
 	<section class="top_block_main">
@@ -26,11 +26,11 @@
 
 					<div class="scrollbar-outer resize_scroll">
 						<div class="lin">
-							РОСОЭЗ – это масштабный федеральный проект по привлечению инвестиций, передовых научных, производственных и управленческих технологий.
+							SEZ - a large-scale federal project to attract investment, advanced research , production and management technologies.
 							<br/>
-							РОСОЭЗ предоставляют компаниям уникальную возможность использовать все инвестиционные преимущества России, минуя при этом типичные российские проблемы – нерыночные факторы влияния на бизнес и неэффективное администрирование.
+							RusSEZ provide companies with a unique opportunity to use all the advantages of investment in Russia, passing with typical Russian problems - non-market factors of influence on the business and inefficient administration.
 							<br/>
-							В данном разделе вы найдёте информацию о том, как начать свой бизнес в российских особых экономических зонах.
+							In this section you will find information on how to start a business in the Russian special economic zones.
 						</div>
 					</div>
 				</div>
@@ -50,7 +50,7 @@
 								<div class="hover"></div>
 							</div>
 							<div class="item_bod">
-								<div class="item_name">Контакты сетевой организации</div>
+								<div class="item_name">Contacts network organization</div>
 							</div>
 							<div class="block_icon">
                                 <span class="item_block_img">
@@ -66,7 +66,7 @@
 								<div class="hover"></div>
 							</div>
 							<div class="item_bod">
-								<div class="item_name">Территория обслуживания сетевой организации</div>
+								<div class="item_name">Service area network organization</div>
 							</div>
 							<div class="block_icon">
                                 <span class="item_block_img">
@@ -83,7 +83,7 @@
 								<div class="hover"></div>
 							</div>
 							<div class="item_bod">
-								<div class="item_name smal_item_name">Коммерческий учет</div>
+								<div class="item_name smal_item_name">Custody</div>
 							</div>
 							<div class="block_icon_arrow">
 								<span class="glyphicon glyphicon-menu-right"></span>
@@ -97,7 +97,7 @@
 								<div class="hover"></div>
 							</div>
 							<div class="item_bod">
-								<div class="item_name smal_item_name">Дополнительные услуги</div>
+								<div class="item_name smal_item_name">Additional services</div>
 							</div>
 							<div class="block_icon_arrow">
 								<span class="glyphicon glyphicon-menu-right"></span>
@@ -106,12 +106,12 @@
 				</div>
 				<div class="col-md-12 col-lg-6 col-xs-12 block_item">
 					<div class="item_block">
-						<a href="/potrebitelyam/internet-priemnaya/" class="item_block_a">
+						<a href="internet-priemnaya/" class="item_block_a">
 							<div class="hover_container">
 								<div class="hover"></div>
 							</div>
 							<div class="item_bod">
-								<div class="item_name">Интернет приемная</div>
+								<div class="item_name">Internet reception</div>
 
 							</div>
 							<div class="block_icon">
@@ -132,11 +132,11 @@
 							</div>
 							<div class="item_bod">
 								<div class="item_name">
-									Технологическое присоединение /
-									подключение
+									Grid connection /
+									connection
 								</div>
 								<div class="item_dop">
-									Липецкая область расположена в центральной части европейской территории России, в 370 км к югу от Москвы (расстояние от столицы до областного центра — около 450 км)
+									Lipetsk region is located in the central part of European Russia , 370 kilometers south of Moscow ( the distance from the capital to the regional center - 450 km)
 								</div>
 
 							</div>
@@ -151,11 +151,11 @@
 								<div class="hover"></div>
 							</div>
 							<div class="item_bod">
-								<div class="item_name">Передача,
-								                       транспортировка,
-								                       снабжение
-								                       энергоресурсами</div>
-								<div class="item_dop">Липецкая область расположена в центральной части европейской территории России, в 370 км к югу от Москвы (расстояние от столицы до областного центра — около 450 км)</div>
+								<div class="item_name">Transfer ,
+								                       transportation,
+								                       supply
+								                       energy resources</div>
+								<div class="item_dop">Lipetsk region is located in the central part of European Russia , 370 kilometers south of Moscow ( the distance from the capital to the regional center - 450 km)</div>
 							</div>
 							<div class="block_icon_arrow">
 								<span class="glyphicon glyphicon-menu-right"></span>

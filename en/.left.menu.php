@@ -16,14 +16,14 @@
 		),
 		Array(
 			"investor",
-			"investor/",
+			"potrebitelyam/",
 			Array(),
 			Array(),
 			""
 		),
 		Array(
 			"Contacts",
-			"Contacts/",
+			"contacts/",
 			Array(),
 			Array(),
 			""

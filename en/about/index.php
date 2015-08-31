@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("О проекте");
+$APPLICATION->SetTitle("About Project");
 ?>
 	<div class="main container">
 		<!--Хеебный крош-->
@@ -28,13 +28,13 @@ $APPLICATION->SetTitle("О проекте");
 										<div class="hover"></div>
 									</div>
 									<div class="item_bod">
-										<div class="item_name">Виртуальный тур</div>
-										<div class="item_dop">по ОЭЗ ППТ «Липецк»</div>
+										<div class="item_name">Virtual tour</div>
+										<div class="item_dop">on the SEZ "Lipetsk"</div>
 									</div>
 									<div class="block_icon">
 										<span class="item_block_img">
-											<img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/compas.png"/>
-											<img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/compas_2.png" />
+										<img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/compas.png"/>
+										<img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/compas_2.png" />
 										</span>
 									</div>
 								</a>
@@ -46,13 +46,13 @@ $APPLICATION->SetTitle("О проекте");
 										<div class="hover"></div>
 									</div>
 									<div class="item_bod">
-										<div class="item_name">Резиденты ОЭЗ</div>
+										<div class="item_name">SEZ residents</div>
 
 									</div>
 									<div class="block_icon">
 										<span class="item_block_img">
-											<img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/people.png"/>
-											<img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/people_2.png" />
+										<img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/people.png"/>
+										<img src="<?=SITE_TEMPLATE_PATH?>/img/img_hover/people_2.png" />
 										</span>
 									</div>
 								</a>
@@ -67,7 +67,7 @@ $APPLICATION->SetTitle("О проекте");
 										<div class="hover"></div>
 									</div>
 									<div class="item_bod">
-										<div class="item_name smal_item_name">Веб-камера</div>
+										<div class="item_name smal_item_name">Webcam</div>
 									</div>
 									<div class="block_icon_arrow">
 										<span class="glyphicon glyphicon-menu-right"></span>
@@ -80,7 +80,7 @@ $APPLICATION->SetTitle("О проекте");
 										<div class="hover"></div>
 									</div>
 									<div class="item_bod">
-										<div class="item_name smal_item_name">Пресс-релизы</div>
+										<div class="item_name smal_item_name">Press Releases</div>
 									</div>
 									<div class="block_icon_arrow">
 										<span class="glyphicon glyphicon-menu-right"></span>
@@ -94,8 +94,8 @@ $APPLICATION->SetTitle("О проекте");
 										<div class="hover"></div>
 									</div>
 									<div class="item_bod">
-										<div class="item_name">Галерея фото
-										                       и видео</div>
+										<div class="item_name">Gallery photo
+										                       Visual</div>
 									</div>
 									<div class="block_icon">
                                         <span class="item_block_img">
@@ -117,7 +117,7 @@ $APPLICATION->SetTitle("О проекте");
 		"DISPLAY_PICTURE" => "Y",
 		"DISPLAY_PREVIEW_TEXT" => "Y",
 		"IBLOCK_TYPE" => "news",
-		"IBLOCK_ID" => "infoportal_news_s1",
+		"IBLOCK_ID" => "infoportal_news_s2",
 		"NEWS_COUNT" => "2",
 		"PREVIEW_TRUNCATE_LEN" => "100",
 		"COMPONENT_TEMPLATE" => "about_news",
@@ -252,9 +252,9 @@ $APPLICATION->SetTitle("О проекте");
 									<div class="hover"></div>
 								</div>
 								<div class="item_bod">
-									<div class="item_name">Управляющая компания</div>
+									<div class="item_name">Management Company</div>
 									<div class="item_dop">
-										Липецкая область расположена в центральной части европейской территории России, в 370 км к югу от Москвы (расстояние от столицы до областного центра — около 450 км)
+										Lipetsk region is located in the central part of European Russia , 370 kilometers south of Moscow ( the distance from the capital to the regional center - 450 km)
 									</div>
 								</div>
 								<div class="block_icon_arrow">
@@ -268,9 +268,9 @@ $APPLICATION->SetTitle("О проекте");
 									<div class="hover"></div>
 								</div>
 								<div class="item_bod">
-									<div class="item_name">Расположение</div>
+									<div class="item_name">Arrangement</div>
 									<div class="item_dop">
-										Липецкая область расположена в центральной части европейской территории России, в 370 км к югу от Москвы (расстояние от столицы до областного центра — около 450 км)
+										Lipetsk region is located in the central part of European Russia , 370 kilometers south of Moscow ( the distance from the capital to the regional center - 450 km)
 									</div>
 								</div>
 								<div class="block_icon_arrow">
@@ -285,7 +285,7 @@ $APPLICATION->SetTitle("О проекте");
 			<div class="map_container">
 				<div class="map_back">
 					<div>
-						<div><a>Интерактиваня карта</a></div>
+						<div><a>Interactive map</a></div>
 					</div>
 				</div>
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/maaap.jpg">

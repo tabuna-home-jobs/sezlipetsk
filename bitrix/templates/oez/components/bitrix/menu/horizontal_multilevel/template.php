@@ -64,8 +64,8 @@ foreach($arResult as $arItem):?>
 		</ul>
 	</nav>
 	<div class="rus_eng_search col-lg-4 col-md-12 col-xs-12 col-sm-12">
-		<a class="rus_eng">рус</a>
-		<a class="rus_eng">eng</a>
+		<a class="rus_eng" data-value="ru">рус</a>
+		<a class="rus_eng" data-value="en">eng</a>
 
 		<!--Поиск-->
 			<?$APPLICATION->IncludeComponent(
