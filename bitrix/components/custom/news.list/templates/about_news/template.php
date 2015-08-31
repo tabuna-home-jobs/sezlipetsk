@@ -14,9 +14,9 @@ $this->setFrameMode(true);
 ?>
 <div class="col-md-6 col-sm-12 col-xs-12 block_news">
 	<div class="news_name">
-		Новости
+		<?=GetMessage('TITLE_NEWS_ABOUT');?>
 		<a href="news" class="all">
-			Все новости
+			<?=GetMessage('LINK_ABOUT_NEWS');?>
 			<span class="glyphicon glyphicon-menu-right"></span>
 		</a>
 	</div>

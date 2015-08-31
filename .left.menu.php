@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"About project", 
+		"about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Depositor", 
+		"investor/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Customers", 
+		"potrebitelyam/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Contacts", 
+		"contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

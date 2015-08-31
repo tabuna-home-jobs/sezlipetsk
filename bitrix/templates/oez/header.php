@@ -28,6 +28,32 @@ IncludeTemplateLangFile(__FILE__);
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 	<![endif]-->
 </head>
+<script type="text/javascript">
+
+
+	//Подставка локали для сайта
+	function action_lang(lang){
+
+		var domain = window.location.hostname;
+		var path = window.location.pathname;
+
+		window.location.href = "http://" + domain + "/" + lang + path;
+
+	}
+
+	$(document).ready(function(){
+		$("a.rus_eng").click(function(){
+			var obj = $(this);
+			var lang = obj.attr("data-value");
+
+			(lang == 'ru') ? action_lang('') : action_lang(lang);
+
+		});
+	});
+
+
+
+</script>
 <body>
 <?$APPLICATION->ShowPanel();?>
 <header class="">
