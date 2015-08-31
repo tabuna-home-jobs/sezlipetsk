@@ -127,7 +127,7 @@
 			<div class="col-md-6 ">
 				<div class="col-sm-6 col-xs-6 block_item">
 					<div class="item_block hight_item_block">
-						<a class="item_block_a item_block_a_small"><div class="hover_container">
+						<a href="/potrebitelyam/tekhnologicheskoe-prisoedinenie-podklyuchenie" class="item_block_a item_block_a_small"><div class="hover_container">
 								<div class="hover"></div>
 							</div>
 							<div class="item_bod">
