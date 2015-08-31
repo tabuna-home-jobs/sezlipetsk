@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Интернет-приемная");
+$APPLICATION->SetTitle("Web-reception");
 ?>
 
 	<div class="main">
@@ -25,11 +25,11 @@ $APPLICATION->SetTitle("Интернет-приемная");
 
 						<div class="scrollbar-outer resize_scroll">
 							<div class="lin">
-								РОСОЭЗ – это масштабный федеральный проект по привлечению инвестиций, передовых научных, производственных и управленческих технологий.
+								SEZ - a large-scale federal project to attract investment, advanced research , production and management technologies.
 								<br/><br/>
-								РОСОЭЗ предоставляют компаниям уникальную возможность использовать все инвестиционные преимущества России, минуя при этом типичные российские проблемы – нерыночные факторы влияния на бизнес и неэффективное администрирование.
+								RusSEZ provide companies with a unique opportunity to use all the advantages of investment in Russia, passing with typical Russian problems - non-market factors of influence on the business and inefficient administration.
 								<br/>
-								В данном разделе вы найдёте информацию о том, как начать свой бизнес в российских особых экономических зонах.
+								In this section you will find information on how to start a business in the Russian special economic zones.
 							</div>
 						</div>
 					</div>
@@ -44,33 +44,33 @@ $APPLICATION->SetTitle("Интернет-приемная");
 				<div class="col-xs-12 col-md-6 ">
 					<div class="cabinet_block">
 						<div class="row cabinet_block_heder">
-							<div class="col-xs-12 col-md-6 cabinet_block_name"><h3>Личный кабинет</h3></div>
+							<div class="col-xs-12 col-md-6 cabinet_block_name"><h3>Personal Area</h3></div>
 							<div class="col-xs-12 col-md-6 cabinet_block_vhod">
 
 								<?
 									//Если зареган то покажем только вход
 									if ($USER->IsAuthorized()){
 								?>
-									<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/">
-										ВХОД <span class="glyphicon glyphicon-menu-right"></span>
+									<a href="lichnyy-kabinet/">
+										ENTRANCE <span class="glyphicon glyphicon-menu-right"></span>
 									</a>
 								<?
 									//Если не зарегистрирован то выводим обе кнопочки
 									}else{
 								?>
-									<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/">
-										ВХОД <span class="glyphicon glyphicon-menu-right"></span>
+									<a href="lichnyy-kabinet/">
+										ENTRANCE <span class="glyphicon glyphicon-menu-right"></span>
 									</a>
 
-									<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/#registration">РЕГИСТРАЦИЯ</a>
+									<a href="lichnyy-kabinet/#registration">SIGN UP FOR FREE</a>
 								<?
 									}
 								?>
 							</div>
 						</div>
 						<div class="cabinet_block_links">
-							<div><a>Порядок работы в ЛК</a></div>
-							<div><a id="remember_pass">Подать заявку на тех. присоединение к сетям электроснабжения</a>
+							<div><a>Working with the LC</a></div>
+							<div><a id="remember_pass">Apply for those . connection to electricity networks</a>
 							</div>
 							<div class="remember_form_main">
 								<div class="remember_form_cell">
@@ -78,50 +78,50 @@ $APPLICATION->SetTitle("Интернет-приемная");
 										<div class="close_r_f_container"><a class="close_r_f"></a></div>
 										<div class="row">
 											<div class="col-xs-12">
-												<div class="r_f_heder">Выберите вариант заявки</div>
+												<div class="r_f_heder">Select application</div>
 											</div>
 										</div>
 										<div row>
 
 											<div class="col-xs-12">
 												<div class="oval_links_container">
-													<a class="oval_links"><span><span>до 150 к Вт <span class="star_red">*</span></span></span></a>
-													<a class="oval_links"><span><span><span>Временное <span class="star_red">*</span><span class="star_red">*</span> присоединение</span></span></span></a>
+													<a class="oval_links"><span><span>up to 150 W <span class="star_red">*</span></span></span></a>
+													<a class="oval_links"><span><span><span>Temporary <span class="star_red">*</span><span class="star_red">*</span> accession</span></span></span></a>
 												</div>
 											</div>
 											<div class="col-xs-12 form_descript">
-												<span class="star_red">*</span> Форма заявки для юридических лиц или индивидуальных предпринимателей,
-												                                максимальная мощность энергопринимающих устройств которых составляет до
-												                                150кВт включительно (с учетом ранее присоединенных в данной точке
-												                                присоединения энергопринимающих устройств) по одному источнику
-												                                электроснабжения.
+												<span class="star_red">*</span>The application form for legal entities and individual entrepreneurs ,
+												                               Maximum capacity of the power devices which is up to
+												                               150kW inclusive (including previously connected at this point
+												                               connection of power units ) of one source
+												                               power supply .
 											</div>
 											<div class="col-xs-12 form_descript">
-												<span class="star_red">*</span><span class="star_red">*</span> Форма заявки для заявителей в целях временного (на ограниченный период
-												                                                               времени для обеспечения электроснабжения энергопринимающих устройств)
-												                                                               технологического присоединения энергопринимающих устройств по третьей
-												                                                               категории надежности электроснабжения на уровне напряжения ниже 35 кВ.
+												<span class="star_red">*</span><span class="star_red">*</span>The application form for applicants for temporary ( for a limited period
+												                                                              time to provide electric power supply for devices )
+												                                                              technological connection of power devices of the third
+												                                                              category of power supply reliability at lower voltage of 35 kV .
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div><a>Проверка статуса заявки на тех. присоединение к сетям электроснабжения</a></div>
-							<div><a>Направить обращение / жалобу</a></div>
-							<div><a>Оценка качества обслуживания</a></div>
-							<div><a>Показания приборов учета</a></div>
+							<div><a>Checking the status of the application on those. connection to electricity networks</a></div>
+							<div><a>Sent an appeal / complaint</a></div>
+							<div><a>Assessment of quality of service</a></div>
+							<div><a>Meter readings</a></div>
 						</div>
 						<span><img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_18(1)white.png"></span></div>
 				</div>
 				<div class="col-xs-12 col-md-6 ">
 					<div class="cabinet_block">
 						<div class="row cabinet_block_heder">
-							<div class="col-xs-12 cabinet_block_name"><h3>Часто задоваемые вопросы</h3></div>
+							<div class="col-xs-12 cabinet_block_name"><h3>Often zadoval questions</h3></div>
 
 						</div>
 						<div class="cabinet_block_links">
-							Здесь Вы можете задать свои вопросы<br/>
-							и мы обязательно на них ответим
+							Here you can ask your questions<br/>
+							and we will answer them
 						</div>
 						<span><img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_18(2)white.png"></span></div>
 				</div>

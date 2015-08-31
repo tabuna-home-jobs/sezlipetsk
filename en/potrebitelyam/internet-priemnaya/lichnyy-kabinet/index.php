@@ -1,6 +1,6 @@
 <?
 	require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-	$APPLICATION->SetTitle("Личный кабинет");
+	$APPLICATION->SetTitle("Personal Area");
 ?>
 <div class="main container">
 	<div class="row vhod_lk">
@@ -21,45 +21,44 @@
 			<h1 class="page_h1"><?=$APPLICATION->GetTitle();?></h1>
 
 			<div class="scrollbar-outer">
-				<p>Порядок работы в личном кабинете потребителя<br />
-				   Регистрация и вход</p>
+				<p> The order of work in the private office user <br />
+				    Sign up and sign </p>
 
-				<p>Для удобства потребителей на сайте создан &laquo;Личный кабинет потребителя&raquo;. Войти в него Вы можете через пункт меню &laquo;Потребителям&raquo; -&gt; &laquo;Интернет-приемная&raquo; -&gt; &laquo;Личный кабинет потребителя&raquo;.<br />
-				   Для входа в личный кабинет Вы вводите логин и пароль, полученные при регистрации и нажимаете кнопку &laquo;Войти&raquo;. Если Вы новый пользователь, то кликаете по ссылке &laquo;Регистрация&raquo; и определяете свой статус:<br />
-				   * Ф.И.О;<br />
-				   * Должность;<br />
-				   * Наименование организации;<br />
-				   * E-mail;<br />
-				   * Телефон;<br />
-				   * Кадастровый номер земельного участка (?)</p>
+				<p> To ease consumer site created & laquo; Personal account user & raquo ;. Sign it, you can via the menu item & laquo; Consumers & raquo; - & gt; & laquo; Internet reception & raquo; - & gt; & laquo; Personal account user & raquo ;. <br />
+				    To enter the private office you enter the login and password received during registration and press the & laquo; Log & raquo ;. If you are a new user, click on the link & laquo; Register & raquo; and define their status: <br />
+				    * Full name; <br />
+				    * Position; <br />
+				    * Name of the organization; <br />
+				    * E-mail; <br />
+				    * Phone; <br />
+				    * Cadastral number of the land (?) </p>
 
-				<p>Внимание! При регистрации проверяйте указываемые данные и адрес электронной почты. Будьте внимательны! Пароль и логин будут высланы на указанный при регистрации почтовый адресl.</p>
+				<p> Warning! Upon registration check indicated the data and e-mail . Be careful! Login and password will be sent to the specified e-mail adresl registration . </p>
 
-				<p>После успешной регистрации Вы получаете возможность входа в личный кабинет. Если Вы зарегистрированы, но забыли пароль, то Вы можете его восстановить, кликнув по ссылке &laquo;Восстановить пароль&raquo; и указав e-mail, введенный при регистрации. На данный &nbsp;адрес Вам будет выслана ссылка для восстановления пароля.</p>
+				<p> Once a successful registration you get an opportunity to enter the private office . If you have registered but forgot your password , you can recover it by clicking on the link & laquo; Recover password & raquo; and specifying the e-mail, typed during registration. At the & nbsp; address you will be sent a link to reset your password . </p>
 
-				<p><br />
-					Работа в личном кабинете</p>
+				<p> <br />
+					Work in your account </p>
 
-				<p>После регистрации на сайте и входа в личный в кабинет Вам будут доступны следующие функции:<br />
-					&bull; подать заявку на технологическое присоединение к сетям электроснабжения;</p>
+				<p> Once the registration site and enter the private office will be accessible to the following functions : <br />
+				    & bull; submit an application for technological connection to electricity networks ; </p>
 
-				<p>&bull; проверка статуса заявки на технологическое присоединение к сетям электроснабжения;</p>
+				<p> & bull; check the status of applications for technological connection to electricity networks ; </p>
 
-				<p>&bull; подать показания и просмотреть архив показаний приборов учета;</p>
+				<p> & bull; to submit evidence and view archived meter readings ; </p>
 
-				<p>&bull; подать заявление на оборудование точки поставки приборами учета;</p>
+				<p> & bull; apply for equipment supply of metering points ; </p>
 
-				<p>&bull; направить обращение/жалобу;</p>
+				<p> & bull; to appeal / complaint ; </p>
 
-				<p>&bull; Оценить качество обслуживания.</p>
+				<p> & bull; Rate the quality of service . </p>
+				<p> All forms are intuitive and their purpose should be the name of the form. Form </p>
 
-				<p>Все формы интуитивно понятны и их назначение следует из названия формы. Форма</p>
+				<p> includes fields for filling and explanatory text . All fields are mandatory </p>
 
-				<p>состоит из полей для заполнения и поясняющего текста. Все поля являются обязательным</p>
+				<p> To fill a form with blank fields will not be sent . If successful transmission </p>
 
-				<p>для заполнения, форма с пустыми полями не будет отправлена. При успешной отправке</p>
-
-				<p>формы, на экране отобразится надпись &laquo;Ваша заявка принята&raquo;.</p>
+				<p> form displayed on the screen & laquo; your application is accepted & raquo;. </p>
 
 			</div>
 		</div>
@@ -95,13 +94,13 @@
 							?>
 							<div><?=$arUser["WORK_COMPANY"]?></div>
 							<div><?=$arUser["UF_POSITION"]?></div>
-							<div>т. <?=$arUser["PERSONAL_PHONE"]?></div>
-							<div>Е. <?=$USER->GetEmail()?></div>
-							<div>Кадастровый номер: <?=$arUser['UF_CADASTR']?></div>
+							<div>phone. <?=$arUser["PERSONAL_PHONE"]?></div>
+							<div>Email. <?=$USER->GetEmail()?></div>
+							<div>Cadastral number: <?=$arUser['UF_CADASTR']?></div>
 						</div>
 						<div class="red_a">
-							<a href="/">РЕДАКТИРОВАТЬ</a>
-							<a href="/index.php?logout=yes">ВЫХОД</a>
+							<a href="/">EDIT</a>
+							<a href="/index.php?logout=yes">EXIT</a>
 						</div>
 					</div>
 				</div>
@@ -117,8 +116,8 @@
 													<div class="hover"></div>
 												</div>
 												<div class="item_bod">
-													<div class="item_name">Показания приборов учета</div>
-													<div class="item_dop">Для получения льгот и преференций компании или частному предпринимателю необходимо получить статус резидента</div>
+													<div class="item_name">Meter readings</div>
+													<div class="item_dop">For privileges and preferences company or entrepreneur must obtain resident status</div>
 												</div>
 												<div class="block_icon_arrow">
 													<span class="glyphicon glyphicon-menu-right"></span>
@@ -135,8 +134,8 @@
 													<div class="hover"></div>
 												</div>
 												<div class="item_bod">
-													<div class="item_name">Направить обращение/
-													                       жалобу</div>
+													<div class="item_name">Sent an appeal /
+													                       complaint</div>
 													<div class="item_dop"></div>
 												</div>
 												<div class="block_icon_arrow">
@@ -152,7 +151,7 @@
 													<div class="hover"></div>
 												</div>
 												<div class="item_bod">
-													<div class="item_name">Проверка статуса заявки на тех. присоединение к сетям электроснабжения</div>
+													<div class="item_name">Checking the status of the application on those. connection to electricity networks</div>
 													<div class="item_dop"></div>
 												</div>
 												<div class="block_icon_arrow">
@@ -173,8 +172,8 @@
 												<div class="hover"></div>
 											</div>
 											<div class="item_bod">
-												<div class="item_name">Подать заявку на тех. присоединение к сетям электроснабжения</div>
-												<div class="item_dop">Для получения льгот и преференций компании или частному предпринимателю необходимо получить статус резидента</div>
+												<div class="item_name">Apply for those . connection to electricity networks</div>
+												<div class="item_dop">For privileges and preferences company or entrepreneur must obtain resident status</div>
 											</div>
 											<div class="block_icon">
                                     <span class="item_block_img">
@@ -192,8 +191,8 @@
 												<div class="hover"></div>
 											</div>
 											<div class="item_bod">
-												<div class="item_name">Оценка качества обслуживания</div>
-												<div class="item_dop">Для получения льгот и преференций компании или частному предпринимателю необходимо получить статус резидента</div>
+												<div class="item_name">Assessment of quality of service</div>
+												<div class="item_dop">For privileges and preferences company or entrepreneur must obtain resident status</div>
 											</div>
 											<div class="block_icon">
                                     <span class="item_block_img">
@@ -219,9 +218,9 @@
 							<a href="#login_panel" id="input-tab" role="tab" <?=!isset($_POST["REGISTER"]) ? 'class="login_punct active_login_punkt"' : 'class="login_punct"'?>
 							   data-toggle="tab"
 							   aria-controls="login_panel"
-							   aria-expanded="true">ВХОД</a>
+							   aria-expanded="true">ENTRANCE</a>
 							<a href="#registration_panel" id="reg-tab" role="tab" data-toggle="tab" <?=isset($_POST["REGISTER"]) ? 'class="login_punct active_login_punkt"' : 'class="login_punct"'?>
-							   aria-controls="registration_panel" aria-expanded="true">РЕГИСТРАЦИЯ</a>
+							   aria-controls="registration_panel" aria-expanded="true">SIGN UP FOR FREE</a>
 						</div>
 						<div id="main_content_tabs" class="tab-content">
 							<div role="tabpanel" id="login_panel" <?=!isset($_POST["REGISTER"]) ? 'class="tab-pane fade active in"' : 'class="tab-pane fade"'?>>
