@@ -42,7 +42,7 @@ $APPLICATION->SetTitle("О проекте");
 						</div>
 						<div class="col-sm-6 col-xs-12 block_item">
 							<div class="item_block">
-								<a class="item_block_a"><div class="hover_container">
+								<a href="http://test.test/about/rezidenty/" class="item_block_a"><div class="hover_container">
 										<div class="hover"></div>
 									</div>
 									<div class="item_bod">
