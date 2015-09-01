@@ -212,7 +212,7 @@
 						<div class="clearfix"></div>
 						<div class="red_a">
 							<a href="#" id="trigger-mamau-tab">РЕДАКТИРОВАТЬ</a>
-							<a href="/index.php?logout=yes">ВЫХОД</a>
+							<a href="index.php?logout=yes">ВЫХОД</a>
 						</div>
 					</div>
 				</div>
