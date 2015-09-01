@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    $('.what').mouseenter(function(){
+        $(this).next().show();
+        $(this).mouseleave(function(){
+            $(this).next().hide();
+        });
+    });
     $('.next_step').click(function() {
         var but = $(this);
         var errorArr = false;

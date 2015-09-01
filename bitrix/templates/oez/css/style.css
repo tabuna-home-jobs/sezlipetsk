@@ -1912,6 +1912,11 @@ margin:15px 0;
   margin:20px 0;
   padding: 0;
 }
+.step_item_inputs_message_send {
+  margin:20px 0;
+  padding: 0;
+  text-align: center;
+}
 .column_input>input {
   border: none;
   padding: 10px;
