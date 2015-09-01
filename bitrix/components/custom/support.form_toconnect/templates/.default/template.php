@@ -394,8 +394,10 @@
 </form>
 </div>
  <div class="steps_block">
-  <div class="step_item step_item_active" <?=(isset($arResult["MESSAGE_SEND"]) && $arResult["MESSAGE_SEND"] == 'OK') ? '' : 'style="display:none"'?>>
-    Спасибо за Ваше обращение!
+  <div class="step_item step_item_inputs_message_send" <?=(isset($arResult["MESSAGE_SEND"]) && $arResult["MESSAGE_SEND"] == 'OK') ? '' : 'style="display:none"'?>>
+    <div class="col-xs-12 step_item_inputs_heder">
+    <h3>Спасибо за Ваше обращение!</h3>
+    </div>
   </div>
  </div>
 </div>
