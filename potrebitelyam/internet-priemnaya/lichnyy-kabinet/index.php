@@ -68,43 +68,97 @@
 				?>
 				<div class="col-xs-12 col-md-6 login_part_right max_height_block">
 					<div class="login_form_container">
-						<div class="avatar">
-							<div>
-								<?  //Берем фотку текущего пользователя
-									//Если её нет то по дефолту картинку показываем
-									if($USER->GetParam("PERSONAL_PHOTO")) {
-								?>
-									<img src="<?=CFile::GetPath($USER->GetParam("PERSONAL_PHOTO"));?>">
+						<div class="info-user-cabinet mamau-tab active-b-i">
+							<div class="avatar">
+								<div>
+									<?  //Берем фотку текущего пользователя
+										//Если её нет то по дефолту картинку показываем
+										if($USER->GetParam("PERSONAL_PHOTO")) {
+									?>
+										<img src="<?=CFile::GetPath($USER->GetParam("PERSONAL_PHOTO"));?>">
 
+									<?
+										}else{
+									?>
+										<img src="<?=SITE_TEMPLATE_PATH?>/img/icons/avatar.png">
+									<?
+										}
+									?>
+								</div>
+							</div>
+							<div class="lk_name"><?=$USER->GetFullName()?></div>
+							<div class="lk_description">
 								<?
-									}else{
+									//Берем текущего пользователя по ID
+									$rsUser = CUser::GetByID($USER->GetId());
+									$arUser = $rsUser->Fetch();
+
 								?>
-									<img src="<?=SITE_TEMPLATE_PATH?>/img/icons/avatar.png">
-								<?
-									}
-								?>
+								<div><?=$arUser["WORK_COMPANY"]?></div>
+								<div><?=$arUser["UF_POSITION"]?></div>
+								<div>т. <?=$arUser["PERSONAL_PHONE"]?></div>
+								<div>Е. <?=$USER->GetEmail()?></div>
+								<div>Кадастровый номер: <?=$arUser['UF_CADASTR']?></div>
 							</div>
 						</div>
-						<div class="lk_name"><?=$USER->GetFullName()?></div>
-						<div class="lk_description">
-							<?
-								//Берем текущего пользователя по ID
-								$rsUser = CUser::GetByID($USER->GetId());
-								$arUser = $rsUser->Fetch();
+						<div class="edit-user-info mamau-tab">
+							<div class="avatar">
+								<div>
+									Второй блок
+								</div>
+							</div>
+							<div class="lk_name"><?=$USER->GetFullName()?></div>
+							<div class="lk_description">
+								<?
+									//Берем текущего пользователя по ID
+									$rsUser = CUser::GetByID($USER->GetId());
+									$arUser = $rsUser->Fetch();
 
-							?>
-							<div><?=$arUser["WORK_COMPANY"]?></div>
-							<div><?=$arUser["UF_POSITION"]?></div>
-							<div>т. <?=$arUser["PERSONAL_PHONE"]?></div>
-							<div>Е. <?=$USER->GetEmail()?></div>
-							<div>Кадастровый номер: <?=$arUser['UF_CADASTR']?></div>
+								?>
+								<div><?=$arUser["WORK_COMPANY"]?></div>
+								<div><?=$arUser["UF_POSITION"]?></div>
+								<div>т. <?=$arUser["PERSONAL_PHONE"]?></div>
+								<div>Е. <?=$USER->GetEmail()?></div>
+								<div>Кадастровый номер: <?=$arUser['UF_CADASTR']?></div>
+							</div>
+							<div>
+								<button>Сохранить</button>
+							</div>
 						</div>
 						<div class="red_a">
-							<a href="/">РЕДАКТИРОВАТЬ</a>
+							<a href="#" id="trigger-mamau-tab">РЕДАКТИРОВАТЬ</a>
 							<a href="/index.php?logout=yes">ВЫХОД</a>
 						</div>
 					</div>
 				</div>
+				<script type="text/javascript">
+					$(document).ready(function(){
+						$("#trigger-mamau-tab").click(function(){
+
+							$('.mamau-tab').each(function(){
+								if($(this).hasClass('active-b-i')){
+									$(this).removeClass('active-b-i');
+								}else{
+									$(this).addClass('active-b-i');
+								}
+							});
+							return false;
+
+						}, function(){
+
+
+							$('.mamau-tab').each(function(){
+								if($(this).hasClass('active-b-i')){
+									$(this).removeClass('active-b-i');
+								}else{
+									$(this).addClass('active-b-i');
+								}
+							});
+
+							return false;
+						});
+					});
+				</script>
 				<div class="clearfix"></div>
 				<section>
 						<div class="col-md-6 col-sm-12 ">

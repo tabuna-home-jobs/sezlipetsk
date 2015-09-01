@@ -2958,3 +2958,9 @@ background-color:transparent!important;
 .scroll-content{
   padding-right: 15px !important;
 }
+.mamau-tab{
+  display: none;
+}
+.active-b-i{
+  display: block;
+}
