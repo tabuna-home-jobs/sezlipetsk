@@ -331,7 +331,46 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 			$arResult["ITEMS"][] = $arItem;
 			$arResult["ELEMENTS"][] = $arItem["ID"];
 		}
+		$arFilter = Array(
+			"IBLOCK_ID"=>IntVal(6),
 
+			"!PROPERTY_SRC"=>false
+		);
+		$arResult["razd"] =CIBlockElement::GetList(Array("SORT"=>"ASC", "PROPERTY_PRIORITY"=>"ASC"), $arFilter, Array("ID","NAME"));
+		$ii = 0;
+		while($ar_fields = $arResult["razd"]->GetNext())
+		{
+			$arResult["elem"][$ii]=$ar_fields;
+			$ii++;
+		}
+		//пример выборки дерева подразделов для раздела
+		/*$rsParentSection = CIBlockSection::GetByID(6);
+		if ($arParentSection = $rsParentSection->GetNext())
+		{
+			$ii++;
+			$arFilter = array('IBLOCK_ID' => $arParentSection['IBLOCK_ID'],'>LEFT_MARGIN' => $arParentSection['LEFT_MARGIN'],'<RIGHT_MARGIN' => $arParentSection['RIGHT_MARGIN'],'>DEPTH_LEVEL' => $arParentSection['DEPTH_LEVEL']); // выберет потомков без учета активности
+			$rsSect = CIBlockSection::GetList(array('left_margin' => 'asc'),$arFilter);
+			while ($arSect = $rsSect->GetNext())
+			{
+				$arResult["row"][$ii]=$arSect;
+				$ii++;
+			}
+		}*/
+		$rs_Section = CIBlockSection::GetList(array('left_margin' => 'asc'), array('IBLOCK_ID' =>6,'depth_level' => '1'));
+		while ( $ar_Section = $rs_Section->Fetch() )
+		{
+			$ar_Result[] = array(
+				'ID' => $ar_Section['ID'],
+				'NAME' => $ar_Section['NAME'],
+				'IBLOCK_SECTION_ID' => $ar_Section['IBLOCK_SECTION_ID'],
+				'IBLOCK_SECTION_ID' => $ar_Section['IBLOCK_SECTION_ID'],
+				'LEFT_MARGIN' => $ar_Section['LEFT_MARGIN'],
+				'RIGHT_MARGIN' => $ar_Section['RIGHT_MARGIN'],
+				'DEPTH_LEVEL' => $ar_Section['DEPTH_LEVEL'],
+			);
+		}
+		var_dump($ar_Result);
+		die('stop');
 		$navComponentParameters = array();
 		if ($arParams["PAGER_BASE_LINK_ENABLE"] === "Y")
 		{
