@@ -1,6 +1,35 @@
 <?
 	require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 	$APPLICATION->SetTitle("Личный кабинет");
+
+
+	if($_POST['edit_user']) {
+
+		$user = new CUser;
+
+		$rsUser = CUser::GetByID($USER->GetId());
+
+
+		$fields = Array(
+			"NAME"             => $_POST['NAME'],
+			"LAST_NAME"        => $_POST['LAST_NAME'],
+			"EMAIL"            => $_POST['EMAIL'],
+			"PERSONAL_PHONE"   => $_POST['PERSONAL_PHONE'],
+			"WORK_COMPANY"     => $_POST['WORK_COMPANY'],
+			"UF_POSITION"      => $_POST['UF_POSITION'],
+			"UF_CADASTR"       => $_POST['UF_CADASTR'],
+			//"LOGIN"            => "ivan",
+			//"LID"              => "ru",
+			//"ACTIVE"           => "Y",
+			//"GROUP_ID"         => array(1, 2),
+			//"PASSWORD"         => "123456",
+			//"CONFIRM_PASSWORD" => "123456",
+		);
+
+		$user->Update($USER->GetId(), $fields);
+
+	}
+
 ?>
 <div class="main container">
 	<div class="row vhod_lk">
@@ -104,27 +133,83 @@
 						<div class="edit-user-info mamau-tab">
 							<div class="avatar">
 								<div>
-									Второй блок
+									<?  //Берем фотку текущего пользователя
+										//Если её нет то по дефолту картинку показываем
+										if($USER->GetParam("PERSONAL_PHOTO")) {
+											?>
+											<img src="<?=CFile::GetPath($USER->GetParam("PERSONAL_PHOTO"));?>">
+
+											<?
+										}else{
+											?>
+											<img src="<?=SITE_TEMPLATE_PATH?>/img/icons/avatar.png">
+											<?
+										}
+									?>
 								</div>
 							</div>
 							<div class="lk_name"><?=$USER->GetFullName()?></div>
-							<div class="lk_description">
-								<?
-									//Берем текущего пользователя по ID
-									$rsUser = CUser::GetByID($USER->GetId());
-									$arUser = $rsUser->Fetch();
+							<div class="lk_description edit-fieldz">
 
-								?>
-								<div><?=$arUser["WORK_COMPANY"]?></div>
-								<div><?=$arUser["UF_POSITION"]?></div>
-								<div>т. <?=$arUser["PERSONAL_PHONE"]?></div>
-								<div>Е. <?=$USER->GetEmail()?></div>
-								<div>Кадастровый номер: <?=$arUser['UF_CADASTR']?></div>
+							<form action="" method="post">
+								<div class="row">
+
+								<div class="col-xs-6 labels_left">
+									Имя
+								</div>
+								<div class="col-xs-6 inputs_right">
+									<input type="text" value="<?=$arUser["NAME"]?>" name="NAME">
+								</div>
+
+								<div class="col-xs-6 labels_left">
+									Фамилия
+								</div>
+								<div class="col-xs-6 inputs_right">
+									<input type="text" value="<?=$arUser["LAST_NAME"]?>" name="LAST_NAME">
+								</div>
+
+									<div class="col-xs-6 labels_left">
+										Компания
+									</div>
+								<div class="col-xs-6 inputs_right">
+									<input type="text" value="<?=$arUser["WORK_COMPANY"]?>" name="WORK_COMPANY">
+								</div>
+									<div class="col-xs-6 labels_left">
+										Должность
+									</div>
+								<div class="col-xs-6 inputs_right">
+									<input type="text" value="<?=$arUser["UF_POSITION"]?>" name="UF_POSITION">
+								</div>
+									<div class="col-xs-6 labels_left">
+										Телефон
+									</div>
+								<div class="col-xs-6 inputs_right">
+									<input type="text" value="<?=$arUser["PERSONAL_PHONE"]?>" name="PERSONAL_PHONE">
+								</div>
+									<div class="col-xs-6 labels_left">
+										E-mail
+									</div>
+								<div class="col-xs-6 inputs_right">
+									<input type="text" value="<?=$USER->GetEmail()?>" name="EMAIL">
+								</div>
+									<div class="col-xs-6 labels_left">
+										Кадастровый номер
+									</div>
+								<div class="col-xs-6 inputs_right">
+									<input type="text" value="<?=$arUser['UF_CADASTR']?>" name="UF_CADASTR">
+									<input type="hidden" value="edit_user" name="edit_user">
+								</div>
+
+								</div>
 							</div>
-							<div>
-								<button>Сохранить</button>
+							<div class="col-xs-6 inputs_left">
 							</div>
+							<div class="col-xs-6 inputs_right">
+								<button type="submit" class="sub-button">Сохранить</button>
+							</div>
+							</form>
 						</div>
+						<div class="clearfix"></div>
 						<div class="red_a">
 							<a href="#" id="trigger-mamau-tab">РЕДАКТИРОВАТЬ</a>
 							<a href="/index.php?logout=yes">ВЫХОД</a>
@@ -137,8 +222,10 @@
 
 							$('.mamau-tab').each(function(){
 								if($(this).hasClass('active-b-i')){
+									$("#trigger-mamau-tab").text('РЕДАКТИРОВАТЬ');
 									$(this).removeClass('active-b-i');
 								}else{
+									$("#trigger-mamau-tab").text('< НАЗАД');
 									$(this).addClass('active-b-i');
 								}
 							});
@@ -146,11 +233,12 @@
 
 						}, function(){
 
-
 							$('.mamau-tab').each(function(){
 								if($(this).hasClass('active-b-i')){
+									$("#trigger-mamau-tab").text('РЕДАКТИРОВАТЬ');
 									$(this).removeClass('active-b-i');
 								}else{
+									$("#trigger-mamau-tab").text('< НАЗАД');
 									$(this).addClass('active-b-i');
 								}
 							});

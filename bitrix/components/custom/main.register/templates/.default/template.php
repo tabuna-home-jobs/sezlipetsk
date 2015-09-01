@@ -191,7 +191,7 @@ if ($arResult["USE_CAPTCHA"] == "Y")
 		<div class="row">
 		<div class="col-xs-6 labels_left">
 			<span class="star_red">*</span><?=GetMessage("REGISTER_CAPTCHA_TITLE")?>
-			</div>
+		</div>
 			<div class="col-xs-6 inputs_right">
 							<input type="hidden" name="captcha_sid" value="<?=$arResult["CAPTCHA_CODE"]?>" />
 				<img src="/bitrix/tools/captcha.php?captcha_sid=<?=$arResult["CAPTCHA_CODE"]?>" width="180" height="40" alt="CAPTCHA" />

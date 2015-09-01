@@ -2964,3 +2964,6 @@ background-color:transparent!important;
 .active-b-i{
   display: block;
 }
+.edit-fieldz .col-xs-6{
+  margin: 3px 0;
+}
