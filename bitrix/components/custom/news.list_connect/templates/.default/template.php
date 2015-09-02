@@ -99,6 +99,10 @@ $this->setFrameMode(true);
                         <img class="active_img" src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_14(1).png">
                     </span>
 				Электроснабжение</a>
+
+
+
+
 		</li>
 		<li role="presentation" class="">
 			<a href="#teplo" role="tab" id="teplo-tab" data-toggle="tab" aria-controls="teplo"
