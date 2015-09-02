@@ -310,7 +310,7 @@
 							<div class="row">
 								<div class="col-sm-6 col-xs-12 block_item ">
 									<div class="item_block hight_item_block">
-										<a class="item_block_a" href="">
+										<a class="item_block_a" href="zayavka-na-prisoedinenie/">
 											<div class="hover_container">
 												<div class="hover"></div>
 											</div>
