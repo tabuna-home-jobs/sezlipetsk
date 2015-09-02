@@ -395,7 +395,31 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 
 				while($ar_element = $rs_element->GetNextElement()){
 					$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['row'] =$ar_element->GetFields();
-					$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties'] =$ar_element->GetProperties();;
+					$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties'] =$ar_element->GetProperties();
+					if ($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["PROPERTY_TYPE"] == "F")
+					{
+
+						if ($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["MULTIPLE"] == "Y")
+						{
+							//var_dump($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["VALUE"]);
+							//die('fghj');
+							foreach ($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["VALUE"] as $kkk=>$vvv)
+							{
+								var_dump(CFile::GetFileArray($vvv));
+								die('fghj');
+								$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['files'][$kkk] = CFile::GetFileArray($vvv);
+								//$arResult["ITEMS"][$k]["PROPERTIES"][$kk]["VALUE"][$kkk]["DESCRIPTION"] = $vv["DESCRIPTION"][$kkk];
+							}
+						}
+						else
+						{
+							$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['files'][0] = CFile::GetFileArray($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["VALUE"]);
+							//$arResult["ITEMS"][$k]["PROPERTIES"][$kk]["VALUE"]["DESCRIPTION"] = $vv["DESCRIPTION"];
+						}
+						var_dump(CFile::GetFileArray($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['files']));
+						die('hjjkkkj');
+					}
+
 					$kk++;
 				}
 				$jj++;
