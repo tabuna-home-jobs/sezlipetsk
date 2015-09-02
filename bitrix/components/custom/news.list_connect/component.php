@@ -331,7 +331,7 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 			$arResult["ITEMS"][] = $arItem;
 			$arResult["ELEMENTS"][] = $arItem["ID"];
 		}
-		$arFilter = Array(
+		/*$arFilter = Array(
 			"IBLOCK_ID"=>IntVal(6),
 
 			"!PROPERTY_SRC"=>false
@@ -342,7 +342,7 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 		{
 			$arResult["elem"][$ii]=$ar_fields;
 			$ii++;
-		}
+		}*/
 		//пример выборки дерева подразделов для раздела
 		/*$rsParentSection = CIBlockSection::GetByID(6);
 		if ($arParentSection = $rsParentSection->GetNext())
@@ -357,19 +357,49 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 			}
 		}*/
 		$rs_Section = CIBlockSection::GetList(array('left_margin' => 'asc'), array('IBLOCK_ID' =>6,'depth_level' => '1'));
+		//var_dump($rs_Section);
+		//die();
+		$ii = 0;
 		while ( $ar_Section = $rs_Section->Fetch() )
 		{
-			$ar_Result[] = array(
+			$arResult["razdel"][$ii] = array(
 				'ID' => $ar_Section['ID'],
 				'NAME' => $ar_Section['NAME'],
-				'IBLOCK_SECTION_ID' => $ar_Section['IBLOCK_SECTION_ID'],
 				'IBLOCK_SECTION_ID' => $ar_Section['IBLOCK_SECTION_ID'],
 				'LEFT_MARGIN' => $ar_Section['LEFT_MARGIN'],
 				'RIGHT_MARGIN' => $ar_Section['RIGHT_MARGIN'],
 				'DEPTH_LEVEL' => $ar_Section['DEPTH_LEVEL'],
 			);
+			$rs_Section_child = CIBlockSection::GetList(array('left_margin' => 'asc'), array('SECTION_ID' =>$ar_Section['ID'],'depth_level' => '2'));
+
+			$jj = 0;
+
+			while($ar_Section_child = $rs_Section_child ->Fetch() ){
+				$arResult["razdel"][$ii]["child"][$jj] = array(
+					'ID' => $ar_Section_child ['ID'],
+					'NAME' =>$ar_Section_child ['NAME'],
+					'IBLOCK_SECTION_ID' => $ar_Section_child ['IBLOCK_SECTION_ID'],
+					'LEFT_MARGIN' => $ar_Section_child ['LEFT_MARGIN'],
+					'RIGHT_MARGIN' => $ar_Section_child ['RIGHT_MARGIN'],
+					'DEPTH_LEVEL' =>$ar_Section_child ['DEPTH_LEVEL'],
+				);
+
+
+				$rs_element = CIBlockElement::GetList(Array("SORT"=>"ASC"),array('SECTION_ID'=>  $ar_Section_child ['ID']));
+				$kk = 0;
+
+				while($ar_element = $rs_element->GetNextElement()){
+					$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['row'] =$ar_element->GetFields();
+					$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties'] =$ar_element->GetProperties();;
+					$kk++;
+				}
+				$jj++;
+			}
+			//var_dump($arResult["razdel"]);
+			//die();
+			$ii++;
 		}
-		var_dump($ar_Result);
+		var_dump($arResult["razdel"]);
 		die('stop');
 		$navComponentParameters = array();
 		if ($arParams["PAGER_BASE_LINK_ENABLE"] === "Y")
