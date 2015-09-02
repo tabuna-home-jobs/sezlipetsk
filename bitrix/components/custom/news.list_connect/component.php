@@ -372,6 +372,11 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 			);
 			$rs_Section_child = CIBlockSection::GetList(array('left_margin' => 'asc'), array('SECTION_ID' =>$ar_Section['ID'],'depth_level' => '2'));
 
+
+
+
+
+
 			$jj = 0;
 
 			while($ar_Section_child = $rs_Section_child ->Fetch() ){
