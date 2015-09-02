@@ -331,34 +331,9 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 			$arResult["ITEMS"][] = $arItem;
 			$arResult["ELEMENTS"][] = $arItem["ID"];
 		}
-		/*$arFilter = Array(
-			"IBLOCK_ID"=>IntVal(6),
 
-			"!PROPERTY_SRC"=>false
-		);
-		$arResult["razd"] =CIBlockElement::GetList(Array("SORT"=>"ASC", "PROPERTY_PRIORITY"=>"ASC"), $arFilter, Array("ID","NAME"));
-		$ii = 0;
-		while($ar_fields = $arResult["razd"]->GetNext())
-		{
-			$arResult["elem"][$ii]=$ar_fields;
-			$ii++;
-		}*/
-		//пример выборки дерева подразделов для раздела
-		/*$rsParentSection = CIBlockSection::GetByID(6);
-		if ($arParentSection = $rsParentSection->GetNext())
-		{
-			$ii++;
-			$arFilter = array('IBLOCK_ID' => $arParentSection['IBLOCK_ID'],'>LEFT_MARGIN' => $arParentSection['LEFT_MARGIN'],'<RIGHT_MARGIN' => $arParentSection['RIGHT_MARGIN'],'>DEPTH_LEVEL' => $arParentSection['DEPTH_LEVEL']); // выберет потомков без учета активности
-			$rsSect = CIBlockSection::GetList(array('left_margin' => 'asc'),$arFilter);
-			while ($arSect = $rsSect->GetNext())
-			{
-				$arResult["row"][$ii]=$arSect;
-				$ii++;
-			}
-		}*/
-		$rs_Section = CIBlockSection::GetList(array('left_margin' => 'asc'), array('IBLOCK_ID' =>6,'depth_level' => '1'));
-		//var_dump($rs_Section);
-		//die();
+		/* Получаем разделы и элеметы инфоблока */
+		$rs_Section = CIBlockSection::GetList(array('left_margin' => 'asc'), array('IBLOCK_ID' =>6,'depth_level' => '1'),false,array('UF_*'));
 		$ii = 0;
 		while ( $ar_Section = $rs_Section->Fetch() )
 		{
@@ -369,16 +344,11 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 				'LEFT_MARGIN' => $ar_Section['LEFT_MARGIN'],
 				'RIGHT_MARGIN' => $ar_Section['RIGHT_MARGIN'],
 				'DEPTH_LEVEL' => $ar_Section['DEPTH_LEVEL'],
+				'UF_FIRST_IMG' =>CFile::GetFileArray ($ar_Section['UF_FIRST_IMG']),
+				'UF_SECOND_IMG' => CFile::GetFileArray($ar_Section['UF_SECOND_IMG']),
 			);
-			$rs_Section_child = CIBlockSection::GetList(array('left_margin' => 'asc'), array('SECTION_ID' =>$ar_Section['ID'],'depth_level' => '2'));
-
-
-
-
-
-
+			$rs_Section_child = CIBlockSection::GetList(array('left_margin' => 'asc'), array('IBLOCK_ID' =>6,'SECTION_ID' =>$ar_Section['ID'],'depth_level' => '2'),false,array('UF_*'));
 			$jj = 0;
-
 			while($ar_Section_child = $rs_Section_child ->Fetch() ){
 				$arResult["razdel"][$ii]["child"][$jj] = array(
 					'ID' => $ar_Section_child ['ID'],
@@ -386,7 +356,8 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 					'IBLOCK_SECTION_ID' => $ar_Section_child ['IBLOCK_SECTION_ID'],
 					'LEFT_MARGIN' => $ar_Section_child ['LEFT_MARGIN'],
 					'RIGHT_MARGIN' => $ar_Section_child ['RIGHT_MARGIN'],
-					'DEPTH_LEVEL' =>$ar_Section_child ['DEPTH_LEVEL'],
+					'UF_FIRST_IMG' =>CFile::GetFileArray($ar_Section_child ['UF_FIRST_IMG']),
+					'UF_SECOND_IMG' =>CFile::GetFileArray($ar_Section_child ['UF_SECOND_IMG']),
 				);
 
 
@@ -401,12 +372,10 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 
 						if ($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["MULTIPLE"] == "Y")
 						{
-							//var_dump($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["VALUE"]);
-							//die('fghj');
 							foreach ($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["VALUE"] as $kkk=>$vvv)
 							{
-								var_dump(CFile::GetFileArray($vvv));
-								die('fghj');
+								//var_dump(CFile::GetFileArray($vvv));
+								//die('fghj');
 								$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['files'][$kkk] = CFile::GetFileArray($vvv);
 								//$arResult["ITEMS"][$k]["PROPERTIES"][$kk]["VALUE"][$kkk]["DESCRIPTION"] = $vv["DESCRIPTION"][$kkk];
 							}
@@ -414,22 +383,20 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 						else
 						{
 							$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['files'][0] = CFile::GetFileArray($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["VALUE"]);
-							//$arResult["ITEMS"][$k]["PROPERTIES"][$kk]["VALUE"]["DESCRIPTION"] = $vv["DESCRIPTION"];
+
 						}
-						var_dump(CFile::GetFileArray($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['files']));
-						die('hjjkkkj');
+
 					}
 
 					$kk++;
 				}
 				$jj++;
 			}
-			//var_dump($arResult["razdel"]);
-			//die();
+
 			$ii++;
 		}
-		var_dump($arResult["razdel"]);
-		die('stop');
+		//var_dump($arResult["razdel"]);
+		//die('stop');
 		$navComponentParameters = array();
 		if ($arParams["PAGER_BASE_LINK_ENABLE"] === "Y")
 		{
