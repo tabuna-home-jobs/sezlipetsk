@@ -272,13 +272,14 @@
 								<div class="col-xs-12 col-sm-6 left_padding_remove">
 									<div class="col-sm-12 col-xs-12 block_item">
 										<div class="item_block">
-											<a class="item_block_a_small" href="">
+											<a class="item_block_a_small" href="napravit-obrashchenie-zhalobu/">
 												<div class="hover_container">
 													<div class="hover"></div>
 												</div>
 												<div class="item_bod">
-													<div class="item_name">Направить обращение/
-													                       жалобу</div>
+													<div class="item_name">
+														Направить обращение/жалобу
+													</div>
 													<div class="item_dop"></div>
 												</div>
 												<div class="block_icon_arrow">

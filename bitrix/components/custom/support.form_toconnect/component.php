@@ -27,6 +27,7 @@ foreach ($_FILES as $key => $file) {
 		];
 	}
 }
+
 if ($textMessage != "") {
 	$arFields = array(
 		'SITE_ID' => SITE_ID,
@@ -35,6 +36,8 @@ if ($textMessage != "") {
 		'HIDDEN' => 'N',
 		'FILES' => $files,
 	);
+
+
 	$ID = CTicket::SetTicket($arFields, $ID, "Y", $NOTIFY = "Y");
 	$arResult["MESSAGE_SEND"] = "OK";
 	$_POST = [];
