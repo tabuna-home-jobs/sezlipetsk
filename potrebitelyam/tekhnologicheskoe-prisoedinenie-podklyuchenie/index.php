@@ -1,10 +1,29 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Технологическое присоединение / подключение");
-?><?$APPLICATION->IncludeComponent(
-	"custom:news.list_connect",
-	"",
-	Array(
+?>
+
+<div class="main container">
+	<section>
+		<!--Хеебный крош-->
+		<?$APPLICATION->IncludeComponent(
+			"custom:breadcrumb",
+			"",
+			Array(
+				"COMPONENT_TEMPLATE" => "oez",
+				"START_FROM" => "0",
+				"PATH" => "",
+				"SITE_ID" => "s1"
+			)
+		);
+		?>
+		<!--Хлебные крошки-->
+		<h1><?=$APPLICATION->GetTitle();?></h1>
+	</section>
+	<?$APPLICATION->IncludeComponent(
+	"custom:news.list_connect", 
+	".default", 
+	array(
 		"COMPONENT_TEMPLATE" => ".default",
 		"IBLOCK_TYPE" => "information",
 		"IBLOCK_ID" => "6",
@@ -14,8 +33,14 @@ $APPLICATION->SetTitle("Технологическое присоединени�
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER2" => "ASC",
 		"FILTER_NAME" => "",
-		"FIELD_CODE" => array("",""),
-		"PROPERTY_CODE" => array("",""),
+		"FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
 		"CHECK_DATES" => "Y",
 		"DETAIL_URL" => "",
 		"AJAX_MODE" => "N",
@@ -29,13 +54,13 @@ $APPLICATION->SetTitle("Технологическое присоединени�
 		"CACHE_GROUPS" => "Y",
 		"PREVIEW_TRUNCATE_LEN" => "",
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
-		"SET_TITLE" => "Y",
-		"SET_BROWSER_TITLE" => "Y",
-		"SET_META_KEYWORDS" => "Y",
-		"SET_META_DESCRIPTION" => "Y",
+		"SET_TITLE" => "N",
+		"SET_BROWSER_TITLE" => "N",
+		"SET_META_KEYWORDS" => "N",
+		"SET_META_DESCRIPTION" => "N",
 		"SET_LAST_MODIFIED" => "N",
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
-		"ADD_SECTIONS_CHAIN" => "Y",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+		"ADD_SECTIONS_CHAIN" => "N",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
 		"PARENT_SECTION" => "",
 		"PARENT_SECTION_CODE" => "",
@@ -56,5 +81,32 @@ $APPLICATION->SetTitle("Технологическое присоединени�
 		"SET_STATUS_404" => "N",
 		"SHOW_404" => "N",
 		"MESSAGE_404" => ""
-	)
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+	),
+	false
+);?>
+	<script type="text/javascript">
+		//Чтобы колонки были равной высоты
+		function setEqualHeight(columns)
+		{
+			var tallestcolumn = 0;
+			columns.each(
+				function()
+				{
+					currentHeight = $(this).height();
+					if(currentHeight > tallestcolumn)
+					{
+						tallestcolumn = currentHeight;
+					}
+				}
+			);
+			columns.height(tallestcolumn);
+		}
+
+		$(document).ready(function() {
+			setEqualHeight($(".tab-pane > .row > div"));
+		});
+
+	</script>
+
+</div>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

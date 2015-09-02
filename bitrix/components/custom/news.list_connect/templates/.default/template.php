@@ -87,3 +87,262 @@ $this->setFrameMode(true);
 	<br /><?=$arResult["NAV_STRING"]?>
 <?endif;?>
 </div>
+
+
+<section>
+	<!-- #Главная навигация# -->
+	<ul id="myTabs" class="nav nav-tabs nav_galery nav-technology" role="tablist">
+		<li role="presentation" class="active"><a href="#electro" id="electro-tab" role="tab" data-toggle="tab"
+		                                          aria-controls="electro" aria-expanded="true">
+                <span>
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_14(1)white.png">
+                        <img class="active_img" src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_14(1).png">
+                    </span>
+				Электроснабжение</a>
+
+
+
+
+		</li>
+		<li role="presentation" class="">
+			<a href="#teplo" role="tab" id="teplo-tab" data-toggle="tab" aria-controls="teplo"
+			   aria-expanded="false">
+                <span>
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_14(4)white.png">
+                        <img class="active_img" src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_14(4).png">
+                    </span>
+				Теплоснабжение
+			</a>
+		</li>
+		<li role="presentation" class="">
+			<a href="#teplo" role="tab" id="teplo-tab" data-toggle="tab" aria-controls="teplo"
+			   aria-expanded="false">
+                <span>
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_17(1)white.png">
+                        <img class="active_img" src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_17(1).png">
+                    </span>
+				Газоснабжение
+			</a>
+		</li>
+		<li role="presentation" class="">
+			<a href="#teplo" role="tab" id="teplo-tab" data-toggle="tab" aria-controls="teplo"
+			   aria-expanded="false">
+                <span>
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_17(2)white.png">
+                        <img class="active_img" src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_17(2).png">
+                    </span>
+				Водоснабжение
+			</a>
+		</li>
+		<li role="presentation" class="">
+			<a href="#teplo" role="tab" id="teplo-tab" data-toggle="tab" aria-controls="teplo"
+			   aria-expanded="false">
+                <span>
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_17(3)white.png">
+                        <img class="active_img" src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_17(3).png">
+                    </span>
+				Водоотведение
+			</a>
+		</li>
+		<li role="presentation" class="">
+			<a href="#teplo" role="tab" id="teplo-tab" data-toggle="tab" aria-controls="teplo"
+			   aria-expanded="false">
+                <span>
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/vyshka.png">
+                        <img class="active_img" src="<?=SITE_TEMPLATE_PATH?>/img/icons/vyshka_2.png">
+                    </span>
+				Телекоммуникации
+			</a>
+		</li>
+	</ul>
+	<!-- #Главная навигация# -->
+
+	<!-- Панели навигации -->
+	<div id="main_content_tabs" class="tab-content">
+		<!--панель1 -->
+		<div role="tabpanel" class="tab-pane fade active in" id="electro" aria-labelledby="electro-tab">
+			<div class="row">
+				<div class="col-xs-6 left-side-4-trigger">
+					<!--Внутренняя навигация -->
+					<ul id="electro_tabs" class="nav nav-tabs navigacia" role="tablist">
+						<li role="presentation" class="active"><a href="#electro1" id="electro1-tab" role="tab"
+						                                          data-toggle="tab"
+						                                          aria-controls="electro1" aria-expanded="true">
+                                <span>
+                                    <img  src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_04(1)white.png">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_04(1).png">
+                                </span>
+								Общая информация по технологическому
+								присоединению/подключению</a>
+						</li>
+						<li role="presentation" class="">
+							<a href="#electro2" role="tab" id="electro2-tab"    data-toggle="tab" aria-controls="electro2" aria-expanded="false">
+                                <span>
+                                    <img  src="<?=SITE_TEMPLATE_PATH?>/img/icons/123_2.png">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/123.png">
+
+                                </span>
+								Порядок по технологическому присоединению/подключению</a></li>
+						<li role="presentation" class=""><a href="#electro2" role="tab" id="electro2-tab"
+						                                    data-toggle="tab"
+						                                    aria-controls="electro2" aria-expanded="false">
+                                <span>
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_04(3)white.png">
+                                    <img  src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_04(3).png">
+                                </span>
+								Типовые формы документов</a></li>
+						<li role="presentation" class=""><a href="#electro2" role="tab" id="electro2-tab"
+						                                    data-toggle="tab"
+						                                    aria-controls="electro2" aria-expanded="false">
+                                <span>
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/ruble.png">
+                                    <img  src="<?=SITE_TEMPLATE_PATH?>/img/icons/ruble_2.png">
+                                </span>
+								Тарифы на технологическое присоединение/подключение</a></li>
+						<li role="presentation" class=""><a href="#electro2" role="tab" id="electro2-tab"
+						                                    data-toggle="tab"
+						                                    aria-controls="electro2" aria-expanded="false">
+                                <span>
+                                     <img  src="<?=SITE_TEMPLATE_PATH?>/img/icons/mc2.png">
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/mc2_2.png">
+
+                                </span>
+								Сведения о наличии мощности, свободной для технологического присоединения/ подключения,
+								а так же о заявках и договорах</a></li>
+						<li role="presentation" class=""><a href="#electro2" role="tab" id="electro2-tab"
+						                                    data-toggle="tab"
+						                                    aria-controls="electro2" aria-expanded="false">
+                                <span>
+                                    <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_04(5)white.png">
+                                    <img  src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_04(5).png">
+                                </span>
+								Нормативные документы</a></li>
+					</ul>
+					<!--Внутренняя навигация -->
+
+				</div>
+
+				<div class="col-xs-6 innerpanel right-side-trigger">
+
+					<!--Внутренние панели навигации-->
+					<div id="electro_panel" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade active in " id="electro1"
+						     aria-labelledby="electro1-tab">
+							<div class=""><h3>Общая информация по технологическому присоединению/
+							                  подключению</h3>
+
+								<div class="item_download">
+									<div class="item_download_type"><img src="<?=SITE_TEMPLATE_PATH?>/img/pdf.png">DOC, 105 КБ</div>
+									<div class="item_download_date">30.09.2013</div>
+									<div class="item_download_name">Положение о закупках ОАО «ОЭЗ ППТ «Липецк»</div>
+								</div>
+								<div class="item_download">
+									<div class="item_download_type"><img src="<?=SITE_TEMPLATE_PATH?>/img/pdf.png">DOC, 105 КБ</div>
+									<div class="item_download_date">30.09.2013</div>
+									<div class="item_download_name">Положение о закупках ОАО «ОЭЗ ППТ «Липецк»</div>
+								</div>
+								<div class="item_download">
+									<div class="item_download_type"><img src="<?=SITE_TEMPLATE_PATH?>/img/pdf.png">DOC, 105 КБ</div>
+									<div class="item_download_date">30.09.2013</div>
+									<div class="item_download_name">Положение о закупках ОАО «ОЭЗ ППТ «Липецк»</div>
+								</div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="electro2" aria-labelledby="electro2-tab">
+							<h3>Порядок по технологическому присоединению/подключению</h3>
+
+							<div class="item_download">
+								<div class="item_download_type"><img src="<?=SITE_TEMPLATE_PATH?>/img/pdf.png">DOC, 105 КБ</div>
+								<div class="item_download_date">30.09.2013</div>
+								<div class="item_download_name">Положение о закупках ОАО «ОЭЗ ППТ «Липецк»</div>
+							</div>
+							<div class="item_download">
+								<div class="item_download_type"><img src="<?=SITE_TEMPLATE_PATH?>/img/pdf.png">DOC, 105 КБ</div>
+								<div class="item_download_date">30.09.2013</div>
+								<div class="item_download_name">Положение о закупках ОАО «ОЭЗ ППТ «Липецк»</div>
+							</div>
+							<div class="item_download">
+								<div class="item_download_type"><img src="<?=SITE_TEMPLATE_PATH?>/img/pdf.png">DOC, 105 КБ</div>
+								<div class="item_download_date">30.09.2013</div>
+								<div class="item_download_name">Положение о закупках ОАО «ОЭЗ ППТ «Липецк»</div>
+							</div>
+						</div>
+					</div>
+					<!--Внутренние панели навигации-->
+
+				</div>
+			</div>
+		</div>
+		<!--панель1 -->
+
+		<!--панель2 -->
+		<div role="tabpanel" class="tab-pane fade" id="teplo" aria-labelledby="teplo-tab">
+			<div class="row">
+				<div class="col-xs-6 left-side-4-trigger">
+					<ul id="teplo_tabs" class="nav nav-tabs navigacia" role="tablist">
+						<li role="presentation" class="active">
+							<a href="#teplo1" id="teplo1-tab" role="tab" data-toggle="tab" aria-controls="teplo1" aria-expanded="true">
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/pen_invert.png" class="hidden-xs">
+								Типовые формы документов
+							</a>
+						</li>
+						<li role="presentation" class=""><a href="#teplo2" role="tab" id="teplo2-tab"
+						                                    data-toggle="tab"
+						                                    aria-controls="teplo2" aria-expanded="false"><img
+									src="<?=SITE_TEMPLATE_PATH?>/img/ruble_invert.png" class="hidden-xs">Тарифы на технологическое
+						                                                         присоединение/подключение</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-6 innerpanel right-side-trigger">
+					<div id="teplo_right" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade active in" id="teplo1"
+						     aria-labelledby="teplo1-tab">
+							<h3>Общая информация по технологическому присоединению/
+							    подключению</h3>
+
+							<div class="item_download">
+								<div class="item_download_type"><img src="<?=SITE_TEMPLATE_PATH?>/img/pdf.png">DOC, 105 КБ</div>
+								<div class="item_download_date">30.09.2013</div>
+								<div class="item_download_name">Положение о закупках ОАО «ОЭЗ ППТ «Липецк»</div>
+							</div>
+							<div class="item_download">
+								<div class="item_download_type"><img src="<?=SITE_TEMPLATE_PATH?>/img/pdf.png">DOC, 105 КБ</div>
+								<div class="item_download_date">30.09.2013</div>
+								<div class="item_download_name">Положение о закупках ОАО «ОЭЗ ППТ «Липецк»</div>
+							</div>
+							<div class="item_download">
+								<div class="item_download_type"><img src="<?=SITE_TEMPLATE_PATH?>/img/pdf.png">DOC, 105 КБ</div>
+								<div class="item_download_date">30.09.2013</div>
+								<div class="item_download_name">Положение о закупках ОАО «ОЭЗ ППТ «Липецк»</div>
+							</div>
+						</div>
+
+						<div role="tabpanel" class="tab-pane fade" id="teplo2" aria-labelledby="teplo2-tab">
+							<h3>Общая информация по технологическому присоединению/
+							    подключению</h3>
+
+							<div class="item_download">
+								<div class="item_download_type"><img src="<?=SITE_TEMPLATE_PATH?>/img/pdf.png">DOC, 105 КБ</div>
+								<div class="item_download_date">30.09.2013</div>
+								<div class="item_download_name">Положение о закупках ОАО «ОЭЗ ППТ «Липецк»</div>
+							</div>
+							<div class="item_download">
+								<div class="item_download_type"><img src="<?=SITE_TEMPLATE_PATH?>/img/pdf.png">DOC, 105 КБ</div>
+								<div class="item_download_date">30.09.2013</div>
+								<div class="item_download_name">Положение о закупках ОАО «ОЭЗ ППТ «Липецк»</div>
+							</div>
+							<div class="item_download">
+								<div class="item_download_type"><img src="<?=SITE_TEMPLATE_PATH?>/img/pdf.png">DOC, 105 КБ</div>
+								<div class="item_download_date">30.09.2013</div>
+								<div class="item_download_name">Положение о закупках ОАО «ОЭЗ ППТ «Липецк»</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--панель2 -->
+
+	</div>
+	<!--Панели навигации -->
+</section>
