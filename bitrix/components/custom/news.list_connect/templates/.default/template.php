@@ -14,6 +14,7 @@ $this->setFrameMode(true);
 	//var_dump($arResult);
 	//die('ghjkl;');
 ?>
+<!--
 <div class="news-list">
 <?if($arParams["DISPLAY_TOP_PAGER"]):?>
 	<?=$arResult["NAV_STRING"]?><br />
@@ -86,13 +87,40 @@ $this->setFrameMode(true);
 <?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
 	<br /><?=$arResult["NAV_STRING"]?>
 <?endif;?>
-</div>
+</div>-->
 
+
+<?
+$i = 0;
+	$big_panel = "";//переменнаяя для хранения разделов из главной  панели
+for($i = 0; $i<count($arResult["razdel"]); $i++){
+	if($i == 0){$flag = 'true';}else {$flag = 'false';}
+	$razdel_tmp = '<li role="presentation" class="">
+                <a href="#r'.$arResult["razdel"][$i]['ID'].'" role="tab" id="'.$arResult["razdel"][$i]['ID'].'-tab" data-toggle="tab" aria-controls="r'.$arResult["razdel"][$i]['ID'].'"
+                   aria-expanded="'.$flag.'">
+                <span>
+                        <img  src="'.$arResult["razdel"][$i]['UF_SECOND_IMG']['SRC'].'">
+                        <img class="active_img" src="'.$arResult["razdel"][$i]['UF_FIRST_IMG']['SRC'].'">
+
+                    </span>
+					'.$arResult["razdel"][$i]['NAME'].'
+                </a>
+            </li>';
+	$big_panel.=$razdel_tmp;
+	//var_dump($razdel_tmp);
+
+
+}
+	//die('fghjk');
+
+
+?>
 
 <section>
 	<!-- #Главная навигация# -->
 	<ul id="myTabs" class="nav nav-tabs nav_galery nav-technology" role="tablist">
-		<li role="presentation" class="active"><a href="#electro" id="electro-tab" role="tab" data-toggle="tab"
+		<?=$big_panel?>
+		<!--<li role="presentation" class="active"><a href="#electro" id="electro-tab" role="tab" data-toggle="tab"
 		                                          aria-controls="electro" aria-expanded="true">
                 <span>
                         <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_14(1)white.png">
@@ -153,7 +181,7 @@ $this->setFrameMode(true);
                     </span>
 				Телекоммуникации
 			</a>
-		</li>
+		</li>-->
 	</ul>
 	<!-- #Главная навигация# -->
 
