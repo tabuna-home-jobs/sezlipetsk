@@ -222,7 +222,7 @@
                         <div class="row step_item_inputs">
                             <div class="col-xs-12 col-sm-6 file_input">
                                 <input type="file" value="Прикрепить файл" name="FILE_1">
-                                <a><img src="img/srepka.png">Прикрепить файл</a>
+                                <a><img src="<?=SITE_TEMPLATE_PATH?>/img/srepka.png">Прикрепить файл</a>
                             </div>
                             <div class="col-xs-12 col-sm-6 ">
                                 <div class="col-xs-6"><span nameinput="16">Описание документа</span></div>
@@ -233,7 +233,7 @@
                         <div class="row step_item_inputs">
                             <div class="col-xs-12 col-sm-6  file_input">
                                 <input type="file" value="Прикрепить файл" name="FILE_2">
-                                <a><img src="img/srepka.png">Прикрепить файл</a>
+                                <a><img src="<?=SITE_TEMPLATE_PATH?>/img/srepka.png">Прикрепить файл</a>
                             </div>
                             <div class="col-xs-12 col-sm-6">
                                 <div class="col-xs-6">Описание документа</div>
@@ -244,7 +244,7 @@
                         <div class="row step_item_inputs">
                             <div class="col-xs-12 col-sm-6  file_input">
                                 <input type="file" value="Прикрепить файл" name="FILE_3">
-                                <a><img src="img/srepka.png">Прикрепить файл</a>
+                                <a><img src="<?=SITE_TEMPLATE_PATH?>/img/srepka.png">Прикрепить файл</a>
                             </div>
                             <div class="col-xs-12 col-sm-6 ">
                                 <div class="col-xs-6">Описание документа</div>
@@ -255,7 +255,7 @@
                         <div class="row step_item_inputs">
                             <div class="col-xs-12 col-sm-6  file_input">
                                 <input type="file" value="Прикрепить файл" name="FILE_4">
-                                <a><img src="img/srepka.png">Прикрепить файл</a>
+                                <a><img src="<?=SITE_TEMPLATE_PATH?>/img/srepka.png">Прикрепить файл</a>
                             </div>
                             <div class="col-xs-12 col-sm-6 ">
                                 <div class="col-xs-6">Описание документа</div>

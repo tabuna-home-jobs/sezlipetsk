@@ -1,0 +1,88 @@
+<div class="login_form_heder ">
+    <h2 class="h20px_light"><?=GetMessage('TITLE_OCNK');?></h2>
+</div>
+<div class="row step_item_inputs">
+    <div class="col-xs-6 labels_left">
+        <?=GetMessage('choose_theme');?>
+    </div>
+    <div class="col-xs-6 inputs_right">
+        <select>
+            <option><?=GetMessage('choose_theme');?></option>
+        </select>
+    </div>
+</div>
+<div class="row step_item_inputs">
+    <div class="col-xs-6 labels_left">
+        <?=GetMessage('messs');?>
+    </div>
+    <div class="col-xs-6 ">
+        <input class="input_steps" type="text" required>
+    </div>
+</div>
+<div class="row step_item_inputs">
+    <div class="col-xs-6 labels_left">
+        <?=GetMessage('ocenka_title');?>
+    </div>
+    <div class="col-xs-6">
+        <div class="ocenka">
+                    <span class="star" data-pos="1">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
+                    </span>
+                    <span class="star" data-pos="2">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
+                    </span>
+                    <span class="star" data-pos="3">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
+                    </span>
+                    <span class="star" data-pos="4">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
+                    </span>
+                    <span class="star" data-pos="5">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
+                    </span>
+            <span class="ocenka_name"></span>
+        </div>
+    </div>
+    <input type="hidden" value="0" name="assessment">
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var assessmentName = {
+                '1': '<?=GetMessage('very_bad');?>',
+                '2': '<?=GetMessage('bad');?>',
+                '3': '<?=GetMessage('normal');?>',
+                '4': '<?=GetMessage('good');?>',
+                '5': '<?=GetMessage('very_good');?>'
+            };
+
+            $('.ocenka span.star').click(function(){
+                var obj = $(this);
+                var startObj = $('.ocenka span.star');
+                var positionStar = obj.data('pos');
+                //Обнуляем все активные звезды
+                startObj.removeClass('active_star');
+                //Ставим в инпут оценку юзверя
+                $("input[name='assessment']").val(positionStar);
+                //Добавляем активные звезды всем позициям до текущей
+                for(var i = 0; i < positionStar; i++){
+                    startObj.eq(i).addClass('active_star');
+                }
+                //Ставим оценку буковками
+                $(".ocenka_name").text(assessmentName[positionStar]);
+            });
+        });
+    </script>
+</div>
+<div class="row">
+    <div class="col-xs-6 labels_left">
+
+    </div>
+    <div class="col-xs-6 inputs_right">
+        <button class="send_form"><?=GetMessage('SEND_BUTN')?></button>
+    </div>
+
+</div>

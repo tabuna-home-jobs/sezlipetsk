@@ -2835,6 +2835,8 @@ background-color:transparent!important;
 .ocenka_name {
     margin-left: 20px;
     color:#e53d45;
+    width: 120px;
+    display: inline-block;
 }
 .and-more{
   color:#949494;

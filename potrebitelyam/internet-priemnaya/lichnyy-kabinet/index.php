@@ -330,7 +330,7 @@
 								</div>
 								<div class="col-sm-6 col-xs-12 block_item ">
 									<div class="item_block hight_item_block">
-										<a class="item_block_a" href="">
+										<a class="item_block_a" href="otsenka-kachestva-obsluzhivaniya/">
 											<div class="hover_container">
 												<div class="hover"></div>
 											</div>
