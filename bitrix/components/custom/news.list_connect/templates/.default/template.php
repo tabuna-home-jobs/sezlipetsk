@@ -101,6 +101,9 @@ $this->setFrameMode(true);
 	$i = 0;
 	$big_panel = "";//переменнаяя для хранения разделов из главной  панели
 for($i = 0; $i<count($arResult["razdel"]); $i++){
+	$vn_tmp='';
+	$vn='';
+	$elements = '';
 	if($i == 0){$flag = 'true'; $class="active"; $fade='active in'; }else {$flag = 'false'; $class=""; $fade = ''; }
 	$razdel_tmp = '<li role="presentation" class="'.$class.'">
                 <a href="#r'.$arResult["razdel"][$i]['ID'].'" role="tab" id="'.$arResult["razdel"][$i]['ID'].'-tab" data-toggle="tab" aria-controls="r'.$arResult["razdel"][$i]['ID'].'"
@@ -127,19 +130,21 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 	$tmp_elements_stop = '</div></div>';
 	$tmp_panel_cild = '';
 	for($j = 0; $j < count($arResult["razdel"][$i]['child']); $j++ ){
-		if($i == 0){$flag2 = 'true'; $class2="active"; }else {$flag2 = 'false'; $class2="";}
-		$tmp_panel_cild = '<li role="presentation" class="'.$class.'"><a href="#r'.$arResult["razdel"][$i]['child'][$j]['ID'].'" id="electro1-tab" role="tab"
+		if($j == 0){$flag2 = 'true'; $class2="active"; }else {$flag2 = 'false'; $class2="";}
+		$tmp_panel_cild = '<li role="presentation" class="'.$class2.'"><a href="#r'.$arResult["razdel"][$i]['child'][$j]['ID'].'" id="electro1-tab" role="tab"
                                                                       data-toggle="tab"
                                                                       aria-controls="'.$arResult["razdel"][$i]['child']['ID'].'" aria-expanded="'.$flag2.'">
                                 <span>
                                     <img  src="'.$arResult["razdel"][$i]['child'][$j]['UF_SECOND_IMG']['SRC'].'">
                                     <img src="'.$arResult["razdel"][$i]['child'][$j]['UF_FIRST_IMG']['SRC'].'">
                                 </span>
-                                '.$arResult["razdel"][$i]['child'][$j]['NAME'].'
+                                '.$arResult["razdel"][$i]['child'][$j]['NAME'].'</a>
                             </li>';
 		$vn_tmp .= $tmp_panel_cild;
 		$tmp_element = "";
 		for($k = 0; $k<count($arResult["razdel"][$i]['child'][$j]['element']); $k++ ){
+			if($j == 0){$active='active in';}else{$active = '';}
+			$tmp_element = "";
 			$files_str = "";
 			for($m = 0; $m<count($arResult["razdel"][$i]["child"][$j]['element'][$k]['files']); $m++){
 				$files_str.='<div class="item_download">
@@ -148,7 +153,7 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
                                         <div class="item_download_name">'.extractFileName($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["ORIGINAL_NAME"]).'</div>
                                     </div>';
 			}
-			$tmp_element = '    <div role="tabpanel" class="tab-pane fade active in " id="r'.$arResult["razdel"][$i]['child'][$j]['ID'].'"
+			$tmp_element = '    <div role="tabpanel" class="tab-pane fade '.$active.' " id="r'.$arResult["razdel"][$i]['child'][$j]['ID'].'"
                                  aria-labelledby="electro1-tab">
                                 <div class=""><h3>'.$arResult["razdel"][$i]["child"][$j]["element"][$k] ["row"]['NAME'].'</h3>
 									'.$files_str.'
@@ -162,6 +167,8 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 	$vn = $tmp_start_panel_vn.$vn_tmp.$tmp_stop_panel_vn;//Собираем внутреннюю навигацию
 	$elements = $tmp_elements_start.$tmp_elements.$tmp_elements_stop;//Собираем внутреннюю панель навигании
 	$pan.= $tmp_start_panel.$vn.$elements.$tmp_stop_panel;
+	$vn='';
+	$elements='';
 	//var_dump($razdel_tmp);
 
 
