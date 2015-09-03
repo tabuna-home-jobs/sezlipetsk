@@ -1,54 +1,60 @@
+<form method="post" id="main_form" enctype="multipart/form-data">
+<textarea name="MESSAGE_1" allmessage style="display:none"></textarea>
 <div class="login_form_heder ">
-    <h2 class="h20px_light"><?=GetMessage('TITLE_OCNK');?></h2>
-</div>
-<div class="row step_item_inputs">
+        <h2 class="h20px_light"><?=GetMessage('TITLE_OCNK');?></h2>
+    </div>
+    <div class="row step_item_inputs">
+        <div class="col-xs-6 labels_left">
+            <?=GetMessage('choose_theme');?>
+        </div>
+        <div class="col-xs-6 inputs_right">
+            <select>
+                <option><?=GetMessage('choose_theme');?></option>
+            </select>
+        </div>
+    </div>
+    <div class="row step_item_inputs">
+        <div class="col-xs-6 labels_left">
+            <span nameinput="1">
+                <?=GetMessage('messs');?>
+            </span>
+        </div>
+        <div class="col-xs-6 ">
+            <input class="input_steps" type="text" inputvalue="1">
+        </div>
+    </div>
+    <div class="row step_item_inputs">
     <div class="col-xs-6 labels_left">
-        <?=GetMessage('choose_theme');?>
-    </div>
-    <div class="col-xs-6 inputs_right">
-        <select>
-            <option><?=GetMessage('choose_theme');?></option>
-        </select>
-    </div>
-</div>
-<div class="row step_item_inputs">
-    <div class="col-xs-6 labels_left">
-        <?=GetMessage('messs');?>
-    </div>
-    <div class="col-xs-6 ">
-        <input class="input_steps" type="text" required>
-    </div>
-</div>
-<div class="row step_item_inputs">
-    <div class="col-xs-6 labels_left">
-        <?=GetMessage('ocenka_title');?>
+        <span nameinput="2">
+            <?=GetMessage('ocenka_title');?>
+        </span>
     </div>
     <div class="col-xs-6">
         <div class="ocenka">
-                    <span class="star" data-pos="1">
-                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
-                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
-                    </span>
-                    <span class="star" data-pos="2">
-                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
-                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
-                    </span>
-                    <span class="star" data-pos="3">
-                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
-                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
-                    </span>
-                    <span class="star" data-pos="4">
-                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
-                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
-                    </span>
-                    <span class="star" data-pos="5">
-                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
-                        <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
-                    </span>
+            <span class="star" data-pos="1">
+                <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
+                <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
+            </span>
+            <span class="star" data-pos="2">
+                <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
+                <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
+            </span>
+            <span class="star" data-pos="3">
+                <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
+                <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
+            </span>
+            <span class="star" data-pos="4">
+                <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
+                <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
+            </span>
+            <span class="star" data-pos="5">
+                <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
+                <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
+            </span>
             <span class="ocenka_name"></span>
         </div>
     </div>
-    <input type="hidden" value="0" name="assessment">
+    <input type="hidden" value="0" name="assessment" inputvalue="2">
     <script type="text/javascript">
         $(document).ready(function(){
             var assessmentName = {
@@ -79,10 +85,11 @@
 </div>
 <div class="row">
     <div class="col-xs-6 labels_left">
-
+        <input type="hidden" value="Оценка качества обслуживания" name="formname">
     </div>
     <div class="col-xs-6 inputs_right">
         <button class="send_form"><?=GetMessage('SEND_BUTN')?></button>
     </div>
 
 </div>
+</form>

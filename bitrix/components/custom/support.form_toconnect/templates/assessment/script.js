@@ -17,7 +17,6 @@ $(document).ready(function() {
         allMessage.val('');
 
 
-
         but.parent().parent().parent().find('[inputvalue]').each(function() {
 
             //Если не заполнено, ругаемся...

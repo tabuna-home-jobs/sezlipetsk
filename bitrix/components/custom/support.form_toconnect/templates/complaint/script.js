@@ -39,7 +39,7 @@ $(document).ready(function() {
         if (!errorArr) {
 
             allMessage.val(allMessageText);
-            $('#main_form2').submit();
+            $('#main_form').submit();
         }
     });
 });
