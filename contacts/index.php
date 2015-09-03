@@ -25,18 +25,18 @@ $APPLICATION->SetTitle("Контакты");
 					<div class="col-md-12 col-lg-4 col-sm-4 col-xs-12 contact_item">
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/marker_big.png">
 
-						<div class="contact_item_number">г. Липецк, п. Матырский,<br/>
-						                                 ул. Моршанская, 4-а
+						<div class="contact_item_number">399071, Липецкая область, Грязинский район, ОЭЗ ППТ «Липецк», АДЦ
 						</div>
-						<div class="contact_item_dopinfo">
+						<!--<div class="contact_item_dopinfo">
 							Почтовый адрес: 398908, г. Липецк,<br/> пос. Матырский, а/я 344
-						</div>
+						</div>-->
 					</div>
 					<div class="col-md-12 col-lg-4 col-sm-4 col-xs-12 contact_item">
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/marker_big.png">
 
 						<div class="contact_item_number">Т: +7 (4742) 51-51-80,<br/>
-						                                 Ф: +7 (4742) 51-51-95
+						                                 Т: +7 (4742) 51-53-88,<br/>
+						                                 Ф: +7 (4742) 51-53-23
 						</div>
 						<div class="contact_item_dopinfo">
 
