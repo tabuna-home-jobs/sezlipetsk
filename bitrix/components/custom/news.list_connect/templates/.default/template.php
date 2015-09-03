@@ -142,6 +142,8 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
                             </li>';
 		$vn_tmp .= $tmp_panel_cild;
 		$tmp_element = "";
+		//var_dump($arResult["razdel"]);
+		//die('fghj');
 		for($k = 0; $k<count($arResult["razdel"][$i]['child'][$j]['element']); $k++ ){
 			if($j == 0){$active='active in';}else{$active = '';}
 			$tmp_element = "";
@@ -163,12 +165,24 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 			//die('fghj');
 			$tmp_elements.=$tmp_element;
 		}
+		if( count($arResult["razdel"][$i]['child'][$j]['element']) ==0)
+		{
+			$tmp_elements.=  '    <div role="tabpanel" class="tab-pane fade '.$active.' " id="r'.$arResult["razdel"][$i]['child'][$j]['ID'].'"
+                                 aria-labelledby="electro1-tab">
+                                <div class=""><h3></h3>
+
+                                </div>
+                            </div>';
+		}
+		$tt.=$tmp_elements;
+		$tmp_elements = '';
 	}
 	$vn = $tmp_start_panel_vn.$vn_tmp.$tmp_stop_panel_vn;//Собираем внутреннюю навигацию
-	$elements = $tmp_elements_start.$tmp_elements.$tmp_elements_stop;//Собираем внутреннюю панель навигании
+	$elements = $tmp_elements_start.$tt.$tmp_elements_stop;//Собираем внутреннюю панель навигании
 	$pan.= $tmp_start_panel.$vn.$elements.$tmp_stop_panel;
 	$vn='';
 	$elements='';
+	$tt = '';
 	//var_dump($razdel_tmp);
 
 

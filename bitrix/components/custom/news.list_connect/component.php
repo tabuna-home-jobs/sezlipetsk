@@ -333,7 +333,7 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 		}
 
 		/* Получаем разделы и элеметы инфоблока */
-		$rs_Section = CIBlockSection::GetList(array('left_margin' => 'asc'), array('IBLOCK_ID' =>6,'depth_level' => '1'),false,array('UF_*'));
+		$rs_Section = CIBlockSection::GetList(array('left_margin' => 'desc'), array('IBLOCK_ID' =>6,'depth_level' => '1'),false,array('UF_*'));
 		$ii = 0;
 		while ( $ar_Section = $rs_Section->Fetch() )
 		{
@@ -347,7 +347,7 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 				'UF_FIRST_IMG' =>CFile::GetFileArray ($ar_Section['UF_FIRST_IMG']),
 				'UF_SECOND_IMG' => CFile::GetFileArray($ar_Section['UF_SECOND_IMG']),
 			);
-			$rs_Section_child = CIBlockSection::GetList(array('left_margin' => 'asc'), array('IBLOCK_ID' =>6,'SECTION_ID' =>$ar_Section['ID'],'depth_level' => '2'),false,array('UF_*'));
+			$rs_Section_child = CIBlockSection::GetList(array('left_margin' => 'desc'), array('IBLOCK_ID' =>6,'SECTION_ID' =>$ar_Section['ID'],'depth_level' => '2'),false,array('UF_*'));
 			$jj = 0;
 			while($ar_Section_child = $rs_Section_child ->Fetch() ){
 				$arResult["razdel"][$ii]["child"][$jj] = array(
@@ -361,7 +361,7 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 				);
 
 
-				$rs_element = CIBlockElement::GetList(Array("SORT"=>"ASC"),array('SECTION_ID'=>  $ar_Section_child ['ID']));
+				$rs_element = CIBlockElement::GetList(Array("SORT"=>"desc"),array('SECTION_ID'=>  $ar_Section_child ['ID']));
 				$kk = 0;
 
 				while($ar_element = $rs_element->GetNextElement()){
