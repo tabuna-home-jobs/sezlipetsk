@@ -47,94 +47,20 @@ $APPLICATION->SetTitle("Направить обращение/жалобу");
 				<div role="tabpanel" class="tab-pane fade active in" id="login_panel">
 					<?$APPLICATION->IncludeComponent(
 						"custom:support.form_toconnect",
-						"complaint",
+						"appeal",
 						Array(
 						)
 					);
 					?>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="registration_panel">
-					<form>
-						<div class="nomer_zayavki">Жалоба №0665</div>
-						<div class="inputs_container">
-							<div class="row">
-								<div class="col-xs-6 labels_left">
-									<span class="star_red">*</span> Фамилия Имя Отчество
-								</div>
-								<div class="col-xs-6 inputs_right">
-									<input type="text" name="login">
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xs-6 labels_left">
-									<span class="star_red">*</span> Наименование организации
-								</div>
-								<div class="col-xs-6 inputs_right">
-									<input type="text" name="login">
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xs-6 labels_left">
-									<span class="star_red">*</span> Должность
-								</div>
-								<div class="col-xs-6 inputs_right">
-									<input type="text" name="login">
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col-xs-6 labels_left">
-									<span class="star_red">*</span> E-mail
-								</div>
-								<div class="col-xs-6 inputs_right">
-									<input type="text" name="login">
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xs-6 labels_left">
-									Телефон
-								</div>
-								<div class="col-xs-6 inputs_right">
-									<input type="text" name="login">
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xs-6 labels_left">
-									Выберите тему
-								</div>
-								<div class="col-xs-6 inputs_right">
-									<select><option>Выберите тему</option></select>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xs-6 labels_left">
-									Сообщение
-								</div>
-								<div class="col-xs-6 inputs_right">
-									<textarea></textarea>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xs-6 labels_left send_file_desription">
-									Вы можете прикрепить файл с материалами по обращению
-								</div>
-								<div  class="col-xs-6 file_input">
-									<input type="file" value="Прикрепить файл">
-									<a><img src="<?=SITE_TEMPLATE_PATH?>/img/srepka.png">Прикрепить файл</a>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xs-6 labels_left">
-
-								</div>
-								<div class="col-xs-6 inputs_right">
-									<button>ОТПРАВИТЬ</button>
-									<div class="star_description"><span class="star_red">*</span> — обязательные поля</div>
-								</div>
-								<div class="srok_obrashenia col-xs-12">Срок рассмотрения вашей жалобы №0665 до 11,05,15</div>
-							</div>
-						</div>
-					</form>
+					<?$APPLICATION->IncludeComponent(
+						"custom:support.form_toconnect",
+						"complaint",
+						Array(
+						)
+					);
+					?>
 				</div>
 			</div>
 		</div>

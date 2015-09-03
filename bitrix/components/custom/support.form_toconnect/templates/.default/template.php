@@ -381,6 +381,7 @@
                 </div>
                 <div class="col-xs-6">
                     <input class="input_steps" type="text" inputvalue="26" name="FIELD_26" value='<?=$_POST["FIELD_26"]?>' require>
+                    <input type="hidden" value="Заявка на присоединение" name="formname">
                 </div>
             </div>
         </div>

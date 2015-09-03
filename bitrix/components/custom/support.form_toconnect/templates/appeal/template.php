@@ -1,6 +1,6 @@
 <div class="login_form_container">
-    <form method="post" id="main_form2" enctype="multipart/form-data">
-        <div class="nomer_zayavki">Жалоба</div>
+    <form method="post" id="main_form" enctype="multipart/form-data">
+        <div class="nomer_zayavki">Обращение</div>
         <div class="inputs_container">
             <textarea name="MESSAGE_1" allmessage style="display:none"></textarea>
             <div class="row">
@@ -68,7 +68,7 @@
                 </div>
                 <div  class="col-xs-6 file_input">
                     <input type="file" value="Прикрепить файл" name="FILE_1">
-                    <input type="hidden" value="Жалоба" name="formname">
+                    <input type="hidden" value="Обращение" name="formname">
                     <a><img src="<?=SITE_TEMPLATE_PATH?>/img/srepka.png">Прикрепить файл</a>
                 </div>
             </div>

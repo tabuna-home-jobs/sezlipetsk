@@ -311,7 +311,7 @@
 							<div class="row">
 								<div class="col-sm-6 col-xs-12 block_item ">
 									<div class="item_block hight_item_block">
-										<a class="item_block_a" href="zayavka-na-prisoedinenie/">
+										<a class="item_block_a" id="remember_pass">
 											<div class="hover_container">
 												<div class="hover"></div>
 											</div>
@@ -349,6 +349,36 @@
 								</div>
 							</div>
 						</div>
+					<div class="remember_form_main">
+						<div class="remember_form_cell">
+							<div class="remember_form">
+								<div class="close_r_f_container"><a class="close_r_f"></a></div>
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="r_f_heder">Выберите вариант заявки</div>
+									</div>
+								</div>
+								<div>
+
+									<div class="col-xs-12">
+										<div class="oval_links_container">
+											<a href="zayavka-na-prisoedinenie/" class="oval_links"><span><span>до 150 к Вт <span class="star_red">*</span></span></span></a>
+											<a href="zayavka-na-prisoedinenie-vremennoe/" class="oval_links"><span><span><span>Временное <span class="star_red">*</span><span class="star_red">*</span> присоединение</span></span></span></a>
+										</div>
+									</div>
+									<div class="col-xs-12 form_descript">
+										<span class="star_red">*</span>
+										Форма заявки для юридических лиц или индивидуальных предпринимателей, максимальная мощность энергопринимающих устройств которых составляет до 150кВт включительно (с учетом ранее присоединенных в данной точке присоединения энергопринимающих устройств) по одному источнику
+										электроснабжения.
+									</div>
+									<div class="col-xs-12 form_descript">
+										<span class="star_red">*</span><span class="star_red">*</span>
+										Форма заявки для заявителей в целях временного (на ограниченный период времени для обеспечения электроснабжения энергопринимающих устройств) технологического присоединения энергопринимающих устройств по третьей категории надежности электроснабжения на уровне напряжения ниже 35 кВ.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</section>
 				</div>
 				<?
