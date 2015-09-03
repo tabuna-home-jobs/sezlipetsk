@@ -1279,7 +1279,7 @@ cursor:pointer;
   color:inherit;
   display: block;
   position: relative;
-  padding-left: 70px;
+  /*padding-left: 70px;*/
 }
 .navigacia>li>a>img {
   position: absolute;
@@ -1287,7 +1287,7 @@ cursor:pointer;
   left: 0;
 }
 .innerpanel {
-  background-image: url("img/line-trigger.jpg");
+  background-image: url("../img/line-trigger.jpg");
   background-repeat: repeat-y;
   padding-left: 35px;
 }
@@ -1303,7 +1303,7 @@ border: none;
   background-color: transparent;
 }
 .navigacia li.active{
-  background: url("img/corner_trigger.jpg") no-repeat top right;
+  background: url("../img/corner_trigger.jpg") no-repeat top right;
 }
 .navigacia li{
   min-height: 43px;

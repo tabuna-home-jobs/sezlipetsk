@@ -103,7 +103,7 @@ $APPLICATION->SetTitle("Технологическое присоединени�
 		}
 
 		$(document).ready(function() {
-			//setEqualHeight($(".tab-pane > .row > div"));
+			setEqualHeight($(".tab-pane > .row > div"));
 		});
 
 	</script>
