@@ -28,8 +28,20 @@ $APPLICATION->SetTitle("Оценка качества обслуживания")
 
 В данном разделе вы найдёте информацию о том, как начать свой бизнес в российских особых экономических зонах.
             </div>
-            <div class="back_container"><a class="all"><span
-                    class="glyphicon glyphicon-menu-left"></span> Назад</a></div>
+            <div class="back_container">
+                <a class="all" id="go_back">
+                    <span class="glyphicon glyphicon-menu-left"></span>
+                    Назад
+                </a>
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                   //Вернемся назад
+                   $("#go_back").click(function(){
+                       window.history.back();
+                   });
+                });
+            </script>
         </div>
     </div>
     <div class="col-xs-12 col-md-6 login_part_right max_height_block">
@@ -46,5 +58,4 @@ $APPLICATION->SetTitle("Оценка качества обслуживания")
 </div>
 
 </div>
-
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

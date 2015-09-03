@@ -174,8 +174,12 @@ $('.scrollbar-outer1').scrollbar();
     $('#remember_pass').click(function () {
         $('.remember_form_main').addClass('remember_form_main_active');
     });
+    $('#remember_pass2').click(function () {
+        $('.remember_form_main2').addClass('remember_form_main_active');
+    });
     $('.close_r_f').click(function () {
         $('.remember_form_main').removeClass('remember_form_main_active');
+        $('.remember_form_main2').removeClass('remember_form_main_active');
     });
 
 
