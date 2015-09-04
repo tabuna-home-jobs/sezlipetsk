@@ -416,35 +416,35 @@ $APPLICATION->SetTitle("Интерактивная карта");
 					//Нажатие по кругу 1
 					$("#elips1, #control-button-1").click(function(){
 						$("#sub-map1").fadeIn('1000', function(){
-							$("#control-button-1 img").attr('src','img/maparea/close1.png');
+							$("#control-button-1 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close1.png');
 						});
 					});
 
 					//Нажатие по кругу 2
 					$("#elips2, #control-button-2").click(function(){
 						$("#sub-map2").fadeIn('1000', function(){
-							$("#control-button-2 img").attr('src','img/maparea/close1.png');
+							$("#control-button-2 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close1.png');
 						});
 					});
 
 					//Закрываем первую суб карту и меняем крестик
-					$('body').on('click',"#control-button-1 img[src='img/maparea/close1.png']", function(){
+					$('body').on('click',"#control-button-1 img[src='<?=SITE_TEMPLATE_PATH?>/img/maparea/close1.png']", function(){
 						$("#sub-map1").fadeOut('1000', function(){
 							//Убираем выделение у всех круглых областей
 							$("area[data-group='zone001']").mapster('deselect');
 							$("area[data-group='zone002']").mapster('deselect');
-							$("#control-button-1 img").attr('src','img/maparea/close2.png');
+							$("#control-button-1 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close2.png');
 						});
 					});
 
 
 					//Закрываем вторую суб карту и меняем крестик
-					$('body').on('click',"#control-button-2 img[src='img/maparea/close1.png']", function(){
+					$('body').on('click',"#control-button-2 img[src='<?=SITE_TEMPLATE_PATH?>/img/maparea/close1.png']", function(){
 						$("#sub-map2").fadeOut('1000', function(){
 							//Убираем выделение у всех круглых областей
 							$("area[data-group='zone001']").mapster('deselect');
 							$("area[data-group='zone002']").mapster('deselect');
-							$("#control-button-2 img").attr('src','img/maparea/close2.png');
+							$("#control-button-2 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close2.png');
 						});
 					});
 
@@ -458,7 +458,7 @@ $APPLICATION->SetTitle("Интерактивная карта");
 								//Убираем выделение у всех круглых областей
 								$("area[data-group='zone001']").mapster('deselect');
 								$("area[data-group='zone002']").mapster('deselect');
-								$("#control-button-1 img").attr('src','img/maparea/close2.png');
+								$("#control-button-1 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close2.png');
 							});
 						}
 
@@ -473,7 +473,7 @@ $APPLICATION->SetTitle("Интерактивная карта");
 								//Убираем выделение у всех круглых областей
 								$("area[data-group='zone001']").mapster('deselect');
 								$("area[data-group='zone002']").mapster('deselect');
-								$("#control-button-2 img").attr('src','img/maparea/close2.png');
+								$("#control-button-2 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close2.png');
 							});
 						}
 					});

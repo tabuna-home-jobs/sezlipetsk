@@ -41,7 +41,7 @@ $APPLICATION->SetTitle("Инвестору");
 						</div>
 						<div class="more_about">
 
-							<a class="all">Подробнее о регионе <span
+							<a href="/investor/o-regione/" class="all">Подробнее о регионе <span
 									class="glyphicon glyphicon-menu-right"></span></a>
 						</div>
 					</div>
@@ -114,7 +114,7 @@ $APPLICATION->SetTitle("Инвестору");
 			<div class="map_container">
 				<div class="map_back">
 					<div>
-						<div><a>Интерактиваня карта</a></div>
+						<div><a class="map_link" href="/map/" >Интерактиваня карта</a></div>
 					</div>
 				</div>
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/maaap.jpg">
@@ -320,7 +320,7 @@ $APPLICATION->SetTitle("Инвестору");
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<a class="inform_item_a">
+						<a href="/investor/promyshlennaya-infrastruktura-oez/" class="inform_item_a">
 							<div class="inform_item row">
 								<div class="col-xs-6 inform_text">
 									<div class="small_text">а так же</div>
@@ -336,7 +336,7 @@ $APPLICATION->SetTitle("Инвестору");
 						</a>
 					</div>
 					<div class="col-md-6">
-						<a class="inform_item_a">
+						<a href="/investor/sotsialnaya-infrastruktura-oez/" class="inform_item_a">
 							<div class="inform_item row">
 								<div class="col-xs-6 inform_text">
 									<div class="small_text">а так же</div>
