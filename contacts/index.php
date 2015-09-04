@@ -52,9 +52,9 @@ $APPLICATION->SetTitle("Контакты");
 						</div>
 					</div>
 				</div>
-				<div class="p24page_all"><a class="all">Администрация Липецкой области<span
+				<div class="p24page_all"><a target="_blank" href="http://admlip.ru/"  class="all">Администрация Липецкой области<span
 							class="glyphicon glyphicon-menu-right"></span></a>
-					<a class="all">Как добраться<span
+					<a class="all" id="contacts_link">Как добраться<span
 							class="glyphicon glyphicon-menu-right"></span></a>
 				</div>
 			</div>
@@ -82,5 +82,24 @@ $APPLICATION->SetTitle("Контакты");
 			</div>
 		</div>
 	</div>
+<div class="remember_form_main3">
+	<div class="remember_form_cell">
+		<div class="remember_form">
+			<div class="close_r_f_container"><a class="close_r_f"></a></div>
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="r_f_heder">Выберите вариант заявки</div>
+				</div>
+			</div>
+			<div>
+
+				<div class="col-xs-12">
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/proezd.jpg">
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

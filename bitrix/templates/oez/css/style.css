@@ -1440,7 +1440,7 @@ border: none;
   text-align: left;
   padding-right: 10px!important;
 }
-.remember_form_main, .remember_form_main2 {
+.remember_form_main, .remember_form_main2, .remember_form_main3 {
   position: fixed;
   display:none;
   width: 100%;
@@ -1449,6 +1449,10 @@ border: none;
   left: 0;
   background-color: rgba(0, 0, 0, 0.35);
   z-index: 9999999;
+}
+.remember_form_main3  .remember_form{
+    width: 90%;
+    margin: 10px auto;
 }
 .remember_form_main_active {
   display: table

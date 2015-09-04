@@ -180,8 +180,14 @@ $('.scrollbar-outer1').scrollbar();
     $('.close_r_f').click(function () {
         $('.remember_form_main').removeClass('remember_form_main_active');
         $('.remember_form_main2').removeClass('remember_form_main_active');
+        $('.remember_form_main3').removeClass('remember_form_main_active');
     });
 
+
+    //Форма со страницы контактов
+    $('#contacts_link').click(function () {
+        $('.remember_form_main3').addClass('remember_form_main_active');
+    });
 
 //Работа галаереи
     /*
