@@ -123,7 +123,7 @@ $APPLICATION->SetTitle("Управляющая компания");
 	<section class="block_bottom">
 		<div class="container"><div class="row">
 				<div class="col-sm-6">
-					<a class="inform_item_a">
+					<a href="/about/upravlyayushchaya-kompaniya/raskrytie-informatsii/" class="inform_item_a">
 						<div class="inform_item row">
 							<div class="col-xs-6 inform_text">
 
@@ -141,7 +141,7 @@ $APPLICATION->SetTitle("Управляющая компания");
 
 
 				<div class="col-sm-6">
-					<a class="inform_item_a">
+					<a href="/about/upravlyayushchaya-kompaniya/zakupki/"  class="inform_item_a">
 						<div class="inform_item row">
 							<div class="col-xs-6 inform_text">
 
