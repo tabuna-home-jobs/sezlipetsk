@@ -15,7 +15,7 @@ $this->setFrameMode(true);
 <div class="col-md-6 col-sm-12 col-xs-12 block_news">
 	<div class="news_name">
 		<?=GetMessage('TITLE_NEWS_ABOUT');?>
-		<a href="news" class="all">
+		<a href="/news" class="all">
 			<?=GetMessage('LINK_ABOUT_NEWS');?>
 			<span class="glyphicon glyphicon-menu-right"></span>
 		</a>

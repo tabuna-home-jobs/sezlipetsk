@@ -1,96 +1,176 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Резиденты");
-?><?$APPLICATION->IncludeComponent(
-	"bitrix:news", 
-	"residents", 
-	array(
-		"COMPONENT_TEMPLATE" => "residents",
-		"IBLOCK_TYPE" => "information",
-		"IBLOCK_ID" => "12",
-		"NEWS_COUNT" => "20",
-		"USE_SEARCH" => "N",
-		"USE_RSS" => "N",
-		"USE_RATING" => "N",
-		"USE_CATEGORIES" => "N",
-		"USE_REVIEW" => "N",
-		"USE_FILTER" => "N",
-		"SORT_BY1" => "ACTIVE_FROM",
-		"SORT_ORDER1" => "DESC",
-		"SORT_BY2" => "SORT",
-		"SORT_ORDER2" => "ASC",
-		"CHECK_DATES" => "Y",
-		"SEF_MODE" => "Y",
-		"AJAX_MODE" => "N",
-		"AJAX_OPTION_JUMP" => "N",
-		"AJAX_OPTION_STYLE" => "Y",
-		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_ADDITIONAL" => "",
-		"CACHE_TYPE" => "A",
-		"CACHE_TIME" => "36000000",
-		"CACHE_FILTER" => "N",
-		"CACHE_GROUPS" => "Y",
-		"SET_LAST_MODIFIED" => "N",
-		"SET_TITLE" => "Y",
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
-		"ADD_SECTIONS_CHAIN" => "Y",
-		"ADD_ELEMENT_CHAIN" => "N",
-		"USE_PERMISSIONS" => "N",
-		"DISPLAY_DATE" => "Y",
-		"DISPLAY_PICTURE" => "Y",
-		"DISPLAY_PREVIEW_TEXT" => "Y",
-		"USE_SHARE" => "N",
-		"PREVIEW_TRUNCATE_LEN" => "",
-		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
-		"LIST_FIELD_CODE" => array(
-			0 => "",
-			1 => "",
-		),
-		"LIST_PROPERTY_CODE" => array(
-			0 => "",
-			1 => "",
-		),
-		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"DISPLAY_NAME" => "Y",
-		"META_KEYWORDS" => "-",
-		"META_DESCRIPTION" => "-",
-		"BROWSER_TITLE" => "-",
-		"DETAIL_SET_CANONICAL_URL" => "N",
-		"DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
-		"DETAIL_FIELD_CODE" => array(
-			0 => "",
-			1 => "",
-		),
-		"DETAIL_PROPERTY_CODE" => array(
-			0 => "ADDR",
-			1 => "SITE",
-			2 => "PHONE",
-			3 => "CITATE",
-			4 => "",
-		),
-		"DETAIL_DISPLAY_TOP_PAGER" => "N",
-		"DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
-		"DETAIL_PAGER_TITLE" => "Страница",
-		"DETAIL_PAGER_TEMPLATE" => "",
-		"DETAIL_PAGER_SHOW_ALL" => "Y",
-		"PAGER_TEMPLATE" => ".default",
-		"DISPLAY_TOP_PAGER" => "N",
-		"DISPLAY_BOTTOM_PAGER" => "Y",
-		"PAGER_TITLE" => "Новости",
-		"PAGER_SHOW_ALWAYS" => "N",
-		"PAGER_DESC_NUMBERING" => "N",
-		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
-		"PAGER_SHOW_ALL" => "N",
-		"PAGER_BASE_LINK_ENABLE" => "N",
-		"SET_STATUS_404" => "N",
-		"SHOW_404" => "N",
-		"MESSAGE_404" => "",
-		"SEF_FOLDER" => "/about/rezidenty/",
-		"SEF_URL_TEMPLATES" => array(
-			"news" => "",
-			"section" => "",
-			"detail" => "#ELEMENT_CODE#/",
-		)
-	),
-	false
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+?>
+<section class="top_block_main">
+	<div class="container">
+		<div class="row top_block">
+			<div class="left_part col-xs-12 col-sm-12 col-md-7">
+				<!--Хеебный крош-->
+				<?$APPLICATION->IncludeComponent(
+					"custom:breadcrumb",
+					"",
+					Array(
+						"COMPONENT_TEMPLATE" => "oez",
+						"START_FROM" => "0",
+						"PATH" => "",
+						"SITE_ID" => "s1"
+					)
+				);
+				?>
+				<!--Хлебные крошки-->
+				<h1><?=$APPLICATION->GetTitle();?></h1>
+
+				<div class="scrollbar-outer-off">
+					<div class="lin">
+						РОСОЭЗ – это масштабный федеральный проект по привлечению инвестиций, передовых научных, производственных и управленческих технологий.
+						<br/>
+						РОСОЭЗ предоставляют компаниям уникальную возможность использовать все инвестиционные преимущества России, минуя при этом типичные российские проблемы – нерыночные факторы влияния на бизнес и неэффективное администрирование.
+						<br/>
+						В данном разделе вы найдёте информацию о том, как начать свой бизнес в российских особых экономических зонах.
+					</div>
+				</div>
+			</div>
+			<div class="hidden-xs hidden-sm right_part col-xs-12 col-sm-12 col-md-5">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/sobranie.png">
+			</div>
+		</div>
+	</div>
+</section>
+<div class="main container">
+
+
+	<section>
+		<div class="row smi_more_blocks">
+			<!--Квартет-->
+			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+				<div>
+					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/1.jpg"></div>
+					<div class="smi_more_name">ООО «Бекарт-Липецк»<span class="small_country"> (Бельгия)</span></div>
+					<div class="smi_more_text">Производство металлокорда и бортовой проволоки.
+					</div>
+					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+				<div>
+					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/partner2.png"></div>
+					<div class="smi_more_name">ОАО «Энерготехнологии Липецк»<span class="small_country"> (Россия)</span></div>
+					<div class="smi_more_text">Производство электрической и тепловой энергии.
+					</div>
+					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+				<div>
+					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/partner3.png"></div>
+					<div class="smi_more_name">ООО «АВТ»<span class="small_country">(Россия)</span></div>
+					<div class="smi_more_text">Производство высокотехнологичной проволоки и металлической ленты.
+					</div>
+					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+				<div>
+					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/partner4.png"></div>
+					<div class="smi_more_name">ООО «Йокохама Р. П. З.»<span class="small_country"> (Япония)</span></div>
+					<div class="smi_more_text">Производство автомобильных шин.
+					</div>
+					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+				</div>
+			</div>
+			<!--Квартет-->
+
+
+			<!--Квартет-->
+
+
+
+			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+				<div>
+					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/partner4.png"></div>
+					<div class="smi_more_name">ООО «Йокохама Р. П. З.»<span class="small_country"> (Япония)</span></div>
+					<div class="smi_more_text">Производство автомобильных шин.
+					</div>
+					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+				<div>
+					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/partner2.png"></div>
+					<div class="smi_more_name">ОАО «Энерготехнологии Липецк»<span class="small_country"> (Россия)</span></div>
+					<div class="smi_more_text">Производство электрической и тепловой энергии.
+					</div>
+					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+				<div>
+					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/partner3.png"></div>
+					<div class="smi_more_name">ООО «АВТ»<span class="small_country">(Россия)</span></div>
+					<div class="smi_more_text">Производство высокотехнологичной проволоки и металлической ленты.
+					</div>
+					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+				<div>
+					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/1.jpg"></div>
+					<div class="smi_more_name">ООО «Бекарт-Липецк»<span class="small_country"> (Бельгия)</span></div>
+					<div class="smi_more_text">Производство металлокорда и бортовой проволоки.
+					</div>
+					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+				</div>
+			</div>
+
+			<!--Квартет-->
+			<!--Квартет-->
+			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+				<div>
+					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/partner4.png"></div>
+					<div class="smi_more_name">ООО «Йокохама Р. П. З.»<span class="small_country"> (Япония)</span></div>
+					<div class="smi_more_text">Производство автомобильных шин.
+					</div>
+					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+				<div>
+					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/1.jpg"></div>
+					<div class="smi_more_name">ООО «Бекарт-Липецк»<span class="small_country"> (Бельгия)</span></div>
+					<div class="smi_more_text">Производство металлокорда и бортовой проволоки.
+					</div>
+					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+				</div>
+			</div>
+
+
+			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+				<div>
+					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/partner3.png"></div>
+					<div class="smi_more_name">ООО «АВТ»<span class="small_country">(Россия)</span></div>
+					<div class="smi_more_text">Производство высокотехнологичной проволоки и металлической ленты.
+					</div>
+					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+				<div>
+					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/partner2.png"></div>
+					<div class="smi_more_name">ОАО «Энерготехнологии Липецк»<span class="small_country"> (Россия)</span></div>
+					<div class="smi_more_text">Производство электрической и тепловой энергии.
+					</div>
+					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+				</div>
+			</div>
+			<!--Квартет-->
+
+		</div>
+	</section>
+
+</div>
+
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

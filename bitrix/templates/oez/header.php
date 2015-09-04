@@ -23,6 +23,8 @@ IncludeTemplateLangFile(__FILE__);
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/app.js"></script>
 	<link href="<?=SITE_TEMPLATE_PATH?>/js/jquery.scrollbar.css" rel="stylesheet">
 	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.scrollbar.js"></script>
+	<script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.fancybox.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/css/jquery.fancybox.css?v=2.1.5" media="screen" />
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
