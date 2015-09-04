@@ -76,7 +76,8 @@ $APPLICATION->SetTitle("О проекте");
 						</div>
 						<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
 							<div class="item_block">
-								<a class="item_block_a_small"><div class="hover_container">
+								<a class="item_block_a_small" href="press-relizy/">
+									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
 									<div class="item_bod">
@@ -84,7 +85,8 @@ $APPLICATION->SetTitle("О проекте");
 									</div>
 									<div class="block_icon_arrow">
 										<span class="glyphicon glyphicon-menu-right"></span>
-									</div></a>
+									</div>
+								</a>
 							</div>
 						</div>
 						<div class="col-lg-6 col-xs-12 col-sm-12 col-md-12 block_item">
