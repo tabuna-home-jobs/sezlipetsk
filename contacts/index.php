@@ -88,7 +88,7 @@ $APPLICATION->SetTitle("Контакты");
 			<div class="close_r_f_container"><a class="close_r_f"></a></div>
 			<div class="row">
 				<div class="col-xs-12">
-					<div class="r_f_heder">Выберите вариант заявки</div>
+					<div class="r_f_heder"></div>
 				</div>
 			</div>
 			<div>
