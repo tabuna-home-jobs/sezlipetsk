@@ -717,6 +717,9 @@ margin:20px 0;
 .item_download {
 margin-bottom:10px;
 }
+.item_download> a:hover{
+    text-decoration: none;
+}
 .downloads_doc_left_name {
 font-size: 18px;
 margin:20px 0;
@@ -2116,9 +2119,7 @@ textarea {
   display: inline-block;
   margin: 10px 10px;
 }
-.all:hover {
-  text-decoration: none;
-}
+
 .all:hover span {
   background-color: #d94462;
   color:white;
@@ -2128,6 +2129,7 @@ textarea {
   cursor: pointer;
   font-size: 12px;
   font-family: FNormal;
+  text-decoration: none !important;
 }
 .item_name {
   font-family: FNormal;
@@ -2705,6 +2707,9 @@ font-size: 24px;
 }
 .all:hover {
   color:#d94462;
+}
+.all:visited{
+    color:#d94462;
 }
 .see_more:hover {
   background-color: #666666;

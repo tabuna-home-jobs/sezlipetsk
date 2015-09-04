@@ -150,9 +150,9 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 			$files_str = "";
 			for($m = 0; $m<count($arResult["razdel"][$i]["child"][$j]['element'][$k]['files']); $m++){
 				$files_str.='<div class="item_download">
-                                        <div class="item_download_type"><img src="'.SITE_TEMPLATE_PATH.'/img/pdf.png">DOC,'.$arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["FILE_SIZE"].' КБ</div>
+                                     <a href="'.$arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]['SRC'].'" >  <div class="item_download_type"><img src="'.SITE_TEMPLATE_PATH.'/img/pdf.png">DOC,'.$arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["FILE_SIZE"].' КБ</div>
                                         <div class="item_download_date">'.$arResult["razdel"][$i]["child"][$j]["element"][$k]['DATE'].'</div>
-                                        <div class="item_download_name">'.extractFileName($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["ORIGINAL_NAME"]).'</div>
+                                        <div class="item_download_name">'.extractFileName($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["ORIGINAL_NAME"]).'</div></a>
                                     </div>';
 			}
 			$tmp_element = '    <div role="tabpanel" class="tab-pane fade '.$active.' " id="r'.$arResult["razdel"][$i]['child'][$j]['ID'].'"
