@@ -2536,7 +2536,7 @@ textarea {
    font-size: 10px;
    color:#727272;
  }
- .text_news {
+ .text_news, .text_news a {
    font-size: 12px;
    font-family: FNormal;
  }
