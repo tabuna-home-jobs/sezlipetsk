@@ -86,18 +86,10 @@ $APPLICATION->SetTitle("Контакты");
 	<div class="remember_form_cell">
 		<div class="remember_form">
 			<div class="close_r_f_container"><a class="close_r_f"></a></div>
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="r_f_heder"></div>
-				</div>
-			</div>
-			<div>
 
-				<div class="col-xs-12">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/proezd.jpg">
-				</div>
 
-			</div>
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/proezd.jpg" class="proezd" >
+
 		</div>
 	</div>
 </div>
