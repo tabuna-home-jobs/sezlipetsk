@@ -273,14 +273,30 @@
 							<div class="row">
 								<div class="col-xs-12 col-sm-6 left_padding_remove">
 									<div class="col-sm-12 col-xs-12 block_item ">
-										<div class="item_block hight_item_block">
+										<div class="item_block">
 											<a class="item_block_a_small" href="">
 												<div class="hover_container">
 													<div class="hover"></div>
 												</div>
 												<div class="item_bod">
-													<div class="item_name">Показания приборов учета</div>
-													<div class="item_dop">Для получения льгот и преференций компании или частному предпринимателю необходимо получить статус резидента</div>
+													<div class="item_name">Показать показания приборов учета</div>
+												</div>
+												<div class="block_icon_arrow">
+													<span class="glyphicon glyphicon-menu-right"></span>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="col-sm-12 col-xs-12 block_item ">
+										<div class="item_block">
+											<a class="item_block_a_small" href="">
+												<div class="hover_container">
+													<div class="hover"></div>
+												</div>
+												<div class="item_bod">
+													<div class="item_name">
+														Посмотреть переданные показания приборов учета
+													</div>
 												</div>
 												<div class="block_icon_arrow">
 													<span class="glyphicon glyphicon-menu-right"></span>
@@ -315,7 +331,7 @@
 													<div class="hover"></div>
 												</div>
 												<div class="item_bod">
-													<div class="item_name">Проверка статуса заявки на тех. присоединение к сетям электроснабжения</div>
+													<div class="item_name">Ваши обращения/жалобы</div>
 													<div class="item_dop"></div>
 												</div>
 												<div class="block_icon_arrow">
@@ -324,6 +340,7 @@
 											</a>
 										</div>
 									</div>
+
 
 
 									<div class="remember_form_main2">
@@ -374,14 +391,13 @@
 						<div class="col-md-6 col-sm-12">
 							<div class="row">
 								<div class="col-sm-6 col-xs-12 block_item ">
-									<div class="item_block hight_item_block">
+									<div class="item_block">
 										<a class="item_block_a" id="remember_pass">
 											<div class="hover_container">
 												<div class="hover"></div>
 											</div>
 											<div class="item_bod">
 												<div class="item_name">Подать заявку на тех. присоединение к сетям электроснабжения</div>
-												<div class="item_dop">Для получения льгот и преференций компании или частному предпринимателю необходимо получить статус резидента</div>
 											</div>
 											<div class="block_icon">
                                     <span class="item_block_img">
@@ -391,7 +407,24 @@
 											</div>
 										</a>
 									</div>
+									<div class="col-sm-12 col-xs-12 block_item">
+										<div class="item_block">
+										<a class="item_block_a_small" id="remember_pass2" href="proverka-statusa-zayavki-na-tekh-prisoedinenie-k-setyam-elektrosnabzheniya/">
+											<div class="hover_container">
+												<div class="hover"></div>
+											</div>
+											<div class="item_bod">
+												<div class="item_name">Проверка статуса заявки на тех. присоединение к сетям электроснабжения</div>
+												<div class="item_dop"></div>
+											</div>
+											<div class="block_icon_arrow">
+												<span class="glyphicon glyphicon-menu-right"></span>
+											</div>
+										</a>
+										</div>
+									</div>
 								</div>
+
 								<div class="col-sm-6 col-xs-12 block_item ">
 									<div class="item_block hight_item_block">
 										<a class="item_block_a" href="otsenka-kachestva-obsluzhivaniya/">
