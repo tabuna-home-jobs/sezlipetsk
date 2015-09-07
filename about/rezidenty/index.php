@@ -44,22 +44,29 @@ $APPLICATION->SetTitle("Резиденты");
 		<div class="row smi_more_blocks">
 			<!--Квартет-->
 			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
-				<div>
-					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/1.jpg"></div>
-					<div class="smi_more_name">ООО «Бекарт-Липецк»<span class="small_country"> (Бельгия)</span></div>
-					<div class="smi_more_text">Производство металлокорда и бортовой проволоки.
+
+
+					<div>
+						<a href="/about/rezidenty/ooo-yokokhama-r-p-z-/">
+						<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/1.jpg"></div>
+						<div class="smi_more_name">ООО «Бекарт-Липецк»<span class="small_country"> (Бельгия)</span></div>
+						<div class="smi_more_text">Производство металлокорда и бортовой проволоки.
+						</div>
+						<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+						</a>
 					</div>
-					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
-				</div>
+
 			</div>
 
 			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
 				<div>
+					<a href="/about/rezidenty/ooo-yokokhama-r-p-z-/">
 					<div class="smi_more_img"><img src="<?=SITE_TEMPLATE_PATH?>/img/partner2.png"></div>
 					<div class="smi_more_name">ОАО «Энерготехнологии Липецк»<span class="small_country"> (Россия)</span></div>
 					<div class="smi_more_text">Производство электрической и тепловой энергии.
 					</div>
 					<div class="smi_more_arrow"><img src="<?=SITE_TEMPLATE_PATH?>/img/arrow.png"></div>
+					</a>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">

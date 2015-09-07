@@ -87,7 +87,7 @@ $APPLICATION->SetTitle("Закупки");
 					<tbody>
 					<tr>
 						<td>
-							<div class="td_name">Закупка у единственного поставщика</div>
+							<a href="/about/upravlyayushchaya-kompaniya/zakupki/okazanie-informatsionno-analiticheskikh-uslug/"><div class="td_name">Закупка у единственного поставщика</div></a>
 							<div class="td_number">№ ЕП-11/2015/17</div>
 							Закупка у единственного поставщика услуг по техническому обслуживанию системы внутреннего
 							противопожарного водопровода, включая насосы, в административном здании ОАО «ОЭЗ» по адресу:
@@ -108,7 +108,7 @@ $APPLICATION->SetTitle("Закупки");
 					</tr>
 
 					<tr>
-						<td><div class="td_name">Закупка у единственного поставщика</div>
+						<td><a href="/about/upravlyayushchaya-kompaniya/zakupki/okazanie-informatsionno-analiticheskikh-uslug/"><div class="td_name">Закупка у единственного поставщика</div></a>
 							<div class="td_number">№ ЕП-11/2015/17</div>
 							Закупка у единственного поставщика услуг по техническому обслуживанию системы внутреннего
 							противопожарного водопровода, включая насосы, в административном здании ОАО «ОЭЗ» по адресу:
@@ -129,7 +129,7 @@ $APPLICATION->SetTitle("Закупки");
 					</tr>
 
 					<tr>
-						<td><div class="td_name">Закупка у единственного поставщика</div>
+						<td><a href="/about/upravlyayushchaya-kompaniya/zakupki/okazanie-informatsionno-analiticheskikh-uslug/"><div class="td_name">Закупка у единственного поставщика</div></a>
 							<div class="td_number">№ ЕП-11/2015/17</div>
 							Закупка у единственного поставщика услуг по техническому обслуживанию системы внутреннего
 							противопожарного водопровода, включая насосы, в административном здании ОАО «ОЭЗ» по адресу:

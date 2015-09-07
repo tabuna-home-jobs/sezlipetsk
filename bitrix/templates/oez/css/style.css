@@ -790,9 +790,18 @@ text-align:center;
   padding: 20px;
   vertical-align: middle;
 }
+
 .td_name {
-  color:#d94462;
-  margin:10px 0;
+    color:#d94462;
+    margin:10px 0;
+}
+.td_name:hover {
+    color:#d94462;
+    text-decoration: none !important;
+
+}
+.table-striped a{
+    text-decoration: none;
 }
 .td_number {
   color:#727272;
@@ -886,6 +895,13 @@ padding: 10px;
   padding-right: 0;
   padding-bottom: 0;
   position: relative;
+}
+.smi_more_item a{
+    color: #666;
+}
+.smi_more_item a:hover{
+    color: #666;
+    text-decoration: none;
 }
 .smi_more_item>div {
   background-color: white;
