@@ -2274,7 +2274,7 @@ textarea {
 }
 .nav-tabs li.active > a{
   border:none;
-  color: #e53d45;
+  color: #e53d45 !important;
 }
 .nav-tabs>li>a:hover{
   color: #e53d45;
