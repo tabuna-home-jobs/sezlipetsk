@@ -588,6 +588,7 @@ margin:10px 0;
   border-radius: 50%;
   float: left;
   width: 72px;
+    height: auto;
   margin-right: 15px;
 }
 .left_cat_dop p{
@@ -2997,4 +2998,16 @@ background-color:transparent!important;
 }
 .edit-fieldz .col-xs-6{
   margin: 3px 0;
+}
+.files{
+    display: none;
+}
+div.active{
+    display: block;
+}
+.nobg{
+    background: none !important;
+}
+.files>.row{
+    margin-bottom: 15px;
 }

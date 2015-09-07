@@ -362,63 +362,12 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 						}
 					} else {
 						$arResult["razdel"][$ii]['element'][$kk]['files'][0] = CFile::GetFileArray($arResult["razdel"][$ii]['element'][$kk]['properties']['FILES']["VALUE"]);
-
 					}
-
 				}
-
 				$kk++;
 			}
-			/*$rs_Section_child = CIBlockSection::GetList(array('left_margin' => 'desc'), array('IBLOCK_ID' =>6,'SECTION_ID' =>$ar_Section['ID'],'depth_level' => '2'),false,array('UF_*'));
-			$jj = 0;
-			while($ar_Section_child = $rs_Section_child ->Fetch() ){
-				$arResult["razdel"][$ii]["child"][$jj] = array(
-					'ID' => $ar_Section_child ['ID'],
-					'NAME' =>$ar_Section_child ['NAME'],
-					'IBLOCK_SECTION_ID' => $ar_Section_child ['IBLOCK_SECTION_ID'],
-					'LEFT_MARGIN' => $ar_Section_child ['LEFT_MARGIN'],
-					'RIGHT_MARGIN' => $ar_Section_child ['RIGHT_MARGIN'],
-					'UF_FIRST_IMG' =>CFile::GetFileArray($ar_Section_child ['UF_FIRST_IMG']),
-					'UF_SECOND_IMG' =>CFile::GetFileArray($ar_Section_child ['UF_SECOND_IMG']),
-				);
-
-
-				$rs_element = CIBlockElement::GetList(Array("SORT"=>"desc"),array('SECTION_ID'=>  $ar_Section_child ['ID']));
-				$kk = 0;
-
-				while($ar_element = $rs_element->GetNextElement()){
-					$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['row'] =$ar_element->GetFields();
-					$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties'] =$ar_element->GetProperties();
-					if ($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["PROPERTY_TYPE"] == "F")
-					{
-
-						if ($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["MULTIPLE"] == "Y")
-						{
-							foreach ($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["VALUE"] as $kkk=>$vvv)
-							{
-								//var_dump(CFile::GetFileArray($vvv));
-								//die('fghj');
-								$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['files'][$kkk] = CFile::GetFileArray($vvv);
-								//$arResult["ITEMS"][$k]["PROPERTIES"][$kk]["VALUE"][$kkk]["DESCRIPTION"] = $vv["DESCRIPTION"][$kkk];
-							}
-						}
-						else
-						{
-							$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['files'][0] = CFile::GetFileArray($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["VALUE"]);
-
-						}
-
-					}
-
-					$kk++;
-				}
-				$jj++;
-			}*/
-
 			$ii++;
 		}
-		//var_dump($arResult["razdel"]);
-		//die('stop');
 		$navComponentParameters = array();
 		if ($arParams["PAGER_BASE_LINK_ENABLE"] === "Y")
 		{
