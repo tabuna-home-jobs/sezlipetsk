@@ -41,7 +41,7 @@
                     </div>
                     <div class="row step_item_inputs">
                         <div class="col-xs-6">
-                            <span class="star_red">*</span> <span nameinput="2">Номер записи в ЕГРЮЛ (для юр.лица)</span>
+                            <span class="star_red">*</span> <span nameinput="2">Номер записи</span>
                         </div>
                         <div class="col-xs-6">
                             <input class="input_steps" type="text" name="FIELD_2" value='<?=$_POST["FIELD_2"]?>' inputvalue="2" require>
@@ -125,13 +125,9 @@
                     </div>
                 </div>
                 <div class="col-xs-12 step_item_inputs_heder">
-                   Максимальная мощность
-                    <span class='what'>?</span>
-                    <div class="what_body">
-                        <p>
-                            Максимальная мощность указывается равной максимальной мощности присоединяемых энергопринимающих устройств в случае отсутствия максимальной мощности ранее присоединенных энергопринимающих устройств (то есть в пункте 5 и подпункте “а” пункта 5 настоящего приложения величина мощности указывается одинаковая).
-                        </p>
-                    </div>  <span nameinput="10">энергопринимающих устройств (присоединяемых и ранее присоединенных) составляет</span>
+                    <p>
+                        Максимальная мощность энергопринимающих устройств (присоединяемых и ранее присоединенных) <span class="prim">1<small><sup>?</sup></small>
+                    </p>
                 </div>
                 <div class="row step_item_inputs">
                     <div class="col-xs-6">
@@ -142,13 +138,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 step_item_inputs_heder">
-                    <span nameinput="11">при напряжении</span>
-                    <span class='what'>?</span>
-                    <div class="what_body">
-                        <p>
-                            Классы напряжения (0,4; 6; 10) кВ.
-                        </p>
-                    </div>
+                    <span nameinput="11">при напряжении<span class="prim">2<small><sup>?</sup></small></span>
                 </div>
                 <div class="row step_item_inputs">
                     <div class="col-xs-6">
@@ -173,13 +163,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 step_item_inputs_heder">
-                    <span nameinput="13">при напряжении</span>
-                    <span class='what'>?</span>
-                    <div class="what_body">
-                        <p>
-                            Классы напряжения (0,4; 6; 10) кВ.
-                        </p>
-                    </div>
+                    <span nameinput="13">при напряжении<span class="prim">3<small><sup>?</sup></small></span>
                 </div>
                 <div class="row step_item_inputs">
                     <div class="col-xs-6">
@@ -201,13 +185,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 step_item_inputs_heder">
-                    <span nameinput="15">при напряжении</span>
-                    <span class='what'>?</span>
-                    <div class="what_body">
-                        <p>
-                            Классы напряжения (0,4; 6; 10) кВ.
-                        </p>
-                    </div>
+                    <span nameinput="15">при напряжении<span class="prim">4<small><sup>?</sup></small></span>
                 </div>
                 <div class="row step_item_inputs">
                     <div class="col-xs-6">
@@ -230,12 +208,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 step_item_inputs_heder">
-                    <span nameinput="17">Порядок расчета и условия рассрочки внесения платы за технологическое присоединение по договору осуществляются по:</span><span class='what'>?</span>
-                    <div class="what_body">
-                        <p>
-                            Заполняется заявителем, максимальная мощность энергопринимающих устройств которого составляет свыше 15 и до 150 кВт включительно (с учетом ранее присоединенной в данной точке присоединения мощности).
-                        </p>
-                    </div><br>
+                    <span nameinput="17">Порядок расчета и условия рассрочки внесения платы за технологическое присоединение по договору осуществляются по: <span class="prim">5<small><sup>?</sup></small></span><br>
                     <br>а) вариант 1, при котором:
                     15 процентов платы за технологическое присоединение вносятся в течение 15 дней со дня заключения договора;
                     30 процентов платы за технологическое присоединение вносятся в течение 60 дней со дня заключения договора, но не позже дня фактического присоединения;
