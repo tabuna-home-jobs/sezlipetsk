@@ -76,7 +76,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
     <div class="col-xs-12 item_wrap">
      <div class="col-sm-6 col-xs-12 block_item">
       <div class="item_block">
-       <a class="item_block_a">
+       <a href="http://ros.t198.topaz.fastwebserver.de/test4/output/1_3_1.html" class="item_block_a">
         <div class="hover_container">
          <div class="hover"></div>
         </div>
@@ -95,7 +95,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
      </div>
      <div class="col-sm-6 col-xs-12 block_item">
       <div class="item_block">
-       <a class="item_block_a">
+       <a href="/about/rezidenty/"  class="item_block_a">
         <div class="hover_container">
          <div class="hover"></div>
         </div>
@@ -129,7 +129,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
      </div>
      <div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
       <div class="item_block">
-       <a class="item_block_a_small"><div class="hover_container">
+       <a href="/about/upravlyayushchaya-kompaniya/"  class="item_block_a_small"><div class="hover_container">
          <div class="hover"></div>
         </div>
         <div class="item_bod">
