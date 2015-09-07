@@ -31,6 +31,16 @@
 				   неэффективное администрирование.</p>
 				<p>В данном разделе вы найдёте информацию о том, как начать свой бизнес в российских особых экономических
 				   зонах.</p>
+
+				<div class="prime4ania">
+					<p><span class="prim">1</span> - описание примечания №1</p>
+					<p><span class="prim">2</span> - описание примечания №2</p>
+					<p><span class="prim">3</span> - описание примечания №3</p>
+					<p><span class="prim">4</span> - описание примечания №4</p>
+				</div>
+				<div class="needle-documents">
+					<p>Перечень необходимых документов</p>
+				</div>
 			</div>
 		</div>
 		<div class="col-xs-12 col-md-6 login_part_right max_height_block">
