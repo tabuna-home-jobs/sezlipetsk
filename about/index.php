@@ -63,7 +63,7 @@ $APPLICATION->SetTitle("О проекте");
 					<div class="col-xs-12 item_wrap">
 						<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
 							<div class="item_block">
-								<a class="item_block_a_small">
+								<a href="http://79.140.96.230/view/viewer_index.shtml" target="_blank" class="item_block_a_small">
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
@@ -120,8 +120,8 @@ $APPLICATION->SetTitle("О проекте");
 		"DISPLAY_DATE" => "Y",
 		"DISPLAY_PICTURE" => "Y",
 		"DISPLAY_PREVIEW_TEXT" => "Y",
-		"IBLOCK_TYPE" => "news",
-		"IBLOCK_ID" => "infoportal_news_s1",
+		"IBLOCK_TYPE" => "information",
+		"IBLOCK_ID" => "13",
 		"NEWS_COUNT" => "2",
 		"PREVIEW_TRUNCATE_LEN" => "100",
 		"COMPONENT_TEMPLATE" => "about_news",
@@ -144,7 +144,7 @@ $APPLICATION->SetTitle("О проекте");
 		"AJAX_OPTION_JUMP" => "N",
 		"AJAX_OPTION_STYLE" => "Y",
 		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_ADDITIONAL" => "undefined",
+		"AJAX_OPTION_ADDITIONAL" => "",
 		"CACHE_TYPE" => "A",
 		"CACHE_TIME" => "36000000",
 		"CACHE_FILTER" => "N",

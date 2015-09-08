@@ -45,7 +45,7 @@ $APPLICATION->SetTitle("Новости");
 		"SET_TITLE" => "Y",
 		"SET_STATUS_404" => "N",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
-		"ADD_SECTIONS_CHAIN" => "Y",
+		"ADD_SECTIONS_CHAIN" => "N",
 		"USE_PERMISSIONS" => "N",
 		"PREVIEW_TRUNCATE_LEN" => "",
 		"LIST_ACTIVE_DATE_FORMAT" => "j F Y",
@@ -54,8 +54,9 @@ $APPLICATION->SetTitle("Новости");
 			1 => "",
 		),
 		"LIST_PROPERTY_CODE" => array(
-			0 => "FORUM_MESSAGE_CNT",
-			1 => "",
+			0 => "",
+			1 => "FORUM_MESSAGE_CNT",
+			2 => "",
 		),
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
 		"DISPLAY_NAME" => "N",
@@ -68,9 +69,10 @@ $APPLICATION->SetTitle("Новости");
 			1 => "",
 		),
 		"DETAIL_PROPERTY_CODE" => array(
-			0 => "LINK_SOURCE",
-			1 => "THEME",
-			2 => "",
+			0 => "",
+			1 => "LINK_SOURCE",
+			2 => "THEME",
+			3 => "",
 		),
 		"DETAIL_DISPLAY_TOP_PAGER" => "N",
 		"DETAIL_DISPLAY_BOTTOM_PAGER" => "N",
@@ -119,7 +121,7 @@ $APPLICATION->SetTitle("Новости");
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "#SECTION_CODE#/",
-			"detail" => "#SECTION_CODE#/#ELEMENT_CODE#/",
+			"detail" => "#ELEMENT_CODE#/",
 			"rss" => "rss/",
 			"rss_section" => "#SECTION_CODE#/rss/",
 		)
