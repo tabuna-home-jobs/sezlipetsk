@@ -2,28 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-29/04/bxu/fd542cdc591164e4c954e8e2bea5bc80/file1440767806229/slide1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-29/04/bxu/fd542cdc591164e4c954e8e2bea5bc80/file1440768241633/slide1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-29/04/bxu/.access.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/.access.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/688c367c33a0febf973b30029ac4daa4/file1440748073415/citat2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/688c367c33a0febf973b30029ac4daa4/file1440748219250/citat2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/688c367c33a0febf973b30029ac4daa4/file1440749211562/partner4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/688c367c33a0febf973b30029ac4daa4/file1440749352585/yokohama.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/688c367c33a0febf973b30029ac4daa4/file1440752387492/nigak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/688c367c33a0febf973b30029ac4daa4/file1440752503752/nigak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-29/02/bxu/.access.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-29/02/bxu/d40369aa9106032552bcb7c4cc819d4d/file1440763951785/cow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-29/02/bxu/d40369aa9106032552bcb7c4cc819d4d/file1440763974453/cow.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-29\04\bxu\fd542cdc591164e4c954e8e2bea5bc80\file1440768241633\slide1.jpg" />
+      <change type="NEW" beforePath="" afterPath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-29\04\bxu\.access.php" />
+      <change type="NEW" beforePath="" afterPath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-29\04\bxu\fd542cdc591164e4c954e8e2bea5bc80\file1440767806229\slide1.jpg" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-28\22\bxu\.access.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-28\22\bxu\688c367c33a0febf973b30029ac4daa4\file1440748073415\citat2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-28\22\bxu\688c367c33a0febf973b30029ac4daa4\file1440748219250\citat2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-28\22\bxu\688c367c33a0febf973b30029ac4daa4\file1440752387492\nigak.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-28\22\bxu\688c367c33a0febf973b30029ac4daa4\file1440752503752\nigak.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-29\02\bxu\d40369aa9106032552bcb7c4cc819d4d\file1440763951785\cow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-28\22\bxu\688c367c33a0febf973b30029ac4daa4\file1440749211562\partner4.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-29\02\bxu\d40369aa9106032552bcb7c4cc819d4d\file1440763974453\cow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-29\02\bxu\.access.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-28\22\bxu\688c367c33a0febf973b30029ac4daa4\file1440749352585\yokohama.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/en/template.php" afterPath="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/en/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/en_oez/components/bitrix/menu/horizontal_multilevel_en/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/en_oez/components/bitrix/menu/horizontal_multilevel_en/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/php_interface/dbconn.php" afterPath="$PROJECT_DIR$/bitrix/php_interface/dbconn.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/template.php" afterPath="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/ru/template.php" afterPath="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/ru/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/en_oez/header.php" afterPath="$PROJECT_DIR$/bitrix/templates/en_oez/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/oez/header.php" afterPath="$PROJECT_DIR$/bitrix/templates/oez/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/about/index.php" afterPath="$PROJECT_DIR$/en/about/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/template.php" afterPath="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/en/template.php" afterPath="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/en/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/ru/template.php" afterPath="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/ru/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/en_oez/components/bitrix/menu/horizontal_multilevel_en/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/en_oez/components/bitrix/menu/horizontal_multilevel_en/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/menu/horizontal_multilevel/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/menu/horizontal_multilevel/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/about/index.php" afterPath="$PROJECT_DIR$/en/about/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sezlipetsk.iws" />
@@ -61,7 +61,7 @@
       <file leaf-file-name="dbconn.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/php_interface/dbconn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.037037">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
@@ -71,7 +71,7 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.888889">
+            <state vertical-scroll-proportion="0.0">
               <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
@@ -81,7 +81,7 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/en_oez/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52558786">
+            <state vertical-scroll-proportion="0.0">
               <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
               <folding />
             </state>
@@ -91,7 +91,7 @@
       <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/menu/horizontal_multilevel/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.592592">
+            <state vertical-scroll-proportion="0.0">
               <caret line="66" column="42" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="42" />
               <folding />
             </state>
@@ -101,7 +101,7 @@
       <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/en_oez/components/bitrix/menu/horizontal_multilevel_en/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.37037">
+            <state vertical-scroll-proportion="0.0">
               <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
               <folding />
             </state>
@@ -179,10 +179,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
-    <option name="y" value="3" />
-    <option name="width" value="1383" />
-    <option name="height" value="901" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -595,255 +595,6 @@
       <recent name="$PROJECT_DIR$/bitrix/components" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/about/index.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/urlrewrite.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/.parameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/catalog.filter/.default/lang/en/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/catalog.filter/.default/lang/ru/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/catalog.filter/.default/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/component_epilog.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/form.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/close.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/font_quote.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/noavatar.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/add.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/add_button.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/cut.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/delete.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/edit.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/font_bold.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/font_code.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/font_color.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/font_image.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/font_italic.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/font_link.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/font_list.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/font_quote.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/font_translit.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/font_underline.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/image.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/shadow.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/toolbarbg.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/images/postform/video.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/lang/en/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/lang/ru/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/result_modifier.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/ru/script.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/script.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/forum.topic.reviews/.default/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/iblock.vote/.default/lang/en/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/iblock.vote/.default/lang/ru/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/iblock.vote/.default/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/iblock.vote/ajax/images/empty.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/iblock.vote/ajax/images/over.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/iblock.vote/ajax/images/voted.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/iblock.vote/ajax/lang/en/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/iblock.vote/ajax/lang/ru/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/iblock.vote/ajax/result_modifier.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/iblock.vote/ajax/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/iblock.vote/ajax/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.detail/.default/.parameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.detail/.default/lang/en/.parameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.detail/.default/lang/en/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.detail/.default/lang/ru/.parameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.detail/.default/lang/ru/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.detail/.default/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.detail/.default/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.index/.default/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.list/.default/.parameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.list/.default/lang/en/.parameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.list/.default/lang/en/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.list/.default/lang/ru/.parameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.list/.default/lang/ru/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.list/.default/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.list/.default/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.list/list/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/news.list/photo/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/rss.out/.default/lang/en/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/rss.out/.default/lang/ru/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/rss.out/.default/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/search.form/flat/lang/en/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/search.form/flat/lang/ru/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/search.form/flat/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/search.page/.default/chain_template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/search.page/.default/lang/en/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/search.page/.default/lang/ru/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/search.page/.default/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/search.page/.default/style.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/bitrix/search.page/.default/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/detail.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/gif-dark/feed-icon-10x10.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/gif-dark/feed-icon-12x12.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/gif-dark/feed-icon-16x16.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/gif-dark/feed-icon-24x24.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/gif-dark/feed-icon-32x32.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/gif-light/feed-icon-10x10.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/gif-light/feed-icon-12x12.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/gif-light/feed-icon-16x16.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/gif-light/feed-icon-24x24.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/gif-light/feed-icon-32x32.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/jpg-black/feed-icon-10x10.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/jpg-black/feed-icon-12x12.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/jpg-black/feed-icon-16x16.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/jpg-black/feed-icon-24x24.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/jpg-black/feed-icon-32x32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/jpg-white/feed-icon-10x10.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/jpg-white/feed-icon-12x12.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/jpg-white/feed-icon-16x16.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/jpg-white/feed-icon-24x24.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/jpg-white/feed-icon-32x32.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/png/feed-icon-10x10.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/png/feed-icon-12x12.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/png/feed-icon-14x14.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/png/feed-icon-16x16.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/png/feed-icon-24x24.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/images/png/feed-icon-32x32.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/lang/en/.parameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/lang/en/detail.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/lang/en/news.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/lang/en/search.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/lang/en/section.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/lang/ru/.parameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/lang/ru/detail.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/lang/ru/news.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/lang/ru/search.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/lang/ru/section.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/news.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/rss.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/rss_section.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/search.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/residents/section.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/099/0995563c275de158625e644aea239452.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/113/1139da34c9e5d6aac1bc7c9e64c2f6bd.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/4b9/4b9fe2553bed3bc728821813bc573e4e.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/9dc/9dc0e03158177eff05efec36d4fe393f.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/c0c/c0c86b00d887a215aa857a382023bec3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/c53/c53c5a05b7051554d856bd05da309908.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/c65/c65383ec7b269de398f67518e28f4463.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/4b9/200_200_1/4b9fe2553bed3bc728821813bc573e4e.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/c53/200_200_1/c53c5a05b7051554d856bd05da309908.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/.access.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/688c367c33a0febf973b30029ac4daa4/file1440748073415/citat2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/688c367c33a0febf973b30029ac4daa4/file1440748219250/citat2.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/688c367c33a0febf973b30029ac4daa4/file1440749211562/partner4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/688c367c33a0febf973b30029ac4daa4/file1440749352585/yokohama.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/688c367c33a0febf973b30029ac4daa4/file1440752387492/nigak.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-28/22/bxu/688c367c33a0febf973b30029ac4daa4/file1440752503752/nigak.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-29/02/bxu/.access.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-29/02/bxu/d40369aa9106032552bcb7c4cc819d4d/file1440763951785/cow.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-29/02/bxu/d40369aa9106032552bcb7c4cc819d4d/file1440763974453/cow.png</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-27/23/bxu/.access.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/tmp/BXTEMP-2015-08-27/23/bxu/9f7699baf2bb43e4bfb601bbe68b0bf6/file1440665061278/kx-ts2382ru_pnqx2349za_rus_3[1].pdf</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
@@ -1082,15 +833,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="3" width="1383" height="901" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2896915" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28916544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2602564" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1098,8 +847,10 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1209,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13176145">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1259,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.026279392">
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="199" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,7 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3139696">
           <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,45 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.148148">
           <caret line="4945" column="9" selection-start-line="4945" selection-start-column="9" selection-end-line="4945" selection-end-column="9" />
-          <folding>
-            <element signature="n#CAllMain#0;n#!!top" expanded="true" />
-            <element signature="n#NeedCAPTHAForLogin#0;n#CAllMain#0;n#!!top" expanded="true" />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="SELECT MG.G_..b_group..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="SELECT max(M..b_module_group..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="SELECT MG.G_..b_module_group..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="SELECT G_ACC..b_module_group..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="SELECT GROUP..b_module_group..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="SELECT DOMAI..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..b_lang_domain..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="SELECT 'x' F..b_lang..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="UPDATE b_lan..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="UPDATE b_lan..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="UPDATE b_lan..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="UPDATE b_lan..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="UPDATE b_eve..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..b_lang_domain..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..b_lang_domain..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="SELECT 'x' F..b_language..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="UPDATE b_lan..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="UPDATE b_lan..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="UPDATE b_lan..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1441015527641" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1329,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1337,7 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7037037">
           <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1345,7 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52558786">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1353,7 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.896552">
           <caret line="53" column="78" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1361,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.148149">
           <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1369,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.555555">
           <caret line="15" column="71" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1377,7 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.592592">
           <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1385,7 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.88889">
           <caret line="24" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1393,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1401,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1409,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52558786">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1417,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1425,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.962963">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1433,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4074074">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1441,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.1111112">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1449,7 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4074074">
           <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1457,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="26.0">
           <caret line="242" column="13" selection-start-line="242" selection-start-column="13" selection-end-line="242" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1465,7 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1473,7 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1481,7 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10511757">
           <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1489,7 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23651452">
           <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1497,7 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1505,7 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1513,7 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.052558783">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1521,7 +1205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29045644">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,7 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31673583">
           <caret line="18" column="195" selection-start-line="18" selection-start-column="195" selection-end-line="18" selection-end-column="195" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1537,7 +1219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.2323651">
           <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1545,13 +1226,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07883818">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/php_interface/dbconn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.037037">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
@@ -1559,7 +1239,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/menu/horizontal_multilevel/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.592592">
+        <state vertical-scroll-proportion="0.0">
           <caret line="66" column="42" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="42" />
           <folding />
         </state>
@@ -1567,7 +1247,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/en_oez/components/bitrix/menu/horizontal_multilevel_en/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-26.37037">
+        <state vertical-scroll-proportion="0.0">
           <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
           <folding />
         </state>
@@ -1575,7 +1255,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.888889">
+        <state vertical-scroll-proportion="0.0">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
@@ -1583,7 +1263,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/en_oez/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52558786">
+        <state vertical-scroll-proportion="0.0">
           <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
           <folding />
         </state>
