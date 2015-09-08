@@ -43,16 +43,16 @@ $arUrlRewrite = array(
 		"PATH" => "/themes/index.php",
 	),
 	array(
-		"CONDITION" => "#^/blogs/#",
-		"RULE" => "",
-		"ID" => "bitrix:blog",
-		"PATH" => "/blogs/index.php",
-	),
-	array(
 		"CONDITION" => "#^/photo/#",
 		"RULE" => "",
 		"ID" => "bitrix:photogallery_user",
 		"PATH" => "/photo/index.php",
+	),
+	array(
+		"CONDITION" => "#^/blogs/#",
+		"RULE" => "",
+		"ID" => "bitrix:blog",
+		"PATH" => "/blogs/index.php",
 	),
 	array(
 		"CONDITION" => "#^/forum/#",
