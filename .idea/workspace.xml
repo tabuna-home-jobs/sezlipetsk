@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-29\04\bxu\fd542cdc591164e4c954e8e2bea5bc80\file1440768241633\slide1.jpg" />
       <change type="NEW" beforePath="" afterPath="C:\OpenServer\domains\sezlipetsk\upload\tmp\BXTEMP-2015-08-29\04\bxu\.access.php" />
@@ -24,6 +25,366 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/oez/header.php" afterPath="$PROJECT_DIR$/bitrix/templates/oez/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/menu/horizontal_multilevel/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/menu/horizontal_multilevel/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/about/index.php" afterPath="$PROJECT_DIR$/en/about/index.php" />
+=======
+    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;upload/resize_cache/iblock/9f2/298_221_1/9f29473a31265f30942504d9b3f96cad.jpg&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/7af/298_221_1/7afd9e9ec911a0dbc0883aba5128043d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/7af/80_56_1/7afd9e9ec911a0dbc0883aba5128043d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/ce2/298_221_1/ce25da3c1585810f1a12b0ce74354e40.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/ce2/80_56_1/ce25da3c1585810f1a12b0ce74354e40.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/000/0000ec255e929362fcff6520be66d707.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/000/0000ec255e929362fcff6520be66d707.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/000/140_105_1/0000ec255e929362fcff6520be66d707.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/000/140_105_1/0000ec255e929362fcff6520be66d707.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/029/029dba20eb0ea2bcf861c77013b8a31c.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/029/029dba20eb0ea2bcf861c77013b8a31c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/029/140_105_1/029dba20eb0ea2bcf861c77013b8a31c.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/029/140_105_1/029dba20eb0ea2bcf861c77013b8a31c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/02c/02c766b9f4243ee74df68ef839b2898d.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/02c/02c766b9f4243ee74df68ef839b2898d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/02c/140_105_1/02c766b9f4243ee74df68ef839b2898d.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/02c/140_105_1/02c766b9f4243ee74df68ef839b2898d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/02f/02f2c506903808ddb576d544a9911dbd.png" afterPath="$PROJECT_DIR$/upload/iblock/02f/02f2c506903808ddb576d544a9911dbd.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/04f/04fbbf819ea4921ac87ca2cc75373366.png" afterPath="$PROJECT_DIR$/upload/medialibrary/04f/04fbbf819ea4921ac87ca2cc75373366.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/04f/140_105_1/04fbbf819ea4921ac87ca2cc75373366.png" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/04f/140_105_1/04fbbf819ea4921ac87ca2cc75373366.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/056/056a546154aaa802338cd1ee6ce3a4b2.png" afterPath="$PROJECT_DIR$/upload/iblock/056/056a546154aaa802338cd1ee6ce3a4b2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/056/200_200_1/056a546154aaa802338cd1ee6ce3a4b2.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/056/200_200_1/056a546154aaa802338cd1ee6ce3a4b2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/06f/06f226610701ab872c8cb11d7c97c826.jpg" afterPath="$PROJECT_DIR$/upload/iblock/06f/06f226610701ab872c8cb11d7c97c826.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/09c/09c641132ca85590451b5ff373a629a1.pdf" afterPath="$PROJECT_DIR$/upload/iblock/09c/09c641132ca85590451b5ff373a629a1.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/09e/09e29960b8d28172af9c55f6583da04f.jpg" afterPath="$PROJECT_DIR$/upload/iblock/09e/09e29960b8d28172af9c55f6583da04f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/0a4/0a45ef301ce190d372c8feaf0e85b3de.bmp" afterPath="$PROJECT_DIR$/upload/iblock/0a4/0a45ef301ce190d372c8feaf0e85b3de.bmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/0ad/0adeb18ab840c0a4e9cf5389979c62d5.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/0ad/0adeb18ab840c0a4e9cf5389979c62d5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/0ad/140_105_1/0adeb18ab840c0a4e9cf5389979c62d5.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/0ad/140_105_1/0adeb18ab840c0a4e9cf5389979c62d5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/0c8/0c862834044b98b38249c27b0b0b5d58.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/0c8/0c862834044b98b38249c27b0b0b5d58.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/0c8/140_105_1/0c862834044b98b38249c27b0b0b5d58.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/0c8/140_105_1/0c862834044b98b38249c27b0b0b5d58.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/0d3/0d33930621cd8d80ff8d4caecde6dfb2.pdf" afterPath="$PROJECT_DIR$/upload/iblock/0d3/0d33930621cd8d80ff8d4caecde6dfb2.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/0e7/0e78f21e8922c5baded8be141cb25d4e.pdf" afterPath="$PROJECT_DIR$/upload/iblock/0e7/0e78f21e8922c5baded8be141cb25d4e.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/108/1080732d037e5d06b9786759ce4b96d9.jpg" afterPath="$PROJECT_DIR$/upload/iblock/108/1080732d037e5d06b9786759ce4b96d9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/113/200_200_1/1139da34c9e5d6aac1bc7c9e64c2f6bd.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/113/200_200_1/1139da34c9e5d6aac1bc7c9e64c2f6bd.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/116/11622277475bd9748032f7045946c302.tif" afterPath="$PROJECT_DIR$/upload/iblock/116/11622277475bd9748032f7045946c302.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/116/1166e370210ef98a7a6f310ba3737ebf.tif" afterPath="$PROJECT_DIR$/upload/iblock/116/1166e370210ef98a7a6f310ba3737ebf.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/11d/11dbae322a44983df7ca3910718e6ae6.png" afterPath="$PROJECT_DIR$/upload/iblock/11d/11dbae322a44983df7ca3910718e6ae6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/125/125aa651313099cb0fd6788c0df10083.png" afterPath="$PROJECT_DIR$/upload/iblock/125/125aa651313099cb0fd6788c0df10083.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/13c/13c41ac3a3320b6ca5c97f2161c9a2ac.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/13c/13c41ac3a3320b6ca5c97f2161c9a2ac.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/13c/140_105_1/13c41ac3a3320b6ca5c97f2161c9a2ac.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/13c/140_105_1/13c41ac3a3320b6ca5c97f2161c9a2ac.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/141/141e22b18bf4217a05f50add46d0b627.png" afterPath="$PROJECT_DIR$/upload/iblock/141/141e22b18bf4217a05f50add46d0b627.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/165/16514aea0ea518eef55638c23c62d244.pdf" afterPath="$PROJECT_DIR$/upload/iblock/165/16514aea0ea518eef55638c23c62d244.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/173/173a591e5b2e11dc084e82732b513615.png" afterPath="$PROJECT_DIR$/upload/medialibrary/173/173a591e5b2e11dc084e82732b513615.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/173/140_105_1/173a591e5b2e11dc084e82732b513615.png" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/173/140_105_1/173a591e5b2e11dc084e82732b513615.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/174/174156dec78b0a8310df536493ab606e.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/174/174156dec78b0a8310df536493ab606e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/174/140_105_1/174156dec78b0a8310df536493ab606e.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/174/140_105_1/174156dec78b0a8310df536493ab606e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/186/186438e39074a00136f1122a315efe38.jpg" afterPath="$PROJECT_DIR$/upload/iblock/186/186438e39074a00136f1122a315efe38.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/187/1875fd6949393ad458b686f0ac4f5540.pdf" afterPath="$PROJECT_DIR$/upload/iblock/187/1875fd6949393ad458b686f0ac4f5540.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/197/19724dae1bb10c34e2e788f832fb3c50.png" afterPath="$PROJECT_DIR$/upload/iblock/197/19724dae1bb10c34e2e788f832fb3c50.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/19d/19d18c9cedf45fb4c8eac0c22bf2b4ed.png" afterPath="$PROJECT_DIR$/upload/iblock/19d/19d18c9cedf45fb4c8eac0c22bf2b4ed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/1ab/1ab137d5a62533fc3f45b95fdca7c58b.pdf" afterPath="$PROJECT_DIR$/upload/iblock/1ab/1ab137d5a62533fc3f45b95fdca7c58b.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/1af/1afa6c3da59d6af3f64f7676ed66656b.pdf" afterPath="$PROJECT_DIR$/upload/iblock/1af/1afa6c3da59d6af3f64f7676ed66656b.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/1b8/1b85e103812d23db4271741d2dfd3d3a.png" afterPath="$PROJECT_DIR$/upload/medialibrary/1b8/1b85e103812d23db4271741d2dfd3d3a.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/1b8/140_105_1/1b85e103812d23db4271741d2dfd3d3a.png" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/1b8/140_105_1/1b85e103812d23db4271741d2dfd3d3a.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/1ca/1ca2b6997c864dcd36e95e222ca4d77a.pdf" afterPath="$PROJECT_DIR$/upload/iblock/1ca/1ca2b6997c864dcd36e95e222ca4d77a.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/1cd/1cd730a70aaea8f9a1d914b2cceffef3.pdf" afterPath="$PROJECT_DIR$/upload/iblock/1cd/1cd730a70aaea8f9a1d914b2cceffef3.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/1e6/1e6fa1fadd76ed095e9fc3bac51298d9.jpg" afterPath="$PROJECT_DIR$/upload/iblock/1e6/1e6fa1fadd76ed095e9fc3bac51298d9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/200/200d4b6a00e7a4c6fef2cf19ebfb93b5.pdf" afterPath="$PROJECT_DIR$/upload/iblock/200/200d4b6a00e7a4c6fef2cf19ebfb93b5.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/210/210bceb460097e3a0e7606bef8153626.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/210/210bceb460097e3a0e7606bef8153626.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/210/140_105_1/210bceb460097e3a0e7606bef8153626.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/210/140_105_1/210bceb460097e3a0e7606bef8153626.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/21b/21bb262a889d2bdedac6217cb7913653.pdf" afterPath="$PROJECT_DIR$/upload/iblock/21b/21bb262a889d2bdedac6217cb7913653.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/uf/21b/21bdb1566ca3cb1e5d80d9301ed93f24.png" afterPath="$PROJECT_DIR$/upload/uf/21b/21bdb1566ca3cb1e5d80d9301ed93f24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/21e/21e6122c1978020fa001474ac815d103.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/21e/21e6122c1978020fa001474ac815d103.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/21e/140_105_1/21e6122c1978020fa001474ac815d103.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/21e/140_105_1/21e6122c1978020fa001474ac815d103.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/221/221438ace0584754e4b854f4e8cd6c65.png" afterPath="$PROJECT_DIR$/upload/iblock/221/221438ace0584754e4b854f4e8cd6c65.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/223/223b9724e2170ab1de155294a34d67bb.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/223/223b9724e2170ab1de155294a34d67bb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/223/140_105_1/223b9724e2170ab1de155294a34d67bb.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/223/140_105_1/223b9724e2170ab1de155294a34d67bb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/224/22461111aaabd1eced7da572ca604de1.jpg" afterPath="$PROJECT_DIR$/upload/iblock/224/22461111aaabd1eced7da572ca604de1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/227/22730641f7ad9479ec839173cfdcc361.png" afterPath="$PROJECT_DIR$/upload/iblock/227/22730641f7ad9479ec839173cfdcc361.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/228/2289035f2428627b7b5b5e4297aaeb38.png" afterPath="$PROJECT_DIR$/upload/iblock/228/2289035f2428627b7b5b5e4297aaeb38.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/support/22b/22bb07b010fcc3c2e0ac83046a46a003.png" afterPath="$PROJECT_DIR$/upload/support/22b/22bb07b010fcc3c2e0ac83046a46a003.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/246/2466983cee1b9255ed814ee212104d6f.tif" afterPath="$PROJECT_DIR$/upload/iblock/246/2466983cee1b9255ed814ee212104d6f.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/26a/26a0a4f437f95edcdca7ebdb30c24887.jpg" afterPath="$PROJECT_DIR$/upload/iblock/26a/26a0a4f437f95edcdca7ebdb30c24887.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/26a/200_200_1/26a0a4f437f95edcdca7ebdb30c24887.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/26a/200_200_1/26a0a4f437f95edcdca7ebdb30c24887.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/27c/27c5839daa693a6dff97a08ef9bc8efc.jpg" afterPath="$PROJECT_DIR$/upload/iblock/27c/27c5839daa693a6dff97a08ef9bc8efc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/289/28930078641db7578d7dd1ebe3e130f5.jpg" afterPath="$PROJECT_DIR$/upload/iblock/289/28930078641db7578d7dd1ebe3e130f5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/28c/28c28afdbdb1a1871bfa1b842716dcc1.png" afterPath="$PROJECT_DIR$/upload/iblock/28c/28c28afdbdb1a1871bfa1b842716dcc1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/292/292c10ab0cee29fa9a84e015bf5e89f0.JPG" afterPath="$PROJECT_DIR$/upload/iblock/292/292c10ab0cee29fa9a84e015bf5e89f0.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/292/292e16c759b267075ba5401cee2a41b6.pdf" afterPath="$PROJECT_DIR$/upload/iblock/292/292e16c759b267075ba5401cee2a41b6.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/2a4/2a4b8358c23f7e4047841c8d5c6fa4e5.pdf" afterPath="$PROJECT_DIR$/upload/iblock/2a4/2a4b8358c23f7e4047841c8d5c6fa4e5.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/2b0/2b0f8b8894443bcdc152cce4b33715f2.jpg" afterPath="$PROJECT_DIR$/upload/iblock/2b0/2b0f8b8894443bcdc152cce4b33715f2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/2c5/2c53f2b5151d49fcb61dc881f3f0f8ad.png" afterPath="$PROJECT_DIR$/upload/iblock/2c5/2c53f2b5151d49fcb61dc881f3f0f8ad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/2cc/2ccfc479f336abbf9769a312ba5d1626.pdf" afterPath="$PROJECT_DIR$/upload/iblock/2cc/2ccfc479f336abbf9769a312ba5d1626.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/2cd/2cda7d94ae6450b4d02db328da1b5e71.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/2cd/2cda7d94ae6450b4d02db328da1b5e71.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/2cd/140_105_1/2cda7d94ae6450b4d02db328da1b5e71.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/2cd/140_105_1/2cda7d94ae6450b4d02db328da1b5e71.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/2d5/2d5f50b61e56311ec482fa4a6aeedea4.png" afterPath="$PROJECT_DIR$/upload/iblock/2d5/2d5f50b61e56311ec482fa4a6aeedea4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/2e3/2e33db0f299cec1a3f1fd8da9ae6b80b.png" afterPath="$PROJECT_DIR$/upload/iblock/2e3/2e33db0f299cec1a3f1fd8da9ae6b80b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/2ef/2efad885640b136d95d9c5cc5a097581.png" afterPath="$PROJECT_DIR$/upload/iblock/2ef/2efad885640b136d95d9c5cc5a097581.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/2ef/200_200_1/2efad885640b136d95d9c5cc5a097581.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/2ef/200_200_1/2efad885640b136d95d9c5cc5a097581.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/30b/30b50a10fe0d7a790f2d93ec2d7f94a7.png" afterPath="$PROJECT_DIR$/upload/iblock/30b/30b50a10fe0d7a790f2d93ec2d7f94a7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/329/3290aca629e5efd4766c83cc2aed2351.png" afterPath="$PROJECT_DIR$/upload/iblock/329/3290aca629e5efd4766c83cc2aed2351.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/331/33166fb9157e28e9c3475120771aa03e.jpeg" afterPath="$PROJECT_DIR$/upload/iblock/331/33166fb9157e28e9c3475120771aa03e.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/33d/33d0a2d834eb69428de7b50b74c59e12.png" afterPath="$PROJECT_DIR$/upload/iblock/33d/33d0a2d834eb69428de7b50b74c59e12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/34a/34a9c5df6e17a64f4d30420e1f27fd8c.jpg" afterPath="$PROJECT_DIR$/upload/iblock/34a/34a9c5df6e17a64f4d30420e1f27fd8c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/uf/352/352a6bf0d42d84426f561c600b77e95a.png" afterPath="$PROJECT_DIR$/upload/uf/352/352a6bf0d42d84426f561c600b77e95a.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/354/354ce0e0f319d9864dfcf1e463bcee15.png" afterPath="$PROJECT_DIR$/upload/iblock/354/354ce0e0f319d9864dfcf1e463bcee15.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/376/3768f6af0aab341dd4e079d2af3f2868.jpg" afterPath="$PROJECT_DIR$/upload/iblock/376/3768f6af0aab341dd4e079d2af3f2868.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/376/376c303416e507376cd21a65800702e6.png" afterPath="$PROJECT_DIR$/upload/iblock/376/376c303416e507376cd21a65800702e6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/37e/37ee8f226e3f310d75fe31e85d86f395.pdf" afterPath="$PROJECT_DIR$/upload/iblock/37e/37ee8f226e3f310d75fe31e85d86f395.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/381/3815532aab5e694d0be4d9bd67d92d22.png" afterPath="$PROJECT_DIR$/upload/medialibrary/381/3815532aab5e694d0be4d9bd67d92d22.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/381/140_105_1/3815532aab5e694d0be4d9bd67d92d22.png" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/381/140_105_1/3815532aab5e694d0be4d9bd67d92d22.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/396/3964111b0d2b8f451319c6d46b77801e.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/396/3964111b0d2b8f451319c6d46b77801e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/396/140_105_1/3964111b0d2b8f451319c6d46b77801e.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/396/140_105_1/3964111b0d2b8f451319c6d46b77801e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/uf/3ab/3ab956d7b74f7f720c7de1922b4f6bbb.png" afterPath="$PROJECT_DIR$/upload/uf/3ab/3ab956d7b74f7f720c7de1922b4f6bbb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/3ac/3acc551449c2aeb1aeca26682c8f28e2.png" afterPath="$PROJECT_DIR$/upload/iblock/3ac/3acc551449c2aeb1aeca26682c8f28e2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/3d0/3d0ad016d64e2d6efe74ea530057cd8a.pdf" afterPath="$PROJECT_DIR$/upload/iblock/3d0/3d0ad016d64e2d6efe74ea530057cd8a.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/3e3/3e3eae1f13d5ac9e4c5731b38959c616.tif" afterPath="$PROJECT_DIR$/upload/iblock/3e3/3e3eae1f13d5ac9e4c5731b38959c616.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/3e8/3e8acf5a27c137676202a584b60b8013.pdf" afterPath="$PROJECT_DIR$/upload/iblock/3e8/3e8acf5a27c137676202a584b60b8013.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/3f6/3f64a14c8bdeb51cee0cee166159f011.png" afterPath="$PROJECT_DIR$/upload/iblock/3f6/3f64a14c8bdeb51cee0cee166159f011.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/3fc/3fc23f1c4518404601b7988a99d76305.pdf" afterPath="$PROJECT_DIR$/upload/iblock/3fc/3fc23f1c4518404601b7988a99d76305.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/406/406739adb8208348113be162f31d9444.png" afterPath="$PROJECT_DIR$/upload/iblock/406/406739adb8208348113be162f31d9444.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/417/41755a3ad0b0a1ef7eeabb6c09077e64.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/417/41755a3ad0b0a1ef7eeabb6c09077e64.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/417/140_105_1/41755a3ad0b0a1ef7eeabb6c09077e64.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/417/140_105_1/41755a3ad0b0a1ef7eeabb6c09077e64.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/41a/41a553d11a92e092581fdcda09bce6d7.png" afterPath="$PROJECT_DIR$/upload/iblock/41a/41a553d11a92e092581fdcda09bce6d7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/42c/42c20078754b87138008569f5d4511ba.pdf" afterPath="$PROJECT_DIR$/upload/iblock/42c/42c20078754b87138008569f5d4511ba.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/uf/42c/42ce84bd0f7d6bdb815db08b934536da.png" afterPath="$PROJECT_DIR$/upload/uf/42c/42ce84bd0f7d6bdb815db08b934536da.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/44e/44ec9eb2da6dd956421c3850656895f9.jpg" afterPath="$PROJECT_DIR$/upload/iblock/44e/44ec9eb2da6dd956421c3850656895f9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/461/461b944c9c6c6a3e9c33432ebcfd6371.jpg" afterPath="$PROJECT_DIR$/upload/iblock/461/461b944c9c6c6a3e9c33432ebcfd6371.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/475/475d21b0ea7676653df4a1e2b31486a2.png" afterPath="$PROJECT_DIR$/upload/iblock/475/475d21b0ea7676653df4a1e2b31486a2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/47e/47e2c24b607462ed298bd219aa82d73a.jpg" afterPath="$PROJECT_DIR$/upload/iblock/47e/47e2c24b607462ed298bd219aa82d73a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/48b/48bdf92e09acdf2359ea12ab5ff0bfa6.png" afterPath="$PROJECT_DIR$/upload/iblock/48b/48bdf92e09acdf2359ea12ab5ff0bfa6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/496/49691f2272f0c9deb95438272a4f0bef.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/496/49691f2272f0c9deb95438272a4f0bef.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/496/140_105_1/49691f2272f0c9deb95438272a4f0bef.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/496/140_105_1/49691f2272f0c9deb95438272a4f0bef.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/4aa/4aaf0bd2ce4a87210c3472b32ee0b309.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/4aa/4aaf0bd2ce4a87210c3472b32ee0b309.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/4aa/140_105_1/4aaf0bd2ce4a87210c3472b32ee0b309.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/4aa/140_105_1/4aaf0bd2ce4a87210c3472b32ee0b309.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/4b1/4b154fce4d9384e01814e3d0038281d5.pdf" afterPath="$PROJECT_DIR$/upload/iblock/4b1/4b154fce4d9384e01814e3d0038281d5.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/4b4/4b47380fb14fc485a052c1da6e65d9a7.pdf" afterPath="$PROJECT_DIR$/upload/iblock/4b4/4b47380fb14fc485a052c1da6e65d9a7.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/4f3/4f3bb99e3fcba4ffd84bae6962ec603b.pdf" afterPath="$PROJECT_DIR$/upload/iblock/4f3/4f3bb99e3fcba4ffd84bae6962ec603b.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/513/5131533471ff444a555c7fe3eeaeaac2.jpg" afterPath="$PROJECT_DIR$/upload/iblock/513/5131533471ff444a555c7fe3eeaeaac2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/523/523b71af02a6722673dbbe52f82e847b.tif" afterPath="$PROJECT_DIR$/upload/iblock/523/523b71af02a6722673dbbe52f82e847b.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/52f/52f965fc511bae7444163d9e46111c6d.tif" afterPath="$PROJECT_DIR$/upload/iblock/52f/52f965fc511bae7444163d9e46111c6d.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/536/5361f56fdf886422184740d595cffad8.pdf" afterPath="$PROJECT_DIR$/upload/iblock/536/5361f56fdf886422184740d595cffad8.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/53c/53c2766929c87dd6ce18fe7dce2524e1.png" afterPath="$PROJECT_DIR$/upload/iblock/53c/53c2766929c87dd6ce18fe7dce2524e1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/544/5449e00ba331b3c3ead8fa1faa49c107.jpg" afterPath="$PROJECT_DIR$/upload/iblock/544/5449e00ba331b3c3ead8fa1faa49c107.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/546/5463b239c90b48663f59bfab6f3c1aca.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/546/5463b239c90b48663f59bfab6f3c1aca.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/546/140_105_1/5463b239c90b48663f59bfab6f3c1aca.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/546/140_105_1/5463b239c90b48663f59bfab6f3c1aca.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/549/5494661f752177610a73cf6e780d9c7c.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/549/5494661f752177610a73cf6e780d9c7c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/549/140_105_1/5494661f752177610a73cf6e780d9c7c.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/549/140_105_1/5494661f752177610a73cf6e780d9c7c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/554/554b0f6831f29c2b136f03e74cccb097.png" afterPath="$PROJECT_DIR$/upload/iblock/554/554b0f6831f29c2b136f03e74cccb097.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/560/56089c7a4c978ccb5bb65ac48fda53fb.png" afterPath="$PROJECT_DIR$/upload/iblock/560/56089c7a4c978ccb5bb65ac48fda53fb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/562/562182a5ca3746898fea4aa00854ef02.pdf" afterPath="$PROJECT_DIR$/upload/iblock/562/562182a5ca3746898fea4aa00854ef02.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/581/581ff320bd183d7471cf42d30392fe0c.jpg" afterPath="$PROJECT_DIR$/upload/iblock/581/581ff320bd183d7471cf42d30392fe0c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/589/589ad94124985b7544bbeb44571efecb.png" afterPath="$PROJECT_DIR$/upload/iblock/589/589ad94124985b7544bbeb44571efecb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/58f/58f521f36060224e25826b50e4e2217d.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/58f/58f521f36060224e25826b50e4e2217d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/58f/140_105_1/58f521f36060224e25826b50e4e2217d.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/58f/140_105_1/58f521f36060224e25826b50e4e2217d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/590/590da03e85c44583746754b7ae2fd4c4.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/590/590da03e85c44583746754b7ae2fd4c4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/590/140_105_1/590da03e85c44583746754b7ae2fd4c4.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/590/140_105_1/590da03e85c44583746754b7ae2fd4c4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/597/597ce4754a7956086966f672743cd139.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/597/597ce4754a7956086966f672743cd139.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/597/140_105_1/597ce4754a7956086966f672743cd139.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/597/140_105_1/597ce4754a7956086966f672743cd139.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5a1/5a1ec73717aab2e07f9cb652eebaca44.pdf" afterPath="$PROJECT_DIR$/upload/iblock/5a1/5a1ec73717aab2e07f9cb652eebaca44.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5a8/5a88b41e9601f82d86ba57c3982aeb6f.pdf" afterPath="$PROJECT_DIR$/upload/iblock/5a8/5a88b41e9601f82d86ba57c3982aeb6f.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/5af/5afd5d84e7f77373aa15e30bff89bbba.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/5af/5afd5d84e7f77373aa15e30bff89bbba.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/5af/140_105_1/5afd5d84e7f77373aa15e30bff89bbba.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/5af/140_105_1/5afd5d84e7f77373aa15e30bff89bbba.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5b2/5b25af3646ffdeb5d974a453ff2273dc.jpg" afterPath="$PROJECT_DIR$/upload/iblock/5b2/5b25af3646ffdeb5d974a453ff2273dc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5cb/5cb36ee20794a355e5fd5751295c9e01.tif" afterPath="$PROJECT_DIR$/upload/iblock/5cb/5cb36ee20794a355e5fd5751295c9e01.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5d6/5d6bf6b57a004358880f96b7af07ad27.bmp" afterPath="$PROJECT_DIR$/upload/iblock/5d6/5d6bf6b57a004358880f96b7af07ad27.bmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5d7/5d7f4179f9ec54e1fdf79b5bd5f6d021.jpg" afterPath="$PROJECT_DIR$/upload/iblock/5d7/5d7f4179f9ec54e1fdf79b5bd5f6d021.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5d8/5d89c7637dac733ff7df3c295ca1f990.jpeg" afterPath="$PROJECT_DIR$/upload/iblock/5d8/5d89c7637dac733ff7df3c295ca1f990.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5e5/5e5e252da05e83a096dd6ec1a93a7f89.JPG" afterPath="$PROJECT_DIR$/upload/iblock/5e5/5e5e252da05e83a096dd6ec1a93a7f89.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5e7/5e77c75e8bd43523d5ff2c0a69f07fde.jpg" afterPath="$PROJECT_DIR$/upload/iblock/5e7/5e77c75e8bd43523d5ff2c0a69f07fde.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5f5/5f5aa1db31da2ad9be407a95915ca410.bmp" afterPath="$PROJECT_DIR$/upload/iblock/5f5/5f5aa1db31da2ad9be407a95915ca410.bmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/60d/60d302ae2401d95b5bda57aa54fe2618.tif" afterPath="$PROJECT_DIR$/upload/iblock/60d/60d302ae2401d95b5bda57aa54fe2618.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/613/613dbf5dc841051c0bcc0f2e4b4b7363.jpg" afterPath="$PROJECT_DIR$/upload/iblock/613/613dbf5dc841051c0bcc0f2e4b4b7363.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/62b/62b41170d6378c8afb0c27ec4be34014.png" afterPath="$PROJECT_DIR$/upload/iblock/62b/62b41170d6378c8afb0c27ec4be34014.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/62b/200_200_1/62b41170d6378c8afb0c27ec4be34014.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/62b/200_200_1/62b41170d6378c8afb0c27ec4be34014.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/646/64623924bcd406b85b6e9ab02f58a57d.pdf" afterPath="$PROJECT_DIR$/upload/iblock/646/64623924bcd406b85b6e9ab02f58a57d.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/666/66606a2745e79017063a2055d522ec03.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/666/66606a2745e79017063a2055d522ec03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/666/140_105_1/66606a2745e79017063a2055d522ec03.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/666/140_105_1/66606a2745e79017063a2055d522ec03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/682/6825875ab7dc6204a97b5cc41c0e57a1.png" afterPath="$PROJECT_DIR$/upload/iblock/682/6825875ab7dc6204a97b5cc41c0e57a1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/682/200_200_1/6825875ab7dc6204a97b5cc41c0e57a1.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/682/200_200_1/6825875ab7dc6204a97b5cc41c0e57a1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/6ac/200_200_1/6ace47c19ea63793ca4910ddf1da5845.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/6ac/200_200_1/6ace47c19ea63793ca4910ddf1da5845.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/6ae/6aec29374dc58835a5f96628f7ca6cb9.pdf" afterPath="$PROJECT_DIR$/upload/iblock/6ae/6aec29374dc58835a5f96628f7ca6cb9.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/6b0/6b031e36cc8d0fb61c00119e244bb370.docx" afterPath="$PROJECT_DIR$/upload/iblock/6b0/6b031e36cc8d0fb61c00119e244bb370.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/uf/6c5/6c5246470d5ee6dae260407418c2e073.png" afterPath="$PROJECT_DIR$/upload/uf/6c5/6c5246470d5ee6dae260407418c2e073.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/6cf/6cf44b7e2079776e79f6b2ac85003dd7.png" afterPath="$PROJECT_DIR$/upload/iblock/6cf/6cf44b7e2079776e79f6b2ac85003dd7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/6cf/200_200_1/6cf44b7e2079776e79f6b2ac85003dd7.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/6cf/200_200_1/6cf44b7e2079776e79f6b2ac85003dd7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/6d8/6d8d42b495973a0f8e7b0d82532f1f76.png" afterPath="$PROJECT_DIR$/upload/iblock/6d8/6d8d42b495973a0f8e7b0d82532f1f76.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/6dc/6dc6b3124d1c7494526c297564735e61.png" afterPath="$PROJECT_DIR$/upload/iblock/6dc/6dc6b3124d1c7494526c297564735e61.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/6f1/6f1615c4752511ad2820f9381c0d1592.png" afterPath="$PROJECT_DIR$/upload/medialibrary/6f1/6f1615c4752511ad2820f9381c0d1592.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/6f1/140_105_1/6f1615c4752511ad2820f9381c0d1592.png" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/6f1/140_105_1/6f1615c4752511ad2820f9381c0d1592.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/6fd/6fd5158e00d0f9b3afa8ddd8a47b6ef6.png" afterPath="$PROJECT_DIR$/upload/iblock/6fd/6fd5158e00d0f9b3afa8ddd8a47b6ef6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/70c/70c2f75388bc9f24cfe7df42e031eae4.png" afterPath="$PROJECT_DIR$/upload/iblock/70c/70c2f75388bc9f24cfe7df42e031eae4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/720/720dfa494041ee08a83ebf7bbb885bf2.pdf" afterPath="$PROJECT_DIR$/upload/iblock/720/720dfa494041ee08a83ebf7bbb885bf2.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/739/7390a010c662abc0b24ce74c7f86758e.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/739/7390a010c662abc0b24ce74c7f86758e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/739/140_105_1/7390a010c662abc0b24ce74c7f86758e.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/739/140_105_1/7390a010c662abc0b24ce74c7f86758e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/73e/73e8683abae15dc21b1fe4dc80e7b355.pdf" afterPath="$PROJECT_DIR$/upload/iblock/73e/73e8683abae15dc21b1fe4dc80e7b355.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/73e/73e880a424435b1c1fc566642d8c6d0d.png" afterPath="$PROJECT_DIR$/upload/iblock/73e/73e880a424435b1c1fc566642d8c6d0d.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/73f/73fcca0ad391774363153ca910f40a0d.png" afterPath="$PROJECT_DIR$/upload/iblock/73f/73fcca0ad391774363153ca910f40a0d.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/73f/200_200_1/73fcca0ad391774363153ca910f40a0d.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/73f/200_200_1/73fcca0ad391774363153ca910f40a0d.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/744/744655eeac091a9cdbffc417de1c19f8.png" afterPath="$PROJECT_DIR$/upload/iblock/744/744655eeac091a9cdbffc417de1c19f8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/749/74950fe54b8ce0fb111a3f8eaa26d3e6.png" afterPath="$PROJECT_DIR$/upload/iblock/749/74950fe54b8ce0fb111a3f8eaa26d3e6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/74f/74f74f4c5ec0cee47746cd01a864c501.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/74f/74f74f4c5ec0cee47746cd01a864c501.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/74f/140_105_1/74f74f4c5ec0cee47746cd01a864c501.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/74f/140_105_1/74f74f4c5ec0cee47746cd01a864c501.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/756/75638f0b094e5caa7f443095e78d5cd5.jpg" afterPath="$PROJECT_DIR$/upload/iblock/756/75638f0b094e5caa7f443095e78d5cd5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/76a/76ab352a0fe5669de25180bcfddc4861.tif" afterPath="$PROJECT_DIR$/upload/iblock/76a/76ab352a0fe5669de25180bcfddc4861.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/76c/76cbd7f12e637924548a502c0cbb7f5f.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/76c/76cbd7f12e637924548a502c0cbb7f5f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/76c/140_105_1/76cbd7f12e637924548a502c0cbb7f5f.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/76c/140_105_1/76cbd7f12e637924548a502c0cbb7f5f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/775/775246a73d025f0cb75e064520379e49.png" afterPath="$PROJECT_DIR$/upload/medialibrary/775/775246a73d025f0cb75e064520379e49.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/775/140_105_1/775246a73d025f0cb75e064520379e49.png" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/775/140_105_1/775246a73d025f0cb75e064520379e49.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/794/794014b9dbb2b94d4b203d97e51dcd3c.jpg" afterPath="$PROJECT_DIR$/upload/iblock/794/794014b9dbb2b94d4b203d97e51dcd3c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/794/200_200_1/794014b9dbb2b94d4b203d97e51dcd3c.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/794/200_200_1/794014b9dbb2b94d4b203d97e51dcd3c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/795/7956ea2eb5350fc6ec0c01c599fb3831.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/795/7956ea2eb5350fc6ec0c01c599fb3831.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/795/140_105_1/7956ea2eb5350fc6ec0c01c599fb3831.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/795/140_105_1/7956ea2eb5350fc6ec0c01c599fb3831.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/796/7961160981d34473166491ed4bd9b455.jpg" afterPath="$PROJECT_DIR$/upload/iblock/796/7961160981d34473166491ed4bd9b455.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/7a5/7a51c7d6d5e06345463015d694314596.jpg" afterPath="$PROJECT_DIR$/upload/iblock/7a5/7a51c7d6d5e06345463015d694314596.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/7af/7afd9e9ec911a0dbc0883aba5128043d.jpg" afterPath="$PROJECT_DIR$/upload/iblock/7af/7afd9e9ec911a0dbc0883aba5128043d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/7b8/7b810d4732da84585c7b5d9b18c8cd55.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/7b8/7b810d4732da84585c7b5d9b18c8cd55.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/7b8/140_105_1/7b810d4732da84585c7b5d9b18c8cd55.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/7b8/140_105_1/7b810d4732da84585c7b5d9b18c8cd55.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/7b8/7b8cdbd5b02d687670da406221bea046.tif" afterPath="$PROJECT_DIR$/upload/iblock/7b8/7b8cdbd5b02d687670da406221bea046.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/7c5/7c5ed8eb09dde19258afd229960d0e57.pdf" afterPath="$PROJECT_DIR$/upload/iblock/7c5/7c5ed8eb09dde19258afd229960d0e57.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/support/7cc/7ccb25e97b537d0a1b587501a6ae4773.jpg" afterPath="$PROJECT_DIR$/upload/support/7cc/7ccb25e97b537d0a1b587501a6ae4773.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/7d5/7d5cfb7ec51a509b2cd1db9aa3ee5db6.tif" afterPath="$PROJECT_DIR$/upload/iblock/7d5/7d5cfb7ec51a509b2cd1db9aa3ee5db6.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/7e5/7e55b860b0bbe70bfca9f9208b69ccda.png" afterPath="$PROJECT_DIR$/upload/medialibrary/7e5/7e55b860b0bbe70bfca9f9208b69ccda.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/7e5/140_105_1/7e55b860b0bbe70bfca9f9208b69ccda.png" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/7e5/140_105_1/7e55b860b0bbe70bfca9f9208b69ccda.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/7f6/7f6c57c05fe2eb538c6f08a1b9428c68.png" afterPath="$PROJECT_DIR$/upload/medialibrary/7f6/7f6c57c05fe2eb538c6f08a1b9428c68.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/7fb/7fbe5292919b1f9d0c9f96c53e879b26.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/7fb/7fbe5292919b1f9d0c9f96c53e879b26.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/7fb/140_105_1/7fbe5292919b1f9d0c9f96c53e879b26.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/7fb/140_105_1/7fbe5292919b1f9d0c9f96c53e879b26.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/7ff/7ffb0c7497d3d98c59e0a44e97f19e31.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/7ff/7ffb0c7497d3d98c59e0a44e97f19e31.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/7ff/140_105_1/7ffb0c7497d3d98c59e0a44e97f19e31.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/7ff/140_105_1/7ffb0c7497d3d98c59e0a44e97f19e31.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/803/8032e837e5bef57441b4e199682bec10.jpg" afterPath="$PROJECT_DIR$/upload/iblock/803/8032e837e5bef57441b4e199682bec10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/80f/80fe176c1185ce5fe2f8477e0fb42cd9.tif" afterPath="$PROJECT_DIR$/upload/iblock/80f/80fe176c1185ce5fe2f8477e0fb42cd9.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/818/818e514f556e0094a742af7fa8b0e48f.pdf" afterPath="$PROJECT_DIR$/upload/iblock/818/818e514f556e0094a742af7fa8b0e48f.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/81a/81a1e790e41cb28ea9051f93fdd813e7.docx" afterPath="$PROJECT_DIR$/upload/iblock/81a/81a1e790e41cb28ea9051f93fdd813e7.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/822/8220ba6f783a3019bd82e9bdb450e410.pdf" afterPath="$PROJECT_DIR$/upload/iblock/822/8220ba6f783a3019bd82e9bdb450e410.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/836/83679ad4553c52bc383541c895b01d69.jpg" afterPath="$PROJECT_DIR$/upload/iblock/836/83679ad4553c52bc383541c895b01d69.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/83f/83f5f47fe9745d86659cbcb739228aed.jpg" afterPath="$PROJECT_DIR$/upload/iblock/83f/83f5f47fe9745d86659cbcb739228aed.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/841/84157f999b1cf76f47be9a66133c4659.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/841/84157f999b1cf76f47be9a66133c4659.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/841/140_105_1/84157f999b1cf76f47be9a66133c4659.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/841/140_105_1/84157f999b1cf76f47be9a66133c4659.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/uf/861/861807bf154832f5eb131d33af2886ce.png" afterPath="$PROJECT_DIR$/upload/uf/861/861807bf154832f5eb131d33af2886ce.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/86e/86e6981f378c8dcc975ac7ded8f455fe.png" afterPath="$PROJECT_DIR$/upload/iblock/86e/86e6981f378c8dcc975ac7ded8f455fe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/871/87144efd60c13afcd500caf359fd4a6b.png" afterPath="$PROJECT_DIR$/upload/iblock/871/87144efd60c13afcd500caf359fd4a6b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/881/8812d001d6da24426d1564a39cb747cb.pdf" afterPath="$PROJECT_DIR$/upload/iblock/881/8812d001d6da24426d1564a39cb747cb.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/88f/88f6404bc66d6aa26c120c76e37a342f.tif" afterPath="$PROJECT_DIR$/upload/iblock/88f/88f6404bc66d6aa26c120c76e37a342f.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/8a2/8a29b2098c053961159f44dcea108483.tif" afterPath="$PROJECT_DIR$/upload/iblock/8a2/8a29b2098c053961159f44dcea108483.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/8ac/8ac8cc89e55fd325390849f2b5f0a46b.JPG" afterPath="$PROJECT_DIR$/upload/iblock/8ac/8ac8cc89e55fd325390849f2b5f0a46b.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/8d1/8d183f7088fb3bb8285e02aefb2d59be.pdf" afterPath="$PROJECT_DIR$/upload/iblock/8d1/8d183f7088fb3bb8285e02aefb2d59be.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/917/917df90b327916acc2158a5e56553ac3.png" afterPath="$PROJECT_DIR$/upload/medialibrary/917/917df90b327916acc2158a5e56553ac3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/917/140_105_1/917df90b327916acc2158a5e56553ac3.png" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/917/140_105_1/917df90b327916acc2158a5e56553ac3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/925/92537d9496502b1cb4f59b55876b89d8.jpg" afterPath="$PROJECT_DIR$/upload/iblock/925/92537d9496502b1cb4f59b55876b89d8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/951/95157127028c0bc34991ae8770d1f5a7.JPG" afterPath="$PROJECT_DIR$/upload/iblock/951/95157127028c0bc34991ae8770d1f5a7.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/956/9561deb62f2aa471b53ddbae1bd6c115.png" afterPath="$PROJECT_DIR$/upload/iblock/956/9561deb62f2aa471b53ddbae1bd6c115.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/977/977fa975a995ff5a1968a9062deeed0f.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/977/977fa975a995ff5a1968a9062deeed0f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/977/140_105_1/977fa975a995ff5a1968a9062deeed0f.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/977/140_105_1/977fa975a995ff5a1968a9062deeed0f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/986/98664fe0da98c3ce96032d1fd13c22fc.pdf" afterPath="$PROJECT_DIR$/upload/iblock/986/98664fe0da98c3ce96032d1fd13c22fc.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/99a/99a27a76b8fcb3d974606602de572a7d.png" afterPath="$PROJECT_DIR$/upload/iblock/99a/99a27a76b8fcb3d974606602de572a7d.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/99a/200_200_1/99a27a76b8fcb3d974606602de572a7d.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/99a/200_200_1/99a27a76b8fcb3d974606602de572a7d.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/99b/99bd1b1dd246a51307f49c6e5ba16e65.png" afterPath="$PROJECT_DIR$/upload/iblock/99b/99bd1b1dd246a51307f49c6e5ba16e65.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/99c/99cb44bac83257bb7836034feca7cd82.png" afterPath="$PROJECT_DIR$/upload/iblock/99c/99cb44bac83257bb7836034feca7cd82.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9a5/9a5a6524bebfb6718f3498a8b9e02a0c.jpg" afterPath="$PROJECT_DIR$/upload/iblock/9a5/9a5a6524bebfb6718f3498a8b9e02a0c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/9a5/200_200_1/9a5a6524bebfb6718f3498a8b9e02a0c.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/9a5/200_200_1/9a5a6524bebfb6718f3498a8b9e02a0c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9ad/9adefe731d4846fb96814a4c0131f526.pdf" afterPath="$PROJECT_DIR$/upload/iblock/9ad/9adefe731d4846fb96814a4c0131f526.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9b2/9b2caa2a7ee95268d50ab999545b61ac.pdf" afterPath="$PROJECT_DIR$/upload/iblock/9b2/9b2caa2a7ee95268d50ab999545b61ac.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9ba/9ba6fe1816989d8d2c6e1e83e92b28db.tif" afterPath="$PROJECT_DIR$/upload/iblock/9ba/9ba6fe1816989d8d2c6e1e83e92b28db.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9d6/9d6d0f86368e31222b806c5bb52086e6.pdf" afterPath="$PROJECT_DIR$/upload/iblock/9d6/9d6d0f86368e31222b806c5bb52086e6.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/9dc/200_200_1/9dc0e03158177eff05efec36d4fe393f.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/9dc/200_200_1/9dc0e03158177eff05efec36d4fe393f.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9e5/9e54f04ff2e3ec876ba25a6c5ee03c69.tif" afterPath="$PROJECT_DIR$/upload/iblock/9e5/9e54f04ff2e3ec876ba25a6c5ee03c69.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9e9/9e9137fdbfdf2bf42b8c5443af45b025.pdf" afterPath="$PROJECT_DIR$/upload/iblock/9e9/9e9137fdbfdf2bf42b8c5443af45b025.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/9f2/298_221_1/9f29473a31265f30942504d9b3f96cad.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/9f2/298_221_1/9f29473a31265f30942504d9b3f96cad.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9fb/9fb4752c8c063762df4e594e19dd0969.png" afterPath="$PROJECT_DIR$/upload/iblock/9fb/9fb4752c8c063762df4e594e19dd0969.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9fd/9fd614c927dc16974993561d6596f8fe.tif" afterPath="$PROJECT_DIR$/upload/iblock/9fd/9fd614c927dc16974993561d6596f8fe.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/a03/a039ebcd852ca16d08a2d4ecdb087c34.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/a03/a039ebcd852ca16d08a2d4ecdb087c34.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/a03/140_105_1/a039ebcd852ca16d08a2d4ecdb087c34.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/a03/140_105_1/a039ebcd852ca16d08a2d4ecdb087c34.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a06/a066dc52cf0031da71d9518c63a4e595.tif" afterPath="$PROJECT_DIR$/upload/iblock/a06/a066dc52cf0031da71d9518c63a4e595.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/a0d/a0db6fa91ecab3936daf53eaed3ebb10.png" afterPath="$PROJECT_DIR$/upload/medialibrary/a0d/a0db6fa91ecab3936daf53eaed3ebb10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/a0d/140_105_1/a0db6fa91ecab3936daf53eaed3ebb10.png" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/a0d/140_105_1/a0db6fa91ecab3936daf53eaed3ebb10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a28/a28e4d320a7e3b88c23038eee2102d37.pdf" afterPath="$PROJECT_DIR$/upload/iblock/a28/a28e4d320a7e3b88c23038eee2102d37.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/a4c/a4c34e96d00d16fe741fe37293bb78d1.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/a4c/a4c34e96d00d16fe741fe37293bb78d1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/a4c/140_105_1/a4c34e96d00d16fe741fe37293bb78d1.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/a4c/140_105_1/a4c34e96d00d16fe741fe37293bb78d1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a50/a50b2d7ecaa7c990ca074f9f93d159dd.tif" afterPath="$PROJECT_DIR$/upload/iblock/a50/a50b2d7ecaa7c990ca074f9f93d159dd.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a58/a581a1021e37775a399b03599bbd7f00.jpg" afterPath="$PROJECT_DIR$/upload/iblock/a58/a581a1021e37775a399b03599bbd7f00.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a5b/a5b4dec386eee1613e4e6034f4c0caf7.jpg" afterPath="$PROJECT_DIR$/upload/iblock/a5b/a5b4dec386eee1613e4e6034f4c0caf7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/a5b/200_200_1/a5b4dec386eee1613e4e6034f4c0caf7.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/a5b/200_200_1/a5b4dec386eee1613e4e6034f4c0caf7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a61/a619521e2fa0c3bba237a9a37b4eb76a.jpg" afterPath="$PROJECT_DIR$/upload/iblock/a61/a619521e2fa0c3bba237a9a37b4eb76a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/uf/a65/a6535dc102e0bd6845977ae9338da998.png" afterPath="$PROJECT_DIR$/upload/uf/a65/a6535dc102e0bd6845977ae9338da998.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/a98/a985f13501d933f4cd9a82fc21c85df9.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/a98/a985f13501d933f4cd9a82fc21c85df9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/a98/140_105_1/a985f13501d933f4cd9a82fc21c85df9.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/a98/140_105_1/a985f13501d933f4cd9a82fc21c85df9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/uf/a9f/a9fb6a4354f625f3961406c46642eade.png" afterPath="$PROJECT_DIR$/upload/uf/a9f/a9fb6a4354f625f3961406c46642eade.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/abf/abfdfb936a310276367bbafafa54f9be.pdf" afterPath="$PROJECT_DIR$/upload/iblock/abf/abfdfb936a310276367bbafafa54f9be.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ace/acec1f9cfbc8c90cbdbbaee20cf159f8.pdf" afterPath="$PROJECT_DIR$/upload/iblock/ace/acec1f9cfbc8c90cbdbbaee20cf159f8.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ad9/ad98f56effbf67bcbaa2c85f60b41276.docx" afterPath="$PROJECT_DIR$/upload/iblock/ad9/ad98f56effbf67bcbaa2c85f60b41276.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b06/b068a969a3ef67e03adc90b8ec38697a.png" afterPath="$PROJECT_DIR$/upload/iblock/b06/b068a969a3ef67e03adc90b8ec38697a.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b09/b0942304d57f1e2ae4e5bcef1118214f.pdf" afterPath="$PROJECT_DIR$/upload/iblock/b09/b0942304d57f1e2ae4e5bcef1118214f.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/b18/b18a611ed3b7ae2cf4b3ac737e073c36.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/b18/b18a611ed3b7ae2cf4b3ac737e073c36.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/b18/140_105_1/b18a611ed3b7ae2cf4b3ac737e073c36.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/b18/140_105_1/b18a611ed3b7ae2cf4b3ac737e073c36.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b4b/b4b13c335f0ba744406fa13d3afe3bcf.png" afterPath="$PROJECT_DIR$/upload/iblock/b4b/b4b13c335f0ba744406fa13d3afe3bcf.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b4b/b4b8b83aff3bae465daa27a6cf2419aa.jpg" afterPath="$PROJECT_DIR$/upload/iblock/b4b/b4b8b83aff3bae465daa27a6cf2419aa.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b61/b61e5ea2f6eb32981f135260adb75d0b.png" afterPath="$PROJECT_DIR$/upload/iblock/b61/b61e5ea2f6eb32981f135260adb75d0b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/baa/baac8a3dcea3a478c3089ea1ee3163b7.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/baa/baac8a3dcea3a478c3089ea1ee3163b7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/baa/140_105_1/baac8a3dcea3a478c3089ea1ee3163b7.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/baa/140_105_1/baac8a3dcea3a478c3089ea1ee3163b7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/bc3/bc3a83e002edd7355161d4984c3684ee.jpg" afterPath="$PROJECT_DIR$/upload/iblock/bc3/bc3a83e002edd7355161d4984c3684ee.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/bc6/bc65377e0fe664b531850b52f5ffab60.pdf" afterPath="$PROJECT_DIR$/upload/iblock/bc6/bc65377e0fe664b531850b52f5ffab60.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/bcb/bcbda3d0098a73a96ec1d5c23688fd1e.tif" afterPath="$PROJECT_DIR$/upload/iblock/bcb/bcbda3d0098a73a96ec1d5c23688fd1e.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/be5/be56c5047755760d2831e1232c4a6743.png" afterPath="$PROJECT_DIR$/upload/iblock/be5/be56c5047755760d2831e1232c4a6743.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/be7/be71417e29b2a754ae589a18702d1d7f.JPG" afterPath="$PROJECT_DIR$/upload/iblock/be7/be71417e29b2a754ae589a18702d1d7f.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/bf6/bf665046baff63660ecfe74965e82c9c.png" afterPath="$PROJECT_DIR$/upload/iblock/bf6/bf665046baff63660ecfe74965e82c9c.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/c0c/200_200_1/c0c86b00d887a215aa857a382023bec3.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/c0c/200_200_1/c0c86b00d887a215aa857a382023bec3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/c0e/c0ec3c1878b73a5a08ecc0f0b8de63ac.png" afterPath="$PROJECT_DIR$/upload/iblock/c0e/c0ec3c1878b73a5a08ecc0f0b8de63ac.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/c36/c36ceac7bbb0ab41156a14768d965917.png" afterPath="$PROJECT_DIR$/upload/iblock/c36/c36ceac7bbb0ab41156a14768d965917.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/c36/200_200_1/c36ceac7bbb0ab41156a14768d965917.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/c36/200_200_1/c36ceac7bbb0ab41156a14768d965917.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/c65/200_200_1/c65383ec7b269de398f67518e28f4463.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/c65/200_200_1/c65383ec7b269de398f67518e28f4463.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/c68/c68a209cb80b0b471ab8fe0c14a6a5c7.png" afterPath="$PROJECT_DIR$/upload/iblock/c68/c68a209cb80b0b471ab8fe0c14a6a5c7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/c8c/c8c953a9321340c75738da7d3a716612.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/c8c/c8c953a9321340c75738da7d3a716612.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/c8c/140_105_1/c8c953a9321340c75738da7d3a716612.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/c8c/140_105_1/c8c953a9321340c75738da7d3a716612.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/c9f/c9fcb395157ee5614bd352a96c9e3917.tif" afterPath="$PROJECT_DIR$/upload/iblock/c9f/c9fcb395157ee5614bd352a96c9e3917.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ce2/ce25da3c1585810f1a12b0ce74354e40.jpg" afterPath="$PROJECT_DIR$/upload/iblock/ce2/ce25da3c1585810f1a12b0ce74354e40.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/cf1/cf1bb042b04600f57a056bedfe30b245.jpg" afterPath="$PROJECT_DIR$/upload/iblock/cf1/cf1bb042b04600f57a056bedfe30b245.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/support/cfa/cfa1d9022959e1e93d2af63dfb24629a.jpg" afterPath="$PROJECT_DIR$/upload/support/cfa/cfa1d9022959e1e93d2af63dfb24629a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d16/d161e4219136b12036684d4500252e38.png" afterPath="$PROJECT_DIR$/upload/iblock/d16/d161e4219136b12036684d4500252e38.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d1a/d1a3e1af3d50a8c79f60dcbb101c833b.bmp" afterPath="$PROJECT_DIR$/upload/iblock/d1a/d1a3e1af3d50a8c79f60dcbb101c833b.bmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/d20/d2045ef0fe979bbd4b9cbd9422a628bf.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/d20/d2045ef0fe979bbd4b9cbd9422a628bf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/d20/140_105_1/d2045ef0fe979bbd4b9cbd9422a628bf.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/d20/140_105_1/d2045ef0fe979bbd4b9cbd9422a628bf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/uf/d2a/d2a08d28e66d235c6b4b801877aaf8c0.png" afterPath="$PROJECT_DIR$/upload/uf/d2a/d2a08d28e66d235c6b4b801877aaf8c0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d2b/d2b269312ba3b02773d36adba14cd48e.png" afterPath="$PROJECT_DIR$/upload/iblock/d2b/d2b269312ba3b02773d36adba14cd48e.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d36/d36371a600ea01fd736c3a8b9912fdc5.png" afterPath="$PROJECT_DIR$/upload/iblock/d36/d36371a600ea01fd736c3a8b9912fdc5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d64/d64495f49b7aa5ba323eab3c9cd93462.png" afterPath="$PROJECT_DIR$/upload/iblock/d64/d64495f49b7aa5ba323eab3c9cd93462.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d8e/d8e9a6a81622744a34fbb64a1f9f41c6.pdf" afterPath="$PROJECT_DIR$/upload/iblock/d8e/d8e9a6a81622744a34fbb64a1f9f41c6.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d91/d91f5b970765a6093b762c1774b89b6f.png" afterPath="$PROJECT_DIR$/upload/iblock/d91/d91f5b970765a6093b762c1774b89b6f.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/da9/da90be91105668b4fb95d75e0131f747.png" afterPath="$PROJECT_DIR$/upload/iblock/da9/da90be91105668b4fb95d75e0131f747.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/dab/dab0710bdb4e9acb8d2ee6082f9f8c8c.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/dab/dab0710bdb4e9acb8d2ee6082f9f8c8c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/dab/140_105_1/dab0710bdb4e9acb8d2ee6082f9f8c8c.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/dab/140_105_1/dab0710bdb4e9acb8d2ee6082f9f8c8c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/dac/dac35466042901ec4e6f22221a5b096b.pdf" afterPath="$PROJECT_DIR$/upload/iblock/dac/dac35466042901ec4e6f22221a5b096b.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/daf/daf7a8868a3a1d864d1ac54962a0ac77.png" afterPath="$PROJECT_DIR$/upload/iblock/daf/daf7a8868a3a1d864d1ac54962a0ac77.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/support/dd6/dd6f95ef02fb0e59f4657fe21f822194.png" afterPath="$PROJECT_DIR$/upload/support/dd6/dd6f95ef02fb0e59f4657fe21f822194.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ddc/ddcaeee056024a48bc399037e5c80102.jpg" afterPath="$PROJECT_DIR$/upload/iblock/ddc/ddcaeee056024a48bc399037e5c80102.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e26/e26c81d2fc8da27b1ebad73ccf38979a.png" afterPath="$PROJECT_DIR$/upload/iblock/e26/e26c81d2fc8da27b1ebad73ccf38979a.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e30/e302895860458e2551e576a0603f0c28.png" afterPath="$PROJECT_DIR$/upload/iblock/e30/e302895860458e2551e576a0603f0c28.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e51/e517be3438f83c3cd40ff40c9d46cb2a.tif" afterPath="$PROJECT_DIR$/upload/iblock/e51/e517be3438f83c3cd40ff40c9d46cb2a.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e59/e59ec14300bfc39abb8c8ed5a25e29c2.png" afterPath="$PROJECT_DIR$/upload/iblock/e59/e59ec14300bfc39abb8c8ed5a25e29c2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e62/e62d1d35aaf3b2d8129d88edf6ec0751.png" afterPath="$PROJECT_DIR$/upload/iblock/e62/e62d1d35aaf3b2d8129d88edf6ec0751.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e88/e88da98b86c9f7491445cd712259c627.png" afterPath="$PROJECT_DIR$/upload/iblock/e88/e88da98b86c9f7491445cd712259c627.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e8a/e8a0ced8d68d81492b1338d90ba3d099.png" afterPath="$PROJECT_DIR$/upload/iblock/e8a/e8a0ced8d68d81492b1338d90ba3d099.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/e8a/200_200_1/e8a0ced8d68d81492b1338d90ba3d099.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/e8a/200_200_1/e8a0ced8d68d81492b1338d90ba3d099.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ea8/ea816c8b8da91ab83b15afd9443a7ada.pdf" afterPath="$PROJECT_DIR$/upload/iblock/ea8/ea816c8b8da91ab83b15afd9443a7ada.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/eb7/eb7c94a35a6cc0042bb116bf15f9751f.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/eb7/eb7c94a35a6cc0042bb116bf15f9751f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/eb7/140_105_1/eb7c94a35a6cc0042bb116bf15f9751f.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/eb7/140_105_1/eb7c94a35a6cc0042bb116bf15f9751f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/support/ebb/ebb6f537e1fd06f084aa4d107469abe8.png" afterPath="$PROJECT_DIR$/upload/support/ebb/ebb6f537e1fd06f084aa4d107469abe8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f02/f02a72a7b4742b4e3859ea12a0a3cfef.jpg" afterPath="$PROJECT_DIR$/upload/iblock/f02/f02a72a7b4742b4e3859ea12a0a3cfef.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f26/f26eec75a9d92336d4bd46cd95b95814.pdf" afterPath="$PROJECT_DIR$/upload/iblock/f26/f26eec75a9d92336d4bd46cd95b95814.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f27/f27534b73f4d6ff5127308ff3091d4fe.pdf" afterPath="$PROJECT_DIR$/upload/iblock/f27/f27534b73f4d6ff5127308ff3091d4fe.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f3c/f3ca77e353d832e68cc82eef68e356d3.tif" afterPath="$PROJECT_DIR$/upload/iblock/f3c/f3ca77e353d832e68cc82eef68e356d3.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f60/f60591770c78ac5a9297c3b48f2a090d.png" afterPath="$PROJECT_DIR$/upload/iblock/f60/f60591770c78ac5a9297c3b48f2a090d.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/f61/f61cad66660f63d7c6824e6aa51f727f.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/f61/f61cad66660f63d7c6824e6aa51f727f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/f61/140_105_1/f61cad66660f63d7c6824e6aa51f727f.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/f61/140_105_1/f61cad66660f63d7c6824e6aa51f727f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f65/f655697a00c9325478370585ae068ee7.jpg" afterPath="$PROJECT_DIR$/upload/iblock/f65/f655697a00c9325478370585ae068ee7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f69/f69fe3d08191049db897a69b5c86362b.tif" afterPath="$PROJECT_DIR$/upload/iblock/f69/f69fe3d08191049db897a69b5c86362b.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f76/f76acaad58b83be34079200717c16a17.jpg" afterPath="$PROJECT_DIR$/upload/iblock/f76/f76acaad58b83be34079200717c16a17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/f8d/f8d43a912312695823d56b5c281b715c.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/f8d/f8d43a912312695823d56b5c281b715c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/f8d/140_105_1/f8d43a912312695823d56b5c281b715c.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/f8d/140_105_1/f8d43a912312695823d56b5c281b715c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f92/f92edc1ec0652d4ee52e34d79529b7e6.tif" afterPath="$PROJECT_DIR$/upload/iblock/f92/f92edc1ec0652d4ee52e34d79529b7e6.tif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/fa0/fa0e98e7344738b8756a9d59b947301c.pdf" afterPath="$PROJECT_DIR$/upload/iblock/fa0/fa0e98e7344738b8756a9d59b947301c.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/fa8/fa837d64dff3801772cab48770767160.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/fa8/fa837d64dff3801772cab48770767160.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/fa8/140_105_1/fa837d64dff3801772cab48770767160.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/fa8/140_105_1/fa837d64dff3801772cab48770767160.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/fa8/fa8a0f1f8bdf8a3b6dfe785638e160f3.JPG" afterPath="$PROJECT_DIR$/upload/iblock/fa8/fa8a0f1f8bdf8a3b6dfe785638e160f3.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/faa/faa654d5c69682a649f4148960500e97.png" afterPath="$PROJECT_DIR$/upload/iblock/faa/faa654d5c69682a649f4148960500e97.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/fab/fabf054bcf8c80484650f89e3bec9e1b.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/fab/fabf054bcf8c80484650f89e3bec9e1b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/fab/140_105_1/fabf054bcf8c80484650f89e3bec9e1b.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/fab/140_105_1/fabf054bcf8c80484650f89e3bec9e1b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/faf/faf5bb6fc2b95e1c12fd168f7c5f63e6.jpg" afterPath="$PROJECT_DIR$/upload/iblock/faf/faf5bb6fc2b95e1c12fd168f7c5f63e6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/fd5/fd587ce6d9acbf0a625da3c6e7173f04.pdf" afterPath="$PROJECT_DIR$/upload/iblock/fd5/fd587ce6d9acbf0a625da3c6e7173f04.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/fde/fded27cc803f0ec70309f25c601e89a1.pdf" afterPath="$PROJECT_DIR$/upload/iblock/fde/fded27cc803f0ec70309f25c601e89a1.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/medialibrary/ffa/ffab0f532981c60c1b1f06477d2d4bea.jpg" afterPath="$PROJECT_DIR$/upload/medialibrary/ffa/ffab0f532981c60c1b1f06477d2d4bea.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/medialibrary/ffa/140_105_1/ffab0f532981c60c1b1f06477d2d4bea.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/medialibrary/ffa/140_105_1/ffab0f532981c60c1b1f06477d2d4bea.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/index.php" afterPath="$PROJECT_DIR$/about/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/index.php" afterPath="$PROJECT_DIR$/news/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.list/.default/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.list/.default/template.php" />
+>>>>>>> origin/master
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sezlipetsk.iws" />
@@ -58,9 +419,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dbconn.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/php_interface/dbconn.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/about/galereya-foto-i-video/index.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0">
               <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
@@ -103,6 +465,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+=======
+            <state vertical-scroll-proportion="0.15767635">
+              <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+>>>>>>> origin/master
               <folding />
             </state>
           </provider>
@@ -116,41 +482,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bitrix/components/custom/search.form/templates/oez/template.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/php.ini" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/breadcrumb/templates/.default/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/templates/.default/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/breadcrumb/templates/.default/style.css" />
-        <option value="$PROJECT_DIR$/potrebitelyam.php" />
-        <option value="$PROJECT_DIR$/internet-priemnaya.php" />
-        <option value="$PROJECT_DIR$/lichnyy-kabinet.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/system.auth.form/templates/.default/template.php" />
-        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/internet-priemnaya.php" />
-        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/.section.php" />
-        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/.section.php" />
-        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/index.php" />
-        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/footer.php" />
-        <option value="$PROJECT_DIR$/potrebitelyam/index.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/css/style.css" />
-        <option value="$PROJECT_DIR$/stranitsamoya.php" />
-        <option value="$PROJECT_DIR$/superrazdel/index.php" />
-        <option value="$PROJECT_DIR$/contacts/index.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/aoubut_news/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/citate_boss_slider/template.php" />
-        <option value="$PROJECT_DIR$/about/index.php" />
-        <option value="$PROJECT_DIR$/about/upravlyayushchaya-kompaniya/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/en_custom/news.list/templates/.default/template.php" />
-        <option value="$PROJECT_DIR$/en/contacts/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/en_oez/footer.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/partners_en/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/main_slider_en/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/search.form/templates/oez_en/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/en_oez/components/bitrix/menu/horizontal_multilevel/template.php" />
-        <option value="$PROJECT_DIR$/en/.left.menu.php" />
         <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/main_news/lang/en/template.php" />
         <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/main_news/lang/ru/template.php" />
         <option value="$PROJECT_DIR$/en/index.php" />
@@ -160,13 +491,48 @@
         <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/partners/template.php" />
         <option value="$PROJECT_DIR$/en/about/index.php" />
         <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/ru/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/template.php" />
         <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/en/template.php" />
         <option value="$PROJECT_DIR$/bitrix/php_interface/dbconn.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/menu/horizontal_multilevel/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/en_oez/components/bitrix/menu/horizontal_multilevel_en/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/header.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/en_oez/header.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/script.js" />
+        <option value="$PROJECT_DIR$/verstka/18.html" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/component.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/template.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/napravit-obrashchenie-zhalobu/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/lang/ru/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/lang/en/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/script.js" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/script.js" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/template.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/otsenka-kachestva-obsluzhivaniya/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/js/app.js" />
+        <option value="$PROJECT_DIR$/news/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/css/style.css" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.list/.default/template.php" />
+        <option value="$PROJECT_DIR$/about/rezidenty/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/header.php" />
+        <option value="$PROJECT_DIR$/about/index.php" />
+        <option value="$PROJECT_DIR$/about/press-relizy/index.php" />
+        <option value="$PROJECT_DIR$/about/press-relizy/smi-o-nas/index.php" />
+        <option value="$PROJECT_DIR$/about/tsitaty-rukovoditeley/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/citate_boss_slider/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/temp_connection/template.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-na-prisoedinenie-vremennoe/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/temp_connection/style.css" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-na-prisoedinenie/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/style.css" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/index.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/proverka-statusa-zayavki-na-tekh-prisoedinenie-k-setyam-elektrosnabzheniya/index.php" />
+        <option value="$PROJECT_DIR$/news/sect_rtop.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.detail/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.detail/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/template.php" />
+        <option value="$PROJECT_DIR$/about/galereya-foto-i-video/index.php" />
       </list>
     </option>
   </component>
@@ -177,12 +543,22 @@
   <component name="NamedScopeManager">
     <order />
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+=======
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1375" />
+    <option name="height" value="876" />
+>>>>>>> origin/master
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -208,7 +584,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,7 +612,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="en" />
+              <option name="myItemId" value="upload" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,7 +626,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iblock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,45 +644,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
+              <option name="myItemId" value="upload" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="iblock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="oez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
+              <option name="myItemId" value="99a" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,31 +666,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="horizontal_multilevel" />
+              <option name="myItemId" value="about" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,210 +680,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
+              <option name="myItemId" value="about" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en_oez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en_oez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en_oez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="horizontal_multilevel_en" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en_oez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php_interface" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="galereya-foto-i-video" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -567,7 +699,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloudme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sokolov" />
     <property name="dynamic.classpath" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -581,11 +713,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment" />
+      <recent name="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/temp_connection" />
+      <recent name="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal" />
+      <recent name="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint" />
       <recent name="$PROJECT_DIR$/bitrix/templates/en_oez/components/bitrix/menu/left" />
-      <recent name="$PROJECT_DIR$/bitrix/templates/en_oez/components/bitrix/menu/horizontal_multilevel_en" />
-      <recent name="$PROJECT_DIR$/bitrix/components/custom" />
-      <recent name="$PROJECT_DIR$/bitrix/components/custom/search.form/templates/oez_en" />
-      <recent name="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/main_slider_en" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitHub\sezlipetsk\bitrix" />
@@ -820,7 +952,103 @@
       <option name="project" value="LOCAL" />
       <updated>1441015479067</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Добавлена страница для жалобы">
+      <created>1441194751613</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1441194751613</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Добавление обращения">
+      <created>1441204841615</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1441204841615</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Сделаны заявки 2 вида и жалобы и обращения">
+      <created>1441267230033</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1441267230033</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Добавлена возможность оценки">
+      <created>1441281243101</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1441281243101</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Сделана форма оценки качества ослуживания">
+      <created>1441283586607</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1441283586607</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Выведен статус заявок которые послал текущий пользователь">
+      <created>1441289879041</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1441289879041</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Стили для листинга новостей">
+      <created>1441355896383</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1441355896383</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Статика раздела о проекте">
+      <created>1441367164536</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1441367164536</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Добавлено ещё 2 странички сми о нас и пресс релизы">
+      <created>1441374406915</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1441374406915</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Цитаты руководителей замучены">
+      <created>1441374895629</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1441374895629</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Добавлены фиксы  к описанию в личном кабинете">
+      <created>1441610303174</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1441610303174</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Добавлены сноски в личном кабинте на основе их замечаний ксеркопированных, и изменены права (что скажется на валидации битрикза)">
+      <created>1441612677153</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1441612677153</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Изменен личный кабинет (дабавлены блоки), добавлена ещё 1 страничга ^^">
+      <created>1441635827728</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1441635827728</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Забыл про картинки))">
+      <created>1441635865617</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1441635865617</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Коммит для просмотра всей фигни">
+      <created>1441712581028</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1441712581028</updated>
+    </task>
+    <task id="LOCAL-00047" summary="выливаемз">
+      <created>1441712630175</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1441712630175</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView">
@@ -833,11 +1061,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28916544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <frame x="65" y="24" width="1375" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17607224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> origin/master
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -875,23 +1111,6 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="заливка битрикса" />
-    <MESSAGE value="Прикручивание шаблона" />
-    <MESSAGE value="Добавил главное меню" />
-    <MESSAGE value="Пуш для ребута компа......." />
-    <MESSAGE value="прикрутка модулей" />
-    <MESSAGE value="добавлен компонент слайдера" />
-    <MESSAGE value="навел порядок в директориях, добавил карусель партнеров" />
-    <MESSAGE value="Добавлен модуль новостей на главную (выводится последняя новость с картинкой и превью)" />
-    <MESSAGE value="на главной остались только блоки, берем курс на личный кадинет" />
-    <MESSAGE value="Добавлена страница &quot;потребителям&quot;" />
-    <MESSAGE value="Добавлены хлебные крошки" />
-    <MESSAGE value="Добавлены страницы до личного кабинета" />
-    <MESSAGE value="Прикручена вторизация" />
-    <MESSAGE value="Добавили 123 на главной" />
-    <MESSAGE value="убрали 123 на главной" />
-    <MESSAGE value="Создала страницу контакты" />
-    <MESSAGE value="Добавила вёрстку на страницу &quot;Контакты&quot;" />
     <MESSAGE value="Добавила вёрстку на страницу &quot;О проекте&quot;" />
     <MESSAGE value="Вывела новости на страницу о проэкте" />
     <MESSAGE value="Добавила слайдер &quot;Цитаты руководителей&quot;" />
@@ -900,371 +1119,571 @@
     <MESSAGE value="изменения на странице управляющая компания&#10;" />
     <MESSAGE value="Вывела слайдер &quot;Цитаты руководителей&quot; на страницу &quot;Опроекте&quot;" />
     <MESSAGE value="Создана структуру для англоязычного сайта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создана структуру для англоязычного сайта" />
+    <MESSAGE value="Добавлена страница для жалобы" />
+    <MESSAGE value="Добавление обращения" />
+    <MESSAGE value="Сделаны заявки 2 вида и жалобы и обращения" />
+    <MESSAGE value="Добавлена возможность оценки" />
+    <MESSAGE value="Сделана форма оценки качества ослуживания" />
+    <MESSAGE value="Выведен статус заявок которые послал текущий пользователь" />
+    <MESSAGE value="Стили для листинга новостей" />
+    <MESSAGE value="Статика раздела о проекте" />
+    <MESSAGE value="Добавлено ещё 2 странички сми о нас и пресс релизы" />
+    <MESSAGE value="Цитаты руководителей замучены" />
+    <MESSAGE value="Добавлены фиксы  к описанию в личном кабинете" />
+    <MESSAGE value="Добавлены сноски в личном кабинте на основе их замечаний ксеркопированных, и изменены права (что скажется на валидации битрикза)" />
+    <MESSAGE value="Изменен личный кабинет (дабавлены блоки), добавлена ещё 1 страничга ^^" />
+    <MESSAGE value="Забыл про картинки))" />
+    <MESSAGE value="Коммит для просмотра всей фигни" />
+    <MESSAGE value="выливаемз" />
+    <MESSAGE value="gogogo" />
+    <option name="LAST_COMMIT_MESSAGE" value="gogogo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/.section.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/en_oez/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17924528">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/potrebitelyam/.section.php">
+    <entry file="file://$PROJECT_DIR$/verstka/21.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11949685">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="264" column="6" selection-start-line="66" selection-start-column="0" selection-end-line="264" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verstka/18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6034484">
+          <caret line="103" column="50" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verstka/20-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.407408">
+          <caret line="360" column="14" selection-start-line="84" selection-start-column="8" selection-end-line="360" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/.parameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/.description.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.13176145">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.3692946">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48547718">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verstka/22.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.851851">
+          <caret line="110" column="65" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/napravit-obrashchenie-zhalobu/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26417705">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/lang/ru/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.407408">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/lang/en/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.222221">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.026279392">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="199" selection-end-column="10" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/potrebitelyam/internet-priemnaya/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="78" />
+=======
+        <state vertical-scroll-proportion="0.42047027">
+          <caret line="27" column="141" selection-start-line="27" selection-start-column="141" selection-end-line="27" selection-end-column="141" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="1.3139696">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-2.148148">
+          <caret line="4945" column="9" selection-start-line="4945" selection-start-column="9" selection-end-line="4945" selection-end-column="9" />
+=======
+        <state vertical-scroll-proportion="0.5373333">
+          <caret line="180" column="74" selection-start-line="180" selection-start-column="74" selection-end-line="180" selection-end-column="74" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/otsenka-kachestva-obsluzhivaniya/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="28" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-0.7037037">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/main_news/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.52558786">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9884058">
-          <caret line="2934" column="7" selection-start-line="2934" selection-start-column="7" selection-end-line="2934" selection-end-column="7" />
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-12.896552">
+          <caret line="53" column="78" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2548" column="25" selection-start-line="2548" selection-start-column="25" selection-end-line="2548" selection-end-column="25" />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/verstka/24.html">
+    <entry file="file://$PROJECT_DIR$/verstka/11-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04589372">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="131" selection-end-column="6" />
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-9.148149">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="222" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacts/index.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.list/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1820449">
-          <caret line="67" column="64" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-10.555555">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="71" />
+=======
+        <state vertical-scroll-proportion="1.2876902">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/rezidenty/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-11.592592">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="75" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="75" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-16.88889">
+          <caret line="24" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="2" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.3679115">
+          <caret line="18" column="82" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verstka/9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="13" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verstka/7.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.52558786">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+=======
+        <state vertical-scroll-proportion="0.026279392">
+          <caret line="229" column="6" selection-start-line="59" selection-start-column="0" selection-end-line="229" selection-end-column="6" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/press-relizy/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+          <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/press-relizy/smi-o-nas/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-11.962963">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="57" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="57" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/tsitaty-rukovoditeley/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-1.4074074">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-2.1111112">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="20" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="104" column="78" selection-start-line="104" selection-start-column="49" selection-end-line="104" selection-end-column="78" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/citate_boss_slider/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="-1.4074074">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verstka/6.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="26.0">
+          <caret line="242" column="13" selection-start-line="242" selection-start-column="13" selection-end-line="242" selection-end-column="13" />
+=======
+        <state vertical-scroll-proportion="0.6569848">
+          <caret line="133" column="31" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/temp_connection/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+          <caret line="136" column="141" selection-start-line="136" selection-start-column="94" selection-end-line="136" selection-end-column="141" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-na-prisoedinenie-vremennoe/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+          <caret line="42" column="22" selection-start-line="34" selection-start-column="16" selection-end-line="42" selection-end-column="22" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-na-prisoedinenie/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.10511757">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+=======
+        <state vertical-scroll-proportion="0.4439834">
+          <caret line="38" column="343" selection-start-line="38" selection-start-column="343" selection-end-line="38" selection-end-column="343" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.23651452">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+=======
+        <state vertical-scroll-proportion="0.76210237">
+          <caret line="210" column="210" selection-start-line="210" selection-start-column="210" selection-end-line="210" selection-end-column="210" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/temp_connection/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.17733334">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.052558783">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="27" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="358" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="569" selection-end-column="0" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/proverka-statusa-zayavki-na-tekh-prisoedinenie-k-setyam-elektrosnabzheniya/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.29045644">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.31673583">
+          <caret line="18" column="195" selection-start-line="18" selection-start-column="195" selection-end-line="18" selection-end-column="195" />
+=======
+        <state vertical-scroll-proportion="2.1811895">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="3.2323651">
+          <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+>>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/sect_rtop.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.07883818">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="23" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/news.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/citate_boss_slider/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13176145">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/potrebitelyam/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4638404">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verstka/2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="135.96297">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.740741">
-          <caret line="239" column="0" selection-start-line="239" selection-start-column="0" selection-end-line="304" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/citate_boss_slider/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.703704">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/verstka/3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026279392">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="199" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about/upravlyayushchaya-kompaniya/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3139696">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/modules/main/classes/general/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.148148">
-          <caret line="4945" column="9" selection-start-line="4945" selection-start-column="9" selection-end-line="4945" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en/contacts/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7037037">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/en_oez/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52558786">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/main_slider_en/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.896552">
-          <caret line="53" column="78" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/.default/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.148149">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/search.form/templates/oez/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.555555">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/en_oez/components/bitrix/menu/horizontal_multilevel/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.592592">
-          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en/.bottom.menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.88889">
-          <caret line="24" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en/.section.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en/.top.menu_ext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en/.left.menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52558786">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en/.top.menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/search.form/templates/oez_en/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.962963">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/main_news/lang/en/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4074074">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/main_news/lang/ru/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1111112">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/partners/lang/en/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4074074">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="26.0">
-          <caret line="242" column="13" selection-start-line="242" selection-start-column="13" selection-end-line="242" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/breadcrumb/lang/ru/component.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/breadcrumb/lang/ru/.description.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/en/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10511757">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23651452">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/breadcrumb/lang/ru/help/.tooltips.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/breadcrumb/lang/ru/.parameters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/partners/lang/ru/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.052558783">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/partners/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29045644">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/main_news/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31673583">
-          <caret line="18" column="195" selection-start-line="18" selection-start-column="195" selection-end-line="18" selection-end-column="195" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/en/about/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.2323651">
-          <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/ru/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07883818">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/dbconn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
+=======
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/menu/horizontal_multilevel/template.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.detail/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="66" column="42" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="42" />
+=======
+        <state vertical-scroll-proportion="0.052558783">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/en_oez/components/bitrix/menu/horizontal_multilevel_en/template.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.detail/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
           <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
           <folding />
+=======
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/header.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="-13.222222">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/en_oez/header.php">
+    <entry file="file://$PROJECT_DIR$/about/galereya-foto-i-video/index.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+=======
+        <state vertical-scroll-proportion="0.15767635">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
