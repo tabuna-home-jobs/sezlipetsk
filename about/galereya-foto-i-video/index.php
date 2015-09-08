@@ -54,6 +54,30 @@ $APPLICATION->SetTitle("Галерея фото и видео");
 					</div>
 				</div>
 				<div class="col-md-7 col-sm-9 content_tabs_galery">
+					<?
+
+						CModule::IncludeModule('iblock');
+						$IBLOCK_ID = 20;
+
+						if($IBLOCK_ID) {
+							$arSelect = Array("ID", "NAME", "DATE_ACTIVE_FROM", "DETAIL_PAGE_URL", "PREVIEW_PICTURE");
+							$arFilter = Array("IBLOCK_ID"=>$IBLOCK_ID, "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y", "SEARCHABLE_CONTENT"=>'%'.$_REQUEST['q'].'%');
+
+							$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>50), $arSelect);
+							echo "<pre>";
+							var_dump($res);
+							echo "</pre>";
+							die('storp');
+							while($ob = $res->GetNextElement())
+							{
+								$arFields = $ob->GetFields();
+								echo "<pre>";
+								var_dump($ob);
+								echo "</pre>";
+								die('storp');
+							}
+						}
+					?>
 					<div id="myTabContent" class="tab-content">
 						<div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
 							<div class="galery_links">
