@@ -144,7 +144,7 @@ $APPLICATION->SetTitle("Инвестору");
 			</div>
 			<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
 				<div class="item_block">
-					 <a href="/investor/nalogovye-lgoty/" class="item_block_a_small" >
+					 <a href="/investor/nalogovye-lgoty/" class="item_block_a_small">
 								<div class="hover_container">
 									<div class="hover"></div>
 								</div>
@@ -161,7 +161,7 @@ $APPLICATION->SetTitle("Инвестору");
 			</div>
 			<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
 				<div class="item_block">
-					 <a href="/investor/tamozhennye-lgoty/"" class="item_block_a_small" >
+					 <a href="/investor/tamozhennye-lgoty/" class="item_block_a_small">
 								<div class="hover_container">
 									<div class="hover"></div>
 								</div>
@@ -218,7 +218,7 @@ $APPLICATION->SetTitle("Инвестору");
 			</div>
 			<div class="col-sm-6 col-xs-6 col-md-12 col-lg-6 block_item">
 				<div class="item_block hight_item_block">
-					 <a class="item_block_a" >
+					 <a href="/investor/perspektivy-rasshireniya-territorii/" class="item_block_a" >
 								<div class="hover_container">
 									<div class="hover"></div>
 								</div>
@@ -229,8 +229,7 @@ $APPLICATION->SetTitle("Инвестору");
 										территории
 									</div>
 									<div class="item_dop">
-										Липецкая область расположена в центральной части европейской территории России, в
-										370 км к югу от Москвы
+										10 августа 2015 года проект ОЭЗ ППТ «Липецк» получил дальнейшее развитие – Правительством РФ было принято решение о расширении территории ОЭЗ
 									</div>
 
 								</div>
