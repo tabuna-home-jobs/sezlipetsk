@@ -5,7 +5,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 ?>
 <!--Верхний слайдер-->
 <?$APPLICATION->IncludeComponent(
-	"custom:news.list", 
+	"custom:news.list",
 	".default", 
 	array(
 		"IBLOCK_ID" => "MAIN_SLIDER",

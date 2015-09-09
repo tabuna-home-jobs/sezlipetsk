@@ -286,8 +286,9 @@ $('.scrollbar-outer1').scrollbar();
 	
 	
     //В гелереи выделение элементов
+    /*
 	var w = $('.galery_item>div').width();
-	$('.galery_item>div').height(w);
+	$('.galery_item>div').height(w);*/
 	/*
     
     
