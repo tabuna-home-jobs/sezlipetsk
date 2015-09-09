@@ -195,7 +195,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 		"CACHE_TIME" => "36000000",
 		"CACHE_FILTER" => "N",
 		"CACHE_GROUPS" => "Y",
-		"PREVIEW_TRUNCATE_LEN" => "",
+		"PREVIEW_TRUNCATE_LEN" => "150",
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"SET_TITLE" => "N",
 		"SET_BROWSER_TITLE" => "N",

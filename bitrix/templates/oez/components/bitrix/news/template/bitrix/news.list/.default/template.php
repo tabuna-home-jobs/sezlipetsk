@@ -126,7 +126,6 @@ $i = 1;
 			foreach($arResult["ITEMS"] as $arItem):
 				$res12 = CIBlockElement::GetByID($arItem['ID']);
 				$res23 = $res12->GetNextElement();
-				//$tmp_elem=$res23->GetProperties();
 				$tmp_elem = $res23->GetFields();
 				$arItem['DETAIL_PICTURE'] = $tmp_elem['DETAIL_PICTURE'];
 				if(isset($arItem["DETAIL_PICTURE"]))
@@ -150,4 +149,38 @@ $i = 1;
 
 		</div>
 	</div>
+</section>
+<section class="container smi_more_section">
+	<div class="row smi_more_blocks">
+		<?foreach($arResult["ITEMS"] as $arItem):?>
+
+		<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+			<?
+				$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
+				$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
+			?>
+			<div>
+				<?if($arParams["DISPLAY_DATE"]!="N" && $arItem["DISPLAY_ACTIVE_FROM"]):?>
+					<div class="smi_more_date"><span>
+						<?echo $arItem["DISPLAY_ACTIVE_FROM"]?>
+					</span></div>
+				<?endif?>
+				<div class="smi_more_name"><?echo $arItem["NAME"]?></div>
+				<?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arItem["PREVIEW_TEXT"]):?>
+					<div class="smi_more_text">
+						<?echo $arItem["PREVIEW_TEXT"];?>
+					</div>
+				<?endif;?>
+				<div class="block_icon_arrow">
+					<span class="glyphicon glyphicon-menu-right"></span>
+				</div>
+			</div>
+		</div>
+
+		<?endforeach;?>
+
+
+	</div>
+	<div class="dop_smi"><a class="see_more">ПОКАЗАТЬ ЕЩЕ</a> <a class="all">Пресс-релизы<span
+				class="glyphicon glyphicon-menu-right"></span></a></div>
 </section>
