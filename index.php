@@ -229,12 +229,12 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
    <div class="col-xs-12 news_name">Целевые показатели роста</div>
    <div class="col-xs-12 pokazateli">
 	   <div class="col-sm-6 col-xs-12 col-md-12 stat_img">
-		   <!--Нижняя карусел партнеров-->
+		   <!--Слайдер Целевые показатели роста-->
 		   <?$APPLICATION->IncludeComponent(
 			   "custom:news.list",
 			   "pokazat_rosta",
 			   array(
-				   "IBLOCK_ID" => "BOTTOM_CARUSEL",
+				   "IBLOCK_ID" => "POKAZAT_ROSTA",
 				   "COMPONENT_TEMPLATE" => "pokazat_rosta",
 				   "IBLOCK_TYPE" => "news",
 				   "NEWS_COUNT" => "20",
@@ -281,7 +281,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 				   "DISPLAY_PREVIEW_TEXT" => "Y",
 				   "PAGER_TEMPLATE" => ".default",
 				   "DISPLAY_TOP_PAGER" => "N",
-				   "DISPLAY_BOTTOM_PAGER" => "N",
+				   "DISPLAY_BOTTOM_PAGER" => "Y",
 				   "PAGER_TITLE" => "Новости",
 				   "PAGER_SHOW_ALWAYS" => "N",
 				   "PAGER_DESC_NUMBERING" => "N",
@@ -294,6 +294,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 			   ),
 			   false
 		   );?>
+		   <!--Слайдер Целевые показатели роста-->
 		   <!--<img src="<?=SITE_TEMPLATE_PATH?>/img/stat.jpg">-->
 	   </div>
     <!--<div class="col-sm-6 col-xs-12 col-md-12 stat_descript">

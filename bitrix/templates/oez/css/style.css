@@ -410,8 +410,13 @@ margin-bottom:10px;
 margin-bottom:10px;
 }
 .citata>div {
-text-align:center;
-background-color:#E6EAED;
+     text-align:center;
+     background-color:#E6EAED;
+ }
+
+.pokazat_roata>div {
+    text-align:center;
+    background-color:#fff;
 }
 .block_top {
 border-bottom: 1px rgb(230, 234, 237) solid;
