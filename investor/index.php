@@ -144,7 +144,7 @@ $APPLICATION->SetTitle("Инвестору");
 			</div>
 			<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
 				<div class="item_block">
-					 <a href="http://sezlipetsk/investor/nalogovye-lgoty/" class="item_block_a_small" >
+					 <a href="/investor/nalogovye-lgoty/" class="item_block_a_small" >
 								<div class="hover_container">
 									<div class="hover"></div>
 								</div>
@@ -161,7 +161,7 @@ $APPLICATION->SetTitle("Инвестору");
 			</div>
 			<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
 				<div class="item_block">
-					 <a href="http://sezlipetsk/investor/tamozhennye-lgoty/"" class="item_block_a_small" >
+					 <a href="/investor/tamozhennye-lgoty/"" class="item_block_a_small" >
 								<div class="hover_container">
 									<div class="hover"></div>
 								</div>
