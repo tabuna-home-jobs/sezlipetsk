@@ -3011,3 +3011,14 @@ div.active{
 .files>.row{
     margin-bottom: 15px;
 }
+.stupid_images{
+  margin: 5px 0;
+}
+.stupid_images > div > img{
+  width: 228px;
+  height: 228px;
+}
+.stupid_images > div{
+  position: relative;
+  height:228px;
+}
