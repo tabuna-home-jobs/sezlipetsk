@@ -106,7 +106,7 @@ $APPLICATION->SetTitle("Инвестору");
 		<div class="col-md-6 ">
 			<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6 block_item">
 				<div class="item_block">
-					 <a class="item_block_a" >
+					 <a href="/investor/lgotnoe-predostavlenie-zemelnykh-uchastkov/" class="item_block_a" >
 								<div class="hover_container">
 									<div class="hover"></div>
 								</div>
