@@ -1190,6 +1190,7 @@ cursor:pointer;
 }
 .resident_desrc {
   margin-top: 30px;
+    overflow: hidden;
 }
 .map_container>iframe {
   width: 100%;
@@ -3029,4 +3030,14 @@ div.active{
 .stupid_images > div{
   position: relative;
   height:228px;
+}
+.slideimg>img{
+    width: 100%;
+}
+
+.slcontrol{
+    margin-left: -20px;
+}
+.srcontrol{
+    margin-right: -20px;
 }
