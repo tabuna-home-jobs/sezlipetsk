@@ -245,7 +245,7 @@ $('.scrollbar-outer1').scrollbar();
     });
 */
 
-    //В разделе СМИ О НАС мотает новость.
+    //В разделе СМИ О НАС мотает новость. (Хреново мотает ;(  )
     $('.smi_item').first().addClass('smi_item_active');
     $('.smi_right>img').first().show();
     $('.smi_next').click(function () {
@@ -263,11 +263,15 @@ $('.scrollbar-outer1').scrollbar();
     });
     $('.smi_prev').click(function () {
         var active = $('.smi_item_active');
+        var img = active.prev().attr('rel');
         if (active.prev().length === 0) {
             $('.smi_item').last().addClass('smi_item_active');
             active.removeClass('smi_item_active');
+            $('.smi_right>img').hide();
+            $('.smi_right>img').last().show();
         } else {
             active.removeClass('smi_item_active').prev().addClass('smi_item_active');
+            $('#' + img + '').show().next().hide();
         }
 
     });

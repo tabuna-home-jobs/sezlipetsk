@@ -53,7 +53,7 @@ $i = 1;
 				<div class="smi_but"><a href="'.<?=$arItem["DETAIL_PAGE_URL"]?>.'"  >Подробнее</a></div>
 			</div>
 
-
+			<?/* ?>
 	<!--<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 block_news">
 			<?
 			$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
@@ -101,6 +101,7 @@ $i = 1;
 				</div>
 			</div>
 	</div>-->
+<? */ ?>
 		<?/*
 		//Чтоб чётко блоки были по 4
 		if($i % 4 == 0){
