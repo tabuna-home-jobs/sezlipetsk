@@ -335,6 +335,27 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 
 
 		$info_item = $arItem['IBLOCK_ID'];
+
+		//Получаем главную картинку альбома
+		if($info_item == 20){
+
+			$mainItemImg = CIBlockSection::GetList(array(), array('IBLOCK_ID' =>$info_item,'depth_level' => '1'),false,array('ID','PICTURE','DETAIL_PICTURE','NAME','DESCRIPTION'));
+
+			while($imgObj = $mainItemImg->Fetch()){
+
+				if($imgObj['ID'] == $arParams['ALBUM4EG_ID']){
+					$arResult['mainImgBlock'] = array(
+						'ID' => $imgObj['ID'],
+						'NAME' => $imgObj['NAME'],
+						'PICTURE' => $imgObj['PICTURE'],
+						'DETAIL_PICTURE' => $imgObj['DETAIL_PICTURE'],
+						'DESCRIPTION' => $imgObj['DESCRIPTION']
+					);
+				}
+
+			}
+		}
+
 		/* Получаем разделы и элеметы инфоблока */
 		$rs_Section = CIBlockSection::GetList(array('left_margin' => 'desc'), array('IBLOCK_ID' =>$info_item,'depth_level' => '1'),false,array('UF_*'));
 		$ii = 0;

@@ -50,7 +50,18 @@ $APPLICATION->SetTitle("Галерея фото и видео");
 
 					</ul>
 					<div class="hidden-xs">
-						<img src="<?=SITE_TEMPLATE_PATH?>/img/galery_img.jpg">
+						<!--Основная фотография-->
+							<?$APPLICATION->IncludeComponent(
+								"custom:photogall_epta",
+								"main_photo",
+								array(
+									"IBLOCK_TYPE" => "information",
+									"IBLOCK_ID" => "20",
+									"ALBUM4EG_ID" => "30"
+								),
+								false
+							);?>
+						<!--Основная фотография-->
 					</div>
 				</div>
 				<div class="col-md-7 col-sm-9 content_tabs_galery">
