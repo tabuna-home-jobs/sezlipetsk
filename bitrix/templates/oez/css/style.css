@@ -913,6 +913,7 @@ padding: 10px;
   background-color: white;
   padding-bottom: 30px;
   height: 280px;
+  color: #666 !important;
 }
 .smi_more_item>div .block_icon_arrow>span {
   font-size: 16px;
