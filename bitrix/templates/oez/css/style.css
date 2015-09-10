@@ -3041,3 +3041,16 @@ div.active{
 .srcontrol{
     margin-right: -20px;
 }
+#ajax-loader{
+    text-align: center;
+}
+#ajax-loader img{
+    display: none;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -115px;
+}
+.smi_more_section>font{
+    display: none;
+}

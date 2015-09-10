@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Новости");
+$APPLICATION->SetTitle("СМИ об ОЭЗ «Липецк»");
 ?>
 	<div class="main">
 <?$APPLICATION->IncludeComponent(
@@ -129,5 +129,6 @@ $APPLICATION->SetTitle("Новости");
 	),
 	false
 );?>
+
 	</div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

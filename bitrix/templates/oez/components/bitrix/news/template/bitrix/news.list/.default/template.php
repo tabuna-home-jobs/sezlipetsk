@@ -35,7 +35,7 @@
 $i = 1;
 ?>
 
-	<h1>Новости</h1>
+	<h1>СМИ об ОЭЗ «Липецк»</h1>
 	<!--Хеебный крош-->
 	<?$APPLICATION->IncludeComponent(
 		"custom:breadcrumb",
@@ -205,9 +205,12 @@ $i = 1;
 		<?endforeach;?>
 
 
-	</div>
-	<div class="dop_smi"><a href="#" id="load-items" class="see_more">ПОКАЗАТЬ ЕЩЕ</a> <a class="all">Пресс-релизы<span
+	</div><div class="dop_smi"><a href="#" id="load-items" class="see_more">ПОКАЗАТЬ ЕЩЕ</a> <a class="all">Пресс-релизы<span
 				class="glyphicon glyphicon-menu-right"></span></a></div>
+	<div id="ajax-loader">
+
+		<img src="/bitrix/templates/oez/img/progress.gif">
+	</div>
 
 	<?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
 		<br /><?=$arResult["NAV_STRING"]?>

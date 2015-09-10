@@ -389,6 +389,7 @@ function newsLoader(p){
         }
         loadUrl  += 'PAGEN_'+ o.loadSett.navNum +'=' + (++o.curPage);
         o.ajaxLoader.show();
+        $('.dop_smi').attr('style','margin-top: 50px;');
         $.ajax({
             url: loadUrl,
             type: "POST",
@@ -396,8 +397,12 @@ function newsLoader(p){
                 AJAX: 'Y'
             }
         }).done(function(html){
-            o.newsBlock.append(html);
+           //alert(html);
+             var s1 = html.split('<div class="row smi_more_blocks">');
+            var s2 = s1[1].split('</div><div class="dop_smi">');
+            o.newsBlock.append(s2[0]);
             o.ajaxLoader.hide();
+            $('.dop_smi').attr('style','margin-top: 0;');
 
             if(o.curPage == o.loadSett.endPage){
                 o.newsLoader.parent().hide();
