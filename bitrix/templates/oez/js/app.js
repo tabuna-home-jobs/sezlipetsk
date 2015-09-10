@@ -245,7 +245,7 @@ $('.scrollbar-outer1').scrollbar();
     });
 */
 
-    //В разделе СМИ О НАС мотает новость.
+    //В разделе СМИ О НАС мотает новость. (Хреново мотает ;(  )
     $('.smi_item').first().addClass('smi_item_active');
     $('.smi_right>img').first().show();
     $('.smi_next').click(function () {
@@ -263,11 +263,15 @@ $('.scrollbar-outer1').scrollbar();
     });
     $('.smi_prev').click(function () {
         var active = $('.smi_item_active');
+        var img = active.prev().attr('rel');
         if (active.prev().length === 0) {
             $('.smi_item').last().addClass('smi_item_active');
             active.removeClass('smi_item_active');
+            $('.smi_right>img').hide();
+            $('.smi_right>img').last().show();
         } else {
             active.removeClass('smi_item_active').prev().addClass('smi_item_active');
+            $('#' + img + '').show().next().hide();
         }
 
     });
@@ -363,3 +367,52 @@ $('.scrollbar-outer1').scrollbar();
 });
 
 
+
+
+
+function newsLoader(p){
+    var o = this;
+    this.root = $(p.root);
+    this.newsBlock = $(p.newsBlock, this.root);
+    this.newsLoader = $(p.newsLoader);
+    this.ajaxLoader = $(p.ajaxLoader);
+    this.curPage = 1;
+    this.loadSett = (p.loadSett);
+    // загружаем дополнительные новости
+    this.loadMoreNews = function(){
+        var loadUrl = location.href;
+        if(location.search != ''){
+            loadUrl += '&';
+        }
+        else{
+            loadUrl += '?';
+        }
+        loadUrl  += 'PAGEN_'+ o.loadSett.navNum +'=' + (++o.curPage);
+        o.ajaxLoader.show();
+        $('.dop_smi').attr('style','margin-top: 50px;');
+        $.ajax({
+            url: loadUrl,
+            type: "POST",
+            data:{
+                AJAX: 'Y'
+            }
+        }).done(function(html){
+           //alert(html);
+             var s1 = html.split('<div class="row smi_more_blocks">');
+            var s2 = s1[1].split('</div><div class="dop_smi">');
+            o.newsBlock.append(s2[0]);
+            o.ajaxLoader.hide();
+            $('.dop_smi').attr('style','margin-top: 0;');
+
+            if(o.curPage == o.loadSett.endPage){
+                o.newsLoader.parent().hide();
+            }
+        });
+    }
+    this.init = function(){
+        o.newsLoader.click(function(event){
+            o.loadMoreNews();
+            event.preventDefault();
+        })
+    }
+}

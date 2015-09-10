@@ -63,7 +63,9 @@ $APPLICATION->SetTitle("О проекте");
 					<div class="col-xs-12 item_wrap">
 						<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
 							<div class="item_block">
-								<a href="http://79.140.96.230/view/viewer_index.shtml" target="_blank" class="item_block_a_small">
+								<a href="veb-kamera/" target="_blank" class="item_block_a_small">
+								<!--
+								<a href="http://79.140.96.230/view/viewer_index.shtml" target="_blank" class="item_block_a_small">-->
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
@@ -72,7 +74,8 @@ $APPLICATION->SetTitle("О проекте");
 									</div>
 									<div class="block_icon_arrow">
 										<span class="glyphicon glyphicon-menu-right"></span>
-									</div></a>
+									</div>
+								</a>
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
@@ -268,13 +271,13 @@ $APPLICATION->SetTitle("О проекте");
 					</div>
 					<div class="col-md-6 in_page_block">
 						<div class="item_block in_page_block">
-							<a class="item_block_a"><div class="hover_container">
+							<a href="/about/raspolozhenie-oez/" class="item_block_a"><div class="hover_container">
 									<div class="hover"></div>
 								</div>
 								<div class="item_bod">
 									<div class="item_name">Расположение</div>
 									<div class="item_dop">
-										Липецкая область расположена в центральной части европейской территории России, в 370 км к югу от Москвы (расстояние от столицы до областного центра — около 450 км)
+Особая экономическая зона «Липецк» расположена на территории Грязинского муниципального района Липецкой области, в непосредственной близости между городами Липецк и Грязи.
 									</div>
 								</div>
 								<div class="block_icon_arrow">

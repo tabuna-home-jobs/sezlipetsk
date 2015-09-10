@@ -862,6 +862,7 @@ padding:30px 0;
 color: #f1dce9;
 background-size:100% 100%;
 background-repeat:no-repeat;
+    margin-bottom: 20px;
 }
 .smi_item {
 display:none;
@@ -913,6 +914,7 @@ padding: 10px;
   background-color: white;
   padding-bottom: 30px;
   height: 280px;
+  color: #666 !important;
 }
 .smi_more_item>div .block_icon_arrow>span {
   font-size: 16px;
@@ -1190,6 +1192,7 @@ cursor:pointer;
 }
 .resident_desrc {
   margin-top: 30px;
+    overflow: hidden;
 }
 .map_container>iframe {
   width: 100%;
@@ -3029,4 +3032,27 @@ div.active{
 .stupid_images > div{
   position: relative;
   height:228px;
+}
+.slideimg>img{
+    width: 100%;
+}
+
+.slcontrol{
+    margin-left: -20px;
+}
+.srcontrol{
+    margin-right: -20px;
+}
+#ajax-loader{
+    text-align: center;
+}
+#ajax-loader img{
+    display: none;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -115px;
+}
+.smi_more_section>font{
+    display: none;
 }

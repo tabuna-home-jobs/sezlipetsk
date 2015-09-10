@@ -335,11 +335,38 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 
 
 		$info_item = $arItem['IBLOCK_ID'];
+
+		//Получаем главную картинку альбома
+		if(isset($arParams['ALBUM4EG_ID'])){
+
+			$mainItemImg = CIBlockSection::GetList(array(), array('IBLOCK_ID' =>$info_item,'depth_level' => '1'),false,array('ID','PICTURE','DETAIL_PICTURE','NAME','DESCRIPTION'));
+
+			while($imgObj = $mainItemImg->Fetch()){
+
+				if($imgObj['ID'] == $arParams['ALBUM4EG_ID']){
+					$arResult['mainImgBlock'] = array(
+						'ID' => $imgObj['ID'],
+						'NAME' => $imgObj['NAME'],
+						'PICTURE' => $imgObj['PICTURE'],
+						'DETAIL_PICTURE' => $imgObj['DETAIL_PICTURE'],
+						'DESCRIPTION' => $imgObj['DESCRIPTION']
+					);
+				}
+
+			}
+		}
+
+
+
 		/* Получаем разделы и элеметы инфоблока */
 		$rs_Section = CIBlockSection::GetList(array('left_margin' => 'desc'), array('IBLOCK_ID' =>$info_item,'depth_level' => '1'),false,array('UF_*'));
 		$ii = 0;
+
+
+
 		while ( $ar_Section = $rs_Section->Fetch() )
 		{
+
 			$arResult["razdel"][$ii] = array(
 				'ID' => $ar_Section['ID'],
 				'NAME' => $ar_Section['NAME'],
@@ -361,6 +388,36 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 
 			//$rs_Section_child = CIBlockSection::GetList(array('left_margin' => 'desc'), array('IBLOCK_ID' =>$arItem['IBLOCK_ID'],'SECTION_ID' =>$ar_Section['ID'],'depth_level' => '2'),false, array('UF_*'));
 
+
+
+			//Все фотки
+
+
+			$arSelect = Array("ID", "NAME", "DATE_ACTIVE_FROM", "DETAIL_PAGE_URL", "PREVIEW_PICTURE");
+			/// выборка значений полей.  CODE - код дополнительного свойства(если есть) , DETAIL_TEXT - детальное описание элемента
+			$arFilter = Array("IBLOCK_ID"=>$info_item, "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
+			$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>50), $arSelect);
+			while($ob = $res->GetNextElement()) // "бежим" по элементам
+			{
+				$arFields[] = $ob->GetFields();  // $arFields массив значений полей текущего элемента
+			}
+
+			// :D
+			$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion = 0;
+
+			foreach($arFields as $AllPhoto){
+
+
+				$arResult["allPhotoz"][$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion] = array(
+					'ID' => $AllPhoto['ID'],
+					'NAME' => $AllPhoto['NAME'],
+					'PREVIEW_PICTURE' => $AllPhoto['PREVIEW_PICTURE'],
+					'DETAIL_PICTURE' => $AllPhoto['DETAIL_PICTURE'],
+					'IBLOCK_SECTION_ID' => $AllPhoto['IBLOCK_SECTION_ID'],
+				);
+				// :D
+				$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion++;
+			}
 
 
 

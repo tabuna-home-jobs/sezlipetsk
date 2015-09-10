@@ -48,15 +48,46 @@ $this->setFrameMode(true);
 		<section class="resident_desrc">
 			<div class="ministr row">
 				<div class="container">
-					<div class="col-xs-12 col-sm-12 citat_item_body ministr_body">
+					<div id="slider1" class="carousel slide" data-ride="carousel">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></div>
+							<? $i=0;?>
 							<?foreach ($arResult["DISPLAY_PROPERTIES"]["IMAGES"]["FILE_VALUE"] as $key => $value_img):?>
-								<div class="col-xs-12 col-sm-4">
-								<img src="<?=$value_img["SRC"]?>">
+								<?if(($i % 2 == 0)&&($i != 0)){?>
+								<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></div>
+								<div class="carousel-caption">
 								</div>
+							</div>
+							<div class="item">
+								<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></div>
+								<?}?>
+								<div class="slideimg col-md-5 col-sm-5 col-lg-5 col-xs-5">
+									<img src="<?=$value_img["SRC"]?>" alt="1">
+								</div>
+
+								<? $i++;?>
 							<?endforeach;?>
+
+							<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></div>
+							<div class="carousel-caption">
+							</div>
+						</div>
+							</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control slcontrol" href="#slider1" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control srcontrol" href="#slider1" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
 					</div>
 				</div>
-			</div>
+			</div><!--/slider!-->
 		</section>
 		<?endif;?>
 		<section class="resident_contatst  container">

@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;upload/resize_cache/iblock/9f2/298_221_1/9f29473a31265f30942504d9b3f96cad.jpg&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/images/news_list.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/.description.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/lang/en/.description.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/lang/ru/.description.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/lang/en/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/lang/ru/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/templates/.default/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/templates/.default/lang/en/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/templates/.default/lang/ru/.parameters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/lang/en/help/.tooltips.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/lang/ru/help/.tooltips.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/component.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/lang/en/component.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/lang/ru/component.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/templates/.default/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/templates/.default/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/templates/.default/lang/en/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/video_epta/templates/.default/lang/ru/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/components/custom/photogall_epta/templates/.default/template.php" afterPath="$PROJECT_DIR$/bitrix/components/custom/photogall_epta/templates/.default/template.php" />
+    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sezlipetsk.iws" />
@@ -59,11 +39,9 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about/galereya-foto-i-video/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.395574">
-              <caret line="64" column="67" selection-start-line="64" selection-start-column="67" selection-end-line="64" selection-end-column="67" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#!!top" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="1.8795379">
+              <caret line="75" column="67" selection-start-line="75" selection-start-column="67" selection-end-line="75" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,13 +49,9 @@
       <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/templates/.default/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.407408">
-              <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-              <folding>
-                <marker date="1441801304373" expanded="true" signature="649:891" placeholder="..." />
-                <marker date="1441801304373" expanded="true" signature="678:891" placeholder="..." />
-                <marker date="1441801304373" expanded="true" signature="1150:1263" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,11 +59,9 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.275862">
-              <caret line="3030" column="15" selection-start-line="3030" selection-start-column="15" selection-end-line="3030" selection-end-column="15" />
-              <folding>
-                <marker date="1441801008675" expanded="true" signature="5739:5872" placeholder="{...}" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3043" column="13" selection-start-line="3043" selection-start-column="13" selection-end-line="3043" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,8 +69,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.774194">
-              <caret line="298" column="35" selection-start-line="298" selection-start-column="35" selection-end-line="298" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="347" column="17" selection-start-line="347" selection-start-column="17" selection-end-line="347" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -107,8 +79,8 @@
       <file leaf-file-name="component.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/component.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7037037">
-              <caret line="356" column="144" selection-start-line="356" selection-start-column="144" selection-end-line="356" selection-end-column="144" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="414" column="68" selection-start-line="414" selection-start-column="68" selection-end-line="414" selection-end-column="68" />
               <folding>
                 <element signature="e#438#462#0#PHP" expanded="true" />
               </folding>
@@ -170,11 +142,11 @@
         <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.detail/.default/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.detail/.default/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/template.php" />
-        <option value="$PROJECT_DIR$/about/galereya-foto-i-video/index.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/oez/js/app.js" />
         <option value="$PROJECT_DIR$/bitrix/templates/oez/css/style.css" />
         <option value="$PROJECT_DIR$/bitrix/components/custom/photogall_epta/component.php" />
         <option value="$PROJECT_DIR$/bitrix/components/custom/photogall_epta/templates/.default/template.php" />
+        <option value="$PROJECT_DIR$/about/galereya-foto-i-video/index.php" />
       </list>
     </option>
   </component>
@@ -190,10 +162,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1375" />
-    <option name="height" value="876" />
+    <option name="x" value="180" />
+    <option name="y" value="41" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -218,6 +190,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,308 +209,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="potrebitelyam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="potrebitelyam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tekhnologicheskoe-prisoedinenie-podklyuchenie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en_oez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en_oez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="video_epta" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="about" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sezlipetsk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="about" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="galereya-foto-i-video" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -557,6 +231,22 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="FullScreen" value="false" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="170" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="170" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="170" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="844" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="170" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="169" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="170" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="845" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -588,8 +278,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -597,34 +285,16 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/news.list/templates/pokazat_rosta/.parameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/news.list/templates/pokazat_rosta/lang/en/.parameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/news.list/templates/pokazat_rosta/lang/en/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/news.list/templates/pokazat_rosta/lang/ru/.parameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/news.list/templates/pokazat_rosta/lang/ru/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/news.list/templates/pokazat_rosta/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/news.list/templates/pokazat_rosta/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/0c5/0c5da6e4e9445bc885ec99ede118116d.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/30f/30f4577e12b69326039b58da4fe053ba.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/33b/33b876cf8e65e4d493696c8c48279f9e.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/8e9/8e941d974ebc8e439f1aa5b489e4cc60.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ca1/ca1f62301c64f619dca2beb04aa6f783.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e25/e25fa6ef71c92b43f8048198e2a47f36.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/medialibrary/539/539b594afcf2a1f18fb183453e855188.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/30f/200_200_1/30f4577e12b69326039b58da4fe053ba.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/7af/200_200_1/7afd9e9ec911a0dbc0883aba5128043d.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/8e9/200_200_1/8e941d974ebc8e439f1aa5b489e4cc60.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/medialibrary/539/140_105_1/539b594afcf2a1f18fb183453e855188.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/uf/0b2/0b2ec4fb942553439ba21b7c40b5040b.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/uf/0cd/0cdef9c3a59a96e3ae103a9a366ec496.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/uf/254/254aeaa1fd07c06735f76aa41ca5c78d.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/uf/282/2821db1ccd16f2db1a869c24311bc280.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/uf/4d6/4d6c3136593e580a2eca02f64138385b.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/uf/601/601f689864a90a5d8ca2d325e2f4f8de.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/uf/7d1/7d13e1f84a57194da98eed82aa06cffe.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/uf/c67/c6792f28ebf67e10fa1adf303b08d4e3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/uf/dc9/dc98b6c66df95692cdd4332a59e766e1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/uf/dd3/dd3347fcd79c5748c2dd2c27bb0920a6.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/221/22132dc772e7c3489467b642e705633e.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/30b/30bae7f5be7ad4b0f83291bcd2ffae25.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/660/6600c30a5c2957857c8f09c9f69bc89c.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/8a1/8a1c569c2ae187a79347877300207083.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/b54/b546b1a31b29b0d5bb9e4790491e1a64.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e88/e8882d058aeb2ce8f330319a2fc44555.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/46c/200_200_1/46ce3da138caebdc56507d2b425efd1e.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/660/200_200_1/6600c30a5c2957857c8f09c9f69bc89c.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/8a1/200_200_1/8a1c569c2ae187a79347877300207083.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/da5/200_200_1/da516aadbd7bf2e0c353fc47a37539c6.jpg</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -632,11 +302,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/stack_cache/MYSQL/currency_rate/61/617ce81921b8be705ca13e5be3992c16.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/138/1388cf51d2beae30dff2a13c54898e09.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/f7a/f7a75d2034de41cc25e494d616cba6a9.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/138/200_200_1/1388cf51d2beae30dff2a13c54898e09.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/f7a/200_200_1/f7a75d2034de41cc25e494d616cba6a9.jpg</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -756,36 +421,6 @@
       <created>1439450512266</created>
       <option name="number" value="Default" />
       <updated>1439450512266</updated>
-    </task>
-    <task id="LOCAL-00001" summary="заливка битрикса">
-      <created>1439971918954</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1439971918954</updated>
-    </task>
-    <task id="LOCAL-00002" summary="заливка битрикса">
-      <created>1439973958310</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1439973958310</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Прикручивание шаблона">
-      <created>1439984276067</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1439984276067</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Добавил главное меню">
-      <created>1439993432649</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1439993432649</updated>
-    </task>
-    <task id="LOCAL-00005" summary="прикрутка модулей">
-      <created>1440080025109</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1440080025110</updated>
     </task>
     <task id="LOCAL-00006" summary="добавлен компонент слайдера">
       <created>1440081411103</created>
@@ -1051,7 +686,37 @@
       <option name="project" value="LOCAL" />
       <updated>1441800969909</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;upload/resize_cache/iblock/9f2/298_221_1/9f29473a31265f30942504d9b3f96cad.jpg&#10;Проверка связи. Раз, два, три">
+      <created>1441822293137</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1441822293138</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;upload/resize_cache/iblock/9f2/298_221_1/9f29473a31265f30942504d9b3f96cad.jpg&#10;Проверка связи. Раз, два, три">
+      <created>1441879287165</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1441879287198</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;upload/resize_cache/iblock/9f2/298_221_1/9f29473a31265f30942504d9b3f96cad.jpg&#10;Проверка связи. Раз, два, три">
+      <created>1441879302411</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1441879302411</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Документы закупки">
+      <created>1441879990786</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1441879990786</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Создан элемент: Электроснабжение первого пускового комплекса второй очереди строительства ОЭЗ ППТ «Липецк». Распределительные подстанции (РТП), трансформаторные подстанции (ТП), кабельные линии первого пускового комплекса второй очереди на территории ОЭЗ ППТ «Липецк». Двухцепная линия ВЛ-10 кВ (2 этап)»&#10;">
+      <created>1441880636813</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1441880636813</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1064,17 +729,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1375" height="876" extended-state="6" />
+    <frame x="180" y="41" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27012792" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26950866" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2602564" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2600897" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981189" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1106,9 +771,6 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Добавила страницу &quot;Управляющая компания&quot;" />
-    <MESSAGE value="Добавила содержимое на страницу &quot;Управляющая компания&quot;" />
-    <MESSAGE value="изменения на странице управляющая компания&#10;" />
     <MESSAGE value="Вывела слайдер &quot;Цитаты руководителей&quot; на страницу &quot;Опроекте&quot;" />
     <MESSAGE value="Создана структуру для англоязычного сайта" />
     <MESSAGE value="Добавлена страница для жалобы" />
@@ -1131,13 +793,26 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;upload/resize_cache/iblock/9f2/298_221_1/9f29473a31265f30942504d9b3f96cad.jpg&#10;" />
     <MESSAGE value="Галерея фоток" />
     <MESSAGE value="Листание фоток в галерее если их больше 6 штук" />
-    <option name="LAST_COMMIT_MESSAGE" value="Листание фоток в галерее если их больше 6 штук" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;upload/resize_cache/iblock/9f2/298_221_1/9f29473a31265f30942504d9b3f96cad.jpg&#10;Проверка связи. Раз, два, три" />
+    <MESSAGE value="Документы закупки" />
+    <MESSAGE value="Создан элемент: Электроснабжение первого пускового комплекса второй очереди строительства ОЭЗ ППТ «Липецк». Распределительные подстанции (РТП), трансформаторные подстанции (ТП), кабельные линии первого пускового комплекса второй очереди на территории ОЭЗ ППТ «Липецк». Двухцепная линия ВЛ-10 кВ (2 этап)»&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создан элемент: Электроснабжение первого пускового комплекса второй очереди строительства ОЭЗ ППТ «Липецк». Распределительные подстанции (РТП), трансформаторные подстанции (ТП), кабельные линии первого пускового комплекса второй очереди на территории ОЭЗ ППТ «Липецк». Двухцепная линия ВЛ-10 кВ (2 этап)»&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="356" column="144" selection-start-line="356" selection-start-column="144" selection-end-line="356" selection-end-column="144" />
+          <folding>
+            <element signature="e#438#462#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1387,7 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.006916">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1395,7 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1403,7 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1411,7 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1419,7 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.55186725">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4118497">
           <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1435,7 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18395574">
           <caret line="39" column="31" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1443,7 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27745664">
           <caret line="337" column="19" selection-start-line="337" selection-start-column="19" selection-end-line="337" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1451,7 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33236995">
           <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1459,37 +1125,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.79310346">
           <caret line="102" column="30" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="30" />
-          <folding>
-            <element signature="n#extractFileName#0;n#!!top" expanded="true" />
-            <marker date="1441367176085" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1441367176085" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1441367176085" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.774194">
-          <caret line="298" column="35" selection-start-line="298" selection-start-column="35" selection-end-line="298" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="347" column="17" selection-start-line="347" selection-start-column="17" selection-end-line="347" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.275862">
-          <caret line="3030" column="15" selection-start-line="3030" selection-start-column="15" selection-end-line="3030" selection-end-column="15" />
-          <folding>
-            <marker date="1441801008675" expanded="true" signature="5739:5872" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3043" column="13" selection-start-line="3043" selection-start-column="13" selection-end-line="3043" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/component.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7037037">
-          <caret line="356" column="144" selection-start-line="356" selection-start-column="144" selection-end-line="356" selection-end-column="144" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="414" column="68" selection-start-line="414" selection-start-column="68" selection-end-line="414" selection-end-column="68" />
           <folding>
             <element signature="e#438#462#0#PHP" expanded="true" />
           </folding>
@@ -1498,23 +1156,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/templates/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.407408">
-          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-          <folding>
-            <marker date="1441801304373" expanded="true" signature="649:891" placeholder="..." />
-            <marker date="1441801304373" expanded="true" signature="678:891" placeholder="..." />
-            <marker date="1441801304373" expanded="true" signature="1150:1263" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about/galereya-foto-i-video/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.395574">
-          <caret line="64" column="67" selection-start-line="64" selection-start-column="67" selection-end-line="64" selection-end-column="67" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="1.8795379">
+          <caret line="75" column="67" selection-start-line="75" selection-start-column="67" selection-end-line="75" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>

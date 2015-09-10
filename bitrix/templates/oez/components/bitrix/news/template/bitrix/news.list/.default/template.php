@@ -1,4 +1,29 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+
+	// номер текущей страницы
+	$curPage = $arResult["NAV_RESULT"]->NavPageNomer;
+	// всего страниц - номер последней страницы
+	$totalPages = $arResult["NAV_RESULT"]->NavPageCount;
+	// номер постраничной навигации на странице
+	$navNum = $arResult["NAV_RESULT"]->NavNum;
+?>
+<script>
+
+	$(function(){
+		var newsSetLoader = new newsLoader({
+			root: '.smi_more_section',
+			newsBlock: '.smi_more_blocks',
+			newsLoader: '#load-items',
+			ajaxLoader: '#ajax-loader img',
+			loadSett:{
+				endPage: <?=$totalPages?>,
+				navNum: <?=$navNum?>
+			}
+		});
+		newsSetLoader.init();
+	});
+
+</script>
 <section class="container">
 	<div class="row">
 		<div class="col-md-5 smi_left">
@@ -9,8 +34,6 @@
 <?$showHr = false; $q = RandString(5);
 $i = 1;
 ?>
-
-	<h1>Новости</h1>
 	<!--Хеебный крош-->
 	<?$APPLICATION->IncludeComponent(
 		"custom:breadcrumb",
@@ -24,12 +47,14 @@ $i = 1;
 	);
 	?>
 	<!--Хлебные крошки-->
+	<h1>СМИ об ОЭЗ «Липецк»</h1>
 	<div class="smi_block">
 		<div>
 		<?foreach($arResult["ITEMS"] as $arItem):
-
-			//var_dump($arItem["DETAIL_PICTURE"]["SRC"]);
-			//die('ghjkl');
+			$res12 = CIBlockElement::GetByID($arItem['ID']);
+			$res23 = $res12->GetNextElement();
+			$tmp_elem = $res23->GetProperties();
+			$arItem['DATE'] = $tmp_elem['DATE']['VALUE'];
 			?>
 
 			<div rel="<?=$i?>" class="smi_item">
@@ -42,6 +67,9 @@ $i = 1;
 						<?echo $arItem["DISPLAY_ACTIVE_FROM"]?>
 					</div>
 				<?endif?>
+				<div class="smi_date">
+					<?echo $arItem["DATE"]?>
+				</div>
 				<div class="smi_name">
 					<?echo $arItem["NAME"]?>
 				</div>
@@ -50,10 +78,10 @@ $i = 1;
 						<?echo $arItem["PREVIEW_TEXT"];?>
 					</div>
 				<?endif;?>
-				<div class="smi_but"><a href="'.<?=$arItem["DETAIL_PAGE_URL"]?>.'"  >Подробнее</a></div>
+				<div class="smi_but"><a href="<?=$arItem["DETAIL_PAGE_URL"]?>"  >Подробнее</a></div>
 			</div>
 
-
+			<?/* ?>
 	<!--<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 block_news">
 			<?
 			$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
@@ -101,6 +129,7 @@ $i = 1;
 				</div>
 			</div>
 	</div>-->
+<? */ ?>
 		<?/*
 		//Чтоб чётко блоки были по 4
 		if($i % 4 == 0){
@@ -125,9 +154,12 @@ $i = 1;
 			foreach($arResult["ITEMS"] as $arItem):
 				$res12 = CIBlockElement::GetByID($arItem['ID']);
 				$res23 = $res12->GetNextElement();
-				//$tmp_elem=$res23->GetProperties();
 				$tmp_elem = $res23->GetFields();
+				//$tmp_elem2 = $res23->GetProperties();
+				//var_dump($tmp_elem2 );
+				//die('stop');
 				$arItem['DETAIL_PICTURE'] = $tmp_elem['DETAIL_PICTURE'];
+				//$arItem['DATE'] = $tmp_elem2['DATE']['VALUE'];
 				if(isset($arItem["DETAIL_PICTURE"]))
 				{
 					$arItem["DETAIL_PICTURE"] = (0 < $arItem["DETAIL_PICTURE"] ? CFile::GetFileArray($arItem["DETAIL_PICTURE"]) : false);
@@ -149,4 +181,56 @@ $i = 1;
 
 		</div>
 	</div>
+</section>
+<section class="container smi_more_section">
+	<div class="row smi_more_blocks">
+		<?foreach($arResult["ITEMS"] as $arItem):?>
+			<a href="<?=$arItem["DETAIL_PAGE_URL"]?>"  >
+		<div class="col-lg-3 col-md-4 col-sm-6 smi_more_item">
+
+			<?
+				$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
+				$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
+			?>
+			<div>
+				<?if($arParams["DISPLAY_DATE"]!="N" && $arItem["DISPLAY_ACTIVE_FROM"]):?>
+					<div class="smi_more_date"><span>
+						<?echo $arItem["DISPLAY_ACTIVE_FROM"]?>
+					</span></div>
+				<?endif?>
+				<?
+					$res12 = CIBlockElement::GetByID($arItem['ID']);
+					$res23 = $res12->GetNextElement();
+					$tmp_elem = $res23->GetProperties();
+					$arItem['DATE'] = $tmp_elem['DATE']['VALUE'];
+
+				?>
+				<div class="smi_more_date"><span>
+						<?echo $arItem["DATE"]?>
+					</span></div>
+				<div class="smi_more_name"><?echo $arItem["NAME"]?></div>
+				<?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arItem["PREVIEW_TEXT"]):?>
+					<div class="smi_more_text">
+						<?echo $arItem["PREVIEW_TEXT"];?>
+					</div>
+				<?endif;?>
+				<div class="block_icon_arrow">
+					<span class="glyphicon glyphicon-menu-right"></span>
+				</div>
+			</div>
+
+		</div></a>
+		<?endforeach;?>
+
+
+	</div><div class="dop_smi"><a href="#" id="load-items" class="see_more">ПОКАЗАТЬ ЕЩЕ</a> <a class="all">Пресс-релизы<span
+				class="glyphicon glyphicon-menu-right"></span></a></div>
+	<div id="ajax-loader">
+
+		<img src="/bitrix/templates/oez/img/progress.gif">
+	</div>
+
+	<?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
+		<br /><?=$arResult["NAV_STRING"]?>
+	<?endif;?>
 </section>

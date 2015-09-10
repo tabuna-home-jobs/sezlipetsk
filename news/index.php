@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Новости");
+$APPLICATION->SetTitle("СМИ об ОЭЗ «Липецк»");
 ?>
 	<div class="main">
 <?$APPLICATION->IncludeComponent(
@@ -47,7 +47,7 @@ $APPLICATION->SetTitle("Новости");
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 		"ADD_SECTIONS_CHAIN" => "N",
 		"USE_PERMISSIONS" => "N",
-		"PREVIEW_TRUNCATE_LEN" => "",
+		"PREVIEW_TRUNCATE_LEN" => "100",
 		"LIST_ACTIVE_DATE_FORMAT" => "j F Y",
 		"LIST_FIELD_CODE" => array(
 			0 => "",
@@ -100,6 +100,7 @@ $APPLICATION->SetTitle("Новости");
 		"AJAX_OPTION_ADDITIONAL" => "",
 		"COMPONENT_TEMPLATE" => "template",
 		"REVIEW_AJAX_POST" => "Y",
+		"AJAX" => $_REQUEST["AJAX"],
 		"SET_LAST_MODIFIED" => "N",
 		"ADD_ELEMENT_CHAIN" => "N",
 		"SHARE_HIDE" => "N",
@@ -128,5 +129,6 @@ $APPLICATION->SetTitle("Новости");
 	),
 	false
 );?>
+
 	</div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
