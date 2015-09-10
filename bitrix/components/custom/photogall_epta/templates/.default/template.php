@@ -39,7 +39,7 @@ $this->setFrameMode(true);
 					<div class="item">
 						<? $lis = 1; foreach($arResult["allPhotoz"] as $contentPhoto){ ?>
 
-						<? if(!is_null($contentPhoto['DETAIL_PICTURE'])){?>
+							<? if(!is_null($contentPhoto['DETAIL_PICTURE'])){?>
 
 						<a class="fancybox" href="<?=CFile::GetPath($contentPhoto['DETAIL_PICTURE']);?>" data-fancybox-group="galleryAll" title="<?=$contentPhoto['NAME'];?>">
 
@@ -47,12 +47,20 @@ $this->setFrameMode(true);
 
 							<a class="fancybox" href="<?=CFile::GetPath($contentPhoto['PREVIEW_PICTURE']);?>" data-fancybox-group="galleryAll" title="<?=$contentPhoto['NAME'];?>">
 
-								<? } ?>
+								<? }else{ ?>
+								<a class="fancybox" href="<?=SITE_TEMPLATE_PATH?>/img/noimg.png" data-fancybox-group="galleryAll" title="нет изображения">
+									<? } ?>
 
 
 								<div class="col-md-4 stupid_images col-sm-6 col-xs-6">
 									<div>
-										<img src="<?=CFile::GetPath($contentPhoto['PREVIEW_PICTURE']);?>">
+										<? if(!is_null($contentPhoto['PREVIEW_PICTURE'])){?>
+											<img src="<?=CFile::GetPath($contentPhoto['PREVIEW_PICTURE']);?>">
+										<? } elseif(!is_null($contentPhoto['DETAIL_PICTURE'])){?>
+											<img src="<?=CFile::GetPath($contentPhoto['DETAIL_PICTURE']);?>">
+										<? }else{ ?>
+											<img src="<?=SITE_TEMPLATE_PATH?>/img/noimg.png">
+										<? }?>
 										<div class="in_galery_foto">
 											<div>
 												<img src="<?=SITE_TEMPLATE_PATH?>/img/galery_loop.png">
