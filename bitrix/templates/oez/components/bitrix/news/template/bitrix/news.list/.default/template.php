@@ -1,4 +1,29 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+
+	// номер текущей страницы
+	$curPage = $arResult["NAV_RESULT"]->NavPageNomer;
+	// всего страниц - номер последней страницы
+	$totalPages = $arResult["NAV_RESULT"]->NavPageCount;
+	// номер постраничной навигации на странице
+	$navNum = $arResult["NAV_RESULT"]->NavNum;
+?>
+<script>
+
+	$(function(){
+		var newsSetLoader = new newsLoader({
+			root: '.smi_more_section',
+			newsBlock: '.smi_more_blocks',
+			newsLoader: '#load-items',
+			ajaxLoader: '#ajax-loader img',
+			loadSett:{
+				endPage: <?=$totalPages?>,
+				navNum: <?=$navNum?>
+			}
+		});
+		newsSetLoader.init();
+	});
+
+</script>
 <section class="container">
 	<div class="row">
 		<div class="col-md-5 smi_left">
@@ -181,6 +206,10 @@ $i = 1;
 
 
 	</div>
-	<div class="dop_smi"><a class="see_more">ПОКАЗАТЬ ЕЩЕ</a> <a class="all">Пресс-релизы<span
+	<div class="dop_smi"><a href="#" id="load-items" class="see_more">ПОКАЗАТЬ ЕЩЕ</a> <a class="all">Пресс-релизы<span
 				class="glyphicon glyphicon-menu-right"></span></a></div>
+
+	<?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
+		<br /><?=$arResult["NAV_STRING"]?>
+	<?endif;?>
 </section>

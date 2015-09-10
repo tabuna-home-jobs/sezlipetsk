@@ -100,6 +100,7 @@ $APPLICATION->SetTitle("Новости");
 		"AJAX_OPTION_ADDITIONAL" => "",
 		"COMPONENT_TEMPLATE" => "template",
 		"REVIEW_AJAX_POST" => "Y",
+		"AJAX" => $_REQUEST["AJAX"],
 		"SET_LAST_MODIFIED" => "N",
 		"ADD_ELEMENT_CHAIN" => "N",
 		"SHARE_HIDE" => "N",
