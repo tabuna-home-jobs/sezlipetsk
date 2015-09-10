@@ -1,0 +1,11 @@
+.all_tables>div {
+    display: inline-block;
+    display: inline-block;
+    margin: 0px 0px; 
+    margin-left: 0;
+}
+.other_tables>a {
+    margin-right: 10px;
+    color: #333333;
+    cursor: pointer;
+}
