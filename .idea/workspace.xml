@@ -39,7 +39,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about/galereya-foto-i-video/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.176611">
+            <state vertical-scroll-proportion="1.8795379">
               <caret line="75" column="67" selection-start-line="75" selection-start-column="67" selection-end-line="75" selection-end-column="67" />
               <folding />
             </state>
@@ -285,32 +285,16 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/09e/09e6979b89b6ca6b73ef208ea151f304.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/21a/21af8d1c14317c2a3e1da5ca0d99334c.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/2b0/2b0a326400392d405a6cc576f9ebc41f.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/46c/46ce3da138caebdc56507d2b425efd1e.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/7b7/7b7dd18e7fc2aabfd3a476d4211486d2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/7cb/7cb8b9662ceac32d895ff0d8c30ae5c3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/87a/87a36888ef9ed3e770f35adbe1d914f6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/8f9/8f9da33b651f91196302880794647815.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/92c/92c03666abb944631252ce4f91d41ed9.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/a05/a05c11abf95c6d21ff4ee597a1eae29b.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/b2c/b2c64e7be33a881799cb7c82f7cdee47.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/c4e/c4ede8f83de7709f70a25bf9dd66d9fd.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/da5/da516aadbd7bf2e0c353fc47a37539c6.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/de4/de47e4e7c0c4b8f04bcc0a7fdedf7054.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e96/e96614452dcfd65d605070beb9c27607.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/fca/fca735d671aed8081d0381220398f6d6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/0bb/200_200_1/0bb14db3d4a66d83ed9e38022a3a4227.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/21a/200_200_1/21af8d1c14317c2a3e1da5ca0d99334c.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/2b0/200_200_1/2b0a326400392d405a6cc576f9ebc41f.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/7cb/200_200_1/7cb8b9662ceac32d895ff0d8c30ae5c3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/8f9/200_200_1/8f9da33b651f91196302880794647815.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/92c/200_200_1/92c03666abb944631252ce4f91d41ed9.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/b2c/200_200_1/b2c64e7be33a881799cb7c82f7cdee47.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/c4e/200_200_1/c4ede8f83de7709f70a25bf9dd66d9fd.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/d30/200_200_1/d304a06b508683d19b5c3c6523e81e58.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/e96/200_200_1/e96614452dcfd65d605070beb9c27607.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/221/22132dc772e7c3489467b642e705633e.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/30b/30bae7f5be7ad4b0f83291bcd2ffae25.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/660/6600c30a5c2957857c8f09c9f69bc89c.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/8a1/8a1c569c2ae187a79347877300207083.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/b54/b546b1a31b29b0d5bb9e4790491e1a64.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e88/e8882d058aeb2ce8f330319a2fc44555.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/46c/200_200_1/46ce3da138caebdc56507d2b425efd1e.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/660/200_200_1/6600c30a5c2957857c8f09c9f69bc89c.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/8a1/200_200_1/8a1c569c2ae187a79347877300207083.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/da5/200_200_1/da516aadbd7bf2e0c353fc47a37539c6.jpg</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -437,12 +421,6 @@
       <created>1439450512266</created>
       <option name="number" value="Default" />
       <updated>1439450512266</updated>
-    </task>
-    <task id="LOCAL-00005" summary="прикрутка модулей">
-      <created>1440080025109</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1440080025110</updated>
     </task>
     <task id="LOCAL-00006" summary="добавлен компонент слайдера">
       <created>1440081411103</created>
@@ -732,7 +710,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441879990786</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Создан элемент: Электроснабжение первого пускового комплекса второй очереди строительства ОЭЗ ППТ «Липецк». Распределительные подстанции (РТП), трансформаторные подстанции (ТП), кабельные линии первого пускового комплекса второй очереди на территории ОЭЗ ППТ «Липецк». Двухцепная линия ВЛ-10 кВ (2 этап)»&#10;">
+      <created>1441880636813</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1441880636813</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TodoView">
@@ -755,7 +739,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2600897" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2600897" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981189" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -787,7 +771,6 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="изменения на странице управляющая компания&#10;" />
     <MESSAGE value="Вывела слайдер &quot;Цитаты руководителей&quot; на страницу &quot;Опроекте&quot;" />
     <MESSAGE value="Создана структуру для англоязычного сайта" />
     <MESSAGE value="Добавлена страница для жалобы" />
@@ -812,7 +795,8 @@
     <MESSAGE value="Листание фоток в галерее если их больше 6 штук" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;upload/resize_cache/iblock/9f2/298_221_1/9f29473a31265f30942504d9b3f96cad.jpg&#10;Проверка связи. Раз, два, три" />
     <MESSAGE value="Документы закупки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Документы закупки" />
+    <MESSAGE value="Создан элемент: Электроснабжение первого пускового комплекса второй очереди строительства ОЭЗ ППТ «Липецк». Распределительные подстанции (РТП), трансформаторные подстанции (ТП), кабельные линии первого пускового комплекса второй очереди на территории ОЭЗ ППТ «Липецк». Двухцепная линия ВЛ-10 кВ (2 этап)»&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создан элемент: Электроснабжение первого пускового комплекса второй очереди строительства ОЭЗ ППТ «Липецк». Распределительные подстанции (РТП), трансформаторные подстанции (ТП), кабельные линии первого пускового комплекса второй очереди на территории ОЭЗ ППТ «Липецк». Двухцепная линия ВЛ-10 кВ (2 этап)»&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1180,7 +1164,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about/galereya-foto-i-video/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.176611">
+        <state vertical-scroll-proportion="1.8795379">
           <caret line="75" column="67" selection-start-line="75" selection-start-column="67" selection-end-line="75" selection-end-column="67" />
           <folding />
         </state>
