@@ -13,11 +13,6 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 
-/*
-	echo "<pre>";
-	var_dump($arResult['razdel']);
-	echo "</pre>";
-	die('stopr');*/
 
 ?>
 <div role="tabpanel" class="tab-pane fade active in photogal" id="home" aria-labelledby="home-tab">
@@ -38,7 +33,58 @@ $this->setFrameMode(true);
 	</div>
 	<div class="tab-content">
 		<div role="tabpanel" class="tab-pane fade" id="tab001">
-			Нет тут пока фоток
+			<div id="carousel-example-genericAll" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+
+					<div class="item">
+						<? $lis = 1; foreach($arResult["allPhotoz"] as $contentPhoto){ ?>
+
+						<? if(!is_null($contentPhoto['DETAIL_PICTURE'])){?>
+
+						<a class="fancybox" href="<?=CFile::GetPath($contentPhoto['DETAIL_PICTURE']);?>" data-fancybox-group="galleryAll" title="<?=$contentPhoto['NAME'];?>">
+
+							<? }elseif(!is_null($contentPhoto['PREVIEW_PICTURE'])){ ?>
+
+							<a class="fancybox" href="<?=CFile::GetPath($contentPhoto['PREVIEW_PICTURE']);?>" data-fancybox-group="galleryAll" title="<?=$contentPhoto['NAME'];?>">
+
+								<? } ?>
+
+
+								<div class="col-md-4 stupid_images col-sm-6 col-xs-6">
+									<div>
+										<img src="<?=CFile::GetPath($contentPhoto['PREVIEW_PICTURE']);?>">
+										<div class="in_galery_foto">
+											<div>
+												<img src="<?=SITE_TEMPLATE_PATH?>/img/galery_loop.png">
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+							<?
+								//Если фоток больше 6 то делаем следующий слайд для карусели
+								if($lis % 6 == 0){
+							?>
+					</div>
+					<div class="item">
+						<?
+							}
+						?>
+
+						<? $lis++; } ?>
+					</div>
+				</div>
+
+
+				<? if(count($arResult["allPhotoz"]) > 6){?>
+					<div class="smi_control">
+						<a data-slide="prev" href="#carousel-example-genericAll" class="smi_prev left"></a>
+						<a data-slide="next" href="#carousel-example-genericAll" class="smi_next right"></a>
+					</div>
+				<? }?>
+
+			</div>
+
 		</div>
 		<? foreach($arResult['razdel'] as $razdleTabsContent){?>
 
