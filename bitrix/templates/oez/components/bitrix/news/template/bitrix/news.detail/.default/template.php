@@ -1,5 +1,72 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-<div class="news-detail">
+<div class="main">
+	<section class="container section_resident_main">
+		<div class="row">
+			<div class="col-xs-8 col-sm-8 col-md-8">
+
+				<!--Хеебный крош-->
+				<?$APPLICATION->IncludeComponent(
+					"custom:breadcrumb",
+					"",
+					Array(
+						"COMPONENT_TEMPLATE" => "oez",
+						"START_FROM" => "0",
+						"PATH" => "",
+						"SITE_ID" => "s1"
+					)
+				);
+				?>
+				<!--Хлебные крошки-->
+				<h1><?=$arResult["NAME"]?></h1>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-4"></div>
+	</section>
+
+	<? //var_bump($arResult);
+		//die('dfghjkl');
+
+	?>
+	<section class="resident_desrc">
+		<div class="ministr row"><!--slider!-->
+			<div class="container">
+				<div id="slider1" class="carousel slide" data-ride="carousel">
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></div>
+							<div class="slideimg col-md-5 col-sm-5 col-lg-5 col-xs-5"><img src="img/slider/5.jpg" alt="1"></div>
+							<div class="slideimg col-md-5 col-sm-5 col-lg-5 col-xs-5"><img src="img/slider/5.jpg" alt="2"></div>
+							<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></div>
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></div>
+							<div class="slideimg col-md-5 col-sm-5 col-lg-5 col-xs-5"><img src="img/slider/5.jpg" alt="3"></div>
+							<div class="slideimg col-md-5 col-sm-5 col-lg-5 col-xs-5"><img src="img/slider/5.jpg" alt="4"></div>
+							<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></div>
+							<div class="carousel-caption">
+
+							</div>
+						</div>
+
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control slcontrol" href="#slider1" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control srcontrol" href="#slider1" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div><!--/slider!-->
+	</section>
+
+
 	<?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arResult["DETAIL_PICTURE"])):?>
 	<div class="news-picture">
 		<img class="detail_picture" border="0" src="<?=$arResult["DETAIL_PICTURE"]["SRC"]?>" width="<?=$arResult["DETAIL_PICTURE"]["WIDTH"]?>" height="<?=$arResult["DETAIL_PICTURE"]["HEIGHT"]?>" alt="<?=$arResult["NAME"]?>"  title="<?=$arResult["NAME"]?>" />
