@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="Документы закупки">
+    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sezlipetsk.iws" />
@@ -438,12 +438,6 @@
       <option name="number" value="Default" />
       <updated>1439450512266</updated>
     </task>
-    <task id="LOCAL-00004" summary="Добавил главное меню">
-      <created>1439993432649</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1439993432649</updated>
-    </task>
     <task id="LOCAL-00005" summary="прикрутка модулей">
       <created>1440080025109</created>
       <option name="number" value="00005" />
@@ -732,7 +726,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441879302411</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Документы закупки">
+      <created>1441879990786</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1441879990786</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView">
@@ -787,7 +787,6 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Добавила содержимое на страницу &quot;Управляющая компания&quot;" />
     <MESSAGE value="изменения на странице управляющая компания&#10;" />
     <MESSAGE value="Вывела слайдер &quot;Цитаты руководителей&quot; на страницу &quot;Опроекте&quot;" />
     <MESSAGE value="Создана структуру для англоязычного сайта" />
@@ -812,7 +811,8 @@
     <MESSAGE value="Галерея фоток" />
     <MESSAGE value="Листание фоток в галерее если их больше 6 штук" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;upload/resize_cache/iblock/9f2/298_221_1/9f29473a31265f30942504d9b3f96cad.jpg&#10;Проверка связи. Раз, два, три" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;upload/resize_cache/iblock/9f2/298_221_1/9f29473a31265f30942504d9b3f96cad.jpg&#10;Проверка связи. Раз, два, три" />
+    <MESSAGE value="Документы закупки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Документы закупки" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
