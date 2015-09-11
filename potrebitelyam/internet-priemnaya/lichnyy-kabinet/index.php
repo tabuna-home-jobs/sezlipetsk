@@ -390,7 +390,8 @@
 						</div>
 						<div class="col-md-6 col-sm-12">
 							<div class="row">
-								<div class="col-sm-6 col-xs-12 block_item ">
+								<div class="col-sm-6">
+								<div class="col-sm-12 col-xs-12 block_item ">
 									<div class="item_block">
 										<a class="item_block_a" id="remember_pass">
 											<div class="hover_container">
@@ -407,8 +408,9 @@
 											</div>
 										</a>
 									</div>
-									<div class="col-sm-12 col-xs-12 block_item">
-										<div class="item_block">
+								</div>
+								<div class="col-sm-12 col-xs-12 block_item">
+									<div class="item_block">
 										<a class="item_block_a_small" id="remember_pass2" href="proverka-statusa-zayavki-na-tekh-prisoedinenie-k-setyam-elektrosnabzheniya/">
 											<div class="hover_container">
 												<div class="hover"></div>
@@ -421,11 +423,11 @@
 												<span class="glyphicon glyphicon-menu-right"></span>
 											</div>
 										</a>
-										</div>
 									</div>
 								</div>
-
-								<div class="col-sm-6 col-xs-12 block_item ">
+								</div>
+								<div class="col-sm-6">
+								<div class="col-sm-12 col-xs-12 block_item ">
 									<div class="item_block hight_item_block">
 										<a class="item_block_a" href="otsenka-kachestva-obsluzhivaniya/">
 											<div class="hover_container">
@@ -443,6 +445,7 @@
 											</div>
 										</a>
 									</div>
+								</div>
 								</div>
 							</div>
 						</div>

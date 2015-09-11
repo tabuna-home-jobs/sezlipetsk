@@ -196,6 +196,18 @@
 .nav-tab-map li:hover:nth-child(1) span{
     content: url("../img/maparea/icons/1.png");
 }
+
+
+.nav-tab-map li:nth-child(2) span{
+    content: url("../img/maparea/icons/444(grey).png");
+}
+.nav-tab-map li.active:nth-child(2) span{
+    content: url("../img/maparea/icons/444.png");
+}
+.nav-tab-map li:hover:nth-child(2) span{
+    content: url("../img/maparea/icons/444.png");
+}
+
 .nav-tab-map li:nth-child(3) span{
     content: url("../img/maparea/icons/3(grey).png");
 }

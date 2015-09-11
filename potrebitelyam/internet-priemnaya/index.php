@@ -69,43 +69,67 @@ $APPLICATION->SetTitle("Интернет-приемная");
 							</div>
 						</div>
 						<div class="cabinet_block_links">
-							<div><a>Порядок работы в ЛК</a></div>
-							<div><a id="remember_pass">Подать заявку на тех. присоединение к сетям электроснабжения</a>
-							</div>
-							<div class="remember_form_main">
-								<div class="remember_form_cell">
-									<div class="remember_form">
-										<div class="close_r_f_container"><a class="close_r_f"></a></div>
-										<div class="row">
-											<div class="col-xs-12">
-												<div class="r_f_heder">Выберите вариант заявки</div>
-											</div>
-										</div>
-										<div row>
-
-											<div class="col-xs-12">
-												<div class="oval_links_container">
-													<a class="oval_links"><span><span>до 150 к Вт <span class="star_red">*</span></span></span></a>
-													<a class="oval_links"><span><span><span>Временное <span class="star_red">*</span><span class="star_red">*</span> присоединение</span></span></span></a>
+							<div><a href="#" id="remember_pass_LK">Порядок работы в ЛК</a>
+								<div class="remember_form_main_LK">
+									<div class="remember_form_cell">
+										<div class="remember_form">
+											<div class="close_r_f_container"><a class="close_r_f"></a></div>
+											<div class="row">
+												<div class="col-xs-12">
+													<div class="r_f_heder">Порядок работы в ЛК</div>
 												</div>
 											</div>
-											<div class="col-xs-12 form_descript">
-												<span class="star_red">*</span> Форма заявки для юридических лиц или индивидуальных предпринимателей,
-												                                максимальная мощность энергопринимающих устройств которых составляет до
-												                                150кВт включительно (с учетом ранее присоединенных в данной точке
-												                                присоединения энергопринимающих устройств) по одному источнику
-												                                электроснабжения.
-											</div>
-											<div class="col-xs-12 form_descript">
-												<span class="star_red">*</span><span class="star_red">*</span> Форма заявки для заявителей в целях временного (на ограниченный период
-												                                                               времени для обеспечения электроснабжения энергопринимающих устройств)
-												                                                               технологического присоединения энергопринимающих устройств по третьей
-												                                                               категории надежности электроснабжения на уровне напряжения ниже 35 кВ.
-											</div>
+				<div>
+
+					<div class="col-xs-12 form_descript">
+
+						При создании генератора мы использовали небезызвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.
+						По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых клиентов недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.
+					</div>
+
+				</div>
 										</div>
 									</div>
 								</div>
+
 							</div>
+
+							<div><a id="remember_pass">Подать заявку на тех. присоединение к сетям электроснабжения</a>
+							</div>
+				<div class="remember_form_main">
+					<div class="remember_form_cell">
+						<div class="remember_form">
+							<div class="close_r_f_container"><a class="close_r_f"></a></div>
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="r_f_heder">Выберите вариант заявки</div>
+								</div>
+							</div>
+		<div row>
+
+			<div class="col-xs-12">
+				<div class="oval_links_container">
+					<a class="oval_links"><span><span>до 150 к Вт <span class="star_red">*</span></span></span></a>
+					<a class="oval_links"><span><span><span>Временное <span class="star_red">*</span><span class="star_red">*</span> присоединение</span></span></span></a>
+				</div>
+			</div>
+			<div class="col-xs-12 form_descript">
+				<span class="star_red">*</span> Форма заявки для юридических лиц или индивидуальных предпринимателей,
+                максимальная мощность энергопринимающих устройств которых составляет до
+                150кВт включительно (с учетом ранее присоединенных в данной точке
+                присоединения энергопринимающих устройств) по одному источнику
+                электроснабжения.
+			</div>
+			<div class="col-xs-12 form_descript">
+				<span class="star_red">*</span><span class="star_red">*</span> Форма заявки для заявителей в целях временного (на ограниченный период
+                   времени для обеспечения электроснабжения энергопринимающих устройств)
+                   технологического присоединения энергопринимающих устройств по третьей
+                   категории надежности электроснабжения на уровне напряжения ниже 35 кВ.
+			</div>
+		</div>
+						</div>
+					</div>
+				</div>
 							<div><a>Проверка статуса заявки на тех. присоединение к сетям электроснабжения</a></div>
 							<div><a>Направить обращение / жалобу</a></div>
 							<div><a>Оценка качества обслуживания</a></div>
@@ -116,7 +140,7 @@ $APPLICATION->SetTitle("Интернет-приемная");
 				<div class="col-xs-12 col-md-6 ">
 					<div class="cabinet_block">
 						<div class="row cabinet_block_heder">
-							<div class="col-xs-12 cabinet_block_name"><h3>Часто задоваемые вопросы</h3></div>
+							<div class="col-xs-12 cabinet_block_name"><h3>Часто задаваемые вопросы</h3></div>
 
 						</div>
 						<div class="cabinet_block_links">
