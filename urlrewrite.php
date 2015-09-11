@@ -31,6 +31,12 @@ $arUrlRewrite = array(
 		"PATH" => "/nationalnews/index.php",
 	),
 	array(
+		"CONDITION" => "#^/press-relizy/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/press-relizy/index.php",
+	),
+	array(
 		"CONDITION" => "#^/job/vacancy/#",
 		"RULE" => "",
 		"ID" => "bitrix:catalog",
@@ -49,6 +55,12 @@ $arUrlRewrite = array(
 		"PATH" => "/themes/index.php",
 	),
 	array(
+		"CONDITION" => "#^/blogs/#",
+		"RULE" => "",
+		"ID" => "bitrix:blog",
+		"PATH" => "/blogs/index.php",
+	),
+	array(
 		"CONDITION" => "#^/photo/#",
 		"RULE" => "",
 		"ID" => "bitrix:photogallery_user",
@@ -59,12 +71,6 @@ $arUrlRewrite = array(
 		"RULE" => "",
 		"ID" => "bitrix:forum",
 		"PATH" => "/forum/index.php",
-	),
-	array(
-		"CONDITION" => "#^/blogs/#",
-		"RULE" => "",
-		"ID" => "bitrix:blog",
-		"PATH" => "/blogs/index.php",
 	),
 	array(
 		"CONDITION" => "#^/news/#",

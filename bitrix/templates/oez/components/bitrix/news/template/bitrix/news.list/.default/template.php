@@ -47,7 +47,7 @@ $i = 1;
 	);
 	?>
 	<!--Хлебные крошки-->
-	<h1>СМИ об ОЭЗ «Липецк»</h1>
+	<h1><?=$APPLICATION->GetTitle();?></h1>
 	<div class="smi_block">
 		<div>
 		<?foreach($arResult["ITEMS"] as $arItem):
@@ -205,9 +205,6 @@ $i = 1;
 					$arItem['DATE'] = $tmp_elem['DATE']['VALUE'];
 
 				?>
-				<div class="smi_more_date"><span>
-						<?echo $arItem["DATE"]?>
-					</span></div>
 				<div class="smi_more_name"><?echo $arItem["NAME"]?></div>
 				<?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arItem["PREVIEW_TEXT"]):?>
 					<div class="smi_more_text">
@@ -223,7 +220,11 @@ $i = 1;
 		<?endforeach;?>
 
 
-	</div><div class="dop_smi"><a href="#" id="load-items" class="see_more">ПОКАЗАТЬ ЕЩЕ</a> <a class="all">Пресс-релизы<span
+	</div><div class="dop_smi">
+		<?if(count($arResult["ITEMS"])>=$arParams["NEWS_COUNT"]){?>
+			<a href="#" id="load-items" class="see_more">ПОКАЗАТЬ ЕЩЕ</a>
+		<?}?>
+		<a href="/press-relizy/" class="all">Пресс-релизы<span
 				class="glyphicon glyphicon-menu-right"></span></a></div>
 	<div id="ajax-loader">
 

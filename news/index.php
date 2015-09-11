@@ -44,7 +44,7 @@ $APPLICATION->SetTitle("СМИ об ОЭЗ «Липецк»");
 		"CACHE_GROUPS" => "N",
 		"SET_TITLE" => "Y",
 		"SET_STATUS_404" => "N",
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
 		"ADD_SECTIONS_CHAIN" => "N",
 		"USE_PERMISSIONS" => "N",
 		"PREVIEW_TRUNCATE_LEN" => "100",
@@ -102,7 +102,7 @@ $APPLICATION->SetTitle("СМИ об ОЭЗ «Липецк»");
 		"REVIEW_AJAX_POST" => "Y",
 		"AJAX" => $_REQUEST["AJAX"],
 		"SET_LAST_MODIFIED" => "N",
-		"ADD_ELEMENT_CHAIN" => "N",
+		"ADD_ELEMENT_CHAIN" => "Y",
 		"SHARE_HIDE" => "N",
 		"SHARE_TEMPLATE" => "",
 		"SHARE_HANDLERS" => array(

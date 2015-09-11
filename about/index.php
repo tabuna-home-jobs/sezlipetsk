@@ -80,7 +80,7 @@ $APPLICATION->SetTitle("О проекте");
 						</div>
 						<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
 							<div class="item_block">
-								<a class="item_block_a_small" href="press-relizy/">
+								<a class="item_block_a_small" href="/press-relizy/">
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
