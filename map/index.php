@@ -34,6 +34,7 @@ $APPLICATION->SetTitle("Интерактивная карта");
 				</li>
 				<li role="presentation">
 					<a href="#free-place" aria-controls="free-place" role="tab" data-toggle="tab">
+						<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/444(grey).png"></span>
 						Свободные участки
 					</a>
 				</li>
@@ -269,7 +270,7 @@ $APPLICATION->SetTitle("Интерактивная карта");
 									<td>автодороги</td>
 								</tr>
 								<tr>
-									<td><img src="i<?=SITE_TEMPLATE_PATH?>/mg/maparea/color3.jpg"></td>
+									<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color3.jpg"></td>
 									<td class="sec-td">участки, занимаемые инфраструктурой ОЭЗ</td>
 									<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/line3.jpg"></td>
 									<td>ж/д пути</td>
@@ -352,7 +353,7 @@ $APPLICATION->SetTitle("Интерактивная карта");
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map8.jpg">
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="net-gaz">
-					<img src=<?=SITE_TEMPLATE_PATH?>/"img/maparea/map9.jpg">
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map9.jpg">
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="net-infr">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map10.jpg">
@@ -413,10 +414,43 @@ $APPLICATION->SetTitle("Интерактивная карта");
 			<!--Разметка для картинки-->
 			<script type="text/javascript">
 				$(document).ready(function(){
+
+					var jakor = location.hash;
+
+					if(jakor != ''){
+						var currJakor = jakor.replace('#','');
+
+						$(".nav-tab-map li").each(function(){
+							var obj = $(this);
+							obj.removeClass('active');
+							var currHref = $("a",obj).attr('href');
+							if(currHref == jakor){
+								obj.addClass('active');
+							}
+						});
+
+						$(".tab-content > div.tab-pane").each(function(){
+							var obj = $(this);
+							obj.removeClass('active');
+							obj.removeClass('in');
+
+							var currId = obj.attr("id");
+							if(currId == currJakor){
+								obj.addClass('active');
+								obj.addClass('in')
+							}
+						});
+
+					}
+
 					//Нажатие по кругу 1
 					$("#elips1, #control-button-1").click(function(){
 						$("#sub-map1").fadeIn('1000', function(){
 							$("#control-button-1 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close1.png');
+						});
+						$("#sub-map2").fadeOut('1000', function(){
+							$("area[data-group='zone002']").mapster('deselect');
+							$("#control-button-2 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close2.png');
 						});
 					});
 
@@ -424,6 +458,10 @@ $APPLICATION->SetTitle("Интерактивная карта");
 					$("#elips2, #control-button-2").click(function(){
 						$("#sub-map2").fadeIn('1000', function(){
 							$("#control-button-2 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close1.png');
+						});
+						$("#sub-map1").fadeOut('1000', function(){
+							$("area[data-group='zone001']").mapster('deselect');
+							$("#control-button-1 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close2.png');
 						});
 					});
 

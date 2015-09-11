@@ -1468,7 +1468,7 @@ border: none;
   text-align: left;
   padding-right: 10px!important;
 }
-.remember_form_main, .remember_form_main2, .remember_form_main3 {
+.remember_form_main, .remember_form_main2, .remember_form_main3,.remember_form_main_LK {
   position: fixed;
   display:none;
   width: 100%;

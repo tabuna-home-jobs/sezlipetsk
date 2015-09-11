@@ -96,7 +96,7 @@
 			</div>
 
 		</div>
-		<? foreach($arResult['razdel'] as $razdleTabsContent){?>
+		<? foreach($arResult['razdel'] as $razdleTabsContent){ ?>
 
 			<div role="tabpanel" class="tab-pane fade" id="tab<?=$razdleTabsContent['ID'];?>">
 				<? if(count($razdleTabsContent['child']) > 0){?>
