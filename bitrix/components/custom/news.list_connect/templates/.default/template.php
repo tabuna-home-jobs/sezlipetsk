@@ -18,8 +18,6 @@
 
 
 $this->setFrameMode(true);
-	//var_dump($arResult);
-	//die('ghjkl;');
 ?>
 <!--
 <div class="news-list">
@@ -142,8 +140,6 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
                             </li>';
 		$vn_tmp .= $tmp_panel_cild;
 		$tmp_element = "";
-		//var_dump($arResult["razdel"]);
-		//die('fghj');
 		for($k = 0; $k<count($arResult["razdel"][$i]['child'][$j]['element']); $k++ ){
 			if($j == 0){$active='active in';}else{$active = '';}
 			$tmp_element = "";
@@ -155,14 +151,16 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
                                         <div class="item_download_name">'.extractFileName($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["ORIGINAL_NAME"]).'</div></a>
                                     </div>';
 			}
+			$text="";
+			if($arResult["razdel"][$i]["child"][$j]["element"][$k]['row']['DETAIL_TEXT']){
+				$text='<p>'.$arResult["razdel"][$i]["child"][$j]["element"][$k]['row']['DETAIL_TEXT'].'</p>';
+			}
 			$tmp_element = '    <div role="tabpanel" class="tab-pane fade '.$active.' " id="r'.$arResult["razdel"][$i]['child'][$j]['ID'].'"
                                  aria-labelledby="electro1-tab">
                                 <div class=""><h3>'.$arResult["razdel"][$i]["child"][$j]["element"][$k] ["row"]['NAME'].'</h3>
-									'.$files_str.'
+									'.$text.$files_str.'
                                 </div>
                             </div>';
-			//var_dump($arResult["razdel"][$i]["child"][$j]["element"]);
-			//die('fghj');
 			$tmp_elements.=$tmp_element;
 		}
 		if( count($arResult["razdel"][$i]['child'][$j]['element']) ==0)
@@ -183,14 +181,8 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 	$vn='';
 	$elements='';
 	$tt = '';
-	//var_dump($razdel_tmp);
-
-
 }
 
-
-	//var_dump($pan);
-	//die('fghjk');
 
 
 ?>

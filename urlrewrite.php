@@ -31,6 +31,12 @@ $arUrlRewrite = array(
 		"PATH" => "/nationalnews/index.php",
 	),
 	array(
+		"CONDITION" => "#^/press-relizy/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/press-relizy/index.php",
+	),
+	array(
 		"CONDITION" => "#^/job/vacancy/#",
 		"RULE" => "",
 		"ID" => "bitrix:catalog",
@@ -49,6 +55,12 @@ $arUrlRewrite = array(
 		"PATH" => "/themes/index.php",
 	),
 	array(
+		"CONDITION" => "#^/blogs/#",
+		"RULE" => "",
+		"ID" => "bitrix:blog",
+		"PATH" => "/blogs/index.php",
+	),
+	array(
 		"CONDITION" => "#^/photo/#",
 		"RULE" => "",
 		"ID" => "bitrix:photogallery_user",
@@ -61,16 +73,16 @@ $arUrlRewrite = array(
 		"PATH" => "/forum/index.php",
 	),
 	array(
-		"CONDITION" => "#^/blogs/#",
-		"RULE" => "",
-		"ID" => "bitrix:blog",
-		"PATH" => "/blogs/index.php",
-	),
-	array(
 		"CONDITION" => "#^/news/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
 		"PATH" => "/news/index.php",
+	),
+	array(
+		"CONDITION" => "#^/investor/sotsialnaya-infrastruktura-oez/([a-zA-Z0-9_-]+)/\\?{0,1}(.*)\$#",
+		"RULE" => "SECTION_CODE=$1",
+		"ID" => "",
+		"PATH" => "/investor/sotsialnaya-infrastruktura-oez/index.php",
 	),
 );
 
