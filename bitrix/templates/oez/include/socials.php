@@ -3,5 +3,6 @@
 	<div class="social">
 		<a><img src="<?=SITE_TEMPLATE_PATH?>/img/face.png"></a>
 		<a><img src="<?=SITE_TEMPLATE_PATH?>/img/twitter.png"></a>
+		<a><img src="<?=SITE_TEMPLATE_PATH?>/img/youtube.png"></a>
 	</div>
 </div>

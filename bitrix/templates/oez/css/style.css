@@ -1349,6 +1349,7 @@ border: none;
 }
 .part_2 {
     padding: 10px 0;
+    font-size: 10px;
 }
 .part_2>div:nth-child(2) {
     text-align: center;
