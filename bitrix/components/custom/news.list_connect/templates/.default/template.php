@@ -145,12 +145,40 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 			$tmp_element = "";
 			$files_str = "";
 			for($m = 0; $m<count($arResult["razdel"][$i]["child"][$j]['element'][$k]['files']); $m++){
+				//var_dump($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["CONTENT_TYPE"]);
+				//var_dump($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["ORIGINAL_NAME"]);
+				switch($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["CONTENT_TYPE"]){
+					case 'image/tiff':
+					case 'tif':
+						$ico = SITE_TEMPLATE_PATH.'/img/tif.png';
+						$type = 'TIF';
+						break;
+					case 'doc':
+					case 'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
+						$ico = SITE_TEMPLATE_PATH.'/img/doc2.png';
+						$type = 'TIF';
+						break;
+					case 'ppt':
+					case 'pptx':
+						$ico = SITE_TEMPLATE_PATH.'/img/ppt.png';
+						$type = 'TIF';
+						break;
+					case 'application/vnd.ms-excel':
+					case 'application/vnd.openxmlformats-officedocument.presentationml.presentation':
+						$ico = SITE_TEMPLATE_PATH.'/img/xls.png';
+						$type = 'TIF';
+						break;
+					default:
+						$ico = SITE_TEMPLATE_PATH.'/img/pdf.png';
+						$type = 'pdf';
+				}
 				$files_str.='<div class="item_download">
-                                     <a href="'.$arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]['SRC'].'" >  <div class="item_download_type"><img src="'.SITE_TEMPLATE_PATH.'/img/pdf.png">DOC,'.$arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["FILE_SIZE"].' КБ</div>
+                                     <a href="'.$arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]['SRC'].'" >  <div class="item_download_type"><img src="'.$ico.'">'.$type.' ,'.$arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["FILE_SIZE"].' КБ</div>
                                         <div class="item_download_date">'.$arResult["razdel"][$i]["child"][$j]["element"][$k]['DATE'].'</div>
                                         <div class="item_download_name">'.extractFileName($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["ORIGINAL_NAME"]).'</div></a>
                                     </div>';
 			}
+			//die('jkl');
 			$text="";
 			if($arResult["razdel"][$i]["child"][$j]["element"][$k]['row']['DETAIL_TEXT']){
 				$text='<p>'.$arResult["razdel"][$i]["child"][$j]["element"][$k]['row']['DETAIL_TEXT'].'</p>';
