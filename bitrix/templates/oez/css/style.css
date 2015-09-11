@@ -3024,15 +3024,16 @@ div.active{
     margin-bottom: 15px;
 }
 .stupid_images{
-  margin: 5px 0;
+  margin: 0 0 15px;
 }
 .stupid_images > div > img{
-  width: 228px;
-  height: 228px;
+  width: 229px;
+  height: 239px;
+
 }
 .stupid_images > div{
   position: relative;
-  height:228px;
+  height:239px;
 }
 .slideimg>img{
     width: 100%;
