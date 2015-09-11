@@ -2,8 +2,25 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Поиск");
 ?>
+<div class="main container">
+	<div class="row vhod_lk">
+		<div class="col-xs-12 col-md-6">
+	<!--Хеебный крош-->
+<?$APPLICATION->IncludeComponent(
+	"custom:breadcrumb",
+	"",
+	Array(
+		"COMPONENT_TEMPLATE" => "oez",
+		"START_FROM" => "0",
+		"PATH" => "",
+		"SITE_ID" => "s1"
+	)
+);
+?>
+	<!--Хлебные крошки-->
+	<h1 class="page_h1"><?=$APPLICATION->GetTitle();?></h1>
 
-<?$APPLICATION->IncludeComponent("bitrix:search.page", "clear", array(
+<?$APPLICATION->IncludeComponent("custom:search.page", "clear", array(
 	"RESTART" => "N",
 	"CHECK_DATES" => "N",
 	"USE_TITLE_RANK" => "N",
@@ -71,5 +88,7 @@ $APPLICATION->SetTitle("Поиск");
 	),
 	false
 );?>
-
+</div>
+	</div>
+	</div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
