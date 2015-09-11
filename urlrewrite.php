@@ -72,6 +72,12 @@ $arUrlRewrite = array(
 		"ID" => "bitrix:news",
 		"PATH" => "/news/index.php",
 	),
+	array(
+		"CONDITION" => "#^/investor/sotsialnaya-infrastruktura-oez/([a-zA-Z0-9_-]+)/\\?{0,1}(.*)\$#",
+		"RULE" => "SECTION_CODE=$1",
+		"ID" => "",
+		"PATH" => "/investor/sotsialnaya-infrastruktura-oez/index.php",
+	),
 );
 
 ?>

@@ -1,5 +1,5 @@
 <?
-$sSectionName = "Социальная инфраструктура ОЭЗ";
+$sSectionName = "Социальная инфраструктура региона";
 $arDirProperties = Array(
 
 );

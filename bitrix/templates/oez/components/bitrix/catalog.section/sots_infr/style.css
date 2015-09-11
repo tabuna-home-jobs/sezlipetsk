@@ -1,0 +1,9 @@
+.top_block{
+	min-height: 400px;
+}
+.scrollbar-outer{
+    max-height: 230px;
+}
+.nav-tab-map li {
+    padding-left: 0px !important;
+}
