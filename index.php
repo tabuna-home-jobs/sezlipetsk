@@ -142,7 +142,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
      </div>
      <div class="col-lg-6 col-xs-12 col-sm-12 col-md-12 block_item">
       <div class="item_block">
-       <a class="item_block_a"><div class="hover_container">
+       <a class="item_block_a" href="/investor/#kak_stat" ><div class="hover_container">
          <div class="hover"></div>
         </div>
         <div class="item_bod">
@@ -195,7 +195,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 		"CACHE_TIME" => "36000000",
 		"CACHE_FILTER" => "N",
 		"CACHE_GROUPS" => "Y",
-		"PREVIEW_TRUNCATE_LEN" => "150",
+		"PREVIEW_TRUNCATE_LEN" => "120",
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"SET_TITLE" => "N",
 		"SET_BROWSER_TITLE" => "N",
@@ -295,14 +295,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 			   false
 		   );?>
 		   <!--Слайдер Целевые показатели роста-->
-		   <!--<img src="<?=SITE_TEMPLATE_PATH?>/img/stat.jpg">-->
 	   </div>
-    <!--<div class="col-sm-6 col-xs-12 col-md-12 stat_descript">
-     <ul>
-      <li><img src="<?=SITE_TEMPLATE_PATH?>/img/black_dot.png">реализация 1-го этапа проекта в Грязинском районе</li>
-      <li><img src="<?=SITE_TEMPLATE_PATH?>/img/red_dot.png">после реализации 2-го этапа в Елецком районе</li>
-     </ul>
-    </div>-->
    </div>
   </div>
  </section>

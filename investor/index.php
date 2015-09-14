@@ -176,7 +176,7 @@ $APPLICATION->SetTitle("Инвестору");
 			</div>
 			<div class="col-md-12 col-lg-6 col-xs-12 block_item">
 				<div class="item_block">
-					 <a class="item_block_a" >
+					 <a href="/investor/uslugi-dlya-rezidentov/" class="item_block_a" >
 								<div class="hover_container">
 									<div class="hover"></div>
 								</div>
@@ -244,7 +244,7 @@ $APPLICATION->SetTitle("Инвестору");
 			</div>
 		</div>
 	</div>
- </section> <section class="container how_to_be_resident">
+ </section> <section class="container how_to_be_resident" id="kak_stat">
 	<h2>Как стать резидентом</h2>
 	<div class="row">
 		<div class="col-xs-7 row">

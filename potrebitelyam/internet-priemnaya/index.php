@@ -137,6 +137,7 @@ $APPLICATION->SetTitle("Интернет-приемная");
 						</div>
 						<span><img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_18(1)white.png"></span></div>
 				</div>
+				<a href="/potrebitelyam/internet-priemnaya/chasto-zadavaemye-voprosy/" >
 				<div class="col-xs-12 col-md-6 ">
 					<div class="cabinet_block">
 						<div class="row cabinet_block_heder">
@@ -149,6 +150,7 @@ $APPLICATION->SetTitle("Интернет-приемная");
 						</div>
 						<span><img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_18(2)white.png"></span></div>
 				</div>
+					</a>
 			</div>
 		</section>
 	</div>
