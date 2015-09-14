@@ -1,6 +1,12 @@
 <?
 $arUrlRewrite = array(
 	array(
+		"CONDITION" => "#^/investor/sotsialnaya-infrastruktura-oez/([a-zA-Z0-9_-]+)/\\?{0,1}(.*)\$#",
+		"RULE" => "SECTION_CODE=\$1",
+		"ID" => "",
+		"PATH" => "/investor/sotsialnaya-infrastruktura-oez/index.php",
+	),
+	array(
 		"CONDITION" => "#^/information/links/([a-zA-Z0-9_]+)/\\?{0,1}(.*)\$#",
 		"RULE" => "/information/links/index.php?SECTION_CODE=\\1&\\2",
 		"ID" => "",
@@ -55,10 +61,10 @@ $arUrlRewrite = array(
 		"PATH" => "/themes/index.php",
 	),
 	array(
-		"CONDITION" => "#^/blogs/#",
+		"CONDITION" => "#^/forum/#",
 		"RULE" => "",
-		"ID" => "bitrix:blog",
-		"PATH" => "/blogs/index.php",
+		"ID" => "bitrix:forum",
+		"PATH" => "/forum/index.php",
 	),
 	array(
 		"CONDITION" => "#^/photo/#",
@@ -67,22 +73,16 @@ $arUrlRewrite = array(
 		"PATH" => "/photo/index.php",
 	),
 	array(
-		"CONDITION" => "#^/forum/#",
+		"CONDITION" => "#^/blogs/#",
 		"RULE" => "",
-		"ID" => "bitrix:forum",
-		"PATH" => "/forum/index.php",
+		"ID" => "bitrix:blog",
+		"PATH" => "/blogs/index.php",
 	),
 	array(
 		"CONDITION" => "#^/news/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
 		"PATH" => "/news/index.php",
-	),
-	array(
-		"CONDITION" => "#^/investor/sotsialnaya-infrastruktura-oez/([a-zA-Z0-9_-]+)/\\?{0,1}(.*)\$#",
-		"RULE" => "SECTION_CODE=$1",
-		"ID" => "",
-		"PATH" => "/investor/sotsialnaya-infrastruktura-oez/index.php",
 	),
 );
 

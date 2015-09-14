@@ -4,8 +4,8 @@ $APPLICATION->SetTitle("Резиденты");
 ?>
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news",
-	"rezidenty",
+	"bitrix:news", 
+	"rezidenty", 
 	array(
 		"COMPONENT_TEMPLATE" => "rezidenty",
 		"IBLOCK_TYPE" => "information",
@@ -35,7 +35,7 @@ $APPLICATION->SetTitle("Резиденты");
 		"CACHE_GROUPS" => "Y",
 		"SET_LAST_MODIFIED" => "N",
 		"SET_TITLE" => "Y",
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
 		"ADD_SECTIONS_CHAIN" => "Y",
 		"ADD_ELEMENT_CHAIN" => "Y",
 		"USE_PERMISSIONS" => "N",
@@ -76,6 +76,7 @@ $APPLICATION->SetTitle("Резиденты");
 			3 => "PHONE",
 			4 => "IMG_HOVER",
 			5 => "IMAGES",
+			6 => "",
 		),
 		"DETAIL_DISPLAY_TOP_PAGER" => "N",
 		"DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",

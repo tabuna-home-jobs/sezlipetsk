@@ -44,7 +44,7 @@ $this->setFrameMode(true);
 				<div class="scrollbar-outer">
 					<div class="tab-content">
 						<?foreach ($arResult['ITEMS'] as $key => $arItem):?>
-						<div role="tabpanel" class="tab-pane fade class="<?=$key == 0 ? 'in active' : ''?>""  class="lin" id="<?=$arItem["CODE"]?>">
+						<div role="tabpanel" class="tab-pane fade <?=$key == 0 ? 'in active' : ''?>"  class="lin" id="<?=$arItem["CODE"]?>">
 							<?=$arItem["DETAIL_TEXT"]?>
 						</div>
 						<?endforeach;?>

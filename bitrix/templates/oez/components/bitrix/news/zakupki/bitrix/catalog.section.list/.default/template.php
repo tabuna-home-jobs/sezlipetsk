@@ -37,6 +37,30 @@ $this->setFrameMode(true);
 	</div>
 <?endforeach;?>
 <div class="close_table">
-		<a>свернуть <img src="<?=SITE_TEMPLATE_PATH?>/img/table_close.png"></a>
+ <table>
+		<tr>
+		<td>
+			<span id="hide_table">свернуть</span>
+		</td>
+		<td>
+			<div class="hide_icon"></div>
+		</td>
+		</tr>
+		</table>
 	</div>
 </div>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$(".close_table table").on("click",function(){
+			$(".table_bye").fadeToggle();
+			$(".table_pagination").fadeToggle();
+			if($("#hide_table").text()=='свернуть'){
+				$("#hide_table").text('развернуть');
+			}
+			else{
+				$("#hide_table").text('свернуть');
+			}
+			$(".close_table div").toggleClass("hide_icon open_icon");
+		});
+	});
+</script>

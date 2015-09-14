@@ -3056,3 +3056,28 @@ div.active{
 .smi_more_section>font{
     display: none;
 }
+.hide_icon{
+  background-image: url("../img/hide.png");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px; 
+  /*margin: 0;
+  padding: 0;*/
+}
+.hide_icon:hover{
+background-image: url("../img/hide_activ.png");
+}
+.open_icon{
+  background-image: url("../img/view.png");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px; 
+  /*margin: 0;
+  padding: 0;*/
+}
+.open_icon:hover{
+background-image: url("../img/view_activ.png");
+}
+.close_table table{
+  padding-top: 10px; 
+}
