@@ -43,17 +43,17 @@ $this->setFrameMode(true);
 				case 'doc':
 				case 'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
 					$ico = SITE_TEMPLATE_PATH.'/img/doc2.png';
-					$type = 'TIF';
+					$type = 'DOC';
 					break;
 				case 'ppt':
-				case 'pptx':
+				case 'application/vnd.openxmlformats-officedocument.presentationml.presentation':
 					$ico = SITE_TEMPLATE_PATH.'/img/ppt.png';
-					$type = 'TIF';
+					$type = 'PPT';
 					break;
 				case 'application/vnd.ms-excel':
-				case 'application/vnd.openxmlformats-officedocument.presentationml.presentation':
+				case 'xlsx':
 					$ico = SITE_TEMPLATE_PATH.'/img/xls.png';
-					$type = 'TIF';
+					$type = 'XLS';
 					break;
 				default:
 					$ico = SITE_TEMPLATE_PATH.'/img/pdf.png';
