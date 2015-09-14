@@ -52,8 +52,33 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 		$tmp_element = "";
 		$files_str = "";
 		for($m = 0; $m<count($arResult["razdel"][$i]['element'][$k]['files']); $m++){
+			switch($arResult["razdel"][$i]['element'][$k]['files'][$m]["CONTENT_TYPE"]){
+				case 'image/tiff':
+				case 'tif':
+					$ico = SITE_TEMPLATE_PATH.'/img/tif.png';
+					$type = 'TIF';
+					break;
+				case 'doc':
+				case 'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
+					$ico = SITE_TEMPLATE_PATH.'/img/doc2.png';
+					$type = 'TIF';
+					break;
+				case 'ppt':
+				case 'pptx':
+					$ico = SITE_TEMPLATE_PATH.'/img/ppt.png';
+					$type = 'TIF';
+					break;
+				case 'application/vnd.ms-excel':
+				case 'application/vnd.openxmlformats-officedocument.presentationml.presentation':
+					$ico = SITE_TEMPLATE_PATH.'/img/xls.png';
+					$type = 'TIF';
+					break;
+				default:
+					$ico = SITE_TEMPLATE_PATH.'/img/pdf.png';
+					$type = 'pdf';
+			}
 			$files_str.='<div class="col-md-6 file_item">
-                                     <a href="'.$arResult["razdel"][$i]['element'][$k]['files'][$m]['SRC'].'" >  <div class="file_name"><img src="'.SITE_TEMPLATE_PATH.'/img/pdf.png">DOC,'.$arResult["razdel"][$i]['element'][$k]['files'][$m]["FILE_SIZE"].' КБ</div>
+                                     <a href="'.$arResult["razdel"][$i]['element'][$k]['files'][$m]['SRC'].'" >  <div class="file_name"><img src="'.$ico.'">'.$type.' ,'.$arResult["razdel"][$i]['element'][$k]['files'][$m]["FILE_SIZE"].' КБ</div>
                                         <div class="file_date">'.$arResult["razdel"][$i]["element"][$k]['DATE'].'</div>
                                         <div class="file_descript">'.extractFileName($arResult["razdel"][$i]['element'][$k]['files'][$m]["ORIGINAL_NAME"]).'</div></a>
                                     </div>';
