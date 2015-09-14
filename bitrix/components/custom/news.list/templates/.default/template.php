@@ -26,6 +26,11 @@ $this->setFrameMode(true);
 	<div class="carousel-inner" role="listbox">
 <?foreach($arResult["ITEMS"] as $arItem):?>
 	<?
+	$res12 = CIBlockElement::GetByID($arItem['ID']);
+	$res23 = $res12->GetNextElement();
+	$tmp_elem = $res23->GetProperties();
+	//var_dump($tmp_elem);
+	//die('ghjkl;');
 	$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
 	$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
 	?>
@@ -51,7 +56,8 @@ $this->setFrameMode(true);
 								</div>
 							<?endif;?>
 							<div class="button_caption_slider">
-								<a href="<?=$arItem["DETAIL_PAGE_URL"]?>">ПОДРОБНЕЕ</a>
+
+								<a href="<?=$tmp_elem["MY_LINK"]['VALUE']?>">ПОДРОБНЕЕ</a>
 							</div>
 						</div>
 					</div>
