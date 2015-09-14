@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="">
+    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="Очередное обновление инфы (будет проклят тот день, когда я связался с гитом и битриксом)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sezlipetsk.iws" />
@@ -39,8 +39,8 @@
       <file leaf-file-name="404.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/404.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4524237">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.51705563">
+              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
               <folding>
                 <element signature="e#300#516#0#PHP" expanded="false" />
                 <element signature="e#362#506#0#PHP" expanded="false" />
@@ -242,6 +242,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/investor/sotsialnaya-infrastruktura-oez/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/index.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -249,50 +251,60 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/00b/00badeb35d3719dce4eab452cba9e6c7.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/032/032efb4191380d3c761f08ad04db73d1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/0a5/0a5e1942a5ddad273acbd5ff6a73d08e.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/12c/12cff5ff49cef49e7952a58d9cb75856.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/18f/18f4b0ed6f184454f478b106691cbc38.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/1a8/1a8dc9f8f7dab7987a122eccd3c8d775.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/2e0/2e08544f6fe5c78323ea266d35c4ec09.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/35d/35d7f4b7a1a2bbe9265f775daec48c4c.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/364/364b3091cf8f61fb49497ea2fd343276.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/395/3955fa43c976d72fc49c768c985a2a69.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/43d/43decad830f27aebd79352244cf6c43e.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/444/4445f80a5cc46d9ea54c996b566fb9e2.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/499/499c1c3e2bb78c08c893dd8bfa6880ae.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/4f9/4f9e1ff14d5559acc7f24472086bc426.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/5bc/5bce220835cb67319ff0b76bc8ead2fa.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/653/65364fc381c8470b24fea80f02e862fa.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/65f/65f6979d78e8fd8790cbd693fc2e87a5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/664/66498546176e6777b1a63de7936377aa.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/6b6/6b677c5fd403d40355a0898b05a81a63.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/788/788a64bdb606bd415355428d67b6b1f6.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/7df/7df9c335965b4407d938f3d8125d0d23.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/8b1/8b13c4d8f1a56f5a4a81d43ca3dbb4b1.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/91c/91c6342ce0ddf547834f158672dac664.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/920/920e9868565de3ff9c2473974f6f0d4a.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/9db/9db7714725077fe6ff5606697a8240d4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/a1f/a1f7228ee8465f9fc2ca06a968429f27.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/a5e/a5ea3eb1713e56785b83ddf3606e1363.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/a90/a90ae4368ec2215ff9e7171ce338b523.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ac9/ac964637ba7b9276d0fd936e5ac5c6e3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/b4b/b4b02e981a50c2b7e2fc951e3d3a9856.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/bd6/bd6ebf96658fb0409427398a00f5623f.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/c56/c561d235bb3a9a453c210d00f15e88f5.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ce4/ce4acaa760aa3a3c38d1a7cb2198fac1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/cf1/cf1512799ca9820f2ef7d186e9826018.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/cf6/cf652944eb29a9506de82a981a9de117.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/d01/d01e98a746b736f3c50742565c1e35ce.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/dab/dab60941f7d9dab0f4186126528f3fa1.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e85/e859636ff5b7be68b5f1ddf903a8fe79.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e87/e877e6204914d2ed9f7c2a684749df57.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/efd/efd67f964bf1e406c2ef2df6e37cc06e.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/f58/f582a5c54457e4b383b6e1c10c5030c3.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/fba/fba8f62c8cdac9fff42426697101c07c.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/664/200_200_1/66498546176e6777b1a63de7936377aa.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/ac9/200_200_1/ac964637ba7b9276d0fd936e5ac5c6e3.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/lang/en/template.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/lang/ru/template.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/script.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/style.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/template.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/investor/sotsialnaya-infrastruktura-oez/poleznye-biznes-ssylki/.section.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/investor/sotsialnaya-infrastruktura-oez/poleznye-biznes-ssylki/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/peredat-pokazaniya-priborov-uchyeta/.section.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/peredat-pokazaniya-priborov-uchyeta/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/003/003c5cab654017c4951f9459aa6dabe4.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/03d/03d96803a67946303a7b35265897742e.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/0f4/0f43052b517c1b3ad870b4c9788d4b4e.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/1d7/1d771dc978e6e74e8e38576efb5cf00a.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/26a/26a8b6a8bf8f9f72d1c3c63f04cba8db.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/41d/41dc8bd53fcf472036443ee3e6d7e4a7.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/41e/41ec98364779214170da587e86d0a714.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/420/420d1a38372d6ecf433798dbf543a3db.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/467/467deb0dace19a87f8f52698aff0d021.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/4f3/4f3334e8a281f9c6b479d3784b0b6dca.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/505/505e60b71a6a14c49069264bb03b2c2b.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/516/516f158699ebf846deaa0e66a0f18455.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/55d/55dbcd8aafdfb55582efe39a67d5a0d9.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/569/5697326108a120269186c887c805140e.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/636/636ac37fa50b35418cdb60b2522c1cef.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/6b3/6b3dd42bd10bda95fd03ee6a36ff267b.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/6cb/6cb8d76474801bfac2b9327c9a9330bc.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/768/768a067d4cec3026e5284ce064bddabe.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/77a/77a5a31b0c832ee5066ff41be8b51967.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/7f9/7f920347e282144cf41813c145c6e003.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/813/81354b5e8cec02b170f281467864f2b8.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/815/8152e454b78faed74a4339817201ea20.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/81d/81de181cf5b5725ccf3288e606453da3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/874/87438424d47559327bed09a55ce2e608.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/907/9077e885da548eafa112ac3fa793e8dd.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/957/957fcc51c8a86a74416c410cc92798db.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/9f5/9f5867f8f06e377782663ca098758f4a.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ae9/ae9fea01088239f6df1e05c4239d4ab7.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/afb/afb1087db06dc1ba9002f6421871b938.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/b15/b150854356137899d71648b3d09594b0.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/b42/b422e361b7ffd94b7982aa0ffe281209.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/b53/b53a9a03f760c3fdfc433dae1709579c.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/b7e/b7e2daf0f05d94196a473658f3754762.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ba9/ba9c1c4e9b1b219377455b32dc6fbb35.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/c6d/c6d79ac9f29f7d0510f927a138f4b13d.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e50/e50bf22d1de91ca1c2301a5d61ab4d5e.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e7f/e7f9e23a1779807ef3085fb9b877c7fd.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e9a/e9a3bb07d858a1bd8797913e33dfe08c.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ea0/ea019e9f2533019db9f010aeb20bbe18.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ea6/ea6cd43642a3f2bb176bee1060ce5927.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ec4/ec4c72abf80220489ed45b70598b19f2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/f40/f40f9861e37875e2508e331f040f4088.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/f99/f99a5bd11a5e12d3b89ab82749dce304.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/fa3/fa3a85041d05172adc8bd848d77440f8.png</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -419,12 +431,6 @@
       <created>1439450512266</created>
       <option name="number" value="Default" />
       <updated>1439450512266</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Добавлен модуль новостей на главную (выводится последняя новость с картинкой и превью)">
-      <created>1440148056708</created>
-      <option name="number" value="00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1440148056708</updated>
     </task>
     <task id="LOCAL-00009" summary="на главной остались только блоки, берем курс на личный кадинет">
       <created>1440162125308</created>
@@ -714,7 +720,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442230508788</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Очередное обновление инфы (будет проклят тот день, когда я связался с гитом и битриксом)">
+      <created>1442232922637</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1442232922638</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TodoView">
@@ -769,7 +781,6 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Добавлена страница для жалобы" />
     <MESSAGE value="Добавление обращения" />
     <MESSAGE value="Сделаны заявки 2 вида и жалобы и обращения" />
     <MESSAGE value="Добавлена возможность оценки" />
@@ -794,7 +805,8 @@
     <MESSAGE value="Создан элемент: Электроснабжение первого пускового комплекса второй очереди строительства ОЭЗ ППТ «Липецк». Распределительные подстанции (РТП), трансформаторные подстанции (ТП), кабельные линии первого пускового комплекса второй очереди на территории ОЭЗ ППТ «Липецк». Двухцепная линия ВЛ-10 кВ (2 этап)»&#10;" />
     <MESSAGE value="обновление инфы в резидентах" />
     <MESSAGE value="обновление инфы" />
-    <option name="LAST_COMMIT_MESSAGE" value="обновление инфы" />
+    <MESSAGE value="Очередное обновление инфы (будет проклят тот день, когда я связался с гитом и битриксом)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Очередное обновление инфы (будет проклят тот день, когда я связался с гитом и битриксом)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -803,8 +815,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/404.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4524237">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.51705563">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
           <folding>
             <element signature="e#300#516#0#PHP" expanded="false" />
             <element signature="e#362#506#0#PHP" expanded="false" />
