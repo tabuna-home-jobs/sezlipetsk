@@ -137,11 +137,36 @@ $APPLICATION->SetTitle(" Промышленная инфраструктура �
  </a>
 				</div>
 			</div>
+<<<<<<< HEAD
 			<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6 block_item">
 				<div class="item_block">
  <a class="item_block_a" href="/map/#net-hot">
 					<div class="hover_container">
 						<div class="hover">
+=======
+		</section>
+		<section class="container over">
+
+			<div class="row row_margin">
+				<div class="col-md-6 ">
+					<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6 block_item">
+						<div class="item_block">
+							<a class="item_block_a" href="/map/#net-electro">
+								<div class="hover_container">
+									<div class="hover"></div>
+								</div>
+								<div class="item_bod">
+									<div class="item_name">Электроснабжение</div>
+								</div>
+								<div class="block_icon">
+                                <span
+	                                class="item_block_img">
+                                      <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_14(1)white.png"/>
+                                      <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/T_14(1).png"/>
+                                </span>
+								</div>
+							</a>
+>>>>>>> origin/master
 						</div>
 					</div>
 					<div class="item_bod">
@@ -198,6 +223,7 @@ $APPLICATION->SetTitle(" Промышленная инфраструктура �
 						<div class="hover">
 						</div>
 					</div>
+<<<<<<< HEAD
 					<div class="item_bod">
 						<div class="item_name">
 							 Газоснабжение
@@ -235,6 +261,11 @@ $APPLICATION->SetTitle(" Промышленная инфраструктура �
 			<div class="col-sm-6 col-xs-12 col-md-12 col-lg-6 block_item">
 				<div class="item_block hight_item_block">
 					 <a class="item_block_a" >
+=======
+					<div class="col-sm-6 col-xs-12 col-md-12 col-lg-6 block_item">
+						<div class="item_block hight_item_block">
+							<a class="item_block_a" href="/potrebitelyam/tekhnologicheskoe-prisoedinenie-podklyuchenie/"  >
+>>>>>>> origin/master
 								<div class="hover_container">
 									<div class="hover"></div>
 								</div>

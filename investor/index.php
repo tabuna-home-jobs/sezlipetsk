@@ -244,7 +244,7 @@ $APPLICATION->SetTitle("Инвестору");
 			</div>
 		</div>
 	</div>
- </section> <section class="container how_to_be_resident">
+ </section> <section class="container how_to_be_resident" id="kak_stat">
 	<h2>Как стать резидентом</h2>
 	<div class="row">
 		<div class="col-xs-7 row">
