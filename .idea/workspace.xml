@@ -1,147 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="Наполнение раздела Закупки 2015 (ч1)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/00a/200_200_1/00a8e1e56875f2f7cf4b28ad77843ea0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/021/02180d5432b54fc25b1c82303d6cbbc8.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/02a/200_200_1/02a47d51540f45b07e53d6153b7352a3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/03f/03fa10a0bbb5730532f27999736702cd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/03f/200_200_1/03fa10a0bbb5730532f27999736702cd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/069/0696579faaf96cfec35792f8eb23d135.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/071/200_200_1/071559a299c4f8aeaeef7fa36431c97b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/07a/07a68030713b1f39c7a3bf60328d7923.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/083/200_200_1/0835ab070c51f1a40e55f990c0f84dd8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/096/09691ae9b6e6d667d8545e8cd22ab767.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/09b/200_200_1/09bc0c7fe19cb74e8511e7eba277a978.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/0a2/0a230e88cd0b11a53885f7cafaae3fc3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/0a5/0a56117ac381b84003e3450d6b19a339.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/0b4/0b4ccabc63e3d443121a22913933329b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/173/173d767804597e6bb2a1c8a353e65f46.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/19a/19ae161f78a6724729ab277d38bc848f.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/1ef/1ef80b2a8aed031beeecf10968a6931b.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/1f9/1f97ce05eb03f7909d2f2764283bfe41.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/1fa/1fa08813bbc3b9aac3616e77f470fcb2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/257/2576c82765dcee17e02726d7197c7b1a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/260/26028803b1b473e2059efa6b1b02fe46.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/269/269e525aef0611b9970bc1912036e249.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/281/281d15638b76ddcad5ccb76822fe0da4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/28c/28ca52c0ef7c28286c46dc33b5ac34b5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/28d/28dc44b77ebb0d241c49f1246dee3d77.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/290/200_200_1/290752e7171c129552292079160b0583.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/2c9/2c96e242588c52cf85b2b843b6a5b33e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/2f7/200_200_1/2f7a14914185b14f1a4e200bc5920890.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/318/318313f38a57d7681ab9bed9e0115bcb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/320/320f1bcbcab4da74069cee403dcd7132.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/332/200_200_1/33236d23f1cfce668a91bc0901b0d68e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/34f/34faaebb091db7e775e8bb8b4400ce2f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/365/200_200_1/36500f7cf88dec26149e57ee21ab7b1a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/39a/39abe8670e7216299c6c48d886e4925b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/3d3/3d36c8ffec786647fdabbe4d367f827e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/3dc/3dcfc29c912cbce6bf51442a5ab71770.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/3e0/3e0bd2d0cd121c798d51faa5a6928182.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/434/43436e642d0ccfe6e89a78158e2007ed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/451/451c50638dc0f718847ff38cafa954a4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/501/501b416299384365eaa5909d32b7e248.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/528/5282a4a2abc98f383bc1d5427dc15216.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/531/200_200_1/531442686f66fc3aa5b42512f4bc08af.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/533/200_200_1/533e14090a112b699fd9e4e1a2483609.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/544/544193a2782baf64987296fb87ac2823.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/563/200_200_1/5639e6510391d96759588ba1f292beb5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/58c/58cc5c930390a4624292c97993889c72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/58c/200_200_1/58cc5c930390a4624292c97993889c72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/596/596ad04a2915764b0768a3cbf33d5434.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/59c/59c9d85796a3432555996e9490122af2.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/5f9/5f96c99d2dc0335a46bd44b9c377c3d6.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/603/603123d5bfefe0129115b5c48ad593a4.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/62d/62dd840a7fc0b5902c15a5eb4ce12348.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/640/6407a6cfe2ae3e2efb1cdb8134cca4ab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/64b/64bae830c60d5bf88fe573ad783d81b4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/685/685202c6dbd82d7b008a957caa7cb070.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/6ad/6ad5d5faa3b71150cd2e10af8bbe1b29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/6ce/200_200_1/6ce84efa40a80e4faf69d882155c1268.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/6d8/6d88499a36a4fa7e91be9e117db5a528.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/6f1/200_200_1/6f124e62bd1fbbc68450ef6ccd01834e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/70c/70c325b77be3ccc8f99747be6147c6c4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/70f/70f68793944477820e9ab0813b7df87c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/733/7339aacb18a1fecf87466dee271a65c2.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/7b4/7b4911ea18656fca146a80a1674f1a89.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/7d5/7d5f42163d84062e71fb950250bcae81.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/7d8/7d8bdbb6b5d4983cee88d046c7021de6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/7eb/7ebb579c984613b0f7f40fda70f9534d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/7f3/200_200_1/7f3e5734acc6c580aeebde29865761ae.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/808/808d83efa316ac75ace7acd73ddb45b8.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/846/200_200_1/8463f0dfbbc52afe1482d134f4f305fd.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/876/876e646c37fb7620971c3e75d6cab24d.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/884/8840a2ea387f48e9579ed6f5b6f69ab9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/8a1/8a1865f751fb20675fe9f2bc9a3a1427.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/8a7/8a754bfe24cb23d49fae623bdb11b8a0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/8f4/8f4dde054df377a52d20411795fb6f83.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/91b/91b9521c3538fc5aa9f57cb88f66f4ff.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/920/200_200_1/9202c6d03649ccd4b12cf15d89733558.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/927/927a3b989a20ef740b4e9fccc4ec43ab.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/96c/200_200_1/96ccc4999bbd8ab707091e111f23e396.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/995/995e879b81156f9c6604bed2fecb4cca.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/998/200_200_1/99896c33d1e46550ac9b5432bbfdd88c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/9a7/9a7b903bcd891dd85581335e828b9291.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/9cb/200_200_1/9cb525c11b1b7deaef6de0555ef68419.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/9d5/200_200_1/9d53824c86a1f859a13192fe5296305a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/9e4/9e426219de29cb9dc053de6797efd42b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/9fe/9fede9af219dbcb1fa913c82f00911d4.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/a1e/a1ed3bfba3663677e6f57dcfc4fd8db1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/a2f/200_200_1/a2f055953003bb069b80e37e99c5d277.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/a30/200_200_1/a306cfa3bccdecbe4d0bb341dc93278e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/a4d/200_200_1/a4d11ead48ce28752748c09891a12405.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/a7a/a7af5e815de6ed0fb71556b920ee29d8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/a97/a97d5ca195fc363cb90b27bc3472ba86.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/a9b/200_200_1/a9b13deedff4d6a41e6a506fa2061f51.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/aac/200_200_1/aac603438e1c9315aec83c43021d8601.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/ac2/200_200_1/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/ad2/200_200_1/ad231e5d55bd59e2664c56845081b438.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/af7/af77b142c4844c9b1b5274330d782760.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/b17/b17f687602b5fcaf68da644aefa61b06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/b1f/200_200_1/b1f4fb7a89c86ac5fd95f3af5b6616e8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/b3f/200_200_1/b3f6f963e92a4a8885d161946af47aa4.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/b64/200_200_1/b64df66fd7bc4ca16d84dde73987fda4.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/b91/b912039295c29fbe7c41d58c09bd4f1d.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/bbd/bbddb4da14fe71a97067c7d2974192f1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/bce/200_200_1/bce012e445b9730c4e13365e8624c83e.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/bcf/bcf02373d4cd480ad52d7006dc42da57.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/bcf/200_200_1/bcfec1f660fa40a9060134be128042eb.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/c0f/200_200_1/c0f754afe333101208b17ca5d427e219.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/c18/c1803249364ad48c0246673df3bcb6db.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/c48/200_200_1/c48b7f6a123f244c1aa2ebad3d7159a4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/cc0/200_200_1/cc08d840d80c38a9789c429f579c63b0.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/d1e/d1ea383308dd5b62b1ea85aa6e37fd1e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/d20/200_200_1/d20036a084c41a9edf8486b8375a6fc6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/d27/d2744c8c36a72dfa67f0104dbddd8a0e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/d58/d5840fc7370a824ebe2e946a2dcf1f39.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/d5e/d5ee8d0dcd65a5e363a7cab3ded598b3.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/d69/200_200_1/d693f533ceb949e7f60864925c5d3e11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/d71/200_200_1/d71a583f7643be21a91e759b6734847a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/d7a/200_200_1/d7a0bf65cced9096132fbcdef75d7811.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/dac/dacc49cfe08a3bf93d0d25bcc6fc2913.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/e12/200_200_1/e127382cead28fcfba5aefaab93833ce.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/e4a/e4a8c857bab8a8e1590086fd167cba27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/e81/200_200_1/e817f3f7445e6d83f42a1c7726a054be.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/e87/e873f8da77dbf3175aceb865e526e8fa.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/e8b/e8ba98e7ef4b4ad2690fcf34d063bd11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/ead/ead439850ad1e89d83b520363cdfab9e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/ec3/ec3719089b4be3da7a1695441fcf07a4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/ec6/ec60a41b89d5b46ccb673ab7c7e95b34.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/ecd/ecdcc500968c32f2dd4c064d2df81ac5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/ee2/ee2d73e7fe4f53dc8e96000b2ce9c59c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/eee/eeeba66aecbb7b73aa06b7d059d0bd6f.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/f04/f04b778281d1c1f1ff71c882f5b5f858.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/f1a/200_200_1/f1ae08d652fe28290cd2961c0d3f87bf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/f37/f370a191033561af5378962c0b11ed7b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/f4c/f4c867768e18789d8fda4185dc64ff0d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/f57/f5794359a941147c16a98325e9e0e087.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/f62/f62315f77adb0d7dcb515bc214bfd35f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/f8d/200_200_1/f8dfe66ff5c63073583da4b31961bbf1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/fa6/fa6187986a2157860ed083b79bea149b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/fdf/fdfbdd5bd2d2bc9a48ea7aea6d214b8b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/fee/feec47a4d754c39b74b8bacfa11308be.png" />
+    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/003/003c5cab654017c4951f9459aa6dabe4.png" afterPath="$PROJECT_DIR$/upload/iblock/003/003c5cab654017c4951f9459aa6dabe4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/00a/200_200_1/00a8e1e56875f2f7cf4b28ad77843ea0.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/00a/200_200_1/00a8e1e56875f2f7cf4b28ad77843ea0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/00b/00badeb35d3719dce4eab452cba9e6c7.jpg" afterPath="$PROJECT_DIR$/upload/iblock/00b/00badeb35d3719dce4eab452cba9e6c7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/021/02180d5432b54fc25b1c82303d6cbbc8.JPG" afterPath="$PROJECT_DIR$/upload/iblock/021/02180d5432b54fc25b1c82303d6cbbc8.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/02a/200_200_1/02a47d51540f45b07e53d6153b7352a3.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/02a/200_200_1/02a47d51540f45b07e53d6153b7352a3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/032/032efb4191380d3c761f08ad04db73d1.png" afterPath="$PROJECT_DIR$/upload/iblock/032/032efb4191380d3c761f08ad04db73d1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/034/0345ba31c88bd1fc937fe80fb565fc98.png" afterPath="$PROJECT_DIR$/upload/iblock/034/0345ba31c88bd1fc937fe80fb565fc98.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/03d/03d96803a67946303a7b35265897742e.jpg" afterPath="$PROJECT_DIR$/upload/iblock/03d/03d96803a67946303a7b35265897742e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/03f/03fa10a0bbb5730532f27999736702cd.png" afterPath="$PROJECT_DIR$/upload/iblock/03f/03fa10a0bbb5730532f27999736702cd.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/03f/200_200_1/03fa10a0bbb5730532f27999736702cd.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/03f/200_200_1/03fa10a0bbb5730532f27999736702cd.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/069/0696579faaf96cfec35792f8eb23d135.png" afterPath="$PROJECT_DIR$/upload/iblock/069/0696579faaf96cfec35792f8eb23d135.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/071/200_200_1/071559a299c4f8aeaeef7fa36431c97b.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/071/200_200_1/071559a299c4f8aeaeef7fa36431c97b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/07a/07a68030713b1f39c7a3bf60328d7923.png" afterPath="$PROJECT_DIR$/upload/iblock/07a/07a68030713b1f39c7a3bf60328d7923.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/083/200_200_1/0835ab070c51f1a40e55f990c0f84dd8.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/083/200_200_1/0835ab070c51f1a40e55f990c0f84dd8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/096/09691ae9b6e6d667d8545e8cd22ab767.png" afterPath="$PROJECT_DIR$/upload/iblock/096/09691ae9b6e6d667d8545e8cd22ab767.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/097/09751c8c1d43fc031e40d41918476c5a.jpg" afterPath="$PROJECT_DIR$/upload/iblock/097/09751c8c1d43fc031e40d41918476c5a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/09b/200_200_1/09bc0c7fe19cb74e8511e7eba277a978.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/09b/200_200_1/09bc0c7fe19cb74e8511e7eba277a978.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/0a2/0a230e88cd0b11a53885f7cafaae3fc3.png" afterPath="$PROJECT_DIR$/upload/iblock/0a2/0a230e88cd0b11a53885f7cafaae3fc3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/0a5/0a56117ac381b84003e3450d6b19a339.png" afterPath="$PROJECT_DIR$/upload/iblock/0a5/0a56117ac381b84003e3450d6b19a339.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/0a5/0a5e1942a5ddad273acbd5ff6a73d08e.jpg" afterPath="$PROJECT_DIR$/upload/iblock/0a5/0a5e1942a5ddad273acbd5ff6a73d08e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/0b4/0b4ccabc63e3d443121a22913933329b.png" afterPath="$PROJECT_DIR$/upload/iblock/0b4/0b4ccabc63e3d443121a22913933329b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/0f4/0f43052b517c1b3ad870b4c9788d4b4e.JPG" afterPath="$PROJECT_DIR$/upload/iblock/0f4/0f43052b517c1b3ad870b4c9788d4b4e.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/11b/11beeb637f305edb41f892e09b19d924.jpg" afterPath="$PROJECT_DIR$/upload/iblock/11b/11beeb637f305edb41f892e09b19d924.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/12c/12cff5ff49cef49e7952a58d9cb75856.jpg" afterPath="$PROJECT_DIR$/upload/iblock/12c/12cff5ff49cef49e7952a58d9cb75856.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/147/147cb812efaec12a80633247dfcfede1.png" afterPath="$PROJECT_DIR$/upload/iblock/147/147cb812efaec12a80633247dfcfede1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/166/166ac75a1eb9d5bee0c416856dac4c17.png" afterPath="$PROJECT_DIR$/upload/iblock/166/166ac75a1eb9d5bee0c416856dac4c17.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/173/173d767804597e6bb2a1c8a353e65f46.png" afterPath="$PROJECT_DIR$/upload/iblock/173/173d767804597e6bb2a1c8a353e65f46.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/18f/18f4b0ed6f184454f478b106691cbc38.JPG" afterPath="$PROJECT_DIR$/upload/iblock/18f/18f4b0ed6f184454f478b106691cbc38.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/19a/19ae161f78a6724729ab277d38bc848f.doc" afterPath="$PROJECT_DIR$/upload/iblock/19a/19ae161f78a6724729ab277d38bc848f.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/1a8/1a8dc9f8f7dab7987a122eccd3c8d775.png" afterPath="$PROJECT_DIR$/upload/iblock/1a8/1a8dc9f8f7dab7987a122eccd3c8d775.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/1d7/1d771dc978e6e74e8e38576efb5cf00a.jpg" afterPath="$PROJECT_DIR$/upload/iblock/1d7/1d771dc978e6e74e8e38576efb5cf00a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/1e2/1e22aa4c78f2587ef4c43326c9d93d48.jpg" afterPath="$PROJECT_DIR$/upload/iblock/1e2/1e22aa4c78f2587ef4c43326c9d93d48.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/1e6/1e64e990583defab36da8da16c9ed28b.png" afterPath="$PROJECT_DIR$/upload/iblock/1e6/1e64e990583defab36da8da16c9ed28b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/1e6/200_200_1/1e64e990583defab36da8da16c9ed28b.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/1e6/200_200_1/1e64e990583defab36da8da16c9ed28b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/1e6/250_100_1/1e64e990583defab36da8da16c9ed28b.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/1e6/250_100_1/1e64e990583defab36da8da16c9ed28b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/1e6/1e661878a0a00c4e16282e21a4295bcf.jpg" afterPath="$PROJECT_DIR$/upload/iblock/1e6/1e661878a0a00c4e16282e21a4295bcf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/1ef/1ef80b2a8aed031beeecf10968a6931b.docx" afterPath="$PROJECT_DIR$/upload/iblock/1ef/1ef80b2a8aed031beeecf10968a6931b.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/1f9/1f97ce05eb03f7909d2f2764283bfe41.JPG" afterPath="$PROJECT_DIR$/upload/iblock/1f9/1f97ce05eb03f7909d2f2764283bfe41.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/1fa/1fa08813bbc3b9aac3616e77f470fcb2.png" afterPath="$PROJECT_DIR$/upload/iblock/1fa/1fa08813bbc3b9aac3616e77f470fcb2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/209/2091e3dc77997f6d9f7cc565c7c74816.jpg" afterPath="$PROJECT_DIR$/upload/iblock/209/2091e3dc77997f6d9f7cc565c7c74816.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/257/2576c82765dcee17e02726d7197c7b1a.png" afterPath="$PROJECT_DIR$/upload/iblock/257/2576c82765dcee17e02726d7197c7b1a.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/260/26028803b1b473e2059efa6b1b02fe46.png" afterPath="$PROJECT_DIR$/upload/iblock/260/26028803b1b473e2059efa6b1b02fe46.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/269/269e525aef0611b9970bc1912036e249.png" afterPath="$PROJECT_DIR$/upload/iblock/269/269e525aef0611b9970bc1912036e249.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/26a/26a8b6a8bf8f9f72d1c3c63f04cba8db.jpg" afterPath="$PROJECT_DIR$/upload/iblock/26a/26a8b6a8bf8f9f72d1c3c63f04cba8db.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/281/281d15638b76ddcad5ccb76822fe0da4.png" afterPath="$PROJECT_DIR$/upload/iblock/281/281d15638b76ddcad5ccb76822fe0da4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/28c/28ca52c0ef7c28286c46dc33b5ac34b5.png" afterPath="$PROJECT_DIR$/upload/iblock/28c/28ca52c0ef7c28286c46dc33b5ac34b5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/28d/28dc44b77ebb0d241c49f1246dee3d77.png" afterPath="$PROJECT_DIR$/upload/iblock/28d/28dc44b77ebb0d241c49f1246dee3d77.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/290/200_200_1/290752e7171c129552292079160b0583.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/290/200_200_1/290752e7171c129552292079160b0583.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/2c9/2c96e242588c52cf85b2b843b6a5b33e.png" afterPath="$PROJECT_DIR$/upload/iblock/2c9/2c96e242588c52cf85b2b843b6a5b33e.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/2e0/2e08544f6fe5c78323ea266d35c4ec09.png" afterPath="$PROJECT_DIR$/upload/iblock/2e0/2e08544f6fe5c78323ea266d35c4ec09.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/2f7/2f7a14914185b14f1a4e200bc5920890.jpg" afterPath="$PROJECT_DIR$/upload/iblock/2f7/2f7a14914185b14f1a4e200bc5920890.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/2f7/200_200_1/2f7a14914185b14f1a4e200bc5920890.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/2f7/200_200_1/2f7a14914185b14f1a4e200bc5920890.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/318/318313f38a57d7681ab9bed9e0115bcb.png" afterPath="$PROJECT_DIR$/upload/iblock/318/318313f38a57d7681ab9bed9e0115bcb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/320/320f1bcbcab4da74069cee403dcd7132.docx" afterPath="$PROJECT_DIR$/upload/iblock/320/320f1bcbcab4da74069cee403dcd7132.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/332/200_200_1/33236d23f1cfce668a91bc0901b0d68e.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/332/200_200_1/33236d23f1cfce668a91bc0901b0d68e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/333/3331acaeb76dbf01bfd948c09b0518e5.jpg" afterPath="$PROJECT_DIR$/upload/iblock/333/3331acaeb76dbf01bfd948c09b0518e5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/34f/34faaebb091db7e775e8bb8b4400ce2f.png" afterPath="$PROJECT_DIR$/upload/iblock/34f/34faaebb091db7e775e8bb8b4400ce2f.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/35d/35d7f4b7a1a2bbe9265f775daec48c4c.JPG" afterPath="$PROJECT_DIR$/upload/iblock/35d/35d7f4b7a1a2bbe9265f775daec48c4c.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/364/364b3091cf8f61fb49497ea2fd343276.JPG" afterPath="$PROJECT_DIR$/upload/iblock/364/364b3091cf8f61fb49497ea2fd343276.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/365/200_200_1/36500f7cf88dec26149e57ee21ab7b1a.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/365/200_200_1/36500f7cf88dec26149e57ee21ab7b1a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/395/3955fa43c976d72fc49c768c985a2a69.JPG" afterPath="$PROJECT_DIR$/upload/iblock/395/3955fa43c976d72fc49c768c985a2a69.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/39a/39abe8670e7216299c6c48d886e4925b.png" afterPath="$PROJECT_DIR$/upload/iblock/39a/39abe8670e7216299c6c48d886e4925b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/3b1/3b18faf411e732d4e9b8e1771953df0f.jpg" afterPath="$PROJECT_DIR$/upload/iblock/3b1/3b18faf411e732d4e9b8e1771953df0f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/3b4/3b4f436c248b7dbddf8b27dc3f61e856.jpg" afterPath="$PROJECT_DIR$/upload/iblock/3b4/3b4f436c248b7dbddf8b27dc3f61e856.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/3d3/3d36c8ffec786647fdabbe4d367f827e.png" afterPath="$PROJECT_DIR$/upload/iblock/3d3/3d36c8ffec786647fdabbe4d367f827e.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/3dc/3dcfc29c912cbce6bf51442a5ab71770.jpg" afterPath="$PROJECT_DIR$/upload/iblock/3dc/3dcfc29c912cbce6bf51442a5ab71770.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/3e0/3e0bd2d0cd121c798d51faa5a6928182.JPG" afterPath="$PROJECT_DIR$/upload/iblock/3e0/3e0bd2d0cd121c798d51faa5a6928182.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/41d/41dc8bd53fcf472036443ee3e6d7e4a7.jpg" afterPath="$PROJECT_DIR$/upload/iblock/41d/41dc8bd53fcf472036443ee3e6d7e4a7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/41e/41ec98364779214170da587e86d0a714.png" afterPath="$PROJECT_DIR$/upload/iblock/41e/41ec98364779214170da587e86d0a714.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/420/420d1a38372d6ecf433798dbf543a3db.png" afterPath="$PROJECT_DIR$/upload/iblock/420/420d1a38372d6ecf433798dbf543a3db.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/42e/42e4bcfea477723c10caca54b97eac43.png" afterPath="$PROJECT_DIR$/upload/iblock/42e/42e4bcfea477723c10caca54b97eac43.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/433/43351cfb6118d0a2ccc7300d0b24ef6d.png" afterPath="$PROJECT_DIR$/upload/iblock/433/43351cfb6118d0a2ccc7300d0b24ef6d.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/434/43436e642d0ccfe6e89a78158e2007ed.png" afterPath="$PROJECT_DIR$/upload/iblock/434/43436e642d0ccfe6e89a78158e2007ed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/43d/43decad830f27aebd79352244cf6c43e.jpg" afterPath="$PROJECT_DIR$/upload/iblock/43d/43decad830f27aebd79352244cf6c43e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/444/4445f80a5cc46d9ea54c996b566fb9e2.JPG" afterPath="$PROJECT_DIR$/upload/iblock/444/4445f80a5cc46d9ea54c996b566fb9e2.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/451/451c50638dc0f718847ff38cafa954a4.png" afterPath="$PROJECT_DIR$/upload/iblock/451/451c50638dc0f718847ff38cafa954a4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/467/467deb0dace19a87f8f52698aff0d021.png" afterPath="$PROJECT_DIR$/upload/iblock/467/467deb0dace19a87f8f52698aff0d021.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/499/499c1c3e2bb78c08c893dd8bfa6880ae.jpg" afterPath="$PROJECT_DIR$/upload/iblock/499/499c1c3e2bb78c08c893dd8bfa6880ae.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/4e8/4e830e3757747ec20f6d8a1d80cdf04f.png" afterPath="$PROJECT_DIR$/upload/iblock/4e8/4e830e3757747ec20f6d8a1d80cdf04f.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/4f3/4f3334e8a281f9c6b479d3784b0b6dca.jpg" afterPath="$PROJECT_DIR$/upload/iblock/4f3/4f3334e8a281f9c6b479d3784b0b6dca.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/4f9/4f9e1ff14d5559acc7f24472086bc426.png" afterPath="$PROJECT_DIR$/upload/iblock/4f9/4f9e1ff14d5559acc7f24472086bc426.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/501/501b416299384365eaa5909d32b7e248.png" afterPath="$PROJECT_DIR$/upload/iblock/501/501b416299384365eaa5909d32b7e248.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/505/505e60b71a6a14c49069264bb03b2c2b.jpg" afterPath="$PROJECT_DIR$/upload/iblock/505/505e60b71a6a14c49069264bb03b2c2b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/505/505edd02f5b86803f3d3121adfad9135.JPG" afterPath="$PROJECT_DIR$/upload/iblock/505/505edd02f5b86803f3d3121adfad9135.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/505/200_200_1/505edd02f5b86803f3d3121adfad9135.JPG" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/505/200_200_1/505edd02f5b86803f3d3121adfad9135.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/516/516f158699ebf846deaa0e66a0f18455.png" afterPath="$PROJECT_DIR$/upload/iblock/516/516f158699ebf846deaa0e66a0f18455.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/528/5282a4a2abc98f383bc1d5427dc15216.png" afterPath="$PROJECT_DIR$/upload/iblock/528/5282a4a2abc98f383bc1d5427dc15216.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/52f/52fdadde59d41aed92f6f677dda4530e.png" afterPath="$PROJECT_DIR$/upload/iblock/52f/52fdadde59d41aed92f6f677dda4530e.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/531/200_200_1/531442686f66fc3aa5b42512f4bc08af.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/531/200_200_1/531442686f66fc3aa5b42512f4bc08af.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/533/200_200_1/533e14090a112b699fd9e4e1a2483609.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/533/200_200_1/533e14090a112b699fd9e4e1a2483609.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/544/544193a2782baf64987296fb87ac2823.jpg" afterPath="$PROJECT_DIR$/upload/iblock/544/544193a2782baf64987296fb87ac2823.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/55d/55dbcd8aafdfb55582efe39a67d5a0d9.png" afterPath="$PROJECT_DIR$/upload/iblock/55d/55dbcd8aafdfb55582efe39a67d5a0d9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/563/200_200_1/5639e6510391d96759588ba1f292beb5.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/563/200_200_1/5639e6510391d96759588ba1f292beb5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/569/5697326108a120269186c887c805140e.jpg" afterPath="$PROJECT_DIR$/upload/iblock/569/5697326108a120269186c887c805140e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/577/5774fbd2badf46c94b89e40d159a99e2.jpg" afterPath="$PROJECT_DIR$/upload/iblock/577/5774fbd2badf46c94b89e40d159a99e2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/58c/58cc5c930390a4624292c97993889c72.png" afterPath="$PROJECT_DIR$/upload/iblock/58c/58cc5c930390a4624292c97993889c72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/58c/200_200_1/58cc5c930390a4624292c97993889c72.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/58c/200_200_1/58cc5c930390a4624292c97993889c72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/596/596ad04a2915764b0768a3cbf33d5434.png" afterPath="$PROJECT_DIR$/upload/iblock/596/596ad04a2915764b0768a3cbf33d5434.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/59c/59c9d85796a3432555996e9490122af2.JPG" afterPath="$PROJECT_DIR$/upload/iblock/59c/59c9d85796a3432555996e9490122af2.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5bc/5bce220835cb67319ff0b76bc8ead2fa.png" afterPath="$PROJECT_DIR$/upload/iblock/5bc/5bce220835cb67319ff0b76bc8ead2fa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5bd/5bd1172378cbe2a53d34f654a233ecd1.jpg" afterPath="$PROJECT_DIR$/upload/iblock/5bd/5bd1172378cbe2a53d34f654a233ecd1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5c1/5c12516a8de48b8c37f5bbab8ed62695.jpg" afterPath="$PROJECT_DIR$/upload/iblock/5c1/5c12516a8de48b8c37f5bbab8ed62695.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5e6/5e6b1b12e48685621b3845ae07c484ab.png" afterPath="$PROJECT_DIR$/upload/iblock/5e6/5e6b1b12e48685621b3845ae07c484ab.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/5f9/5f96c99d2dc0335a46bd44b9c377c3d6.docx" afterPath="$PROJECT_DIR$/upload/iblock/5f9/5f96c99d2dc0335a46bd44b9c377c3d6.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/603/603123d5bfefe0129115b5c48ad593a4.docx" afterPath="$PROJECT_DIR$/upload/iblock/603/603123d5bfefe0129115b5c48ad593a4.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/62d/62dd840a7fc0b5902c15a5eb4ce12348.png" afterPath="$PROJECT_DIR$/upload/iblock/62d/62dd840a7fc0b5902c15a5eb4ce12348.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/636/636ac37fa50b35418cdb60b2522c1cef.jpg" afterPath="$PROJECT_DIR$/upload/iblock/636/636ac37fa50b35418cdb60b2522c1cef.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/63d/63da35a3bf37269e363be83eacdfd0ab.jpg" afterPath="$PROJECT_DIR$/upload/iblock/63d/63da35a3bf37269e363be83eacdfd0ab.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/640/6407a6cfe2ae3e2efb1cdb8134cca4ab.png" afterPath="$PROJECT_DIR$/upload/iblock/640/6407a6cfe2ae3e2efb1cdb8134cca4ab.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/64b/64bae830c60d5bf88fe573ad783d81b4.png" afterPath="$PROJECT_DIR$/upload/iblock/64b/64bae830c60d5bf88fe573ad783d81b4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/653/65364fc381c8470b24fea80f02e862fa.JPG" afterPath="$PROJECT_DIR$/upload/iblock/653/65364fc381c8470b24fea80f02e862fa.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/65f/65f6979d78e8fd8790cbd693fc2e87a5.png" afterPath="$PROJECT_DIR$/upload/iblock/65f/65f6979d78e8fd8790cbd693fc2e87a5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/664/66498546176e6777b1a63de7936377aa.jpg" afterPath="$PROJECT_DIR$/upload/iblock/664/66498546176e6777b1a63de7936377aa.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/664/200_200_1/66498546176e6777b1a63de7936377aa.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/664/200_200_1/66498546176e6777b1a63de7936377aa.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/685/685202c6dbd82d7b008a957caa7cb070.png" afterPath="$PROJECT_DIR$/upload/iblock/685/685202c6dbd82d7b008a957caa7cb070.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/686/6869c218ede2a2efee11f89cd3d76b2d.png" afterPath="$PROJECT_DIR$/upload/iblock/686/6869c218ede2a2efee11f89cd3d76b2d.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/6a8/6a8730c7ed566aa70fe3a79c7af2adf7.jpg" afterPath="$PROJECT_DIR$/upload/iblock/6a8/6a8730c7ed566aa70fe3a79c7af2adf7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/6ad/6ad5d5faa3b71150cd2e10af8bbe1b29.png" afterPath="$PROJECT_DIR$/upload/iblock/6ad/6ad5d5faa3b71150cd2e10af8bbe1b29.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/6b3/6b3dd42bd10bda95fd03ee6a36ff267b.jpg" afterPath="$PROJECT_DIR$/upload/iblock/6b3/6b3dd42bd10bda95fd03ee6a36ff267b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/6b6/6b677c5fd403d40355a0898b05a81a63.jpg" afterPath="$PROJECT_DIR$/upload/iblock/6b6/6b677c5fd403d40355a0898b05a81a63.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/6cb/6cb8d76474801bfac2b9327c9a9330bc.png" afterPath="$PROJECT_DIR$/upload/iblock/6cb/6cb8d76474801bfac2b9327c9a9330bc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/6ce/200_200_1/6ce84efa40a80e4faf69d882155c1268.JPG" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/6ce/200_200_1/6ce84efa40a80e4faf69d882155c1268.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/6d8/6d88499a36a4fa7e91be9e117db5a528.png" afterPath="$PROJECT_DIR$/upload/iblock/6d8/6d88499a36a4fa7e91be9e117db5a528.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/6df/6dffd8519e30e40591c81a297e7913c2.jpg" afterPath="$PROJECT_DIR$/upload/iblock/6df/6dffd8519e30e40591c81a297e7913c2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/6f1/200_200_1/6f124e62bd1fbbc68450ef6ccd01834e.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/6f1/200_200_1/6f124e62bd1fbbc68450ef6ccd01834e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/70c/70c325b77be3ccc8f99747be6147c6c4.png" afterPath="$PROJECT_DIR$/upload/iblock/70c/70c325b77be3ccc8f99747be6147c6c4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/70f/70f68793944477820e9ab0813b7df87c.png" afterPath="$PROJECT_DIR$/upload/iblock/70f/70f68793944477820e9ab0813b7df87c.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/723/7235c60ade79bad113855adbc1b1ffe0.jpg" afterPath="$PROJECT_DIR$/upload/iblock/723/7235c60ade79bad113855adbc1b1ffe0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/733/7339aacb18a1fecf87466dee271a65c2.JPG" afterPath="$PROJECT_DIR$/upload/iblock/733/7339aacb18a1fecf87466dee271a65c2.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/768/768a067d4cec3026e5284ce064bddabe.png" afterPath="$PROJECT_DIR$/upload/iblock/768/768a067d4cec3026e5284ce064bddabe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/77a/77a5a31b0c832ee5066ff41be8b51967.png" afterPath="$PROJECT_DIR$/upload/iblock/77a/77a5a31b0c832ee5066ff41be8b51967.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/788/788a64bdb606bd415355428d67b6b1f6.png" afterPath="$PROJECT_DIR$/upload/iblock/788/788a64bdb606bd415355428d67b6b1f6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/795/7953c5377f50c351d284dc4b7947f3ee.jpg" afterPath="$PROJECT_DIR$/upload/iblock/795/7953c5377f50c351d284dc4b7947f3ee.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/7b4/7b4911ea18656fca146a80a1674f1a89.png" afterPath="$PROJECT_DIR$/upload/iblock/7b4/7b4911ea18656fca146a80a1674f1a89.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/7d5/7d5f42163d84062e71fb950250bcae81.png" afterPath="$PROJECT_DIR$/upload/iblock/7d5/7d5f42163d84062e71fb950250bcae81.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/7d8/7d8bdbb6b5d4983cee88d046c7021de6.jpg" afterPath="$PROJECT_DIR$/upload/iblock/7d8/7d8bdbb6b5d4983cee88d046c7021de6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/7df/7df9c335965b4407d938f3d8125d0d23.png" afterPath="$PROJECT_DIR$/upload/iblock/7df/7df9c335965b4407d938f3d8125d0d23.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/7eb/7ebb579c984613b0f7f40fda70f9534d.jpg" afterPath="$PROJECT_DIR$/upload/iblock/7eb/7ebb579c984613b0f7f40fda70f9534d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/7f3/200_200_1/7f3e5734acc6c580aeebde29865761ae.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/7f3/200_200_1/7f3e5734acc6c580aeebde29865761ae.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/7f9/7f920347e282144cf41813c145c6e003.jpg" afterPath="$PROJECT_DIR$/upload/iblock/7f9/7f920347e282144cf41813c145c6e003.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/808/808d83efa316ac75ace7acd73ddb45b8.docx" afterPath="$PROJECT_DIR$/upload/iblock/808/808d83efa316ac75ace7acd73ddb45b8.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/813/81354b5e8cec02b170f281467864f2b8.jpg" afterPath="$PROJECT_DIR$/upload/iblock/813/81354b5e8cec02b170f281467864f2b8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/815/8152e454b78faed74a4339817201ea20.jpg" afterPath="$PROJECT_DIR$/upload/iblock/815/8152e454b78faed74a4339817201ea20.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/81d/81de181cf5b5725ccf3288e606453da3.jpg" afterPath="$PROJECT_DIR$/upload/iblock/81d/81de181cf5b5725ccf3288e606453da3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/846/200_200_1/8463f0dfbbc52afe1482d134f4f305fd.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/846/200_200_1/8463f0dfbbc52afe1482d134f4f305fd.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/871/87149aa6555f010d5361de05b4498d1a.jpg" afterPath="$PROJECT_DIR$/upload/iblock/871/87149aa6555f010d5361de05b4498d1a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/874/87438424d47559327bed09a55ce2e608.JPG" afterPath="$PROJECT_DIR$/upload/iblock/874/87438424d47559327bed09a55ce2e608.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/876/876e646c37fb7620971c3e75d6cab24d.docx" afterPath="$PROJECT_DIR$/upload/iblock/876/876e646c37fb7620971c3e75d6cab24d.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/884/8840a2ea387f48e9579ed6f5b6f69ab9.png" afterPath="$PROJECT_DIR$/upload/iblock/884/8840a2ea387f48e9579ed6f5b6f69ab9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/891/8911be2582f83f6a7a82069a603ab199.jpg" afterPath="$PROJECT_DIR$/upload/iblock/891/8911be2582f83f6a7a82069a603ab199.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/8a1/8a1865f751fb20675fe9f2bc9a3a1427.png" afterPath="$PROJECT_DIR$/upload/iblock/8a1/8a1865f751fb20675fe9f2bc9a3a1427.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/8a7/8a754bfe24cb23d49fae623bdb11b8a0.png" afterPath="$PROJECT_DIR$/upload/iblock/8a7/8a754bfe24cb23d49fae623bdb11b8a0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/8ac/200_200_1/8acff88b4b1ad61636cb995b788d2e35.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/8ac/200_200_1/8acff88b4b1ad61636cb995b788d2e35.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/8b0/8b0c2e4deb644ac712589bf32e5b13f2.png" afterPath="$PROJECT_DIR$/upload/iblock/8b0/8b0c2e4deb644ac712589bf32e5b13f2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/8b1/8b13c4d8f1a56f5a4a81d43ca3dbb4b1.JPG" afterPath="$PROJECT_DIR$/upload/iblock/8b1/8b13c4d8f1a56f5a4a81d43ca3dbb4b1.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/8eb/8ebaeac0343a105dc8d41b26169ee0e7.png" afterPath="$PROJECT_DIR$/upload/iblock/8eb/8ebaeac0343a105dc8d41b26169ee0e7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/8f4/8f4dde054df377a52d20411795fb6f83.png" afterPath="$PROJECT_DIR$/upload/iblock/8f4/8f4dde054df377a52d20411795fb6f83.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/907/9077e885da548eafa112ac3fa793e8dd.png" afterPath="$PROJECT_DIR$/upload/iblock/907/9077e885da548eafa112ac3fa793e8dd.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/91b/91b9521c3538fc5aa9f57cb88f66f4ff.png" afterPath="$PROJECT_DIR$/upload/iblock/91b/91b9521c3538fc5aa9f57cb88f66f4ff.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/91c/91c6342ce0ddf547834f158672dac664.jpg" afterPath="$PROJECT_DIR$/upload/iblock/91c/91c6342ce0ddf547834f158672dac664.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/91f/91f4d2adfac59b7c1e6330aafb1ed264.png" afterPath="$PROJECT_DIR$/upload/iblock/91f/91f4d2adfac59b7c1e6330aafb1ed264.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/920/200_200_1/9202c6d03649ccd4b12cf15d89733558.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/920/200_200_1/9202c6d03649ccd4b12cf15d89733558.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/920/920e9868565de3ff9c2473974f6f0d4a.png" afterPath="$PROJECT_DIR$/upload/iblock/920/920e9868565de3ff9c2473974f6f0d4a.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/927/927a3b989a20ef740b4e9fccc4ec43ab.doc" afterPath="$PROJECT_DIR$/upload/iblock/927/927a3b989a20ef740b4e9fccc4ec43ab.doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/957/957fcc51c8a86a74416c410cc92798db.jpg" afterPath="$PROJECT_DIR$/upload/iblock/957/957fcc51c8a86a74416c410cc92798db.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/958/95854969a0f26c36f438db9aaf715d8c.jpg" afterPath="$PROJECT_DIR$/upload/iblock/958/95854969a0f26c36f438db9aaf715d8c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/958/200_200_1/95854969a0f26c36f438db9aaf715d8c.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/958/200_200_1/95854969a0f26c36f438db9aaf715d8c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/96c/200_200_1/96ccc4999bbd8ab707091e111f23e396.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/96c/200_200_1/96ccc4999bbd8ab707091e111f23e396.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/995/995e879b81156f9c6604bed2fecb4cca.png" afterPath="$PROJECT_DIR$/upload/iblock/995/995e879b81156f9c6604bed2fecb4cca.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/998/200_200_1/99896c33d1e46550ac9b5432bbfdd88c.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/998/200_200_1/99896c33d1e46550ac9b5432bbfdd88c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9a3/9a35deb27f36cc2bc596b8d2a1b441b0.png" afterPath="$PROJECT_DIR$/upload/iblock/9a3/9a35deb27f36cc2bc596b8d2a1b441b0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/9a3/200_200_1/9a35deb27f36cc2bc596b8d2a1b441b0.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/9a3/200_200_1/9a35deb27f36cc2bc596b8d2a1b441b0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9a7/9a7b903bcd891dd85581335e828b9291.jpg" afterPath="$PROJECT_DIR$/upload/iblock/9a7/9a7b903bcd891dd85581335e828b9291.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9b4/9b45c20c036e96d235eece495f3afc6b.png" afterPath="$PROJECT_DIR$/upload/iblock/9b4/9b45c20c036e96d235eece495f3afc6b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/9cb/200_200_1/9cb525c11b1b7deaef6de0555ef68419.jpeg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/9cb/200_200_1/9cb525c11b1b7deaef6de0555ef68419.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/9d5/200_200_1/9d53824c86a1f859a13192fe5296305a.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/9d5/200_200_1/9d53824c86a1f859a13192fe5296305a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9db/9db7714725077fe6ff5606697a8240d4.png" afterPath="$PROJECT_DIR$/upload/iblock/9db/9db7714725077fe6ff5606697a8240d4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9e4/9e426219de29cb9dc053de6797efd42b.png" afterPath="$PROJECT_DIR$/upload/iblock/9e4/9e426219de29cb9dc053de6797efd42b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9ed/9ed1a5fe8b21d0ba6ded3e1f45bbb6e9.png" afterPath="$PROJECT_DIR$/upload/iblock/9ed/9ed1a5fe8b21d0ba6ded3e1f45bbb6e9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9f5/9f5867f8f06e377782663ca098758f4a.jpg" afterPath="$PROJECT_DIR$/upload/iblock/9f5/9f5867f8f06e377782663ca098758f4a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/9fe/9fede9af219dbcb1fa913c82f00911d4.docx" afterPath="$PROJECT_DIR$/upload/iblock/9fe/9fede9af219dbcb1fa913c82f00911d4.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a07/a071c349fe028ff2bde9749b94466d07.jpg" afterPath="$PROJECT_DIR$/upload/iblock/a07/a071c349fe028ff2bde9749b94466d07.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a1e/a1ed3bfba3663677e6f57dcfc4fd8db1.png" afterPath="$PROJECT_DIR$/upload/iblock/a1e/a1ed3bfba3663677e6f57dcfc4fd8db1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a1f/a1f7228ee8465f9fc2ca06a968429f27.JPG" afterPath="$PROJECT_DIR$/upload/iblock/a1f/a1f7228ee8465f9fc2ca06a968429f27.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/a2f/200_200_1/a2f055953003bb069b80e37e99c5d277.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/a2f/200_200_1/a2f055953003bb069b80e37e99c5d277.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/a30/200_200_1/a306cfa3bccdecbe4d0bb341dc93278e.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/a30/200_200_1/a306cfa3bccdecbe4d0bb341dc93278e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a46/a46b2879a357330b80c6854b5381c014.jpg" afterPath="$PROJECT_DIR$/upload/iblock/a46/a46b2879a357330b80c6854b5381c014.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/a4d/200_200_1/a4d11ead48ce28752748c09891a12405.JPG" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/a4d/200_200_1/a4d11ead48ce28752748c09891a12405.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a5e/a5ea3eb1713e56785b83ddf3606e1363.JPG" afterPath="$PROJECT_DIR$/upload/iblock/a5e/a5ea3eb1713e56785b83ddf3606e1363.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a7a/a7af5e815de6ed0fb71556b920ee29d8.jpg" afterPath="$PROJECT_DIR$/upload/iblock/a7a/a7af5e815de6ed0fb71556b920ee29d8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a90/a90ae4368ec2215ff9e7171ce338b523.JPG" afterPath="$PROJECT_DIR$/upload/iblock/a90/a90ae4368ec2215ff9e7171ce338b523.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a97/a97d5ca195fc363cb90b27bc3472ba86.png" afterPath="$PROJECT_DIR$/upload/iblock/a97/a97d5ca195fc363cb90b27bc3472ba86.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/a9b/200_200_1/a9b13deedff4d6a41e6a506fa2061f51.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/a9b/200_200_1/a9b13deedff4d6a41e6a506fa2061f51.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/a9e/a9e5dfc8c8e87515b3e64b141878a909.jpg" afterPath="$PROJECT_DIR$/upload/iblock/a9e/a9e5dfc8c8e87515b3e64b141878a909.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/aaa/aaa5fe57a852dbe9271fd78edc773d5f.JPG" afterPath="$PROJECT_DIR$/upload/iblock/aaa/aaa5fe57a852dbe9271fd78edc773d5f.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/aac/200_200_1/aac603438e1c9315aec83c43021d8601.JPG" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/aac/200_200_1/aac603438e1c9315aec83c43021d8601.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ab5/ab5ca54bb379a3a147b39136af4f0239.JPG" afterPath="$PROJECT_DIR$/upload/iblock/ab5/ab5ca54bb379a3a147b39136af4f0239.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/ab5/200_200_1/ab5ca54bb379a3a147b39136af4f0239.JPG" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/ab5/200_200_1/ab5ca54bb379a3a147b39136af4f0239.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/abe/abeadc57411272fdbc179677b9fdd421.jpg" afterPath="$PROJECT_DIR$/upload/iblock/abe/abeadc57411272fdbc179677b9fdd421.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG" afterPath="$PROJECT_DIR$/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/ac2/200_200_1/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/ac2/200_200_1/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ac9/ac964637ba7b9276d0fd936e5ac5c6e3.png" afterPath="$PROJECT_DIR$/upload/iblock/ac9/ac964637ba7b9276d0fd936e5ac5c6e3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/ac9/200_200_1/ac964637ba7b9276d0fd936e5ac5c6e3.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/ac9/200_200_1/ac964637ba7b9276d0fd936e5ac5c6e3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/ad2/200_200_1/ad231e5d55bd59e2664c56845081b438.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/ad2/200_200_1/ad231e5d55bd59e2664c56845081b438.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ae9/ae9fea01088239f6df1e05c4239d4ab7.jpg" afterPath="$PROJECT_DIR$/upload/iblock/ae9/ae9fea01088239f6df1e05c4239d4ab7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/af7/af77b142c4844c9b1b5274330d782760.png" afterPath="$PROJECT_DIR$/upload/iblock/af7/af77b142c4844c9b1b5274330d782760.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/afb/afb1087db06dc1ba9002f6421871b938.png" afterPath="$PROJECT_DIR$/upload/iblock/afb/afb1087db06dc1ba9002f6421871b938.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b15/b150854356137899d71648b3d09594b0.png" afterPath="$PROJECT_DIR$/upload/iblock/b15/b150854356137899d71648b3d09594b0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b17/b17f687602b5fcaf68da644aefa61b06.png" afterPath="$PROJECT_DIR$/upload/iblock/b17/b17f687602b5fcaf68da644aefa61b06.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/b1f/200_200_1/b1f4fb7a89c86ac5fd95f3af5b6616e8.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/b1f/200_200_1/b1f4fb7a89c86ac5fd95f3af5b6616e8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b2d/b2de3647647f596da3976cf976d0ffd8.png" afterPath="$PROJECT_DIR$/upload/iblock/b2d/b2de3647647f596da3976cf976d0ffd8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/b3f/200_200_1/b3f6f963e92a4a8885d161946af47aa4.JPG" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/b3f/200_200_1/b3f6f963e92a4a8885d161946af47aa4.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b42/b422e361b7ffd94b7982aa0ffe281209.png" afterPath="$PROJECT_DIR$/upload/iblock/b42/b422e361b7ffd94b7982aa0ffe281209.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b4b/b4b02e981a50c2b7e2fc951e3d3a9856.jpg" afterPath="$PROJECT_DIR$/upload/iblock/b4b/b4b02e981a50c2b7e2fc951e3d3a9856.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b53/b53a9a03f760c3fdfc433dae1709579c.JPG" afterPath="$PROJECT_DIR$/upload/iblock/b53/b53a9a03f760c3fdfc433dae1709579c.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b5e/b5e1dc2e910600c41c37d5b5ac34e2c4.png" afterPath="$PROJECT_DIR$/upload/iblock/b5e/b5e1dc2e910600c41c37d5b5ac34e2c4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b5f/b5f051315e1537e728c473740efab64f.jpg" afterPath="$PROJECT_DIR$/upload/iblock/b5f/b5f051315e1537e728c473740efab64f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/b64/200_200_1/b64df66fd7bc4ca16d84dde73987fda4.JPG" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/b64/200_200_1/b64df66fd7bc4ca16d84dde73987fda4.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b7e/b7e2daf0f05d94196a473658f3754762.png" afterPath="$PROJECT_DIR$/upload/iblock/b7e/b7e2daf0f05d94196a473658f3754762.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/b91/b912039295c29fbe7c41d58c09bd4f1d.pdf" afterPath="$PROJECT_DIR$/upload/iblock/b91/b912039295c29fbe7c41d58c09bd4f1d.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ba5/ba5c6d0850b618b5e241291b302909cb.png" afterPath="$PROJECT_DIR$/upload/iblock/ba5/ba5c6d0850b618b5e241291b302909cb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ba9/ba9c1c4e9b1b219377455b32dc6fbb35.jpg" afterPath="$PROJECT_DIR$/upload/iblock/ba9/ba9c1c4e9b1b219377455b32dc6fbb35.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/baa/baa9b6d1b4226dce8e588d761557fbc0.png" afterPath="$PROJECT_DIR$/upload/iblock/baa/baa9b6d1b4226dce8e588d761557fbc0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/bbd/bbddb4da14fe71a97067c7d2974192f1.png" afterPath="$PROJECT_DIR$/upload/iblock/bbd/bbddb4da14fe71a97067c7d2974192f1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/bce/200_200_1/bce012e445b9730c4e13365e8624c83e.JPG" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/bce/200_200_1/bce012e445b9730c4e13365e8624c83e.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/bcf/bcf02373d4cd480ad52d7006dc42da57.docx" afterPath="$PROJECT_DIR$/upload/iblock/bcf/bcf02373d4cd480ad52d7006dc42da57.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/bcf/200_200_1/bcfec1f660fa40a9060134be128042eb.JPG" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/bcf/200_200_1/bcfec1f660fa40a9060134be128042eb.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/bd6/bd6ebf96658fb0409427398a00f5623f.png" afterPath="$PROJECT_DIR$/upload/iblock/bd6/bd6ebf96658fb0409427398a00f5623f.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/c0f/c0f5f8f41921af8e8bddc04e075b2b06.JPG" afterPath="$PROJECT_DIR$/upload/iblock/c0f/c0f5f8f41921af8e8bddc04e075b2b06.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/c0f/200_200_1/c0f754afe333101208b17ca5d427e219.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/c0f/200_200_1/c0f754afe333101208b17ca5d427e219.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/c0f/c0ff256c47a6605b55778fa25b6c66f8.jpg" afterPath="$PROJECT_DIR$/upload/iblock/c0f/c0ff256c47a6605b55778fa25b6c66f8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/c18/c1803249364ad48c0246673df3bcb6db.png" afterPath="$PROJECT_DIR$/upload/iblock/c18/c1803249364ad48c0246673df3bcb6db.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/c18/c1852283f205378fbd4ef40d97337524.png" afterPath="$PROJECT_DIR$/upload/iblock/c18/c1852283f205378fbd4ef40d97337524.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/c18/200_200_1/c1852283f205378fbd4ef40d97337524.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/c18/200_200_1/c1852283f205378fbd4ef40d97337524.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/c48/c487139c0643f7cfc5d875534c8e5757.jpg" afterPath="$PROJECT_DIR$/upload/iblock/c48/c487139c0643f7cfc5d875534c8e5757.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/c48/200_200_1/c48b7f6a123f244c1aa2ebad3d7159a4.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/c48/200_200_1/c48b7f6a123f244c1aa2ebad3d7159a4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/c56/c561d235bb3a9a453c210d00f15e88f5.png" afterPath="$PROJECT_DIR$/upload/iblock/c56/c561d235bb3a9a453c210d00f15e88f5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/c6d/c6d79ac9f29f7d0510f927a138f4b13d.png" afterPath="$PROJECT_DIR$/upload/iblock/c6d/c6d79ac9f29f7d0510f927a138f4b13d.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/c9c/c9c1c6f1175643d16e604742676120ad.png" afterPath="$PROJECT_DIR$/upload/iblock/c9c/c9c1c6f1175643d16e604742676120ad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ca9/ca9064130cb444f5d03f49f8d167324a.jpg" afterPath="$PROJECT_DIR$/upload/iblock/ca9/ca9064130cb444f5d03f49f8d167324a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/cc0/200_200_1/cc08d840d80c38a9789c429f579c63b0.JPG" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/cc0/200_200_1/cc08d840d80c38a9789c429f579c63b0.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ce4/ce4acaa760aa3a3c38d1a7cb2198fac1.png" afterPath="$PROJECT_DIR$/upload/iblock/ce4/ce4acaa760aa3a3c38d1a7cb2198fac1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/cf1/cf1512799ca9820f2ef7d186e9826018.png" afterPath="$PROJECT_DIR$/upload/iblock/cf1/cf1512799ca9820f2ef7d186e9826018.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/cf6/cf652944eb29a9506de82a981a9de117.jpg" afterPath="$PROJECT_DIR$/upload/iblock/cf6/cf652944eb29a9506de82a981a9de117.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d01/d01e98a746b736f3c50742565c1e35ce.jpg" afterPath="$PROJECT_DIR$/upload/iblock/d01/d01e98a746b736f3c50742565c1e35ce.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d1e/d1ea383308dd5b62b1ea85aa6e37fd1e.png" afterPath="$PROJECT_DIR$/upload/iblock/d1e/d1ea383308dd5b62b1ea85aa6e37fd1e.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/d20/200_200_1/d20036a084c41a9edf8486b8375a6fc6.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/d20/200_200_1/d20036a084c41a9edf8486b8375a6fc6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d27/d2744c8c36a72dfa67f0104dbddd8a0e.png" afterPath="$PROJECT_DIR$/upload/iblock/d27/d2744c8c36a72dfa67f0104dbddd8a0e.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d3c/d3cc6a32da06cd41cce61b7997ce2653.JPG" afterPath="$PROJECT_DIR$/upload/iblock/d3c/d3cc6a32da06cd41cce61b7997ce2653.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d3d/d3d1741c5945f8655849e97fece80b7e.jpg" afterPath="$PROJECT_DIR$/upload/iblock/d3d/d3d1741c5945f8655849e97fece80b7e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d58/d5840fc7370a824ebe2e946a2dcf1f39.png" afterPath="$PROJECT_DIR$/upload/iblock/d58/d5840fc7370a824ebe2e946a2dcf1f39.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d5e/d5ee8d0dcd65a5e363a7cab3ded598b3.JPG" afterPath="$PROJECT_DIR$/upload/iblock/d5e/d5ee8d0dcd65a5e363a7cab3ded598b3.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/d69/200_200_1/d693f533ceb949e7f60864925c5d3e11.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/d69/200_200_1/d693f533ceb949e7f60864925c5d3e11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/d70/d7037dd9130d745842a4bbabb56fb416.JPG" afterPath="$PROJECT_DIR$/upload/iblock/d70/d7037dd9130d745842a4bbabb56fb416.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/d71/200_200_1/d71a583f7643be21a91e759b6734847a.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/d71/200_200_1/d71a583f7643be21a91e759b6734847a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/d7a/200_200_1/d7a0bf65cced9096132fbcdef75d7811.JPG" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/d7a/200_200_1/d7a0bf65cced9096132fbcdef75d7811.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/dab/dab60941f7d9dab0f4186126528f3fa1.png" afterPath="$PROJECT_DIR$/upload/iblock/dab/dab60941f7d9dab0f4186126528f3fa1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/dac/dacc49cfe08a3bf93d0d25bcc6fc2913.JPG" afterPath="$PROJECT_DIR$/upload/iblock/dac/dacc49cfe08a3bf93d0d25bcc6fc2913.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/df5/df5d3cadc11f0cce4144e6106e3ae4bd.png" afterPath="$PROJECT_DIR$/upload/iblock/df5/df5d3cadc11f0cce4144e6106e3ae4bd.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/df5/200_200_1/df5d3cadc11f0cce4144e6106e3ae4bd.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/df5/200_200_1/df5d3cadc11f0cce4144e6106e3ae4bd.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/e12/200_200_1/e127382cead28fcfba5aefaab93833ce.JPG" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/e12/200_200_1/e127382cead28fcfba5aefaab93833ce.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e4a/e4a8c857bab8a8e1590086fd167cba27.png" afterPath="$PROJECT_DIR$/upload/iblock/e4a/e4a8c857bab8a8e1590086fd167cba27.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e50/e50bf22d1de91ca1c2301a5d61ab4d5e.png" afterPath="$PROJECT_DIR$/upload/iblock/e50/e50bf22d1de91ca1c2301a5d61ab4d5e.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e7f/e7f9e23a1779807ef3085fb9b877c7fd.png" afterPath="$PROJECT_DIR$/upload/iblock/e7f/e7f9e23a1779807ef3085fb9b877c7fd.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/e81/200_200_1/e817f3f7445e6d83f42a1c7726a054be.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/e81/200_200_1/e817f3f7445e6d83f42a1c7726a054be.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e85/e859636ff5b7be68b5f1ddf903a8fe79.png" afterPath="$PROJECT_DIR$/upload/iblock/e85/e859636ff5b7be68b5f1ddf903a8fe79.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e87/e873f8da77dbf3175aceb865e526e8fa.JPG" afterPath="$PROJECT_DIR$/upload/iblock/e87/e873f8da77dbf3175aceb865e526e8fa.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e87/e877e6204914d2ed9f7c2a684749df57.png" afterPath="$PROJECT_DIR$/upload/iblock/e87/e877e6204914d2ed9f7c2a684749df57.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e8b/e8ba98e7ef4b4ad2690fcf34d063bd11.jpg" afterPath="$PROJECT_DIR$/upload/iblock/e8b/e8ba98e7ef4b4ad2690fcf34d063bd11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e93/e9313fc4ee67a0f88bea04f8c0023657.png" afterPath="$PROJECT_DIR$/upload/iblock/e93/e9313fc4ee67a0f88bea04f8c0023657.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/e93/200_200_1/e9313fc4ee67a0f88bea04f8c0023657.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/e93/200_200_1/e9313fc4ee67a0f88bea04f8c0023657.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/e93/250_100_1/e9313fc4ee67a0f88bea04f8c0023657.png" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/e93/250_100_1/e9313fc4ee67a0f88bea04f8c0023657.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/e9a/e9a3bb07d858a1bd8797913e33dfe08c.png" afterPath="$PROJECT_DIR$/upload/iblock/e9a/e9a3bb07d858a1bd8797913e33dfe08c.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ea0/ea019e9f2533019db9f010aeb20bbe18.JPG" afterPath="$PROJECT_DIR$/upload/iblock/ea0/ea019e9f2533019db9f010aeb20bbe18.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ea6/ea6cd43642a3f2bb176bee1060ce5927.png" afterPath="$PROJECT_DIR$/upload/iblock/ea6/ea6cd43642a3f2bb176bee1060ce5927.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ead/ead439850ad1e89d83b520363cdfab9e.png" afterPath="$PROJECT_DIR$/upload/iblock/ead/ead439850ad1e89d83b520363cdfab9e.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ec3/ec3719089b4be3da7a1695441fcf07a4.png" afterPath="$PROJECT_DIR$/upload/iblock/ec3/ec3719089b4be3da7a1695441fcf07a4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ec4/ec4c72abf80220489ed45b70598b19f2.jpg" afterPath="$PROJECT_DIR$/upload/iblock/ec4/ec4c72abf80220489ed45b70598b19f2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ec6/ec60a41b89d5b46ccb673ab7c7e95b34.png" afterPath="$PROJECT_DIR$/upload/iblock/ec6/ec60a41b89d5b46ccb673ab7c7e95b34.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ecd/ecdcc500968c32f2dd4c064d2df81ac5.png" afterPath="$PROJECT_DIR$/upload/iblock/ecd/ecdcc500968c32f2dd4c064d2df81ac5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ee2/ee2d73e7fe4f53dc8e96000b2ce9c59c.png" afterPath="$PROJECT_DIR$/upload/iblock/ee2/ee2d73e7fe4f53dc8e96000b2ce9c59c.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/eee/eeeba66aecbb7b73aa06b7d059d0bd6f.JPG" afterPath="$PROJECT_DIR$/upload/iblock/eee/eeeba66aecbb7b73aa06b7d059d0bd6f.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/efd/efd67f964bf1e406c2ef2df6e37cc06e.png" afterPath="$PROJECT_DIR$/upload/iblock/efd/efd67f964bf1e406c2ef2df6e37cc06e.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f04/f04b778281d1c1f1ff71c882f5b5f858.png" afterPath="$PROJECT_DIR$/upload/iblock/f04/f04b778281d1c1f1ff71c882f5b5f858.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/f1a/200_200_1/f1ae08d652fe28290cd2961c0d3f87bf.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/f1a/200_200_1/f1ae08d652fe28290cd2961c0d3f87bf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f37/f370a191033561af5378962c0b11ed7b.png" afterPath="$PROJECT_DIR$/upload/iblock/f37/f370a191033561af5378962c0b11ed7b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f40/f40f9861e37875e2508e331f040f4088.png" afterPath="$PROJECT_DIR$/upload/iblock/f40/f40f9861e37875e2508e331f040f4088.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f4c/f4c867768e18789d8fda4185dc64ff0d.jpg" afterPath="$PROJECT_DIR$/upload/iblock/f4c/f4c867768e18789d8fda4185dc64ff0d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f55/f550dc6e9e986572ebb66415dccc228b.png" afterPath="$PROJECT_DIR$/upload/iblock/f55/f550dc6e9e986572ebb66415dccc228b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f57/f5794359a941147c16a98325e9e0e087.png" afterPath="$PROJECT_DIR$/upload/iblock/f57/f5794359a941147c16a98325e9e0e087.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f58/f582a5c54457e4b383b6e1c10c5030c3.png" afterPath="$PROJECT_DIR$/upload/iblock/f58/f582a5c54457e4b383b6e1c10c5030c3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f62/f62315f77adb0d7dcb515bc214bfd35f.png" afterPath="$PROJECT_DIR$/upload/iblock/f62/f62315f77adb0d7dcb515bc214bfd35f.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/f8d/200_200_1/f8dfe66ff5c63073583da4b31961bbf1.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/f8d/200_200_1/f8dfe66ff5c63073583da4b31961bbf1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/f99/f99a5bd11a5e12d3b89ab82749dce304.png" afterPath="$PROJECT_DIR$/upload/iblock/f99/f99a5bd11a5e12d3b89ab82749dce304.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/fa3/fa3a85041d05172adc8bd848d77440f8.png" afterPath="$PROJECT_DIR$/upload/iblock/fa3/fa3a85041d05172adc8bd848d77440f8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/fa6/fa6187986a2157860ed083b79bea149b.png" afterPath="$PROJECT_DIR$/upload/iblock/fa6/fa6187986a2157860ed083b79bea149b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/fba/fba8f62c8cdac9fff42426697101c07c.png" afterPath="$PROJECT_DIR$/upload/iblock/fba/fba8f62c8cdac9fff42426697101c07c.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/fdf/fdfbdd5bd2d2bc9a48ea7aea6d214b8b.png" afterPath="$PROJECT_DIR$/upload/iblock/fdf/fdfbdd5bd2d2bc9a48ea7aea6d214b8b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/fea/feaac5e55bf317857dbbb1543fcbc4e3.jpg" afterPath="$PROJECT_DIR$/upload/iblock/fea/feaac5e55bf317857dbbb1543fcbc4e3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/fea/200_200_1/feaac5e55bf317857dbbb1543fcbc4e3.jpg" afterPath="$PROJECT_DIR$/upload/resize_cache/iblock/fea/200_200_1/feaac5e55bf317857dbbb1543fcbc4e3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/fee/feec47a4d754c39b74b8bacfa11308be.png" afterPath="$PROJECT_DIR$/upload/iblock/fee/feec47a4d754c39b74b8bacfa11308be.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ff4/ff417616aafb9f793cd5d7e992d57b40.png" afterPath="$PROJECT_DIR$/upload/iblock/ff4/ff417616aafb9f793cd5d7e992d57b40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ff9/ff9d65286aba423fd952492c86cf50b2.png" afterPath="$PROJECT_DIR$/upload/iblock/ff9/ff9d65286aba423fd952492c86cf50b2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/iblock/ffa/ffaf7bb7fb8193e485672022dc709e90.png" afterPath="$PROJECT_DIR$/upload/iblock/ffa/ffaf7bb7fb8193e485672022dc709e90.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sezlipetsk.iws" />
@@ -180,7 +344,7 @@
         <entry file="file://$PROJECT_DIR$/404.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.51705563">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding>
                 <element signature="e#300#516#0#PHP" expanded="false" />
                 <element signature="e#362#506#0#PHP" expanded="false" />
@@ -382,7 +546,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/investor/sotsialnaya-infrastruktura-oez/poleznye-biznes-ssylki/.section.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -390,6 +553,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/1e6/200_200_1/1e6854235e1dffe2406c65221635363e.JPG</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -397,6 +561,59 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/0c4/0c4766fd8c78fa86feabfbde46efb43d.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/0f9/0f987337756777ebf346ae78f69bfb5f.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/149/149e05f8effe957d07b39a15e54ac29e.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/162/162f1061f24e9812a5bce093ff10635b.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/1f1/1f1693f22ba385bb5b01869f426602ac.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/1fb/1fbc59ddc8435ddc6e5343161a2b96e3.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/25a/25aa16fe9e1e50b17797fc9b21880c5b.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/282/282d5410360a37ca3350ea1918b76b38.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/289/289d8b0dd2e799a0850a8fcbfc4663fa.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/2ff/2ffee0d9bf4176ce99b4e13137e112fa.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/321/321f98585203e9fac11d6c9a026286e0.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/322/322118443560bd583d5f3d3bf1c2eb51.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/3ac/3acd0523ad4cd5badcbe7b473050d1cd.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/3d8/3d814255057492788d0da3aa97aeea14.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/427/4274bea55fe9592913f9e1ec51043489.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/435/4353fe0ea79da53532a12d564f49d662.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/4b8/4b8622071480cf9b3660a8c860c851a6.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/4be/4be1fe901ffb683c2dc6bc97f8d11d8f.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/4c3/4c34fec1d5cb569196d279e56591e1b9.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/576/576f1cbc61781b246daa54d14246e8a7.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/59d/59d813df9e2fd70e7dc3f6596f0e42c0.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/70f/70f69998014be14af8c98ab8d3d2b15c.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/732/732e47c7123ac3d3b24d3c3c05e2e7e0.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/73e/73edad5aa64755af0ce9ff54ced134ed.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/8ba/8bacee051bebe64c375c0451d30cebc1.jpeg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/933/9339ac3f1e1a42ce8e69fb4c1c6fcc09.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/934/934bbb68432584d66289f0028fec5054.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/990/990b8de05efd7ce684de1ddfc2aa756d.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/9df/9df49b3d734b9319a48f7c43181b37c3.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/a0f/a0f3a596d8e0fd596b48bc6895bdfa09.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/a4d/a4d3aec0350c57e770aac279626165f9.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/a51/a51532869eec6368bfd8694badc05fe6.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/a79/a793301e76e35581a2f32c4a9e62ba81.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/a80/a80fdc6335e5e95fdcafb1593ce00f10.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ab9/ab9970f3f1fe6c8ac0a7a9aa4f08887a.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/adc/adca57d810a4bb9c623b8d9bd12b9612.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/b9d/b9deb59894d3dfa85e8ab2814ad27f75.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/bb3/bb307981e450e650dd2b9f99cd4c72c3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/c7d/c7dec08dd6567fa996c191dbd44859c4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/cac/cac2c29faf477ea16ccc4a31a4578142.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/cdd/cdd1a0ef30a4515a9d319ec97458821a.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/d64/d646feca31c35501deb98c74547da3af.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/d88/d883d5e99174745394e10e774665190c.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/df6/df6a5d1f00436dddfd40551def2f298d.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e26/e2658e2e309ef6450d9a525a7b18d8e8.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e3e/e3ea0437315804365ffd566f622698fe.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e7f/e7f865a9884da2756fe2d2c3b1ef8c2d.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/f67/f675cdf9f6b326569913e41f55c1fdd4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/f7e/f7e0db85f5b363c203e2ef412fff6375.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/4b8/200_200_1/4b8622071480cf9b3660a8c860c851a6.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/a51/200_200_1/a51532869eec6368bfd8694badc05fe6.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/a79/200_200_1/a793301e76e35581a2f32c4a9e62ba81.JPG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/resize_cache/iblock/a80/200_200_1/a80fdc6335e5e95fdcafb1593ce00f10.jpg</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -837,7 +1054,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26931408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2584541" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2584541" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -901,7 +1118,7 @@
     <entry file="file://$PROJECT_DIR$/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51705563">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding>
             <element signature="e#300#516#0#PHP" expanded="false" />
             <element signature="e#362#506#0#PHP" expanded="false" />
