@@ -1004,7 +1004,8 @@ cursor:pointer;
   background-color: #fcfcfc;
 }
 .galery_links {
-  padding:20px 0
+  padding: 0;
+  height: 75px;
 }
 .galery_links>a {
   text-transform: uppercase;
