@@ -15,6 +15,7 @@
 
 
 ?>
+<script src="//www.youtube.com/player_api"></script>
 <div role="tabpanel" class="tab-pane fade photogal2" id="profile" aria-labelledby="home-tab">
 
 	<div class="galery_links">
@@ -48,33 +49,33 @@
 							<a href="#" data-toggle="modal" data-target="#myModal<?=$contentPhoto['EXTERNAL_ID'];?>" title="<?=$contentPhoto['NAME'];?>">
 
 								<? }else{ ?>
-							<a href="#" data-toggle="modal" data-target="#myModal<?=$contentPhoto['EXTERNAL_ID'];?>" title="нет изображения">
-								<? } ?>
+								<a href="#" data-toggle="modal" data-target="#myModal<?=$contentPhoto['EXTERNAL_ID'];?>" title="нет изображения">
+									<? } ?>
 
 
-								<div class="col-md-4 stupid_images col-sm-6 col-xs-6">
-									<div>
-
-										<? if(!is_null($contentPhoto['PREVIEW_PICTURE'])){?>
-											<img src="<?=CFile::GetPath($contentPhoto['PREVIEW_PICTURE']);?>">
-										<? } elseif(!is_null($contentPhoto['DETAIL_PICTURE'])){?>
-											<img src="<?=CFile::GetPath($contentPhoto['DETAIL_PICTURE']);?>">
-										<? }else{ ?>
-											<img src="<?=SITE_TEMPLATE_PATH?>/img/noimg.png">
-										<? } ?>
-
+									<div class="col-md-4 stupid_images col-sm-6 col-xs-6">
 										<div>
+
+											<? if(!is_null($contentPhoto['PREVIEW_PICTURE'])){?>
+												<img src="<?=CFile::GetPath($contentPhoto['PREVIEW_PICTURE']);?>">
+											<? } elseif(!is_null($contentPhoto['DETAIL_PICTURE'])){?>
+												<img src="<?=CFile::GetPath($contentPhoto['DETAIL_PICTURE']);?>">
+											<? }else{ ?>
+												<img src="<?=SITE_TEMPLATE_PATH?>/img/noimg.png">
+											<? } ?>
+
 											<div>
-												<img src="<?=SITE_TEMPLATE_PATH?>/img/galery_loop2.png">
+												<div>
+													<img src="<?=SITE_TEMPLATE_PATH?>/img/galery_loop2.png">
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-							</a>
-							<?
-								//Если фоток больше 6 то делаем следующий слайд для карусели
-								if($lis2 % 6 == 0){
-							?>
+								</a>
+								<?
+									//Если фоток больше 6 то делаем следующий слайд для карусели
+									if($lis2 % 6 == 0){
+								?>
 					</div>
 					<div class="item">
 						<?
@@ -108,40 +109,40 @@
 
 								<? if(!is_null($contentPhoto['DETAIL_PICTURE'])){?>
 
-<a href="#" data-toggle="modal" data-target="#myModal<?=$contentPhoto['EXTERNAL_ID'];?>" title="<?=$contentPhoto['NAME'];?>">
+								<a href="#" data-toggle="modal" data-target="#myModal<?=$contentPhoto['EXTERNAL_ID'];?>" title="<?=$contentPhoto['NAME'];?>">
 
 									<? }elseif(!is_null($contentPhoto['PREVIEW_PICTURE'])){ ?>
 
-<a href="#" data-toggle="modal" data-target="#myModal<?=$contentPhoto['EXTERNAL_ID'];?>" title="<?=$contentPhoto['NAME'];?>">
+									<a href="#" data-toggle="modal" data-target="#myModal<?=$contentPhoto['EXTERNAL_ID'];?>" title="<?=$contentPhoto['NAME'];?>">
 
 										<? }else{ ?>
 
-<a href="#" data-toggle="modal" data-target="#myModal<?=$contentPhoto['EXTERNAL_ID'];?>" title="нет изображения">
+										<a href="#" data-toggle="modal" data-target="#myModal<?=$contentPhoto['EXTERNAL_ID'];?>" title="нет изображения">
 
-										<? } ?>
+											<? } ?>
 
 
-										<div class="col-md-4 stupid_images col-sm-6 col-xs-6">
-											<div>
-												<? if(!is_null($contentPhoto['PREVIEW_PICTURE'])){?>
-													<img src="<?=CFile::GetPath($contentPhoto['PREVIEW_PICTURE']);?>">
-												<? } elseif(!is_null($contentPhoto['DETAIL_PICTURE'])){?>
-													<img src="<?=CFile::GetPath($contentPhoto['DETAIL_PICTURE']);?>">
-												<? }else{ ?>
-													<img src="<?=SITE_TEMPLATE_PATH?>/img/noimg.png">
-												<? } ?>
+											<div class="col-md-4 stupid_images col-sm-6 col-xs-6">
 												<div>
+													<? if(!is_null($contentPhoto['PREVIEW_PICTURE'])){?>
+														<img src="<?=CFile::GetPath($contentPhoto['PREVIEW_PICTURE']);?>">
+													<? } elseif(!is_null($contentPhoto['DETAIL_PICTURE'])){?>
+														<img src="<?=CFile::GetPath($contentPhoto['DETAIL_PICTURE']);?>">
+													<? }else{ ?>
+														<img src="<?=SITE_TEMPLATE_PATH?>/img/noimg.png">
+													<? } ?>
 													<div>
-														<img src="<?=SITE_TEMPLATE_PATH?>/img/galery_loop2.png">
+														<div>
+															<img src="<?=SITE_TEMPLATE_PATH?>/img/galery_loop2.png">
+														</div>
 													</div>
 												</div>
 											</div>
-										</div>
-									</a>
-									<?
-										//Если фоток больше 6 то делаем следующий слайд для карусели
-										if($lis % 6 == 0){
-									?>
+										</a>
+										<?
+											//Если фоток больше 6 то делаем следующий слайд для карусели
+											if($lis % 6 == 0){
+										?>
 							</div>
 
 							<div class="item">
@@ -164,7 +165,7 @@
 
 					</div>
 				<? }else{ ?>
-					В этом разделе пока нет фотографий
+					В этом разделе пока нет видео
 				<? } ?>
 
 
@@ -179,28 +180,90 @@
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 								<h4 class="modal-title" id="myModalLabel<?=$contentPhoto['EXTERNAL_ID'];?>"><?=$contentPhoto['NAME'];?></h4>
 							</div>
-							<div class="modal-body">
+							<div class="modal-body" id="player<?=$contentPhoto['EXTERNAL_ID'];?>">
 
-								<? if(!is_null($contentPhoto['PREVIEW_TEXT'])){ ?>
-									<?=$contentPhoto['PREVIEW_TEXT'];?>
-								<? }elseif(!is_null($contentPhoto['DETAIL_TEXT'])){ ?>
-									<?=$contentPhoto['DETAIL_TEXT'];?>
-								<? }else{ ?>
-									Нет запрашиваемого видео
-								<? } ?>
+								<?=$contentPhoto['PREVIEW_TEXT'];?>
+
 
 							</div>
+
 							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-danger closeBla<?=$contentPhoto['EXTERNAL_ID'];?>" data-dismiss="modal">Закрыть</button>
 							</div>
+
 						</div>
 					</div>
 				</div>
 				<!-- Modal for video -->
 			<? } ?>
+
+
+
+
 		<? } ?>
 
+
+
+
+
+
+		<script>
+
+
+
+			<? foreach($arResult['razdel'] as $razdleTabsContent){ ?>
+
+
+			<? foreach($razdleTabsContent['child'] as $contentPhoto){ ?>
+
+			var play<?=$contentPhoto['EXTERNAL_ID'];?> = $('#player<?=$contentPhoto['EXTERNAL_ID'];?>');
+
+			$("iframe", play<?=$contentPhoto['EXTERNAL_ID'];?>).attr('id','stop<?=$contentPhoto['EXTERNAL_ID'];?>');
+
+
+			var src = $("iframe", play<?=$contentPhoto['EXTERNAL_ID'];?>).attr('src');
+			$("iframe", play<?=$contentPhoto['EXTERNAL_ID'];?>).attr('src', src + "?rel=0&enablejsapi=1");
+
+
+
+
+
+			<?}?>
+			<? } ?>
+
+
+
+
+			function onYouTubePlayerAPIReady() {
+
+
+
+				<? foreach($arResult['razdel'] as $razdleTabsContent){ ?>
+
+				<? foreach($razdleTabsContent['child'] as $contentPhoto){ ?>
+
+				testplayer<?=$contentPhoto['EXTERNAL_ID'];?> = new YT.Player('stop<?=$contentPhoto['EXTERNAL_ID'];?>', {});
+
+				$('.closeBla<?=$contentPhoto['EXTERNAL_ID'];?>').click(function () {
+					testplayer<?=$contentPhoto['EXTERNAL_ID'];?>.pauseVideo();
+				});
+				<?}?>
+				<? } ?>
+
+
+
+			}
+
+		</script>
+
+
+
+
+
+
+
 	</div>
+
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.carousel-inner2 .item:first-child').addClass('active');
