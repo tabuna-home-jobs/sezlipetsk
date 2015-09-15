@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="Очередное обновление инфы (будет проклят тот день, когда я связался с гитом и битриксом)">
+    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="Что-то не ушедшее ранее">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sezlipetsk.iws" />
@@ -40,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/404.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.51705563">
-              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="e#300#516#0#PHP" expanded="false" />
                 <element signature="e#362#506#0#PHP" expanded="false" />
@@ -135,7 +135,7 @@
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="false" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
@@ -154,7 +154,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,6 +174,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -242,8 +242,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/investor/sotsialnaya-infrastruktura-oez/index.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/investor/sotsialnaya-infrastruktura-oez/poleznye-biznes-ssylki/.section.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -251,60 +250,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/lang/en/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/lang/ru/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/script.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/style.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/investor/sotsialnaya-infrastruktura-oez/poleznye-biznes-ssylki/.section.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/investor/sotsialnaya-infrastruktura-oez/poleznye-biznes-ssylki/index.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/peredat-pokazaniya-priborov-uchyeta/.section.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/peredat-pokazaniya-priborov-uchyeta/index.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/003/003c5cab654017c4951f9459aa6dabe4.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/03d/03d96803a67946303a7b35265897742e.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/0f4/0f43052b517c1b3ad870b4c9788d4b4e.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/1d7/1d771dc978e6e74e8e38576efb5cf00a.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/26a/26a8b6a8bf8f9f72d1c3c63f04cba8db.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/41d/41dc8bd53fcf472036443ee3e6d7e4a7.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/41e/41ec98364779214170da587e86d0a714.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/420/420d1a38372d6ecf433798dbf543a3db.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/467/467deb0dace19a87f8f52698aff0d021.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/4f3/4f3334e8a281f9c6b479d3784b0b6dca.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/505/505e60b71a6a14c49069264bb03b2c2b.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/516/516f158699ebf846deaa0e66a0f18455.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/55d/55dbcd8aafdfb55582efe39a67d5a0d9.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/569/5697326108a120269186c887c805140e.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/636/636ac37fa50b35418cdb60b2522c1cef.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/6b3/6b3dd42bd10bda95fd03ee6a36ff267b.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/6cb/6cb8d76474801bfac2b9327c9a9330bc.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/768/768a067d4cec3026e5284ce064bddabe.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/77a/77a5a31b0c832ee5066ff41be8b51967.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/7f9/7f920347e282144cf41813c145c6e003.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/813/81354b5e8cec02b170f281467864f2b8.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/815/8152e454b78faed74a4339817201ea20.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/81d/81de181cf5b5725ccf3288e606453da3.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/874/87438424d47559327bed09a55ce2e608.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/907/9077e885da548eafa112ac3fa793e8dd.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/957/957fcc51c8a86a74416c410cc92798db.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/9f5/9f5867f8f06e377782663ca098758f4a.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ae9/ae9fea01088239f6df1e05c4239d4ab7.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/afb/afb1087db06dc1ba9002f6421871b938.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/b15/b150854356137899d71648b3d09594b0.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/b42/b422e361b7ffd94b7982aa0ffe281209.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/b53/b53a9a03f760c3fdfc433dae1709579c.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/b7e/b7e2daf0f05d94196a473658f3754762.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ba9/ba9c1c4e9b1b219377455b32dc6fbb35.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/c6d/c6d79ac9f29f7d0510f927a138f4b13d.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e50/e50bf22d1de91ca1c2301a5d61ab4d5e.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e7f/e7f9e23a1779807ef3085fb9b877c7fd.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/e9a/e9a3bb07d858a1bd8797913e33dfe08c.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ea0/ea019e9f2533019db9f010aeb20bbe18.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ea6/ea6cd43642a3f2bb176bee1060ce5927.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/ec4/ec4c72abf80220489ed45b70598b19f2.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/f40/f40f9861e37875e2508e331f040f4088.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/f99/f99a5bd11a5e12d3b89ab82749dce304.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/upload/iblock/fa3/fa3a85041d05172adc8bd848d77440f8.png</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -431,18 +376,6 @@
       <created>1439450512266</created>
       <option name="number" value="Default" />
       <updated>1439450512266</updated>
-    </task>
-    <task id="LOCAL-00009" summary="на главной остались только блоки, берем курс на личный кадинет">
-      <created>1440162125308</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1440162125308</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Добавлена страница &quot;потребителям&quot;">
-      <created>1440405682244</created>
-      <option name="number" value="00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1440405682244</updated>
     </task>
     <task id="LOCAL-00011" summary="Добавлены хлебные крошки">
       <created>1440408620169</created>
@@ -726,7 +659,19 @@
       <option name="project" value="LOCAL" />
       <updated>1442232922638</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Что-то не ушедшее ранее">
+      <created>1442241023233</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1442241023233</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Что-то не ушедшее ранее">
+      <created>1442241066856</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1442241066856</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView">
@@ -742,7 +687,6 @@
     <frame x="45" y="-14" width="1405" height="924" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -757,13 +701,14 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -781,7 +726,6 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Добавление обращения" />
     <MESSAGE value="Сделаны заявки 2 вида и жалобы и обращения" />
     <MESSAGE value="Добавлена возможность оценки" />
     <MESSAGE value="Сделана форма оценки качества ослуживания" />
@@ -806,7 +750,8 @@
     <MESSAGE value="обновление инфы в резидентах" />
     <MESSAGE value="обновление инфы" />
     <MESSAGE value="Очередное обновление инфы (будет проклят тот день, когда я связался с гитом и битриксом)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Очередное обновление инфы (будет проклят тот день, когда я связался с гитом и битриксом)" />
+    <MESSAGE value="Что-то не ушедшее ранее" />
+    <option name="LAST_COMMIT_MESSAGE" value="Что-то не ушедшее ранее" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -816,7 +761,7 @@
     <entry file="file://$PROJECT_DIR$/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51705563">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="e#300#516#0#PHP" expanded="false" />
             <element signature="e#362#506#0#PHP" expanded="false" />
