@@ -35,7 +35,14 @@ $APPLICATION->SetTitle("Часто задаваемые вопросы");
         </div>
     </div>
     <div class="col-xs-12 col-md-6 login_part_right max_height_block">
-        <div class="login_form_container padding_block">
+	    <?$APPLICATION->IncludeComponent(
+		    "custom:support.form_toconnect",
+		    "faq",
+		    Array(
+		    )
+	    );
+	    ?>
+        <!--<div class="login_form_container padding_block">
             <div class="login_form_heder ">
                 <h2 class="h20px_light">ЗАДАТЬ ВОПРОС</h2>
             </div>
@@ -104,7 +111,7 @@ $APPLICATION->SetTitle("Часто задаваемые вопросы");
 
                 </div>
             </form>
-        </div>
+        </div>-->
     </div>
 
 </div>

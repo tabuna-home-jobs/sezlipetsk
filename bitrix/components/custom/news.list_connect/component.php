@@ -344,6 +344,7 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 				'LEFT_MARGIN' => $ar_Section['LEFT_MARGIN'],
 				'RIGHT_MARGIN' => $ar_Section['RIGHT_MARGIN'],
 				'DEPTH_LEVEL' => $ar_Section['DEPTH_LEVEL'],
+				'DETAIL_TEXT=>'=>$ar_Section['DETAIL_TEXT'],
 				'UF_FIRST_IMG' =>CFile::GetFileArray ($ar_Section['UF_FIRST_IMG']),
 				'UF_SECOND_IMG' => CFile::GetFileArray($ar_Section['UF_SECOND_IMG']),
 			);
@@ -356,6 +357,7 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 					'IBLOCK_SECTION_ID' => $ar_Section_child ['IBLOCK_SECTION_ID'],
 					'LEFT_MARGIN' => $ar_Section_child ['LEFT_MARGIN'],
 					'RIGHT_MARGIN' => $ar_Section_child ['RIGHT_MARGIN'],
+					'DESCRIPTION=>'=> $ar_Section_child['DESCRIPTION'],
 					'UF_FIRST_IMG' =>CFile::GetFileArray($ar_Section_child ['UF_FIRST_IMG']),
 					'UF_SECOND_IMG' =>CFile::GetFileArray($ar_Section_child ['UF_SECOND_IMG']),
 				);

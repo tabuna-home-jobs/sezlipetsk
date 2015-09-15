@@ -48,7 +48,8 @@ $APPLICATION->SetTitle("Контакты");
 						</div>
 						<div class="contact_item_dopinfo">
 							Т: +7 (4742) 51-53-88, 51-52-43<br/>
-							Ф: +7 (4742) 51-53-23
+							Ф: +7 (4742) 51-53-23 <br/>
+							@: invest@sez.lipetsk.ru
 						</div>
 					</div>
 				</div>

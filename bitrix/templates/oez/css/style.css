@@ -3101,3 +3101,14 @@ background-image: url("../img/view_activ.png");
     background: #fff;
 }
 
+.nav-technology li a span{
+    border:1px transparent solid;
+    background-color: transparent;
+}
+.nav-technology li.active {
+    border-bottom: 1px red solid;
+}
+.nav-technology li {
+    border-bottom: 1px grey solid;
+    margin-right: -5px;
+}

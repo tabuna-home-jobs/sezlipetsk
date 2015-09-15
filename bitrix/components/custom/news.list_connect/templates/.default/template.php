@@ -141,12 +141,9 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 		$vn_tmp .= $tmp_panel_cild;
 		$tmp_element = "";
 		for($k = 0; $k<count($arResult["razdel"][$i]['child'][$j]['element']); $k++ ){
-			if($j == 0){$active='active in';}else{$active = '';}
 			$tmp_element = "";
 			$files_str = "";
 			for($m = 0; $m<count($arResult["razdel"][$i]["child"][$j]['element'][$k]['files']); $m++){
-				//var_dump($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["CONTENT_TYPE"]);
-				//var_dump($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["ORIGINAL_NAME"]);
 				switch($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["CONTENT_TYPE"]){
 					case 'image/tiff':
 					case 'tif':
@@ -172,35 +169,43 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 						$ico = SITE_TEMPLATE_PATH.'/img/pdf.png';
 						$type = 'pdf';
 				}
+				$size = $arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["FILE_SIZE"]/1024;
+				if($size<1024){
+					$size = round($size,2).'КБ';
+				}else{
+					$size/=1024;
+					$size =round($size,2).'МБ';
+				}
+				//var_dump($arResult["razdel"][$i]["child"][$j]['element'][$k]);
+				//die('ghjkl');
 				$files_str.='<div class="item_download">
-                                     <a href="'.$arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]['SRC'].'" >  <div class="item_download_type"><img src="'.$ico.'">'.$type.' ,'.$arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["FILE_SIZE"].' КБ</div>
-                                        <div class="item_download_date">'.$arResult["razdel"][$i]["child"][$j]["element"][$k]['DATE'].'</div>
-                                        <div class="item_download_name">'.extractFileName($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["ORIGINAL_NAME"]).'</div></a>
+                                     <a href="'.$arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]['SRC'].'" >  <div class="item_download_type"><img src="'.$ico.'">'.$size.' </div>
+                                        <div class="item_download_date">'.$arResult["razdel"][$i]["child"][$j]["element"][$k]['row'] ['CREATED_DATE'].'</div>
+                                       <!-- <div class="item_download_name">'.extractFileName($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["ORIGINAL_NAME"]).'</div>--></a>
                                     </div>';
 			}
-			//die('jkl');
 			$text="";
 			if($arResult["razdel"][$i]["child"][$j]["element"][$k]['row']['DETAIL_TEXT']){
 				$text='<p>'.$arResult["razdel"][$i]["child"][$j]["element"][$k]['row']['DETAIL_TEXT'].'</p>';
+			}else{
+				$text='<p>'.$arResult["razdel"][$i]["child"][$j]["element"][$k]['row']['NAME'].'</p>';
 			}
-			$tmp_element = '    <div role="tabpanel" class="tab-pane fade '.$active.' " id="r'.$arResult["razdel"][$i]['child'][$j]['ID'].'"
-                                 aria-labelledby="electro1-tab">
-                                <div class=""><h3>'.$arResult["razdel"][$i]["child"][$j]["element"][$k] ["row"]['NAME'].'</h3>
-									'.$text.$files_str.'
-                                </div>
-                            </div>';
+			$tmp_element = $files_str.$text;
 			$tmp_elements.=$tmp_element;
 		}
-		if( count($arResult["razdel"][$i]['child'][$j]['element']) ==0)
-		{
-			$tmp_elements.=  '    <div role="tabpanel" class="tab-pane fade '.$active.' " id="r'.$arResult["razdel"][$i]['child'][$j]['ID'].'"
+		if($j == 0){$active='active in';}else{$active = '';}
+		$my_tmo ='<p>'.$arResult["razdel"][$i]['child'][$j]['DESCRIPTION'].'</p>
+		'.$tmp_elements;
+		if($my_tmo){
+			$my_tmo = '<div class="scrollbar-outer">'.$my_tmo.'</div>';
+		}
+		$tt.=
+			'    <div role="tabpanel" class="tab-pane fade '.$active.' " id="r'.$arResult["razdel"][$i]['child'][$j]['ID'].'"
                                  aria-labelledby="electro1-tab">
-                                <div class=""><h3></h3>
-
+                                <div class=""><h3>'.$arResult["razdel"][$i]['child'][$j]['NAME'].'</h3>
+                                '.$my_tmo.'
                                 </div>
                             </div>';
-		}
-		$tt.=$tmp_elements;
 		$tmp_elements = '';
 	}
 	$vn = $tmp_start_panel_vn.$vn_tmp.$tmp_stop_panel_vn;//Собираем внутреннюю навигацию

@@ -99,8 +99,7 @@ $APPLICATION->SetTitle("Технологическое присоединени�
 					}
 				}
 			);
-			//columns.height(tallestcolumn);
-			columns.css('min-height',tallestcolumn);
+			columns.height(tallestcolumn);
 		}
 
 		$(document).ready(function() {
