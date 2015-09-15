@@ -15,7 +15,7 @@
 
 
 ?>
-<script src="//www.youtube.com/player_api"></script>
+
 <div role="tabpanel" class="tab-pane fade photogal2" id="profile" aria-labelledby="home-tab">
 
 	<div class="galery_links">
@@ -222,6 +222,7 @@
 
 
 			var src = $("iframe", play<?=$contentPhoto['EXTERNAL_ID'];?>).attr('src');
+
 			$("iframe", play<?=$contentPhoto['EXTERNAL_ID'];?>).attr('src', src + "?rel=0&enablejsapi=1");
 
 
