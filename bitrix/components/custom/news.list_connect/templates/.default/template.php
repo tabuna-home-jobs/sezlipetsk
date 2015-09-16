@@ -143,6 +143,8 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 		for($k = 0; $k<count($arResult["razdel"][$i]['child'][$j]['element']); $k++ ){
 			$tmp_element = "";
 			$files_str = "";
+
+
 			for($m = 0; $m<count($arResult["razdel"][$i]["child"][$j]['element'][$k]['files']); $m++){
 				switch($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["CONTENT_TYPE"]){
 					case 'image/tiff':
@@ -161,7 +163,7 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 						$type = 'PPT';
 						break;
 					case 'application/vnd.ms-excel':
-					case 'xlsx':
+					case 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':
 						$ico = SITE_TEMPLATE_PATH.'/img/xls.png';
 						$type = 'XLS';
 						break;
@@ -176,8 +178,7 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 					$size/=1024;
 					$size =round($size,2).'МБ';
 				}
-				//var_dump($arResult["razdel"][$i]["child"][$j]['element'][$k]);
-				//die('ghjkl');
+
 				$files_str.='<div class="item_download">
                                      <a href="'.$arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]['SRC'].'" >  <div class="item_download_type"><img src="'.$ico.'">'.$size.' </div>
                                         <div class="item_download_date">'.$arResult["razdel"][$i]["child"][$j]["element"][$k]['row'] ['CREATED_DATE'].'</div>

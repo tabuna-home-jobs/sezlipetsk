@@ -34,6 +34,7 @@ $this->setFrameMode(true);
 		$tmp_element = "";
 		$files_str = "";
 		for($m = 0; $m<count($arResult['element'][$k]['files']); $m++){
+			//var_dump($arResult['element'][$k]['files'][$m]);
 			switch($arResult['element'][$k]['files'][$m]["CONTENT_TYPE"]){
 				case 'image/tiff':
 				case 'tif':
@@ -51,7 +52,7 @@ $this->setFrameMode(true);
 					$type = 'PPT';
 					break;
 				case 'application/vnd.ms-excel':
-				case 'xlsx':
+				case 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':
 					$ico = SITE_TEMPLATE_PATH.'/img/xls.png';
 					$type = 'XLS';
 					break;
@@ -59,8 +60,15 @@ $this->setFrameMode(true);
 					$ico = SITE_TEMPLATE_PATH.'/img/pdf.png';
 					$type = 'pdf';
 			}
+			$size = $arResult['element'][$k]['files'][$m]["FILE_SIZE"]/1024;
+			if($size<1024){
+				$size = round($size,2).'КБ';
+			}else{
+				$size/=1024;
+				$size =round($size,2).'МБ';
+			}
 			$files_str.='<div class="item_download">
-                                     <a href="'.$arResult['element'][$k]['files'][$m]['SRC'].'" >  <div class="item_download_type"><img src="'.$ico.'">'.$type.','.$arResult['element'][$k]['files'][$m]["FILE_SIZE"].' КБ</div>
+                                     <a href="'.$arResult['element'][$k]['files'][$m]['SRC'].'" >  <div class="item_download_type"><img src="'.$ico.'">'.$size.'</div>
                                         <div class="item_download_date">'.$arResult["razdel"][$i]["element"][$k]['DATE'].'</div>
                                         <div class="name">'.extractFileName($arResult['element'][$k]['files'][$m]["ORIGINAL_NAME"]).'</div></a>
                                     </div>';
@@ -72,7 +80,7 @@ $this->setFrameMode(true);
 			$rasdel_nav.='<li role="presentation" class="'.$class.'"><a href="#'.$arResult["element"][$k] ["row"]['ID'].'" id="home-tab" role="tab"
 			                                          data-toggle="tab" aria-controls="'.$arResult["element"][$k] ["row"]['ID'].'"
 			                                          aria-expanded="true">'.$arResult["element"][$k] ["row"]['NAME'].'</a></li>';
-			$rasdel_panel.='<div role="tabpanel" class="tab-pane fade '.$class.'" id="'.$arResult["element"][$k] ["row"]['ID'].'" aria-labelledby="home-tab">'.$files_str.'</div>';
+			$rasdel_panel.='<div role="tabpanel" class="tab-pane fade '.$class2.'" id="'.$arResult["element"][$k] ["row"]['ID'].'" aria-labelledby="home-tab">'.$files_str.'</div>';
 		}
 
 

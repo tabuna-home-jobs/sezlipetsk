@@ -161,7 +161,7 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 						$type = 'PPT';
 						break;
 					case 'application/vnd.ms-excel':
-					case 'xlsx':
+					case 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':
 						$ico = SITE_TEMPLATE_PATH.'/img/xls.png';
 						$type = 'XLS';
 						break;

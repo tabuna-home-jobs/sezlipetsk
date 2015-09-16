@@ -69,7 +69,7 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 					$type = 'PPT';
 					break;
 				case 'application/vnd.ms-excel':
-				case 'xlsx':
+				case 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':
 					$ico = SITE_TEMPLATE_PATH.'/img/xls.png';
 					$type = 'XLS';
 					break;
@@ -77,8 +77,16 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 					$ico = SITE_TEMPLATE_PATH.'/img/pdf.png';
 					$type = 'pdf';
 			}
+
+			$size = $arResult["razdel"][$i]['element'][$k]['files'][$m]["FILE_SIZE"]/1024;
+			if($size<1024){
+				$size = round($size,2).'КБ';
+			}else{
+				$size/=1024;
+				$size =round($size,2).'МБ';
+			}
 			$files_str.='<div class="col-md-6 file_item">
-                                     <a href="'.$arResult["razdel"][$i]['element'][$k]['files'][$m]['SRC'].'" >  <div class="file_name"><img src="'.$ico.'">'.$type.' ,'.$arResult["razdel"][$i]['element'][$k]['files'][$m]["FILE_SIZE"].' КБ</div>
+                                     <a href="'.$arResult["razdel"][$i]['element'][$k]['files'][$m]['SRC'].'" >  <div class="file_name"><img src="'.$ico.'">'.$size.'</div>
                                         <div class="file_date">'.$arResult["razdel"][$i]["element"][$k]['DATE'].'</div>
                                         <div class="file_descript">'.extractFileName($arResult["razdel"][$i]['element'][$k]['files'][$m]["ORIGINAL_NAME"]).'</div></a>
                                     </div>';

@@ -351,13 +351,14 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 			$rs_Section_child = CIBlockSection::GetList(array('left_margin' => 'desc'), array('IBLOCK_ID' =>33,'SECTION_ID' =>$ar_Section['ID'],'depth_level' => '2'),false,array('UF_*'));
 			$jj = 0;
 			while($ar_Section_child = $rs_Section_child ->Fetch() ){
+				//var_dump($ar_Section_child['DESCRIPTION']);
 				$arResult["razdel"][$ii]["child"][$jj] = array(
 					'ID' => $ar_Section_child ['ID'],
 					'NAME' =>$ar_Section_child ['NAME'],
 					'IBLOCK_SECTION_ID' => $ar_Section_child ['IBLOCK_SECTION_ID'],
 					'LEFT_MARGIN' => $ar_Section_child ['LEFT_MARGIN'],
 					'RIGHT_MARGIN' => $ar_Section_child ['RIGHT_MARGIN'],
-					'DESCRIPTION=>'=> $ar_Section_child['DESCRIPTION'],
+					'DESCRIPTION'=> $ar_Section_child['DESCRIPTION'],
 					'UF_FIRST_IMG' =>CFile::GetFileArray($ar_Section_child ['UF_FIRST_IMG']),
 					'UF_SECOND_IMG' =>CFile::GetFileArray($ar_Section_child ['UF_SECOND_IMG']),
 				);
