@@ -60,6 +60,7 @@ $this->setFrameMode(true);
 					$ico = SITE_TEMPLATE_PATH.'/img/pdf.png';
 					$type = 'pdf';
 			}
+			//var_dump( $arResult['element'][$k]['files'][$m]);
 			$size = $arResult['element'][$k]['files'][$m]["FILE_SIZE"]/1024;
 			if($size<1024){
 				$size = round($size,2).'КБ';

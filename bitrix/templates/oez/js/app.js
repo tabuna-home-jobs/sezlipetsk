@@ -60,7 +60,33 @@ $(window).load(function (){
 
 });
 $(document).ready(function () {
+//Переключение табов с помощью get-параметров
+    var id = $.getUrlVar('id');
+    var href = $.getUrlVar('href');
+    if(id && href){
 
+        $('#myTabs>li').each(function(){
+            //alert('fghjkl');
+             $(this).removeClass('active');
+            /*if((this+a).attr('id') == id ){
+             $(this).addClass('active');
+             }*/
+        });
+        $('#'+id).parent().addClass('active');
+        $('#main_content_tabs>div').removeClass('active in');
+      $ ('#'+ $('#myTabs>.active>a').attr('aria-controls')).addClass('active in');
+        $('.navigacia li>a').each(function(){
+            $(this).parent().removeClass('active');
+
+            if( $(this).attr('href') == ('#'+href) ){
+                //alert($(this).attr('href'));
+                $(this).parent().addClass('active');
+            }
+        });
+        $('.innerpanel>.tab-content>div').removeClass('active in');
+        $('#'+href).addClass('active in');
+
+    }
 $('.scrollbar-outer1').scrollbar();
 
 	$('.file_input>a').click(function(){
@@ -423,3 +449,27 @@ function newsLoader(p){
         })
     }
 }
+
+
+
+
+//Парсер get-параметров
+$.extend({
+    getUrlVars: function(){
+        var vars = [], hash;
+        var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        for(var i = 0; i < hashes.length; i++)
+        {
+            hash = hashes[i].split('=');
+            vars.push(hash[0]);
+            vars[hash[0]] = hash[1];
+        }
+        return vars;
+    },
+    getUrlVar: function(name){
+        return $.getUrlVars()[name];
+    }
+});
+
+
+
