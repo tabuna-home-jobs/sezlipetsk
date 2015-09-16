@@ -3112,3 +3112,9 @@ background-image: url("../img/view_activ.png");
     border-bottom: 1px grey solid;
     margin-right: -5px;
 }
+/*.scroll-scrolly_visible{
+    padding-right: 25px !important;
+}*/
+.scrollbar-outer{
+    padding-right: 25px !important;
+}

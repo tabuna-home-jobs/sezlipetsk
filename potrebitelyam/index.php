@@ -62,7 +62,7 @@
 				</div>
 				<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6 block_item">
 					<div class="item_block">
-						<a class="item_block_a"><div class="hover_container">
+						<a class="item_block_a" href="/potrebitelyam/territoriya-obsluzhivaniya-setevoy-organizatsii/"><div class="hover_container">
 								<div class="hover"></div>
 							</div>
 							<div class="item_bod">
@@ -78,7 +78,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
 					<div class="item_block">
-						<a class="item_block_a_small">
+						<a href="/potrebitelyam/kommercheskiy-uchet/" class="item_block_a_small">
 							<div class="hover_container">
 								<div class="hover"></div>
 							</div>
@@ -147,7 +147,7 @@
 				</div>
 				<div class="col-sm-6 col-xs-6 block_item">
 					<div class="item_block hight_item_block">
-						<a class="item_block_a item_block_a_small"><div class="hover_container">
+						<a href="/potrebitelyam/peredacha-transportirovka-snabzhenie-energoresursami/" class="item_block_a item_block_a_small"><div class="hover_container">
 								<div class="hover"></div>
 							</div>
 							<div class="item_bod">
