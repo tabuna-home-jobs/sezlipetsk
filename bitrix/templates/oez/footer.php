@@ -47,15 +47,14 @@
 						</div>
 						<div class="col-md-6 no_padding">
 							<div class="foot_name_dop">Горячая линия по вопросам электроснабжения: 8 804 333 84 24</div>
-							<div class="red_link"><a href="/potrebitelyam/peredacha-transportirovka-snabzhenie-energoresursami/?id=109-tab&href=r132">Отключение электроэнергии</a></div>
+							<div class="red_link"><a href="/potrebitelyam/peredacha-transportirovka-snabzhenie-energoresursami/?id=109&href=r132">Отключение электроэнергии</a></div>
 						</div>
 						<div class="foot_adres col-sm-12 col-md-12">
 							<div>
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/mark.png">
 							</div>
 							<div>
-								398908, Липецкая область, Грязинский район,
-								зона промышленно-производственного типа «Липецк», Административно деловой центр.
+								399071, Липецкая область, Грязинский район, особая экономическая зона промышленно-производственного типа «Липецк», административно-деловой центр.
 							</div>
 						</div>
 					</div>

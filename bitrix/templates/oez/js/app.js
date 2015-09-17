@@ -66,16 +66,13 @@ $(document).ready(function () {
     if(id && href){
 
         $('#myTabs>li').each(function(){
-            //alert('fghjkl');
              $(this).removeClass('active');
-            /*if((this+a).attr('id') == id ){
-             $(this).addClass('active');
-             }*/
+
         });
-        $('#'+id).parent().addClass('active');
+        $('#'+id+'-tab').parent().addClass('active');
         $('#main_content_tabs>div').removeClass('active in');
       $ ('#'+ $('#myTabs>.active>a').attr('aria-controls')).addClass('active in');
-        $('#r'+id+'s li>a').each(function(){
+        $('#r'+id+'-tabs li>a').each(function(){
             $(this).parent().removeClass('active');
 
             if( $(this).attr('href') == ('#'+href) ){
@@ -83,7 +80,7 @@ $(document).ready(function () {
                 $(this).parent().addClass('active');
             }
         });
-        $('.innerpanel>.tab-content>div').removeClass('active in');
+        $('#r'+id+' .innerpanel>.tab-content>div').removeClass('active in');
         $('#'+href).addClass('active in');
 
     }
