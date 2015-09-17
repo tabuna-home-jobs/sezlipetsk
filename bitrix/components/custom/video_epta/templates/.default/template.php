@@ -243,10 +243,14 @@
 
 				<? foreach($razdleTabsContent['child'] as $contentPhoto){ ?>
 
-				testplayer<?=$contentPhoto['EXTERNAL_ID'];?> = new YT.Player('stop<?=$contentPhoto['EXTERNAL_ID'];?>', {});
+				var testplayer<?=$contentPhoto['EXTERNAL_ID'];?> = new YT.Player('stop<?=$contentPhoto['EXTERNAL_ID'];?>', {});
 
 				$('.closeBla<?=$contentPhoto['EXTERNAL_ID'];?>').click(function () {
+
 					testplayer<?=$contentPhoto['EXTERNAL_ID'];?>.pauseVideo();
+
+
+
 				});
 				<?}?>
 				<? } ?>
