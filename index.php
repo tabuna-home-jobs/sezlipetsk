@@ -142,7 +142,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
      </div>
      <div class="col-lg-6 col-xs-12 col-sm-12 col-md-12 block_item">
       <div class="item_block">
-       <a class="item_block_a" href="/investor/#kak_stat" ><div class="hover_container">
+       <a class="item_block_a" id="contacts_link" ><div class="hover_container">
          <div class="hover"></div>
         </div>
         <div class="item_bod">
@@ -370,4 +370,20 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
  <!--Нижняя карусел партнеров-->
 
 </div>
+
+
+<-- Модалка-->
+<div class="remember_form_main3">
+	<div class="remember_form_cell">
+		<div class="remember_form">
+			<div class="close_r_f_container"><a class="close_r_f"></a></div>
+
+
+			<img src="<?=SITE_TEMPLATE_PATH?>/img/resid.png" class="proezd" >
+
+		</div>
+	</div>
+</div>
+
+<-- Модалка-->
  <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

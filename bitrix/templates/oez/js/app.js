@@ -75,7 +75,7 @@ $(document).ready(function () {
         $('#'+id).parent().addClass('active');
         $('#main_content_tabs>div').removeClass('active in');
       $ ('#'+ $('#myTabs>.active>a').attr('aria-controls')).addClass('active in');
-        $('.navigacia li>a').each(function(){
+        $('#r'+id+'s li>a').each(function(){
             $(this).parent().removeClass('active');
 
             if( $(this).attr('href') == ('#'+href) ){
