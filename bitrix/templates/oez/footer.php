@@ -46,8 +46,8 @@
 
 						</div>
 						<div class="col-md-6 no_padding">
-							<div class="foot_name_dop">Горячая линия по вопросам электроснабжения: +7 (4742) 51-51-80</div>
-							<div class="red_link"><a>Отключение электроэнергии</a></div>
+							<div class="foot_name_dop">Горячая линия по вопросам электроснабжения: 8 804 333 84 24</div>
+							<div class="red_link"><a href="/potrebitelyam/peredacha-transportirovka-snabzhenie-energoresursami/?id=109-tab&href=r132">Отключение электроэнергии</a></div>
 						</div>
 						<div class="foot_adres col-sm-12 col-md-12">
 							<div>
