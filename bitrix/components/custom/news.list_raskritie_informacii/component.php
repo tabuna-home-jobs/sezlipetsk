@@ -366,7 +366,10 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 				}
 				$kk++;
 			}
+			$arResult["razdel"][$ii]['child'] = rs_Section_child(7,$ar_Section['ID'],2);
+			//var_dump($arResult["razdel"][$ii]);
 			$ii++;
+
 		}
 		$navComponentParameters = array();
 		if ($arParams["PAGER_BASE_LINK_ENABLE"] === "Y")
@@ -533,3 +536,56 @@ if(isset($arResult["ID"]))
 
 	return $arResult["ELEMENTS"];
 }
+
+	function rs_Section_child($IBLOCK_ID,$SECTION_ID,$depth_level){
+		$result = null;
+		$rs_Section_child = CIBlockSection::GetList(array('left_margin' => 'desc'), array('IBLOCK_ID' =>$IBLOCK_ID,'SECTION_ID' =>$SECTION_ID,'depth_level' => $depth_level),false,array('UF_*'));
+		//var_dump($SECTION_ID);
+		//die('ghjkl');
+		$jj = 0;
+		while($ar_Section_child = $rs_Section_child ->Fetch() ){
+
+			$result[$jj] = array(
+				'ID' => $ar_Section_child ['ID'],
+				'NAME' =>$ar_Section_child ['NAME'],
+				'IBLOCK_SECTION_ID' => $ar_Section_child ['IBLOCK_SECTION_ID'],
+				'LEFT_MARGIN' => $ar_Section_child ['LEFT_MARGIN'],
+				'RIGHT_MARGIN' => $ar_Section_child ['RIGHT_MARGIN'],
+				'DESCRIPTION'=> $ar_Section_child['DESCRIPTION'],
+				'UF_FIRST_IMG' =>CFile::GetFileArray($ar_Section_child ['UF_FIRST_IMG']),
+				'UF_SECOND_IMG' =>CFile::GetFileArray($ar_Section_child ['UF_SECOND_IMG']),
+			);
+
+			$rs_element = CIBlockElement::GetList(Array("SORT"=>"desc"),array('SECTION_ID'=>  $ar_Section_child ['ID']));
+			$kk = 0;
+
+			while($ar_element = $rs_element->GetNextElement()){
+				$result[$jj]['element'][$kk]['row'] =$ar_element->GetFields();
+				$result[$jj]['element'][$kk]['properties'] =$ar_element->GetProperties();
+				if ($result[$jj]['element'][$kk]['properties']['FILES']["PROPERTY_TYPE"] == "F")
+				{
+
+					if ($result[$jj]['element'][$kk]['properties']['FILES']["MULTIPLE"] == "Y")
+					{
+						foreach ($result[$jj]['element'][$kk]['properties']['FILES']["VALUE"] as $kkk=>$vvv)
+						{
+							$result[$jj]['element'][$kk]['files'][$kkk] = CFile::GetFileArray($vvv);
+						}
+					}
+					else
+					{
+						$result[$jj]['element'][$kk]['files'][0] = CFile::GetFileArray($result[$jj]['element'][$kk]['properties']['FILES']["VALUE"]);
+
+					}
+
+				}
+
+				$kk++;
+			}
+			$result[$jj]['child'] =  rs_Section_child($IBLOCK_ID,$ar_Section_child ['ID'],$depth_level+1);
+			$jj++;
+		}
+		//var_dump($result);
+		//var_dump('next');
+		return $result;
+	}

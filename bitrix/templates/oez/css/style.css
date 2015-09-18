@@ -3118,3 +3118,9 @@ background-image: url("../img/view_activ.png");
 .scrollbar-outer{
     padding-right: 25px !important;
 }
+.nav-technology h3{
+    word-break:normal;
+}
+.razdel div{
+    padding-left: 15px;
+}
