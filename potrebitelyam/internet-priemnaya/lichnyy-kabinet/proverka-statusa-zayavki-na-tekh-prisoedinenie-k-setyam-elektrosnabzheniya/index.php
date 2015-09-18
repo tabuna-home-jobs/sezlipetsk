@@ -116,7 +116,14 @@
 			if ($USER->IsAuthorized()) {
 		?>
 		<div class="col-xs-12 col-md-6 login_part_right max_height_block">
-			ANY TEXT HERE!!!!
+		<?
+			$APPLICATION->IncludeComponent(
+						"custom:support.form_toconnect",
+						"proverka_status",
+						Array(
+						)
+					);
+		?>
 		</div>
 		<div class="clearfix"></div>
 		<section>
@@ -125,12 +132,12 @@
 					<div class="col-xs-12 col-sm-6 left_padding_remove">
 						<div class="col-sm-12 col-xs-12 block_item ">
 							<div class="item_block">
-								<a class="item_block_a_small" href="">
+								<a class="item_block_a_small" href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/peredat-pokazaniya-priborov-uchyeta/">
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
 									<div class="item_bod">
-										<div class="item_name">Показать показания приборов учета</div>
+										<div class="item_name">Передать показания приборов учета</div>
 									</div>
 									<div class="block_icon_arrow">
 										<span class="glyphicon glyphicon-menu-right"></span>
@@ -140,7 +147,7 @@
 						</div>
 						<div class="col-sm-12 col-xs-12 block_item ">
 							<div class="item_block">
-								<a class="item_block_a_small" href="">
+								<a class="item_block_a_small" href="posmotret-peredannye-pokazaniya-priborov-ucheta/">
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
@@ -177,7 +184,7 @@
 						</div>
 						<div class="col-sm-12 col-xs-12 block_item">
 							<div class="item_block">
-								<a class="item_block_a_small" id="remember_pass2">
+								<a href="vashi-obrashcheniya-zhaloby/" class="item_block_a_small" id="remember_pass2">
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
@@ -192,71 +199,29 @@
 							</div>
 						</div>
 
-
-
-						<div class="remember_form_main2">
-							<div class="remember_form_cell">
-								<div class="remember_form">
-									<div class="close_r_f_container"><a class="close_r_f"></a></div>
-									<div class="row">
-										<div class="col-xs-12">
-											<div class="r_f_heder">
-												Статуса заявки на тех. присоединение к сетям электроснабжения
-											</div>
-										</div>
-									</div>
-									<div class="text-left">
-
-										<?
-											while($ar = $rs->Fetch()){
-
-												//Если статус заявки ещё не рассмотрен то говорим об етом
-												if($ar['STATUS_ID'] == 0){
-													$namezz = $ar['TITLE'];
-													?>
-													<b><?=$namezz?></b> не рассмотрено(а)
-													<p><small>(Запись создана: <?=$ar['DATE_CREATE'];?>)</small></p>
-													<br>
-													<?
-												}else{
-													$namezz = $ar['TITLE'];
-													//А тут у нас выводятся все статусы заявок
-													?>
-													<b><?=$namezz?></b> имеет статус: <i><?=$ar['STATUS_NAME'];?></i>
-													<p><small>(Запись создана: <?=$ar['DATE_CREATE'];?>)</small></p>
-													<br>
-
-													<?
-												}
-											}
-										?>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-sm-12">
 				<div class="row">
-					<div class="col-sm-6 col-xs-12 block_item ">
-						<div class="item_block">
-							<a class="item_block_a" id="remember_pass">
-								<div class="hover_container">
-									<div class="hover"></div>
-								</div>
-								<div class="item_bod">
-									<div class="item_name">Подать заявку на тех. присоединение к сетям электроснабжения</div>
-								</div>
-								<div class="block_icon">
+					<div class="col-sm-6">
+						<div class="col-sm-12 col-xs-12 block_item ">
+							<div class="item_block">
+								<a class="item_block_a" id="remember_pass">
+									<div class="hover_container">
+										<div class="hover"></div>
+									</div>
+									<div class="item_bod">
+										<div class="item_name">Подать заявку на тех. присоединение к сетям электроснабжения</div>
+									</div>
+									<div class="block_icon">
                                     <span class="item_block_img">
                                       <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/mail.png"/>
                                       <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/mail_2.png"/>
                                     </span>
-								</div>
-							</a>
+									</div>
+								</a>
+							</div>
 						</div>
 						<div class="col-sm-12 col-xs-12 block_item">
 							<div class="item_block">
@@ -275,24 +240,25 @@
 							</div>
 						</div>
 					</div>
-
-					<div class="col-sm-6 col-xs-12 block_item ">
-						<div class="item_block hight_item_block">
-							<a class="item_block_a" href="otsenka-kachestva-obsluzhivaniya/">
-								<div class="hover_container">
-									<div class="hover"></div>
-								</div>
-								<div class="item_bod">
-									<div class="item_name">Оценка качества обслуживания</div>
-									<div class="item_dop">Для получения льгот и преференций компании или частному предпринимателю необходимо получить статус резидента</div>
-								</div>
-								<div class="block_icon">
+					<div class="col-sm-6">
+						<div class="col-sm-12 col-xs-12 block_item ">
+							<div class="item_block hight_item_block">
+								<a class="item_block_a" href="otsenka-kachestva-obsluzhivaniya/">
+									<div class="hover_container">
+										<div class="hover"></div>
+									</div>
+									<div class="item_bod">
+										<div class="item_name">Оценка качества обслуживания</div>
+										<div class="item_dop">Для получения льгот и преференций компании или частному предпринимателю необходимо получить статус резидента</div>
+									</div>
+									<div class="block_icon">
                                     <span class="item_block_img">
                                       <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/palec.png"/>
                                       <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/palec_2.png"/>
                                     </span>
-								</div>
-							</a>
+									</div>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>

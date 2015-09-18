@@ -5,6 +5,20 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
 }
 CModule::IncludeModule("support");
 
+	//хватаем по юзеру
+	$arResult['rs'] = CTicket::GetList(
+		$by="ID",
+		$order="asc",
+		array('OWNER' => $USER->GetEmail()),
+		$isFiltered,
+		"Y",
+		"Y",
+		"Y",
+		false,
+		Array("SELECT" => array("UF_*" ))
+	);
+
+
 $mumMess = 1;
 $textMessage = "";
 $rsUser = CUser::GetByID($USER->GetID());
@@ -42,5 +56,8 @@ if ($textMessage != "") {
 	$arResult["MESSAGE_SEND"] = "OK";
 	$_POST = [];
 }
+
+
+
 
 $this->IncludeComponentTemplate();

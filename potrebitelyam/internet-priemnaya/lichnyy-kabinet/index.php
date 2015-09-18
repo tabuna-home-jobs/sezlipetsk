@@ -124,25 +124,6 @@
 
 								?>
 
-								<?
-				//Подключаем модуль
-				CModule::IncludeModule('support');
-				//хватаем по юзеру
-				$rs = CTicket::GetList(
-					$by="ID",
-					$order="asc",
-					array('OWNER' => $USER->GetEmail()),
-					$isFiltered,
-					"Y",
-					"Y",
-					"Y",
-					false,
-					Array("SELECT" => array("UF_*" ))
-				);
-
-
-
-								?>
 								<div><?=$arUser["WORK_COMPANY"]?></div>
 								<div><?=$arUser["UF_POSITION"]?></div>
 								<div>т. <?=$arUser["PERSONAL_PHONE"]?></div>
@@ -289,7 +270,7 @@
 									</div>
 									<div class="col-sm-12 col-xs-12 block_item ">
 										<div class="item_block">
-											<a class="item_block_a_small" href="">
+											<a class="item_block_a_small" href="posmotret-peredannye-pokazaniya-priborov-ucheta/">
 												<div class="hover_container">
 													<div class="hover"></div>
 												</div>
@@ -326,7 +307,7 @@
 									</div>
 									<div class="col-sm-12 col-xs-12 block_item">
 										<div class="item_block">
-											<a class="item_block_a_small" id="remember_pass2">
+											<a href="vashi-obrashcheniya-zhaloby/" class="item_block_a_small" id="remember_pass2">
 												<div class="hover_container">
 													<div class="hover"></div>
 												</div>
@@ -340,50 +321,6 @@
 											</a>
 										</div>
 									</div>
-
-
-
-									<div class="remember_form_main2">
-										<div class="remember_form_cell">
-											<div class="remember_form">
-												<div class="close_r_f_container"><a class="close_r_f"></a></div>
-												<div class="row">
-													<div class="col-xs-12">
-														<div class="r_f_heder">
-															Статуса заявки на тех. присоединение к сетям электроснабжения
-														</div>
-													</div>
-												</div>
-												<div class="text-left">
-
-							<?
-								while($ar = $rs->Fetch()){
-
-									//Если статус заявки ещё не рассмотрен то говорим об етом
-									if($ar['STATUS_ID'] == 0){
-										$namezz = $ar['TITLE'];
-							?>
-										<b><?=$namezz?></b> не рассмотрено(а)
-											<p><small>(Запись создана: <?=$ar['DATE_CREATE'];?>)</small></p>
-											<br>
-							<?
-										}else{
-										$namezz = $ar['TITLE'];
-								//А тут у нас выводятся все статусы заявок
-							?>
-								<b><?=$namezz?></b> имеет статус: <i><?=$ar['STATUS_NAME'];?></i>
-									<p><small>(Запись создана: <?=$ar['DATE_CREATE'];?>)</small></p>
-									<br>
-
-							<?
-									}
-								}
-							?>
-													</div>
-											</div>
-										</div>
-									</div>
-
 
 								</div>
 							</div>
