@@ -43,7 +43,7 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
             </li>';
 	$big_panel.=$razdel_tmp;
 
-	$tmp_start_panel = '<div class="col-md-6 files '.$class.' " id="r'.$arResult["razdel"][$i]['ID'].'" ><div class="scrollbar-outer">';
+	$tmp_start_panel = '<div class="col-md-6 rs_files  files '.$class.' " id="r'.$arResult["razdel"][$i]['ID'].'" ><div class="scrollbar-outer">';
 	$tmp_stop_panel = '</div></div>';
 	$tmp_element = "";
 
@@ -146,7 +146,7 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 
 <script>
 
-	$(document).ready(function() {
+	/*$(document).ready(function() {
 		$('.navigacia>li>a').click({
 			$('.files').each({
 				$(this).removeClass('active');
@@ -154,7 +154,7 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 			var tmp_href = $(this).attr('href');
 			$(tmp_href).addClass('active');
 		});
-	});
+	});*/
 </script>
 <?
 	function get_child($child){

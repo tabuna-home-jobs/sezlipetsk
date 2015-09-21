@@ -56,10 +56,28 @@ $(window).load(function (){
 
         }
     }
+    //делаем блокис прокруткой в раскрытии информации одной высоты
+
+    $('.rs_files .scrollbar-outer').css('max-height',$('.navigacia').height());
+
+
+
+    //Скрываем скрол если содержимое меньше блока
+    noscroll_rs();
+    $('.navigacia>li').click(function(){
+        //$(this).parent().click();
+        noscroll_rs();
+        noscroll_click();
+
+    });
+
 
 
 });
+
+
 $(document).ready(function () {
+
 //Переключение табов с помощью get-параметров
     var id = $.getUrlVar('id');
     var href = $.getUrlVar('href');
@@ -84,7 +102,8 @@ $(document).ready(function () {
         $('#'+href).addClass('active in');
 
     }
-$('.scrollbar-outer1').scrollbar();
+
+    $('.scrollbar-outer1').scrollbar();
 
 	$('.file_input>a').click(function(){
 	   var a = $(this);
@@ -131,6 +150,12 @@ $('.scrollbar-outer1').scrollbar();
         }
 
     });
+
+
+    //делаем блокис прокруткой в раскрытии информации одной высоты
+
+    //$('.rs_files .scrollbar-outer').css('max-height',$('.left_cat_dop').height());
+    //$('#main_content_tabs .scrollbar-outer').css('max-height',$('.navigacia').height());
 
     //переключаем шаги заявки
     /*$('.next_step').click(function(){
@@ -470,3 +495,28 @@ $.extend({
 
 
 
+function noscroll_rs(){
+    if( $('.active>.scroll-wrapper').height() <= $('.navigacia').height() ){
+        $('.active>.scroll-wrapper>.scroll-content').css('max-height','auto');
+        $('.active>.scroll-wrapper>.scroll-content').removeClass('scrollbar-outer');
+        $('.active>.scroll-wrapper>.scroll-content').removeClass('scroll-content');
+        $('.active>.scroll-wrapper').css('max-height','auto');
+        $('.active>.scroll-wrapper').removeClass('scrollbar-outer');
+        $('.active>.scroll-wrapper').removeClass('scroll-wrapper');
+    }
+}
+
+function noscroll_click(){
+   // alert($('.active .active .scroll-wrapper').height());
+    //alert($('.navigacia').height());
+    //alert($('.active .active h3').html());
+    if( ( $('.active .active .scroll-wrapper').height() + $('.active .active h3').height() ) <= $('.active .navigacia').height() ){
+        //alert($('.active .active .scroll-wrapper').height());
+        $('.active .active .scroll-wrapper>.scroll-content').css('max-height','auto');
+        $('.active .active .scroll-wrapper>.scroll-content').removeClass('scrollbar-outer');
+        $('.active .active .scroll-wrapper>.scroll-content').removeClass('scroll-content');
+        $('.active .active .scroll-wrapper').css('max-height','auto');
+        $('.active .active .scroll-wrapper').removeClass('scrollbar-outer');
+        $('.active .active .scroll-wrapper').removeClass('scroll-wrapper');
+    }
+}
