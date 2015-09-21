@@ -3,65 +3,25 @@
         <div class="nomer_zayavki">Показания приборов учёта</div>
         <div class="inputs_container">
             <textarea name="MESSAGE_1" allmessage style="display:none"></textarea>
-            <div class="row">
-                <div class="col-xs-6 labels_left">
-                    <span class="star_red">*</span> <span nameinput="1">Фамилия Имя Отчество</span>
-                </div>
-                <div class="col-xs-6 inputs_right">
-                    <input type="text" name="FIELD_1" inputvalue="1" require>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-6 labels_left">
-                    <span class="star_red">*</span> <span nameinput="2">Наименование организации</span>
-                </div>
-                <div class="col-xs-6 inputs_right">
-                    <input type="text" name="FIELD_2" inputvalue="2" require>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-6 labels_left">
-                    <span class="star_red">*</span> <span nameinput="3">Должность</span>
-                </div>
-                <div class="col-xs-6 inputs_right">
-                    <input type="text" name="FIELD_3" inputvalue="3" require>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-xs-6 labels_left">
-                    <span class="star_red">*</span> <span nameinput="4">E-mail</span>
+            <span id="wrappDinamicElems">
+                <div class="row">
+                    <div class="col-xs-3 labels_left">
+                        <span class="star_red">*</span> <span nameinput="1">№ Прибора 1</span>
+                    </div>
+                    <div class="col-xs-3 inputs_right">
+                        <input type="text" name="FIELD_1" inputvalue="1" require>
+                    </div>
+                    <div class="col-xs-3 labels_left">
+                        <span class="star_red">*</span> <span nameinput="11">Показания</span>
+                    </div>
+                    <div class="col-xs-3 inputs_right">
+                        <input type="text" name="FIELD_11" inputvalue="11" require>
+                    </div>
                 </div>
-                <div class="col-xs-6 inputs_right">
-                    <input type="text" name="FIELD_4" inputvalue="4">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-6 labels_left">
-	                <span class="star_red">*</span> <span nameinput="5">Телефон</span>
-                </div>
-                <div class="col-xs-6 inputs_right">
-                    <input type="text" name="FIELD_5" inputvalue="5" require>
-                </div>
-            </div>
-           <!-- <div class="row">
-                <div class="col-xs-6 labels_left">
-                    Выберите тему
-                </div>
-                <div class="col-xs-6 inputs_right">
-                    <select><option>Выберите тему</option></select>
-                </div>
-            </div>-->
-            <div class="row">
-                <div class="col-xs-6 labels_left">
-	                <span class="star_red">*</span><span nameinput="6">
-                        Показания приборов учёта
-                    </span>
-                </div>
-                <div class="col-xs-6 inputs_right">
-                    <textarea require name="FIELD_6" inputvalue="6"></textarea>
-                </div>
-            </div>
+            </span>
+
+
             <div class="row">
                 <!--<div class="col-xs-6 labels_left send_file_desription">
                     Вы можете прикрепить файл с материалами по обращению
@@ -78,8 +38,15 @@
 
                 </div>
 
-                    <div><a class="send_form">ОТПРАВИТЬ</a></div>
-                    <div class="star_description"><span class="star_red">*</span> — обязательные поля</div>
+                    <div class="col-xs-10">
+                        <a class="send_form">ОТПРАВИТЬ</a>
+                    </div>
+                    <div class="col-xs-2">
+                        <span class="add-pribor" id="addP">+</span>
+                    </div>
+                    <div class="clearfix"></div>
+
+                <div class="star_description"><span class="star_red">*</span> — обязательные поля</div>
 
 
                 <div class="srok_obrashenia col-xs-12">Срок рассмотрения вашей жалобы до 11,05,15</div>

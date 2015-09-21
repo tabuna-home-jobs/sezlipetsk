@@ -41,7 +41,6 @@ foreach ($_FILES as $key => $file) {
 		];
 	}
 }
-
 if ($textMessage != "") {
 	$arFields = array(
 		'SITE_ID' => SITE_ID,
