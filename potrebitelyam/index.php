@@ -46,7 +46,7 @@
 			<div class="col-md-6 ">
 				<div class="col-lg-6 col-xs-12 col-sm-12 col-md-6 block_item">
 					<div class="item_block">
-						<a class="item_block_a"><div class="hover_container">
+						<a href="/contacts/" class="item_block_a"><div class="hover_container">
 								<div class="hover"></div>
 							</div>
 							<div class="item_bod">
@@ -136,7 +136,7 @@
 									подключение
 								</div>
 								<div class="item_dop">
-									Липецкая область расположена в центральной части европейской территории России, в 370 км к югу от Москвы (расстояние от столицы до областного центра — около 450 км)
+
 								</div>
 
 							</div>
@@ -155,7 +155,7 @@
 								                       транспортировка,
 								                       снабжение
 								                       энергоресурсами</div>
-								<div class="item_dop">Липецкая область расположена в центральной части европейской территории России, в 370 км к югу от Москвы (расстояние от столицы до областного центра — около 450 км)</div>
+								<div class="item_dop"></div>
 							</div>
 							<div class="block_icon_arrow">
 								<span class="glyphicon glyphicon-menu-right"></span>
