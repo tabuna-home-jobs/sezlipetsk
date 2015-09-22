@@ -5,9 +5,8 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
 }
 CModule::IncludeModule("support");
 
-	//хватаем по юзеру
 	$arResult['rs'] = CTicket::GetList(
-		$by="ID",
+		$by="s_id",
 		$order="asc",
 		array('OWNER' => $USER->GetEmail()),
 		$isFiltered,
@@ -15,7 +14,7 @@ CModule::IncludeModule("support");
 		"Y",
 		"Y",
 		false,
-		Array("SELECT" => array("UF_*" ))
+		Array("SELECT" => array("*" ))
 	);
 
 

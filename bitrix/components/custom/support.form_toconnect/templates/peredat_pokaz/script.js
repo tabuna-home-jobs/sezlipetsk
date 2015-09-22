@@ -61,7 +61,7 @@ $(document).ready(function() {
 
                 if ($(this)[0].attributes.inputvalue) {
 
-allMessageText += but.parent().parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0].innerText + ': ' + $(this)[0].value + '\n\r';
+allMessageText += but.parent().parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0].innerText + ': ' + $(this)[0].value + ';\n\r';
 
 
                 }
