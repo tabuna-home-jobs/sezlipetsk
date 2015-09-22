@@ -197,7 +197,7 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 		$my_tmo ='<p>'.$arResult["razdel"][$i]['child'][$j]['DESCRIPTION'].'</p>
 		'.$tmp_elements;
 		if($arResult["razdel"][$i]['child'][$j]['DESCRIPTION'] || $tmp_elements){
-			$my_tmo = '<div class="scrollbar-outer">'.$my_tmo.'</div>';
+			$my_tmo = '<div class="my">'.$my_tmo.'</div>';
 		}
 		$tt.=
 			'    <div role="tabpanel" class="tab-pane fade '.$active.' " id="r'.$arResult["razdel"][$i]['child'][$j]['ID'].'"

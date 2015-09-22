@@ -85,7 +85,7 @@ $APPLICATION->SetTitle("Передача, транспортировка, сна
 	);?>
 	<script type="text/javascript">
 		//Чтобы колонки были равной высоты
-		function setEqualHeight(columns)
+		/*function setEqualHeight(columns)
 		{
 			var tallestcolumn = 0;
 			columns.each(
@@ -99,10 +99,10 @@ $APPLICATION->SetTitle("Передача, транспортировка, сна
 				}
 			);
 			columns.height(tallestcolumn);
-		}
+		}*/
 
 		$(document).ready(function() {
-			setEqualHeight($(".tab-pane > .row > div"));
+			//setEqualHeight($(".tab-pane > .row > div"));
 		});
 
 	</script>

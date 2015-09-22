@@ -84,29 +84,7 @@ $APPLICATION->SetTitle("Технологическое присоединени�
 	),
 	false
 );?>
-	<script type="text/javascript">
-		//Чтобы колонки были равной высоты
-		function setEqualHeight(columns)
-		{
-			var tallestcolumn = 0;
-			columns.each(
-				function()
-				{
-					currentHeight = $(this).height();
-					if(currentHeight > tallestcolumn)
-					{
-						tallestcolumn = currentHeight;
-					}
-				}
-			);
-			columns.height(tallestcolumn);
-		}
 
-		$(document).ready(function() {
-			setEqualHeight($(".tab-pane > .row > div"));
-		});
-
-	</script>
 
 </div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
