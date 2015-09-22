@@ -228,7 +228,7 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 	<!-- #Главная навигация# -->
 
 	<!-- Панели навигации -->
-	<div id="main_content_tabs" class="tab-content">
+	<div id="main_content_tabs" class="tab-content terror">
 
 		<?=$pan?>
 	</div>

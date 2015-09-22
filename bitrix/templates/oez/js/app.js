@@ -46,6 +46,7 @@ $(window).load(function (){
     myScrolling();
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
         myScrolling();
+
     });
     setEqualHeight($(".tab-pane > .row > div"));
     jQuery('.scrollbar-outer').scrollbar();
@@ -65,6 +66,7 @@ $(window).load(function (){
     //делаем блокис прокруткой в раскрытии информации одной высоты
 
     $('.rs_files .scrollbar-outer').css('max-height',$('.navigacia').height());
+
    //Скрываем скрол если содержимое меньше блока
     noscroll_rs();
 
@@ -522,7 +524,9 @@ function setEqualHeight(columns)
 
 
 function myScrolling(){
+
     if(($('.active .active .my').height() + $('.active .active h3').height() ) > $('.active .navigacia').height() ){
+       // alert('hhhh');
         $('.active .active .my').addClass('scrollbar-outer');
         jQuery('.scrollbar-outer').scrollbar();
         $('.tab-content>.active>.row').height( $('.active .navigacia').height());

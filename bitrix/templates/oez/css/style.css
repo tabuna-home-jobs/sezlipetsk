@@ -3125,3 +3125,8 @@ background-image: url("../img/view_activ.png");
 .razdel div{
     padding-left: 15px;
 }
+
+
+.terror .scroll-content {
+    max-height: 180px !important;
+}
