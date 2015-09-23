@@ -249,7 +249,9 @@ $APPLICATION->SetTitle("Интерактивная карта");
 					<!--Описание карты-->
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="free-place">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map2.png">
+					<div class="imgMap">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map2.png">
+					</div>
 					<!--Описание карты-->
 					<div class="description-map row">
 						<div class="col-xs-5">
@@ -300,14 +302,19 @@ $APPLICATION->SetTitle("Интерактивная карта");
 					<!--Описание карты-->
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="water-net">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map3.jpg">
+					<div class="imgMap">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map3.jpg">
+					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="net-abduction">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map4.jpg">
+					<div class="imgMap">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map4.jpg">
+					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="net-sh">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map5.jpg">
-
+					<div class="imgMap">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map5.jpg">
+					</div>
 					<!--Описание карты-->
 					<div class="description-map row">
 						<div class="col-xs-5">
@@ -328,11 +335,15 @@ $APPLICATION->SetTitle("Интерактивная карта");
 					<!--Описание карты-->
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="net-electro">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map6.jpg">
+					<div class="imgMap">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map6.jpg">
+					</div>
 
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="net-tele">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map7.jpg">
+					<div class="imgMap">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map7.jpg">
+					</div>
 					<!--Описание карты-->
 					<div class="description-map row">
 						<div class="col-xs-5">
@@ -350,13 +361,19 @@ $APPLICATION->SetTitle("Интерактивная карта");
 					<!--Описание карты-->
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="net-hot">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map8.jpg">
+					<div class="imgMap">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map8.jpg">
+					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="net-gaz">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map9.jpg">
+					<div class="imgMap">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map9.jpg">
+					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="net-infr">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map10.jpg">
+					<div class="imgMap">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map10.jpg">
+					</div>
 					<!--Описание карты-->
 					<div class="description-map row">
 						<div class="col-xs-5">

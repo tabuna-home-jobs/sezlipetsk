@@ -3112,9 +3112,6 @@ background-image: url("../img/view_activ.png");
     border-bottom: 1px grey solid;
     margin-right: -5px;
 }
-/*.scroll-scrolly_visible{
-    padding-right: 25px !important;
-}*/
 .scrollbar-outer{
     padding-right: 25px !important;
 }
@@ -3125,8 +3122,14 @@ background-image: url("../img/view_activ.png");
 .razdel div{
     padding-left: 15px;
 }
-
-
 .terror .scroll-content {
     max-height: 180px !important;
 }
+.description-map div{
+  height:100% !important;
+}
+.tab-pane:not(:first-child) .imgMap img{
+  padding: 7px;
+  width: 100%;
+}
+
