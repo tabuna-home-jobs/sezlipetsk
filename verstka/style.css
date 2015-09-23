@@ -2930,3 +2930,39 @@ background-color:transparent!important;
   font-family: FNormal;
   text-decoration: none;
 }
+
+
+/**********************23.09.2015*****************************/
+.my_left{
+    padding-right: 30px;
+}
+.myWrap{
+   /* display: inline-block;*/
+}
+.iii{
+    margin-bottom: 30px;
+}
+.dop-text,.hren{
+    padding: 0px;
+    margin: 40px 0px;
+}
+@media (max-width: 992px){
+    .clear{
+        clear: both;
+    }
+    .my_left{
+        padding-right: 0px;
+    }
+}
+.redUl{
+    margin-bottom: 40px;
+    padding-left: 0px;
+}
+.redUl li{
+    margin-left: 20px;
+    list-style-image: url('img/slice.png');
+}
+.redUl li:first-child{
+    margin-top: 10px;
+}
+/**********************23.09.2015*****************************/
