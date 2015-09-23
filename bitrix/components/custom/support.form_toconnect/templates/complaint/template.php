@@ -78,8 +78,8 @@
 
                 </div>
 
-                    <div><a class="send_form">ОТПРАВИТЬ</a></div>
-                    <div class="star_description"><span class="star_red">*</span> — обязательные поля</div>
+                <div><a class="send_form">ОТПРАВИТЬ</a></div>
+                <div class="star_description"><span class="star_red">*</span> — обязательные поля</div>
 
 
                 <div class="srok_obrashenia col-xs-12">Срок рассмотрения вашей жалобы до 11,05,15</div>
@@ -89,11 +89,11 @@
     </form>
 
 
- <div class="steps_block">
-  <div class="step_item step_item_inputs_message_send" <?=(isset($arResult["MESSAGE_SEND"]) && $arResult["MESSAGE_SEND"] == 'OK') ? '' : 'style="display:none"'?>>
-    <div class="col-xs-12 step_item_inputs_heder">
-    <h3>Спасибо за Ваше обращение!</h3>
+    <div class="steps_block">
+        <div class="step_item step_item_inputs_message_send" <?=(isset($arResult["MESSAGE_SEND"]) && $arResult["MESSAGE_SEND"] == 'OK') ? '' : 'style="display:none"'?>>
+            <div class="col-xs-12 step_item_inputs_heder">
+                <h3>Спасибо за Ваше Жалоба!</h3>
+            </div>
+        </div>
     </div>
-  </div>
- </div>
 </div>

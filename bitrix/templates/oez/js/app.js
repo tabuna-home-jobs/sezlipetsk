@@ -43,21 +43,12 @@ $(window).resize(function () {
 
 });
 $(window).load(function (){
-    setEqualHeight($(".tab-pane > .row > div"));
-    if(($('.active .active .my').height() + $('.active .active h3').height() ) > $('.active .navigacia').height() ){
-        $('.active .active .my').addClass('scrollbar-outer');
-        jQuery('.scrollbar-outer').scrollbar();
-        $('.tab-content>.active>.row').height( $('.active .navigacia').height());
-        //setEqualHeight($(".tab-pane > .row > div"));
-    }
+    myScrolling();
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        if(($('.active .active .my').height() + $('.active .active h3').height() ) > $('.active .navigacia').height() ){
-            $('.active .active .my').addClass('scrollbar-outer');
-            jQuery('.scrollbar-outer').scrollbar();
-            $('.tab-content>.active>.row').height( $('.active .navigacia').height());
-           // setEqualHeight($(".tab-pane > .row > div"));
-        }
-    })
+        myScrolling();
+
+    });
+    setEqualHeight($(".tab-pane > .row > div"));
     jQuery('.scrollbar-outer').scrollbar();
     if (jQuery('.scrollbar-outer').hasClass('resize_scroll')){
         var h_o = $('.lin').height();
@@ -71,14 +62,12 @@ $(window).load(function (){
 
         }
     }
-    //setEqualHeight($(".tab-pane > .row > div"));
+    setEqualHeight($(".tab-pane > .row > div"));
     //делаем блокис прокруткой в раскрытии информации одной высоты
 
     $('.rs_files .scrollbar-outer').css('max-height',$('.navigacia').height());
 
-
-
-    //Скрываем скрол если содержимое меньше блока
+   //Скрываем скрол если содержимое меньше блока
     noscroll_rs();
 
 
@@ -523,7 +512,7 @@ function setEqualHeight(columns)
     columns.each(
         function()
         {
-            currentHeight = $(this).children('.navigacia').height()+30;
+            currentHeight = $(this).height();
             if(currentHeight > tallestcolumn)
             {
                 tallestcolumn = currentHeight;
@@ -531,4 +520,16 @@ function setEqualHeight(columns)
         }
     );
     columns.height(tallestcolumn);
+}
+
+
+function myScrolling(){
+
+    if(($('.active .active .my').height() + $('.active .active h3').height() ) > $('.active .navigacia').height() ){
+       // alert('hhhh');
+        $('.active .active .my').addClass('scrollbar-outer');
+        jQuery('.scrollbar-outer').scrollbar();
+        $('.tab-content>.active>.row').height( $('.active .navigacia').height());
+        setEqualHeight($(".tab-pane > .row > div"));
+    }
 }
