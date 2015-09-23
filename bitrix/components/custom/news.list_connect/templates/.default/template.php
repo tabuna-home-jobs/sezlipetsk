@@ -146,13 +146,14 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 
 
 			for($m = 0; $m<count($arResult["razdel"][$i]["child"][$j]['element'][$k]['files']); $m++){
+
 				switch($arResult["razdel"][$i]["child"][$j]['element'][$k]['files'][$m]["CONTENT_TYPE"]){
 					case 'image/tiff':
 					case 'tif':
 						$ico = SITE_TEMPLATE_PATH.'/img/tif.png';
 						$type = 'TIF';
 						break;
-					case 'doc':
+					case 'text/rtf':
 					case 'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
 						$ico = SITE_TEMPLATE_PATH.'/img/doc2.png';
 						$type = 'DOC';
@@ -216,8 +217,6 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 	$elements='';
 	$tt = '';
 }
-
-
 
 ?>
 

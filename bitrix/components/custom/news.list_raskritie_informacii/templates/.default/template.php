@@ -58,7 +58,7 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 					$ico = SITE_TEMPLATE_PATH.'/img/tif.png';
 					$type = 'TIF';
 					break;
-				case 'doc':
+				case 'text/rtf':
 				case 'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
 					$ico = SITE_TEMPLATE_PATH.'/img/doc2.png';
 					$type = 'DOC';
