@@ -721,7 +721,8 @@ margin:20px 0;
   font-family: FLight;
 }
 .item_download {
-margin-bottom:10px;
+    /*margin-bottom:10px;*/
+    margin-top: 35px;
 }
 .item_download> a:hover{
     text-decoration: none;
@@ -2079,7 +2080,7 @@ textarea {
 .answer_item {
   margin: 30px 0;
 }
-.answer_item_name>span {
+.answer_item_name>span, .razdel_name>span {
   padding: 10px;
   display: inline-block;
   border: 1px #e64046 solid;
@@ -3112,6 +3113,9 @@ background-image: url("../img/view_activ.png");
     border-bottom: 1px grey solid;
     margin-right: -5px;
 }
+/*.scroll-scrolly_visible{
+    padding-right: 25px !important;
+}*/
 .scrollbar-outer{
     padding-right: 25px !important;
 }
@@ -3122,14 +3126,31 @@ background-image: url("../img/view_activ.png");
 .razdel div{
     padding-left: 15px;
 }
+
+
 .terror .scroll-content {
     max-height: 180px !important;
 }
 .description-map div{
-  height:100% !important;
+    height:100% !important;
 }
 .tab-pane:not(:first-child) .imgMap img{
-  padding: 7px;
-  width: 100%;
+    padding: 7px;
+    width: 100%;
+}
+.razdel .razdel_desc{
+    display: none;
+}
+.razdel .razdel_desc_active{
+    display: block !important;
+}
+.razdel_name{
+    cursor: pointer;
+    color: #333333;
+    position: relative;
+    padding-left: 45px;
 }
 
+.razdel .file_name{
+    display: block;
+}

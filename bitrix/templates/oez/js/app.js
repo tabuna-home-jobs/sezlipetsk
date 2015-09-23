@@ -48,7 +48,7 @@ $(window).load(function (){
         myScrolling();
 
     });
-    setEqualHeight($(".tab-pane > .row > div"));
+    setEqualHeight($(".tech-content .tab-pane > .row > div"));
     jQuery('.scrollbar-outer').scrollbar();
     if (jQuery('.scrollbar-outer').hasClass('resize_scroll')){
         var h_o = $('.lin').height();
@@ -62,7 +62,7 @@ $(window).load(function (){
 
         }
     }
-    setEqualHeight($(".tab-pane > .row > div"));
+    setEqualHeight($(".tech-content .tab-pane > .row > div"));
     //делаем блокис прокруткой в раскрытии информации одной высоты
 
     $('.rs_files .scrollbar-outer').css('max-height',$('.navigacia').height());
@@ -418,6 +418,20 @@ $(document).ready(function () {
         ]
     });
 
+    $('.razdel>.razdel_name').click(function(){
+
+        if( $(this).parent().children('.razdel_desc').css('display') == "block" ){
+
+            $(this).parent().children('.razdel_desc_active').removeClass('razdel_desc_active');
+            $(this).children('span').removeClass('glyphicon-menu-up');
+
+        }else{
+           // alert($(this).parent().children('.razdel_desc').css('display'));
+            $(this).parent().children('.razdel_desc').addClass('razdel_desc_active');
+            $(this).children('span').addClass('glyphicon-menu-up');
+        }
+    });
+
 });
 
 
@@ -530,6 +544,7 @@ function myScrolling(){
         $('.active .active .my').addClass('scrollbar-outer');
         jQuery('.scrollbar-outer').scrollbar();
         $('.tab-content>.active>.row').height( $('.active .navigacia').height());
-        setEqualHeight($(".tab-pane > .row > div"));
+        setEqualHeight($(".tech-content .tab-pane > .row > div"));
     }
 }
+

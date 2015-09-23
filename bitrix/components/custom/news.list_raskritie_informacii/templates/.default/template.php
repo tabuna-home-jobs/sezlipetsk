@@ -144,18 +144,6 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 	<!--Панели навигации -->
 </section>
 
-<script>
-
-	/*$(document).ready(function() {
-		$('.navigacia>li>a').click({
-			$('.files').each({
-				$(this).removeClass('active');
-			});
-			var tmp_href = $(this).attr('href');
-			$(tmp_href).addClass('active');
-		});
-	});*/
-</script>
 <?
 	function get_child($child){
 		if(!$child){
@@ -230,7 +218,8 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 			if ($child[$i]['child']) {
 				$tmp_child = get_child($child[$i]['child']);
 			}
-			$result .= '<div class="razdel"><p><h3>'.$child[$i]['NAME'].'</h3></br>'.$child[$i]['DESCRIPTION'].'</p>'.$tmp_elements.$tmp_child.'</div>';
+			$result .= '<div class="razdel"><div class="razdel_name" ><span class="glyphicon glyphicon-menu-down"></span><h3>'.$child[$i]['NAME'].'</h3></div><div class="razdel_desc"></br>
+'.$child[$i]['DESCRIPTION'].$tmp_elements.$tmp_child.'</div></div>';
 			//var_dump($child[$i]['NAME']);
 			//var_dump('next');
 		}
