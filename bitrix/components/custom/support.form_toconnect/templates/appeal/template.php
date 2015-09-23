@@ -48,8 +48,16 @@
                 <div class="col-xs-6 labels_left">
                     Выберите тему
                 </div>
+                <span style="display: none" nameinput="55">Тема</span>
                 <div class="col-xs-6 inputs_right">
-                    <select><option>Выберите тему</option></select>
+                    <select>
+                        <option>Выберите тему</option>
+                        <option>Присоединение к сетям эл.снабжения</option>
+                        <option>Передача эл. энергии</option>
+                        <option>Учет эл. энергии</option>
+                        <option>Вопрос эл.снабжения</option>
+                        <option>Хищение объектов эл. хозяйства</option>
+                    </select>
                 </div>
             </div>
             <div class="row">
