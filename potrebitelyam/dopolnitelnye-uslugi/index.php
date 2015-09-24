@@ -41,7 +41,7 @@ $APPLICATION->SetTitle("Дополнительные услуги");
  <a href="http://sezlipetsk/upload/uslugi/1.%20%D0%9F%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D1%83%D1%80%D0%B0%D0%BD%D1%82%20%D0%BD%D0%B0%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%20%D0%AD%D0%A2%D0%9B.pdf"><img width="24" alt="pdf.png" src="/upload/medialibrary/e67/e67319c3d1cb31506d1ef9237da6daa1.png" height="30" title="pdf.png"></a>&nbsp;138кб<br>
 		</p>
 		<p align="justify">
-			 24.09.2015
+ <span style="font-size: 8pt;">24.09.2015</span>
 		</p>
 		<p align="justify">
 			 Прейскурант на услуги ЭТЛ
@@ -54,7 +54,7 @@ $APPLICATION->SetTitle("Дополнительные услуги");
  <a href="http://sezlipetsk/upload/uslugi/2.%20%D0%9F%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D1%83%D1%80%D0%B0%D0%BD%D1%82%20%D0%BD%D0%B0%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B0%D0%B2%D1%82%D0%BE%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0%20%D0%B8%20%D1%81%D0%BF%D0%B5%D1%86%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8.pdf"><img width="24" alt="pdf.png" src="/upload/medialibrary/e67/e67319c3d1cb31506d1ef9237da6daa1.png" height="30" title="pdf.png"></a>&nbsp;90кб<br>
 		</p>
 		<p align="justify">
-			 24.09.2015<br>
+ <span style="font-size: 8pt;">24.09.2015</span><br>
 		</p>
 		<p align="justify">
 			 Прейскурант на услуги предоставления автотранспорта и спецтехники
@@ -78,7 +78,7 @@ $APPLICATION->SetTitle("Дополнительные услуги");
  <a href="http://sezlipetsk/upload/uslugi/3.%20%D0%9F%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D1%83%D1%80%D0%B0%D0%BD%D1%82%20%D0%BD%D0%B0%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D1%83%20Colocation.pdf"><img width="24" alt="pdf.png" src="/upload/medialibrary/e67/e67319c3d1cb31506d1ef9237da6daa1.png" height="30" title="pdf.png"></a>&nbsp;192кб<br>
 		</p>
 		<p align="justify">
-			 24.09.2015<br>
+ <span style="font-size: 8pt;">24.09.2015</span><br>
 		</p>
 		<p align="justify">
 			 Прейскурант на услугу Colocation&nbsp;
@@ -91,7 +91,7 @@ $APPLICATION->SetTitle("Дополнительные услуги");
  <a href="http://sezlipetsk/upload/uslugi/4.%20%D0%9F%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D1%83%D1%80%D0%B0%D0%BD%D1%82%20%D0%BD%D0%B0%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BC%D0%B5%D1%81%D1%82%D0%B0%20%D0%B2%20%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B8%20%D0%B0%D1%80%D0%B5%D0%BD%D0%B4%D1%8B%20%D0%BE%D0%BF%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D0%B2%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE%D0%BD.pdf"><img width="24" alt="pdf.png" src="/upload/medialibrary/e67/e67319c3d1cb31506d1ef9237da6daa1.png" height="30" title="pdf.png"></a>&nbsp;124кб<br>
 		</p>
 		<p align="justify">
-			 24.09.2015<br>
+ <span style="font-size: 8pt;">24.09.2015</span><br>
 		</p>
 		<p align="justify">
 			 Прейскурант на услуги предоставления места в кабельной канализации и аренды оптических волокон
@@ -103,4 +103,4 @@ $APPLICATION->SetTitle("Дополнительные услуги");
 	</div>
  </section>
 </div>
-<br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+ <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
