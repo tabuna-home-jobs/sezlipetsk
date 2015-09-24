@@ -578,7 +578,7 @@ $APPLICATION->SetTitle("Интерактивная карта");
 							//Вызываем блок с подсказкой
 							$("#"+id).css({
 								display : "block",
-								top : topMouse,
+								top : 0,
 								left : leftMouse
 							});
 
@@ -611,7 +611,7 @@ $APPLICATION->SetTitle("Интерактивная карта");
 							//Вызываем блок с подсказкой
 							$("#"+id).css({
 								display : "block",
-								top : topMouse,
+								top : 0,
 								left : leftMouse
 							});
 
@@ -637,6 +637,27 @@ $APPLICATION->SetTitle("Интерактивная карта");
 							var id = e.key;
 							var leftMouse = event.clientX + "px";
 							var topMouse = event.clientY + "px";
+
+
+/*
+							var contTop = $(".main.container").offset().top;
+
+							var topKa = topMouse - contTop;
+
+							var coordinateTop = 0;
+
+							if(topKa >= 254){
+
+								coordinateTop = 0;
+
+							}else if(topKa >= 130){
+
+								coordinateTop = 150;
+
+							}else{
+								coordinateTop = topMouse;
+							}*/
+
 
 							//Зыкрываем все подсказки
 							$(".wrapper-tooltip").css({
@@ -680,89 +701,90 @@ $APPLICATION->SetTitle("Интерактивная карта");
 			</script>
 
 		</section>
+		<?
+
+			$APPLICATION->IncludeComponent(
+				"bitrix:news",
+				"rezidenty_map",
+				array(
+					"COMPONENT_TEMPLATE" => "rezidenty_map",
+					"IBLOCK_TYPE" => "information",
+					"IBLOCK_ID" => "12",
+					"NEWS_COUNT" => "1000",
+					"USE_SEARCH" => "N",
+					"USE_RSS" => "N",
+					"USE_RATING" => "N",
+					"USE_CATEGORIES" => "N",
+					"USE_REVIEW" => "N",
+					"USE_FILTER" => "N",
+					"SORT_BY1" => "ACTIVE_FROM",
+					"SORT_ORDER1" => "DESC",
+					"SORT_BY2" => "SORT",
+					"SORT_ORDER2" => "ASC",
+					"CHECK_DATES" => "Y",
+					"SEF_MODE" => "Y",
+					"SEF_FOLDER" => "/about/rezidenty/",
+					"AJAX_MODE" => "N",
+					"AJAX_OPTION_JUMP" => "N",
+					"AJAX_OPTION_STYLE" => "Y",
+					"AJAX_OPTION_HISTORY" => "N",
+					"AJAX_OPTION_ADDITIONAL" => "",
+					"CACHE_TYPE" => "A",
+					"CACHE_TIME" => "36000000",
+					"CACHE_FILTER" => "N",
+					"CACHE_GROUPS" => "Y",
+					"SET_LAST_MODIFIED" => "N",
+					"SET_TITLE" => "Y",
+					"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+					"ADD_SECTIONS_CHAIN" => "Y",
+					"ADD_ELEMENT_CHAIN" => "Y",
+					"USE_PERMISSIONS" => "N",
+					"DISPLAY_DATE" => "N",
+					"DISPLAY_PICTURE" => "N",
+					"DISPLAY_PREVIEW_TEXT" => "N",
+					"USE_SHARE" => "N",
+					"PREVIEW_TRUNCATE_LEN" => "",
+					"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
+					"LIST_FIELD_CODE" => array(
+						0 => "NAME",
+						1 => "PREVIEW_TEXT",
+						2 => "",
+					),
+					"LIST_PROPERTY_CODE" => array(
+						0 => "ADDR",
+						1 => "SITE",
+						2 => "PHONE",
+						3 => "IMG_HOVER",
+						4 => "",
+					),
+					"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+					"DISPLAY_NAME" => "Y",
+					"META_KEYWORDS" => "-",
+					"META_DESCRIPTION" => "-",
+					"BROWSER_TITLE" => "-",
+					"DETAIL_SET_CANONICAL_URL" => "N",
+					"DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
+					"DETAIL_FIELD_CODE" => array(
+						0 => "NAME",
+						1 => "DETAIL_TEXT",
+						2 => "",
+					),
+					"DETAIL_PROPERTY_CODE" => array(
+						0 => "ADDR",
+						1 => "AREA_NUMBER",
+						2 => "SITE",
+						3 => "PHONE",
+						4 => "IMG_HOVER",
+						5 => "IMAGES",
+						6 => "",
+					)
+				),
+				false
+			);
+		?>
 	</div>
 
-	<?
 
-		$APPLICATION->IncludeComponent(
-			"bitrix:news",
-			"rezidenty_map",
-			array(
-				"COMPONENT_TEMPLATE" => "rezidenty_map",
-				"IBLOCK_TYPE" => "information",
-				"IBLOCK_ID" => "12",
-				"NEWS_COUNT" => "1000",
-				"USE_SEARCH" => "N",
-				"USE_RSS" => "N",
-				"USE_RATING" => "N",
-				"USE_CATEGORIES" => "N",
-				"USE_REVIEW" => "N",
-				"USE_FILTER" => "N",
-				"SORT_BY1" => "ACTIVE_FROM",
-				"SORT_ORDER1" => "DESC",
-				"SORT_BY2" => "SORT",
-				"SORT_ORDER2" => "ASC",
-				"CHECK_DATES" => "Y",
-				"SEF_MODE" => "Y",
-				"SEF_FOLDER" => "/about/rezidenty/",
-				"AJAX_MODE" => "N",
-				"AJAX_OPTION_JUMP" => "N",
-				"AJAX_OPTION_STYLE" => "Y",
-				"AJAX_OPTION_HISTORY" => "N",
-				"AJAX_OPTION_ADDITIONAL" => "",
-				"CACHE_TYPE" => "A",
-				"CACHE_TIME" => "36000000",
-				"CACHE_FILTER" => "N",
-				"CACHE_GROUPS" => "Y",
-				"SET_LAST_MODIFIED" => "N",
-				"SET_TITLE" => "Y",
-				"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
-				"ADD_SECTIONS_CHAIN" => "Y",
-				"ADD_ELEMENT_CHAIN" => "Y",
-				"USE_PERMISSIONS" => "N",
-				"DISPLAY_DATE" => "N",
-				"DISPLAY_PICTURE" => "N",
-				"DISPLAY_PREVIEW_TEXT" => "N",
-				"USE_SHARE" => "N",
-				"PREVIEW_TRUNCATE_LEN" => "",
-				"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
-				"LIST_FIELD_CODE" => array(
-					0 => "NAME",
-					1 => "PREVIEW_TEXT",
-					2 => "",
-				),
-				"LIST_PROPERTY_CODE" => array(
-					0 => "ADDR",
-					1 => "SITE",
-					2 => "PHONE",
-					3 => "IMG_HOVER",
-					4 => "",
-				),
-				"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-				"DISPLAY_NAME" => "Y",
-				"META_KEYWORDS" => "-",
-				"META_DESCRIPTION" => "-",
-				"BROWSER_TITLE" => "-",
-				"DETAIL_SET_CANONICAL_URL" => "N",
-				"DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
-				"DETAIL_FIELD_CODE" => array(
-					0 => "NAME",
-					1 => "DETAIL_TEXT",
-					2 => "",
-				),
-				"DETAIL_PROPERTY_CODE" => array(
-					0 => "ADDR",
-					1 => "AREA_NUMBER",
-					2 => "SITE",
-					3 => "PHONE",
-					4 => "IMG_HOVER",
-					5 => "IMAGES",
-					6 => "",
-				)
-			),
-			false
-		);
-	?>
 
 
 
