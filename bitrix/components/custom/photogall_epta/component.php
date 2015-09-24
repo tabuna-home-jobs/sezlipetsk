@@ -70,7 +70,7 @@ $arParams["DETAIL_URL"]=trim($arParams["DETAIL_URL"]);
 
 $arParams["NEWS_COUNT"] = intval($arParams["NEWS_COUNT"]);
 if($arParams["NEWS_COUNT"]<=0)
-	$arParams["NEWS_COUNT"] = 20;
+	$arParams["NEWS_COUNT"] = 1120;
 
 $arParams["CACHE_FILTER"] = $arParams["CACHE_FILTER"]=="Y";
 if(!$arParams["CACHE_FILTER"] && count($arrFilter)>0)
@@ -396,7 +396,7 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 			$arSelect = Array("ID", "NAME", "DATE_ACTIVE_FROM", "DETAIL_PAGE_URL", "PREVIEW_PICTURE","DETAIL_PICTURE");
 			/// выборка значений полей.  CODE - код дополнительного свойства(если есть) , DETAIL_TEXT - детальное описание элемента
 			$arFilter = Array("IBLOCK_ID"=>$info_item, "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
-			$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>50), $arSelect);
+			$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>500), $arSelect);
 			while($ob = $res->GetNextElement()) // "бежим" по элементам
 			{
 				$arFields[] = $ob->GetFields();  // $arFields массив значений полей текущего элемента
