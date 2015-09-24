@@ -3175,6 +3175,9 @@ background-image: url("../img/view_activ.png");
         padding-right: 0px;
     }
 }
+.container{
+  position: relative;
+}
 .redUl{
     margin-bottom: 40px;
     padding-left: 0px;
