@@ -1,6 +1,12 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Интерактивная карта");
+
+	//Подключаем модуль блоков
+	if(!CModule::IncludeModule("iblock"))
+		return;
+
+
 ?>
 <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/mapster.js"></script>
 <link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH?>/css/mapstyle.css">
@@ -147,6 +153,7 @@ $APPLICATION->SetTitle("Интерактивная карта");
 						<!--Круг1-->
 						<area id="elips1" href="#" data-group="zone001" shape="poly" coords="357,211,357,218,359,227,363,238,368,247,376,255,383,259,392,264,402,265,411,266,419,265,429,261,437,257,444,250,450,242,453,238,455,232,457,221,457,210,456,202,453,195,450,188,444,181,436,175,430,171,420,167,412,166,404,166,394,167,386,170,378,175,371,181,365,189,361,198">
 						<!--Круг1-->
+						<area href="#" data-group="zone29" shape="poly" coords="454,251.9999995665117,451,270.9999995665117,502,275.9999995665117,504,273.9999995665117,494,257.9999995665117,481,253.9999995665117">
 
 						<!--Круг2-->
 						<area id="elips2" href="#" data-group="zone002" shape="poly" coords="496,240,500,249,508,258,517,264,524,268,531,270,539,271,547,270,557,267,565,264,570,260,575,255,579,251,582,246,585,240,587,233,588,226,589,220,588,214,586,207,582,199,578,192,574,188,568,183,562,179,555,176,546,174,537,174,528,176,521,178,515,181,510,185,505,190,501,195,497,202,494,208,493,217,492,225,493,233,493,233">
@@ -557,6 +564,25 @@ $APPLICATION->SetTitle("Интерактивная карта");
 						stroke: true,
 						strokeColor: '0071bc',
 						singleSelect: true,
+						onClick: function (e) {
+							var event = event || window.event;
+							var id = e.key;
+							var leftMouse = event.clientX + "px";
+							var topMouse = event.clientY + "px";
+
+							//Зыкрываем все подсказки
+							$(".wrapper-tooltip").css({
+								display : "none"
+							});
+
+							//Вызываем блок с подсказкой
+							$("#"+id).css({
+								display : "block",
+								top : topMouse,
+								left : leftMouse
+							});
+
+						},
 						render_select: {
 							fillColor: 'adadad'
 						}
@@ -571,6 +597,25 @@ $APPLICATION->SetTitle("Интерактивная карта");
 						stroke: true,
 						strokeColor: '0071bc',
 						singleSelect: true,
+						onClick: function (e) {
+							var event = event || window.event;
+							var id = e.key;
+							var leftMouse = event.clientX + "px";
+							var topMouse = event.clientY + "px";
+
+							//Зыкрываем все подсказки
+							$(".wrapper-tooltip").css({
+								display : "none"
+							});
+
+							//Вызываем блок с подсказкой
+							$("#"+id).css({
+								display : "block",
+								top : topMouse,
+								left : leftMouse
+							});
+
+						},
 						render_select: {
 							fillColor: 'adadad'
 						}
@@ -637,62 +682,88 @@ $APPLICATION->SetTitle("Интерактивная карта");
 		</section>
 	</div>
 
-	<!--Всплывающее окошко-->
-	<div id="zone1" class="tooltip-zone wrapper-tooltip">
-		<img src="<?=SITE_TEMPLATE_PATH?>/img/img_tool/tooltp.jpg">
-		<div class="title-zone">ООО «ЛЗСК Оконные системы»</div>
-		<div class="info-zone">
-			<p><span>№ участка:</span> 53</p>
-			<p><span>Кадастровый номер:</span> 48:02:100 02 01:132</p>
-			<p><span>Страна резидента:</span> Россия</p>
-			<p><span>Вид деятельности:</span> Автомобилестроение и автокомпоненты</p>
-			<p><span>Площадь:</span> 5,9 (га)</p>
-			<p><span>Суть проекта:</span> Строительство предприятия по производству светопрозрачных конструкций из листового стекла</p>
-		</div>
-		<div class="watch-this more_about">
-			<a href="#" class="all">Посмотреть
-				<span class="glyphicon glyphicon-menu-right"></span>
-			</a>
-		</div>
-	</div>
-	<!--Всплывающее окошко-->
-	<!--Всплывающее окошко-->
-	<div id="zone3" class="tooltip-zone wrapper-tooltip">
-		<img src="<?=SITE_TEMPLATE_PATH?>/img/img_tool/tooltp.jpg">
-		<div class="title-zone">ООО «Некая компания»</div>
-		<div class="info-zone">
-			<p><span>№ участка:</span> 53</p>
-			<p><span>Кадастровый номер:</span> 48:02:100 02 01:132</p>
-			<p><span>Страна резидента:</span> Россия</p>
-			<p><span>Вид деятельности:</span> Автомобилестроение и автокомпоненты</p>
-			<p><span>Площадь:</span> 5,9 (га)</p>
-			<p><span>Суть проекта:</span> Строительство предприятия по производству светопрозрачных конструкций из листового стекла</p>
-		</div>
-		<div class="watch-this more_about">
-			<a href="#" class="all">Посмотреть
-				<span class="glyphicon glyphicon-menu-right"></span>
-			</a>
-		</div>
-	</div>
-	<!--Всплывающее окошко-->
-	<!--Всплывающее окошко-->
-	<div id="zone8" class="tooltip-zone wrapper-tooltip">
-		<img src="http://www.octavian48.ru/img/logo_octavian.png">
-		<div class="title-zone">ООО «ОКТАВИАН»</div>
-		<div class="info-zone">
-			<p><span>№ участка:</span> 53</p>
-			<p><span>Кадастровый номер:</span> 48:02:100 02 01:132</p>
-			<p><span>Страна резидента:</span> Россия</p>
-			<p><span>Вид деятельности:</span> Автомобилестроение и автокомпоненты</p>
-			<p><span>Площадь:</span> 5,9 (га)</p>
-			<p><span>Суть проекта:</span> Строительство предприятия по производству светопрозрачных конструкций из листового стекла</p>
-		</div>
-		<div class="watch-this more_about">
-			<a href="#" class="all">Посмотреть
-				<span class="glyphicon glyphicon-menu-right"></span>
-			</a>
-		</div>
-	</div>
-	<!--Всплывающее окошко-->
+	<?
+
+		$APPLICATION->IncludeComponent(
+			"bitrix:news",
+			"rezidenty_map",
+			array(
+				"COMPONENT_TEMPLATE" => "rezidenty_map",
+				"IBLOCK_TYPE" => "information",
+				"IBLOCK_ID" => "12",
+				"NEWS_COUNT" => "1000",
+				"USE_SEARCH" => "N",
+				"USE_RSS" => "N",
+				"USE_RATING" => "N",
+				"USE_CATEGORIES" => "N",
+				"USE_REVIEW" => "N",
+				"USE_FILTER" => "N",
+				"SORT_BY1" => "ACTIVE_FROM",
+				"SORT_ORDER1" => "DESC",
+				"SORT_BY2" => "SORT",
+				"SORT_ORDER2" => "ASC",
+				"CHECK_DATES" => "Y",
+				"SEF_MODE" => "Y",
+				"SEF_FOLDER" => "/about/rezidenty/",
+				"AJAX_MODE" => "N",
+				"AJAX_OPTION_JUMP" => "N",
+				"AJAX_OPTION_STYLE" => "Y",
+				"AJAX_OPTION_HISTORY" => "N",
+				"AJAX_OPTION_ADDITIONAL" => "",
+				"CACHE_TYPE" => "A",
+				"CACHE_TIME" => "36000000",
+				"CACHE_FILTER" => "N",
+				"CACHE_GROUPS" => "Y",
+				"SET_LAST_MODIFIED" => "N",
+				"SET_TITLE" => "Y",
+				"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+				"ADD_SECTIONS_CHAIN" => "Y",
+				"ADD_ELEMENT_CHAIN" => "Y",
+				"USE_PERMISSIONS" => "N",
+				"DISPLAY_DATE" => "N",
+				"DISPLAY_PICTURE" => "N",
+				"DISPLAY_PREVIEW_TEXT" => "N",
+				"USE_SHARE" => "N",
+				"PREVIEW_TRUNCATE_LEN" => "",
+				"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
+				"LIST_FIELD_CODE" => array(
+					0 => "NAME",
+					1 => "PREVIEW_TEXT",
+					2 => "",
+				),
+				"LIST_PROPERTY_CODE" => array(
+					0 => "ADDR",
+					1 => "SITE",
+					2 => "PHONE",
+					3 => "IMG_HOVER",
+					4 => "",
+				),
+				"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+				"DISPLAY_NAME" => "Y",
+				"META_KEYWORDS" => "-",
+				"META_DESCRIPTION" => "-",
+				"BROWSER_TITLE" => "-",
+				"DETAIL_SET_CANONICAL_URL" => "N",
+				"DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
+				"DETAIL_FIELD_CODE" => array(
+					0 => "NAME",
+					1 => "DETAIL_TEXT",
+					2 => "",
+				),
+				"DETAIL_PROPERTY_CODE" => array(
+					0 => "ADDR",
+					1 => "AREA_NUMBER",
+					2 => "SITE",
+					3 => "PHONE",
+					4 => "IMG_HOVER",
+					5 => "IMAGES",
+					6 => "",
+				)
+			),
+			false
+		);
+	?>
+
+
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
