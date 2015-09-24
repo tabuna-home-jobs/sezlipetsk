@@ -69,7 +69,7 @@
                 <div class="col-xs-6 inputs_right">
                     <textarea name="FIELD_6" inputvalue="6"></textarea>
                 </div>
-            </div>
+            </div>ssj
             <div class="row">
                 <div class="col-xs-6 labels_left send_file_desription">
                     Вы можете прикрепить файл с материалами по обращению

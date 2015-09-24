@@ -244,7 +244,7 @@ $APPLICATION->SetTitle("Интерактивная карта");
 								</tr>
 							</table>
 						</div>
-						<div class="info-maschtab text-right">Масштаб	133,9898 м</div>
+
 					</div>
 					<!--Описание карты-->
 				</div>
@@ -297,7 +297,7 @@ $APPLICATION->SetTitle("Интерактивная карта");
 								</tr>
 							</table>
 						</div>
-						<div class="info-maschtab text-right">Масштаб	133,9898 м</div>
+
 					</div>
 					<!--Описание карты-->
 				</div>
@@ -315,6 +315,12 @@ $APPLICATION->SetTitle("Интерактивная карта");
 					<div class="imgMap">
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map5.jpg">
 					</div>
+
+				</div>
+				<div role="tabpanel" class="tab-pane fade" id="net-electro">
+					<div class="imgMap">
+						<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map6.jpg">
+					</div>
 					<!--Описание карты-->
 					<div class="description-map row">
 						<div class="col-xs-5">
@@ -330,14 +336,9 @@ $APPLICATION->SetTitle("Интерактивная карта");
 								</tr>
 							</table>
 						</div>
-						<div class="info-maschtab text-right">Масштаб	133,9898 м</div>
+
 					</div>
 					<!--Описание карты-->
-				</div>
-				<div role="tabpanel" class="tab-pane fade" id="net-electro">
-					<div class="imgMap">
-						<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map6.jpg">
-					</div>
 
 				</div>
 				<div role="tabpanel" class="tab-pane fade" id="net-tele">
@@ -356,7 +357,7 @@ $APPLICATION->SetTitle("Интерактивная карта");
 								</tr>
 							</table>
 						</div>
-						<div class="info-maschtab text-right">Масштаб	133,9898 м</div>
+
 					</div>
 					<!--Описание карты-->
 				</div>
@@ -422,7 +423,7 @@ $APPLICATION->SetTitle("Интерактивная карта");
 								</tr>
 							</table>
 						</div>
-						<div class="info-maschtab text-right">Масштаб	133,9898 м</div>
+
 					</div>
 					<!--Описание карты-->
 				</div>
