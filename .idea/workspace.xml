@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/1e5/1e5ff2fc0d153fc72ddd20fb0376d660.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/6af/6afe63dc1e11b24695958d061189ab47.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/9d2/9d2afaec1ddb88e9dc7fb2c5a076b31e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/a54/a54d65f828b93ce63d100acdb7ddea76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/bf5/bf515e77d89e47b832609d7d709a88e6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/e15/e152a4193dd11a84d486338aa08721b4.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/462/4625f21fedae673b81e6e5a044fe5062.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/97b/97b6b7690357d5f4310f638cee4a30ed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/d11/d1145c39ebbde7126691d8143c9601d6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/e2d/e2dcb6f68b50148436f4fa158d8690b6.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sezlipetsk.iws" />
@@ -39,8 +49,8 @@
       <file leaf-file-name="404.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/404.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22621185">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.51705563">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="e#300#516#0#PHP" expanded="false" />
                 <element signature="e#362#506#0#PHP" expanded="false" />
@@ -151,6 +161,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,7 +183,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,6 +235,118 @@
       <recent name="$PROJECT_DIR$/bitrix/components" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/template.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/img/maaap.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/map/index.php</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
@@ -263,30 +385,6 @@
       <created>1439450512266</created>
       <option name="number" value="Default" />
       <updated>1439450512266</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Добавлены страницы до личного кабинета">
-      <created>1440419096452</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1440419096452</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Прикручена вторизация">
-      <created>1440423413775</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1440423413775</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Добавили 123 на главной">
-      <created>1440501514961</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1440501514961</updated>
-    </task>
-    <task id="LOCAL-00015" summary="убрали 123 на главной">
-      <created>1440501693163</created>
-      <option name="number" value="00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1440501693163</updated>
     </task>
     <task id="LOCAL-00016" summary="Создала страницу контакты">
       <created>1440508409992</created>
@@ -558,7 +656,31 @@
       <option name="project" value="LOCAL" />
       <updated>1442305654073</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Что-то еще не ушедшее вчера">
+      <created>1442987120595</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1442987120596</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Что-то еще не ушедшее вчера">
+      <created>1442987906086</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1442987906087</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Из &quot;Положения о закупках&quot; удален файл &quot;Презентация ОЭЗ Липецк&quot;">
+      <created>1442988547992</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1442988547993</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Изменена структура &quot;Типовые документы&quot; в блоке &quot;Тех. присоед/подкл&quot;">
+      <created>1443002182828</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1443002182842</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TodoView">
@@ -588,14 +710,14 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -613,9 +735,6 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Сделаны заявки 2 вида и жалобы и обращения" />
-    <MESSAGE value="Добавлена возможность оценки" />
-    <MESSAGE value="Сделана форма оценки качества ослуживания" />
     <MESSAGE value="Выведен статус заявок которые послал текущий пользователь" />
     <MESSAGE value="Стили для листинга новостей" />
     <MESSAGE value="Статика раздела о проекте" />
@@ -638,7 +757,10 @@
     <MESSAGE value="обновление инфы" />
     <MESSAGE value="Очередное обновление инфы (будет проклят тот день, когда я связался с гитом и битриксом)" />
     <MESSAGE value="Что-то не ушедшее ранее" />
-    <option name="LAST_COMMIT_MESSAGE" value="Что-то не ушедшее ранее" />
+    <MESSAGE value="Что-то еще не ушедшее вчера" />
+    <MESSAGE value="Из &quot;Положения о закупках&quot; удален файл &quot;Презентация ОЭЗ Липецк&quot;" />
+    <MESSAGE value="Изменена структура &quot;Типовые документы&quot; в блоке &quot;Тех. присоед/подкл&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменена структура &quot;Типовые документы&quot; в блоке &quot;Тех. присоед/подкл&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -659,40 +781,73 @@
     <entry file="file://$PROJECT_DIR$/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#300#516#0#PHP" expanded="false" />
-            <element signature="e#362#506#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#300#516#0#PHP" expanded="false" />
-            <element signature="e#362#506#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#300#516#0#PHP" expanded="false" />
-            <element signature="e#362#506#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22621185">
           <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#300#516#0#PHP" expanded="false" />
+            <element signature="e#362#506#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#300#516#0#PHP" expanded="false" />
+            <element signature="e#362#506#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#300#516#0#PHP" expanded="false" />
+            <element signature="e#362#506#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#300#516#0#PHP" expanded="false" />
+            <element signature="e#362#506#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#300#516#0#PHP" expanded="false" />
+            <element signature="e#362#506#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#300#516#0#PHP" expanded="false" />
+            <element signature="e#362#506#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51705563">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="e#300#516#0#PHP" expanded="false" />
             <element signature="e#362#506#0#PHP" expanded="false" />

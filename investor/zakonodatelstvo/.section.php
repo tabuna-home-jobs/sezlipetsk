@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Законодательство";
+$arDirProperties = Array(
+
+);
+?>

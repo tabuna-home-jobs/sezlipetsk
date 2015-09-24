@@ -36,7 +36,7 @@ $APPLICATION->SetTitle("Контакты");
 
 						<div class="contact_item_number">Т: +7 (4742) 51-51-80,<br/>
 						                                 Т: +7 (4742) 51-53-88,<br/>
-						                                 Ф: +7 (4742) 51-53-23
+						                                 Ф: +7 (4742) 51-53-39
 						</div>
 						<div class="contact_item_dopinfo">
 

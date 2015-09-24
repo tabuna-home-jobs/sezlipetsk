@@ -3189,3 +3189,8 @@ background-image: url("../img/view_activ.png");
 .miniGal>div{
     margin-bottom: 15px;
 }
+.miniGal .fancybox, .fancybox2{
+    display: block;
+    position: relative;
+    height: 100px;
+}

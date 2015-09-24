@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Услуги для резидентов");
+$APPLICATION->SetTitle("Дополнительные услуги");
 ?><div class="main ">
  <section class="top_block_main">
 	<div class="container">
@@ -15,12 +15,7 @@ $APPLICATION->SetTitle("Услуги для резидентов");
 	)
 );?> <!--Хлебные крошки-->
 		<h3><?=$APPLICATION->GetTitle();?></h3>
-		<p align="justify">
-			 Для резидентов и нерезидентов ОЭЗ ППТ «Липецк» предлагаются следующие виды услуг:
-		</p>
-		<p align="justify">
  <b>1. Основные услуги:</b>
-		</p>
 		<p align="justify">
 			 1.1. Технологическое присоединение к системе ресурсоснабжения ОЭЗ – подключение инженерных сетей заявителя к сетям электро-, тепло-, водоснабжения и водоотведения. Стоимость услуг определяется индивидуально и в случаях, установленных законодательством РФ, утверждается уполномоченными органами исполнительной власти.
 		</p>
@@ -43,10 +38,10 @@ $APPLICATION->SetTitle("Услуги для резидентов");
  <br>
 		</p>
 		<p align="justify">
- <a href="/upload/uslugi/1. Прейскурант на услуги ЭТЛ.pdf"><img width="24" alt="pdf.png" src="/upload/medialibrary/e67/e67319c3d1cb31506d1ef9237da6daa1.png" height="30" title="pdf.png"></a>&nbsp;138кб<br>
+ <a href="http://sezlipetsk/upload/uslugi/1.%20%D0%9F%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D1%83%D1%80%D0%B0%D0%BD%D1%82%20%D0%BD%D0%B0%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%20%D0%AD%D0%A2%D0%9B.pdf"><img width="24" alt="pdf.png" src="/upload/medialibrary/e67/e67319c3d1cb31506d1ef9237da6daa1.png" height="30" title="pdf.png"></a>&nbsp;138кб<br>
 		</p>
 		<p align="justify">
- <span style="font-size: 7pt;"><span style="font-size: 8pt;">24</span><span style="font-size: 8pt;">.09.2015</span></span>
+ <span style="font-size: 8pt;">24.09.2015</span>
 		</p>
 		<p align="justify">
 			 Прейскурант на услуги ЭТЛ
@@ -56,7 +51,7 @@ $APPLICATION->SetTitle("Услуги для резидентов");
 			 2.4.Предоставление автотранспорта и спецтехники.
 		</p>
 		<p align="justify">
- <a href="/upload/uslugi/2. Прейскурант на услуги предоставления автотранспорта и спецтехники.pdf"><img width="24" alt="pdf.png" src="/upload/medialibrary/e67/e67319c3d1cb31506d1ef9237da6daa1.png" height="30" title="pdf.png"></a>&nbsp;90кб<br>
+ <a href="http://sezlipetsk/upload/uslugi/2.%20%D0%9F%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D1%83%D1%80%D0%B0%D0%BD%D1%82%20%D0%BD%D0%B0%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B0%D0%B2%D1%82%D0%BE%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0%20%D0%B8%20%D1%81%D0%BF%D0%B5%D1%86%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8.pdf"><img width="24" alt="pdf.png" src="/upload/medialibrary/e67/e67319c3d1cb31506d1ef9237da6daa1.png" height="30" title="pdf.png"></a>&nbsp;90кб<br>
 		</p>
 		<p align="justify">
  <span style="font-size: 8pt;">24.09.2015</span><br>
@@ -80,7 +75,7 @@ $APPLICATION->SetTitle("Услуги для резидентов");
 			 - техническая поддержка квалифицированным персоналом.
 		</p>
 		<p align="justify">
- <a href="/upload/uslugi/3. Прейскурант на услугу Colocation.pdf"><img width="24" alt="pdf.png" src="/upload/medialibrary/e67/e67319c3d1cb31506d1ef9237da6daa1.png" height="30" title="pdf.png"></a>&nbsp;192кб<br>
+ <a href="http://sezlipetsk/upload/uslugi/3.%20%D0%9F%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D1%83%D1%80%D0%B0%D0%BD%D1%82%20%D0%BD%D0%B0%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D1%83%20Colocation.pdf"><img width="24" alt="pdf.png" src="/upload/medialibrary/e67/e67319c3d1cb31506d1ef9237da6daa1.png" height="30" title="pdf.png"></a>&nbsp;192кб<br>
 		</p>
 		<p align="justify">
  <span style="font-size: 8pt;">24.09.2015</span><br>
@@ -93,7 +88,7 @@ $APPLICATION->SetTitle("Услуги для резидентов");
 			 2.7.Предоставление места в кабельной канализации для прокладки кабелей связи и аренда оптических волокон в ВОК.
 		</p>
 		<p align="justify">
- <a href="/upload/uslugi/4. Прейскурант на услуги предоставления места в кабельной канализации и аренды оптических волокон.pdf"><img width="24" alt="pdf.png" src="/upload/medialibrary/e67/e67319c3d1cb31506d1ef9237da6daa1.png" height="30" title="pdf.png"></a>&nbsp;124кб<br>
+ <a href="http://sezlipetsk/upload/uslugi/4.%20%D0%9F%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D1%83%D1%80%D0%B0%D0%BD%D1%82%20%D0%BD%D0%B0%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BC%D0%B5%D1%81%D1%82%D0%B0%20%D0%B2%20%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B8%20%D0%B0%D1%80%D0%B5%D0%BD%D0%B4%D1%8B%20%D0%BE%D0%BF%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D0%B2%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE%D0%BD.pdf"><img width="24" alt="pdf.png" src="/upload/medialibrary/e67/e67319c3d1cb31506d1ef9237da6daa1.png" height="30" title="pdf.png"></a>&nbsp;124кб<br>
 		</p>
 		<p align="justify">
  <span style="font-size: 8pt;">24.09.2015</span><br>
@@ -103,7 +98,7 @@ $APPLICATION->SetTitle("Услуги для резидентов");
 		</p>
 		<p align="justify">
  <br>
-			 2.8. Облуживание объектов благоустройства (обслуживание освещения, автодорог, площадок, тротуаров, озеленения и т.п. общего пользования).<br>
+			 2.8. Облуживание объектов благоустройства (обслуживание освещения, автодорог, площадок, тротуаров, озеленения и т.п. общего пользования).
 		</p>
 	</div>
  </section>
