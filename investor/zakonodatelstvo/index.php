@@ -15,7 +15,14 @@ $APPLICATION->SetTitle("Законодательство");
 	)
 );?> <!--Хлебные крошки-->
 		<h3><?=$APPLICATION->GetTitle();?></h3>
- <p><img alt="doc.png" src="/upload/medialibrary/466/4661a79ee6b7c0a9e87589a3252bec52.png" title="doc.png">&nbsp;<a href="/upload/zakonodatelstvo/ЗАЯВКА на СОГЛАШЕНИЕ.doc">ЗАЯВКА на СОГЛАШЕНИЕ</a><br>
+		<p>
+			<a href="/upload/zakonodatelstvo/ЗАЯВКА на СОГЛАШЕНИЕ.doc"><img alt="doc.png" src="/upload/medialibrary/466/4661a79ee6b7c0a9e87589a3252bec52.png" title="doc.png"></a>&nbsp; 46кб
+		</p>
+		<p>
+			<span style="font-size: 8pt;">24.09.2015</span><br>
+		</p>
+		<p>
+			<a href="/upload/zakonodatelstvo/ЗАЯВКА на СОГЛАШЕНИЕ.doc">ЗАЯВКА на СОГЛАШЕНИЕ</a><br>
  <br>
  <img width="24" alt="doc.png" src="/upload/medialibrary/466/4661a79ee6b7c0a9e87589a3252bec52.png" height="30" title="doc.png">&nbsp;<a href="/upload/zakonodatelstvo/МИНЭК № 75 форма БП.docx">МИНЭК № 75 форма БП</a><br>
  <br>
@@ -24,8 +31,8 @@ $APPLICATION->SetTitle("Законодательство");
  <img width="24" alt="doc.png" src="/upload/medialibrary/466/4661a79ee6b7c0a9e87589a3252bec52.png" height="30" title="doc.png">&nbsp;<a href="/upload/zakonodatelstvo/ФЗ от 08_08_2001 N 129-ФЗ.docx">ФЗ от 08_08_2001 N 129-ФЗ</a><br>
  <br>
  <img width="24" alt="doc.png" src="/upload/medialibrary/466/4661a79ee6b7c0a9e87589a3252bec52.png" height="30" title="doc.png">&nbsp;<a href="/upload/zakonodatelstvo/ФЗ от 22_07_2005 N 116-ФЗ.docx">ФЗ от 22_07_2005 N 116-ФЗ</a><br>
-</p>	
-</div>
+		</p>
+	</div>
  </section>
 </div>
  <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
