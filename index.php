@@ -372,7 +372,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 </div>
 
 
-<-- Модалка-->
+<!-- Модалка-->
 <div class="remember_form_main3">
 	<div class="remember_form_cell">
 		<div class="remember_form">
@@ -385,5 +385,5 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 	</div>
 </div>
 
-<-- Модалка-->
+<!-- Модалка-->
  <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
