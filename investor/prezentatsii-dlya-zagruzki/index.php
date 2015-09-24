@@ -15,7 +15,9 @@ $APPLICATION->SetTitle("Презентации для загрузки");
 	)
 );?> <!--Хлебные крошки-->
 		<h3><?=$APPLICATION->GetTitle();?></h3>
- <img width="24" alt="ppt.png" src="/upload/medialibrary/0e6/0e6df30e7c4aa1cabf1034ed2234d7cf.png" height="30" title="ppt.png">&nbsp;<a href="/upload/prezentacii/Презентация ОЭЗ Липецк 3.pptx">Презентация ОЭЗ "Липецк" 3</a><br>
+<p> 
+<img width="24" alt="ppt.png" src="/upload/medialibrary/0e6/0e6df30e7c4aa1cabf1034ed2234d7cf.png" height="30" title="ppt.png">&nbsp;<a href="/upload/prezentacii/Презентация ОЭЗ Липецк 3.pptx">Презентация ОЭЗ "Липецк" 3</a><br>
+</p>
 	</div>
  </section>
 </div>
