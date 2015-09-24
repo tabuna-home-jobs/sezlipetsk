@@ -19,9 +19,9 @@
 					<div class="foot_name">Партнёры</div>
 					<div class="partners_ul">
 						<ul>
-							<li><a><img src="<?=SITE_TEMPLATE_PATH?>/img/lipobl.png"></a></li>
-							<li><a><img src="<?=SITE_TEMPLATE_PATH?>/img/oez.png"></a></li>
-							<li><a><img src="<?=SITE_TEMPLATE_PATH?>/img/mineconom.png"></a></li>
+							<li><a href="http://admlip.ru/" target="_blank"><img src="<?=SITE_TEMPLATE_PATH?>/img/lipobl.png"></a></li>
+							<li><a href="http://www.russez.ru/disclosure_information/oao_oez/" target="_blank"><img src="<?=SITE_TEMPLATE_PATH?>/img/oez.png"></a></li>
+							<li><a href="http://economy.gov.ru/" target="_blank"><img src="<?=SITE_TEMPLATE_PATH?>/img/mineconom.png"></a></li>
 						</ul>
 					</div>
 				</div>

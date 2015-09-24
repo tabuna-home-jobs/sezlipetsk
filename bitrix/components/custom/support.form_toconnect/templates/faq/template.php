@@ -49,20 +49,30 @@
             </div>
             <div class="row">
                 <div class="col-xs-6 labels_left">
-                    Выберите тему
+	                <span nameinput="5">Тема</span>
+
                 </div>
                 <div class="col-xs-6 inputs_right">
-                    <select><option>Выберите тему</option></select>
+                    <select name="FIELD_5" inputvalue="5">
+	                    <option value="Без темы">Выберите тему</option>
+	                    <option value="Электроснабжение">Электроснабжение</option>
+	                    <option value="Теплоснабжение">Теплоснабжение</option>
+	                    <option value="Газоснажение">Газоснажение</option>
+	                    <option value="Водоснабжение">Водоснабжение</option>
+	                    <option value="Водоотведениие">Водоотведениие</option>
+	                    <option value="Телекоммуникации">Телекоммуникации</option>
+
+                    </select>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-6 labels_left">
-                    <span nameinput="5">
+                    <span nameinput="6">
                         Сообщение
                     </span>
                 </div>
                 <div class="col-xs-6 inputs_right">
-                    <textarea name="FIELD_5" inputvalue="5"></textarea>
+                    <textarea name="FIELD_6" inputvalue="6"></textarea>
                 </div>
             </div>
             <div class="row">

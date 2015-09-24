@@ -32,7 +32,7 @@ h2 {
 }
 h3 {
   margin: 15px 0;
-  word-break: break-all;
+  /*word-break: break-all;*/
 }
 h4 {
   font-family: FBold;
@@ -2006,7 +2006,7 @@ margin:15px 0;
   text-decoration: none;
   cursor: pointer;
 }
-.send_form {
+.send_form, .send_form2 {
   padding: 10px;
   background-color: #e13738;
     width: 100%;
@@ -2014,7 +2014,7 @@ margin:15px 0;
     text-align: center;
     color: white;
 }
-.send_form:hover {
+.send_form:hover, .send_form2:hover {
   background-color: #C90B0C;
   text-decoration: none;
   color: white;
