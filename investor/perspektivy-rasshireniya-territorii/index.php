@@ -132,7 +132,7 @@ $APPLICATION->SetTitle("Перспективы расширения террит
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/video.jpg" title="Видео">
 							<div class="in_galery_foto">
 								<div>
-									<img src="/bitrix/templates/oez/img/galery_loop.png">
+									<img src="/bitrix/templates/oez/img/play.png">
 								</div>
 							</div>
 						</a>
