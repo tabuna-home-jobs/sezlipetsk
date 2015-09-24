@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/1e5/1e5ff2fc0d153fc72ddd20fb0376d660.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/6af/6afe63dc1e11b24695958d061189ab47.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/9d2/9d2afaec1ddb88e9dc7fb2c5a076b31e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/a54/a54d65f828b93ce63d100acdb7ddea76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/bf5/bf515e77d89e47b832609d7d709a88e6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/e15/e152a4193dd11a84d486338aa08721b4.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/462/4625f21fedae673b81e6e5a044fe5062.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/97b/97b6b7690357d5f4310f638cee4a30ed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/d11/d1145c39ebbde7126691d8143c9601d6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/e2d/e2dcb6f68b50148436f4fa158d8690b6.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/029/029609a72b5a1c9704c477355a7719a0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/0c6/0c6cedd559b6a611a72cd1c5159bab6c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/3fd/3fdf6d757f7a8e474a9c741bbe111cfe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/6bd/6bd7944e4a299a73d40a42b8da8fa9d2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/917/9172f7b8709af9302535569610850165.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/a6c/a6c79ef420bf4a8d43bc56fd35732441.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/ae9/ae95daa7136956493d4644f214cc1cea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/f2a/f2ad3a9202c653e61d47310c0b487748.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/200/2006b69dd1ba2a289b65f52edebc64e0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/379/379c311d7676f3c273aa85eb77fbf8db.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/417/4175681eff57f0480739d9140a5e51d0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/53d/53d04f56036b58b91238254d3e2641e6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/59c/59c114a299084bd8ec134d9c88c06a8f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/5d9/5d947a8b2cb3ce4b32357041150f7d5c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/a16/a16c48ed6a48f145034a9849ac3ebbdf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/c86/c863f7893dfd51b5651ef0d7ee4c1729.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sezlipetsk.iws" />
@@ -50,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/404.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.51705563">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="e#300#516#0#PHP" expanded="false" />
                 <element signature="e#362#506#0#PHP" expanded="false" />
@@ -249,8 +255,13 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/script.js</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/img/maaap.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/template.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/faq/template.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/css/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/footer.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/img/oez.png</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/map/index.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
@@ -385,12 +396,6 @@
       <created>1439450512266</created>
       <option name="number" value="Default" />
       <updated>1439450512266</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Создала страницу контакты">
-      <created>1440508409992</created>
-      <option name="number" value="00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1440508409992</updated>
     </task>
     <task id="LOCAL-00017" summary="Добавила вёрстку на страницу &quot;Контакты&quot;">
       <created>1440509306787</created>
@@ -680,7 +685,13 @@
       <option name="project" value="LOCAL" />
       <updated>1443002182842</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Обновлены иконки в разделе &quot;Телекоммуникации&quot;">
+      <created>1443082686747</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1443082686759</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TodoView">
@@ -694,8 +705,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="-14" width="1405" height="924" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -705,7 +717,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26931408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2584541" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2584541" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -713,7 +725,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -735,7 +746,6 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Выведен статус заявок которые послал текущий пользователь" />
     <MESSAGE value="Стили для листинга новостей" />
     <MESSAGE value="Статика раздела о проекте" />
     <MESSAGE value="Добавлено ещё 2 странички сми о нас и пресс релизы" />
@@ -760,7 +770,8 @@
     <MESSAGE value="Что-то еще не ушедшее вчера" />
     <MESSAGE value="Из &quot;Положения о закупках&quot; удален файл &quot;Презентация ОЭЗ Липецк&quot;" />
     <MESSAGE value="Изменена структура &quot;Типовые документы&quot; в блоке &quot;Тех. присоед/подкл&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменена структура &quot;Типовые документы&quot; в блоке &quot;Тех. присоед/подкл&quot;" />
+    <MESSAGE value="Обновлены иконки в разделе &quot;Телекоммуникации&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновлены иконки в разделе &quot;Телекоммуникации&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -847,7 +858,7 @@
     <entry file="file://$PROJECT_DIR$/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51705563">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
             <element signature="e#300#516#0#PHP" expanded="false" />
             <element signature="e#362#506#0#PHP" expanded="false" />
