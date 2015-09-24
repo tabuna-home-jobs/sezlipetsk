@@ -1,66 +1,128 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Перспективы расширения территории");
-?><div class="main ">
- <section class="top_block_main">
-	<div class="container">
-		 <!--Хеебный крош--> <?$APPLICATION->IncludeComponent(
-	"custom:breadcrumb",
-	"",
-	Array(
-		"COMPONENT_TEMPLATE" => "oez",
-		"START_FROM" => "0",
-		"PATH" => "",
-		"SITE_ID" => "s1"
-	)
-);?> <!--Хлебные крошки-->
+?>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.fancybox').fancybox();
+			$(".fancybox2").fancybox({
+				maxWidth	: 860,
+				maxHeight	: 495,
+				padding		: 0,
+				fitToView	: false,
+				width		: '70%',
+				height		: '70%',
+				autoSize	: false,
+				closeClick	: false,
+				openEffect	: 'none',
+				closeEffect	: 'none'
+			});;
+		});
+	</script>
+
+
+	<div class="main container">
+		<!--Хеебный крош--> <?$APPLICATION->IncludeComponent(
+			"custom:breadcrumb",
+			"",
+			Array(
+				"COMPONENT_TEMPLATE" => "oez",
+				"START_FROM" => "0",
+				"PATH" => "",
+				"SITE_ID" => "s1"
+			)
+		);?> <!--Хлебные крошки-->
 		<h3><?=$APPLICATION->GetTitle();?></h3>
-		 10 августа 2015 года проект ОЭЗ ППТ «Липецк» получил дальнейшее развитие – Правительством РФ было принято решение о расширении территории ОЭЗ путем выделения земельного участка площадью 1 278 Га на территории Елецкого муниципального района Липецкой области.
-		<p>
-			 Участок расположен в 93 км от действующей территории ОЭЗ ППТ «Липецк», в 76 км от Липецка и 15 км от Ельца.
-		</p>
-		<p>
-			 Основные преимущества участка:
-		</p>
-		<ul style="text-align: justify;">
-			<li>
-			<p>
-				 примыкание к федеральной автомобильной дороге М4 «Дон»
-			</p>
- </li>
-			<li>
-			<p>
-				 наличие 2-x организованных въездов
-			</p>
- </li>
-			<li>
-			<p>
-				 расположение в непосредственной близости к крупной железнодорожной станции «Извалы»
-			</p>
- </li>
-			<li>
-			<p>
-				 высокий кадровый потенциал Елецкого района
-			</p>
- </li>
-		</ul>
-		<p>
-			 Источники ресурсообеспечения елецкой площадки ОАО «ОЭЗ ППТ «Липецк»:
-		</p>
-		<ul style="text-align: justify;">
-			<li>
-			<p>
-				 Электрическая энергия – ПС-500 «Елецкая» на удалении 6 км в направлении на юго-запад
-			</p>
- </li>
-			<li>
-			<p>
-				 Газ – ГРС г. Ельца на удалении 14 км в направлении на юго-запад
-			</p>
- </li>
-		</ul>
- <br>
+
+		<section class="main_blocks margin_top row">
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 dop-text">
+				Земельный участок площадью 1 278 Га на территории Елецкого муниципального района Липецкой области.
+
+
+			</div>
+			<div class="col-lg-7 col-sm-12 col-md-7 col-xs-12 my_left">
+				<div class="row">
+					<div class="myWrap">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 iii">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/ic1.png"/>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 iii">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/ic2.png"/>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="myWrap">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 iii">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/ic3.png"/>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 iii">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/ic4.png"/>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/myMap.png" />
+				</div>
+
+			</div>
+			<div class="col-lg-5 col-sm-12 col-md-5 col-xs-12">
+
+				<ul class="redUl">
+					Основные преимущества участка:
+					<li>примыкание к федеральной трассе М4 «Дон»</li>
+					<li>наличие 2-x организованных въездов</li>
+					<li>расположение в непосредственной близости к крупной железнодорожной станции «Извалы»</li>
+					<li>высокий кадровый потенциал Елецкого района</li>
+				</ul>
+				<ul class="redUl">
+					Существующие источники ресурсообеспечения:
+					<li>Электрическая энергия - ПС-500 «Елецкая» </li>
+					<li>Газ - ГРС г. Ельца</li>
+					<li>Вода - Водозабор «Трубицинский»</li>
+				</ul>
+				<div class="hren">
+
+					Участок расположен в 93 км от действующей территории ОЭЗ ППТ «Липецк», в 76 км от Липецка и 15 км от Ельца.
+				</div>
+				<div class="miniGal">
+					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
+						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg">
+						</a>
+					</div>
+					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
+						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/img2.jpg">
+						</a>
+					</div>
+					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
+						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg">
+						</a>
+					</div>
+					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
+						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg">
+						</a>
+					</div>
+					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
+						<a class="fancybox2 fancybox.iframe" href="https://www.youtube.com/embed/9_gwFUM8-fs">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/video.jpg">
+						</a>
+					</div>
+					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
+						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
 	</div>
- </section>
-</div>
- <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
