@@ -56,7 +56,7 @@ $APPLICATION->SetTitle("Перспективы расширения террит
 							<img src="<?=SITE_TEMPLATE_PATH?>/img/ic3.png"/>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 iii">
-							<img src="<?=SITE_TEMPLATE_PATH?>/img/ic4.png"/>
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/140.png"/>
 						</div>
 						<div class="clear"></div>
 					</div>
@@ -88,32 +88,63 @@ $APPLICATION->SetTitle("Перспективы расширения террит
 				<div class="miniGal">
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
 						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
-							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg" title="Описание" >
+							<div class="in_galery_foto">
+								<div>
+									<img src="/bitrix/templates/oez/img/galery_loop.png">
+								</div>
+							</div>
+
 						</a>
 					</div>
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
 						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
-							<img src="<?=SITE_TEMPLATE_PATH?>/img/img2.jpg">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/img2.jpg" title="Описание">
+							<div class="in_galery_foto">
+								<div>
+									<img src="/bitrix/templates/oez/img/galery_loop.png">
+								</div>
+							</div>
 						</a>
 					</div>
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
 						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
-							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg" title="Описание">
+							<div class="in_galery_foto">
+								<div>
+									<img src="/bitrix/templates/oez/img/galery_loop.png">
+								</div>
+							</div>
 						</a>
 					</div>
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
 						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
-							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg" title="Описание">
+							<div class="in_galery_foto">
+								<div>
+									<img src="/bitrix/templates/oez/img/galery_loop.png">
+								</div>
+							</div>
 						</a>
 					</div>
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
-						<a class="fancybox2 fancybox.iframe" href="https://www.youtube.com/embed/9_gwFUM8-fs">
-							<img src="<?=SITE_TEMPLATE_PATH?>/img/video.jpg">
+						<a class="fancybox2 fancybox.iframe" href="https://www.youtube.com/embed/m6Vibr5_ED0">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/video.jpg" title="Видео">
+							<div class="in_galery_foto">
+								<div>
+									<img src="/bitrix/templates/oez/img/galery_loop.png">
+								</div>
+							</div>
 						</a>
 					</div>
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
 						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
-							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg" title="Описание">
+							<div class="in_galery_foto">
+								<div>
+									<img src="/bitrix/templates/oez/img/galery_loop.png">
+								</div>
+							</div>
 						</a>
 					</div>
 				</div>
