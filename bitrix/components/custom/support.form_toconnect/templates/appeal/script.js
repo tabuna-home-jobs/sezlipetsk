@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 
 
-    $('.send_form').click(function() {
+    $('.send_form2').click(function() {
         var but = $(this);
         var errorArr = false;
         var allMessage = but.parent().parent().parent().find('[allmessage]');
