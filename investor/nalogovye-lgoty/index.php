@@ -81,8 +81,19 @@ $APPLICATION->SetTitle("Налоговые льготы");
  </li>
 		</ul>
 	</div>
- </section>
+	<div class="col-xs-6>
+ <img scr=" upload=" " medialibrary="">
+<p class="" style="text-align: center;">
+</p>
+<div class="row">
+		<div class="col-md-6">
+<p>20% внешней территории ОЭЗ</p>
+<p>для резидентов ОЭЗ:</p>
+<p>2% - на срок до 7 лет</p>
+<p>7% - следующие 5 лет</p>
+<p>15,5% - далее</p>
 </div>
-<p class="" style="text-align: right;">
-	 См. прилагаемая презентация стр.9.
-</p><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+</div>
+	</div>
+</section>
+</div><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
