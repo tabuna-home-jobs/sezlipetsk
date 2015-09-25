@@ -49,6 +49,10 @@ h1,h2,h3 {
   color: #333;
   font-family: FLight;
 }
+a {
+    outline: none !important; /* Убираем границу вокруг ссылок  */
+}
+a:focus{outline:none !important;}
 
 .breadcr {
   font-family: FLight;
@@ -3197,3 +3201,20 @@ background-image: url("../img/view_activ.png");
     position: relative;
     height: 100px;
 }
+.carousel-control{
+    z-index: 999;
+}
+.carousel-control.left>span{
+    left: 50%;
+}
+.carousel-control.right>span{
+    right: 50%;
+}
+.slick-prev, .slick-next{
+    z-index: 999;
+}
+/*******************Времнно скрываем выбор англоязычной версии**********************/
+.rus_eng_search>a+a{
+    display: none;
+}
+/*****************************************/

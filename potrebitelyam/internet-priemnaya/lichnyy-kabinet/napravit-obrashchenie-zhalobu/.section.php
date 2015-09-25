@@ -1,3 +1,6 @@
 <?
-$sSectionName=" napravit-obrashchenie-zhalobu";
+$sSectionName = "Направить обращение/жалобу";
+$arDirProperties = Array(
+
+);
 ?>
