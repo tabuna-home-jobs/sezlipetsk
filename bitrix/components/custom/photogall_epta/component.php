@@ -399,7 +399,7 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 			$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>500), $arSelect);
 			while($ob = $res->GetNextElement()) // "бежим" по элементам
 			{
-				$arFields[] = $ob->GetFields();  // $arFields массив значений полей текущего элемента
+				$arFields[] = $ob->GetFields();  // $arFimoskelds массив значений полей текущего элемента
 			}
 
 			// :D

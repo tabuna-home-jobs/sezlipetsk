@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/029/029609a72b5a1c9704c477355a7719a0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/0c6/0c6cedd559b6a611a72cd1c5159bab6c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/3fd/3fdf6d757f7a8e474a9c741bbe111cfe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/6bd/6bd7944e4a299a73d40a42b8da8fa9d2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/917/9172f7b8709af9302535569610850165.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/a6c/a6c79ef420bf4a8d43bc56fd35732441.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/ae9/ae95daa7136956493d4644f214cc1cea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/uf/f2a/f2ad3a9202c653e61d47310c0b487748.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/200/2006b69dd1ba2a289b65f52edebc64e0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/379/379c311d7676f3c273aa85eb77fbf8db.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/417/4175681eff57f0480739d9140a5e51d0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/53d/53d04f56036b58b91238254d3e2641e6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/59c/59c114a299084bd8ec134d9c88c06a8f.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/5d9/5d947a8b2cb3ce4b32357041150f7d5c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/a16/a16c48ed6a48f145034a9849ac3ebbdf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/uf/c86/c863f7893dfd51b5651ef0d7ee4c1729.png" afterPath="" />
+    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="Очередное обновление инфы (будет проклят тот день, когда я связался с гитом и битриксом)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/components/custom/photogall_epta/component.php" afterPath="$PROJECT_DIR$/bitrix/components/custom/photogall_epta/component.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/galereya-foto-i-video/index.php" afterPath="$PROJECT_DIR$/about/galereya-foto-i-video/index.php" />
     </list>
     <ignored path="sezlipetsk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,15 +38,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="404.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/404.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51705563">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-              <folding>
-                <element signature="e#300#516#0#PHP" expanded="false" />
-                <element signature="e#362#506#0#PHP" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="647" column="0" selection-start-line="647" selection-start-column="0" selection-end-line="647" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/templates/main_photo/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/component.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21023513">
+              <caret line="405" column="47" selection-start-line="405" selection-start-column="47" selection-end-line="405" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about/galereya-foto-i-video/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="133" column="15" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/templates/.default/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="153" column="20" selection-start-line="153" selection-start-column="20" selection-end-line="153" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/news.list/.default/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3178" column="21" selection-start-line="3178" selection-start-column="21" selection-end-line="3178" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,61 +122,64 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/en/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/partners/lang/ru/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/partners/lang/en/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/main_news/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/partners/template.php" />
-        <option value="$PROJECT_DIR$/en/about/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/ru/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/lang/en/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/php_interface/dbconn.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/menu/horizontal_multilevel/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/en_oez/components/bitrix/menu/horizontal_multilevel_en/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/en_oez/header.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/script.js" />
-        <option value="$PROJECT_DIR$/verstka/18.html" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/component.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/template.php" />
-        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/napravit-obrashchenie-zhalobu/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/lang/ru/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/lang/en/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/script.js" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/script.js" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/template.php" />
-        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/otsenka-kachestva-obsluzhivaniya/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/template.php" />
-        <option value="$PROJECT_DIR$/news/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.list/.default/template.php" />
-        <option value="$PROJECT_DIR$/about/rezidenty/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/about_news/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/header.php" />
-        <option value="$PROJECT_DIR$/about/index.php" />
-        <option value="$PROJECT_DIR$/about/press-relizy/index.php" />
-        <option value="$PROJECT_DIR$/about/press-relizy/smi-o-nas/index.php" />
         <option value="$PROJECT_DIR$/about/tsitaty-rukovoditeley/index.php" />
         <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/citate_boss_slider/template.php" />
         <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/temp_connection/template.php" />
         <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-na-prisoedinenie-vremennoe/index.php" />
         <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/temp_connection/style.css" />
         <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-na-prisoedinenie/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/template.php" />
         <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/style.css" />
-        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/index.php" />
-        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/proverka-statusa-zayavki-na-tekh-prisoedinenie-k-setyam-elektrosnabzheniya/index.php" />
         <option value="$PROJECT_DIR$/news/sect_rtop.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.detail/.default/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.detail/.default/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/oez/js/app.js" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/css/style.css" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/photogall_epta/component.php" />
+        <option value="$PROJECT_DIR$/404.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/header.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/video_epta/templates/.default/style.css" />
         <option value="$PROJECT_DIR$/bitrix/components/custom/photogall_epta/templates/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/video_epta/templates/.default/template.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/vashi-obrashcheniya-zhaloby/index.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/posmotret-peredannye-pokazaniya-priborov-ucheta/index.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/index.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/proverka-statusa-zayavki-na-tekh-prisoedinenie-k-setyam-elektrosnabzheniya/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/style.css" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/proverka_status/script.js" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/temp_connection/script.js" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania/script.js" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/script.js" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/faq/script.js" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/script.js" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal_u/script.js" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/script.js" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania/style.css" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal_u/style.css" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal_u/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/component.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/script.js" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/proverka_status/style.css" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/template.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/proverka_status/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/news.list/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty_map/bitrix/news.list/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/css/mapstyle.css" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/script.js" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/css/style.css" />
+        <option value="$PROJECT_DIR$/map/index.php" />
         <option value="$PROJECT_DIR$/about/galereya-foto-i-video/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/photogall_epta/component.php" />
       </list>
     </option>
   </component>
@@ -139,16 +195,16 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="-14" />
-    <option name="width" value="1405" />
-    <option name="height" value="924" />
+    <option name="x" value="61" />
+    <option name="y" value="3" />
+    <option name="width" value="1383" />
+    <option name="height" value="901" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="false" id="Update" />
+    <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
@@ -167,6 +223,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -186,9 +243,362 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="potrebitelyam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="potrebitelyam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tekhnologicheskoe-prisoedinenie-podklyuchenie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="potrebitelyam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dopolnitelnye-uslugi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photogall_epta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photogall_epta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photogall_epta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rezidenty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="galereya-foto-i-video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,7 +607,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/yanglu" />
+    <property name="last_opened_file_path" value="$USER_HOME$/work/maps" />
     <property name="dynamic.classpath" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -227,11 +637,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty_map" />
+      <recent name="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/proverka_status" />
+      <recent name="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania" />
+      <recent name="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates" />
       <recent name="$PROJECT_DIR$/bitrix/components/custom" />
-      <recent name="$PROJECT_DIR$/bitrix/templates/en_oez/js" />
-      <recent name="$PROJECT_DIR$/bitrix/components/custom/photogall_epta" />
-      <recent name="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment" />
-      <recent name="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/temp_connection" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitHub\sezlipetsk\bitrix" />
@@ -240,123 +650,6 @@
       <recent name="$PROJECT_DIR$/bitrix/templates/oez/components" />
       <recent name="$PROJECT_DIR$/bitrix/components" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/script.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/faq/template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/css/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/footer.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bitrix/templates/oez/img/oez.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/map/index.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -396,36 +689,6 @@
       <created>1439450512266</created>
       <option name="number" value="Default" />
       <updated>1439450512266</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Добавила вёрстку на страницу &quot;Контакты&quot;">
-      <created>1440509306787</created>
-      <option name="number" value="00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1440509306787</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Добавила вёрстку на страницу &quot;О проекте&quot;">
-      <created>1440577974766</created>
-      <option name="number" value="00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1440577974766</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Вывела новости на страницу о проэкте">
-      <created>1440579252748</created>
-      <option name="number" value="00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1440579252748</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Вывела новости на страницу о проэкте">
-      <created>1440588440403</created>
-      <option name="number" value="00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1440588440403</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Вывела новости на страницу о проэкте">
-      <created>1440588568989</created>
-      <option name="number" value="00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1440588568989</updated>
     </task>
     <task id="LOCAL-00022" summary="Вывела новости на страницу о проэкте">
       <created>1440589672642</created>
@@ -643,55 +906,85 @@
       <option name="project" value="LOCAL" />
       <updated>1442232922638</updated>
     </task>
-    <task id="LOCAL-00058" summary="Что-то не ушедшее ранее">
-      <created>1442241023233</created>
+    <task id="LOCAL-00058" summary="template">
+      <created>1442306104191</created>
       <option name="number" value="00058" />
       <option name="project" value="LOCAL" />
-      <updated>1442241023233</updated>
+      <updated>1442306104193</updated>
     </task>
-    <task id="LOCAL-00059" summary="Что-то не ушедшее ранее">
-      <created>1442241066856</created>
+    <task id="LOCAL-00059" summary="Управление видео по кнопочге">
+      <created>1442319316794</created>
       <option name="number" value="00059" />
       <option name="project" value="LOCAL" />
-      <updated>1442241066856</updated>
+      <updated>1442319316795</updated>
     </task>
-    <task id="LOCAL-00060" summary="Что-то не ушедшее ранее">
-      <created>1442305654072</created>
+    <task id="LOCAL-00060" summary="Стили для галереи">
+      <created>1442321270792</created>
       <option name="number" value="00060" />
       <option name="project" value="LOCAL" />
-      <updated>1442305654073</updated>
+      <updated>1442321270792</updated>
     </task>
-    <task id="LOCAL-00061" summary="Что-то еще не ушедшее вчера">
-      <created>1442987120595</created>
+    <task id="LOCAL-00061" summary="Картинка какая то">
+      <created>1442321604546</created>
       <option name="number" value="00061" />
       <option name="project" value="LOCAL" />
-      <updated>1442987120596</updated>
+      <updated>1442321604546</updated>
     </task>
-    <task id="LOCAL-00062" summary="Что-то еще не ушедшее вчера">
-      <created>1442987906086</created>
+    <task id="LOCAL-00062" summary="Лисий баг">
+      <created>1442499877934</created>
       <option name="number" value="00062" />
       <option name="project" value="LOCAL" />
-      <updated>1442987906087</updated>
+      <updated>1442499877937</updated>
     </task>
-    <task id="LOCAL-00063" summary="Из &quot;Положения о закупках&quot; удален файл &quot;Презентация ОЭЗ Липецк&quot;">
-      <created>1442988547992</created>
+    <task id="LOCAL-00063" summary="Вывод тикетов в разных шаблонах">
+      <created>1442569837888</created>
       <option name="number" value="00063" />
       <option name="project" value="LOCAL" />
-      <updated>1442988547993</updated>
+      <updated>1442569837890</updated>
     </task>
-    <task id="LOCAL-00064" summary="Изменена структура &quot;Типовые документы&quot; в блоке &quot;Тех. присоед/подкл&quot;">
-      <created>1443002182828</created>
+    <task id="LOCAL-00064" summary="Показания приборов (их отсылка переделана) - динамически добавляются счетчики">
+      <created>1442844229321</created>
       <option name="number" value="00064" />
       <option name="project" value="LOCAL" />
-      <updated>1443002182842</updated>
+      <updated>1442844229322</updated>
     </task>
-    <task id="LOCAL-00065" summary="Обновлены иконки в разделе &quot;Телекоммуникации&quot;">
-      <created>1443082686747</created>
+    <task id="LOCAL-00065" summary="Личный кабинет сообщения выведены">
+      <created>1442928006251</created>
       <option name="number" value="00065" />
       <option name="project" value="LOCAL" />
-      <updated>1443082686759</updated>
+      <updated>1442928006252</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Карты и показания тайтл">
+      <created>1442998405596</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1442998405598</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Добавлен список в обращении">
+      <created>1443017147450</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1443017147450</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Высота блока, масштаб, перенесена легенда, добавлена рамка">
+      <created>1443081855405</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1443081855408</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Возможность вывода резидентов на карте по зонам">
+      <created>1443095002412</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1443095002412</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Позиционирование резидента">
+      <created>1443104120979</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1443104120979</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TodoView">
@@ -704,31 +997,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="-14" width="1405" height="924" extended-state="6" />
-    <editor active="true" />
+    <frame x="61" y="3" width="1383" height="901" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981189" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26931408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2829195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2584541" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2576923" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981189" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -746,14 +1039,6 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Стили для листинга новостей" />
-    <MESSAGE value="Статика раздела о проекте" />
-    <MESSAGE value="Добавлено ещё 2 странички сми о нас и пресс релизы" />
-    <MESSAGE value="Цитаты руководителей замучены" />
-    <MESSAGE value="Добавлены фиксы  к описанию в личном кабинете" />
-    <MESSAGE value="Добавлены сноски в личном кабинте на основе их замечаний ксеркопированных, и изменены права (что скажется на валидации битрикза)" />
-    <MESSAGE value="Изменен личный кабинет (дабавлены блоки), добавлена ещё 1 страничга ^^" />
-    <MESSAGE value="Забыл про картинки))" />
     <MESSAGE value="Коммит для просмотра всей фигни" />
     <MESSAGE value="выливаемз" />
     <MESSAGE value="gogogo" />
@@ -766,103 +1051,392 @@
     <MESSAGE value="обновление инфы в резидентах" />
     <MESSAGE value="обновление инфы" />
     <MESSAGE value="Очередное обновление инфы (будет проклят тот день, когда я связался с гитом и битриксом)" />
-    <MESSAGE value="Что-то не ушедшее ранее" />
-    <MESSAGE value="Что-то еще не ушедшее вчера" />
-    <MESSAGE value="Из &quot;Положения о закупках&quot; удален файл &quot;Презентация ОЭЗ Липецк&quot;" />
-    <MESSAGE value="Изменена структура &quot;Типовые документы&quot; в блоке &quot;Тех. присоед/подкл&quot;" />
-    <MESSAGE value="Обновлены иконки в разделе &quot;Телекоммуникации&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновлены иконки в разделе &quot;Телекоммуникации&quot;" />
+    <MESSAGE value="template" />
+    <MESSAGE value="Управление видео по кнопочге" />
+    <MESSAGE value="Стили для галереи" />
+    <MESSAGE value="Картинка какая то" />
+    <MESSAGE value="Лисий баг" />
+    <MESSAGE value="Вывод тикетов в разных шаблонах" />
+    <MESSAGE value="Показания приборов (их отсылка переделана) - динамически добавляются счетчики" />
+    <MESSAGE value="Личный кабинет сообщения выведены" />
+    <MESSAGE value="Карты и показания тайтл" />
+    <MESSAGE value="Добавлен список в обращении" />
+    <MESSAGE value="Высота блока, масштаб, перенесена легенда, добавлена рамка" />
+    <MESSAGE value="Возможность вывода резидентов на карте по зонам" />
+    <MESSAGE value="Позиционирование резидента" />
+    <option name="LAST_COMMIT_MESSAGE" value="Позиционирование резидента" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/404.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49333334">
+          <caret line="63" column="161" selection-start-line="63" selection-start-column="161" selection-end-line="63" selection-end-column="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/proverka_status/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5693333">
+          <caret line="34" column="181" selection-start-line="34" selection-start-column="181" selection-end-line="34" selection-end-column="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/temp_connection/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6333333">
+          <caret line="23" column="172" selection-start-line="23" selection-start-column="172" selection-end-line="23" selection-end-column="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/vashi-obrashcheniya-zhaloby/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.6296296">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#300#516#0#PHP" expanded="false" />
-            <element signature="e#362#506#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3275862">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal_u/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40533334">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.34266666">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <element signature="e#300#516#0#PHP" expanded="false" />
-            <element signature="e#362#506#0#PHP" expanded="false" />
-          </folding>
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/proverka_status/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal_u/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="142" selection-start-line="48" selection-start-column="114" selection-end-line="48" selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34133333">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-na-prisoedinenie/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0235132">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/proverka_status/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="411" column="16" selection-start-line="411" selection-start-column="16" selection-end-line="411" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.0546665">
+          <caret line="239" column="18" selection-start-line="239" selection-start-column="18" selection-end-line="239" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6296296">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/section.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#300#516#0#PHP" expanded="false" />
-            <element signature="e#362#506#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#300#516#0#PHP" expanded="false" />
-            <element signature="e#362#506#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/rss_section.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#300#516#0#PHP" expanded="false" />
-            <element signature="e#362#506#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/rss.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#300#516#0#PHP" expanded="false" />
-            <element signature="e#362#506#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/news.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.836791">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/.parameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5504841">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/news.detail/.default/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22976878">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/iblock.vote/.default/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28907332">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/search.page/.default/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3679115">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/search.form/flat/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3020231">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/rss.out/.default/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25722542">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/news.index/.default/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/rezidenty/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7330568">
+          <caret line="104" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="104" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/video_epta/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.9259257">
+          <caret line="341" column="31" selection-start-line="341" selection-start-column="31" selection-end-line="341" selection-end-column="184" />
           <folding>
-            <element signature="e#300#516#0#PHP" expanded="false" />
-            <element signature="e#362#506#0#PHP" expanded="false" />
+            <element signature="e#451#475#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/video_epta/.parameters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51705563">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="e#300#516#0#PHP" expanded="false" />
-            <element signature="e#362#506#0#PHP" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.10511757">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/css/mapstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8106667">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6307054">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/tekhnologicheskoe-prisoedinenie-podklyuchenie/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.39419088">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/dopolnitelnye-uslugi/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.286307">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty_map/bitrix/news.list/.default/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26417705">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/news.list/.default/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31673583">
+          <caret line="355" column="89" selection-start-line="355" selection-start-column="81" selection-end-line="355" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3178" column="21" selection-start-line="3178" selection-start-column="21" selection-end-line="3178" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="647" column="0" selection-start-line="647" selection-start-column="0" selection-end-line="647" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/templates/main_photo/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/galereya-foto-i-video/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="133" column="15" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/templates/.default/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="153" column="20" selection-start-line="153" selection-start-column="20" selection-end-line="153" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21023513">
+          <caret line="405" column="47" selection-start-line="405" selection-start-column="47" selection-end-line="405" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
