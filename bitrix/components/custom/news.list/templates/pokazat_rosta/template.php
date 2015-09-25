@@ -30,20 +30,20 @@ $this->setFrameMode(true);
 					<?if(!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])):?>
 						<?if($n == 1){ $str = "active";}else{$str = ""; } ?>
 						<div class="item <?=$str; ?>" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
-							<a href="tsitaty-rukovoditeley/">
+
 								<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
 								     alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
 								     title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>">
-							</a>
+
 						</div>
 					<?else:?>
 
 						<div class="item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
-							<a href="tsitaty-rukovoditeley/">
+
 								<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
 								     alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
 								     title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>">
-							</a>
+
 						</div>
 					<?endif;?>
 				<?endif?>

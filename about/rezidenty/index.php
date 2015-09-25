@@ -99,6 +99,7 @@ $APPLICATION->SetTitle("Резиденты");
 			"news" => "",
 			"section" => "",
 			"detail" => "#ELEMENT_CODE#/",
+			"search" => "search/",
 		)
 	),
 	false
