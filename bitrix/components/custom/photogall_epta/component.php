@@ -70,7 +70,11 @@ $arParams["DETAIL_URL"]=trim($arParams["DETAIL_URL"]);
 
 $arParams["NEWS_COUNT"] = intval($arParams["NEWS_COUNT"]);
 if($arParams["NEWS_COUNT"]<=0)
-	$arParams["NEWS_COUNT"] = 1120;
+	$arParams["NEWS_COUNT"] = 2;
+
+
+
+
 
 $arParams["CACHE_FILTER"] = $arParams["CACHE_FILTER"]=="Y";
 if(!$arParams["CACHE_FILTER"] && count($arrFilter)>0)
@@ -381,7 +385,7 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 			//Выставляем поля которые нам нужны
 			$arSelect = Array("ID", "NAME", "DATE_ACTIVE_FROM", "DETAIL_PAGE_URL", "PREVIEW_PICTURE","DETAIL_PICTURE");
 			//Описываем фильтр по каком будет выборка
-			$arFilter = Array("IBLOCK_ID"=>$info_item,'SECTION_ID' =>$ar_Section['ID'], 'depth_level' => '2',"ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
+			$arFilter = Array("IBLOCK_ID"=>$info_item,'SECTION_ID' =>$ar_Section['ID'], 'depth_level' => '2', "ACTIVE"=>"Y");
 			//Делаем запрос
 			$rs_Section_child = CIBlockElement::GetList(Array(), $arFilter, false, Array(), $arSelect);
 
@@ -422,6 +426,10 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 
 
 			$jj = 0;
+
+
+
+
 			while($ar_Section_child = $rs_Section_child->Fetch() ){
 
 
@@ -474,6 +482,9 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 
 			$ii++;
 		}
+
+
+
 
 		$navComponentParameters = array();
 		if ($arParams["PAGER_BASE_LINK_ENABLE"] === "Y")
@@ -637,6 +648,7 @@ if(isset($arResult["ID"]))
 	{
 		Context::getCurrent()->getResponse()->setLastModified($arResult["ITEMS_TIMESTAMP_X"]);
 	}
+
 
 	return $arResult["ELEMENTS"];
 }

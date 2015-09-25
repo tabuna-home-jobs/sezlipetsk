@@ -12,7 +12,16 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
+	foreach($arResult['razdel'] as $razdleTabsContent){
 
+	foreach($razdleTabsContent['child'] as $contentPhoto) {
+		?>
+		<img src="<?= CFile::GetPath($contentPhoto['PREVIEW_PICTURE']); ?>"><br>
+
+		<?
+	}
+}
+	die('storp');
 
 ?>
 <div role="tabpanel" class="tab-pane fade active in photogal" id="home" aria-labelledby="home-tab">
