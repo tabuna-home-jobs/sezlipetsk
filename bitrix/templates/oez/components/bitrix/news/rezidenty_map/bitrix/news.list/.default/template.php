@@ -27,9 +27,11 @@ $this->setFrameMode(true);
 		?>
 
 			<div id="zone<?=$arItem['PROPERTIES']['AREA_NUMBER']['VALUE']?>" class="tooltip-zone wrapper-tooltip">
+				<div class="img-wrapp">
 				<?if(isset($arItem["DISPLAY_PROPERTIES"]["IMG_HOVER"])&& count($arItem["DISPLAY_PROPERTIES"]["IMG_HOVER"]["FILE_VALUE"])>0 &&$arItem["DISPLAY_PROPERTIES"]["IMG_HOVER"]["FILE_VALUE"]["ID"]!=""):?>
 					<img src="<?=$arItem["DISPLAY_PROPERTIES"]["IMG_HOVER"]["FILE_VALUE"]["SRC"]?>">
 				<?endif;?>
+				</div>
 				<div class="title-zone"><?echo $arItem["NAME"]?></div>
 				<div class="info-zone">
 					<?echo $arItem["PREVIEW_TEXT"];?>

@@ -3197,3 +3197,6 @@ background-image: url("../img/view_activ.png");
     position: relative;
     height: 100px;
 }
+.img-wrapp{
+  text-align: center;
+}
