@@ -3201,11 +3201,9 @@ background-image: url("../img/view_activ.png");
     position: relative;
     height: 100px;
 }
-<<<<<<< HEAD
 .img-wrapp{
   text-align: center;
 }
-=======
 .carousel-control{
     z-index: 999;
 }
@@ -3222,5 +3220,3 @@ background-image: url("../img/view_activ.png");
 .rus_eng_search>a+a{
     display: none;
 }
-/*****************************************/
->>>>>>> 6e0606cfce8d82d28e82c4462960e40939f426cb
