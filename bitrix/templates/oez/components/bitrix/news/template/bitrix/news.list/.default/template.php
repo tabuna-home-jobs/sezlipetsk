@@ -67,9 +67,7 @@ $i = 1;
 						<?echo $arItem["DISPLAY_ACTIVE_FROM"]?>
 					</div>
 				<?endif?>
-				<div class="smi_date">
-					<?echo $arItem["DATE"]?>
-				</div>
+				
 				<div class="smi_name">
 					<?echo $arItem["NAME"]?>
 				</div>

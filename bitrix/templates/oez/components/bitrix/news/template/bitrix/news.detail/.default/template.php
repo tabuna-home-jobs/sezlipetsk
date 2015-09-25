@@ -1,7 +1,7 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 	<section class="container section_resident_main">
 		<div class="row">
-			<div class="col-xs-8 col-sm-8 col-md-8">
+			<div class="col-xs-12 col-sm-12 col-md-12">
 
 				<!--Хеебный крош-->
 				<?$APPLICATION->IncludeComponent(
@@ -17,11 +17,14 @@
 				?>
 				<!--Хлебные крошки-->
 				<h1><?=$arResult["NAME"]?></h1>
+				<br>
+
 			</div>
-			<div class="col-md-4 col-sm-4 col-xs-4"></div>
+
 	</section>
 
 	<?
+		var_dump($arResult['PROPERTIES']);
 		if(!empty($arResult['PROPERTIES']['FILES']['VALUE'])){
 			for($j = 0; $j < count($arResult['PROPERTIES']['FILES']['VALUE']); $j++){
 				$arResult['IMAGES'][$j] = CFile::GetFileArray($arResult['PROPERTIES']['FILES']['VALUE'][$j]);

@@ -3216,6 +3216,11 @@ background-image: url("../img/view_activ.png");
 .slick-prev, .slick-next{
     z-index: 999;
 }
+.slick-initialized .slick-slide {
+    display: inline-block !important;
+    vertical-align: middle;
+    float: none;
+}
 /*******************Времнно скрываем выбор англоязычной версии**********************/
 .rus_eng_search>a+a{
     display: none;

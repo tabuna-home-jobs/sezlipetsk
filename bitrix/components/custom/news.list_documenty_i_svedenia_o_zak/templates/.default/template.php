@@ -41,6 +41,7 @@ $this->setFrameMode(true);
 					$ico = SITE_TEMPLATE_PATH.'/img/tif.png';
 					$type = 'TIF';
 					break;
+				case 'application/msword':
 				case 'text/rtf':
 				case 'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
 					$ico = SITE_TEMPLATE_PATH.'/img/doc2.png';

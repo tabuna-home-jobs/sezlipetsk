@@ -41,12 +41,12 @@ $this->setFrameMode(true);
 			?>
 			<tr id="<?=$this->GetEditAreaId($arItem['ID']);?>">
 				<td>
-					<a href="<?echo $arItem["DETAIL_PAGE_URL"]?>"><div class="td_name"><?echo $arItem["DISPLAY_PROPERTIES"]["SPOSOB"]["DISPLAY_VALUE"]?></div></a>
+					<a href="<?echo $arItem["DETAIL_PAGE_URL"]?>"><div class="td_name"><?echo $arItem["NAME"]?></div></a>
 					<div class="td_number"><?=$arItem["DISPLAY_PROPERTIES"]["NUM"]["DISPLAY_VALUE"]?></div>
-					<?echo $arItem["NAME"]?>
+
 				</td>
 				<td>
-					<?=$arItem["DISPLAY_PROPERTIES"]["PRICE"]["DISPLAY_VALUE"]?>
+					<?=$arItem["DISPLAY_PROPERTIES"]["PRICE"]["DISPLAY_VALUE"].' руб'?>
 				</td>
 				<td>
 					<?=$arItem["DISPLAY_PROPERTIES"]["ORGANISATOR"]["DISPLAY_VALUE"]?>
