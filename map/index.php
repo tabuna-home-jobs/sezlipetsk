@@ -1,8 +1,8 @@
 <?
 	require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-	$APPLICATION->SetTitle("РРЅС‚РµСЂР°РєС‚РёРІРЅР°СЏ РєР°СЂС‚Р°");
+	$APPLICATION->SetTitle("Интерактивная карта");
 
-	//РџРѕРґРєР»СЋС‡Р°РµРј РјРѕРґСѓР»СЊ Р±Р»РѕРєРѕРІ
+	//Подключаем модуль блоков
 	if(!CModule::IncludeModule("iblock"))
 		return;
 
@@ -15,7 +15,7 @@
 
 
 	<section class="block_top open_inform row">
-		<!--РҐРµРµР±РЅС‹Р№ РєСЂРѕС€-->
+		<!--Хеебный крош-->
 		<?$APPLICATION->IncludeComponent(
 			"custom:breadcrumb",
 			"",
@@ -27,7 +27,7 @@
 			)
 		);
 		?>
-		<!--РҐР»РµР±РЅС‹Рµ РєСЂРѕС€РєРё-->
+		<!--Хлебные крошки-->
 		<h1><?=$APPLICATION->GetTitle();?></h1>
 
 
@@ -35,53 +35,53 @@
 		<ul class="nav nav-tabs nav-tab-map" role="tablist">
 			<li role="presentation" class="active">
 				<a href="#map" aria-controls="map" role="tab" data-toggle="tab">
-					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/1(grey).png"></span>РљР°СЂС‚Р°
+					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/1(grey).png"></span>Карта
 				</a>
 			</li>
 			<li role="presentation">
 				<a href="#free-place" aria-controls="free-place" role="tab" data-toggle="tab">
 					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/444(grey).png"></span>
-					РЎРІРѕР±РѕРґРЅС‹Рµ СѓС‡Р°СЃС‚РєРё
+					Свободные участки
 				</a>
 			</li>
 			<li role="presentation">
 				<a href="#water-net" aria-controls="water-net" role="tab" data-toggle="tab">
-					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/3(grey).png"></span>РЎРµС‚Рё РІРѕРґРѕСЃРЅР°Р±Р¶РµРЅРёСЏ</a>
+					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/3(grey).png"></span>Сети водоснабжения</a>
 			</li>
 			<li role="presentation">
 				<a href="#net-abduction" aria-controls="net-abduction" role="tab" data-toggle="tab">
-					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/4(grey).png"></span>РЎРµС‚Рё Р»РёРІРЅРµРІРѕРіРѕ РІРѕРґРѕРѕС‚РІРµРґРµРЅРёСЏ</a>
+					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/4(grey).png"></span>Сети ливневого водоотведения</a>
 			</li>
 			<li role="presentation">
 				<a href="#net-sh" aria-controls="net-sh" role="tab" data-toggle="tab">
-					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/6(grey).png"></span>РЎРµС‚Рё С…РѕР·СЏР№СЃС‚РІРµРЅРЅРѕ-Р±С‹С‚РѕРІРѕРіРѕ РІРѕРґРѕРѕС‚РІРµРґРµРЅРёСЏ</a>
+					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/6(grey).png"></span>Сети хозяйственно-бытового водоотведения</a>
 			</li>
 			<li role="presentation">
 				<a href="#net-electro" aria-controls="net-electro" role="tab" data-toggle="tab">
-					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/2(grey).png"></span>РЎРµС‚Рё СЌР»РµРєС‚СЂРѕСЃРЅР°Р±Р¶РµРЅРёСЏ</a>
+					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/2(grey).png"></span>Сети электроснабжения</a>
 			</li>
 			<li role="presentation">
 				<a href="#net-tele" aria-controls="net-tele" role="tab" data-toggle="tab">
-					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/9(grey).png"></span>РўРµР»РµРєРѕРјРјСѓРЅРёРєР°С†РёРѕРЅРЅС‹Рµ СЃРµС‚Рё</a>
+					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/9(grey).png"></span>Телекоммуникационные сети</a>
 			</li>
 			<li role="presentation">
 				<a href="#net-hot" aria-controls="net-hot" role="tab" data-toggle="tab">
-					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/5(grey).png"></span>РЎРµС‚Рё С‚РµРїР»РѕСЃРЅР°Р±Р¶РµРЅРёСЏ</a>
+					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/5(grey).png"></span>Сети теплоснабжения</a>
 			</li>
 			<li role="presentation">
 				<a href="#net-gaz" aria-controls="net-gaz" role="tab" data-toggle="tab">
-					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/7(grey).png"></span>РЎРµС‚Рё РіР°Р·РѕСЃРЅР°Р±Р¶РµРЅРёСЏ</a>
+					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/7(grey).png"></span>Сети газоснабжения</a>
 			</li>
 			<li role="presentation">
 				<a href="#net-infr" aria-controls="net-infr" role="tab" data-toggle="tab">
-					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/8(grey).png"></span>РўР°РјРѕР¶РµРЅРЅР°СЏ РёРЅС„СЂР°СЃС‚СЂСѓРєС‚СѓСЂР°</a>
+					<span><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/icons/8(grey).png"></span>Таможенная инфраструктура</a>
 			</li>
 		</ul>
 
 		<!-- Tab panes -->
 		<div class="tab-content">
 			<div role="tabpanel" class="tab-pane fade in active" id="map">
-				<!--РљР°СЂС‚Р°-->
+				<!--Карта-->
 				<div class="imgMap">
 					<img id="krugp" class="krugoo" src="<?=SITE_TEMPLATE_PATH?>/img/maparea/withelips.png" usemap="#krugpz" />
 					<div id="control-button-1">
@@ -91,8 +91,8 @@
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/close2.png">
 					</div>
 				</div>
-				<!--РљР°СЂС‚Р°-->
-				<!--РџРµСЂРІР°СЏ Р·РѕРЅР° СЃСѓР± РєР°СЂС‚С‹-->
+				<!--Карта-->
+				<!--Первая зона суб карты-->
 				<div class="sub-map" id="sub-map1">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/sub-map.png" id="submapa" usemap="#submap">
 				</div>
@@ -109,8 +109,8 @@
 					<area href="#" data-group="zone27" shape="poly" coords="148,232,154,232,156,224,197,229,193,276,181,280,170,282,156,284,148,284,142,284">
 					<area href="#" data-group="zone28" shape="poly" coords="143,284,148,224,42,215,40,229,52,242,59,250,70,258,80,265,94,272,110,279,126,282,134,284">
 				</map>
-				<!--РџРµСЂРІР°СЏ Р·РѕРЅР° СЃСѓР± РєР°СЂС‚С‹-->
-				<!--Р’С‚РѕСЂР°СЏ Р·РѕРЅР° СЃСѓР± РєР°СЂС‚С‹-->
+				<!--Первая зона суб карты-->
+				<!--Вторая зона суб карты-->
 				<div class="sub-map2" id="sub-map2">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/sub-map2.png" id="submapa2" usemap="#submap2">
 				</div>
@@ -127,11 +127,11 @@
 					<area href="#" data-group="zone38" shape="poly" coords="211,254,217,299,239,299,236,253">
 					<area href="#" data-group="zone39" shape="poly" coords="217,301,219,330,241,319,239,299">
 				</map>
-				<!--Р’С‚РѕСЂР°СЏ Р·РѕРЅР° СЃСѓР± РєР°СЂС‚С‹-->
+				<!--Вторая зона суб карты-->
 
-				<!--Р Р°Р·РјРµС‚РєР° РґР»СЏ РєР°СЂС‚РёРЅРєРё-->
+				<!--Разметка для картинки-->
 				<map name="krugpz">
-					<!--Р—РѕРЅС‹ РЅР° РєР°СЂС‚Рµ-->
+					<!--Зоны на карте-->
 					<area href="#" data-group="zone1" shape="poly" coords="12,214,12,221,28,221,29,215">
 					<area href="#" data-group="zone4" shape="poly" coords="18,226,45,226,44,222,17,221">
 					<area href="#" data-group="zone2" shape="poly" coords="6,209,7,232,31,232,46,231,45,220,48,219,47,209,38,202">
@@ -150,14 +150,14 @@
 					<area href="#" data-group="zone16" shape="poly" coords="331,177,330,189,334,190,332,208,356,210,357,181,355,179">
 					<area href="#" data-group="zone17" shape="poly" coords="329,207,357,210,357,260,324,256">
 					<area href="#" data-group="zone18" shape="poly" coords="290,185,334,189,332,207,328,207,323,256,285,251">
-					<!--РљСЂСѓРі1-->
+					<!--Круг1-->
 					<area id="elips1" href="#" data-group="zone001" shape="poly" coords="357,211,357,218,359,227,363,238,368,247,376,255,383,259,392,264,402,265,411,266,419,265,429,261,437,257,444,250,450,242,453,238,455,232,457,221,457,210,456,202,453,195,450,188,444,181,436,175,430,171,420,167,412,166,404,166,394,167,386,170,378,175,371,181,365,189,361,198">
-					<!--РљСЂСѓРі1-->
+					<!--Круг1-->
 					<area href="#" data-group="zone29" shape="poly" coords="454,251.9999995665117,451,270.9999995665117,502,275.9999995665117,504,273.9999995665117,494,257.9999995665117,481,253.9999995665117">
 
-					<!--РљСЂСѓРі2-->
+					<!--Круг2-->
 					<area id="elips2" href="#" data-group="zone002" shape="poly" coords="496,240,500,249,508,258,517,264,524,268,531,270,539,271,547,270,557,267,565,264,570,260,575,255,579,251,582,246,585,240,587,233,588,226,589,220,588,214,586,207,582,199,578,192,574,188,568,183,562,179,555,176,546,174,537,174,528,176,521,178,515,181,510,185,505,190,501,195,497,202,494,208,493,217,492,225,493,233,493,233">
-					<!--РљСЂСѓРі2-->
+					<!--Круг2-->
 					<area href="#" data-group="zone30" shape="poly" coords="179,229,180,233,196,235,197,230">
 					<area href="#" data-group="zone31" shape="poly" coords="179,229,180,233,196,235,197,230">
 					<area href="#" data-group="zone32" shape="poly" coords="179,229,180,233,196,235,197,230">
@@ -204,9 +204,9 @@
 					<area href="#" data-group="zone73" shape="poly" coords="1048,45,1061,37,1065,36,1070,35,1074,36,1078,38,1166,128,1105,147">
 					<area href="#" data-group="zone74" shape="poly" coords="989,193,1029,183,1101,162,1120,245,1003,256">
 					<area href="#" data-group="zone75" shape="poly" coords="1111,159,1130,244,1207,237,1234,216,1233,199,1174,139">
-					<!--Р—РѕРЅС‹ РЅР° РєР°СЂС‚Рµ-->
+					<!--Зоны на карте-->
 				</map>
-				<!--РћРїРёСЃР°РЅРёРµ РєР°СЂС‚С‹-->
+				<!--Описание карты-->
 				<div class="description-map">
 					<div class="col-xs-5">
 
@@ -215,37 +215,37 @@
 						<table class="table table-info">
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color1.jpg"></td>
-								<td class="sec-td">СѓС‡Р°СЃС‚РєРё, Р·Р°РЅРёРјР°РµРјС‹Рµ СЂРµР·РёРґРµРЅС‚Р°РјРё РћР­Р—</td>
+								<td class="sec-td">участки, занимаемые резидентами ОЭЗ</td>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/line1.jpg"></td>
-								<td>РіСЂР°РЅРёС†С‹ Р·РµРјРµР»СЊРЅС‹С… СѓС‡Р°СЃС‚РєРѕРІ</td>
+								<td>границы земельных участков</td>
 							</tr>
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color2.jpg"></td>
-								<td class="sec-td">СЃРІРѕР±РѕРґРЅС‹Рµ Р·РµРјРµР»СЊРЅС‹Рµ СѓС‡Р°СЃС‚РєРё</td>
+								<td class="sec-td">свободные земельные участки</td>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/line2.jpg"></td>
-								<td>Р°РІС‚РѕРґРѕСЂРѕРіРё</td>
+								<td>автодороги</td>
 							</tr>
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color3.jpg"></td>
-								<td class="sec-td">СѓС‡Р°СЃС‚РєРё, Р·Р°РЅРёРјР°РµРјС‹Рµ РёРЅС„СЂР°СЃС‚СЂСѓРєС‚СѓСЂРѕР№ РћР­Р—</td>
+								<td class="sec-td">участки, занимаемые инфраструктурой ОЭЗ</td>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/line3.jpg"></td>
-								<td>Р¶/Рґ РїСѓС‚Рё</td>
+								<td>ж/д пути</td>
 							</tr>
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color4.jpg"></td>
-								<td class="sec-td">Р·РµРјРµР»СЊРЅС‹Рµ СѓС‡Р°СЃС‚РєРё, СЂРµР·РµСЂРІРёСЂСѓРµРјС‹Рµ РґР»СЏ РїРѕС‚РµРЅС†РёР°Р»СЊРЅС‹С… СЂРµР·РёРґРµРЅС‚РѕРІ РћР­Р—</td>
+								<td class="sec-td">земельные участки, резервируемые для потенциальных резидентов ОЭЗ</td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color5.jpg"></td>
-								<td class="sec-td">Р·РµРјРµР»СЊРЅС‹Рµ СѓС‡Р°СЃС‚РєРё РґР»СЏ СЂР°Р·РјРµС‰РµРЅРёСЏ/СЂР°СЃС€РёСЂРµРЅРёСЏ РїСЂРѕРёР·РІРѕРґСЃС‚РІР° СЂРµР·РёРґРµРЅС‚РѕРІ РћР­Р—</td>
+								<td class="sec-td">земельные участки для размещения/расширения производства резидентов ОЭЗ</td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color6.jpg"></td>
-								<td class="sec-td">РІРѕР·РјРѕР¶РЅРѕРµ СЂР°Р·РјРµС‰РµРЅРёРµ РєРѕРјРїР°РЅРёР№, РїСЂРµС‚РµРЅРґСѓСЋС‰РёС… РЅР° РїРѕР»СѓС‡РµРЅРёРµ СЃС‚Р°С‚СѓСЃР° СЂРµР·РёРґРµРЅС‚Р°</td>
+								<td class="sec-td">возможное размещение компаний, претендующих на получение статуса резидента</td>
 								<td></td>
 								<td></td>
 							</tr>
@@ -253,7 +253,7 @@
 					</div>
 
 				</div>
-				<!--РћРїРёСЃР°РЅРёРµ РєР°СЂС‚С‹-->
+				<!--Описание карты-->
 
 
 
@@ -343,7 +343,7 @@
 				<div class="imgMap">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map2.png">
 				</div>
-				<!--РћРїРёСЃР°РЅРёРµ РєР°СЂС‚С‹-->
+				<!--Описание карты-->
 				<div class="description-map row">
 					<div class="col-xs-5">
 
@@ -352,37 +352,37 @@
 						<table class="table table-info">
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color1.jpg"></td>
-								<td class="sec-td">СѓС‡Р°СЃС‚РєРё, Р·Р°РЅРёРјР°РµРјС‹Рµ СЂРµР·РёРґРµРЅС‚Р°РјРё РћР­Р—</td>
+								<td class="sec-td">участки, занимаемые резидентами ОЭЗ</td>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/line1.jpg"></td>
-								<td>РіСЂР°РЅРёС†С‹ Р·РµРјРµР»СЊРЅС‹С… СѓС‡Р°СЃС‚РєРѕРІ</td>
+								<td>границы земельных участков</td>
 							</tr>
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color2.jpg"></td>
-								<td class="sec-td">СЃРІРѕР±РѕРґРЅС‹Рµ Р·РµРјРµР»СЊРЅС‹Рµ СѓС‡Р°СЃС‚РєРё</td>
+								<td class="sec-td">свободные земельные участки</td>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/line2.jpg"></td>
-								<td>Р°РІС‚РѕРґРѕСЂРѕРіРё</td>
+								<td>автодороги</td>
 							</tr>
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color3.jpg"></td>
-								<td class="sec-td">СѓС‡Р°СЃС‚РєРё, Р·Р°РЅРёРјР°РµРјС‹Рµ РёРЅС„СЂР°СЃС‚СЂСѓРєС‚СѓСЂРѕР№ РћР­Р—</td>
+								<td class="sec-td">участки, занимаемые инфраструктурой ОЭЗ</td>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/line3.jpg"></td>
-								<td>Р¶/Рґ РїСѓС‚Рё</td>
+								<td>ж/д пути</td>
 							</tr>
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color4.jpg"></td>
-								<td class="sec-td">Р·РµРјРµР»СЊРЅС‹Рµ СѓС‡Р°СЃС‚РєРё, СЂРµР·РµСЂРІРёСЂСѓРµРјС‹Рµ РґР»СЏ РїРѕС‚РµРЅС†РёР°Р»СЊРЅС‹С… СЂРµР·РёРґРµРЅС‚РѕРІ РћР­Р—</td>
+								<td class="sec-td">земельные участки, резервируемые для потенциальных резидентов ОЭЗ</td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color5.jpg"></td>
-								<td class="sec-td">Р·РµРјРµР»СЊРЅС‹Рµ СѓС‡Р°СЃС‚РєРё РґР»СЏ СЂР°Р·РјРµС‰РµРЅРёСЏ/СЂР°СЃС€РёСЂРµРЅРёСЏ РїСЂРѕРёР·РІРѕРґСЃС‚РІР° СЂРµР·РёРґРµРЅС‚РѕРІ РћР­Р—</td>
+								<td class="sec-td">земельные участки для размещения/расширения производства резидентов ОЭЗ</td>
 								<td></td>
 								<td></td>
 							</tr>
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color6.jpg"></td>
-								<td class="sec-td">РІРѕР·РјРѕР¶РЅРѕРµ СЂР°Р·РјРµС‰РµРЅРёРµ РєРѕРјРїР°РЅРёР№, РїСЂРµС‚РµРЅРґСѓСЋС‰РёС… РЅР° РїРѕР»СѓС‡РµРЅРёРµ СЃС‚Р°С‚СѓСЃР° СЂРµР·РёРґРµРЅС‚Р°</td>
+								<td class="sec-td">возможное размещение компаний, претендующих на получение статуса резидента</td>
 								<td></td>
 								<td></td>
 							</tr>
@@ -390,7 +390,7 @@
 					</div>
 
 				</div>
-				<!--РћРїРёСЃР°РЅРёРµ РєР°СЂС‚С‹-->
+				<!--Описание карты-->
 			</div>
 			<div role="tabpanel" class="tab-pane fade" id="water-net">
 				<div class="imgMap">
@@ -412,7 +412,7 @@
 				<div class="imgMap">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map6.jpg">
 				</div>
-				<!--РћРїРёСЃР°РЅРёРµ РєР°СЂС‚С‹-->
+				<!--Описание карты-->
 				<div class="description-map row">
 					<div class="col-xs-5">
 
@@ -421,22 +421,22 @@
 						<table class="table table-info">
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/line6.1.jpg"></td>
-								<td class="sec-td">РљР°Р±РµР»СЊРЅР°СЏ СЌСЃС‚Р°РєР°РґР°</td>
+								<td class="sec-td">Кабельная эстакада</td>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/line6.2.jpg"></td>
-								<td>РљР› РћРђРћ "РћР­Р— РџРџРў "Р›РёРїРµС†Рє"</td>
+								<td>КЛ ОАО "ОЭЗ ППТ "Липецк"</td>
 							</tr>
 						</table>
 					</div>
 
 				</div>
-				<!--РћРїРёСЃР°РЅРёРµ РєР°СЂС‚С‹-->
+				<!--Описание карты-->
 
 			</div>
 			<div role="tabpanel" class="tab-pane fade" id="net-tele">
 				<div class="imgMap">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map7.jpg">
 				</div>
-				<!--РћРїРёСЃР°РЅРёРµ РєР°СЂС‚С‹-->
+				<!--Описание карты-->
 				<div class="description-map row">
 					<div class="col-xs-5">
 					</div>
@@ -444,13 +444,13 @@
 						<table class="table table-info">
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/line7.1.jpg"></td>
-								<td class="sec-td">РћРїС‚РёС‡РµСЃРєРёР№ РєСЂРѕСЃСЃ</td>
+								<td class="sec-td">Оптический кросс</td>
 							</tr>
 						</table>
 					</div>
 
 				</div>
-				<!--РћРїРёСЃР°РЅРёРµ РєР°СЂС‚С‹-->
+				<!--Описание карты-->
 			</div>
 			<div role="tabpanel" class="tab-pane fade" id="net-hot">
 				<div class="imgMap">
@@ -466,7 +466,7 @@
 				<div class="imgMap">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map10.jpg">
 				</div>
-				<!--РћРїРёСЃР°РЅРёРµ РєР°СЂС‚С‹-->
+				<!--Описание карты-->
 				<div class="description-map row">
 					<div class="col-xs-5">
 					</div>
@@ -474,53 +474,53 @@
 						<table class="table table-info spec-table-info">
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color10.1.jpg"></td>
-								<td class="sec-td">С‚РµСЂСЂРёС‚РѕСЂРёСЏ С‚Р°РјРѕР¶РµРЅРЅС‹С… РїРѕСЃС‚РѕРІ СЃ РЅР°РєРѕРїРёС‚РµР»СЊРЅРѕР№ СЃС‚РѕСЏРЅРєРѕР№</td>
+								<td class="sec-td">территория таможенных постов с накопительной стоянкой</td>
 							</tr>
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color10.2.jpg"></td>
-								<td class="sec-td">Р»РѕРіРёСЃС‚РёС‡РµСЃРєРёР№ РєРѕРјРїР»РµРєСЃ СЃ РєРѕР·Р»РѕРІС‹Рј РєСЂР°РЅРѕРј</td>
+								<td class="sec-td">логистический комплекс с козловым краном</td>
 							</tr>
 							<tr>
 								<td><img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/color10.3.jpg"></td>
-								<td class="sec-td">РїСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅР°СЏ Р±Р°Р·Р°</td>
+								<td class="sec-td">производственная база</td>
 							</tr>
 							<tr>
 								<td>5,3 -</td>
-								<td class="sec-td">РђРґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕРµ Р·РґР°РЅРёРµ С‚Р°РјРѕР¶РЅРё</td>
+								<td class="sec-td">Административное здание таможни</td>
 							</tr>
 							<tr>
 								<td>5,1 -</td>
-								<td class="sec-td">РљРѕРЅС‚СЂРѕР»СЊРЅРѕРїСЂРѕРїСѓСЃРєРЅРѕР№ РїСѓРЅРєС‚ Р°РІС‚РѕС‚СЂР°РЅСЃРїРѕСЂС‚Р° СЃ РІРµСЃРѕРІРѕР№</td>
+								<td class="sec-td">Контрольнопропускной пункт автотранспорта с весовой</td>
 							</tr>
 							<tr>
 								<td>5,12 -</td>
-								<td class="sec-td">РЎРєР»Р°Рґ РґР»СЏ С…СЂР°РЅРµРЅРёСЏ РіСЂСѓР·РѕРІ</td>
+								<td class="sec-td">Склад для хранения грузов</td>
 							</tr>
 							<tr>
 								<td>5,8 -</td>
-								<td class="sec-td">РљРѕРЅС‚СЂРѕР»СЊРЅРѕРїСЂРѕРїСѓСЃРєРЅРѕР№ РїСѓРЅРєС‚ Р¶/Рґ С‚СЂР°РЅСЃРїРѕСЂС‚Р°</td>
+								<td class="sec-td">Контрольнопропускной пункт ж/д транспорта</td>
 							</tr>
 							<tr>
 								<td>5,4 -</td>
-								<td class="sec-td">РљРѕРЅС‚СЂРѕР»СЊРЅРѕРїСЂРѕРїСѓСЃРєРЅРѕР№ РїСѓРЅРєС‚ Р»РµРіРєРѕРІРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р°</td>
+								<td class="sec-td">Контрольнопропускной пункт легкового транспорта</td>
 							</tr>
 							<tr>
 								<td>5,10 -</td>
-								<td class="sec-td">Р—РґР°РЅРёРµ РґР»СЏ РґРѕСЃРјРѕС‚СЂР° РґРІСѓС… РєСЂС‹С‚С‹С… Р¶/Рґ РІР°РіРѕРЅРѕРІ</td>
+								<td class="sec-td">Здание для досмотра двух крытых ж/д вагонов</td>
 							</tr>
 							<tr>
 								<td>5,16 -</td>
-								<td class="sec-td">РќР°РєРѕРїРёС‚РµР»СЊРЅР°СЏ СЃС‚РѕСЏРЅРєР° РґР»СЏ Р±РѕР»СЊС€РµРіСЂСѓР·РѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р°</td>
+								<td class="sec-td">Накопительная стоянка для большегрузого транспорта</td>
 							</tr>
 						</table>
 					</div>
 
 				</div>
-				<!--РћРїРёСЃР°РЅРёРµ РєР°СЂС‚С‹-->
+				<!--Описание карты-->
 			</div>
 		</div>
 
-		<!--Р Р°Р·РјРµС‚РєР° РґР»СЏ РєР°СЂС‚РёРЅРєРё-->
+		<!--Разметка для картинки-->
 		<script type="text/javascript">
 			$(document).ready(function(){
 
@@ -552,7 +552,7 @@
 
 				}
 
-				//РќР°Р¶Р°С‚РёРµ РїРѕ РєСЂСѓРіСѓ 1
+				//Нажатие по кругу 1
 				$("#elips1, #control-button-1").click(function(){
 					$("#sub-map1").fadeIn('1000', function(){
 						$("#control-button-1 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close1.png');
@@ -563,7 +563,7 @@
 					});
 				});
 
-				//РќР°Р¶Р°С‚РёРµ РїРѕ РєСЂСѓРіСѓ 2
+				//Нажатие по кругу 2
 				$("#elips2, #control-button-2").click(function(){
 					$("#sub-map2").fadeIn('1000', function(){
 						$("#control-button-2 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close1.png');
@@ -574,10 +574,10 @@
 					});
 				});
 
-				//Р—Р°РєСЂС‹РІР°РµРј РїРµСЂРІСѓСЋ СЃСѓР± РєР°СЂС‚Сѓ Рё РјРµРЅСЏРµРј РєСЂРµСЃС‚РёРє
+				//Закрываем первую суб карту и меняем крестик
 				$('body').on('click',"#control-button-1 img[src='<?=SITE_TEMPLATE_PATH?>/img/maparea/close1.png']", function(){
 					$("#sub-map1").fadeOut('1000', function(){
-						//РЈР±РёСЂР°РµРј РІС‹РґРµР»РµРЅРёРµ Сѓ РІСЃРµС… РєСЂСѓРіР»С‹С… РѕР±Р»Р°СЃС‚РµР№
+						//Убираем выделение у всех круглых областей
 						$("area[data-group='zone001']").mapster('deselect');
 						$("area[data-group='zone002']").mapster('deselect');
 						$("#control-button-1 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close2.png');
@@ -585,10 +585,10 @@
 				});
 
 
-				//Р—Р°РєСЂС‹РІР°РµРј РІС‚РѕСЂСѓСЋ СЃСѓР± РєР°СЂС‚Сѓ Рё РјРµРЅСЏРµРј РєСЂРµСЃС‚РёРє
+				//Закрываем вторую суб карту и меняем крестик
 				$('body').on('click',"#control-button-2 img[src='<?=SITE_TEMPLATE_PATH?>/img/maparea/close1.png']", function(){
 					$("#sub-map2").fadeOut('1000', function(){
-						//РЈР±РёСЂР°РµРј РІС‹РґРµР»РµРЅРёРµ Сѓ РІСЃРµС… РєСЂСѓРіР»С‹С… РѕР±Р»Р°СЃС‚РµР№
+						//Убираем выделение у всех круглых областей
 						$("area[data-group='zone001']").mapster('deselect');
 						$("area[data-group='zone002']").mapster('deselect');
 						$("#control-button-2 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close2.png');
@@ -596,13 +596,13 @@
 				});
 
 
-				//Р—Р°РєСЂС‹РІР°РµРј РїРµСЂРІСѓСЋ РєР°СЂС‚Сѓ РµСЃР»Рё С‚С‹СЂРєРЅСѓР»Рё РїРѕ Р»СЋР±РѕРјСѓ РјРµСЃС‚Сѓ РјР°РїС‹
+				//Закрываем первую карту если тыркнули по любому месту мапы
 				$('body').on("click","map[name='krugpz'] area[id!='elips1']", function(){
 					var objDisplay = $("#sub-map1").css('display');
 
 					if(objDisplay == 'block'){
 						$("#sub-map1").fadeOut('1000', function(){
-							//РЈР±РёСЂР°РµРј РІС‹РґРµР»РµРЅРёРµ Сѓ РІСЃРµС… РєСЂСѓРіР»С‹С… РѕР±Р»Р°СЃС‚РµР№
+							//Убираем выделение у всех круглых областей
 							$("area[data-group='zone001']").mapster('deselect');
 							$("area[data-group='zone002']").mapster('deselect');
 							$("#control-button-1 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close2.png');
@@ -611,13 +611,13 @@
 
 				});
 
-				//Р—Р°РєСЂС‹РІР°РµРј РІС‚РѕСЂСѓСЋ РєР°СЂС‚Сѓ РµСЃР»Рё С‚С‹СЂРєРЅСѓР»Рё РїРѕ Р»СЋР±РѕРјСѓ РјРµСЃС‚Сѓ РјР°РїС‹
+				//Закрываем вторую карту если тыркнули по любому месту мапы
 				$('body').on("click","map[name='krugpz'] area[id!='elips2']", function(){
 					var objDisplay2 = $("#sub-map2").css('display');
 
 					if(objDisplay2 == 'block'){
 						$("#sub-map2").fadeOut('1000', function(){
-							//РЈР±РёСЂР°РµРј РІС‹РґРµР»РµРЅРёРµ Сѓ РІСЃРµС… РєСЂСѓРіР»С‹С… РѕР±Р»Р°СЃС‚РµР№
+							//Убираем выделение у всех круглых областей
 							$("area[data-group='zone001']").mapster('deselect');
 							$("area[data-group='zone002']").mapster('deselect');
 							$("#control-button-2 img").attr('src','<?=SITE_TEMPLATE_PATH?>/img/maparea/close2.png');
@@ -625,17 +625,17 @@
 					}
 				});
 
-				//Р—С‹РєСЂС‹РІР°РµРј РІСЃРµ РїРѕРґСЃРєР°Р·РєРё РїРѕ СѓС…РѕРґСѓ РјС‹С€РєРё СЃ Р±Р»РѕРєР°
+				//Зыкрываем все подсказки по уходу мышки с блока
 				$(".wrapper-tooltip").mouseleave(function(){
-					//РўРµРєСѓС‰Р°СЏ РїРѕРґСЃРєР°Р·РєР°
+					//Текущая подсказка
 					var obj = $(this);
-					//РџРѕР»СѓС‡Р°РµРј area РІ РєРѕС‚РѕСЂРѕР№ РЅР°РґРѕ РґРµР»Р°С‚СЊ deselect
+					//Получаем area в которой надо делать deselect
 					var idObj = obj.attr("id");
-					//Р—Р°РєСЂС‹РІР°РµРј С‚РµРєСѓС‰СѓСЋ РїРѕРґСЃРєР°Р·РєСѓ
+					//Закрываем текущую подсказку
 					obj.css({
 						display : "none"
 					});
-					//РЈР±РёСЂР°РµРј РІС‹РґРµР»РµРЅРёРµ Сѓ area
+					//Убираем выделение у area
 					$("area[data-group='"+idObj+"']").mapster('deselect');
 				});
 
@@ -672,12 +672,12 @@
 							coordinateTop = 100;
 						}
 
-						//Р—С‹РєСЂС‹РІР°РµРј РІСЃРµ РїРѕРґСЃРєР°Р·РєРё
+						//Зыкрываем все подсказки
 						$(".wrapper-tooltip").css({
 							display : "none"
 						});
 
-						//Р’С‹Р·С‹РІР°РµРј Р±Р»РѕРє СЃ РїРѕРґСЃРєР°Р·РєРѕР№
+						//Вызываем блок с подсказкой
 						$("#"+id).css({
 							display : "block",
 							top : coordinateTop,
@@ -723,12 +723,12 @@
 							coordinateTop = 100;
 						}
 
-						//Р—С‹РєСЂС‹РІР°РµРј РІСЃРµ РїРѕРґСЃРєР°Р·РєРё
+						//Зыкрываем все подсказки
 						$(".wrapper-tooltip").css({
 							display : "none"
 						});
 
-						//Р’С‹Р·С‹РІР°РµРј Р±Р»РѕРє СЃ РїРѕРґСЃРєР°Р·РєРѕР№
+						//Вызываем блок с подсказкой
 						$("#"+id).css({
 							display : "block",
 							top : coordinateTop,
@@ -741,7 +741,7 @@
 					}
 				});
 
-				//Р’С‹Р±РёСЂР°РµРј РѕСЃРЅРѕРІРЅСѓСЋ РєР°СЂС‚Сѓ Рё СЂР°Р·РјРµС‡Р°РµРј
+				//Выбираем основную карту и размечаем
 				$('#krugp').mapster({
 
 					noHrefIsMask: true,
@@ -780,12 +780,12 @@
 
 
 
-						//Р—С‹РєСЂС‹РІР°РµРј РІСЃРµ РїРѕРґСЃРєР°Р·РєРё
+						//Зыкрываем все подсказки
 						$(".wrapper-tooltip").css({
 							display : "none"
 						});
 
-						//Р’С‹Р·С‹РІР°РµРј Р±Р»РѕРє СЃ РїРѕРґСЃРєР°Р·РєРѕР№
+						//Вызываем блок с подсказкой
 						$("#"+id).css({
 							display : "block",
 							top : coordinateTop,
@@ -830,3 +830,4 @@
 
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+
