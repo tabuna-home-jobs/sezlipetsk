@@ -126,8 +126,12 @@ $APPLICATION->SetTitle("Закупки");
 	),
 	false
 );?>
+	<? if(($_SERVER["REQUEST_URI"] == '/about/upravlyayushchaya-kompaniya/zakupki/') ||($_SERVER["REQUEST_URI"] == '/about/upravlyayushchaya-kompaniya/zakupki/2015/')){?>
+
 	<section>
+
 		<div class="downloads_doc row">
+
 			<?$APPLICATION->IncludeComponent(
 			"custom:news.list_documenty_i_svedenia_o_zak",
 			".default",
@@ -192,6 +196,7 @@ $APPLICATION->SetTitle("Закупки");
 			),
 			false
 			);?>
+
 			<div class="col-md-12">
 				<div class="servise_contact">
 					<div class="servise_contact_name">Служба закупок</div>
@@ -205,5 +210,6 @@ $APPLICATION->SetTitle("Закупки");
 	</div>
 </div>
 </section>
+	<?}?>
 </div>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

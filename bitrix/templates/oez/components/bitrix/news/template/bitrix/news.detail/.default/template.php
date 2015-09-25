@@ -1,7 +1,7 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 	<section class="container section_resident_main">
 		<div class="row">
-			<div class="col-xs-8 col-sm-8 col-md-8">
+			<div class="col-xs-12 col-sm-12 col-md-12">
 
 				<!--Хеебный крош-->
 				<?$APPLICATION->IncludeComponent(
@@ -16,9 +16,36 @@
 				);
 				?>
 				<!--Хлебные крошки-->
+
+
+				<?//var_dump($arResult['LINK1']['VALUE']);
+					if($arResult['PROPERTIES']['LINK1']['VALUE'] != ''){?>
+
+					<p>
+						<h4 style="display: inline;">Источники: </h4>
+						<a href="<?=$arResult['PROPERTIES']['LINK1']['VALUE']?>"><?=$arResult['PROPERTIES']['ISTOCHNIK1']['VALUE']?></a>
+						<?if($arResult['PROPERTIES']['LINK2']['VALUE'] != ''){?>
+						&nbsp;,<a href="<?=$arResult['PROPERTIES']['LINK2']['VALUE']?>"><?=$arResult['PROPERTIES']['ISTOCHNIK2']['VALUE']?></a>
+						<?}?>
+						<?if($arResult['PROPERTIES']['LINK3']['VALUE'] != ''){?>
+							&nbsp;,<a href="<?=$arResult['PROPERTIES']['LINK3']['VALUE']?>"><?=$arResult['PROPERTIES']['ISTOCHNIK3']['VALUE']?></a>
+						<?}?>
+						<?if($arResult['PROPERTIES']['LINK4']['VALUE'] != ''){?>
+							&nbsp;,<a href="<?=$arResult['PROPERTIES']['LINK4']['VALUE']?>"><?=$arResult['PROPERTIES']['ISTOCHNIK4']['VALUE']?></a>
+						<?}?>
+						<?if($arResult['PROPERTIES']['LINK5']['VALUE'] != ''){?>
+							&nbsp;,<a href="<?=$arResult['PROPERTIES']['LINK5']['VALUE']?>"><?=$arResult['PROPERTIES']['ISTOCHNIK5']['VALUE']?></a>
+						<?}?>
+						<?if($arResult['PROPERTIES']['LINK5']['VALUE'] != ''){?>
+							&nbsp;,<a href="<?=$arResult['PROPERTIES']['LINK5']['VALUE']?>"><?=$arResult['PROPERTIES']['ISTOCHNIK5']['VALUE']?></a>
+						<?}?>
+					</p>
+				<?}
+
+				?>
 				<h1><?=$arResult["NAME"]?></h1>
 			</div>
-			<div class="col-md-4 col-sm-4 col-xs-4"></div>
+
 	</section>
 
 	<?
