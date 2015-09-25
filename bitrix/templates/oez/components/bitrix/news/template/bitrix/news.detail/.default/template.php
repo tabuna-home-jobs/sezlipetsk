@@ -16,31 +16,34 @@
 				);
 				?>
 				<!--Хлебные крошки-->
-				<h1><?=$arResult["NAME"]?></h1>
-				<br>
-				<?if($arResult['LINK1']['VALUE'] != ''){?>
+
+
+				<?//var_dump($arResult['LINK1']['VALUE']);
+					if($arResult['PROPERTIES']['LINK1']['VALUE'] != ''){?>
 
 					<p>
-						<a href="<?=$arResult['LINK1']['VALUE']?>"><?=$arResult['ISTOCHNIK1']['VALUE']?></a></br>
-						<?if($arResult['LINK2']['VALUE'] != ''){?>
-								<a href="<?=$arResult['LINK2']['VALUE']?>"><?=$arResult['ISTOCHNIK2']['VALUE']?></a></br>
+						<h4 style="display: inline;">Источники: </h4>
+						<a href="<?=$arResult['PROPERTIES']['LINK1']['VALUE']?>"><?=$arResult['PROPERTIES']['ISTOCHNIK1']['VALUE']?></a>
+						<?if($arResult['PROPERTIES']['LINK2']['VALUE'] != ''){?>
+						&nbsp;,<a href="<?=$arResult['PROPERTIES']['LINK2']['VALUE']?>"><?=$arResult['PROPERTIES']['ISTOCHNIK2']['VALUE']?></a>
 						<?}?>
-						<?if($arResult['LINK3']['VALUE'] != ''){?>
-								<a href="<?=$arResult['LINK3']['VALUE']?>"><?=$arResult['ISTOCHNIK3']['VALUE']?></a></br>
+						<?if($arResult['PROPERTIES']['LINK3']['VALUE'] != ''){?>
+							&nbsp;,<a href="<?=$arResult['PROPERTIES']['LINK3']['VALUE']?>"><?=$arResult['PROPERTIES']['ISTOCHNIK3']['VALUE']?></a>
 						<?}?>
-						<?if($arResult['LINK4']['VALUE'] != ''){?>
-								<a href="<?=$arResult['LINK4']['VALUE']?>"><?=$arResult['ISTOCHNIK4']['VALUE']?></a></br>
+						<?if($arResult['PROPERTIES']['LINK4']['VALUE'] != ''){?>
+							&nbsp;,<a href="<?=$arResult['PROPERTIES']['LINK4']['VALUE']?>"><?=$arResult['PROPERTIES']['ISTOCHNIK4']['VALUE']?></a>
 						<?}?>
-						<?if($arResult['LINK5']['VALUE'] != ''){?>
-								<a href="<?=$arResult['LINK5']['VALUE']?>"><?=$arResult['ISTOCHNIK5']['VALUE']?></a></br>
+						<?if($arResult['PROPERTIES']['LINK5']['VALUE'] != ''){?>
+							&nbsp;,<a href="<?=$arResult['PROPERTIES']['LINK5']['VALUE']?>"><?=$arResult['PROPERTIES']['ISTOCHNIK5']['VALUE']?></a>
 						<?}?>
-						<?if($arResult['LINK5']['VALUE'] != ''){?>
-								<a href="<?=$arResult['LINK5']['VALUE']?>"><?=$arResult['ISTOCHNIK5']['VALUE']?></a></br>
+						<?if($arResult['PROPERTIES']['LINK5']['VALUE'] != ''){?>
+							&nbsp;,<a href="<?=$arResult['PROPERTIES']['LINK5']['VALUE']?>"><?=$arResult['PROPERTIES']['ISTOCHNIK5']['VALUE']?></a>
 						<?}?>
 					</p>
 				<?}
 
 				?>
+				<h1><?=$arResult["NAME"]?></h1>
 			</div>
 
 	</section>
