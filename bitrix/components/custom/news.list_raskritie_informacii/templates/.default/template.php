@@ -115,6 +115,7 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 	}
 	$tt.=$tmp_start_panel.$tmp_elements.$tmp_stop_panel ;
 	$tmp_elements = "";
+	$tmp_child = "";
 	$elements='';
 
 
@@ -204,14 +205,13 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
                                         <!--<div class="file_descript">' . $text . '</div>--></a>
                                     </div>';
 				}
-				//var_dump($child[$i]["element"][$k]);
-				//die('fghjkl');
 				$my_tmp_element = '<div class="files_name">' . $child[$i]["element"][$k] ["row"]['NAME'] . '</div><p>'.$child[$i]["element"][$k] ["row"]['PREVIEW_TEXT'].'</p>
 			<div class="row">
 									' . $files_str . '
 							<div class="file_descript">' . $child[$i]["element"][$k] ["row"]['DETAIL_TEXT'] . '</div>
                             </div>';
 				$tmp_elements .= $my_tmp_element;
+				$my_tmp_element = "";
 			}
 
 
@@ -220,10 +220,9 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 			}
 			$result .= '<div class="razdel"><div class="razdel_name" ><span class="glyphicon glyphicon-menu-down"></span><h3>'.$child[$i]['NAME'].'</h3></div><div class="razdel_desc"></br>
 '.$child[$i]['DESCRIPTION'].$tmp_elements.$tmp_child.'</div></div>';
-			//var_dump($child[$i]['NAME']);
-			//var_dump('next');
+			$tmp_elements = "";
+			$tmp_child = "";
 		}
-		//$result = '<p><strong>'.$child['NAME'].'</strong></br>'.$child['NAME'].'</p>'.$tmp_elements.$tmp_child;
 
 		return $result;
 
