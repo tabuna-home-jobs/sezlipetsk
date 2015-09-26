@@ -723,6 +723,8 @@
 							coordinateTop = 100;
 						}
 
+
+
 						//Зыкрываем все подсказки
 						$(".wrapper-tooltip").css({
 							display : "none"
@@ -755,7 +757,7 @@
 					onClick: function (e) {
 						var event = event || window.event;
 						var id = e.key;
-						var leftMouse = event.clientX + "px";
+						var leftMouse = event.clientX;
 						var topMouse = event.clientY + "px";
 
 
@@ -778,6 +780,10 @@
 						}
 
 
+						//Берем левую координату
+						if(leftMouse > 800){
+							leftMouse = 800
+						}
 
 
 						//Зыкрываем все подсказки
