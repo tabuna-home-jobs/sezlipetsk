@@ -672,6 +672,11 @@
 							coordinateTop = 100;
 						}
 
+						//Берем левую координату
+						if(leftMouse > 800){
+							leftMouse = 800
+						}
+
 						//Зыкрываем все подсказки
 						$(".wrapper-tooltip").css({
 							display : "none"
@@ -721,6 +726,11 @@
 							coordinateTop = 0;
 						}else if(windTop > contTop){
 							coordinateTop = 100;
+						}
+
+						//Берем левую координату
+						if(leftMouse > 800){
+							leftMouse = 800
 						}
 
 
