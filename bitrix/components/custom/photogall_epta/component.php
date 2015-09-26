@@ -387,7 +387,7 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 			//Описываем фильтр по каком будет выборка
 			$arFilter = Array("IBLOCK_ID"=>$info_item,'SECTION_ID' =>$ar_Section['ID'], 'depth_level' => '2', "ACTIVE"=>"Y");
 			//Делаем запрос
-			$rs_Section_child = CIBlockElement::GetList(Array(), $arFilter, false, Array(), $arSelect);
+			$rs_Section_child = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>500), $arSelect);
 
 
 			//$rs_Section_child = CIBlockSection::GetList(array('left_margin' => 'desc'), array('IBLOCK_ID' =>$arItem['IBLOCK_ID'],'SECTION_ID' =>$ar_Section['ID'],'depth_level' => '2'),false, array('UF_*'));
@@ -406,10 +406,13 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 				$arFields[] = $ob->GetFields();  // $arFimoskelds массив значений полей текущего элемента
 			}
 
+
+
 			// :D
 			$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion = 0;
 
 			foreach($arFields as $AllPhoto){
+
 
 
 				$arResult["allPhotoz"][$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion] = array(
@@ -422,6 +425,7 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 				// :D
 				$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion++;
 			}
+
 
 
 
