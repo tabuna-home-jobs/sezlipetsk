@@ -53,7 +53,7 @@ $this->setFrameMode(true);
 									<? } ?>
 
 
-								<div class="col-md-4 col-sm-6 col-xs-6">
+								<div class="col-md-4 stupid_images  col-sm-6 col-xs-6">
 									<div>
 										<? if(!is_null($contentPhoto['PREVIEW_PICTURE'])){?>
 											<img src="<?=CFile::GetPath($contentPhoto['PREVIEW_PICTURE']);?>">
@@ -116,7 +116,7 @@ $this->setFrameMode(true);
 			<? } ?>
 
 
-				<div class="col-md-4 col-sm-6 col-xs-6">
+				<div class="col-md-4 stupid_images  col-sm-6 col-xs-6">
 					<div>
 						<img src="<?=CFile::GetPath($contentPhoto['PREVIEW_PICTURE']);?>">
 						<div class="in_galery_foto">
