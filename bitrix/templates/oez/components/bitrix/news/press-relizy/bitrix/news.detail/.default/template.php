@@ -1,7 +1,7 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 	<section class="container section_resident_main">
 		<div class="row">
-			<div class="col-xs-8 col-sm-8 col-md-8">
+			<div class="col-xs-12 col-sm-8 col-md-12">
 				<!--Хеебный крош-->
 				<?$APPLICATION->IncludeComponent(
 					"custom:breadcrumb",
@@ -17,7 +17,6 @@
 				<!--Хлебные крошки-->
 				<h1><?=$arResult["NAME"]?></h1>
 			</div>
-			<div class="col-md-4 col-sm-4 col-xs-4"></div>
 	</section>
 
 	<?

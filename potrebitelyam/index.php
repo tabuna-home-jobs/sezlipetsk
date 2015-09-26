@@ -126,7 +126,7 @@
 			</div>
 		</div>
 		<div class="col-md-6 ">
-			<div class="col-sm-6 col-xs-6 block_item">
+			<div class="col-sm-6 col-xs-12 block_item">
 				<div class="item_block hight_item_block">
  <a href="/potrebitelyam/tekhnologicheskoe-prisoedinenie-podklyuchenie" class="item_block_a item_block_a_small">
 					<div class="hover_container">
@@ -135,7 +135,7 @@
 					</div>
 					<div class="item_bod">
 						<div class="item_name">
-							 Технологическое присоединение / подключение
+							 Технологическое <br>  присоединение /<br> подключение
 						</div>
 						<div class="item_dop">
 						</div>
@@ -146,7 +146,7 @@
  </a>
 				</div>
 			</div>
-			<div class="col-sm-6 col-xs-6 block_item">
+			<div class="col-sm-6 col-xs-12 block_item">
 				<div class="item_block hight_item_block">
  <a href="/potrebitelyam/peredacha-transportirovka-snabzhenie-energoresursami/" class="item_block_a item_block_a_small">
 					<div class="hover_container">
@@ -155,7 +155,7 @@
 					</div>
 					<div class="item_bod">
 						<div class="item_name">
-							 Передача, транспортировка, снабжение энергоресурсами
+							 Передача, <br>транспортировка,<br>  снабжение<br>  энергоресурсами
 						</div>
 						<div class="item_dop">
 						</div>
