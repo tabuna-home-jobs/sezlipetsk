@@ -86,7 +86,7 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 				$size/=1024;
 				$size =round($size,2).'МБ';
 			}
-			$files_str.='<div class="col-md-6 file_item">
+			$files_str.='<div class="file_item">
                                      <a href="'.$arResult["razdel"][$i]['element'][$k]['files'][$m]['SRC'].'" >  <div class="file_name"><img src="'.$ico.'">'.$size.'</div>
                                         <div class="file_date">'.$arResult["razdel"][$i]["element"][$k]['DATE'].'</div>
                                         <div class="file_descript">'.extractFileName($arResult["razdel"][$i]['element'][$k]['files'][$m]["ORIGINAL_NAME"]).'</div></a>
@@ -201,16 +201,24 @@ for($i = 0; $i<count($arResult["razdel"]); $i++){
 					} else {
 						$text = extractFileName($child[$i]['element'][$k]['files'][$m]["ORIGINAL_NAME"]);
 					}
-					$files_str .= '<div class="col-md-6 file_item">
+					$files_str .= '<div class="file_item">
                                      <a href="' . $child[$i]['element'][$k]['files'][$m]['SRC'] . '" >  <div class="file_name"><img src="' . $ico . '">' . $size . '</div>
                                         <div class="file_date">' . $child[$i]["element"][$k]['DATE'] . '</div>
                                         <!--<div class="file_descript">' . $text . '</div>--></a>
                                     </div>';
 				}
-				$my_tmp_element = '<div class="files_name">' . $child[$i]["element"][$k] ["row"]['NAME'] . '</div><p>'.$child[$i]["element"][$k] ["row"]['PREVIEW_TEXT'].'</p>
+				$name = "";
+				//var_dump($child[$i]["element"][$k]['properties']['DLINNOE']['VALUE']);
+				//die('hjk');
+				if( $child[$i]["element"][$k] ["row"]['DETAIL_TEXT'] == ""){
+					$name =  $child[$i]["element"][$k] ["row"]['NAME'];
+				}else{
+					$name =  $child[$i]["element"][$k] ["row"]['DETAIL_TEXT'];
+				}
+				$my_tmp_element = '<div class="files_name">' . $name . '</div><p>'.$child[$i]["element"][$k] ["row"]['PREVIEW_TEXT'].'</p>
 			<div class="row">
 									' . $files_str . '
-							<div class="file_descript">' . $child[$i]["element"][$k] ["row"]['DETAIL_TEXT'] . '</div>
+							<!--<div class="file_descript">' . $child[$i]["element"][$k] ["row"]['DETAIL_TEXT'] . '</div>-->
                             </div>';
 				$tmp_elements .= $my_tmp_element;
 				$my_tmp_element = "";
