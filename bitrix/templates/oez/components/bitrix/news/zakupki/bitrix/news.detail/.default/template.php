@@ -132,5 +132,11 @@ $this->setFrameMode(true);
 					</div>
 				</div>
 			</div>
+			<div class="row content">
+				<a class="back" href="javascript:history.go(-1)">
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/arrow2.png">
+					<span>Назад</span>
+				</a>
+			</div>
 		</section>
 	</div>

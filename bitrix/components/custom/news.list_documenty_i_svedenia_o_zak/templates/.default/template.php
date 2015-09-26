@@ -70,9 +70,9 @@ $this->setFrameMode(true);
 				$size =round($size,2).'МБ';
 			}
 			$files_str.='<div class="item_download">
-                                     <a href="'.$arResult['element'][$k]['files'][$m]['SRC'].'" >  <div class="item_download_type"><img src="'.$ico.'">'.$size.'</div>
+                                     <a href="'.$arResult['element'][$k]['files'][$m]['SRC'].'" >  <div class="item_download_type"><img src="'.$ico.'"><!--</div>
                                         <div class="item_download_date">'.$arResult["razdel"][$i]["element"][$k]['DATE'].'</div>
-                                        <div class="name">'.extractFileName($arResult['element'][$k]['files'][$m]["ORIGINAL_NAME"]).'</div></a>
+                                        <div class="name">-->'.extractFileName($arResult['element'][$k]['files'][$m]["ORIGINAL_NAME"]).', '.$size.'</div></a>
                                     </div>';
 		}
 		if($k==1){
