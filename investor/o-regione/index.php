@@ -49,28 +49,46 @@ $APPLICATION->SetTitle("О регионе");
 
 
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal1">
-							<div><img src="<?=SITE_TEMPLATE_PATH?>/img/metal.png"></div>
+							<div>
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/metal.png" class="red">
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/black6.png" class="black">
+							</div>
 							<div>Металлообработка</div>
 						</div>
 
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal2">
-							<div><img src="<?=SITE_TEMPLATE_PATH?>/img/gears.png"></div>
+							<div>
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/gears.png" class="red">
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/black2.png" class="black">
+							</div>
 							<div>Машиностроение</div>
 						</div>
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal3">
-							<div><img src="<?=SITE_TEMPLATE_PATH?>/img/colba.png"></div>
+							<div>
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/colba.png" class="red">
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/black5.png" class="black">
+							</div>
 							<div>Химическая промышленность</div>
 						</div>
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal4">
-							<div><img src="<?=SITE_TEMPLATE_PATH?>/img/bytteh.png"></div>
+							<div>
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/bytteh.png" class="red">
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/black1.png" class="black">
+							</div>
 							<div>Производство бытовой техники</div>
 						</div>
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal5">
-							<div><img src="<?=SITE_TEMPLATE_PATH?>/img/lopata.png"></div>
+							<div>
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/lopata.png" class="red">
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/black4.png" class="black">
+							</div>
 							<div>Производство цемента</div>
 						</div>
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal6">
-							<div><img src="<?=SITE_TEMPLATE_PATH?>/img/cow.png"></div>
+							<div>
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/cow.png" class="red">
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/black3.png" class="black">
+							</div>
 							<div>Сельское хозяйство</div>
 						</div>
 					</div>

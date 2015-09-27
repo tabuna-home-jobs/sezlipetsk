@@ -432,6 +432,18 @@ $(document).ready(function () {
         }
     });
 
+    //ховер для блока "Основные отрасли экономики"
+    $('.otrasl>.otrasl_item').mouseover(function(){
+        $(this).children('div').children('.red').css('display','none');
+        $(this).children('div').children('.black').css('display','inline-block');
+
+    });
+    $('.otrasl>.otrasl_item').mouseout(function(){
+        $(this).children('div').children('.black').css('display','none');
+        $(this).children('div').children('.red').css('display','inline-block');
+
+    });
+
 });
 
 
