@@ -15,6 +15,7 @@
 
 
 ?>
+<script src="//www.youtube.com/player_api"></script>
 
 <div role="tabpanel" class="tab-pane fade photogal2" id="profile" aria-labelledby="home-tab">
 
@@ -180,83 +181,48 @@
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 								<h4 class="modal-title" id="myModalLabel<?=$contentPhoto['EXTERNAL_ID'];?>"><?=$contentPhoto['NAME'];?></h4>
 							</div>
-							<div class="modal-body" id="player<?=$contentPhoto['EXTERNAL_ID'];?>">
-
-								<?=$contentPhoto['PREVIEW_TEXT'];?>
-
-
-							</div>
+							<!--Тут у нас будут появлятся видео с ютуба-->
+								<div class="modal-body" id="player<?=$contentPhoto['EXTERNAL_ID'];?>"></div>
+							<!--Тут у нас будут появлятся видео с ютуба-->
 
 							<div class="modal-footer">
-								<button type="button" class="btn btn-danger closeBla<?=$contentPhoto['EXTERNAL_ID'];?>" data-dismiss="modal">Закрыть</button>
+								<button type="button" class="btn btn-danger" id="closeBla<?=$contentPhoto['EXTERNAL_ID'];?>" data-dismiss="modal">Закрыть</button>
 							</div>
 
 						</div>
 					</div>
 				</div>
 				<!-- Modal for video -->
+
 			<? } ?>
 
 
 		<? } ?>
 
 
-		<script>
 
-
-
-			<? foreach($arResult['razdel'] as $razdleTabsContent){ ?>
-
-
-			<? foreach($razdleTabsContent['child'] as $contentPhoto){ ?>
-
-			var play<?=$contentPhoto['EXTERNAL_ID'];?> = $('#player<?=$contentPhoto['EXTERNAL_ID'];?>');
-
-			$("iframe", play<?=$contentPhoto['EXTERNAL_ID'];?>).attr('id','stop<?=$contentPhoto['EXTERNAL_ID'];?>');
-
-
-			var src = $("iframe", play<?=$contentPhoto['EXTERNAL_ID'];?>).attr('src');
-
-			$("iframe", play<?=$contentPhoto['EXTERNAL_ID'];?>).attr('src', src + "?rel=0&enablejsapi=1");
-
-
-
-
-
-			<?}?>
-			<? } ?>
-
-
-
-
-			function onYouTubePlayerAPIReady() {
-
-
-
-				<? foreach($arResult['razdel'] as $razdleTabsContent){ ?>
-
-				<? foreach($razdleTabsContent['child'] as $contentPhoto){ ?>
-
-				var testplayer<?=$contentPhoto['EXTERNAL_ID'];?> = new YT.Player('stop<?=$contentPhoto['EXTERNAL_ID'];?>', {});
-
-				$('.closeBla<?=$contentPhoto['EXTERNAL_ID'];?>').click(function () {
-
-					testplayer<?=$contentPhoto['EXTERNAL_ID'];?>.pauseVideo();
-
-
-
-				});
-				<?}?>
-				<? } ?>
-
-
-
-			}
-
-		</script>
 
 	</div>
 
+	<script>
+		//Создаем видео ютубовские
+		function onYouTubePlayerAPIReady() {
+
+			<? foreach($arResult['razdel'] as $razdleTabsContent){ ?>
+
+				<? foreach($razdleTabsContent['child'] as $contentPhoto){ ?>
+
+					var player<?=$contentPhoto['EXTERNAL_ID'];?> = new YT.Player('player<?=$contentPhoto['EXTERNAL_ID'];?>', {videoId: '<?=$contentPhoto['PREVIEW_TEXT'];?>'});
+
+					document.getElementById('closeBla<?=$contentPhoto['EXTERNAL_ID'];?>').onclick = function() {
+						player<?=$contentPhoto['EXTERNAL_ID'];?>.pauseVideo();
+					};
+
+				<? } ?>
+			<? } ?>
+
+		}
+	</script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.carousel-inner2 .item:first-child').addClass('active');
