@@ -15,7 +15,7 @@ $this->setFrameMode(true);
 ?>
 
 <section class="slider-wrap container hidden-xs">
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide homeslide" data-ride="carousel">
 	<!-- Indicators -->
 	<ol class="carousel-indicators">
 		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -51,7 +51,7 @@ $this->setFrameMode(true);
 								<h2 class="header_caption_slider"><?echo $arItem["NAME"]?></h2>
 							<?endif;?>
 							<?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arItem["PREVIEW_TEXT"]):?>
-								<div class="body_caption_slider">
+								<div class="body_caption_slider myboo">
 									<?echo $arItem["PREVIEW_TEXT"];?>
 								</div>
 							<?endif;?>
