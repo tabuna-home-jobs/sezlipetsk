@@ -7,10 +7,21 @@
         <div class="col-xs-6 labels_left">
             <?=GetMessage('choose_theme');?>
         </div>
+	    <span style="display: none" nameinput="3">Тема</span>
         <div class="col-xs-6 inputs_right">
-            <select>
+            <!--<select>
                 <option><?=GetMessage('choose_theme');?></option>
-            </select>
+            </select>-->
+	        <select name="FIELD_3" inputvalue="3">
+		        <option value="Без темы">Выберите тему</option>
+		        <option value="Электроснабжение">Электроснабжение</option>
+		        <option value="Теплоснабжение">Теплоснабжение</option>
+		        <option value="Газоснажение">Газоснажение</option>
+		        <option value="Водоснабжение">Водоснабжение</option>
+		        <option value="Водоотведениие">Водоотведениие</option>
+		        <option value="Телекоммуникации">Телекоммуникации</option>
+
+	        </select>
         </div>
     </div>
     <div class="row step_item_inputs">
