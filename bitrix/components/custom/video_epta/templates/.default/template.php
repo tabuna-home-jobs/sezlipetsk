@@ -182,7 +182,9 @@
 								<h4 class="modal-title" id="myModalLabel<?=$contentPhoto['EXTERNAL_ID'];?>"><?=$contentPhoto['NAME'];?></h4>
 							</div>
 							<!--Тут у нас будут появлятся видео с ютуба-->
-								<div class="modal-body" id="player<?=$contentPhoto['EXTERNAL_ID'];?>"></div>
+								<div class="modal-body text-center">
+									<div id="player<?=$contentPhoto['EXTERNAL_ID'];?>"></div>
+								</div>
 							<!--Тут у нас будут появлятся видео с ютуба-->
 
 							<div class="modal-footer">
