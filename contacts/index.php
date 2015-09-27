@@ -25,7 +25,8 @@ $APPLICATION->SetTitle("Контакты");
 					<div class="col-md-12 col-lg-4 col-sm-4 col-xs-12 contact_item">
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/marker_big.png">
 
-						<div class="contact_item_number">399071, Липецкая область, Грязинский район, ОЭЗ ППТ «Липецк», АДЦ
+						<div class="contact_item_number">399071, Липецкая область, Грязинский район, ОЭЗ ППТ «Липецк», АДЦ <br>
+						   GPS N52031.021’ E39048.154’
 						</div>
 						<!--<div class="contact_item_dopinfo">
 							Почтовый адрес: 398908, г. Липецк,<br/> пос. Матырский, а/я 344

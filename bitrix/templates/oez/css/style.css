@@ -3228,6 +3228,21 @@ background-image: url("../img/view_activ.png");
     display: inline-block;
     text-decoration: none !important;
 }
+.otrasl .black{
+    display: none;
+}
+@media (max-width: 1230px){
+    .myboo{
+        display: none;
+    }
+}
+.homeslide div.active{
+    height: 100%;
+}
+.button_caption_slider{
+    position: absolute;
+    bottom: 0;
+}
 /*******************Времнно скрываем выбор англоязычной версии**********************/
 .rus_eng_search>a+a{
     display: none;
