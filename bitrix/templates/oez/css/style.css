@@ -3243,6 +3243,11 @@ background-image: url("../img/view_activ.png");
     position: absolute;
     bottom: 0;
 }
+.reddi{
+    position: absolute;
+    left: 15%;
+    bottom: 20%;
+}
 /*******************Времнно скрываем выбор англоязычной версии**********************/
 .rus_eng_search>a+a{
     display: none;

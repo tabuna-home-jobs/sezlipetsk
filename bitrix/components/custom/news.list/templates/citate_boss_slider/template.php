@@ -19,13 +19,23 @@ $this->setFrameMode(true);
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
-			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<?
+			foreach($arResult["ITEMS"] as $arItem){
+				$n++;
+			}
+			for($i = 0; $i < $n; $i++){
+				if($n == 1){?>
+					<li data-target="#carousel-example-generic" data-slide-to="<?=$i?>" class="active"></li>
+				<?}else{?>
+					<li data-target="#carousel-example-generic" data-slide-to="<?=$i?>"></li>
+				<?}
+			}?>
 		</ol>
 
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
-			<?foreach($arResult["ITEMS"] as $arItem):?>
+			<?  $n = 0;
+				foreach($arResult["ITEMS"] as $arItem):?>
 				<?
 				$n++;
 				$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
@@ -36,19 +46,23 @@ $this->setFrameMode(true);
 					<?if(!$arParams["HIDE_LINK_WHEN_NO_DETAIL"] || ($arItem["DETAIL_TEXT"] && $arResult["USER_HAVE_ACCESS"])):?>
 						<?if($n == 1){ $str = "active";}else{$str = ""; } ?>
 						<div class="item <?=$str; ?>" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
-							<a href="tsitaty-rukovoditeley/">
+
 								<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
 								     alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
 								     title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>">
+							<a href="tsitaty-rukovoditeley/"  class="reddi">
+								<img  src="<?=SITE_TEMPLATE_PATH?>/img/reddi.png">
 							</a>
 						</div>
 					<?else:?>
 
 						<div class="item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
-							<a href="tsitaty-rukovoditeley/">
+
 								<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
 								     alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
 								     title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>">
+							<a href="tsitaty-rukovoditeley/"  class="reddi">
+								<img src="<?=SITE_TEMPLATE_PATH?>/img/reddi.png">
 							</a>
 						</div>
 					<?endif;?>
