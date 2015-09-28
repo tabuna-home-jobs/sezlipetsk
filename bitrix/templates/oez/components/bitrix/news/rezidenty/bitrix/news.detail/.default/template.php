@@ -35,6 +35,8 @@ $this->setFrameMode(true);
 				<div class="col-xs-12 col-sm-6">
 					<div class="text_resident_header">
 						<?echo $arResult["DETAIL_TEXT"];?>
+							</br>
+						Объем инвестиций в соответствии с Соглашениями, млн.руб.: <?=$arResult['PROPERTIES']['INVESTMENT_SIZE']['VALUE'];?>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6">
