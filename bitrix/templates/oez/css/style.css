@@ -2278,7 +2278,7 @@ textarea {
 }
 .spec-table-info{
   position: relative;
-  left: 70px;
+  left: 20px;
 }
 .spec-table-info td:first-child{
   width:10px;
