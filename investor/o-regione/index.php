@@ -53,7 +53,7 @@ $APPLICATION->SetTitle("О регионе");
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/metal.png" class="red">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/black6.png" class="black">
 							</div>
-							<div>Металлообработка</div>
+							<div>Металлургия и металлообработка</div>
 						</div>
 
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal2">
@@ -68,7 +68,7 @@ $APPLICATION->SetTitle("О регионе");
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/colba.png" class="red">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/black5.png" class="black">
 							</div>
-							<div>Химическая промышленность</div>
+							<div>Нефтехимическая промышленность</div>
 						</div>
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal4">
 							<div>
@@ -82,7 +82,7 @@ $APPLICATION->SetTitle("О регионе");
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/lopata.png" class="red">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/black4.png" class="black">
 							</div>
-							<div>Производство цемента</div>
+							<div>Производство строительных конструкций</div>
 						</div>
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal6">
 							<div>
@@ -101,10 +101,10 @@ $APPLICATION->SetTitle("О регионе");
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								<h4 class="modal-title" id="myModalLabel">Металлообработка</h4>
+								<h4 class="modal-title" id="myModalLabel">Металлургия и металлообработка</h4>
 							</div>
 							<div class="modal-body">
-								Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+								<p style="text-align: justify;">Промышленное производство является основой экономического потенциала области, на его долю приходится около 66 % валового регионального продукта. Регион занимает четвёртое место по производству стали (14 %) и проката черных металлов (16 %), В числе крупнейших промышленных предприятий — ОАО «Новолипецкий металлургический комбинат», Завод «Свободный сокол»</p>
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
@@ -122,7 +122,9 @@ $APPLICATION->SetTitle("О регионе");
 								<h4 class="modal-title" id="myModalLabel2">Машиностроение</h4>
 							</div>
 							<div class="modal-body">
-								Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+								<p style="text-align: justify;">В Липецкой области более 350 крупных, средних и малых предприятиях. Машиностроительной отрасли. На  них трудятся более 16 тыс. человек, из них производством машин и оборудования заняты почти 13 тыс. человек. Удельный вес машиностроения и металлообработки в структуре промышленного производства региона составляет 7 %. Ежегодно предприятия отрасли отгружают продукции на сумму свыше 24 млрд. рублей. За январь-июль 2015 года этот объем вырос почти на 6 % к соответствующему периоду прошлого года и составил 17,2 млрд. рублей.</p> 
+
+								<p style="text-align: justify;">Основными центрами машиностроения являются Липецк, Елец, Грязи, Лебедянь, Чаплыгин, Усмань. Среди наиболее крупных предприятий - ЗАО «Индезит Интернэшнл», «Липецкий завод гусеничных тягачей», ООО «Липецкое станкостроительное предприятие», акционерные общества «Гидромаш», «Елецгидроагрегат», «Гидропривод», «Грязинский культиваторный завод», «Строймаш», а также ООО «Лебедянский машиностроительный завод», ООО «РАЦИОНАЛ».</p>
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
@@ -137,10 +139,15 @@ $APPLICATION->SetTitle("О регионе");
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								<h4 class="modal-title" id="myModalLabel3">Химическая промышленность</h4>
+								<h4 class="modal-title" id="myModalLabel3">Нефтехимическая промышленность</h4>
 							</div>
 							<div class="modal-body">
-								Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+								<p style="text-align: justify;">В Липецком  регионе успешно работает ряд предприятий, представляющих нефтехимическую промышленность:</p>
+								<ul>
+								<li style="text-align: justify;">ОАО «СИЛАН» — именно данное предприятие раньше остальных приступило к изготовлению кремнийорганических изделий. Основу ассортимента образуют соединения, для получения которых применяют кристаллический кремний высокой чистоты совместно с хлорпроизводными углеводородами.</li>
+								<li style="text-align: justify;">ОАО «Полимер» — основной специализацией данного предприятия является изготовление полимерных изделий. К числу таковых следует отнести упаковочные товары, пакеты на полимерной основе, применяемые для фасовки, продукцию из пластмасс (к примеру, бочки), а также товары народного потребления на основе пластмассы.</li>
+								<li style="text-align: justify;">ООО «Ланксесс Липецк» производит добавки для шинной промышленности.</li>
+                                </ul>
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
@@ -158,7 +165,7 @@ $APPLICATION->SetTitle("О регионе");
 								<h4 class="modal-title" id="myModalLabel4">Производство бытовой техники</h4>
 							</div>
 							<div class="modal-body">
-								Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+								<p style="text-align: justify;">Регион занимает первое место в Российской Федерации по производству бытовых холодильников и морозильников (более 40 % от общероссийского производства). Крупнейший производитель холодильников и стиральных машин – ЗАО «Индезит Интернешнл».</p>
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
@@ -168,7 +175,7 @@ $APPLICATION->SetTitle("О регионе");
 				</div>
 				<!--Модалка-->
 				<!-- Модалка -->
-				<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5">
+				<div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5">
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
@@ -176,7 +183,8 @@ $APPLICATION->SetTitle("О регионе");
 								<h4 class="modal-title" id="myModalLabel5">Сельское хозяйство</h4>
 							</div>
 							<div class="modal-body">
-								Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+								<p style="text-align: justify;">Благоприятные климатические условия, наличие чернозёмов, способствуют развитию растениеводства. Площадь сельхозугодий занимает свыше 1,8 млн га, из них пашня — более 80 %. 22,3 тыс. га земли отведено под плодовые сады, где в основном выращивают яблони, груши, сливы. В области насчитывается около 300 сельскохозяйственных предприятий, основными направлениями которых являются: производство зерновых, сахарной свеклы, картофеля, разведение крупного рогатого скота, свиноводство, птицеводство. Объём валовой продукции сельского хозяйства в 2010 году составил около 35,3 млрд рублей.</p>
+								<p style="text-align: justify;">В настоящее время крупная российская продовольственная компания «Черкизово» осуществляет строительство в Елецком районе Липецкой области крупнейшего в России агропромышленного комплекса.</p>
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
@@ -186,15 +194,18 @@ $APPLICATION->SetTitle("О регионе");
 				</div>
 				<!--Модалка-->
 				<!-- Модалка -->
-				<div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6">
+				<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6">
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								<h4 class="modal-title" id="myModalLabel6">Производство цемента</h4>
+								<h4 class="modal-title" id="myModalLabel6">Производство строительных конструкций</h4>
 							</div>
 							<div class="modal-body">
-								Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+								<p style="text-align: justify;">К перспективным отраслям относится промышленность строительных материалов, которая призвана удовлетворить потребности строительства в собственных строительных материалах. С этой целью предусматривается ввод новых производственных мощностей - строительство новых заводов (цементного, по производству стеновых материалов, стекольного и др.) и связанных с ними разработка карьеров и рост добычи цементного и черепично-кирпичного сырья, производство и обогащение стекольных песков. Развиваются производства новых современных строительных материалов.</p>
+								<p style="text-align: justify;"><b>ОАО «Липецкцемент»</b> – единственный производитель цемента в Липецкой области. Продукция предприятия пользуется широкой известностью среди потребителей строительного комплекса Москвы, Липецкой, Тамбовской, Курской, Тульской, Орловской, Московской областей и других регионов России.</p> 
+								<p style="text-align: justify;"><b>ООО «ЗСК СЭНДВИЧ-ПАНЕЛЬ», ООО «ЗАВОД СТРОИТЕЛЬНЫХ КОНСТРУКЦИЙ»</b></p>
+								<p style="text-align: justify;">Это предприятия нового поколения, одни из крупнейших Российских производителей сэндвич-панелей (1,5 млн. кв. метров в год). Выпускаемые трехслойные стеновые и кровельные сэндвич-панели имеют толщину от 60 до 250 мм и предназначаются для единой системы быстровозводимых зданий и металлоконструкций.</p>
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
