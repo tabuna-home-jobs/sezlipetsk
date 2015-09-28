@@ -16,7 +16,7 @@ $APPLICATION->SetTitle("Перспективы расширения террит
 				closeClick	: false,
 				openEffect	: 'none',
 				closeEffect	: 'none'
-			});;
+			});
 		});
 	</script>
 

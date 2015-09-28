@@ -14,7 +14,6 @@
 $this->setFrameMode(true);
 
 
-
 ?>
 <div role="tabpanel" class="tab-pane fade active in photogal" id="home" aria-labelledby="home-tab">
 

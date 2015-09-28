@@ -14,8 +14,10 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
 /** @global CIntranetToolbar $INTRANET_TOOLBAR */
 global $INTRANET_TOOLBAR;
 
+
 use Bitrix\Main\Context;
 use Bitrix\Main\Type\DateTime;
+
 
 CPageOption::SetOptionString("main", "nav_page_in_session", "N");
 
@@ -387,10 +389,9 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 			//Описываем фильтр по каком будет выборка
 			$arFilter = Array("IBLOCK_ID"=>$info_item,'SECTION_ID' =>$ar_Section['ID'], 'depth_level' => '2', "ACTIVE"=>"Y");
 			//Делаем запрос
+
 			$rs_Section_child = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>500), $arSelect);
 
-
-			//$rs_Section_child = CIBlockSection::GetList(array('left_margin' => 'desc'), array('IBLOCK_ID' =>$arItem['IBLOCK_ID'],'SECTION_ID' =>$ar_Section['ID'],'depth_level' => '2'),false, array('UF_*'));
 
 
 
@@ -400,11 +401,13 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 			$arSelect = Array("ID", "NAME", "DATE_ACTIVE_FROM", "DETAIL_PAGE_URL", "PREVIEW_PICTURE","DETAIL_PICTURE");
 			/// выборка значений полей.  CODE - код дополнительного свойства(если есть) , DETAIL_TEXT - детальное описание элемента
 			$arFilter = Array("IBLOCK_ID"=>$info_item, "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
-			$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>500), $arSelect);
+			$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>9500), $arSelect);
 			while($ob = $res->GetNextElement()) // "бежим" по элементам
 			{
 				$arFields[] = $ob->GetFields();  // $arFimoskelds массив значений полей текущего элемента
 			}
+
+			//Берем все дочерние элементы блока
 
 
 
@@ -412,8 +415,6 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 			$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion = 0;
 
 			foreach($arFields as $AllPhoto){
-
-
 
 				$arResult["allPhotoz"][$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion] = array(
 					'ID' => $AllPhoto['ID'],
@@ -426,13 +427,41 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 				$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion++;
 			}
 
-
-
-
 			$jj = 0;
 
 
 
+				//Берем родительский блок
+				$parentBlock = $ar_Section['ID'];
+
+				$Section_child = CIBlockSection::GetList(array('left_margin' => 'desc'), array('IBLOCK_ID' =>$info_item,'SECTION_ID' =>$parentBlock,'depth_level' => '2'),false, array('UF_*'));
+
+
+				while($child = $Section_child->Fetch()){
+
+					//Выставляем поля которые нам нужны
+					$arSelect2 = Array("ID", "NAME", "DATE_ACTIVE_FROM", "DETAIL_PAGE_URL", "PREVIEW_PICTURE","DETAIL_PICTURE");
+					//Описываем фильтр по каком будет выборка
+					$arFilter2 = Array("IBLOCK_ID"=>$info_item,'SECTION_ID' =>$child['ID'], 'depth_level' => '2', "ACTIVE"=>"Y");
+					//Делаем запрос
+
+					$Section_child2 = CIBlockElement::GetList(Array(), $arFilter2, false, Array("nPageSize"=>500), $arSelect2);
+
+					while($child = $Section_child2->Fetch()){
+
+						$arResult["razdel"][$ii]["child"][] = array(
+							'ID' => $child ['ID'],
+							'NAME' =>$child ['NAME'],
+							'IBLOCK_SECTION_ID' => $child ['IBLOCK_SECTION_ID'],
+							'LEFT_MARGIN' => $child ['LEFT_MARGIN'],
+							'RIGHT_MARGIN' => $child ['RIGHT_MARGIN'],
+							'PREVIEW_PICTURE' => $child['PREVIEW_PICTURE'],
+							'DETAIL_PICTURE' => $child['DETAIL_PICTURE']
+						);
+					}
+
+
+				}
 
 			while($ar_Section_child = $rs_Section_child->Fetch() ){
 
@@ -448,6 +477,7 @@ if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"]==="N"? false:
 					'UF_FIRST_IMG' =>CFile::GetFileArray($ar_Section_child ['UF_FIRST_IMG']),
 					'UF_SECOND_IMG' =>CFile::GetFileArray($ar_Section_child ['UF_SECOND_IMG']),
 				);
+
 
 
 				$rs_element = CIBlockElement::GetList(Array("SORT"=>"desc"),array('SECTION_ID'=>  $ar_Section_child['ID']));
@@ -656,3 +686,5 @@ if(isset($arResult["ID"]))
 
 	return $arResult["ELEMENTS"];
 }
+
+
