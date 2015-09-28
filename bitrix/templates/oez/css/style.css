@@ -3254,6 +3254,10 @@ background-image: url("../img/view_activ.png");
 #ajax-loader+font+font{
     display: none;
 }
+.miniGal .fancybox{
+    text-align: center;
+    height: 105px;
+}
 /*******************Времнно скрываем выбор англоязычной версии**********************/
 .rus_eng_search>a+a{
     display: none;
