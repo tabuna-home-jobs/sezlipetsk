@@ -3248,6 +3248,12 @@ background-image: url("../img/view_activ.png");
     left: 15%;
     bottom: 20%;
 }
+#ajax-loader+font{
+    display: none;
+}
+#ajax-loader+font+font{
+    display: none;
+}
 /*******************Времнно скрываем выбор англоязычной версии**********************/
 .rus_eng_search>a+a{
     display: none;

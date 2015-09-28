@@ -1,4 +1,10 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+	// номер текущей страницы
+	$curPage = $arResult["NAV_RESULT"]->NavPageNomer;
+	// всего страниц - номер последней страницы
+	$totalPages = $arResult["NAV_RESULT"]->NavPageCount;
+	// номер постраничной навигации на странице
+	$navNum = $arResult["NAV_RESULT"]->NavNum;
 /** @var array $arParams */
 /** @var array $arResult */
 /** @global CMain $APPLICATION */
@@ -11,7 +17,25 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
-?><section class="top_block_main">
+?>
+<script>
+
+	$(function(){
+		var newsSetLoader = new newsLoader({
+			root: '.main>section',
+			newsBlock: '.smi_more_blocks',
+			newsLoader: '#load-items',
+			ajaxLoader: '#ajax-loader img',
+			loadSett:{
+				endPage: <?=$totalPages?>,
+				navNum: <?=$navNum?>
+			}
+		});
+		newsSetLoader.init();
+	});
+
+</script>
+<section class="top_block_main">
 	<div class="container">
 		<div class="row top_block">
 			<div class="left_part col-xs-12 col-sm-12 col-md-7">
@@ -70,9 +94,18 @@ $this->setFrameMode(true);
 			</div>
 		</div>
 		<?endforeach;?>
+	</div><div class="dop_smi">
+		<?if(count($arResult["ITEMS"])>=$arParams["NEWS_COUNT"]){?>
+			<a href="#" id="load-items" class="see_more">ПОКАЗАТЬ ЕЩЕ</a>
+		<?}?>
+		</div>
+	<div id="ajax-loader">
+
+		<img src="/bitrix/templates/oez/img/progress.gif">
 	</div>
-</section>
 	<?if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
-		<br /><?=$arResult["NAV_STRING"]?>
+		<?=$arResult["NAV_STRING"]?>
 	<?endif;?>
+</section>
+
 </div>
