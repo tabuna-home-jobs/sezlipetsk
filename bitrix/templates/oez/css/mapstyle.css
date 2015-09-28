@@ -104,7 +104,6 @@
 }
 .spec-table-info{
     position: relative;
-    top: -300px;
     left: 70px;
 }
 .spec-table-info td:first-child{
