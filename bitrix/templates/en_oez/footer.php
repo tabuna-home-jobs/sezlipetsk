@@ -64,7 +64,7 @@
 		</div>
 		<div class="part_2 row">
 			<div class="col-md-4 col-sm-12 all_rights">All rights reserved .
-			                                           2007-2014 , of " special economic zone of industrial production type " Lipetsk "
+			                                           2007-2015 , of " special economic zone of industrial production type " Lipetsk "
 			</div>
 			<div class="col-md-4 col-sm-6 col-xs-6 sitemap"><a><img src="<?=SITE_TEMPLATE_PATH?>/img/sitemap.png">Site map</a></div>
 			<div class="col-md-4 col-sm-6 col-xs-6 copirite">
