@@ -142,7 +142,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
      </div>
      <div class="col-lg-6 col-xs-12 col-sm-12 col-md-12 block_item">
       <div class="item_block">
-       <a class="item_block_a" id=""  href="https://docs.google.com/viewer?http://sezlipetsk.ru/<?=SITE_TEMPLATE_PATH?>/resid.pdf" target="_blank"><div class="hover_container">
+       <a class="item_block_a" id=""  href="https://docs.google.com/viewer?url=http://sezlipetsk.ru<?=SITE_TEMPLATE_PATH?>/resid.pdf" target="_blank"><div class="hover_container">
          <div class="hover"></div>
         </div>
         <div class="item_bod">
