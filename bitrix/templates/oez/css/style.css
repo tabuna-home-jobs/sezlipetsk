@@ -3133,6 +3133,10 @@ background-image: url("../img/view_activ.png");
     padding: 7px;
     width: 100%;
 }
+.tab-pane:nth-child(10) .imgMap{
+  overflow: visible;
+  padding-top: 5px;
+}
 .razdel .razdel_desc{
     display: none;
 }

@@ -464,7 +464,7 @@
 			</div>
 			<div role="tabpanel" class="tab-pane fade" id="net-infr">
 				<div class="imgMap">
-					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map10.jpg">
+					<img src="<?=SITE_TEMPLATE_PATH?>/img/maparea/map10.png">
 				</div>
 				<!--Описание карты-->
 				<div class="description-map row">
