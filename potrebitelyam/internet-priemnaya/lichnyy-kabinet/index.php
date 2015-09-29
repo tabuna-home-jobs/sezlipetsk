@@ -399,8 +399,45 @@
 
 									<div class="col-xs-12">
 										<div class="oval_links_container">
-											<a href="zayavka-na-prisoedinenie/" class="oval_links"><span><span>до 150 к Вт <span class="star_red">*</span></span></span></a>
-											<a href="zayavka-na-prisoedinenie-vremennoe/" class="oval_links"><span><span><span>Временное <span class="star_red">*</span><span class="star_red">*</span> присоединение</span></span></span></a>
+											<a class="oval_links"
+												<?if ($USER->IsAuthorized()){?>
+													href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-na-prisoedinenie/"
+												<?}else{?>
+													href ="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/"
+												<?}?>
+												><span>Заявка на технологическое присоединение к сетям электроснабжения до 150 кВт. <span class="star_red">*</span></span></a>
+											<div class="clear"></div>
+											<a class="oval_links"
+												<?if ($USER->IsAuthorized()){?>
+													href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-na-prisoedinenie-vremennoe/"
+												<?}else{?>
+													href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/"
+												<?}?>
+												><span>Заявка на временное технологическое присоединение к сетям электроснабжения<span class="star_red">**</span> </span></a>
+
+											<a class="oval_links"
+												<?if ($USER->IsAuthorized()){?>
+													href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-o-neobkhodimosti-snyatiya-pokazaniy-sushchestvuyushchego-pribora-ucheta/"
+												<?}else{?>
+													href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/"
+												<?}?>
+												><span>Заявка о необходимости снятия показаний существующего прибора учета </span></a>
+
+											<a class="oval_links"
+												<?if ($USER->IsAuthorized()){?>
+													href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-na-osushchestvlenie-dopuska-v-ekspluatatsiyu-pribora-ucheta-elektricheskoy-energii/"
+												<?}else{?>
+													href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/"
+												<?}?>
+												><span>Заявка на осуществление допуска в эксплуатацию прибора учета электрической энергии</span></a>
+
+											<a class="oval_links"
+												<?if ($USER->IsAuthorized()){?>
+													href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavlenie-na-oborudovanie-tochki-postavki-priborami-ucheta-zamenu-pribora-ucheta/"
+												<?}else{?>
+													href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/"
+												<?}?>
+												><span>Заявление на оборудование точки поставки приборами учета (замену прибора учета)</span></a>
 										</div>
 									</div>
 									<div class="col-xs-12 form_descript">
