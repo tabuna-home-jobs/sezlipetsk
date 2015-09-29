@@ -1,3 +1,13 @@
+<link src="<?=SITE_TEMPLATE_PATH?>/css/bootstrap-datetimepicker.min.css" type="text/css"  rel="stylesheet"/>
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/moment-with-locales.min.js"></script>
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/bootstrap-datetimepicker.min.js"></script>
+<script>
+	$(document).ready(function(){
+		//alert('fghjkl;');
+		$('#datetime').datetimepicker({language: 'ru'});
+
+	} );
+</script>
 <div class="login_form_heder padding_block ">
 	<h2 class="h20px_light">Заявка на осуществление допуска в эксплуатацию прибора учета электрической энергии</h2>
 </div>
@@ -62,7 +72,7 @@
 			        <span class="star_red">*</span> <span nameinput="7">Дата, время</span>
 		        </div>
 		        <div class="col-xs-6 inputs_right">
-			        <input type="text" name="FIELD_7" inputvalue="7" require>
+			        <input type="text" name="FIELD_7" inputvalue="7" require id="datetime">
 		        </div>
 	        </div>
 	        <div class="row">
