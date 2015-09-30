@@ -144,11 +144,11 @@ $APPLICATION->SetTitle("Социальная инфраструктура рег
 				</div>
 				<div class="col-md-12 col-lg-6 col-xs-12 block_item">
 					<div class="item_block">
-						<a class="item_block_a" href="/investor/sotsialnaya-infrastruktura-oez/"><div class="hover_container">
+						<a class="item_block_a" href="/investor/sotsialnaya-infrastruktura-oez/zhilishchnye-usloviya/"><div class="hover_container">
 							<div class="hover"></div>
 						</div>
 						<div class="item_bod">
-							<div class="item_name">Жилье</div>
+							<div class="item_name">Жилищные условия</div>
 						</div>
 						<div class="block_icon">
 							<span
