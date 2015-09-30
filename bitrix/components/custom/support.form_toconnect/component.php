@@ -40,6 +40,47 @@ foreach ($_FILES as $key => $file) {
 		];
 	}
 }
+
+$filter = Array
+(
+	"GROUPS_ID"           => Array(1)
+);
+$rsUsers = CUser::GetList($filter);
+
+while($rsUsers->NavNext(true, "f_")) {
+	$rsUser = CUser::GetByID($f_ID);
+	$arUser[] = $rsUser->Fetch();
+
+}
+
+$admiEmail = $arUser['EMAIL'];
+
+//Текущий пользователь
+$currUser = $USER->GetEmail();
+
+//Формируем сообщение
+$mezz = "<div style='text-align: left;'>".nl2br($textMessage)."</div>";
+/* получатели */
+$to= $currUser;
+
+/* тема/subject */
+$subject = "Вы отправили ".$_POST['formname']." с сайта www.sezlipetsk.ru";
+
+$subject2 = "Пользователь отправил ".$_POST['formname']." с сайта www.sezlipetsk.ru";
+/* сообщение */
+$message = $mezz;
+
+/* Для отправки HTML-почты вы можете установить шапку Content-type. */
+$headers= "MIME-Version: 1.0\r\n";
+$headers .= "Content-type: text/html; charset=utf-8\r\n";
+
+//Всё и так приходим без этого дерьма!!!
+/* и теперь отправим автору это сообщение */
+//mail($to, $subject, $message, $headers);
+
+//Отправим админу такоеже письмо
+//mail($admiEmail, $subject2, $message, $headers);
+
 if ($textMessage != "") {
 	$arFields = array(
 		'SITE_ID' => SITE_ID,
