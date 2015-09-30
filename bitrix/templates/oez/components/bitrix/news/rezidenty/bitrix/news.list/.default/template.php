@@ -65,7 +65,7 @@ $this->setFrameMode(true);
 				</div>
 			</div>
 			<div class="hidden-xs hidden-sm right_part col-xs-12 col-sm-12 col-md-5">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/sobranie.png">
+				<img src="<?=SITE_TEMPLATE_PATH?>/img/rezidenty.png">
 			</div>
 		</div>
 	</div>

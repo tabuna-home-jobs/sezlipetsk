@@ -158,7 +158,7 @@ $APPLICATION->SetTitle("Управляющая компания");
 					<div class="block_icon_arrow">
  <span class="glyphicon glyphicon-menu-right"></span>
 					</div>
- <img src="/bitrix/templates/oez/img/inform.jpg">
+ <img src="/bitrix/templates/oez/img/rasktyt_inform.jpg">
 				</div>
 			</div>
  </a>
@@ -173,7 +173,7 @@ $APPLICATION->SetTitle("Управляющая компания");
 					<div class="block_icon_arrow">
  <span class="glyphicon glyphicon-menu-right"></span>
 					</div>
- <img src="/bitrix/templates/oez/img/inform1.jpg">
+ <img src="/bitrix/templates/oez/img/zakupki.jpg">
 				</div>
 			</div>
  </a>
