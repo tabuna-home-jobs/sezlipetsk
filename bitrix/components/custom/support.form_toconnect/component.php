@@ -74,12 +74,12 @@ $message = $mezz;
 $headers= "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=utf-8\r\n";
 
-
+//Всё и так приходим без этого дерьма!!!
 /* и теперь отправим автору это сообщение */
-mail($to, $subject, $message, $headers);
+//mail($to, $subject, $message, $headers);
 
 //Отправим админу такоеже письмо
-mail($admiEmail, $subject2, $message, $headers);
+//mail($admiEmail, $subject2, $message, $headers);
 
 if ($textMessage != "") {
 	$arFields = array(
