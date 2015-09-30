@@ -24,7 +24,7 @@ $APPLICATION->SetTitle("О проекте");
 					<div class="col-xs-12 item_wrap">
 						<div class="col-sm-6 col-xs-12 block_item">
 							<div class="item_block">
-								<a href="http://ros.t198.topaz.fastwebserver.de/test4/output/1_3_1.html" class="item_block_a" target="_blank">
+								<a href="/virtualnyy-tur/" class="item_block_a">
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
