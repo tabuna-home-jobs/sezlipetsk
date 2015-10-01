@@ -322,7 +322,7 @@ $APPLICATION->SetTitle("Инвестору");
 						<div class="block_icon_arrow">
  <span class="glyphicon glyphicon-menu-right"></span>
 						</div>
- <img src="/bitrix/templates/oez/img/prom_infr_strukt(small).JPG">
+ <img src="/bitrix/templates/oez/img/uprav_company1.jpg">
 					</div>
 				</div>
  </a>

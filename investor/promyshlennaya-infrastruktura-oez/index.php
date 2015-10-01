@@ -112,7 +112,7 @@ $APPLICATION->SetTitle(" Промышленная инфраструктура �
 				</div>
 			</div>
 			<div class="hidden-xs hidden-sm right_part col-xs-12 col-sm-12 col-md-5">
- <img src="/bitrix/templates/oez/img/oregione.png">
+ <img src="/bitrix/templates/oez/img/uprav_company2.jpg">
 			</div>
 		</div>
 	</div>
