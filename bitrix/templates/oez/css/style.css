@@ -3255,6 +3255,9 @@ background-image: url("../img/view_activ.png");
 .clear{
     clear: both !important;
 }
+.rs_files .row{
+    margin-left: 15px;
+}
 /*******************Времнно скрываем выбор англоязычной версии**********************/
 .rus_eng_search>a+a{
     display: none;

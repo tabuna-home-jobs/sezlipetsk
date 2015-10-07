@@ -68,7 +68,7 @@ $(window).load(function (){
     $('.rs_files .scrollbar-outer').css('max-height',$('.navigacia').height());
 
    //Скрываем скрол если содержимое меньше блока
-    noscroll_rs();
+   // noscroll_rs();
 
 
 
