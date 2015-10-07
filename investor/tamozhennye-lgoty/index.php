@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Таможенные льготы");
 ?><div class="main ">
  <section class="top_block_main">
-	<div class="container">
+	<p class="container" style="text-align: justify;">
 		 <!--Хеебный крош--> <?$APPLICATION->IncludeComponent(
 	"custom:breadcrumb",
 	"",
@@ -14,18 +14,35 @@ $APPLICATION->SetTitle("Таможенные льготы");
 		"SITE_ID" => "s1"
 	)
 );?> <!--Хлебные крошки-->
-		<h3><?=$APPLICATION->GetTitle();?></h3>
+	</p>
+	<h3><?=$APPLICATION->GetTitle();?></h3>
+	<p style="text-align: justify;" class="">
+		 На территории ОЭЗ "Липецк" функционирует полный комплекс таможенной инфраструктуры, созданный для нужд резидентов:
+	</p>
+	<p style="text-align: justify;">
+	</p>
+	<ul>
+		<li>
+		<p style="text-align: justify;">
+			 Возможность электронного декларирования грузов
+		</p>
+ </li>
+		<li>
+		<p style="text-align: justify;">
+			 Полное отсутствие очередей
+		</p>
+ </li>
+	</ul>
+	<p style="text-align: justify;">
+	</p>
+	<p style="text-align: center;">
  <br>
-
-<p style="text-align: center;">
-	 На территории ОЭЗ "Липецк" функционирует комплекс таможенной инфраструктуры.
-</p>
-<p style="text-align: center;">
-	<img width="800" alt="11.png" src="/upload/medialibrary/2e4/2e4ad7a714b44128e7b5636fb9c23f30.png" height="460" title="11.png"><br>
-</p>
-<p style="text-align: center;">
-	<img width="800" alt="22.png" src="/upload/medialibrary/7ca/7ca8c0d31e12be2fb6e56ed0a2f5b64b.png" height="325" title="22.png"><br>
-</p>
-	</div>
+	</p>
+	<p style="text-align: center;">
+ <img width="1024" alt="Таможенные льготы_новая-05-10-15.png" src="/upload/medialibrary/2c9/2c9b8cc388129699a31704c96e8625ff.png" height="561" title="Таможенные льготы_новая-05-10-15.png"><br>
+	</p>
+	<p>
+	</p>
  </section>
-</div><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+</div>
+ <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
