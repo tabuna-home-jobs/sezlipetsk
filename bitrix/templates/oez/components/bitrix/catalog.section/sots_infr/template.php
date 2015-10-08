@@ -14,7 +14,7 @@ $this->setFrameMode(true);
 ?>
 <section class="top_block_main">
 	<div class="container">
-		<div class="row top_block">
+		<div class="row top_block over">
 			<div class="left_part col-xs-12 col-sm-12 col-md-7">
 				<!--Хеебный крош-->
 				<?$APPLICATION->IncludeComponent(
@@ -41,15 +41,17 @@ $this->setFrameMode(true);
 						<?endforeach;?>
 					</ul>
 				</div>
-				<div class="scrollbar-outer">
+
 					<div class="tab-content">
 						<?foreach ($arResult['ITEMS'] as $key => $arItem):?>
 						<div role="tabpanel" class="tab-pane fade <?=$key == 0 ? 'in active' : ''?>"  class="lin" id="<?=$arItem["CODE"]?>">
+							<div class="scrollbar-outer">
 							<?=$arItem["DETAIL_TEXT"]?>
+							</div>
 						</div>
 						<?endforeach;?>
 					</div>
-				</div>
+
 			</div>
 			<div class="hidden-xs hidden-sm right_part col-xs-12 col-sm-12 col-md-5">
 				<?foreach ($arResult['ITEMS'] as $key => $arItem):?>
