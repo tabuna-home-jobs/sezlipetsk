@@ -65,7 +65,7 @@
 			<div class="col-md-4 col-sm-12 all_rights">Все права защищены и охраняются законом.
 			                                           2007—2015, ОАО «особая экономическая зона промышленно-производственного типа «Липецк»
 			</div>
-			<div class="col-md-4 col-sm-6 col-xs-6 sitemap"><a><img src="<?=SITE_TEMPLATE_PATH?>/img/sitemap.png">Карта сайта</a></div>
+			<div class="col-md-4 col-sm-6 col-xs-6 sitemap"><a href="/sitemap/"><img src="<?=SITE_TEMPLATE_PATH?>/img/sitemap.png">Карта сайта</a></div>
 			<div class="col-md-4 col-sm-6 col-xs-6 copirite">
 				Создание сайта:
 				<a target="_blank" href="http://octavian48.ru">Октавиан</a>

@@ -8,15 +8,50 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Размещение рекламы", 
-		"advertising/", 
+		"Инвестору", 
+		"investor/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Пользовательское соглашение", 
-		"agreement/", 
+		"Сми о нас", 
+		"news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Пресс релизы", 
+		"press-relizy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Потребителям", 
+		"potrebitelyam/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Виртуальный тур", 
+		"virtualnyy-tur/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Интерактивная карта", 
+		"map/", 
 		Array(), 
 		Array(), 
 		"" 

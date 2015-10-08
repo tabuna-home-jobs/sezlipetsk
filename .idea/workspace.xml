@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/387/38779528d0eebffaeeccc48b7cc61304.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/4d7/4d762afd1ebbfdc3759caa3eb9343f2f.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/67d/67d1af8921980189e89172069dfc5b1b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/6be/6be48d5d7e23994522c90198627bb908.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/b93/b93ae911f3fec31c9ad613c8d75d5876.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/beb/bebb02b3f5472e755ab9c15db42d8d68.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/img/uprav_company1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/oez/img/uprav_company2.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/iblock/0a3/0a3abff71f9f597e3b6345e8b766eeee.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/iblock/47a/47a644a791eeea533944c4adcbad13aa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/iblock/99b/99b584ed46b25d165f8c1d1d8cc795e4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/iblock/ad8/ad88a6c8f829c75c898ab75706221b10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/iblock/b93/b93896dc9d9b7a9f446bb597cfe311fd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/0a3/200_200_1/0a3abff71f9f597e3b6345e8b766eeee.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/47a/200_200_1/47a644a791eeea533944c4adcbad13aa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/99b/200_200_1/99b584ed46b25d165f8c1d1d8cc795e4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/ad8/200_200_1/ad88a6c8f829c75c898ab75706221b10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/upload/resize_cache/iblock/b93/200_200_1/b93896dc9d9b7a9f446bb597cfe311fd.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/investor/index.php" afterPath="$PROJECT_DIR$/investor/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/investor/promyshlennaya-infrastruktura-oez/index.php" afterPath="$PROJECT_DIR$/investor/promyshlennaya-infrastruktura-oez/index.php" />
+    <list default="true" id="0fe4d3e0-94f8-4993-91cd-663c8739ff18" name="Default" comment="&quot;Елецкая площадка ОЭЗ «Липецк»&quot;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/images/map.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about/.bottom.menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about/upravlyayushchaya-kompaniya/.bottom.menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/agreement/.bottom.menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/investor/.bottom.menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/potrebitelyam/.bottom.menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/.bottom.menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/.description.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/lang/en/.description.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/lang/ru/.description.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtualnyy-tur/.left.menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/lang/en/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/lang/ru/.parameters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sitemap/.section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/lang/en/help/.tooltips.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/lang/ru/help/.tooltips.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/component.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/lang/en/component.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/lang/ru/component.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sitemap/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/templates/.default/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/templates/.default/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/components/custom/main.map/templates/.default/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bottom.menu.php" afterPath="$PROJECT_DIR$/.bottom.menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bottom1.menu.php" afterPath="$PROJECT_DIR$/.bottom1.menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.php" afterPath="$PROJECT_DIR$/404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/oez/footer.php" afterPath="$PROJECT_DIR$/bitrix/templates/oez/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualnyy-tur/index.php" afterPath="$PROJECT_DIR$/virtualnyy-tur/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sezlipetsk.iws" />
@@ -37,6 +46,9 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
   </component>
   <component name="DatabaseView">
     <option name="FLATTEN" value="false" />
@@ -56,31 +68,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about/index.php">
+      <file leaf-file-name="404.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/404.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state vertical-scroll-proportion="-20.074074" vertical-offset="351" max-vertical-offset="1121">
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45689654" vertical-offset="1179" max-vertical-offset="1786">
+              <caret line="67" column="78" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/investor/index.php">
+        <entry file="file://$PROJECT_DIR$/sitemap/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.333333">
-              <caret line="325" column="26" selection-start-line="325" selection-start-column="26" selection-end-line="325" selection-end-column="26" />
-              <folding />
+            <state vertical-scroll-proportion="-25.333334" vertical-offset="0" max-vertical-offset="836">
+              <caret line="36" column="10" selection-start-line="4" selection-start-column="4" selection-end-line="36" selection-end-column="10" />
+              <folding>
+                <marker date="1444312068544" expanded="true" signature="121:865" placeholder="..." />
+                <marker date="1444312068544" expanded="true" signature="133:857" placeholder="..." />
+                <marker date="1444312068544" expanded="true" signature="160:844" placeholder="..." />
+                <marker date="1444312068544" expanded="true" signature="179:508" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/investor/promyshlennaya-infrastruktura-oez/index.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/potrebitelyam/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.1764705">
-              <caret line="114" column="57" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
+            <state vertical-scroll-proportion="-3.5185184" vertical-offset="57" max-vertical-offset="3629">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="20" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -90,64 +117,61 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/style.css" />
-        <option value="$PROJECT_DIR$/news/sect_rtop.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/news_themes/bitrix/news.detail/.default/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/national_news/bitrix/news.detail/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list_connect/templates/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list_kommerc_uchet/templates/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list_peredacha_transportirovka/templates/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list_territor_obslug/templates/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/zakupki/bitrix/news.list/.default/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.detail/.default/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/js/app.js" />
-        <option value="$PROJECT_DIR$/404.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/header.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/video_epta/templates/.default/style.css" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/photogall_epta/templates/.default/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/video_epta/templates/.default/template.php" />
-        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/vashi-obrashcheniya-zhaloby/index.php" />
-        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/posmotret-peredannye-pokazaniya-priborov-ucheta/index.php" />
-        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/index.php" />
-        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/proverka-statusa-zayavki-na-tekh-prisoedinenie-k-setyam-elektrosnabzheniya/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/style.css" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/proverka_status/script.js" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/temp_connection/script.js" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania/script.js" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/peredat_pokaz/script.js" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/faq/script.js" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/script.js" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal_u/script.js" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/script.js" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania/style.css" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal_u/style.css" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal_u/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/component.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/complaint/script.js" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/proverka_status/style.css" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/template.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/proverka_status/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/css/mapstyle.css" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/script.js" />
-        <option value="$PROJECT_DIR$/about/galereya-foto-i-video/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/custom/photogall_epta/component.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty_map/bitrix/news.list/.default/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty_map/bitrix/news.list/.default/style.css" />
-        <option value="$PROJECT_DIR$/map/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/oez/css/style.css" />
+        <option value="$PROJECT_DIR$/about/upravlyayushchaya-kompaniya/zakupki/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/zakupki/bitrix/news.detail/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list_documenty_i_svedenia_o_zak/templates/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/press-relizy/bitrix/news.detail/.default/template.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list_raskritie_informacii/templates/.default/template.php" />
         <option value="$PROJECT_DIR$/investor/o-regione/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/assessment/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/.default/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/news.list/templates/citate_boss_slider/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/news.detail/.default/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/news.list/.default/template.php" />
-        <option value="$PROJECT_DIR$/about/upravlyayushchaya-kompaniya/index.php" />
-        <option value="$PROJECT_DIR$/investor/sotsialnaya-infrastruktura-oez/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/en_oez/footer.php" />
+        <option value="D:/work/ОЭЗ/index.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/chasto-zadavaemye-voprosy/index.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-o-neobkhodimosti-snyatiya-pokazaniy-sushchestvuyushchego-pribora-ucheta/index.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-na-osushchestvlenie-dopuska-v-ekspluatatsiyu-pribora-ucheta-elektricheskoy-energii/index.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavlenie-na-oborudovanie-tochki-postavki-priborami-ucheta-zamenu-pribora-ucheta/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/zayavlenie_na_oborudovanie/template.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/proverka-statusa-zayavki-na-tekh-prisoedinenie-k-setyam-elektrosnabzheniya/index.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/index.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/zayavka_na_snyatie_pokaz/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/zayavka_na_dopusk/template.php" />
+        <option value="D:/work/Марафон/form.htm" />
+        <option value="$PROJECT_DIR$/virtualnyy-tur/index.php" />
+        <option value="$PROJECT_DIR$/about/rezidenty/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/js/app.js" />
         <option value="$PROJECT_DIR$/investor/index.php" />
-        <option value="$PROJECT_DIR$/investor/promyshlennaya-infrastruktura-oez/index.php" />
+        <option value="$PROJECT_DIR$/about/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/css/style.css" />
+        <option value="$PROJECT_DIR$/contacts/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/catalog.section/sots_infr/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/include/socials.php" />
+        <option value="$PROJECT_DIR$/.bottom.menu.php" />
+        <option value="$PROJECT_DIR$/agreement/.bottom.menu.php" />
+        <option value="$PROJECT_DIR$/about/.bottom.menu.php" />
+        <option value="$PROJECT_DIR$/about/upravlyayushchaya-kompaniya/.bottom.menu.php" />
+        <option value="$PROJECT_DIR$/investor/.bottom.menu.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/.bottom.menu.php" />
+        <option value="$PROJECT_DIR$/potrebitelyam/internet-priemnaya/.bottom.menu.php" />
+        <option value="$PROJECT_DIR$/sitemap/index.php" />
+        <option value="$PROJECT_DIR$/404.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/oez/footer.php" />
       </list>
     </option>
   </component>
@@ -155,24 +179,18 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="NamedScopeManager">
-    <order />
-  </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="-14" />
-    <option name="width" value="1405" />
-    <option name="height" value="924" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="false" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
@@ -191,6 +209,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,7 +238,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="investor" />
+              <option name="myItemId" value="sitemap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -233,11 +252,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="investor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="promyshlennaya-infrastruktura-oez" />
+              <option name="myItemId" value="potrebitelyam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,14 +266,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="about" />
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sezlipetsk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,7 +321,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/work/maps" />
+    <property name="last_opened_file_path" value="D:/work/Марафон/form.htm" />
     <property name="dynamic.classpath" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -294,14 +348,17 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="845" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="recentsLimit" value="5" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty_map" />
-      <recent name="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/proverka_status" />
-      <recent name="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania" />
-      <recent name="$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates" />
-      <recent name="$PROJECT_DIR$/bitrix/components/custom" />
+      <recent name="E:\GitHub\sezlipetsk\bitrix\components\custom" />
+      <recent name="E:\GitHub\sezlipetsk\potrebitelyam\internet-priemnaya" />
+      <recent name="E:\GitHub\sezlipetsk\potrebitelyam" />
+      <recent name="E:\GitHub\sezlipetsk\investor" />
+      <recent name="E:\GitHub\sezlipetsk\about\upravlyayushchaya-kompaniya" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitHub\sezlipetsk\bitrix" />
@@ -311,19 +368,24 @@
       <recent name="$PROJECT_DIR$/bitrix/components" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+  <component name="RunManager" selected="JavaScript Debug.elec.html">
+    <configuration default="false" name="elec.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sezlipetsk/verstka/elec.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -338,6 +400,14 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.elec.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.elec.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -349,102 +419,6 @@
       <created>1439450512266</created>
       <option name="number" value="Default" />
       <updated>1439450512266</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Добавление обращения">
-      <created>1441204841615</created>
-      <option name="number" value="00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1441204841615</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Сделаны заявки 2 вида и жалобы и обращения">
-      <created>1441267230033</created>
-      <option name="number" value="00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1441267230033</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Добавлена возможность оценки">
-      <created>1441281243101</created>
-      <option name="number" value="00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1441281243101</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Сделана форма оценки качества ослуживания">
-      <created>1441283586607</created>
-      <option name="number" value="00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1441283586607</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Выведен статус заявок которые послал текущий пользователь">
-      <created>1441289879041</created>
-      <option name="number" value="00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1441289879041</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Стили для листинга новостей">
-      <created>1441355896383</created>
-      <option name="number" value="00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1441355896383</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Статика раздела о проекте">
-      <created>1441367164536</created>
-      <option name="number" value="00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1441367164536</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Добавлено ещё 2 странички сми о нас и пресс релизы">
-      <created>1441374406915</created>
-      <option name="number" value="00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1441374406915</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Цитаты руководителей замучены">
-      <created>1441374895629</created>
-      <option name="number" value="00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1441374895629</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Добавлены фиксы  к описанию в личном кабинете">
-      <created>1441610303174</created>
-      <option name="number" value="00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1441610303174</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Добавлены сноски в личном кабинте на основе их замечаний ксеркопированных, и изменены права (что скажется на валидации битрикза)">
-      <created>1441612677153</created>
-      <option name="number" value="00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1441612677153</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Изменен личный кабинет (дабавлены блоки), добавлена ещё 1 страничга ^^">
-      <created>1441635827728</created>
-      <option name="number" value="00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1441635827728</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Забыл про картинки))">
-      <created>1441635865617</created>
-      <option name="number" value="00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1441635865617</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Коммит для просмотра всей фигни">
-      <created>1441712581028</created>
-      <option name="number" value="00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1441712581028</updated>
-    </task>
-    <task id="LOCAL-00047" summary="выливаемз">
-      <created>1441712630175</created>
-      <option name="number" value="00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1441712630175</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Галерея фоток">
-      <created>1441796423684</created>
-      <option name="number" value="00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1441796423684</updated>
     </task>
     <task id="LOCAL-00049" summary="Листание фоток в галерее если их больше 6 штук">
       <created>1441800969909</created>
@@ -500,151 +474,247 @@
       <option name="project" value="LOCAL" />
       <updated>1442232922638</updated>
     </task>
-    <task id="LOCAL-00058" summary="template">
-      <created>1442306104191</created>
+    <task id="LOCAL-00058" summary="Что-то не ушедшее ранее">
+      <created>1442241023233</created>
       <option name="number" value="00058" />
       <option name="project" value="LOCAL" />
-      <updated>1442306104193</updated>
+      <updated>1442241023233</updated>
     </task>
-    <task id="LOCAL-00059" summary="Управление видео по кнопочге">
-      <created>1442319316794</created>
+    <task id="LOCAL-00059" summary="Что-то не ушедшее ранее">
+      <created>1442241066856</created>
       <option name="number" value="00059" />
       <option name="project" value="LOCAL" />
-      <updated>1442319316795</updated>
+      <updated>1442241066856</updated>
     </task>
-    <task id="LOCAL-00060" summary="Стили для галереи">
-      <created>1442321270792</created>
+    <task id="LOCAL-00060" summary="Что-то не ушедшее ранее">
+      <created>1442305654072</created>
       <option name="number" value="00060" />
       <option name="project" value="LOCAL" />
-      <updated>1442321270792</updated>
+      <updated>1442305654073</updated>
     </task>
-    <task id="LOCAL-00061" summary="Картинка какая то">
-      <created>1442321604546</created>
+    <task id="LOCAL-00061" summary="Что-то не ушедшее ранее">
+      <created>1443000057564</created>
       <option name="number" value="00061" />
       <option name="project" value="LOCAL" />
-      <updated>1442321604546</updated>
+      <updated>1443000057589</updated>
     </task>
-    <task id="LOCAL-00062" summary="Лисий баг">
-      <created>1442499877934</created>
+    <task id="LOCAL-00062" summary="Отображение икок для вордовских окументов">
+      <created>1443001299490</created>
       <option name="number" value="00062" />
       <option name="project" value="LOCAL" />
-      <updated>1442499877937</updated>
+      <updated>1443001299490</updated>
     </task>
-    <task id="LOCAL-00063" summary="Вывод тикетов в разных шаблонах">
-      <created>1442569837888</created>
+    <task id="LOCAL-00063" summary="Вёрстка стрвницы &quot;Елецкая площадка ОЭЗ «Липецк»&quot;">
+      <created>1443018308915</created>
       <option name="number" value="00063" />
       <option name="project" value="LOCAL" />
-      <updated>1442569837890</updated>
+      <updated>1443018308915</updated>
     </task>
-    <task id="LOCAL-00064" summary="Показания приборов (их отсылка переделана) - динамически добавляются счетчики">
-      <created>1442844229321</created>
+    <task id="LOCAL-00064" summary="&quot;Елецкая площадка ОЭЗ «Липецк»&quot;">
+      <created>1443080713028</created>
       <option name="number" value="00064" />
       <option name="project" value="LOCAL" />
-      <updated>1442844229322</updated>
+      <updated>1443080713028</updated>
     </task>
-    <task id="LOCAL-00065" summary="Личный кабинет сообщения выведены">
-      <created>1442928006251</created>
+    <task id="LOCAL-00065" summary="Мелкие поправкииииииииии">
+      <created>1443086574645</created>
       <option name="number" value="00065" />
       <option name="project" value="LOCAL" />
-      <updated>1442928006252</updated>
+      <updated>1443086574645</updated>
     </task>
-    <task id="LOCAL-00066" summary="Карты и показания тайтл">
-      <created>1442998405596</created>
+    <task id="LOCAL-00066" summary="Иконки в футер">
+      <created>1443088167243</created>
       <option name="number" value="00066" />
       <option name="project" value="LOCAL" />
-      <updated>1442998405598</updated>
+      <updated>1443088167243</updated>
     </task>
-    <task id="LOCAL-00067" summary="Добавлен список в обращении">
-      <created>1443017147450</created>
+    <task id="LOCAL-00067" summary="&quot;Елецкая площадка ОЭЗ «Липецк»&quot;">
+      <created>1443094598420</created>
       <option name="number" value="00067" />
       <option name="project" value="LOCAL" />
-      <updated>1443017147450</updated>
+      <updated>1443094598420</updated>
     </task>
-    <task id="LOCAL-00068" summary="Высота блока, масштаб, перенесена легенда, добавлена рамка">
-      <created>1443081855405</created>
+    <task id="LOCAL-00068" summary="Ссылки в футер &#10;темы для форм: задать вопрос, обращение, жалоба">
+      <created>1443104207176</created>
       <option name="number" value="00068" />
       <option name="project" value="LOCAL" />
-      <updated>1443081855408</updated>
+      <updated>1443104207176</updated>
     </task>
-    <task id="LOCAL-00069" summary="Возможность вывода резидентов на карте по зонам">
-      <created>1443095002412</created>
+    <task id="LOCAL-00069" summary="Мелкие исправления+стили для ИЕ">
+      <created>1443169587792</created>
       <option name="number" value="00069" />
       <option name="project" value="LOCAL" />
-      <updated>1443095002412</updated>
+      <updated>1443169587815</updated>
     </task>
-    <task id="LOCAL-00070" summary="Позиционирование резидента">
-      <created>1443104120979</created>
+    <task id="LOCAL-00070" summary="Исправление косяков в инфоблоке &quot;Раскрытие инфориациииц&quot;">
+      <created>1443170956275</created>
       <option name="number" value="00070" />
       <option name="project" value="LOCAL" />
-      <updated>1443104120979</updated>
+      <updated>1443170956275</updated>
     </task>
-    <task id="LOCAL-00071" summary="Изменены иконки в разделах Технологич. присоед/подкл и Передача, траспортир, снаб. энерг. реса-ми">
-      <created>1443175770121</created>
+    <task id="LOCAL-00071" summary="Поправки в инфоблоке &quot;Закупки&quot; + вывод иконок для некоторых вордовских документов">
+      <created>1443183304169</created>
       <option name="number" value="00071" />
       <option name="project" value="LOCAL" />
-      <updated>1443175770221</updated>
+      <updated>1443183304170</updated>
     </task>
-    <task id="LOCAL-00072" summary="Изменения в разделе&quot; Закупки&quot;">
-      <created>1443189010894</created>
+    <task id="LOCAL-00072" summary="Изменения &quot;Сми о нас&quot;">
+      <created>1443184706125</created>
       <option name="number" value="00072" />
       <option name="project" value="LOCAL" />
-      <updated>1443189010894</updated>
+      <updated>1443184706125</updated>
     </task>
-    <task id="LOCAL-00073" summary="Перелопатил Закупки">
-      <created>1443423599519</created>
+    <task id="LOCAL-00073" summary="и ещё изменения">
+      <created>1443186967915</created>
       <option name="number" value="00073" />
       <option name="project" value="LOCAL" />
-      <updated>1443423599552</updated>
+      <updated>1443186967915</updated>
     </task>
-    <task id="LOCAL-00074" summary="Дозалил внутренние документы">
-      <created>1443424678418</created>
+    <task id="LOCAL-00074" summary="Документы и сведения о закупках">
+      <created>1443188257023</created>
       <option name="number" value="00074" />
       <option name="project" value="LOCAL" />
-      <updated>1443424678418</updated>
+      <updated>1443188257023</updated>
     </task>
-    <task id="LOCAL-00075" summary="Обновление документов инфоблока &quot;Раскрытие информации&quot;">
-      <created>1443425737266</created>
+    <task id="LOCAL-00075" summary="Изменения для закупок и сведений о закупках">
+      <created>1443259554801</created>
       <option name="number" value="00075" />
       <option name="project" value="LOCAL" />
-      <updated>1443425737267</updated>
+      <updated>1443259554826</updated>
     </task>
-    <task id="LOCAL-00076" summary="Заполнил модалки &quot;Основные отрасли экономики региона&quot;">
-      <created>1443430962967</created>
+    <task id="LOCAL-00076" summary="Мелкие измменения">
+      <created>1443260892504</created>
       <option name="number" value="00076" />
       <option name="project" value="LOCAL" />
-      <updated>1443430962967</updated>
+      <updated>1443260892504</updated>
     </task>
-    <task id="LOCAL-00077" summary="Favicon для сайта">
-      <created>1443592506622</created>
+    <task id="LOCAL-00077" summary="раскрытие информации">
+      <created>1443268274096</created>
       <option name="number" value="00077" />
       <option name="project" value="LOCAL" />
-      <updated>1443592506623</updated>
+      <updated>1443268274097</updated>
     </task>
-    <task id="LOCAL-00078" summary="Поправил тексты на страницах Резиденты и Инвесторы">
-      <created>1443594404163</created>
+    <task id="LOCAL-00078" summary="Ховер для блока &quot;Основные отрасли экономики&quot;">
+      <created>1443343814473</created>
       <option name="number" value="00078" />
       <option name="project" value="LOCAL" />
-      <updated>1443594404163</updated>
+      <updated>1443343814564</updated>
     </task>
-    <task id="LOCAL-00079" summary="Социальная инфраструктура региона -&gt; Жилье (доавлены текстовая инфа по городам)">
-      <created>1443597880584</created>
+    <task id="LOCAL-00079" summary="Темы для формы &quot;Оценка качества обслуживания&quot;">
+      <created>1443344920548</created>
       <option name="number" value="00079" />
       <option name="project" value="LOCAL" />
-      <updated>1443597880584</updated>
+      <updated>1443344920548</updated>
     </task>
-    <task id="LOCAL-00080" summary="Изменение картинок для Резиденты, Закупки, Раскрытие информации, Промышленная инфраструктура">
-      <created>1443602184626</created>
+    <task id="LOCAL-00080" summary="контакты+слайдер на главной">
+      <created>1443348455273</created>
       <option name="number" value="00080" />
       <option name="project" value="LOCAL" />
-      <updated>1443602184641</updated>
+      <updated>1443348455273</updated>
     </task>
-    <task id="LOCAL-00081" summary="Создал раздел и наполнил элементами Жилище. Переименовал в &quot;жилищные условия&quot; и поставил на него ссылку в &quot;Социальная инфраструктура региона&quot;">
-      <created>1443621080503</created>
+    <task id="LOCAL-00081" summary="Исправления в слвйдер &quot;Цитаты руководителей&quot;">
+      <created>1443350802646</created>
       <option name="number" value="00081" />
       <option name="project" value="LOCAL" />
-      <updated>1443621080503</updated>
+      <updated>1443350802646</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Хрень">
+      <created>1443419230769</created>
+      <option name="number" value="00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1443419230770</updated>
+    </task>
+    <task id="LOCAL-00083" summary="оПЯТЬ ХРЕНЬ">
+      <created>1443420403986</created>
+      <option name="number" value="00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1443420403986</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Показать ещё для резидентов">
+      <created>1443421425975</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1443421425975</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Хрень&#10;">
+      <created>1443422919079</created>
+      <option name="number" value="00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1443422919079</updated>
+    </task>
+    <task id="LOCAL-00086" summary="[htym">
+      <created>1443426463600</created>
+      <option name="number" value="00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1443426463600</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Изменены ссылки на виртуальный тур и год в футере">
+      <created>1443428022394</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1443428022394</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Формочки в личный кабинет">
+      <created>1443521090835</created>
+      <option name="number" value="00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1443521091626</updated>
+    </task>
+    <task id="LOCAL-00089" summary="выбор даты">
+      <created>1443528955796</created>
+      <option name="number" value="00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1443528955797</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Тур">
+      <created>1443597579576</created>
+      <option name="number" value="00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1443597579589</updated>
+    </task>
+    <task id="LOCAL-00091" summary="&quot;Елецкая площадка ОЭЗ «Липецк»&quot;">
+      <created>1443609340990</created>
+      <option name="number" value="00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1443609340998</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Виртуальный тур">
+      <created>1444217549329</created>
+      <option name="number" value="00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1444217549331</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Исправления косяков">
+      <created>1444227263076</created>
+      <option name="number" value="00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1444227263076</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Исправление опечаток">
+      <created>1444286589922</created>
+      <option name="number" value="00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1444286589923</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Контакты">
+      <created>1444290446901</created>
+      <option name="number" value="00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1444290446901</updated>
+    </task>
+    <task id="LOCAL-00096" summary="скрол">
+      <created>1444293456178</created>
+      <option name="number" value="00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1444293456178</updated>
+    </task>
+    <task id="LOCAL-00097" summary="ссылка на фейсбук">
+      <created>1444293737158</created>
+      <option name="number" value="00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1444293737158</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TodoView">
@@ -657,25 +727,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="-14" width="1405" height="924" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16645962" sideWeight="0.4973861" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.4943988" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981189" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3106796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3272328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25341615" sideWeight="0.4570575" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25341615" sideWeight="0.5429425" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35702747" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26456693" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.310559" sideWeight="0.61165047" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31811023" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -699,403 +769,424 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Очередное обновление инфы (будет проклят тот день, когда я связался с гитом и битриксом)" />
-    <MESSAGE value="template" />
-    <MESSAGE value="Управление видео по кнопочге" />
-    <MESSAGE value="Стили для галереи" />
-    <MESSAGE value="Картинка какая то" />
-    <MESSAGE value="Лисий баг" />
-    <MESSAGE value="Вывод тикетов в разных шаблонах" />
-    <MESSAGE value="Показания приборов (их отсылка переделана) - динамически добавляются счетчики" />
-    <MESSAGE value="Личный кабинет сообщения выведены" />
-    <MESSAGE value="Карты и показания тайтл" />
-    <MESSAGE value="Добавлен список в обращении" />
-    <MESSAGE value="Высота блока, масштаб, перенесена легенда, добавлена рамка" />
-    <MESSAGE value="Возможность вывода резидентов на карте по зонам" />
-    <MESSAGE value="Позиционирование резидента" />
-    <MESSAGE value="Изменены иконки в разделах Технологич. присоед/подкл и Передача, траспортир, снаб. энерг. реса-ми" />
-    <MESSAGE value="Изменения в разделе&quot; Закупки&quot;" />
-    <MESSAGE value="Перелопатил Закупки" />
-    <MESSAGE value="Дозалил внутренние документы" />
-    <MESSAGE value="Обновление документов инфоблока &quot;Раскрытие информации&quot;" />
-    <MESSAGE value="Заполнил модалки &quot;Основные отрасли экономики региона&quot;" />
-    <MESSAGE value="Favicon для сайта" />
-    <MESSAGE value="Поправил тексты на страницах Резиденты и Инвесторы" />
-    <MESSAGE value="Социальная инфраструктура региона -&gt; Жилье (доавлены текстовая инфа по городам)" />
-    <MESSAGE value="Изменение картинок для Резиденты, Закупки, Раскрытие информации, Промышленная инфраструктура" />
-    <MESSAGE value="Создал раздел и наполнил элементами Жилище. Переименовал в &quot;жилищные условия&quot; и поставил на него ссылку в &quot;Социальная инфраструктура региона&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал раздел и наполнил элементами Жилище. Переименовал в &quot;жилищные условия&quot; и поставил на него ссылку в &quot;Социальная инфраструктура региона&quot;" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="и ещё изменения" />
+    <MESSAGE value="Документы и сведения о закупках" />
+    <MESSAGE value="Изменения для закупок и сведений о закупках" />
+    <MESSAGE value="Мелкие измменения" />
+    <MESSAGE value="раскрытие информации" />
+    <MESSAGE value="Ховер для блока &quot;Основные отрасли экономики&quot;" />
+    <MESSAGE value="Темы для формы &quot;Оценка качества обслуживания&quot;" />
+    <MESSAGE value="контакты+слайдер на главной" />
+    <MESSAGE value="Исправления в слвйдер &quot;Цитаты руководителей&quot;" />
+    <MESSAGE value="Хрень" />
+    <MESSAGE value="оПЯТЬ ХРЕНЬ" />
+    <MESSAGE value="Показать ещё для резидентов" />
+    <MESSAGE value="Хрень&#10;" />
+    <MESSAGE value="[htym" />
+    <MESSAGE value="Изменены ссылки на виртуальный тур и год в футере" />
+    <MESSAGE value="Формочки в личный кабинет" />
+    <MESSAGE value="выбор даты" />
+    <MESSAGE value="Тур" />
+    <MESSAGE value="&quot;Елецкая площадка ОЭЗ «Липецк»&quot;" />
+    <MESSAGE value="Виртуальный тур" />
+    <MESSAGE value="Исправления косяков" />
+    <MESSAGE value="Исправление опечаток" />
+    <MESSAGE value="Контакты" />
+    <MESSAGE value="скрол" />
+    <MESSAGE value="ссылка на фейсбук" />
+    <option name="LAST_COMMIT_MESSAGE" value="ссылка на фейсбук" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania/style.css">
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/news.list/templates/citate_boss_slider/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1748">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/proverka_status/style.css">
+    <entry file="file://$PROJECT_DIR$/bitrix/components/bitrix/catalog.section/templates/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal_u/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="142" selection-start-line="48" selection-start-column="114" selection-end-line="48" selection-end-column="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34133333">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/view_pokazania/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-na-prisoedinenie/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0235132">
+        <state vertical-scroll-proportion="267.37036" vertical-offset="7219" max-vertical-offset="15314">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/proverka_status/template.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/components/bitrix/news.list/templates/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.4814816" vertical-offset="1437" max-vertical-offset="1824">
+          <caret line="82" column="9" selection-start-line="82" selection-start-column="0" selection-end-line="84" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+    <entry file="file://$PROJECT_DIR$/bitrix/components/bitrix/catalog.section.list/templates/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="411" column="16" selection-start-line="411" selection-start-column="16" selection-end-line="411" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.0546665">
-          <caret line="239" column="18" selection-start-line="239" selection-start-column="18" selection-end-line="239" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/appeal/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6296296">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/section.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/rss_section.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/rss.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.836791">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/.parameters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5504841">
+        <state vertical-scroll-proportion="-11.685131" vertical-offset="4008" max-vertical-offset="4598">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/news.detail/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22976878">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.6030303" vertical-offset="542" max-vertical-offset="2698">
+          <caret line="38" column="139" selection-start-line="38" selection-start-column="139" selection-end-line="38" selection-end-column="139" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/iblock.vote/.default/template.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28907332">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/search.page/.default/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3679115">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/search.form/flat/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3020231">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/rss.out/.default/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25722542">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/news.index/.default/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-4.318182" vertical-offset="1425" max-vertical-offset="2147">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/video_epta/component.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/template/bitrix/news.list/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.9259257">
-          <caret line="341" column="31" selection-start-line="341" selection-start-column="31" selection-end-line="341" selection-end-column="184" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/video_epta/.parameters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10511757">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/css/mapstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8106667">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/component.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6307054">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/potrebitelyam/tekhnologicheskoe-prisoedinenie-podklyuchenie/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.39419088">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/potrebitelyam/dopolnitelnye-uslugi/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.286307">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/.default/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31673583">
-          <caret line="355" column="89" selection-start-line="355" selection-start-column="81" selection-end-line="355" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/templates/main_photo/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/templates/.default/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3214" column="1" selection-start-line="3214" selection-start-column="1" selection-end-line="3214" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/photogall_epta/component.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="401" column="0" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about/galereya-foto-i-video/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="133" column="15" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about/upravlyayushchaya-kompaniya/raskrytie-informatsii/.section.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.75">
-          <caret line="731" column="20" selection-start-line="731" selection-start-column="20" selection-end-line="731" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty_map/bitrix/news.list/.default/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28371277">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/investor/sotsialnaya-infrastruktura-oez/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="146" column="103" selection-start-line="146" selection-start-column="103" selection-end-line="146" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about/upravlyayushchaya-kompaniya/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8014706">
-          <caret line="182" column="26" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about/upravlyayushchaya-kompaniya/raskrytie-informatsii/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty_map/bitrix/news.list/.default/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17279412">
-          <caret line="33" column="22" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="37" />
-          <folding />
+        <state vertical-scroll-proportion="142.85185" vertical-offset="4028" max-vertical-offset="4579">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/news/rezidenty/bitrix/news.list/.default/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        <state vertical-scroll-proportion="-1.0714285" vertical-offset="1859" max-vertical-offset="2394">
+          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/modules/main/include/epilog_after.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.42" vertical-offset="968" max-vertical-offset="1368">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/modules/main/include/epilog_before.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8425" vertical-offset="1937" max-vertical-offset="2337">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/modules/main/include/epilog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="427">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="427">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/en_oez/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="1615">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/zayavka_na_snyatie_pokaz/lang/en/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/chasto-zadavaemye-voprosy/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.0582523" vertical-offset="570" max-vertical-offset="2394">
+          <caret line="115" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-o-neobkhodimosti-snyatiya-pokazaniy-sushchestvuyushchego-pribora-ucheta/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.555555" vertical-offset="722" max-vertical-offset="1121">
+          <caret line="53" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/zayavka_na_dopusk/lang/en/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.42961165" vertical-offset="177" max-vertical-offset="589">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavka-na-osushchestvlenie-dopuska-v-ekspluatatsiyu-pribora-ucheta-elektricheskoy-energii/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9047619" vertical-offset="722" max-vertical-offset="1121">
+          <caret line="53" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/zayavlenie_na_oborudovanie/lang/en/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/proverka-statusa-zayavki-na-tekh-prisoedinenie-k-setyam-elektrosnabzheniya/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6926503" vertical-offset="6415" max-vertical-offset="8151">
+          <caret line="317" column="38" selection-start-line="317" selection-start-column="38" selection-end-line="317" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4035" max-vertical-offset="4693">
+          <caret line="93" column="101" selection-start-line="93" selection-start-column="101" selection-end-line="93" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/zayavlenie_na_oborudovanie/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5233853" vertical-offset="0" max-vertical-offset="2907">
+          <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6547885" vertical-offset="9063" max-vertical-offset="11818">
+          <caret line="341" column="48" selection-start-line="341" selection-start-column="48" selection-end-line="341" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/lichnyy-kabinet/zayavlenie-na-oborudovanie-tochki-postavki-priborami-ucheta-zamenu-pribora-ucheta/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63474387" vertical-offset="513" max-vertical-offset="1102">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/zayavka_na_snyatie_pokaz/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2964">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/support.form_toconnect/templates/zayavka_na_dopusk/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="456" max-vertical-offset="2964">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtualnyy-tur/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="380">
+          <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2267" max-vertical-offset="2660">
+          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="102" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2736" max-vertical-offset="7505">
+          <caret line="144" column="63" selection-start-line="144" selection-start-column="63" selection-end-line="144" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about/rezidenty/index.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.007352941">
-          <caret line="87" column="38" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/investor/o-regione/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="148" column="64" selection-start-line="148" selection-start-column="64" selection-end-line="148" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1043" max-vertical-offset="10849">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/investor/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.333333">
-          <caret line="325" column="26" selection-start-line="325" selection-start-column="26" selection-end-line="325" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1805" max-vertical-offset="6821">
+          <caret line="95" column="47" selection-start-line="95" selection-start-column="47" selection-end-line="95" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/investor/promyshlennaya-infrastruktura-oez/index.php">
+    <entry file="file://$PROJECT_DIR$/about/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.1764705">
-          <caret line="114" column="57" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="5586" max-vertical-offset="5890">
+          <caret line="294" column="59" selection-start-line="294" selection-start-column="59" selection-end-line="294" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/rezidenty/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2280">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1197" max-vertical-offset="1995">
+          <caret line="63" column="118" selection-start-line="63" selection-start-column="118" selection-end-line="63" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/components/bitrix/catalog.section/sots_infr/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1425">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="58767" max-vertical-offset="62206">
+          <caret line="3093" column="5" selection-start-line="3093" selection-start-column="1" selection-end-line="3093" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/include/socials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.444445" vertical-offset="0" max-vertical-offset="361">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.top.menu_ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.top.menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="703">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bottom.menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.148149" vertical-offset="9" max-vertical-offset="1235">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agreement/.bottom.menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1111112" vertical-offset="0" max-vertical-offset="323">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/.bottom.menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.25926" vertical-offset="275" max-vertical-offset="988">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/upravlyayushchaya-kompaniya/.bottom.menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1111112" vertical-offset="0" max-vertical-offset="456">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/investor/.bottom.menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.925926" vertical-offset="845" max-vertical-offset="1425">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/.bottom.menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.851851" vertical-offset="313" max-vertical-offset="1026">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/internet-priemnaya/.bottom.menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.740741" vertical-offset="0" max-vertical-offset="494">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/custom/main.map/lang/en/help/.tooltips.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potrebitelyam/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5185184" vertical-offset="57" max-vertical-offset="3629">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="20" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.333334" vertical-offset="0" max-vertical-offset="836">
+          <caret line="36" column="10" selection-start-line="4" selection-start-column="4" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <marker date="1444312068544" expanded="true" signature="121:865" placeholder="..." />
+            <marker date="1444312068544" expanded="true" signature="133:857" placeholder="..." />
+            <marker date="1444312068544" expanded="true" signature="160:844" placeholder="..." />
+            <marker date="1444312068544" expanded="true" signature="179:508" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.074074" vertical-offset="351" max-vertical-offset="1121">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/oez/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45689654" vertical-offset="1179" max-vertical-offset="1786">
+          <caret line="67" column="78" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
           <folding />
         </state>
       </provider>

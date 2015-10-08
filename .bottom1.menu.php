@@ -1,6 +1,13 @@
 <?
 $aMenuLinks = Array(
 	Array(
+		"резиденты", 
+		"/about/rezidenty/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
 		"Новости", 
 		"news/", 
 		Array(), 
