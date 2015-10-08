@@ -61,7 +61,7 @@ $APPLICATION->SetTitle("Контакты");
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-4 hidden-sm hidden-xs img_conatiner">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/map.png">
+				<a href="https://maps.yandex.ru/?text=Здание%20управления%20ОЭЗ%20Липецк&ll=39.802383%2C52.516769&z=15" target="_blank"><img src="<?=SITE_TEMPLATE_PATH?>/img/contaktmap.jpg"></a>
 			</div>
 		</div>
 
