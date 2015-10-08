@@ -292,7 +292,7 @@ $APPLICATION->SetTitle("О проекте");
 			<div class="map_container">
 				<div class="map_back">
 					<div>
-						<div><a href="/map/" >Интерактиваня карта</a></div>
+						<div><a href="/map/" >Интерактивная карта</a></div>
 					</div>
 				</div>
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/maaap.jpg">
