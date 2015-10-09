@@ -19,18 +19,12 @@ $APPLICATION->SetTitle("Страница не найдена");
 	<section>
 		<div class="container">
 			<div class="">
-				<!--Хеебный крош--> <?$APPLICATION->IncludeComponent(
-					"custom:breadcrumb",
-					"",
-					Array(
-						"COMPONENT_TEMPLATE" => "oez",
-						"START_FROM" => "0",
-						"PATH" => "",
-						"SITE_ID" => "s1"
-					)
-				);?> <!--Хлебные крошки-->
 				<h1><?=$APPLICATION->GetTitle();?></h1>
+				Возможно она была перемещена или удалена
+				<br>
 			</div>
+			<br>
+
 			<?$APPLICATION->IncludeComponent(
 				"custom:main.map",
 				".default",
