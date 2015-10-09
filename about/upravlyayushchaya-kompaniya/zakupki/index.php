@@ -126,7 +126,7 @@ $APPLICATION->SetTitle("Закупки");
 	),
 	false
 );?>
-	<? if(($_SERVER["REQUEST_URI"] == '/about/upravlyayushchaya-kompaniya/zakupki/') ||($_SERVER["REQUEST_URI"] == '/about/upravlyayushchaya-kompaniya/zakupki/2015/')){?>
+	<? if(($_SERVER["REQUEST_URI"] == '/about/upravlyayushchaya-kompaniya/zakupki/') ||($_SERVER["REQUEST_URI"] == '/about/upravlyayushchaya-kompaniya/zakupki/2015/') || (!(strripos($_SERVER["REQUEST_URI"],'PAGEN_1')===false))){?>
 
 	<section>
 
