@@ -372,7 +372,7 @@
 											</div>
 											<div class="item_bod">
 												<div class="item_name">Оценка качества обслуживания</div>
-												<div class="item_dop">Для получения льгот и преференций компании или частному предпринимателю необходимо получить статус резидента</div>
+												<div class="item_dop"></div>
 											</div>
 											<div class="block_icon">
                                     <span class="item_block_img">
