@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    $('#main_form').submit(function(){
+        this.submit();
+        alert('Ваша заявка отправлена!');
+    });
     $('.what').mouseenter(function(){
         $(this).next().show();
         $(this).mouseleave(function(){

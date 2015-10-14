@@ -6,7 +6,10 @@ $(document).ready(function() {
         });
     });
 
-
+    $('#main_form').submit(function(){
+        this.submit();
+        alert('Ваш вопрос отправлен!');
+    });
 
 
     $('.send_form').click(function() {

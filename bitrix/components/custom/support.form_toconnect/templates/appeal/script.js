@@ -5,7 +5,10 @@ $(document).ready(function() {
             $(this).next().hide();
         });
     });
-
+    $('#main_form').submit(function(){
+        this.submit();
+        alert('Ваша заявка отправлена!');
+    });
 
 
 

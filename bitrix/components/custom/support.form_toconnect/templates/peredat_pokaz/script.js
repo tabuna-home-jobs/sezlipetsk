@@ -5,7 +5,10 @@ $(document).ready(function() {
             $(this).next().hide();
         });
     });
-
+    $('#main_form').submit(function(){
+        this.submit();
+        alert('Ваша заявка отправлена!');
+    });
     function addDomElem(num){
         var domHtml = '<div class="row hot-block">';
         domHtml += '<div class="col-xs-3 labels_left">';

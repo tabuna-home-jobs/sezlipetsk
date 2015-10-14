@@ -33,7 +33,7 @@
 
 					<div class="row">
 						<div class="foot_phones col-sm-6 col-md-6">
-							<div class="foot_name">Контактая информация</div>
+							<div class="foot_name">Контактная информация</div>
 							<div class="f_t_img">
 								<div>
 									<img src="<?=SITE_TEMPLATE_PATH?>/img/tel.png">

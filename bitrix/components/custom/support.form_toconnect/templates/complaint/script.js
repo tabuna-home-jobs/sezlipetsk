@@ -7,7 +7,10 @@ $(document).ready(function() {
     });
 
 
-
+    $('#main_form2').submit(function(){
+        this.submit();
+        alert('Ваша заявка отправлена!');
+    });
 
     $('.send_form').click(function() {
         var but = $(this);

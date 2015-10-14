@@ -5,6 +5,11 @@ $(document).ready(function() {
             $(this).next().hide();
         });
     });
+    $('#main_form').submit(function(){
+        this.submit();
+        alert('Ваша заявка отправлена!');
+    });
+
     $('.next_step').click(function() {
         var but = $(this);
         var errorArr = false;
