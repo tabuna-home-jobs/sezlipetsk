@@ -485,7 +485,7 @@ function newsLoader(p){
             $('.dop_smi').attr('style','margin-top: 0;');
 
             if(o.curPage == o.loadSett.endPage){
-                o.newsLoader.parent().hide();
+                o.newsLoader.hide();
             }
         });
     }
