@@ -94,7 +94,8 @@ if ($textMessage != "") {
 	$ID = CTicket::SetTicket($arFields, $ID, "Y", $NOTIFY = "Y");
 	$arResult["MESSAGE_SEND"] = "OK";
 	$_POST = [];
-	header("Location: ".$_SERVER["REQUEST_URI"]);
+	//header("Location: ".$_SERVER["REQUEST_URI"]);
+	header("Location: http://".$_SERVER["HTTP_HOST"]."/potrebitelyam/internet-priemnaya/lichnyy-kabinet/");
 }
 
 
