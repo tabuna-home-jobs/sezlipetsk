@@ -147,7 +147,7 @@
 						</div>
 						<div class="col-sm-12 col-xs-12 block_item ">
 							<div class="item_block">
-								<a class="item_block_a_small" href="posmotret-peredannye-pokazaniya-priborov-ucheta/">
+								<a class="item_block_a_small" href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/posmotret-peredannye-pokazaniya-priborov-ucheta/">
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
@@ -166,7 +166,7 @@
 					<div class="col-xs-12 col-sm-6 left_padding_remove">
 						<div class="col-sm-12 col-xs-12 block_item">
 							<div class="item_block">
-								<a class="item_block_a_small" href="napravit-obrashchenie-zhalobu/">
+								<a class="item_block_a_small" href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/napravit-obrashchenie-zhalobu/">
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
@@ -184,7 +184,7 @@
 						</div>
 						<div class="col-sm-12 col-xs-12 block_item">
 							<div class="item_block">
-								<a href="vashi-obrashcheniya-zhaloby/" class="item_block_a_small" id="remember_pass2">
+								<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/vashi-obrashcheniya-zhaloby/" class="item_block_a_small" id="remember_pass2">
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
@@ -225,7 +225,7 @@
 						</div>
 						<div class="col-sm-12 col-xs-12 block_item">
 							<div class="item_block">
-								<a class="item_block_a_small" id="remember_pass2" href="proverka-statusa-zayavki-na-tekh-prisoedinenie-k-setyam-elektrosnabzheniya/">
+								<a class="item_block_a_small" id="remember_pass2" href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/proverka-statusa-zayavki-na-tekh-prisoedinenie-k-setyam-elektrosnabzheniya/">
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
@@ -243,7 +243,7 @@
 					<div class="col-sm-6">
 						<div class="col-sm-12 col-xs-12 block_item ">
 							<div class="item_block hight_item_block">
-								<a class="item_block_a" href="otsenka-kachestva-obsluzhivaniya/">
+								<a class="item_block_a" href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/otsenka-kachestva-obsluzhivaniya/">
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>

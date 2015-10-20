@@ -38,7 +38,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-6 labels_left">
-                    <span nameinput="5">Телефон</span>
+	                <span class="star_red">*</span><span nameinput="5">Телефон</span>
                 </div>
                 <div class="col-xs-6 inputs_right">
                     <input type="text" name="FIELD_5" inputvalue="5" require>
@@ -92,7 +92,7 @@
                 <div class="star_description"><span class="star_red">*</span> — обязательные поля</div>
 
 
-                <div class="srok_obrashenia col-xs-12">Срок рассмотрения вашей жалобы до 11,05,15</div>
+
             </div>
 
         </div>

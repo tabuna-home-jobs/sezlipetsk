@@ -49,7 +49,7 @@
                 <div class="star_description"><span class="star_red">*</span> — обязательные поля</div>
 
 
-                <div class="srok_obrashenia col-xs-12">Срок рассмотрения вашей жалобы до 11,05,15</div>
+
             </div>
 
         </div>
