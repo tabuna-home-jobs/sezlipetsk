@@ -104,15 +104,17 @@ $(document).ready(function () {
 
     $('.scrollbar-outer1').scrollbar();
 
-	$('.file_input>a').click(function(){
-	   var a = $(this);
-		$(this).parent().find('input').trigger("click");
-    $(this).parent().find('input').change(function() {
-        var val = $(this).val();
-        val = val.split('\\');
-        
+	$('.file_input a').click(function(){
+	    var a = $(this);
+
+        a.parent().find('input[type="file"]').on('change', function() {
+
+             var val = $(this).val();
+            val = val.split('\\');
+
             a.text(val[val.length-1]);
-    });
+         });
+        a.parent().find('input[type="file"]').click();
 	});
 
     //hover на блоках
