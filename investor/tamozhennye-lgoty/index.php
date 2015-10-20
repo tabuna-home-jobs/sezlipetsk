@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Таможенные льготы");
 ?><div class="main ">
  <section class="top_block_main">
-	<p class="container" style="text-align: justify;">
+	<div class="container" style="text-align: justify;">
 		 <!--Хеебный крош--> <?$APPLICATION->IncludeComponent(
 	"custom:breadcrumb",
 	"",
@@ -14,7 +14,7 @@ $APPLICATION->SetTitle("Таможенные льготы");
 		"SITE_ID" => "s1"
 	)
 );?> <!--Хлебные крошки-->
-	</p>
+	
 	<h3><?=$APPLICATION->GetTitle();?></h3>
 	<p style="text-align: justify;" class="">
 		 На территории ОЭЗ "Липецк" функционирует полный комплекс таможенной инфраструктуры, созданный для нужд резидентов:
