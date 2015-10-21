@@ -371,19 +371,4 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 
 </div>
 
-
-<!-- Модалка-->
-<div class="remember_form_main3">
-	<div class="remember_form_cell">
-		<div class="remember_form">
-			<div class="close_r_f_container"><a class="close_r_f"></a></div>
-
-
-			<img src="<?=SITE_TEMPLATE_PATH?>/img/resid.png" class="proezd" >
-
-		</div>
-	</div>
-</div>
-
-<!-- Модалка-->
  <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
