@@ -22,10 +22,10 @@ $APPLICATION->SetTitle("Законодательство");
  <span style="font-size: 8pt;">24.09.2015</span><br>
 		</p>
 		<p>
-			 ЗАЯВКА на СОГЛАШЕНИЕ
+			 ЗАЯВКА НА СОГЛАШЕНИЕ СОГЛАШЕНИЯ ОБ ОСУЩЕСТВЛЕНИИ ДЕЯТЕЛЬНОСТИ
 		</p>
 		<p>
-			<br>
+ <br>
  <br>
  <a href="http://sezlipetsk/upload/zakonodatelstvo/%D0%9C%D0%98%D0%9D%D0%AD%D0%9A%20%E2%84%96%2075%20%D1%84%D0%BE%D1%80%D0%BC%D0%B0%20%D0%91%D0%9F.docx"><img width="24" alt="doc.png" src="/upload/medialibrary/466/4661a79ee6b7c0a9e87589a3252bec52.png" height="30" title="doc.png"></a>&nbsp;26кб<br>
 		</p>
@@ -33,10 +33,10 @@ $APPLICATION->SetTitle("Законодательство");
  <span style="font-size: 8pt;">24.09.2015</span><br>
 		</p>
 		<p>
-			 МИНЭК № 75 форма БП<br>
+			 МИНИСТЕРСТВО ЭКОНОМИЧЕСКОГО РАЗВИТИЯ И ТОРГОВЛИ РОССИЙСКОЙ ФЕДЕРАЦИИ ПРИКАЗ от 2006 г. N 75 "ОБ УТВЕРЖДЕНИИ ФОРМ БИЗНЕС-ПЛАНОВ, ПРЕДСТАВЛЯЕМЫХ ДЛЯ ЗАКЛЮЧЕНИЯ (ИЗМЕНЕНИЯ)СОГЛАШЕНИЙ О ВЕДЕНИИ ПРОМЫШЛЕННО-ПРОИЗВОДСТВЕННОЙ (ТЕХНИКО-ВНЕДРЕНЧЕСКОЙ) ДЕЯТЕЛЬНОСТИ, КРИТЕРИЕВ ОТБОРА БАНКОВ И ИНЫХ КРЕДИТНЫХ ОРГАНИЗАЦИЙ ДЛЯ ПОДГОТОВКИ ЗАКЛЮЧЕНИЯ НА БИЗНЕС-ПЛАНЫ, КРИТЕРИЕВ ОЦЕНКИ БИЗНЕС-ПЛАНОВ, ПРОВОДИМОЙ ЭКСПЕРТНЫМ СОВЕТОМ ПО ТЕХНИКО-ВНЕДРЕНЧЕСКИМ ОСОБЫМ ЭКОНОМИЧЕСКИМ ЗОНАМ"<br>
 		</p>
 		<p>
-			<br>
+ <br>
 		</p>
 		<p>
  <a href="/upload/zakonodatelstvo/Рекомендации к оформлению бизнес-плана.docx"><img width="24" alt="doc.png" src="/upload/medialibrary/466/4661a79ee6b7c0a9e87589a3252bec52.png" height="30" title="doc.png"></a>&nbsp;12кб<br>
@@ -48,7 +48,7 @@ $APPLICATION->SetTitle("Законодательство");
 			 Рекомендации к оформлению бизнес-плана
 		</p>
 		<p>
-			<br>
+ <br>
  <br>
  <a href="/upload/zakonodatelstvo/ФЗ от 08_08_2001 N 129-ФЗ.docx"><img width="24" alt="doc.png" src="/upload/medialibrary/466/4661a79ee6b7c0a9e87589a3252bec52.png" height="30" title="doc.png"></a>&nbsp;474кб
 		</p>
@@ -56,10 +56,10 @@ $APPLICATION->SetTitle("Законодательство");
  <span style="font-size: 8pt;">24.09.2015</span>
 		</p>
 		<p>
-			 ФЗ от 08_08_2001 N 129-ФЗ
+			 ФЕДЕРАЛЬНЫЙ ЗАКОН ОТ 08.08.2001 N 129-Ф3 "О ГОСУДАРСТВЕННОЙ РЕГИСТРАЦИИ ЮРИДИЧЕСКИХ ЛИЦ И ИНДИВИДУАЛЬНЫХ ПРЕДПРЕНИМАТЕЛЕЙ"
 		</p>
 		<p>
-			<br>
+ <br>
  <br>
  <a href="/upload/zakonodatelstvo/ФЗ от 22_07_2005 N 116-ФЗ.docx"><img width="24" alt="doc.png" src="/upload/medialibrary/466/4661a79ee6b7c0a9e87589a3252bec52.png" height="30" title="doc.png"></a>&nbsp;66кб
 		</p>
@@ -67,16 +67,9 @@ $APPLICATION->SetTitle("Законодательство");
  <span style="font-size: 8pt;">24.09.2015</span><br>
 		</p>
 		<p>
-			 ФЗ от 22_07_2005 N 116-ФЗ<br>
+			 Федеральный закон от 22.07.2005 N 116-Ф3 "ОБ ОСОБЫХ ЭКОНОМИЧЕСКИХ ЗОНАХ В РОССИЙСКОЙ ФЕДЕРАЦИИ"
 		</p>
-		<p>
-			<br>
-		</p>
- <img width="24" alt="doc.png" src="/upload/medialibrary/466/4661a79ee6b7c0a9e87589a3252bec52.png" height="30" title="doc.png">&nbsp;473кб<br>
- <br>
- <span style="font-size: 8pt;">05.10.2015</span>&nbsp;<br>
- <br>
- Федеральный закон от 08_08_2001 N 129-ФЗ (ред_ от 13_07_2015)<br>
 	</div>
  </section>
-</div><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+</div>
+ <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

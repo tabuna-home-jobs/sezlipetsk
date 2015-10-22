@@ -37,13 +37,10 @@ $APPLICATION->SetTitle("Налоговые льготы");
 					 (с момента получения прибыли)
 				</p>
 				<p>
- <img width="284" alt="prib1.png" src="/upload/medialibrary/1b5/1b52b297ab326bb583a7d959dbdbc744.png" height="50" title="prib1.png" style="margin-right: 10px;">20% внешней
+ <img width="199" alt="prib1.png" src="/upload/medialibrary/1b5/1b52b297ab326bb583a7d959dbdbc744.png" height="35" title="prib1.png" style="margin-right: 10px; margin-bottom: 3px;"><span style="font-size: 16pt;">20% внешней&nbsp;территории ОЭЗ</span>
 				</p>
 				<p>
- <img width="28" alt="prib2.png" src="/upload/medialibrary/be1/be1b85eb198d35db5604b5f2a370542a.png" height="50" title="prib2.png" style="margin-right: 10px;">территории ОЭЗ
-				</p>
-				<p>
-					 для резидентов ОЭЗ:
+ <img width="20" alt="prib2.png" src="/upload/medialibrary/be1/be1b85eb198d35db5604b5f2a370542a.png" height="35" title="prib2.png" style="margin-right: 10px; margin-bottom: 3px;"><span style="font-size: 16pt;">для резидентов ОЭЗ:</span>&nbsp; &nbsp; &nbsp;
 				</p>
 				<p>
 					 2% - на срок до 7 лет
@@ -61,10 +58,10 @@ $APPLICATION->SetTitle("Налоговые льготы");
 					 (с момента возникновения права собственности на земельный участок)
 				</p>
 				<p>
- <img width="55" alt="zem1.png" src="/upload/medialibrary/c3d/c3dbffeedb6296392eaa1c968b6d527d.png" height="54" title="zem1.png" style="margin-right: 10px;">1,5% вне территории ОЭЗ
+ <img width="39" alt="zem1.png" src="/upload/medialibrary/c3d/c3dbffeedb6296392eaa1c968b6d527d.png" height="38" title="zem1.png" style="margin-right: 10px; margin-bottom: 3px;"><span style="font-size: 16pt;">1,5% вне территории ОЭЗ</span>
 				</p>
 				<p>
- <img width="2" alt="zem2.png" src="/upload/medialibrary/bad/bad5675e64697437b0c6b49e15fe7d56.png" height="54" title="zem2.png" style="margin-right: 10px;">0% для резидентов ОЭЗ на срок 5 лет
+ <img width="1" alt="zem2.png" src="/upload/medialibrary/bad/bad5675e64697437b0c6b49e15fe7d56.png" height="38" title="zem2.png" style="margin-right: 10px; margin-bottom: 3px;"><span style="font-size: 16pt;">0% для резидентов ОЭЗ на срок 5 лет</span>
 				</p>
 			</div>
 		</div>
@@ -76,10 +73,10 @@ $APPLICATION->SetTitle("Налоговые льготы");
 					 (с момента регистрации права собственности)
 				</p>
 				<p>
- <img width="80" alt="imush1.png" src="/upload/medialibrary/d83/d8329b972cbd3b5ea47c505ca1339786.png" height="54" title="imush1.png" style="margin-right: 10px;">2,2% вне территории ОЭЗ
+ <img width="56" alt="imush1.png" src="/upload/medialibrary/d83/d8329b972cbd3b5ea47c505ca1339786.png" height="38" title="imush1.png" style="margin-right: 10px; margin-bottom: 3px;"><span style="font-size: 16pt;">2,2% вне территории ОЭЗ</span>
 				</p>
 				<p>
- <img width="2" alt="imush2.png" src="/upload/medialibrary/d1b/d1b22efc9597989a9868364944e7a163.png" height="54" title="imush2.png" style="margin-right: 10px;">0% для резидентов ОЭЗ на срок 10 лет
+ <img width="1" alt="imush2.png" src="/upload/medialibrary/d1b/d1b22efc9597989a9868364944e7a163.png" height="38" title="imush2.png" style="margin-right: 10px; margin-bottom: 3px;"><span style="font-size: 16pt;">0% для резидентов ОЭЗ на срок 10 лет</span>
 				</p>
 			</div>
 			<div class="col-md-6">
@@ -88,10 +85,10 @@ $APPLICATION->SetTitle("Налоговые льготы");
 					 (с момента регистрации транспортного средства)
 				</p>
 				<p>
- <img width="154" alt="trans1.png" src="/upload/medialibrary/6ef/6ef9dcbff9b009b8173d2598997b8e1a.png" height="49" title="trans1.png" style="margin-right: 10px;">вне территории ОЭЗдо 150 руб. (за 1 л.с. мощности двигателя)
+ <img width="108" alt="trans1.png" src="/upload/medialibrary/6ef/6ef9dcbff9b009b8173d2598997b8e1a.png" height="34" title="trans1.png" style="margin-right: 10px; margin-bottom: 3px;"><span style="font-size: 16pt;">вне территории ОЭЗдо 150 руб. (за 1 л.с. мощности двигателя)</span>
 				</p>
 				<p>
- <img width="2" alt="trans2.png" src="/upload/medialibrary/180/180da8474c3d5a4827f75e337c018712.png" height="49" title="trans2.png" style="margin-right: 10px;">0 руб. для резидентов ОЭЗ на срок 10 лет
+ <img width="1" alt="trans2.png" src="/upload/medialibrary/180/180da8474c3d5a4827f75e337c018712.png" height="34" title="trans2.png" style="margin-right: 10px; margin-bottom: 3px;"><span style="font-size: 16pt;">0 руб. для резидентов ОЭЗ на срок 10 лет</span>
 				</p>
 			</div>
 		</div>
@@ -113,7 +110,7 @@ $APPLICATION->SetTitle("Налоговые льготы");
  </li>
 				<li>
 				<p>
-					 На государственном уровне резидентам ОЭЗ гарантирована стабильность инвестиционных условий&nbsp;<img width="400" alt="3.png" src="/upload/medialibrary/cc8/cc8274247dd2f3c0a4804211107b3669.png" height="227" title="3.png" align="right" style="margin-bottom: 10px;" >
+					 На государственном уровне резидентам ОЭЗ гарантирована стабильность инвестиционных условий&nbsp;<img width="400" alt="3.png" src="/upload/medialibrary/cc8/cc8274247dd2f3c0a4804211107b3669.png" height="auto" title="3.png" align="right" style="margin-bottom: 10px; margin-bottom: 3px;">
 				</p>
  </li>
 			</ul>

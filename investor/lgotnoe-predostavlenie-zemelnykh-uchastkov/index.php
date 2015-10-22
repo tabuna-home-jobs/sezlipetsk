@@ -57,22 +57,22 @@ $APPLICATION->SetTitle("Льготное предоставление земел
 					 В зависимости от объема инвестиций действуют понижающие коэффициенты:
 				</p>
 				<p>
- <img width="450" alt="11.png" src="/upload/medialibrary/7ae/7ae736f9ce8ca2ebdd2c7a84e962cb57.png" height="421" title="11.png"><br>
+ <img width="60%" alt="11.png" src="/upload/medialibrary/7ae/7ae736f9ce8ca2ebdd2c7a84e962cb57.png" height="auto" title="11.png" style="margin-left: 20%"><br>
 				</p>
 				<p>
 				</p>
 				<ul>
-					<li>
+					<li style="margin-left: 20%">
 					<p>
 						 не менее 10 млн. евро 0,9
 					</p>
  </li>
-					<li>
+					<li style="margin-left: 20%">
 					<p>
 						 не менее 20 млн. евро 0,7
 					</p>
  </li>
-					<li>
+					<li style="margin-left: 20%">
 					<p>
 						 не менее 20 млн. евро 0,7
 					</p>
@@ -92,9 +92,12 @@ $APPLICATION->SetTitle("Льготное предоставление земел
 				</p>
 			</div>
 		</div>
-	
- <center><img width="700" alt="32.png" src="/upload/medialibrary/6dc/6dc58201b13dd28550d458117cda9760.png" height="420" title="32.png" align="middle"> <br>
-</center>
-</div>
+		<div class="row">
+			<div style="text-align: center;">
+ <img width="700" alt="32.png" src="/upload/medialibrary/6dc/6dc58201b13dd28550d458117cda9760.png" height="auto" title="32.png" align="middle"> <br>
+			</div>
+		</div>
+	</div>
  </section>
-</div><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+</div>
+ <br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
