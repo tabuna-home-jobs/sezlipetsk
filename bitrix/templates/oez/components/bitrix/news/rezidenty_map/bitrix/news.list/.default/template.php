@@ -35,7 +35,7 @@ $this->setFrameMode(true);
 				<div class="title-zone"><?echo $arItem["NAME"]?></div>
 				<div class="info-zone">
 					<p><b>№ участка:</b> <?=$arItem['PROPERTIES']['AREA_NUMBER']['VALUE']?></p>
-					<p><b>Кадастровый номер:</b> <?=$arItem['PROPERTIES']['RESIDENT_COUNTRY']['VALUE']?></p>
+					<p><b>Страна резидента:</b> <?=$arItem['PROPERTIES']['RESIDENT_COUNTRY']['VALUE']?></p>
 					<p><b>Вид деятельности:</b> <?=$arItem['PROPERTIES']['KIND_OF_ACTIVITY']['VALUE']?></p>
 					<p><b>Площадь:</b> <?=$arItem['PROPERTIES']['AREA']['VALUE']?></p>
 					<p><b>Суть проекта:</b> <?echo $arItem["PREVIEW_TEXT"];?></p>
