@@ -87,8 +87,8 @@ $APPLICATION->SetTitle("Перспективы расширения террит
 				</div>
 				<div class="miniGal">
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
-						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
-							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg" title="Описание" >
+						<a class="fancybox" href="<?=SITE_TEMPLATE_PATH?>/img/1/IMG_6934.JPG">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/2/IMG_6934.JPG" title="Описание" >
 							<div class="in_galery_foto">
 								<div>
 									<img src="/bitrix/templates/oez/img/galery_loop.png">
@@ -98,8 +98,8 @@ $APPLICATION->SetTitle("Перспективы расширения террит
 						</a>
 					</div>
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
-						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
-							<img src="<?=SITE_TEMPLATE_PATH?>/img/img2.jpg" title="Описание">
+						<a class="fancybox" href="<?=SITE_TEMPLATE_PATH?>/img/1/IMG_6941.JPG">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/2/IMG_6941.JPG" title="Описание">
 							<div class="in_galery_foto">
 								<div>
 									<img src="/bitrix/templates/oez/img/galery_loop.png">
@@ -108,8 +108,8 @@ $APPLICATION->SetTitle("Перспективы расширения террит
 						</a>
 					</div>
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
-						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
-							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg" title="Описание">
+						<a class="fancybox" href="<?=SITE_TEMPLATE_PATH?>/img/1/IMG_6962.JPG">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/2/IMG_6962.JPG" title="Описание">
 							<div class="in_galery_foto">
 								<div>
 									<img src="/bitrix/templates/oez/img/galery_loop.png">
@@ -118,8 +118,8 @@ $APPLICATION->SetTitle("Перспективы расширения террит
 						</a>
 					</div>
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
-						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
-							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg" title="Описание">
+						<a class="fancybox" href="<?=SITE_TEMPLATE_PATH?>/img/1/IMG_7013.JPG">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/2/IMG_7013.JPG" title="Описание">
 							<div class="in_galery_foto">
 								<div>
 									<img src="/bitrix/templates/oez/img/galery_loop.png">
@@ -138,8 +138,8 @@ $APPLICATION->SetTitle("Перспективы расширения террит
 						</a>
 					</div>
 					<div class="col-md-4 col-lg-4 col-sm-6 col-xs-6">
-						<a class="fancybox" href="/upload/iblock/ac2/ac22d710a1a6dc91cd49b36cb7ef7b8c.JPG">
-							<img src="<?=SITE_TEMPLATE_PATH?>/img/img1.jpg" title="Описание">
+						<a class="fancybox" href="<?=SITE_TEMPLATE_PATH?>/img/1/IMG_7017.JPG">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/2/IMG_7017.JPG" title="Описание">
 							<div class="in_galery_foto">
 								<div>
 									<img src="/bitrix/templates/oez/img/galery_loop.png">
