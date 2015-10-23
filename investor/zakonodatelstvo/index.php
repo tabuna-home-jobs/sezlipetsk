@@ -27,7 +27,7 @@ $APPLICATION->SetTitle("Законодательство");
 		<p>
  <br>
  <br>
- <a href="http://sezlipetsk/upload/zakonodatelstvo/%D0%9C%D0%98%D0%9D%D0%AD%D0%9A%20%E2%84%96%2075%20%D1%84%D0%BE%D1%80%D0%BC%D0%B0%20%D0%91%D0%9F.docx"><img width="24" alt="doc.png" src="/upload/medialibrary/466/4661a79ee6b7c0a9e87589a3252bec52.png" height="30" title="doc.png"></a>&nbsp;26кб<br>
+ <a href="/upload/zakonodatelstvo/МИНЭК № 75 форма БП.docx"><img width="24" alt="doc.png" src="/upload/medialibrary/466/4661a79ee6b7c0a9e87589a3252bec52.png" height="30" title="doc.png"></a>&nbsp;26кб<br>
 		</p>
 		<p>
  <span style="font-size: 8pt;">24.09.2015</span><br>
