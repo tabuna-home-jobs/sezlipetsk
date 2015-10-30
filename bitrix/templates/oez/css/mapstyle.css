@@ -90,14 +90,29 @@
 .table-info td:nth-child(3){
     width: 48px;
 }
-.table-info .sec-td{
-    width: 350px;
+@media (min-width: 1024px) {
+    .table-info .sec-td{
+        width: 350px;
+    }
 }
+@media (max-width: 1024px) {
+    .table-info td:first-child{
+        padding: 8px 0px !important;
+    }
+}
+
 .info-maschtab{
     color: #666;
     font-family: FNormal;
     font-size: 12px;
     font-weight: 300;
+}
+.table-info td:first-child img{
+    min-width: 16px;
+}
+.table-info td:nth-child(3) img{
+    min-width: 16px;
+    min-height: 1px;
 }
 .wrapper-tooltip > img{
     width: 100%;

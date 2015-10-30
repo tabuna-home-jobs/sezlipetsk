@@ -2255,9 +2255,9 @@ textarea {
 .table-info td:nth-child(3){
   width: 48px;
 }
-.table-info .sec-td{
+/*.table-info .sec-td{
   width: 350px;
-}
+}*/
 .info-maschtab{
   color: #666;
   font-family: FNormal;
@@ -3269,4 +3269,9 @@ background-image: url("../img/view_activ.png");
 .map-columns a{
     color: #e64046;
     font-family: FNormal;
+}
+@media (max-width: 1024px) {
+    .container_tur{
+        padding: 0px 15px;
+    }
 }
