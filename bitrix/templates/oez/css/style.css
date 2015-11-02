@@ -3279,4 +3279,5 @@ background-image: url("../img/view_activ.png");
 .container_tur{
     height: 500px;
     overflow: hidden;
+    position: relative;
 }
