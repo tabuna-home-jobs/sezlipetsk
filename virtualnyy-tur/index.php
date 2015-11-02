@@ -7,7 +7,8 @@ $APPLICATION->SetTitle("Виртуальный тур");
 	if($_GET["tour"] != 'adc'){
 		$src = 'http://ros.t198.topaz.fastwebserver.de/aero/aero/aero_out.html';
 		?>
-		<div class="container_tur">
+		<section class="container_tur">
+
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<title>&#1057;&#1094;&#1077;&#1085;&#1072; 1</title>
@@ -52,7 +53,7 @@ $APPLICATION->SetTitle("Виртуальный тур");
 								container.style.height=cheight + "px";
 							}
 						}
-						document.getElementsByTagName("body")[0].style.marginTop="1px";
+						document.getElementsByTagName("section")[0].style.marginTop="1px";
 						window.scrollTo(0, 1);
 					}
 				}
@@ -163,7 +164,7 @@ $APPLICATION->SetTitle("Виртуальный тур");
 		</noscript>
 		<hr>
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-		<div id="mapdiv" style="width:700px; height:500px">map goes here!</div>
+		<!--<div id="mapdiv" style="width:700px; height:500px">map goes here!</div>-->
 
 		<script type="text/javascript">
 			var lastFov = -1;
@@ -275,7 +276,8 @@ $APPLICATION->SetTitle("Виртуальный тур");
 				setInterval(function() { updateRadar(); }, 50);
 			}
 		</script>
-		</div>
+
+		</section>
 	<?
 	}else{
 		$src = 'http://ros.t198.topaz.fastwebserver.de/adc/adc/adc.html';?>
