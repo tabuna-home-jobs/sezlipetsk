@@ -3273,8 +3273,10 @@ background-image: url("../img/view_activ.png");
 @media (max-width: 1024px) {
     .container_tur{
         padding: 0px 15px;
+        max-width: 100%;
     }
 }
 .container_tur{
     height: 500px;
+    overflow: hidden;
 }
