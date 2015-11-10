@@ -5,10 +5,10 @@ $(document).ready(function() {
             $(this).next().hide();
         });
     });
-    $('#main_form').submit(function(){
+    /*$('#main_form').submit(function(){
         this.submit();
         alert('Ваша заявка отправлена!');
-    });
+    });*/
     function addDomElem(num){
         var domHtml = '<div class="row hot-block">';
         domHtml += '<div class="col-xs-3 labels_left">';
@@ -73,7 +73,7 @@ allMessageText += but.parent().parent().parent().find('[nameinput = ' + $(this)[
         if (!errorArr) {
 
             allMessage.val(allMessageText);
-
+            alert('Ваша заявка отправлена!');
             $('#main_form').submit();
         }
     });

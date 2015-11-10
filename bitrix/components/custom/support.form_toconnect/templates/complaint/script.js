@@ -7,10 +7,10 @@ $(document).ready(function() {
     });
 
 
-    $('#main_form2').submit(function(){
+    /*$('#main_form2').submit(function(){
         this.submit();
-        alert('Ваша заявка отправлена!');
-    });
+
+    });*/
 
     $('.send_form').click(function() {
         var but = $(this);
@@ -42,6 +42,7 @@ $(document).ready(function() {
         if (!errorArr) {
 
             allMessage.val(allMessageText);
+            alert('Ваша заявка отправлена!');
             $('#main_form2').submit();
         }
     });

@@ -6,10 +6,10 @@ $(document).ready(function() {
         });
     });
 
-    $('#main_form').submit(function(){
+   /* $('#main_form').submit(function(){
         this.submit();
-        alert('Ваш вопрос отправлен!');
-    });
+
+    });*/
 
 
     $('.send_form').click(function() {
@@ -42,6 +42,7 @@ $(document).ready(function() {
         if (!errorArr) {
            // alert('hjkl');
             allMessage.val(allMessageText);
+            alert('Ваш вопрос отправлен!');
             $('#main_form').submit();
         }
     });

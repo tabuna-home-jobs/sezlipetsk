@@ -42,30 +42,30 @@
     </div>
     <div class="col-xs-6">
         <div class="ocenka">
-            <span class="star" data-pos="1">
+            <span class="star active_star" data-pos="1">
                 <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
                 <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
             </span>
-            <span class="star" data-pos="2">
+            <span class="star active_star" data-pos="2">
                 <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
                 <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
             </span>
-            <span class="star" data-pos="3">
+            <span class="star active_star" data-pos="3">
                 <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
                 <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
             </span>
-            <span class="star" data-pos="4">
+            <span class="star active_star" data-pos="4">
                 <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
                 <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
             </span>
-            <span class="star" data-pos="5">
+            <span class="star " data-pos="5">
                 <img src="<?=SITE_TEMPLATE_PATH?>/img/star_black.png"/>
                 <img src="<?=SITE_TEMPLATE_PATH?>/img/star.png"/>
             </span>
-            <span class="ocenka_name"></span>
+            <span class="ocenka_name">Хорошо</span>
         </div>
     </div>
-    <input type="hidden" value="0" name="assessment" inputvalue="2">
+    <input type="hidden" value="4" name="assessment" inputvalue="2">
     <script type="text/javascript">
         $(document).ready(function(){
             var assessmentName = {

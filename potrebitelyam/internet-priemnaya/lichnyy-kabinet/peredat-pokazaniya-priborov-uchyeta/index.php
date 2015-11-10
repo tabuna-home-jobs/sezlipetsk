@@ -45,15 +45,7 @@ $APPLICATION->SetTitle("Передать показания приборов у�
 						);
 						?>
 					</div>
-					<!--<div role="tabpanel" class="tab-pane fade" id="registration_panel">
-						<?$APPLICATION->IncludeComponent(
-							"custom:support.form_toconnect",
-							"complaint",
-							Array(
-							)
-						);
-						?>
-					</div>-->
+
 				</div>
 			</div>
 		</div>

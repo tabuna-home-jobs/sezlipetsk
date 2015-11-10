@@ -5,10 +5,10 @@ $(document).ready(function() {
             $(this).next().hide();
         });
     });
-    $('#main_form').submit(function(){
+   /* $('#main_form').submit(function(){
         this.submit();
-        alert('Ваша заявка отправлена!');
-    });
+
+    });*/
 
     $('.next_step').click(function() {
         var but = $(this);
@@ -75,6 +75,7 @@ $(document).ready(function() {
         });
         if (!errorArr) {
             allMessage.val(allMessageText);
+            alert('Ваша заявка отправлена!');
             $('#main_form').submit();
         }
     });

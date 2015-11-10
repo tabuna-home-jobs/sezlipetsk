@@ -7,10 +7,10 @@ $(document).ready(function() {
     });
 
 
-    $('#main_form').submit(function(){
+   /* $('#main_form').submit(function(){
         this.submit();
         alert('Ваша заявка отправлена!');
-    });
+    });*/
 
     $('.send_form').click(function() {
         var but = $(this);
@@ -40,7 +40,7 @@ $(document).ready(function() {
             }
         });
         if (!errorArr) {
-           // alert('hjkl');
+            alert('Ваша заявка отправлена!');
             allMessage.val(allMessageText);
             $('#main_form').submit();
         }
