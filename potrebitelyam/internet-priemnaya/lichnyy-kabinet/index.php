@@ -18,6 +18,7 @@
 			"WORK_COMPANY"     => $_POST['WORK_COMPANY'],
 			"UF_POSITION"      => $_POST['UF_POSITION'],
 			"UF_CADASTR"       => $_POST['UF_CADASTR'],
+
 			//"LOGIN"            => "ivan",
 			//"LID"              => "ru",
 			//"ACTIVE"           => "Y",

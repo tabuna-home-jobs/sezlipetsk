@@ -194,7 +194,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_REQUEST["register_submit_bu
 
 		$arResult['VALUES']["CHECKWORD"] = md5(CMain::GetServerUniqID().uniqid());
 		$arResult['VALUES']["~CHECKWORD_TIME"] = $DB->CurrentTimeFunction();
-		$arResult['VALUES']["ACTIVE"] = $bConfirmReq? "N": "Y";
+		//$arResult['VALUES']["ACTIVE"] = $bConfirmReq? "N": "Y";
+		$arResult['VALUES']["ACTIVE"] = "N";
 		$arResult['VALUES']["CONFIRM_CODE"] = $bConfirmReq? randString(8): "";
 		$arResult['VALUES']["LID"] = SITE_ID;
 

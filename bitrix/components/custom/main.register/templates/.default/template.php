@@ -38,7 +38,7 @@ elseif($arResult["USE_EMAIL_CONFIRMATION"] === "Y"):
 <p><?echo GetMessage("REGISTER_EMAIL_WILL_BE_SENT")?></p>
 <?endif?>
 
-<form method="post" action="<?=POST_FORM_ACTION_URI?>" name="regform" enctype="multipart/form-data">
+<form method="post" action="<?=POST_FORM_ACTION_URI?>" name="regform" enctype="multipart/form-data" id="my_reg">
 	<div class="inputs_container">
 <?
 if($arResult["BACKURL"] <> ''):
@@ -214,5 +214,17 @@ if ($arResult["USE_CAPTCHA"] == "Y")
 <p><span class="star_red">*</span><?=GetMessage("AUTH_REQ")?></p>
 	</div>
 </form>
+	<script>
+
+		$(document).ready(function () {
+
+
+			$('#my_reg').submit(function () {
+				this.submit();
+				alert('Регистрация прошла успешно! После проверки вашего профиля администратором сайта, вы получите доступ к личном кабинету.');
+
+			});
+		});
+	</script>
 <?endif?>
 
