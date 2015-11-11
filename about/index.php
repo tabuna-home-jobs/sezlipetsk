@@ -63,9 +63,16 @@ $APPLICATION->SetTitle("О проекте");
 					<div class="col-xs-12 item_wrap">
 						<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
 							<div class="item_block">
-								<a href="veb-kamera/" target="_blank" class="item_block_a_small">
-								<!--
-								<a href="http://79.140.96.230/view/viewer_index.shtml" target="_blank" class="item_block_a_small">-->
+								<?
+									$user_agent = $_SERVER["HTTP_USER_AGENT"];
+									if ((strpos($user_agent, "MSIE") !== false)||(strpos($user_agent, "Trident") !== false)){ ?>
+										<a href="http://79.140.96.230" target="_blank" class="item_block_a_small">
+
+									<? }else{ ?>
+										<a href="veb-kamera/" class="item_block_a_small">
+									<?
+									}
+								?>
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>

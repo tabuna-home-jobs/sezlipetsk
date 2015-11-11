@@ -48,9 +48,10 @@ $APPLICATION->SetTitle("Цитаты руководителей");
 					<div class="citat_item_description">
  <img src="/bitrix/templates/oez/img/twoarrows.png">
 						<div class="citater">
+							Окишима Жуничи
 						</div>
 						<div>
-							Генеральный директор Yokohama
+							Генеральный директор Yokohama RUS
 						</div>
 					</div>
 				</div>
