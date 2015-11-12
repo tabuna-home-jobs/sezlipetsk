@@ -70,6 +70,7 @@ $(document).ready(function() {
                 if ($(this)[0].attributes.inputvalue) {
                     console.log(but.parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0]);
                     allMessageText += but.parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0].innerText + ': ' + $(this)[0].value + '\n\r'
+                    //allMessageText += but.parent().parent().find('[nameinput = ' + $(this).attr('inputvalue') + ']').innerText + ': ' + $(this)[0].value + '\n\r';
                 }
             }
         });
