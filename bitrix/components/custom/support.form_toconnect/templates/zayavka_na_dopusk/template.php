@@ -85,9 +85,7 @@
 	        </div>
             <div class="row">
                 <div class="col-xs-6 labels_left">
-                    <span nameinput="9">
-                        в связи с
-                    </span>
+                    <span nameinput="9">в связи с</span>
                 </div>
                 <div class="col-xs-6 inputs_right">
                     <textarea name="FIELD_9" inputvalue="9"></textarea>

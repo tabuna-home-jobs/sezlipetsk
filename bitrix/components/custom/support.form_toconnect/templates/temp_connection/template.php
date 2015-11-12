@@ -19,10 +19,13 @@
                 <div class="step_item step_item_active">
                     <textarea name="MESSAGE_1" allmessage style="display:none"> <?=$_POST["MESSAGE_1"]?> </textarea>
                     <div class="step_item_block">
-                        <div class="step_item_block_name" nameinput="1">
+                        <div class="step_item_block_name" >
                             Реквизиты юридического лица<br/>
                             или индивидуального предпринимателя
                         </div>
+	                    <div nameinput="1" style="display:none">
+		                    Реквизиты юридического лица или индивидуального предпринимателя
+	                    </div>
                         <div class="row step_item_inputs">
                             <div class="col-xs-6">
                                 <span class="star_red">*</span>
@@ -90,9 +93,11 @@
                     <div class="step_item_block">
                         <div class="row step_item_inputs">
                             <div class="col-xs-12 step_item_inputs_heder">
-                                <span nameinput="6">В связи с<br>
+                                <span >В связи с<br>
                                 (временное технологическое присоединение передвижного объекта и другое – указать нужное)
                                 </span>
+	                            <div style="display:none" nameinput="6" >В связи с (временное технологическое присоединение передвижного объекта и другое – указать нужное)
+	                            </div>
                             </div>
                             <div class="col-xs-6">
                                 <span class="star_red">*</span>Укажите нужное
@@ -133,9 +138,12 @@
                             </div>
                         </div>
                         <div class="col-xs-12 step_item_inputs_heder">
-                            <span nameinput="10">
-                                 Максимальная мощность энергопринимающих устройств составляет <span class="prim">1<small><sup>?</sup></small></span>
+                            <span>
+	                            Максимальная мощность энергопринимающих устройств составляет <span class="prim">1<small><sup>?</sup></small></span>
                             </span>
+	                        <span nameinput="10" style="display: none">
+		                        Максимальная мощность энергопринимающих устройств составляет
+	                        </span>
                         </div>
                         <div class="row step_item_inputs">
                             <div class="col-xs-6">
@@ -146,7 +154,8 @@
                             </div>
                         </div>
                         <div class="col-xs-12 step_item_inputs_heder">
-                            <span nameinput="11"> при напряжении <span class="prim">2<small><sup>?</sup></small></span> </span>
+                            <span >при напряжении <span class="prim">2<small><sup>?</sup></small></span> </span>
+	                        <span nameinput="11" style="display: none">при напряжении (кВ)</span>
                         </div>
                         <div class="row step_item_inputs">
                             <div class="col-xs-6">
@@ -168,7 +177,8 @@
                         <div class="row step_item_inputs">
                             <div class="col-xs-6">
                                 <span class="star_red">*</span>
-                                <span nameinput="13">Срок электроснабжения энергопринимающих устройств по временной схеме <span class="prim">3<small><sup>?</sup></small></span></span>
+                                <span >Срок электроснабжения энергопринимающих устройств по временной схеме <span  class="prim">3<small><sup>?</sup></small></span></span>
+	                            <span nameinput="13" style="display:none;">Срок электроснабжения энергопринимающих устройств по временной схеме</span>
                             </div>
                             <div class="col-xs-6">
                                 <textarea class="input_steps textarea_input" name="FIELD_13"  inputvalue="13"> <?=$_POST["FIELD_13"]?>
@@ -178,9 +188,12 @@
                         <div class="row step_item_inputs">
                             <div class="col-xs-6">
                                 <span class="star_red">*</span>
-                                <span nameinput="14">
+                                <span >
                                     Реквизиты договора на технологическое присоединение <span class="prim">4<small><sup>?</sup></small></span>
                                 </span>
+	                            <span style="display: none" nameinput="14">
+		                            Реквизиты договора на технологическое присоединение
+	                            </span>
                             </div>
                             <div class="col-xs-6">
                                 <textarea class="input_steps textarea_input" name="FIELD_14"  inputvalue="14"><?=$_POST["FIELD_14"]?></textarea>

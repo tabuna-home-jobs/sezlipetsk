@@ -16,10 +16,13 @@
             <div class="step_item step_item_active">
                 <textarea name="MESSAGE_1" allmessage style="display:none"> <?=$_POST["MESSAGE_1"]?> </textarea>
                 <div class="step_item_block">
-                    <div class="step_item_block_name" nameinput="1">
+                    <div class="step_item_block_name" >
                         Реквизиты юридического лица<br/>
                         или индивидуального предпринимателя
                     </div>
+	                <div style="display: none" nameinput="1">
+		                Реквизиты юридического лица или индивидуального предпринимателя
+	                </div>
                     <div class="row step_item_inputs">
                         <div class="col-xs-6">
                             <span class="star_red">*</span>
@@ -86,8 +89,10 @@
             <div class="step_item_block">
                 <div class="row step_item_inputs">
                     <div class="col-xs-12 step_item_inputs_heder">
-                        <span nameinput="6">В связи с<br>
+                        <span >В связи с<br>
                         (увеличением объема максимальной мощности, новым строительством и др. – указать нужное)</span>
+	                    <span style="display: none" nameinput="6">В связи с (увеличением объема максимальной мощности, новым строительством и др. – указать нужное
+	                    </span>
                     </div>
                     <div class="col-xs-6">
                         <span class="star_red">*</span>Укажите нужное
@@ -98,8 +103,7 @@
                 </div>
                 <div class="row step_item_inputs">
                     <div class="col-xs-6">
-                        <span class="star_red">*</span><span nameinput="7">Наименование энергоприни-
-                        мающих (-его) устройств (-а)</span>
+                        <span class="star_red">*</span><span nameinput="7">Наименование энергоприни-мающих (-его) устройств (-а)</span>
                     </div>
                     <div class="col-xs-6">
                         <input class="input_steps" type="text" inputvalue="7" name="FIELD_7" value='<?=$_POST["FIELD_7"]?>' require>
@@ -125,9 +129,12 @@
                     </div>
                 </div>
                 <div class="col-xs-12 step_item_inputs_heder">
-                    <p><span nameinput="10">
+                    <p><span >
                         Максимальная мощность энергопринимающих устройств (присоединяемых и ранее присоединенных) </span><span class="prim">1<small><sup>?</sup></small>
                     </p>
+	                <span style="display: none" nameinput="10">
+		                 Максимальная мощность энергопринимающих устройств (присоединяемых и ранее присоединенных)
+	                </span>
                 </div>
                 <div class="row step_item_inputs">
                     <div class="col-xs-6">
@@ -138,7 +145,10 @@
                     </div>
                 </div>
                 <div class="col-xs-12 step_item_inputs_heder">
-                    <span nameinput="11">при напряжении<span class="prim">2<small><sup>?</sup></small></span>
+                    <span >при напряжении<span class="prim">2<small><sup>?</sup></small></span>
+	                    <span nameinput="11" style="display: none">
+		                  при напряжении (кВ)
+	                    </span>
                 </div>
                 <div class="row step_item_inputs">
                     <div class="col-xs-6">
@@ -163,7 +173,8 @@
                     </div>
                 </div>
                 <div class="col-xs-12 step_item_inputs_heder">
-                    <span nameinput="13">при напряжении<span class="prim">3<small><sup>?</sup></small></span>
+                    <span>при напряжении<span class="prim">3<small><sup>?</sup></small></span>
+	                    <span  nameinput="13" style="display: none">при напряжении (кВ)</span>
                 </div>
                 <div class="row step_item_inputs">
                     <div class="col-xs-6">
@@ -185,7 +196,9 @@
                     </div>
                 </div>
                 <div class="col-xs-12 step_item_inputs_heder">
-                    <span nameinput="15">при напряжении<span class="prim">4<small><sup>?</sup></small></span>
+                    <span>при напряжении<span class="prim">4<small><sup>?</sup></small></span>
+	                    <span  nameinput="15" style="display: none">при напряжении (кВ)
+	                    </span>
                 </div>
                 <div class="row step_item_inputs">
                     <div class="col-xs-6">
@@ -200,15 +213,14 @@
                 </div>
                 <div class="row step_item_inputs">
                     <div class="col-xs-6">
-                        <span class="star_red">*</span><span nameinput="16">Характер нагрузки (вид экономической деятельности
-                        хозяйствующего субъекта)</span>
+                        <span class="star_red">*</span><span nameinput="16">Характер нагрузки (вид экономической деятельности хозяйствующего субъекта)</span>
                     </div>
                     <div class="col-xs-6">
                         <textarea class="input_steps textarea_input"  inputvalue="16" name="FIELD_16" require><?=$_POST["FIELD_16"]?></textarea>
                     </div>
                 </div>
                 <div class="col-xs-12 step_item_inputs_heder">
-                    <span nameinput="17">Порядок расчета и условия рассрочки внесения платы за технологическое присоединение по договору осуществляются по: <span class="prim">5<small><sup>?</sup></small></span><br>
+                    <span >Порядок расчета и условия рассрочки внесения платы за технологическое присоединение по договору осуществляются по: <span class="prim">5<small><sup>?</sup></small></span><br>
                     <br>а) вариант 1, при котором:
                     15 процентов платы за технологическое присоединение вносятся в течение 15 дней со дня заключения договора;
                     30 процентов платы за технологическое присоединение вносятся в течение 60 дней со дня заключения договора, но не позже дня фактического присоединения;
@@ -219,6 +231,9 @@
                     осуществляется беспроцентная рассрочка платежа в размере 95 процентов платы за технологическое присоединение с условием ежеквартального внесения платы равными долями от общей суммы рассрочки на период до 3 лет со дня подписания сторонами акта об осуществлении технологического присоединения.
                     10. Гарантирующий поставщик (энергосбытовая организация), с которым планируется заключение договора энергоснабжения (купли-продажи электрической энергии (мощности))
                 </div>
+	            <span style="display: none" nameinput="17">
+		            Порядок расчета и условия рассрочки внесения платы за технологическое присоединение по договору осуществляются по:
+	            </span>
                 <div class="row step_item_inputs">
                     <div class="col-xs-6">
                         <span class="star_red">*</span>(вариант 1, вариант 2 – указать нужное)
@@ -252,16 +267,14 @@
                         <div class="col-xs-4 col-sm-12 col-md-4 col-lg-12 column_input"><input inputvalue="19" name="FIELD_19_3" value='<?=$_POST["FIELD_19_3"]?>'></div>
                     </div>
                     <div class="col-xs-12 col-sm-3 col-md-12 col-lg-3 column_table">
-                        <div class="col-xs-12 column_heder"> <span nameinput="20">Планируемый срок ввода в эксплуатацию (месяц,
-                            год)</span>
+                        <div class="col-xs-12 column_heder"> <span nameinput="20">Планируемый срок ввода в эксплуатацию (месяц, год)</span>
                         </div>
                         <div class="col-xs-4 col-sm-12 col-md-4 col-lg-12 column_input"><input inputvalue="20" name="FIELD_20_1" value='<?=$_POST["FIELD_20_1"]?>'></div>
                         <div class="col-xs-4 col-sm-12 col-md-4 col-lg-12 column_input"><input inputvalue="20" name="FIELD_20_2" value='<?=$_POST["FIELD_20_2"]?>'></div>
                         <div class="col-xs-4 col-sm-12 col-md-4 col-lg-12 column_input"><input inputvalue="20" name="FIELD_20_3" value='<?=$_POST["FIELD_20_3"]?>'></div>
                     </div>
                     <div class="col-xs-12 col-sm-3 col-md-12 col-lg-3 column_table">
-                        <div class="col-xs-12 column_heder"> <span nameinput="21">Максимальная мощность на этапе/очереди
-                            (нарастающим итогом), кВт</span>
+                        <div class="col-xs-12 column_heder"> <span nameinput="21">Максимальная мощность на этапе/очереди (нарастающим итогом), кВт</span>
                         </div>
                         <div class="col-xs-4 col-sm-12 col-md-4 col-lg-12 column_input"><input inputvalue="21" name="FIELD_21_1" value='<?=$_POST["FIELD_21_1"]?>'></div>
                         <div class="col-xs-4 col-sm-12 col-md-4 col-lg-12 column_input"><input inputvalue="21" name="FIELD_21_2" value='<?=$_POST["FIELD_21_2"]?>'></div>
@@ -332,8 +345,7 @@
             </div>
             <div class="row step_item_inputs">
                 <div class="col-xs-6">
-                    <span class="star_red">*</span><span nameinput="24">Фамилия Имя Отчество
-                    заявителя</span>
+                    <span class="star_red">*</span><span nameinput="24">Фамилия Имя Отчество заявителя</span>
                 </div>
                 <div class="col-xs-6">
                     <input class="input_steps" type="text" inputvalue="24" name="FIELD_24" value='<?=$_POST["FIELD_24"]?>' require>
@@ -341,8 +353,7 @@
             </div>
             <div class="row step_item_inputs">
                 <div class="col-xs-6">
-                    <span class="star_red">*</span><span nameinput="25">Контактный телефон
-                    заявителя</span>
+                    <span class="star_red">*</span><span nameinput="25">Контактный телефон заявителя</span>
                 </div>
                 <div class="col-xs-6">
                     <input class="input_steps" type="text" inputvalue="25" name="FIELD_25" value='<?=$_POST["FIELD_25"]?>' require>
