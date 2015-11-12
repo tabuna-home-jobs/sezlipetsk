@@ -26,7 +26,7 @@ $(document).ready(function() {
             if (!errorArr && $(this)[0].value != '') {
                 if ($(this)[0].attributes.inputvalue) {
                     console.log(but.parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0]);
-                    allMessageText += $.trim(but.parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0].innerHTML) + ': ' + $(this)[0].value + ';\n\r'
+                    allMessageText += $.trim(but.parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0].innerHTML).replace(/<\/?[^>]+>/g, '') + ': ' + $(this)[0].value + ';\n\r'
                 }
             }
         });
@@ -69,7 +69,7 @@ $(document).ready(function() {
             if (!errorArr && $(this)[0].value != '') {
                 if ($(this)[0].attributes.inputvalue) {
                     console.log(but.parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0]);
-                    allMessageText += $.trim(but.parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0].innerHTML) + ': ' + $(this)[0].value + '\n\r'
+                    allMessageText += $.trim(but.parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0].innerHTML).replace(/<\/?[^>]+>/g, '') + ': ' + $(this)[0].value + '\n\r'
 
                 }
             }
