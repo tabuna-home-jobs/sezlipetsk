@@ -35,7 +35,7 @@ $(document).ready(function() {
             if (!errorArr && $(this)[0].value != '') {
                 if ($(this)[0].attributes.inputvalue) {
                     //console.log(but.parent().parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0]);
-                    console.log(  but.parent().parent().parent());
+                    console.log(but.parent().parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0]);
                     alert(  but.parent().parent().parent());
                     allMessageText += but.parent().parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0].innerText + ': ' + $(this)[0].value + ';\n\r'
                 }
