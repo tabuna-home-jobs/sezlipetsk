@@ -35,9 +35,9 @@ $(document).ready(function() {
             if (!errorArr && $(this)[0].value != '') {
                 if ($(this)[0].attributes.inputvalue) {
                     //console.log(but.parent().parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0]);
-                    console.log(but.parent().parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0].innerHTML);
-                    alert(  but.parent().parent().parent());
-                    allMessageText += but.parent().parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0].innerText + ': ' + $(this)[0].value + ';\n\r'
+                    //console.log(but.parent().parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0].innerHTML);
+                    //alert(  but.parent().parent().parent());
+                    allMessageText += but.parent().parent().parent().find('[nameinput = ' + $(this)[0].attributes.inputvalue.value + ']')[0].innerHTML + ': ' + $(this)[0].value + ';\n\r'
                 }
             }
         });
@@ -45,7 +45,7 @@ $(document).ready(function() {
 
             allMessage.val(allMessageText);
             alert('Ваша заявка отправлена!');
-           // $('#main_form').submit();
+            $('#main_form').submit();
         }
     });
 });
