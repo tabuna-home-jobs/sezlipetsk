@@ -71,9 +71,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-6 labels_left">
-                    <span nameinput="7">
-                        Сообщение
-                    </span>
+                    <span nameinput="7">Сообщение</span>
 				</div>
 				<div class="col-xs-6 inputs_right">
 					<textarea name="FIELD_7" inputvalue="7"></textarea>
