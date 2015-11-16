@@ -3283,3 +3283,18 @@ background-image: url("../img/view_activ.png");
     position: relative;
     width: 100%;
 }
+.mysub{
+    width: 100%;
+    background-color: #E13738;
+    color: #FFF;
+    padding: 10px;
+    border: medium none;
+    margin: 15px 0px;
+}
+.bx-changepass-table{
+    border-spacing: 5px ;
+    border-collapse: separate;
+}
+.starrequired{
+    color:#e13738;
+}

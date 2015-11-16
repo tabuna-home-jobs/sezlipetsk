@@ -18,36 +18,35 @@ if (strlen($arResult["BACKURL"]) > 0)
 	<?=GetMessage("AUTH_FORGOT_PASSWORD_1")?>
 	</p>
 
-<table class="data-table bx-forgotpass-table">
-	<thead>
-		<tr> 
-			<td colspan="2"><b><?=GetMessage("AUTH_GET_CHECK_STRING")?></b></td>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><?=GetMessage("AUTH_LOGIN")?></td>
-			<td><input type="text" name="USER_LOGIN" maxlength="50" value="<?=$arResult["LAST_LOGIN"]?>" />&nbsp;<?=GetMessage("AUTH_OR")?>
-			</td>
-		</tr>
-		<tr> 
-			<td><?=GetMessage("AUTH_EMAIL")?></td>
-			<td>
-				<input type="text" name="USER_EMAIL" maxlength="255" />
-			</td>
-		</tr>
-	</tbody>
-	<tfoot>
-		<tr> 
-			<td colspan="2">
-				<input type="submit" name="send_account_info" value="<?=GetMessage("AUTH_SEND")?>" />
-			</td>
-		</tr>
-	</tfoot>
-</table>
-<p>
-<a href="<?=$arResult["AUTH_AUTH_URL"]?>"><b><?=GetMessage("AUTH_AUTH")?></b></a>
-</p> 
+
+			<b><?=GetMessage("AUTH_GET_CHECK_STRING")?></b>
+	<br>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-3 r_f_left">
+			<?=GetMessage("AUTH_LOGIN")?>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 r_l_right">
+			<input type="text" name="USER_LOGIN" maxlength="50" value="<?=$arResult["LAST_LOGIN"]?>" />
+		</div>
+
+	</div>
+	<br>
+		<?=GetMessage("AUTH_OR")?>
+	<br>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-3 r_f_left"><?=GetMessage("AUTH_EMAIL")?></div>
+		<div class="col-xs-12 col-sm-12 col-md-6 r_l_right"><input type="text" name="USER_EMAIL" maxlength="255" /></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-3 r_f_left"></div>
+		<div class="col-xs-12 col-sm-12 col-md-6 r_l_right">
+			<input type="submit" name="send_account_info" class="mysub" value="<?=GetMessage("AUTH_SEND")?>" />
+			<p>
+				<a href="<?=$arResult["AUTH_AUTH_URL"]?>"><b><?=GetMessage("AUTH_AUTH")?></b></a>
+			</p>
+		</div>
+	</div>
+
 </form>
 <script type="text/javascript">
 document.bform.USER_LOGIN.focus();

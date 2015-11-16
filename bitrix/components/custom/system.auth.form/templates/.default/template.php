@@ -11,12 +11,7 @@
 				</div>
 			</div>
 			<div>
-				<div class="col-xs-12 col-sm-12 col-md-3 r_f_left">E-mail</div>
-				<div class="col-xs-12 col-sm-12 col-md-6 r_l_right">
-					<!--<form>
-						<input type="email">
-						<button>ОТПРАВИТЬ</button>
-					</form>-->
+
 					<?$APPLICATION->IncludeComponent(
 						"custom:system.auth.forgotpasswd",
 						".default",
@@ -24,11 +19,16 @@
 					);
 
 						if($_GET['forgot_password']=='yes'){ ?>
+							<script>
+								$(document).ready(function(){
+									$('.remember_form_main').addClass("remember_form_main_active");
+								});
+							</script>
 							<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/smena-parolya">Перейти на страницу смены пароля</a>
 						<?
 						}
 					?>
-				</div>
+
 			</div>
 		</div>
 	</div>

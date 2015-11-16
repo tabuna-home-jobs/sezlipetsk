@@ -1,6 +1,6 @@
 <?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
-
-<div class="bx-auth">
+<div>
+<div class="bx-auth col-xs-12 col-md-6 login_part_right ">
 
 <?
 ShowMessage($arParams["~AUTH_RESULT"]);
@@ -52,7 +52,7 @@ document.getElementById('bx_auth_secure').style.display = 'inline-block';
 		<tfoot>
 			<tr>
 				<td></td>
-				<td><input type="submit" name="change_pwd" value="<?=GetMessage("AUTH_CHANGE")?>" /></td>
+				<td><input type="submit" name="change_pwd" class="mysub" value="<?=GetMessage("AUTH_CHANGE")?>" /></td>
 			</tr>
 		</tfoot>
 	</table>
@@ -60,8 +60,8 @@ document.getElementById('bx_auth_secure').style.display = 'inline-block';
 <p><?echo $arResult["GROUP_POLICY"]["PASSWORD_REQUIREMENTS"];?></p>
 <p><span class="starrequired">*</span><?=GetMessage("AUTH_REQ")?></p>
 <p>
-<!--<a href="<?=$arResult["AUTH_AUTH_URL"]?>"><b><?=GetMessage("AUTH_AUTH")?></b></a>-->
-	<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/"><b><?=GetMessage("AUTH_AUTH")?></b></a>
+<a href="<?=$arResult["AUTH_AUTH_URL"]?>"><b><?=GetMessage("AUTH_AUTH")?></b></a>
+
 </p>
 
 </form>
@@ -69,4 +69,5 @@ document.getElementById('bx_auth_secure').style.display = 'inline-block';
 <script type="text/javascript">
 document.bform.USER_LOGIN.focus();
 </script>
+</div>
 </div>
