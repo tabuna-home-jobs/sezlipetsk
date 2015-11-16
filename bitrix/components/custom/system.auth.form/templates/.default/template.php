@@ -13,15 +13,15 @@
 			<div>
 				<div class="col-xs-12 col-sm-12 col-md-3 r_f_left">E-mail</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 r_l_right">
-					<form>
+					<!--<form>
 						<input type="email">
 						<button>ОТПРАВИТЬ</button>
-					</form>
-					<?/*$APPLICATION->IncludeComponent(
+					</form>-->
+					<?$APPLICATION->IncludeComponent(
 						"custom:system.auth.forgotpasswd",
 						".default",
 						Array("SHOW_ERRORS" => "Y")
-					);*/
+					);
 					?>
 				</div>
 			</div>
