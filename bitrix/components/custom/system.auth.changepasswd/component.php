@@ -33,7 +33,7 @@ else
 
 $arResult["BACKURL"] = $APPLICATION->GetCurPageParam("", $arParamsToDelete);
 
-//
+//$arResult["AUTH_AUTH_URL"] = $APPLICATION->GetCurPageParam("login=yes",$arParamsToDelete);
 	$arResult["AUTH_AUTH_URL"] ="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/";
 
 foreach ($arResult as $key => $value)
