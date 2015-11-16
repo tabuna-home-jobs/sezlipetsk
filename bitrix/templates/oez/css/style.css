@@ -3296,5 +3296,10 @@ background-image: url("../img/view_activ.png");
     border-collapse: separate;
 }
 .starrequired{
-    color:#e13738;
+    color: #e13738;
+}
+.hhhhhh{
+    margin: 0px 5px;
+    font-size: 24px;
+    color: #333;
 }

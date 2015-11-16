@@ -32,6 +32,7 @@ else
 }
 
 $arResult["BACKURL"] = $APPLICATION->GetCurPageParam("", $arParamsToDelete);
+	//$arResult["BACKURL"] = "/potrebitelyam/internet-priemnaya/lichnyy-kabinet/";
 
 //$arResult["AUTH_AUTH_URL"] = $APPLICATION->GetCurPageParam("login=yes",$arParamsToDelete);
 	$arResult["AUTH_AUTH_URL"] ="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/";
@@ -84,5 +85,5 @@ if(!CMain::IsHTTPS() && COption::GetOptionString('main', 'use_encrypted_auth', '
 		$arResult["SECURE_AUTH"] = true;
 	}
 }
-
+//var_dump($arResult);
 $this->IncludeComponentTemplate();

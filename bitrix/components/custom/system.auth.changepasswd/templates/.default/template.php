@@ -1,9 +1,15 @@
-<?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?define("NEED_AUTH", true);
+	if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
 <div>
 <div class="bx-auth col-xs-12 col-md-6 login_part_right ">
 
 <?
 ShowMessage($arParams["~AUTH_RESULT"]);
+	if($arResult["SECURE_AUTH"] !=false){
+		?>
+	<div><h3>Пароль успешно изменён</h3></div>
+	<?
+	}
 ?>
 <form method="post" action="<?=$arResult["AUTH_FORM"]?>" name="bform">
 	<?if (strlen($arResult["BACKURL"]) > 0): ?>
@@ -14,7 +20,7 @@ ShowMessage($arParams["~AUTH_RESULT"]);
 	<table class="data-table bx-changepass-table">
 		<thead>
 			<tr>
-				<td colspan="2"><b><?=GetMessage("AUTH_CHANGE_PASSWORD")?></b></td>
+				<td colspan="2"><span class="hhhhhh"><?=GetMessage("AUTH_CHANGE_PASSWORD")?></span></td>
 			</tr>
 		</thead>
 		<tbody>

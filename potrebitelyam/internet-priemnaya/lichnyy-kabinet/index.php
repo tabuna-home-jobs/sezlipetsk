@@ -459,11 +459,13 @@
 				<?
 					//Иначе предлагаем зарегаться или залогиниться
 					}else{
-					if($_GET['changepasswd']=='yes'){
+					if($_GET['change_password']=='yes'){
 						$APPLICATION->IncludeComponent(
 							"custom:system.auth.changepasswd",
 							".default",
-							Array("SHOW_ERRORS" => "Y")
+							Array("REGISTER_URL" => "register.php",
+							      "PROFILE_URL"  => "/potrebitelyam/internet-priemnaya/lichnyy-kabinet/",
+							      "SHOW_ERRORS"  => "Y")
 						);
 					}else{
 				?>
