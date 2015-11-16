@@ -22,6 +22,11 @@
 						".default",
 						Array("SHOW_ERRORS" => "Y")
 					);
+
+						if($_GET['forgot_password']=='yes'){ ?>
+							<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/smena-parolya">Перейти на страницу смены пароля</a>
+						<?
+						}
 					?>
 				</div>
 			</div>

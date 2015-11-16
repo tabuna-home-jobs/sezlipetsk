@@ -60,7 +60,8 @@ document.getElementById('bx_auth_secure').style.display = 'inline-block';
 <p><?echo $arResult["GROUP_POLICY"]["PASSWORD_REQUIREMENTS"];?></p>
 <p><span class="starrequired">*</span><?=GetMessage("AUTH_REQ")?></p>
 <p>
-<a href="<?=$arResult["AUTH_AUTH_URL"]?>"><b><?=GetMessage("AUTH_AUTH")?></b></a>
+<!--<a href="<?=$arResult["AUTH_AUTH_URL"]?>"><b><?=GetMessage("AUTH_AUTH")?></b></a>-->
+	<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/"><b><?=GetMessage("AUTH_AUTH")?></b></a>
 </p>
 
 </form>
