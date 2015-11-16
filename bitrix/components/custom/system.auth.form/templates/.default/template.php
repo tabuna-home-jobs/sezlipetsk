@@ -1,4 +1,6 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+
+?>
 <div class="remember_form_main">
 	<div class="remember_form_cell">
 		<div class="remember_form">
@@ -15,6 +17,12 @@
 						<input type="email">
 						<button>ОТПРАВИТЬ</button>
 					</form>
+					<?/*$APPLICATION->IncludeComponent(
+						"custom:system.auth.forgotpasswd",
+						".default",
+						Array("SHOW_ERRORS" => "Y")
+					);*/
+					?>
 				</div>
 			</div>
 		</div>
@@ -62,7 +70,8 @@
 
 				<div class="remember_a">
 					<noindex>
-						<a href="<?=$arResult["AUTH_FORGOT_PASSWORD_URL"]?>" id="remember_pass" rel="nofollow"><?=GetMessage("AUTH_FORGOT_PASSWORD_2")?></a>
+						<!--<a href="<?=$arResult["AUTH_FORGOT_PASSWORD_URL"]?>" id="remember_pass" rel="nofollow"><?=GetMessage("AUTH_FORGOT_PASSWORD_2")?></a>-->
+						<a id="remember_pass" rel="nofollow"><?=GetMessage("AUTH_FORGOT_PASSWORD_2")?></a>
 					</noindex>
 				</div>
 			</div>
