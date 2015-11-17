@@ -3303,3 +3303,9 @@ background-image: url("../img/view_activ.png");
     font-size: 24px;
     color: #333;
 }
+.bx-changepass-table{
+    width: 100%;
+}
+.bx-changepass-table td{
+    text-align: left;
+}

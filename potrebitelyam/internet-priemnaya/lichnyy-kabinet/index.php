@@ -459,15 +459,7 @@
 				<?
 					//Иначе предлагаем зарегаться или залогиниться
 					}else{
-					if($_GET['change_password']=='yes'){
-						$APPLICATION->IncludeComponent(
-							"custom:system.auth.changepasswd",
-							".default",
-							Array("REGISTER_URL" => "register.php",
-							      "PROFILE_URL"  => "/potrebitelyam/internet-priemnaya/lichnyy-kabinet/",
-							      "SHOW_ERRORS"  => "Y")
-						);
-					}else{
+
 				?>
 				<div class="col-xs-12 col-md-6 login_part_right max_height_block">
 					<div class="login_form_container">
@@ -547,7 +539,8 @@
 				</div>
 
 				<?
-			}}?>
+
+				}?>
 
 
 

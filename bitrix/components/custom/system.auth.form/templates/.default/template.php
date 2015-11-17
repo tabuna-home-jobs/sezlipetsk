@@ -24,7 +24,7 @@
 									$('.remember_form_main').addClass("remember_form_main_active");
 								});
 							</script>
-							<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/?change_password=yes">Перейти на страницу смены пароля</a>
+							<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/smena-parolya/?change_password=yes">Перейти на страницу смены пароля</a>
 						<?
 						}
 					?>

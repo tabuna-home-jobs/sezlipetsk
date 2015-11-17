@@ -1,5 +1,22 @@
 <?define("NEED_AUTH", true);
 	if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<div class="main">
+	<div class="container">
+		<!--Хеебный крош-->
+		<?$APPLICATION->IncludeComponent(
+			"custom:breadcrumb",
+			"",
+			Array(
+				"COMPONENT_TEMPLATE" => "oez",
+				"START_FROM" => "0",
+				"PATH" => "",
+				"SITE_ID" => "s1"
+			)
+		);
+		?>
+		<!--Хлебные крошки-->
+		<h1 class="page_h1"><?=$APPLICATION->GetTitle();?></h1>
+		<div class="row">
 <div>
 <div class="bx-auth col-xs-12 col-md-6 login_part_right ">
 
@@ -66,7 +83,7 @@ document.getElementById('bx_auth_secure').style.display = 'inline-block';
 <p><?echo $arResult["GROUP_POLICY"]["PASSWORD_REQUIREMENTS"];?></p>
 <p><span class="starrequired">*</span><?=GetMessage("AUTH_REQ")?></p>
 <p>
-<a href="<?=$arResult["AUTH_AUTH_URL"]?>"><b><?=GetMessage("AUTH_AUTH")?></b></a>
+<a href="/potrebitelyam/internet-priemnaya/lichnyy-kabinet/"><b><?=GetMessage("AUTH_AUTH")?></b></a>
 
 </p>
 
@@ -76,4 +93,8 @@ document.getElementById('bx_auth_secure').style.display = 'inline-block';
 document.bform.USER_LOGIN.focus();
 </script>
 </div>
+</div>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
 </div>
