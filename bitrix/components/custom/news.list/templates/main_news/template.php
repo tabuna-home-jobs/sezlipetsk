@@ -1,4 +1,6 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+<?
+	$site_id = CMainPage::GetSiteByHost();
+	if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 /** @var array $arParams */
 /** @var array $arResult */
 /** @global CMain $APPLICATION */
@@ -21,7 +23,12 @@ $this->setFrameMode(true);
 
 		<div class="news_name">
 			<?=GetMessage('TITLE_BLOCK')?>
+			<?if($site_id =="s2"){?>
+			<a href="/en/news" class="all">
+			<?}else{?>
 			<a href="news" class="all">
+			<?}?>
+
 				<?=GetMessage('LINK_ALL_NEWS')?>
 				<span class="glyphicon glyphicon-menu-right"></span>
 			</a>
