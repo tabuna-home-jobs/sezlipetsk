@@ -28,25 +28,25 @@ $arUrlRewrite = array(
 		"CONDITION" => "#^/about/rezidenty/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
-		"PATH" => "/about/rezidenty/index.php",
+		"PATH" => "/map/index.php",
 	),
 	array(
 		"CONDITION" => "#^/about/rezidenty/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
-		"PATH" => "/map/index.php",
-	),
-	array(
-		"CONDITION" => "#^/nationalnews/#",
-		"RULE" => "",
-		"ID" => "bitrix:news",
-		"PATH" => "/nationalnews/index.php",
+		"PATH" => "/about/rezidenty/index.php",
 	),
 	array(
 		"CONDITION" => "#^/press-relizy/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
 		"PATH" => "/press-relizy/index.php",
+	),
+	array(
+		"CONDITION" => "#^/nationalnews/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/nationalnews/index.php",
 	),
 	array(
 		"CONDITION" => "#^/job/vacancy/#",
@@ -61,10 +61,22 @@ $arUrlRewrite = array(
 		"PATH" => "/job/resume/index.php",
 	),
 	array(
+		"CONDITION" => "#^/en/news/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/en/news/index.php",
+	),
+	array(
 		"CONDITION" => "#^/themes/#",
 		"RULE" => "",
 		"ID" => "bitrix:news",
 		"PATH" => "/themes/index.php",
+	),
+	array(
+		"CONDITION" => "#^/photo/#",
+		"RULE" => "",
+		"ID" => "bitrix:photogallery_user",
+		"PATH" => "/photo/index.php",
 	),
 	array(
 		"CONDITION" => "#^/blogs/#",
@@ -77,12 +89,6 @@ $arUrlRewrite = array(
 		"RULE" => "",
 		"ID" => "bitrix:forum",
 		"PATH" => "/forum/index.php",
-	),
-	array(
-		"CONDITION" => "#^/photo/#",
-		"RULE" => "",
-		"ID" => "bitrix:photogallery_user",
-		"PATH" => "/photo/index.php",
 	),
 	array(
 		"CONDITION" => "#^/news/#",

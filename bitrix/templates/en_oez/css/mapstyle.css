@@ -39,7 +39,7 @@
     position: absolute;
     left: 128px;
     top: 478px;
-    z-index: 9999;
+    z-index: 99999999;
     background: rgb(238, 238, 238);
     width: 365px;
 }
@@ -64,7 +64,7 @@
 .imgMap{
     box-shadow: inset 0 0 6px;
     width: 100%;
-    height: 330px;
+    height: 355px;
     overflow: scroll;
     position: relative;
     overflow-y: hidden;
@@ -90,22 +90,36 @@
 .table-info td:nth-child(3){
     width: 48px;
 }
-.table-info .sec-td{
-    width: 350px;
+@media (min-width: 1024px) {
+    .table-info .sec-td{
+        width: 350px;
+    }
 }
+@media (max-width: 1024px) {
+    .table-info td:first-child{
+        padding: 8px 0px !important;
+    }
+}
+
 .info-maschtab{
     color: #666;
     font-family: FNormal;
     font-size: 12px;
     font-weight: 300;
 }
+.table-info td:first-child img{
+    min-width: 16px;
+}
+.table-info td:nth-child(3) img{
+    min-width: 16px;
+    min-height: 1px;
+}
 .wrapper-tooltip > img{
     width: 100%;
 }
 .spec-table-info{
     position: relative;
-    top: -300px;
-    left: 70px;
+    left: 20px;
 }
 .spec-table-info td:first-child{
     width:10px;
@@ -188,85 +202,97 @@
     padding-left: 20px;
 }
 .nav-tab-map li:nth-child(1) span{
-    content: url("img/maparea/icons/1(grey).png");
+    content: url("../img/maparea/icons/1(grey).png");
 }
 .nav-tab-map li.active:nth-child(1) span{
-    content: url("img/maparea/icons/1.png");
+    content: url("../img/maparea/icons/1.png");
 }
 .nav-tab-map li:hover:nth-child(1) span{
-    content: url("img/maparea/icons/1.png");
+    content: url("../img/maparea/icons/1.png");
 }
+
+
+.nav-tab-map li:nth-child(2) span{
+    content: url("../img/maparea/icons/444(grey).png");
+}
+.nav-tab-map li.active:nth-child(2) span{
+    content: url("../img/maparea/icons/444.png");
+}
+.nav-tab-map li:hover:nth-child(2) span{
+    content: url("../img/maparea/icons/444.png");
+}
+
 .nav-tab-map li:nth-child(3) span{
-    content: url("img/maparea/icons/3(grey).png");
+    content: url("../img/maparea/icons/3(grey).png");
 }
 .nav-tab-map li.active:nth-child(3) span{
-    content: url("img/maparea/icons/3.png");
+    content: url("../img/maparea/icons/3.png");
 }
 .nav-tab-map li:hover:nth-child(3) span{
-    content: url("img/maparea/icons/3.png");
+    content: url("../img/maparea/icons/3.png");
 }
 .nav-tab-map li:nth-child(4) span{
-    content: url("img/maparea/icons/4(grey).png");
+    content: url("../img/maparea/icons/4(grey).png");
 }
 .nav-tab-map li.active:nth-child(4) span{
-    content: url("img/maparea/icons/4.png");
+    content: url("../img/maparea/icons/4.png");
 }
 .nav-tab-map li:hover:nth-child(4) span{
-    content: url("img/maparea/icons/4.png");
+    content: url("../img/maparea/icons/4.png");
 }
 .nav-tab-map li:nth-child(5) span{
-    content: url("img/maparea/icons/6(grey).png");
+    content: url("../img/maparea/icons/6(grey).png");
 }
 .nav-tab-map li.active:nth-child(5) span{
-    content: url("img/maparea/icons/6.png");
+    content: url("../img/maparea/icons/6.png");
 }
 .nav-tab-map li:hover:nth-child(5) span{
-    content: url("img/maparea/icons/6.png");
+    content: url("../img/maparea/icons/6.png");
 }
 .nav-tab-map li:nth-child(6) span{
-    content: url("img/maparea/icons/2(grey).png");
+    content: url("../img/maparea/icons/2(grey).png");
 }
 .nav-tab-map li.active:nth-child(6) span{
-    content: url("img/maparea/icons/2.png");
+    content: url("../img/maparea/icons/2.png");
 }
 .nav-tab-map li:hover:nth-child(6) span{
-    content: url("img/maparea/icons/2.png");
+    content: url("../img/maparea/icons/2.png");
 }
 .nav-tab-map li:nth-child(7) span{
-    content: url("img/maparea/icons/9(grey).png");
+    content: url("../img/maparea/icons/9(grey).png");
 }
 .nav-tab-map li.active:nth-child(7) span{
-    content: url("img/maparea/icons/9.png");
+    content: url("../img/maparea/icons/9.png");
 }
 .nav-tab-map li:hover:nth-child(7) span{
-    content: url("img/maparea/icons/9.png");
+    content: url("../img/maparea/icons/9.png");
 }
 .nav-tab-map li:nth-child(8) span{
-    content: url("img/maparea/icons/5(grey).png");
+    content: url("../img/maparea/icons/5(grey).png");
 }
 .nav-tab-map li.active:nth-child(8) span{
-    content: url("img/maparea/icons/5.png");
+    content: url("../img/maparea/icons/5.png");
 }
 .nav-tab-map li:hover:nth-child(8) span{
-    content: url("img/maparea/icons/5.png");
+    content: url("../img/maparea/icons/5.png");
 }
 .nav-tab-map li:nth-child(9) span{
-    content: url("img/maparea/icons/7(grey).png");
+    content: url("../img/maparea/icons/7(grey).png");
 }
 .nav-tab-map li.active:nth-child(9) span{
-    content: url("img/maparea/icons/7.png");
+    content: url("../img/maparea/icons/7.png");
 }
 .nav-tab-map li:hover:nth-child(9) span{
-    content: url("img/maparea/icons/7.png");
+    content: url("../img/maparea/icons/7.png");
 }
 .nav-tab-map li:nth-child(10) span{
-    content: url("img/maparea/icons/8(grey).png");
+    content: url("../img/maparea/icons/8(grey).png");
 }
 .nav-tab-map li.active:nth-child(10) span{
-    content: url("img/maparea/icons/8.png");
+    content: url("../img/maparea/icons/8.png");
 }
 .nav-tab-map li:hover:nth-child(10) span{
-    content: url("img/maparea/icons/8.png");
+    content: url("../img/maparea/icons/8.png");
 }
 
 .sub-map2{
