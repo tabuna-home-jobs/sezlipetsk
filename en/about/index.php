@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("About Project");
 				"COMPONENT_TEMPLATE" => "oez",
 				"START_FROM" => "0",
 				"PATH" => "",
-				"SITE_ID" => "s1"
+				"SITE_ID" => "s2"
 			)
 		);
 		?>

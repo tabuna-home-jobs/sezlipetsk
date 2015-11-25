@@ -1,0 +1,9 @@
+.smi_more_arrow{
+    position: absolute;
+    width: 100%;
+    top: 235px;
+    padding: 10px;
+}
+.smi_more_arrow img{
+    float: right;
+}
