@@ -1,4 +1,6 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+<?  require($_SERVER['DOCUMENT_ROOT']."/bitrix/modules/main/include/mainpage.php");
+	$site_id = CMainPage::GetSiteByHost();
+	if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 /** @var array $arParams */
 /** @var array $arResult */
 /** @global CMain $APPLICATION */
@@ -15,7 +17,12 @@ $this->setFrameMode(true);
 <div class="col-md-6 col-sm-12 col-xs-12 block_news">
 	<div class="news_name">
 		<?=GetMessage('TITLE_NEWS_ABOUT');?>
-		<a href="/news" class="all">
+		<?=GetMessage('TITLE_BLOCK')?>
+		<?if($site_id =="s2"){?>
+		<a href="/en/news" class="all">
+			<?}else{?>
+			<a href="/news" class="all">
+				<?}?>
 			<?=GetMessage('LINK_ABOUT_NEWS');?>
 			<span class="glyphicon glyphicon-menu-right"></span>
 		</a>

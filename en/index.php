@@ -308,15 +308,15 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
   </div>
  </section>
 
- <!--Нижняя карусел партнеров-->
- <?$APPLICATION->IncludeComponent(
+	<!--Нижняя карусел партнеров-->
+	<? $APPLICATION->IncludeComponent(
 	"custom:news.list", 
-	"partners",
+	"partners", 
 	array(
-		"IBLOCK_ID" => "BOTTOM_CARUSEL",
+		"IBLOCK_ID" => "38",
 		"COMPONENT_TEMPLATE" => "partners",
-		"IBLOCK_TYPE" => "news",
-		"NEWS_COUNT" => "20",
+		"IBLOCK_TYPE" => "information",
+		"NEWS_COUNT" => "40",
 		"SORT_BY1" => "ACTIVE_FROM",
 		"SORT_ORDER1" => "DESC",
 		"SORT_BY2" => "SORT",
@@ -328,7 +328,9 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 		),
 		"PROPERTY_CODE" => array(
 			0 => "",
-			1 => "",
+			1 => "IMG",
+			2 => "IMG_HOVER",
+			3 => "",
 		),
 		"CHECK_DATES" => "Y",
 		"DETAIL_URL" => "",
@@ -336,7 +338,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 		"AJAX_OPTION_JUMP" => "N",
 		"AJAX_OPTION_STYLE" => "Y",
 		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_ADDITIONAL" => "undefined",
+		"AJAX_OPTION_ADDITIONAL" => "",
 		"CACHE_TYPE" => "A",
 		"CACHE_TIME" => "36000000",
 		"CACHE_FILTER" => "N",
@@ -371,9 +373,9 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
 		"SHOW_404" => "N",
 		"MESSAGE_404" => ""
 	),
-	false
+	FALSE
 );?>
- <!--Нижняя карусел партнеров-->
+	<!--Нижняя карусел партнеров-->
 
 </div>
  <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
