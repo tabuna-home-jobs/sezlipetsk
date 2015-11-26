@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Webcam";
+$arDirProperties = Array(
+
+);
+?>

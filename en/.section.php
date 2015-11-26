@@ -1,8 +1,8 @@
 <?
-$sSectionName = "Главная";
-$arDirProperties = array(
+$sSectionName = "Номе";
+$arDirProperties = Array(
    "description" => "Новости города. Работа в городе. Блоги. Форумы. Фотогалерея.",
    "keywords" => "ОАО Особая экономическая зона  промышленно-производственного типа Липецк",
-   "robots" => "index, follow"
+   "ROBOTS" => "index, follow"
 );
 ?>

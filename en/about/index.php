@@ -62,7 +62,16 @@ $APPLICATION->SetTitle("About Project");
 					<div class="col-xs-12 item_wrap">
 						<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
 							<div class="item_block">
-								<a class="item_block_a_small">
+								<?
+									$user_agent = $_SERVER["HTTP_USER_AGENT"];
+									if ((strpos($user_agent, "MSIE") !== false)||(strpos($user_agent, "Trident") !== false)){ ?>
+								<a href="http://79.140.96.230" target="_blank" class="item_block_a_small">
+
+									<? }else{ ?>
+									<a href="/en/about/veb-kamera/" class="item_block_a_small">
+										<?
+											}
+										?>
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
@@ -76,7 +85,7 @@ $APPLICATION->SetTitle("About Project");
 						</div>
 						<div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
 							<div class="item_block">
-								<a class="item_block_a_small"><div class="hover_container">
+								<a class="item_block_a_small" href="/en/press-relizy/" ><div class="hover_container">
 										<div class="hover"></div>
 									</div>
 									<div class="item_bod">
@@ -89,7 +98,7 @@ $APPLICATION->SetTitle("About Project");
 						</div>
 						<div class="col-lg-6 col-xs-12 col-sm-12 col-md-12 block_item">
 							<div class="item_block">
-								<a class="item_block_a">
+								<a class="item_block_a" href="/en/about/galereya-foto-i-video/">
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
@@ -183,9 +192,9 @@ $APPLICATION->SetTitle("About Project");
 	"custom:news.list", 
 	"citate_boss_slider", 
 	array(
-		"IBLOCK_ID" => "CITATE_BOSS_SLIDER",
+		"IBLOCK_ID" => "39",
 		"COMPONENT_TEMPLATE" => "citate_boss_slider",
-		"IBLOCK_TYPE" => "news",
+		"IBLOCK_TYPE" => "Template",
 		"NEWS_COUNT" => "20",
 		"SORT_BY1" => "ACTIVE_FROM",
 		"SORT_ORDER1" => "DESC",
@@ -206,7 +215,7 @@ $APPLICATION->SetTitle("About Project");
 		"AJAX_OPTION_JUMP" => "N",
 		"AJAX_OPTION_STYLE" => "Y",
 		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_ADDITIONAL" => "undefined",
+		"AJAX_OPTION_ADDITIONAL" => "",
 		"CACHE_TYPE" => "A",
 		"CACHE_TIME" => "36000000",
 		"CACHE_FILTER" => "N",
