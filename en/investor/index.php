@@ -94,7 +94,7 @@ $APPLICATION->SetTitle("Investor");
 				<div class="map_back">
 					<div>
 						<div>
-							<a class="map_link" href="/en/map/">Интерактивная карта</a>
+							<a class="map_link" href="/en/map/">Interactive map</a>
 						</div>
 					</div>
 				</div>
