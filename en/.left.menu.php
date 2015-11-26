@@ -1,32 +1,32 @@
 <?
-	$aMenuLinks = Array(
-		Array(
-			"About project",
-			"about/",
-			Array(),
-			Array(),
-			""
-		),
-		Array(
-			"Depositor",
-			"investor/",
-			Array(),
-			Array(),
-			""
-		),
-		Array(
-			"investor",
-			"potrebitelyam/",
-			Array(),
-			Array(),
-			""
-		),
-		Array(
-			"Contacts",
-			"contacts/",
-			Array(),
-			Array(),
-			""
-		)
-	);
+$aMenuLinks = Array(
+	Array(
+		"About project", 
+		"about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Investor", 
+		"investor/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Depositor", 
+		"potrebitelyam/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Contacts", 
+		"contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
 ?>

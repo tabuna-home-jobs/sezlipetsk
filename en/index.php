@@ -76,7 +76,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
     <div class="col-xs-12 item_wrap">
      <div class="col-sm-6 col-xs-12 block_item">
       <div class="item_block">
-       <a class="item_block_a">
+       <a class="item_block_a" href="/en/virtualnyy-tur/">
         <div class="hover_container">
          <div class="hover"></div>
         </div>

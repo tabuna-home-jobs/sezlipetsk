@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("About Project");
 				<div class="row">
 					<div class="col-xs-12 item_wrap">
 						<div class="col-sm-6 col-xs-12 block_item">
-							<div class="item_block"><a class="item_block_a">
+							<div class="item_block"><a class="item_block_a" href="/en/virtualnyy-tur/">
 									<div class="hover_container">
 										<div class="hover"></div>
 									</div>
@@ -42,7 +42,7 @@ $APPLICATION->SetTitle("About Project");
 						</div>
 						<div class="col-sm-6 col-xs-12 block_item">
 							<div class="item_block">
-								<a class="item_block_a" href="/en/about/rezidenty"><div class="hover_container">
+								<a class="item_block_a" href="/en/about/rezidenty/"><div class="hover_container">
 										<div class="hover"></div>
 									</div>
 									<div class="item_bod">
@@ -294,7 +294,7 @@ $APPLICATION->SetTitle("About Project");
 			<div class="map_container">
 				<div class="map_back">
 					<div>
-						<div><a>Interactive map</a></div>
+						<div><a href="/en/map/"  >Interactive map</a></div>
 					</div>
 				</div>
 				<img src="<?=SITE_TEMPLATE_PATH?>/img/maaap.jpg">
