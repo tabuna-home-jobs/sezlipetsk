@@ -2,7 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Технологическое присоединение / подключение");
 ?>
-<style>
+<style xmlns="http://www.w3.org/1999/html">
 	#myTabs{
 		display: none;
 	}
@@ -92,7 +92,13 @@ $APPLICATION->SetTitle("Технологическое присоединени�
 			),
 			false
 		);?>
-
+		<div class="clear"></div>
+		<section class="mySec">
+			<div class="myInline inR">Подробнее ознакомиться с разделом "Техприсоединение" <br> мможно в соответствующем разделе русскоязычной версии сайта</div>
+			<div class="myInline ">
+			<a class="conf_but_main"  href="/potrebitelyam/tekhnologicheskoe-prisoedinenie-podklyuchenie/">ПЕРЕЙТИ</a>
+			</div>
+		</section>
 
 	</div>
 
