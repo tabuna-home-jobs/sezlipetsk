@@ -12,7 +12,11 @@
 	/** @var string $componentPath */
 	/** @var CBitrixComponent $component */
 	$this->setFrameMode(true);
+	// подключим файл с классом CMainPage
+	//require($_SERVER['DOCUMENT_ROOT']."/bitrix/modules/main/include/mainpage.php");
 
+	// получим идентификатор текущего сайта по доменному имени
+	$site_id = CMainPage::GetSiteByHost();
 
 ?>
 <script src="//www.youtube.com/player_api"></script>
@@ -22,7 +26,12 @@
 	<div class="galery_links">
 		<ul class="nav nav-tabs nav-tabs-photo" role="tablist">
 			<li role="presentation">
-				<a href="#tab002" aria-controls="tab002" role="tab" data-toggle="tab">Все видео</a>
+				<? if($site_id == "s2"){?>
+					<a href="#tab002" aria-controls="tab002" role="tab" data-toggle="tab">All video</a>
+				<? }else{ ?>
+					<a href="#tab002" aria-controls="tab002" role="tab" data-toggle="tab">Все видео</a>
+				<? } ?>
+
 			</li>
 			<? foreach($arResult['razdel'] as $razdel){ ?>
 				<li role="presentation">
@@ -166,7 +175,12 @@
 
 					</div>
 				<? }else{ ?>
-					В этом разделе пока нет видео
+					<? if($site_id == "s2"){?>
+						No video
+					<? }else{ ?>
+						В этом разделе пока нет видео
+					<? } ?>
+
 				<? } ?>
 
 

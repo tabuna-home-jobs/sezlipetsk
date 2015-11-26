@@ -12,7 +12,11 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
+	// подключим файл с классом CMainPage
+	require($_SERVER['DOCUMENT_ROOT']."/bitrix/modules/main/include/mainpage.php");
 
+	// получим идентификатор текущего сайта по доменному имени
+	$site_id = CMainPage::GetSiteByHost();
 
 ?>
 <div role="tabpanel" class="tab-pane fade active in photogal" id="home" aria-labelledby="home-tab">
@@ -20,7 +24,12 @@ $this->setFrameMode(true);
 	<div class="galery_links">
 		<ul class="nav nav-tabs nav-tabs-photo" role="tablist">
 			<li role="presentation">
-				<a href="#tab001" aria-controls="tab001" role="tab" data-toggle="tab">Все фотографии</a>
+				<? if($site_id == "s2"){?>
+					<a href="#tab001" aria-controls="tab001" role="tab" data-toggle="tab">All photo</a>
+				<? }else{ ?>
+					<a href="#tab001" aria-controls="tab001" role="tab" data-toggle="tab">Все фотографии</a>
+				<? } ?>
+
 			</li>
 			<? foreach($arResult['razdel'] as $razdel){ ?>
 			<li role="presentation">
@@ -150,7 +159,12 @@ $this->setFrameMode(true);
 
 					</div>
 				<? }else{ ?>
-					В этом разделе пока нет фотографий
+					<? if($site_id == "s2"){?>
+						No photo
+					<? }else{ ?>
+						В этом разделе пока нет фотографий
+					<? } ?>
+
 				<? } ?>
 
 

@@ -35,7 +35,7 @@ $APPLICATION->SetTitle("Gallery photo Visual");
                 <img src="<?=SITE_TEMPLATE_PATH?>/img/fotocamera.png">
                 <img class="active_img" src="<?=SITE_TEMPLATE_PATH?>/img/fotocamera_1.png">
               </span>
-							Фотогалерея
+							Photo
 						</a>
 					</li>
 					<li role="presentation" class="">
@@ -44,7 +44,7 @@ $APPLICATION->SetTitle("Gallery photo Visual");
                 <img src="<?=SITE_TEMPLATE_PATH?>/img/videocamera.png">
                 <img class="active_img" src="<?=SITE_TEMPLATE_PATH?>/img/videocamera_1.png">
             </span>
-							Видеогалерея
+							Video
 						</a>
 					</li>
 
