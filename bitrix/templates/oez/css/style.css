@@ -3262,10 +3262,7 @@ background-image: url("../img/view_activ.png");
 .rs_files .row{
     margin-left: 15px;
 }
-/*******************Времнно скрываем выбор англоязычной версии**********************/
-.rus_eng_search>a+a{
-    display: none;
-}
+
 .map-columns a{
     color: #e64046;
     font-family: FNormal;
@@ -3308,4 +3305,7 @@ background-image: url("../img/view_activ.png");
 }
 .bx-changepass-table td{
     text-align: left;
+}
+.left-side-4-trigger{
+    left: 1px;
 }
