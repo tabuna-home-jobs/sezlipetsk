@@ -1,6 +1,6 @@
 <?
-$sSectionName = "Управляющая компания";
+$sSectionName = "Management Company";
 $arDirProperties = Array(
-   "title" => "Управляющая компания"
+   "TITLE" => "Management Company"
 );
 ?>

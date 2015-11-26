@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Управляющая компания");
+$APPLICATION->SetTitle("Management Company");
 ?>
 
 	<div class="main container">
@@ -120,43 +120,5 @@ $APPLICATION->SetTitle("Управляющая компания");
 
 
 	</div>
-	<section class="block_bottom">
-		<div class="container"><div class="row">
-				<div class="col-sm-6">
-					<a class="inform_item_a">
-						<div class="inform_item row">
-							<div class="col-xs-6 inform_text">
-
-								Раскрытие информации
-							</div>
-							<div class="col-xs-6 inform_img">
-								<div class="block_icon_arrow">
-									<span class="glyphicon glyphicon-menu-right"></span>
-								</div>
-								<img src="<?=SITE_TEMPLATE_PATH?>/img/inform.jpg">
-							</div>
-						</div>
-					</a>
-				</div>
-
-
-				<div class="col-sm-6">
-					<a class="inform_item_a">
-						<div class="inform_item row">
-							<div class="col-xs-6 inform_text">
-
-								Закупки
-							</div>
-							<div class="col-xs-6 inform_img">
-								<div class="block_icon_arrow">
-									<span class="glyphicon glyphicon-menu-right"></span>
-								</div>
-								<img src="<?=SITE_TEMPLATE_PATH?>/img/inform1.jpg">
-							</div>
-						</div>
-					</a>
-				</div>
-			</div></div>
-	</section>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

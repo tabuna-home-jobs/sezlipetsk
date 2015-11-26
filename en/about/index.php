@@ -257,7 +257,7 @@ $APPLICATION->SetTitle("About Project");
 				<div class="col-md-6">
 					<div class="col-md-6 in_page_block">
 						<div class="item_block in_page_block">
-							<a href="/about/upravlyayushchaya-kompaniya" class="item_block_a"><div class="hover_container">
+							<a href="/en/about/upravlyayushchaya-kompaniya" class="item_block_a"><div class="hover_container">
 									<div class="hover"></div>
 								</div>
 								<div class="item_bod">
@@ -273,7 +273,7 @@ $APPLICATION->SetTitle("About Project");
 					</div>
 					<div class="col-md-6 in_page_block">
 						<div class="item_block in_page_block">
-							<a class="item_block_a"><div class="hover_container">
+							<a class="item_block_a" href="/en/about/raspolozhenie-oez/"><div class="hover_container">
 									<div class="hover"></div>
 								</div>
 								<div class="item_bod">

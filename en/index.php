@@ -95,7 +95,7 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
      </div>
      <div class="col-sm-6 col-xs-12 block_item">
       <div class="item_block">
-       <a class="item_block_a">
+       <a class="item_block_a" href="/en/about/rezidenty/">
         <div class="hover_container">
          <div class="hover"></div>
         </div>
@@ -114,12 +114,12 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
     <div class="col-xs-12 item_wrap">
      <div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
       <div class="item_block">
-       <a class="item_block_a_small">
+       <a class="item_block_a_small" href="/en/about/raspolozhenie-oez/">
         <div class="hover_container">
          <div class="hover"></div>
         </div>
         <div class="item_bod">
-         <div class="item_name smal_item_name">Placement</div>
+         <div class="item_name smal_item_name">Arrangement</div>
         </div>
         <div class="block_icon_arrow">
          <span class="glyphicon glyphicon-menu-right"></span>
@@ -129,11 +129,11 @@ $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
      </div>
      <div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 block_item">
       <div class="item_block">
-       <a class="item_block_a_small"><div class="hover_container">
+       <a class="item_block_a_small" href="/en/about/upravlyayushchaya-kompaniya/"><div class="hover_container">
          <div class="hover"></div>
         </div>
         <div class="item_bod">
-         <div class="item_name smal_item_name">Main company</div>
+         <div class="item_name smal_item_name">Management Company</div>
         </div>
         <div class="block_icon_arrow">
          <span class="glyphicon glyphicon-menu-right"></span>
