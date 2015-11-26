@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $('#main_form').submit(function(){
+   /* $('#main_form').submit(function(){
         this.submit();
         alert('Ваша заявка отправлена!');
-    });
+    });*/
     $('.what').mouseenter(function(){
         $(this).next().show();
         $(this).mouseleave(function(){
@@ -74,6 +74,7 @@ $(document).ready(function() {
         });
         if (!errorArr) {
             allMessage.val(allMessageText);
+            alert('Ваша заявка отправлена!');
             $('#main_form').submit();
         }
     });
