@@ -66,7 +66,7 @@
 			<div class="col-md-4 col-sm-12 all_rights">All rights reserved .
 			                                           2007-2015 , of " special economic zone of industrial production type " Lipetsk "
 			</div>
-			<div class="col-md-4 col-sm-6 col-xs-6 sitemap"><a><img src="<?=SITE_TEMPLATE_PATH?>/img/sitemap.png">Site map</a></div>
+			<div class="col-md-4 col-sm-6 col-xs-6 sitemap"><a href="/en/sitemap/"><img src="<?=SITE_TEMPLATE_PATH?>/img/sitemap.png">Site map</a></div>
 			<div class="col-md-4 col-sm-6 col-xs-6 copirite">
 				Website Development:
 				<a target="_blank" href="http://octavian48.ru">Octavian</a>

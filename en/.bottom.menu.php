@@ -1,25 +1,54 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"О проекте", 
-		"about/", 
-		Array(), 
-		Array(), 
-		"" 
+		"About Project",
+		"/en/about/",
+		Array(),
+		Array(),
+		""
 	),
 	Array(
-		"Размещение рекламы", 
-		"advertising/", 
-		Array(), 
-		Array(), 
-		"" 
+		"Investor",
+		"/en/investor/",
+		Array(),
+		Array(),
+		""
 	),
 	Array(
-		"Пользовательское соглашение", 
-		"agreement/", 
-		Array(), 
-		Array(), 
-		"" 
+		"News",
+		"/en/news/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Press Releases",
+		"/en/press-releases",
+		Array(),
+		Array(),
+		""
+	),
+
+	Array(
+		"Contacts",
+		"contacts/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"press-releases",
+		"/en/virtualnyy-tur/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Interactive map",
+		"/en/map/",
+		Array(),
+		Array(),
+		""
 	)
 );
 ?>
