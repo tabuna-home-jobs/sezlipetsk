@@ -35,14 +35,14 @@ $APPLICATION->SetTitle("Contacts");
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-4 col-sm-4 col-xs-12 contact_item">
-						<img src="<?=SITE_TEMPLATE_PATH?>/img/marker_big.png">
+							<img src="<?=SITE_TEMPLATE_PATH?>/img/marker_big.png">
 
-						<div class="contact_item_number">Phone: +7 (4742) 51-51-80,<br/>
-						                                 Phone: +7 (4742) 51-51-80,<br/>
-						                                 Fax: +7 (4742) 51-51-95
-						</div>
-						<div class="contact_item_dopinfo">
-12333123 45345 354 35 345 4534 5
+							<div class="contact_item_number">Phone: +7 (4742) 51-51-80,<br/>
+							                                 Phone: +7 (4742) 51-51-80,<br/>
+							                                 Fax: +7 (4742) 51-51-95
+							</div>
+							<div class="contact_item_dopinfo">
+								12333123 45345 354 35 345 4534 5
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-4 col-sm-4 col-xs-12 contact_item">
