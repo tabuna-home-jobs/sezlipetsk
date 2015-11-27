@@ -35,7 +35,7 @@ IncludeTemplateLangFile(__FILE__);
 
 
 	//Подставка локали для сайта
-	function action_lang(lang){
+	/*function action_lang(lang){
 
 		var domain = window.location.hostname;
 		var path = window.location.pathname;
@@ -53,7 +53,31 @@ IncludeTemplateLangFile(__FILE__);
 
 		});
 	});
+	*/
+	function action_lang(lang){
 
+		var domain = window.location.hostname;
+		var path = window.location.pathname;
+
+		if(lang == '') {
+			var trimPath = path.replace('/en','');
+			window.location.href = "http://sezlipetsk.ru"  + trimPath;
+		}else{
+			window.location.href = "http://sezlipetsk.com/en" + path;
+		}
+
+
+	}
+
+	$(document).ready(function(){
+		$("a.rus_eng").click(function(){
+			var obj = $(this);
+			var lang = obj.attr("data-value");
+
+			(lang == 'ru') ? action_lang('') : action_lang(lang);
+
+		});
+	});
 
 
 </script>

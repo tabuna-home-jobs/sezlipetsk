@@ -1,5 +1,5 @@
 <?
-	require($_SERVER['DOCUMENT_ROOT']."/bitrix/modules/main/include/mainpage.php");
+	//require($_SERVER['DOCUMENT_ROOT']."/bitrix/modules/main/include/mainpage.php");
 	$site_id = CMainPage::GetSiteByHost();
 	if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 /** @var array $arParams */

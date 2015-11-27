@@ -19,9 +19,9 @@
 					<div class="foot_name">Partners</div>
 					<div class="partners_ul">
 						<ul>
-							<li><a><img src="<?=SITE_TEMPLATE_PATH?>/img/prf.png"></a></li>
-							<li><a><img src="<?=SITE_TEMPLATE_PATH?>/img/min.png"></a></li>
-							<li><a><img src="<?=SITE_TEMPLATE_PATH?>/img/fond.png"></a></li>
+							<li><a href="http://admlip.ru/" target="_blank"><img src="<?=SITE_TEMPLATE_PATH?>/img/lipobl.png"></a></li>
+							<li><a href="http://www.russez.ru/disclosure_information/oao_oez/" target="_blank"><img src="<?=SITE_TEMPLATE_PATH?>/img/oez.png"></a></li>
+							<li><a href="http://economy.gov.ru/" target="_blank"><img src="<?=SITE_TEMPLATE_PATH?>/img/mineconom.png"></a></li>
 						</ul>
 					</div>
 				</div>
@@ -54,7 +54,7 @@
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/mark.png">
 							</div>
 							<div>
-								398908, Lipetsk region, Gryazi district ,
+								399071, Lipetsk region, Gryazi district ,
 								zone industrial production type "Lipetsk" , administrative and business center .
 							</div>
 						</div>
