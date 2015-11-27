@@ -7,6 +7,12 @@ $arUrlRewrite = array(
 		"PATH" => "/investor/sotsialnaya-infrastruktura-oez/index.php",
 	),
 	array(
+		"CONDITION" => "#^/en/investor/sotsialnaya-infrastruktura-oez/([a-zA-Z0-9_-]+)/\\?{0,1}(.*)\$#",
+		"RULE" => "SECTION_CODE=\$1",
+		"ID" => "",
+		"PATH" => "/en/investor/sotsialnaya-infrastruktura-oez/index.php",
+	),
+	array(
 		"CONDITION" => "#^/information/links/([a-zA-Z0-9_]+)/\\?{0,1}(.*)\$#",
 		"RULE" => "/information/links/index.php?SECTION_CODE=\\1&\\2",
 		"ID" => "",
