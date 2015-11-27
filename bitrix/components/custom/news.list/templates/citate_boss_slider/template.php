@@ -14,6 +14,8 @@
 $this->setFrameMode(true);
 	$n = 0;
 	$str = "";
+	//require($_SERVER['DOCUMENT_ROOT']."/bitrix/modules/main/include/mainpage.php");
+	$site_id = CMainPage::GetSiteByHost();
 ?>
 <div class="col-md-6 citata">
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -51,7 +53,12 @@ $this->setFrameMode(true);
 								     alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
 								     title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>">
 							<a href="tsitaty-rukovoditeley/"  class="reddi">
-								<img  src="<?=SITE_TEMPLATE_PATH?>/img/reddi.png">
+
+								<?if($site_id =="s2"){?>
+									<img  src="<?=SITE_TEMPLATE_PATH?>/img/reddi_eng.png">
+									<?}else{?>
+										<img  src="<?=SITE_TEMPLATE_PATH?>/img/reddi.png">
+										<?}?>
 							</a>
 						</div>
 					<?else:?>
