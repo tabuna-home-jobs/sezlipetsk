@@ -2,7 +2,6 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Contacts");
 ?>
-
 	<div class="container">
 		<div class="row parent">
 			<div class="col-md-6 col-lg-8 col-sm-12 col-xs-12">
@@ -21,25 +20,29 @@ $APPLICATION->SetTitle("Contacts");
 				<!--Хлебные крошки-->
 				<h1><?=$APPLICATION->GetTitle();?></h1>
 
+
 				<div class="row ">
+
 					<div class="col-md-12 col-lg-4 col-sm-4 col-xs-12 contact_item">
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/marker_big.png">
 
 						<div class="contact_item_number">Lipetsk, town Matirsky,<br/>
 						                                 st. Morshanskaya, 4-a
-						</div>
-						<div class="contact_item_dopinfo">
-							Mail address: 398908, Lipetsk,<br/> town Matirsky, a/ay 344
+
+							<br>
+
+						                                                   GPS N52031.021’ E39048.154’
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-4 col-sm-4 col-xs-12 contact_item">
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/marker_big.png">
 
 						<div class="contact_item_number">Phone: +7 (4742) 51-51-80,<br/>
+						                                 Phone: +7 (4742) 51-51-80,<br/>
 						                                 Fax: +7 (4742) 51-51-95
 						</div>
 						<div class="contact_item_dopinfo">
-
+12333123 45345 354 35 345 4534 5
 						</div>
 					</div>
 					<div class="col-md-12 col-lg-4 col-sm-4 col-xs-12 contact_item">
@@ -52,14 +55,14 @@ $APPLICATION->SetTitle("Contacts");
 						</div>
 					</div>
 				</div>
-				<div class="p24page_all"><a class="all">Administration of Lipetsk region<span
+				<div class="p24page_all"><a class="all" target="_blank" href="http://admlip.ru/" >Administration of Lipetsk region<span
 							class="glyphicon glyphicon-menu-right"></span></a>
-					<a class="all">Getting there<span
+					<a class="all" id="contacts_link">Getting there<span
 							class="glyphicon glyphicon-menu-right"></span></a>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-4 hidden-sm hidden-xs img_conatiner">
-				<img src="<?=SITE_TEMPLATE_PATH?>/img/map.png">
+				<a href="https://maps.yandex.ru/?text=Здание%20управления%20ОЭЗ%20Липецк&ll=39.802383%2C52.516769&z=15" target="_blank"><img src="<?=SITE_TEMPLATE_PATH?>/img/contaktmap.jpg"></a>
 			</div>
 		</div>
 
@@ -82,5 +85,16 @@ $APPLICATION->SetTitle("Contacts");
 			</div>
 		</div>
 	</div>
+<div class="remember_form_main3">
+	<div class="remember_form_cell">
+		<div class="remember_form">
+			<div class="close_r_f_container"><a class="close_r_f"></a></div>
+
+
+			<img src="<?=SITE_TEMPLATE_PATH?>/img/proezd.jpg" class="proezd" >
+
+		</div>
+	</div>
+</div>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
