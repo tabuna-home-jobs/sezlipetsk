@@ -1,6 +1,6 @@
 <?
 	// подключим файл с классом CMainPage
-	require($_SERVER['DOCUMENT_ROOT']."/bitrix/modules/main/include/mainpage.php");
+	require_once($_SERVER['DOCUMENT_ROOT']."/bitrix/modules/main/include/mainpage.php");
 
 	// получим идентификатор текущего сайта по доменному имени
 	$site_id = CMainPage::GetSiteByHost();

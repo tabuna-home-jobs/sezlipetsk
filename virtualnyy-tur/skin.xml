@@ -138,10 +138,10 @@ img{max-width: 100%;}
 &lt;/style&gt;" align="1" color="0x000000" bordercolor="0xa7a7a7" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="5" borderradius="15" wordwrap="0" scrollbar="0" autosize="0" >
 </element>
 <element x="-415" y="-68" anchor="7" width="255" height="40" id="Image 2" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_2.png" >
-<action src="click" type="gotourl" value="http://sezlipetsk.ru/virtualnyy-tur/" value2="_parent" target="_parent" />
+<action src="click" type="gotourl" value="/virtualnyy-tur/" value2="_parent" target="_parent" />
 </element>
 <element x="201" y="-68" anchor="7" width="255" height="40" id="Image 3" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_3.png" >
-<action src="click" type="gotourl" value="http://sezlipetsk.ru/virtualnyy-tur/?tour=adc" value2="_parent" target="_parent" />
+<action src="click" type="gotourl" value="/virtualnyy-tur/?tour=adc" value2="_parent" target="_parent" />
 </element>
 <element x="-459" y="-184" anchor="4" width="900" height="362" id="Image 5" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="image" imgurl="images/image_5.png" >
 </element>

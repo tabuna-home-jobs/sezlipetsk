@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR pro 4.5.3/10717
 // Filename: aero2.ggsk
-// Generated Пн 2. ноя 15:55:43 2015
+// Generated Пн 30. ноя 10:03:46 2015
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -1548,7 +1548,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._image_2__img);
 		this._image_2.appendChild(this._image_2__img);
 		this._image_2.onclick=function () {
-			me.player.openUrl("http:\/\/sezlipetsk.ru\/virtualnyy-tur\/","_parent");
+			me.player.openUrl("\/virtualnyy-tur\/","_parent");
 		}
 		this.divSkin.appendChild(this._image_2);
 		this._image_3=document.createElement('div');
@@ -1584,7 +1584,7 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._image_3__img);
 		this._image_3.appendChild(this._image_3__img);
 		this._image_3.onclick=function () {
-			me.player.openUrl("http:\/\/sezlipetsk.ru\/virtualnyy-tur\/?tour=adc","_parent");
+			me.player.openUrl("\/virtualnyy-tur\/?tour=adc","_parent");
 		}
 		this.divSkin.appendChild(this._image_3);
 		this._image_5=document.createElement('div');

@@ -5,7 +5,7 @@
 
 <?
 	if($_GET["tour"] != 'adc'){
-		$src = 'http://ros.t198.topaz.fastwebserver.de/aero/aero/aero_out.html';
+		$src = '/tour/aero/aero/aero_out.html';
 		?>
 		<section class="container_tur">
 
@@ -266,7 +266,7 @@
 		</section>
 	<?
 	}else{
-		$src = 'http://ros.t198.topaz.fastwebserver.de/adc/adc/adc.html';?>
+		$src = '/tour/adc/adc/adc.html';?>
 		<div class="container_tur">
 			<iframe src="<?=$src?>" width="100%" height="500px" allowfullscreen></iframe>
 		</div>

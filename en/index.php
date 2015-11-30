@@ -2,6 +2,9 @@
 $APPLICATION->SetTitle("Special Economic Zone");
 $GLOBALS["arrFilterMainTheme"] = array("PROPERTY_MAIN_VALUE" => 1);
 $GLOBALS["arrFilterMain"] = array("PROPERTY_MAIN_VALUE" => 1);
+	// подключим файл с классом CMainPage
+	require_once($_SERVER['DOCUMENT_ROOT']."/bitrix/modules/main/include/mainpage.php");
+
 ?>
 <!--Верхний слайдер-->
 <?$APPLICATION->IncludeComponent(

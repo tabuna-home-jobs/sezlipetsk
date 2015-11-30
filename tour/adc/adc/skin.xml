@@ -1,0 +1,261 @@
+<skin marginleft="0" marginright="0" margintop="0" marginbottom="0" ><element x="-171" y="-78" anchor="7" width="357" height="65" id="controller" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="0" >
+<element x="25" y="-5" anchor="0" width="32" height="32" id="up" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/up.png" overurl="images/up__o.png" >
+<action src="pressed" type="tiltup" value="" value2="" target="$self" />
+</element>
+<element x="25" y="25" anchor="0" width="32" height="32" id="down" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/down.png" overurl="images/down__o.png" >
+<action src="pressed" type="tiltdown" value="" value2="" target="$self" />
+</element>
+<element x="0" y="10" anchor="0" width="32" height="32" id="left" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/left.png" overurl="images/left__o.png" >
+<action src="pressed" type="panleft" value="" value2="" target="$self" />
+</element>
+<element x="50" y="10" anchor="0" width="32" height="32" id="right" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/right.png" overurl="images/right__o.png" >
+<action src="pressed" type="panright" value="" value2="" target="$self" />
+</element>
+<element x="90" y="10" anchor="0" width="32" height="32" id="zoomin" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/zoomin.png" overurl="images/zoomin__o.png" >
+<action src="pressed" type="zoomin" value="" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="tt_zoomin" />
+<action src="leave" type="hide" value="" value2="" target="tt_zoomin" />
+<element x="-55" y="36" anchor="0" width="150" height="18" id="tt_zoomin" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Zoom In" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0x000000" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+<element x="-1" y="-1" anchor="0" width="150" height="18" id="tt_zoomin_white" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Zoom In" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+</element>
+</element>
+<element x="120" y="10" anchor="0" width="32" height="32" id="zoomout" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/zoomout.png" overurl="images/zoomout__o.png" >
+<action src="pressed" type="zoomout" value="" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="tt_zoomout" />
+<action src="leave" type="hide" value="" value2="" target="tt_zoomout" />
+<element x="-55" y="36" anchor="0" width="150" height="18" id="tt_zoomout" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Zoom Out" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+<element x="-1" y="-1" anchor="0" width="150" height="18" id="tt_zoomout_white" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Zoom Out" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+</element>
+</element>
+<element x="160" y="10" anchor="0" width="32" height="32" id="autorotate" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/autorotate.png" overurl="images/autorotate__o.png" >
+<action src="click" type="toogleautorotate" value="" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="tt_autorotate" />
+<action src="leave" type="hide" value="" value2="" target="tt_autorotate" />
+<element x="-65" y="36" anchor="0" width="170" height="18" id="tt_autorotate" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Start/Stop Autorotation" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+<element x="-1" y="-1" anchor="0" width="170" height="18" id="tt_autorotate_white" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Start/Stop Autorotation" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+</element>
+</element>
+<element x="190" y="10" anchor="0" width="32" height="32" id="info" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/info.png" overurl="images/info__o.png" >
+<action src="click" type="tooglevisible" value="" value2="" target="userdata" />
+<action src="enter" type="show" value="" value2="" target="tt_info" />
+<action src="leave" type="hide" value="" value2="" target="tt_info" />
+<element x="-55" y="36" anchor="0" width="150" height="18" id="tt_info" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Show Information" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+<element x="-1" y="-1" anchor="0" width="150" height="18" id="tt_info_white" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Show Information" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+</element>
+</element>
+<element x="220" y="10" anchor="0" width="32" height="32" id="movemode" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/movemode.png" overurl="images/movemode__o.png" >
+<action src="click" type="changeviewermode" value="2" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="tt_movemode" />
+<action src="leave" type="hide" value="" value2="" target="tt_movemode" />
+<element x="-65" y="36" anchor="0" width="170" height="18" id="tt_movemode" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Change Control Mode" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+<element x="-1" y="-1" anchor="0" width="170" height="18" id="tt_movemode_white" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Change Control Mode" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+</element>
+</element>
+<element x="250" y="10" anchor="0" width="32" height="32" id="fullscreen" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/fullscreen.png" overurl="images/fullscreen__o.png" >
+<action src="click" type="tooglefullscreen" value="" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="tt_fullscreen" />
+<action src="leave" type="hide" value="" value2="" target="tt_fullscreen" />
+<element x="-55" y="36" anchor="0" width="150" height="18" id="tt_fullscreen" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Fullscreen" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+<element x="-1" y="-1" anchor="0" width="150" height="18" id="tt_fullscreen_white" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Fullscreen" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+</element>
+</element>
+<element x="286" y="12" anchor="0" width="28" height="26" id="Image 1" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_1.png" >
+<action src="click" type="tooglevisible" value="" value2="" target="Container 1" />
+</element>
+<element x="324" y="12" anchor="0" width="17" height="25" id="Image 20" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_20.png" >
+<action src="click" type="tooglevisible" value="" value2="" target="Image 21" />
+</element>
+</element>
+<element x="350" y="20" anchor="0" width="5" height="5" id="hotspot" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="hotspot" distort="0" distance="500" >
+<action src="enter" type="show" value="" value2="" target="hstext" />
+<action src="leave" type="hide" value="" value2="" target="hstext" />
+<action src="click" type="gotourl" value="$hu" value2="$ht" target="$self" />
+<element x="-16" y="-16" anchor="0" width="32" height="32" id="hsimage" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/hsimage.png" >
+</element>
+<element x="-50" y="20" anchor="0" width="100" height="20" id="hstext" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="$hs" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.705882" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="1" >
+</element>
+</element>
+<element x="-105" y="-30" anchor="4" width="210" height="60" id="loading" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="0" >
+<action src="click" type="hide" value="" value2="" target="$self" />
+<action src="loaded" type="hide" value="" value2="" target="$self" />
+<action src="reload" type="show" value="" value2="" target="$self" />
+<element x="0" y="0" anchor="0" width="210" height="60" id="loadingbg" visible="1" alpha="0.5" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="rectangle" bordercolor="0x000000" borderalpha="1" backgroundcolor="0x000000" backgroundalpha="1" backgroundvisible="1" borderwidth="0" borderradius="20" >
+</element>
+<element x="0" y="0" anchor="0" width="210" height="60" id="loadingbrd" visible="1" alpha="0.5" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="rectangle" bordercolor="0xffffff" borderalpha="1" backgroundcolor="0x000000" backgroundalpha="1" backgroundvisible="0" borderwidth="2" borderradius="18" >
+</element>
+<element x="16" y="12" anchor="0" width="178" height="23" id="loadingtext" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="3" handcursor="0" type="text" text="Loading... $p%" align="0" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="1" >
+</element>
+<element x="15" y="35" anchor="0" width="182" height="13" id="loadingbar" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="3" handcursor="0" type="rectangle" bordercolor="0x808080" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="9" >
+<modifier src="loading" type="scalex" offset="0" factor="1" />
+</element>
+</element>
+<element x="-153" y="-119" anchor="4" width="300" height="300" id="userdata" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="0" >
+<action src="click" type="hide" value="" value2="" target="$self" />
+<element x="0" y="0" anchor="0" width="300" height="300" id="userdatabg" visible="1" alpha="0.5" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="rectangle" bordercolor="0x000000" borderalpha="1" backgroundcolor="0x000000" backgroundalpha="1" backgroundvisible="1" borderwidth="0" borderradius="20" >
+</element>
+<element x="1" y="2" anchor="0" width="300" height="300" id="userdatabrd" visible="1" alpha="0.5" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="rectangle" bordercolor="0xffffff" borderalpha="1" backgroundcolor="0x000000" backgroundalpha="1" backgroundvisible="0" borderwidth="2" borderradius="18" >
+</element>
+<element x="8" y="10" anchor="0" width="280" height="20" id="title" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&lt;b&gt;$ut&lt;/b&gt;" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="9" y="40" anchor="0" width="280" height="170" id="description" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="$ud" align="0" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="1" scrollbar="1" autosize="0" >
+</element>
+<element x="6" y="214" anchor="0" width="280" height="20" id="author" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="$ua" align="0" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="8" y="242" anchor="0" width="280" height="23" id="datetime" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="$ue" align="0" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="1" >
+</element>
+<element x="-141" y="-30" anchor="7" width="283" height="23" id="copyright" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&amp;#169; $uc" align="0" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="1" >
+</element>
+</element>
+<element x="181" y="-68" anchor="7" width="255" height="40" id="Image 2" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_2.png" >
+<action src="click" type="gotourl" value="/virtualnyy-tur/?tour=adc" value2="_parent" target="_parent" />
+</element>
+<element x="2" y="4" anchor="0" width="626" height="300" id="Container 1" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="0" >
+<element x="8" y="6" anchor="0" width="187" height="45" id="hide_template" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="1" >
+<element x="60" y="0" anchor="0" width="5" height="5" id="markertemplate" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="marker" nodeid="" >
+<action src="enter" type="show" value="" value2="" target="marker_title" />
+<action src="leave" type="hide" value="" value2="" target="marker_title" />
+<active>
+<element x="0" y="0" anchor="0" width="31" height="31" id="marker_active" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="images/marker_active.png" >
+</element>
+</active>
+<normal>
+<element x="0" y="0" anchor="0" width="31" height="32" id="marker_normal" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="images/marker_normal.png" >
+</element>
+</normal>
+<element x="-60" y="35" anchor="0" width="150" height="20" id="marker_title" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="$ut" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.705882" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="1" >
+</element>
+</element>
+<element x="105" y="0" anchor="0" width="31" height="31" id="marker_active" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="images/marker_active.png" >
+</element>
+<element x="140" y="0" anchor="0" width="31" height="32" id="marker_normal" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="button" btnurl="images/marker_normal.png" >
+</element>
+</element>
+<element x="0" y="0" anchor="0" width="626" height="250" id="Image 4" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="image" imgurl="images/image_4.png" >
+</element>
+<element x="508" y="226" anchor="0" width="21" height="21" id="Image 5" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_5.png" >
+<action src="click" type="gotonext" value="{node8}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 1" />
+<action src="leave" type="hide" value="" value2="" target="Text 1" />
+</element>
+<element x="463" y="252" anchor="0" width="131" height="42" id="Text 1" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&#1055;&#1072;&#1085;&#1086;&#1088;&#1072;&#1084;&#1072; &#1087;&#1077;&#1088;&#1077;&#1076; 
+&#1079;&#1076;&#1072;&#1085;&#1080;&#1077;&#1084;" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="424" y="218" anchor="0" width="21" height="21" id="Image 6" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_6.png" >
+<action src="click" type="gotonext" value="{node7}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 2" />
+<action src="leave" type="hide" value="" value2="" target="Text 2" />
+</element>
+<element x="385" y="245" anchor="0" width="120" height="24" id="Text 2" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="1-&#1081; &#1101;&#1090;&#1072;&#1078; &#1040;&#1044;&#1062;-2" align="0" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="466" y="218" anchor="0" width="21" height="21" id="Image 7" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_7.png" >
+<action src="click" type="gotonext" value="{node9}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 3" />
+<action src="leave" type="hide" value="" value2="" target="Text 3" />
+</element>
+<element x="421" y="246" anchor="0" width="112" height="40" id="Text 3" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&#1050;&#1086;&#1085;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;-&#1079;&#1072;&#1083; 
+&#1085;&#1072; 190 &#1095;&#1077;&#1083;" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="465" y="181" anchor="0" width="21" height="21" id="Image 8" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_8.png" >
+<action src="click" type="gotonext" value="{node10}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 4" />
+<action src="leave" type="hide" value="" value2="" target="Text 4" />
+</element>
+<element x="424" y="211" anchor="0" width="99" height="39" id="Text 4" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="2-&#1086;&#1081; &#1101;&#1090;&#1072;&#1078; 
+&#1040;&#1044;&#1062;-2" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="430" y="181" anchor="0" width="21" height="21" id="Image 9" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_9.png" >
+<action src="click" type="gotonext" value="{node11}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 5" />
+<action src="leave" type="hide" value="" value2="" target="Text 5" />
+</element>
+<element x="404" y="208" anchor="0" width="72" height="22" id="Text 5" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&#1057;&#1090;&#1077;&#1085;&#1076;" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="465" y="149" anchor="0" width="21" height="21" id="Image 10" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_10.png" >
+<action src="click" type="gotonext" value="{node12}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 6" />
+<action src="leave" type="hide" value="" value2="" target="Text 6" />
+</element>
+<element x="431" y="176" anchor="0" width="100" height="39" id="Text 6" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="3-&#1081; &#1101;&#1090;&#1072;&#1078;
+ &#1040;&#1044;&#1062;-2" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="431" y="149" anchor="0" width="21" height="21" id="Image 11" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_11.png" >
+<action src="click" type="gotonext" value="{node13}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 7" />
+<action src="leave" type="hide" value="" value2="" target="Text 7" />
+</element>
+<element x="401" y="176" anchor="0" width="67" height="22" id="Text 7" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&#1062;&#1054;&#1044;" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="430" y="81" anchor="0" width="21" height="21" id="Image 12" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_12.png" >
+<action src="click" type="gotonext" value="{node14}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 8" />
+<action src="leave" type="hide" value="" value2="" target="Text 8" />
+</element>
+<element x="423" y="107" anchor="0" width="111" height="38" id="Text 8" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&#1047;&#1072;&#1083; &#1089;&#1086;&#1074;&#1077;&#1097;&#1072;&#1085;&#1080;&#1081;
+ &#1082;&#1072;&#1073;. 605" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="465" y="52" anchor="0" width="21" height="21" id="Image 13" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_13.png" >
+<action src="click" type="gotonext" value="{node15}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 9" />
+<action src="leave" type="hide" value="" value2="" target="Text 9" />
+</element>
+<element x="424" y="75" anchor="0" width="107" height="23" id="Text 9" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="7-&#1086;&#1081; &#1101;&#1090;&#1072;&#1078;" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="430" y="51" anchor="0" width="21" height="21" id="Image 14" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_14.png" >
+<action src="click" type="gotonext" value="{node16}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 10" />
+<action src="leave" type="hide" value="" value2="" target="Text 10" />
+</element>
+<element x="382" y="74" anchor="0" width="118" height="43" id="Text 10" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&#1055;&#1088;&#1080;&#1105;&#1084;&#1085;&#1072;&#1103; 
+&#1075;&#1077;&#1085;. &#1076;&#1080;&#1088;&#1077;&#1082;&#1090;&#1086;&#1088;&#1072;" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="240" y="179" anchor="0" width="21" height="21" id="Image 15" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_15.png" >
+<action src="click" type="gotonext" value="{node19}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 11" />
+<action src="leave" type="hide" value="" value2="" target="Text 11" />
+</element>
+<element x="175" y="201" anchor="0" width="164" height="39" id="Text 11" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&#1052;&#1072;&#1083;&#1099;&#1081; &#1079;&#1072;&#1083; &#1089;&#1086;&#1074;&#1077;&#1097;&#1072;&#1085;&#1080;&#1081; 
+&#1082;&#1072;&#1073;. 202" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="187" y="178" anchor="0" width="21" height="21" id="Image 16" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_16.png" >
+<action src="click" type="gotonext" value="{node18}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 12" />
+<action src="leave" type="hide" value="" value2="" target="Text 12" />
+</element>
+<element x="154" y="217" anchor="0" width="21" height="21" id="Image 17" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_17.png" >
+<action src="click" type="gotonext" value="{node17}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 13" />
+<action src="leave" type="hide" value="" value2="" target="Text 13" />
+</element>
+<element x="102" y="237" anchor="0" width="122" height="24" id="Text 13" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="1-&#1081; &#1101;&#1090;&#1072;&#1078; &#1040;&#1044;&#1062;-1" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="0" y="241" anchor="0" width="79" height="23" id="Text 14" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&#1057;&#1090;&#1086;&#1083;&#1086;&#1074;&#1072;&#1103;" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="75" y="217" anchor="0" width="21" height="21" id="Image 19" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_19.png" >
+<action src="click" type="gotonext" value="{node20}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 15" />
+<action src="leave" type="hide" value="" value2="" target="Text 15" />
+</element>
+<element x="50" y="239" anchor="0" width="79" height="40" id="Text 15" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="VIP &#1079;&#1072;&#1083; 
+&#1082;&#1072;&#1073;. 106" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="25" y="217" anchor="0" width="21" height="21" id="Image 18" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_18.png" >
+<action src="click" type="gotonext" value="{node21}" value2="" target="" />
+<action src="over" type="show" value="" value2="" target="Text 14" />
+<action src="leave" type="hide" value="" value2="" target="Text 14" />
+</element>
+<element x="153" y="206" anchor="0" width="95" height="38" id="Text 12" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="2-&#1086;&#1081; &#1101;&#1090;&#1072;&#1078; 
+&#1040;&#1044;&#1062;-1" align="1" color="0x000000" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="0.745098" backgroundvisible="1" borderwidth="1" borderradius="9" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+</element>
+<element x="-443" y="-188" anchor="4" width="900" height="362" id="Image 21" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="image" imgurl="images/image_21.png" >
+</element>
+<element x="-434" y="-72" anchor="7" width="255" height="40" id="Image 3" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="image" imgurl="images/image_3.png" >
+<action src="click" type="gotourl" value="/virtualnyy-tur/" value2="_parent" target="_parent" />
+</element>
+</skin>

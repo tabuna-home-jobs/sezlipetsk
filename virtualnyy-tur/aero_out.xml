@@ -87,7 +87,7 @@
       <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
       <hotspot title="Сцена 2" target="" pan="-85.0296" skinid="" url="{node1}" id="Point01" tilt="0.809678"/>
       <hotspot title="Сцена 3" target="" pan="96.1867" skinid="" url="{node3}" id="Point02" tilt="0.0506688"/>
-      <hotspot title="Панорама перед зданием" target="_parent" pan="82.2241" skinid="" url="http://sezlipetsk.ru/virtualnyy-tur/?tour=adc" id="Point03" tilt="-6.43158"/>
+      <hotspot title="Панорама перед зданием" target="_parent" pan="82.2241" skinid="" url="/virtualnyy-tur/?tour=adc" id="Point03" tilt="-6.43158"/>
       <polyhotspot title="Остановочный павильон" target="" url="" id="Poly01">
         <vertex pan="106.364" tilt="-9.01073"/>
         <vertex pan="106.226" tilt="-7.36859"/>

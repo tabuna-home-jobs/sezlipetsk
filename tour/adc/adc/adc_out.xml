@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node8">
+  <panorama id="node7" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="11.5" fov="70" tilt="-13.7"/>
+      <min pan="-180" fov="35" tilt="-48.7"/>
+      <max pan="180" fov="120" tilt="90"/>
+    </view>
+    <userdata title="1-й этаж АДЦ-2" datetime="2015:08:28 09:25:01" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Конференц-зал на 190 чел" target="" pan="-45.6816" skinid="" url="{node9}" id="Point02" tilt="-3.39163"/>
+      <hotspot title="2-ой этаж АДЦ-2" target="" pan="-79.5981" skinid="" url="{node10}" id="Point03" tilt="6.79312"/>
+      <hotspot title="3-й этаж АДЦ-2" target="" pan="123.51" skinid="" url="{node12}" id="Point04" tilt="-14.8238"/>
+      <hotspot title="Зал совещаний каб. 605" target="" pan="123.697" skinid="" url="{node14}" id="Point05" tilt="-10.786"/>
+      <hotspot title="Прёмная" target="" pan="123.897" skinid="" url="{node15}" id="Point06" tilt="-6.35948"/>
+      <hotspot title="Выйти из здания" target="" pan="88.5605" skinid="" url="{node8}" id="Point01" tilt="-8.83262"/>
+      <polyhotspot title="Почетное Консульство Италии" target="" url="" id="Poly01">
+        <vertex pan="-150.437" tilt="4.16903"/>
+        <vertex pan="-155.673" tilt="4.48246"/>
+        <vertex pan="-155.121" tilt="-3.59923"/>
+        <vertex pan="-149.787" tilt="-3.4597"/>
+      </polyhotspot>
+      <polyhotspot title="Отделение Почты РОССИИ" target="" url="" id="Poly02">
+        <vertex pan="-138.749" tilt="-1.18301"/>
+        <vertex pan="-141.163" tilt="-1.00926"/>
+        <vertex pan="-141.017" tilt="-4.71885"/>
+        <vertex pan="-138.67" tilt="-4.68703"/>
+        <vertex pan="-138.67" tilt="-4.68703"/>
+      </polyhotspot>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/2/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node8" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="146.5" fov="68" tilt="8.7"/>
+      <min pan="-180" fov="35" tilt="-36.3"/>
+      <max pan="180" fov="120" tilt="90"/>
+    </view>
+    <userdata title="Панорама перед зданием" datetime="2015:08:28 11:40:09" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="1-й этаж АДЦ-2" target="" pan="149.761" skinid="" url="{node7}" id="Point01" tilt="5.87847"/>
+      <hotspot title="Сцена1" target="_parent" pan="-24.2917" skinid="" url="/virtualnyy-tur/" id="Point02" tilt="4.3648"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/1_nocar/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node9" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="122" fov="39" tilt="1.5"/>
+      <min pan="-180" fov="35" tilt="-52"/>
+      <max pan="180" fov="120" tilt="51.5"/>
+    </view>
+    <userdata title="«Конференц-зал на 190 чел»" datetime="2015:08:28 14:17:49" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="1-й этаж АДЦ-2" target="" pan="-38.2563" skinid="" url="{node7}" id="Point01" tilt="6.88315"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/3_a/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node10" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="176" fov="66.98" tilt="-4"/>
+      <min pan="-180" fov="35" tilt="-52.5"/>
+      <max pan="180" fov="120" tilt="53"/>
+    </view>
+    <userdata title="2-ой этаж АДЦ-2" datetime="2015:08:28 19:03:58" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="1-й этаж АДЦ-2" target="" pan="24.0474" skinid="" url="{node7}" id="Point01" tilt="-10.5825"/>
+      <hotspot title="Стенд" target="" pan="89.1134" skinid="" url="{node11}" id="Point02" tilt="1.61348"/>
+      <hotspot title="3-й этаж АДЦ-2" target="" pan="118.367" skinid="" url="{node12}" id="Point03" tilt="2.47559"/>
+      <hotspot title="Зал совещаний каб. 605" target="" pan="118.402" skinid="" url="{node14}" id="Point05" tilt="5.28782"/>
+      <hotspot title="7-ой" target="" pan="118.41" skinid="" url="{node15}" id="Point06" tilt="8.03831"/>
+      <hotspot title="Переход в АДЦ-1" target="" pan="111.747" skinid="" url="{node18}" id="Point04" tilt="6.52307"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/4/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node11" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="156.5" fov="70" tilt="-4.7"/>
+      <min pan="-180" fov="35" tilt="-53.7"/>
+      <max pan="180" fov="120" tilt="55.2"/>
+    </view>
+    <userdata title="Стенд" datetime="2015:08:28 21:43:26" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="2-ой этаж АДЦ-2" target="" pan="20.073" skinid="" url="{node10}" id="Point01" tilt="4.69886"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/5/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node12" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="11" fov="70" tilt="-17.5"/>
+      <min pan="-180" fov="35" tilt="-52.5"/>
+      <max pan="180" fov="120" tilt="53"/>
+    </view>
+    <userdata title="3-й этаж АДЦ-2" datetime="2015:08:30 13:15:39" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="ЦОД" target="" pan="38.8819" skinid="" url="{node13}" id="Point01" tilt="-1.8659"/>
+      <hotspot title="Зал совещаний каб. 605" target="" pan="167.003" skinid="" url="{node14}" id="Point03" tilt="-0.370103"/>
+      <hotspot title="1-й этаж АДЦ-2" target="" pan="166.906" skinid="" url="{node7}" id="Point04" tilt="-7.6541"/>
+      <hotspot title="2-ой этаж АДЦ-2" target="" pan="166.882" skinid="" url="{node10}" id="Point05" tilt="-3.84017"/>
+      <hotspot title="7-ой этаж" target="" pan="167.125" skinid="" url="{node15}" id="Point06" tilt="3.27474"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/6_3/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node13" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="-150.5" fov="70" tilt="16.6"/>
+      <min pan="-180" fov="35" tilt="-75.4"/>
+      <max pan="180" fov="120" tilt="51.6"/>
+    </view>
+    <userdata title="ЦОД" datetime="2015:08:30 10:44:10" description="ОАО «ОЭЗ ППТ&#xa;«Липецк», предлагает услугу colocation&#xa;– размещение&#xa;вашего&#xa;оборудования в центре&#xa;обработки данных (далее ЦОД), расположенном&#xa;в здании АДЦ ОЭЗ ППТ «Липецк».&#xa;Центр обработки обеспечивает:&#xa;&lt;/br>- гарантированное электропитание размещаемого оборудования с использованием систем бесперебойного электропитания APC Symmetra PX2 SY96K160H-PD и резервного электроснабжения (дизельной электростанции SDMO-275);&#xa;&lt;/br>- климат контроль с использованием систем охлаждения APC InRow RC Chilled Water и резервного кондиционирования;&#xa;&lt;/br>- безопасность оборудования клиентов с использованием систем охранно-пожарной сигнализации, контроля и управления доступом, видеонаблюдения, автоматического газового пожаротушения. В здании действует круглосуточный пост охраны;&#xa;&lt;/br>- подключение коммуникационных ресурсов клиентов к высокоскоростному и резервированному каналу. На технической площадке ЦОД присутствуют на равных правах провайдеры связи: ОАО «Ростелеком», ЗАО «Компания ТрансТелеКом», ООО «Промсвязь-инвест»;&#xa;&lt;/br>- физически выделенный и резервируемый по кольцевой схеме оптический канал от ЦОДа до объекта резидента;&#xa;&lt;/br>- техническая поддержка квалифицированным персоналом." copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="3-й этаж АДЦ-2" target="" pan="-42.2816" skinid="" url="{node12}" id="Point01" tilt="-7.32645"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/7/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node14" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="-94.5" fov="70" tilt="-5.3"/>
+      <min pan="-180" fov="35" tilt="-49.7"/>
+      <max pan="180" fov="120" tilt="49.2"/>
+    </view>
+    <userdata title="Зал совещаний каб. 605" datetime="2015:08:30 15:43:34" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="1-й этаж АДЦ-2" target="" pan="-147.847" skinid="" url="{node7}" id="Point01" tilt="-17.1736"/>
+      <hotspot title="7-ой этаж" target="" pan="-148.632" skinid="" url="{node15}" id="Point02" tilt="-4.95105"/>
+      <hotspot title="2-ой этаж АДЦ-2" target="" pan="-148.206" skinid="" url="{node10}" id="Point03" tilt="-13.0062"/>
+      <hotspot title="3-й этаж АДЦ-2" target="" pan="-148.412" skinid="" url="{node12}" id="Point04" tilt="-9.08214"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/8/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node15" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="-4" fov="70" tilt="11.5"/>
+      <min pan="-180" fov="35" tilt="-45.5"/>
+      <max pan="180" fov="120" tilt="46.5"/>
+    </view>
+    <userdata title="7-ой этаж" datetime="2015:08:30 18:25:39" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="Приёмная ген. директора" target="" pan="94.7215" skinid="" url="{node16}" id="Point01" tilt="-3.70682"/>
+      <hotspot title="1-й этаж АДЦ-2" target="" pan="170.167" skinid="" url="{node7}" id="Point02" tilt="-4.01318"/>
+      <hotspot title="2-ой этаж АДЦ-2" target="" pan="170.211" skinid="" url="{node10}" id="Point03" tilt="-0.550493"/>
+      <hotspot title="3-й этаж АДЦ-2" target="" pan="170.254" skinid="" url="{node12}" id="Point04" tilt="2.88986"/>
+      <hotspot title="Зал совещаний каб. 605" target="" pan="170.176" skinid="" url="{node14}" id="Point05" tilt="6.52979"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/9/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node16" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="32" fov="70" tilt="2.1"/>
+      <min pan="-180" fov="35" tilt="-45.1"/>
+      <max pan="180" fov="120" tilt="44.6"/>
+    </view>
+    <userdata title="Приёмная ген. директора" datetime="2015:08:30 19:48:42" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="7-ой этаж" target="" pan="-24.2871" skinid="" url="{node15}" id="Point01" tilt="-2.29245"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/10/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node17" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="7.5" fov="70" tilt="-19.7"/>
+      <min pan="-180" fov="35" tilt="-54.7"/>
+      <max pan="180" fov="120" tilt="53.7"/>
+    </view>
+    <userdata title="1-й этаж АТЦ-1" datetime="2015:08:30 23:49:13" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="VIP зал каб. 106" target="" pan="37.6566" skinid="" url="{node20}" id="Point01" tilt="-1.93567"/>
+      <hotspot title="Столовая" target="" pan="22.8208" skinid="" url="{node21}" id="Point02" tilt="-2.45694"/>
+      <hotspot title="Выход на улицу" target="" pan="-151.133" skinid="" url="{node8}" id="Point03" tilt="1.67379"/>
+      <hotspot title="Подъём на 2-ой этаж" target="" pan="-72.3376" skinid="" url="{node18}" id="Point04" tilt="10.7935"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/13/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node18" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="-19" fov="70" tilt="18.9"/>
+      <min pan="-180" fov="35" tilt="-52.9"/>
+      <max pan="180" fov="120" tilt="53.9"/>
+    </view>
+    <userdata title="2-ой этаж АДЦ-1" datetime="2015:08:31 16:16:05" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="2-ой этаж АДЦ-2" target="" pan="-34.4816" skinid="" url="{node10}" id="Point01" tilt="1.1494"/>
+      <hotspot title="Малый зал совещаний каб. 202" target="" pan="-29.1045" skinid="" url="{node19}" id="Point02" tilt="0.0653482"/>
+      <hotspot title="Спуск на 1-й этаж" target="" pan="139.261" skinid="" url="{node17}" id="Point03" tilt="6.31303"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/11/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node19" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="3" fov="70" tilt="15.6"/>
+      <min pan="-180" fov="35" tilt="-51.1"/>
+      <max pan="180" fov="120" tilt="50.6"/>
+    </view>
+    <userdata title="Малый зал совещаний каб. 202" datetime="2015:09:02 08:57:22" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="2-ой этаж АДЦ-1" target="" pan="111.526" skinid="" url="{node18}" id="Point01" tilt="3.36895"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/12/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node20" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="-113.5" fov="70" tilt="-10.5"/>
+      <min pan="-180" fov="35" tilt="-52"/>
+      <max pan="180" fov="120" tilt="52"/>
+    </view>
+    <userdata title="VIP зал каб. 106" datetime="2015:09:01 15:56:48" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="1-й этаж" target="" pan="136.933" skinid="" url="{node17}" id="Point01" tilt="-0.609675"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/14/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node21" hideabout="1">
+    <view fovmode="0" pannorth="0">
+      <start pan="78" fov="70" tilt="8.8"/>
+      <min pan="-180" fov="35" tilt="-49.8"/>
+      <max pan="180" fov="120" tilt="49.8"/>
+    </view>
+    <userdata title="Столовая" datetime="2015:09:01 09:19:11" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+    <hotspots width="180" height="0" wordwrap="1">
+      <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xc1c1c1" bordercolor="0x000000" border="0" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+      <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot title="1-й этаж" target="" pan="83.4725" skinid="" url="{node17}" id="Point01" tilt="-4.75553"/>
+    </hotspots>
+    <media/>
+    <input width="2048" height="2048" leveltilesize="2048" levelbias="0.400" overlap="1" leveltileurl="tiles/15/c%c_l%r_%y_%x.jpg">
+      <level width="2048" height="2048" preload="0"/>
+      <level width="1653" height="1653" preload="0"/>
+      <level width="827" height="827" preload="0"/>
+      <level width="414" height="414" preload="0"/>
+      <level width="103" preview="1" height="103" preload="1"/>
+      <preview color="0x808080"/>
+    </input>
+    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="1" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  </panorama>
+</tour>
