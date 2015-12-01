@@ -6,7 +6,8 @@
 	$site_id = CMainPage::GetSiteByHost();
 	$page = CMainPage::GetIncludeSitePage($site_id);
 	if(($site_id=="s2" ) && strlen($site_id)>0 && strlen($page)>0){
-		require_once("/en/index.php");
+		$page.="index.php";
+		require_once($page);
 	}else {
 		?>
 
