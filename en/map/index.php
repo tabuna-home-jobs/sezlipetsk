@@ -668,10 +668,10 @@ $APPLICATION->SetTitle("Interactive map");
 					strokeColor: '0071bc',
 					singleSelect: true,
 					onClick: function (e) {
-						var event = event || window.event;
+						var event = e || window.event;
 						var id = e.key;
-						var leftMouse = event.clientX + "px";
-						var topMouse = event.clientY + "px";
+						var leftMouse = event.e.clientX + "px";
+						var topMouse = event.e.clientY + "px";
 
 
 						var contTop = $(".main.container").offset().top;
@@ -724,10 +724,10 @@ $APPLICATION->SetTitle("Interactive map");
 					strokeColor: '0071bc',
 					singleSelect: true,
 					onClick: function (e) {
-						var event = event || window.event;
+						var event = e || window.event;
 						var id = e.key;
-						var leftMouse = event.clientX + "px";
-						var topMouse = event.clientY + "px";
+						var leftMouse = event.e.clientX + "px";
+						var topMouse = event.e.clientY + "px";
 
 
 						var contTop = $(".main.container").offset().top;
@@ -784,10 +784,10 @@ $APPLICATION->SetTitle("Interactive map");
 					strokeColor: '0071bc',
 					singleSelect: true,
 					onClick: function (e) {
-						var event = event || window.event;
+						var event = e || window.event;
 						var id = e.key;
-						var leftMouse = event.clientX;
-						var topMouse = event.clientY + "px";
+						var leftMouse = event.e.clientX;
+						var topMouse = event.e.clientY + "px";
 
 
 
