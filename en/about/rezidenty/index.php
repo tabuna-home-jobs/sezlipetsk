@@ -32,7 +32,7 @@ $APPLICATION->SetTitle("Residents");
 		"AJAX_OPTION_ADDITIONAL" => "",
 		"REVIEW_AJAX_POST" => "Y",
 		"AJAX" => $_REQUEST["AJAX"],
-		"CACHE_TYPE" => "A",
+		"CACHE_TYPE" => "N",
 		"CACHE_TIME" => "36000000",
 		"CACHE_FILTER" => "N",
 		"CACHE_GROUPS" => "Y",
