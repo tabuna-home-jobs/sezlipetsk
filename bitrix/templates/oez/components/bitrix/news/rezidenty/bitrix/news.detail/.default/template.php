@@ -55,22 +55,33 @@ $this->setFrameMode(true);
 						<div class="carousel-inner" role="listbox">
 							<div class="item active">
 								<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></div>
-							<? $i=0;?>
-							<?foreach ($arResult["DISPLAY_PROPERTIES"]["IMAGES"]["FILE_VALUE"] as $key => $value_img):?>
-								<?if(($i % 2 == 0)&&($i != 0)){?>
+							<?
+								if(isset($arResult["DISPLAY_PROPERTIES"]["IMAGES"]["FILE_VALUE"][0])){
+
+
+								$i = 0;?>
+								<?foreach ($arResult["DISPLAY_PROPERTIES"]["IMAGES"]["FILE_VALUE"] as $key => $value_img):?>
+								<?if (($i % 2 == 0) && ($i != 0)){
+								?>
 								<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></div>
 								<div class="carousel-caption">
 								</div>
 							</div>
 							<div class="item">
 								<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></div>
-								<?}?>
+								<?
+									}?>
 								<div class="slideimg col-md-5 col-sm-5 col-lg-5 col-xs-5">
-									<img src="<?=$value_img["SRC"]?>" alt="1">
+									<img src="<?= $value_img["SRC"] ?>" alt="1">
 								</div>
 
 								<? $i++;?>
-							<?endforeach;?>
+								<?endforeach;
+									}else{?>
+									<div class="slideimg col-md-5 col-sm-5 col-lg-5 col-xs-5">
+										<img src="<?= $arResult["DISPLAY_PROPERTIES"]["IMAGES"]["FILE_VALUE"]["SRC"] ?>" alt="1">
+									</div>
+								<?}?>
 
 							<div class="col-md-1 col-lg-1 col-sm-1 col-xs-1"></div>
 							<div class="carousel-caption">
