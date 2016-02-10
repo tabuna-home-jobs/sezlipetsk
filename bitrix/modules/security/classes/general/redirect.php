@@ -33,7 +33,7 @@ class CSecurityRedirect
 
 		//In case of absolute url will check if server to be redirected is our
 		$bSkipCheck = false;
-		if(preg_match("/^(http|https):\\/\\/(.*?)\\//i", $url_l, $arMatch))
+		if(preg_match('~^(?:http|https)://(.*?)(?:/|\?|#|$)~iD', $url_l, $arMatch))
 		{
 			if(defined("BX24_HOST_NAME"))
 			{
@@ -52,11 +52,12 @@ class CSecurityRedirect
 				$arSite = false;
 			}
 
-			if($arSite && $arSite["SERVER_NAME"])
+			if(!$bSkipCheck && $arSite && $arSite["SERVER_NAME"])
 			{
-				$bSkipCheck = $arMatch[2] === $arSite["SERVER_NAME"];
+				$bSkipCheck = $arMatch[1] === $arSite["SERVER_NAME"];
 			}
-			elseif($arSite && $arSite["DOMAINS"])
+
+			if(!$bSkipCheck && $arSite && $arSite["DOMAINS"])
 			{
 				$arDomains = explode("\n", str_replace("\r", "\n", $arSite["DOMAINS"]));
 				foreach($arDomains as $domain)
@@ -64,7 +65,7 @@ class CSecurityRedirect
 					$domain = trim($domain, " \t\n\r");
 					if(strlen($domain) > 0)
 					{
-						if($domain === substr($arMatch[2], -strlen($domain)))
+						if($domain === substr($arMatch[1], -strlen($domain)))
 						{
 							$bSkipCheck = true;
 							break;
@@ -72,12 +73,11 @@ class CSecurityRedirect
 					}
 				}
 			}
-			elseif($host = COption::GetOptionString("main", "server_name", ""))
+
+			if(!$bSkipCheck)
 			{
-				if($arMatch[2] === $host)
-				{
-					$bSkipCheck = true;
-				}
+				$host = COption::GetOptionString("main", "server_name", "");
+				$bSkipCheck = $host && $arMatch[1] === $host;
 			}
 		}
 
@@ -345,7 +345,7 @@ class CSecurityRedirect
 		{
 			if(!CSecurityRedirect::IsActive())
 			{
-				COption::SetOptionString("security", "redirect_sid", Bitrix\Security\Random::getString(32));
+				COption::SetOptionString("security", "redirect_sid", Bitrix\Main\Security\Random::getString(32));
 				RegisterModuleDependences("main", "OnBeforeLocalRedirect", "security", "CSecurityRedirect", "BeforeLocalRedirect", "1");
 				RegisterModuleDependences("main", "OnEndBufferContent", "security", "CSecurityRedirect", "EndBufferContent", "1");
 			}

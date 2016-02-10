@@ -39,4 +39,8 @@ $MESS["IM_PRIVACY_PROFILE"] = "Display profile for ";
 $MESS["IM_SELECT_2_3"] = "no one";
 $MESS["IM_CORRECT_TEXT"] = "Enable autocorrect";
 $MESS["IM_OPTIONS_PATH_TO_USER_PROFILE"] = "User profile path template";
+$MESS["IM_START_CHAT_MESSAGE"] = "Once invited to a chat, a user can view message history";
+$MESS["IM_START_CHAT_MESSAGE_LAST"] = "only messages after receiving invitation";
+$MESS["IM_START_CHAT_MESSAGE_FIRST"] = "all from the first message";
+$MESS["IM_COLOR_ENABLE"] = "Enable color themes for chats and users";
 ?>

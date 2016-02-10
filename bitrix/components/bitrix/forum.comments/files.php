@@ -29,6 +29,7 @@ class CCommentFiles
 		{
 			AddEventHandler("forum", "OnCommentAdd", Array(&$this, "OnCommentAdd"));
 			AddEventHandler("forum", "OnCommentPreview", Array(&$this, "OnCommentPreview"));
+			AddEventHandler("forum", "OnCommentError", Array(&$this, "OnCommentError"));
 		}
 	}
 
@@ -64,7 +65,7 @@ class CCommentFiles
 		}
 	}
 
-	function OnCommentPreview()
+	function OnCommentError()
 	{
 		$arResult =& $this->component->arResult;
 		$arParams =& $this->component->arParams;
@@ -112,7 +113,7 @@ class CCommentFiles
 			$arFilesExists[$key] = $val;
 		$arFilesExists = array_keys($arFilesExists);
 		sort($arFilesExists);
-		$arResult["MESSAGE_VIEW"]["FILES"] = $_REQUEST["FILES"] = $arFilesExists;	
+		$_REQUEST["FILES"] = $arFilesExists;
 
 		$arResult["REVIEW_FILES"] = array();
 		foreach ($_REQUEST["FILES"] as $key => $val)
@@ -120,6 +121,12 @@ class CCommentFiles
 
 		if (!empty($arError))
 			$arResult['ERROR'] = $arError;
+	}
+
+	function OnCommentPreview()
+	{
+		$this->OnCommentError();
+		$arResult["MESSAGE_VIEW"]["FILES"] = $_REQUEST["FILES"];
 	}
 
 	function OnCommentPreviewDisplay()

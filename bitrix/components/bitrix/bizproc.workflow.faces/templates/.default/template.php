@@ -48,7 +48,7 @@ if (empty($arResult['WORKFLOW_ID'])):?>
 				</a>
 				<?if ($task['USERS_CNT'] > 1):?>
 				<a id="<?=$cmpId?>_bp_more_cfs" href="#" class="process-step-more process-step-more-complete">
-					<span class=""><?=GetMessage('BPWLFC_MORE')?> <?=($task['USERS_CNT']-1)?></span>
+					<span class=""><?=GetMessage('BPWLFC_TOTAL')?> <?=$task['USERS_CNT']?></span>
 				</a>
 				<?endif?>
 			</div>
@@ -89,7 +89,7 @@ if (empty($arResult['WORKFLOW_ID'])):?>
 				<span class="bp-short-process-step-inner"><img id="<?=$cmpId?>_face_3_photo_src" src="<?=$photoSrc?>" border="0"/></span>
 			</a>
 			<? if ($allFaces >= 2):?>
-			<a id="<?=$cmpId?>_bp_more_rf" href="#" class="process-step-more process-step-more-running"><span><?=GetMessage('BPWLFC_MORE')?> <?=$allFaces?></span></a>
+			<a id="<?=$cmpId?>_bp_more_rf" href="#" class="process-step-more process-step-more-running"><span><?=GetMessage('BPWLFC_TOTAL')?> <?=$allFaces?></span></a>
 			<?endif?>
 		</span>
 		<script>

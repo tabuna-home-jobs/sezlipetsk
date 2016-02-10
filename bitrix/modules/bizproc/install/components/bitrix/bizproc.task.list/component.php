@@ -3,23 +3,27 @@
 if (!CModule::IncludeModule("bizproc"))
 	return false;
 
-if (!$GLOBALS["USER"]->IsAuthorized())
+global $USER, $APPLICATION;
+
+if (!$USER->IsAuthorized())
 {
-	$GLOBALS["APPLICATION"]->AuthForm("");
-	die();
+	$APPLICATION->AuthForm('');
+	return false;
 }
 
-$arParams["USER_ID"] = intval(empty($arParams["USER_ID"]) ? $USER->GetID() : $arParams["USER_ID"]);
+$currentUserId = $USER->GetID();
+$isAdmin = $USER->IsAdmin() || (CModule::IncludeModule('bitrix24') && CBitrix24::IsPortalAdmin($USER->GetID()));
+
+$targetUserId = intval(empty($arParams["USER_ID"]) ? $USER->GetID() : $arParams["USER_ID"]);
 if (
-	$arParams["USER_ID"] != $USER->GetID()
-	&& !CBPHelper::checkUserSubordination($USER->GetID(), $arParams["USER_ID"])
+	$targetUserId != $currentUserId
+	&& !$isAdmin
+	&& !CBPHelper::checkUserSubordination($currentUserId, $targetUserId)
 )
 {
 	ShowError(GetMessage("BPATL_ERROR_SUBORDINATION"));
 	return false;
 }
-
-$targetUserId = $arParams["USER_ID"];
 
 $arParams["WORKFLOW_ID"] = (empty($arParams["WORKFLOW_ID"]) ? $_REQUEST["WORKFLOW_ID"] : $arParams["WORKFLOW_ID"]);
 
@@ -72,11 +76,11 @@ if (strlen($arResult["FatalErrorMessage"]) <= 0 && !$arParams['COUNTERS_ONLY'])
 		array("id" => "WORKFLOW_PROGRESS", "name" => GetMessage("BPATL_WORKFLOW_PROGRESS"), "default" => true, "sort" => ""),
 		array("id" => "NAME", "name" => GetMessage("BPATL_NAME"), "default" => true, "sort" => "NAME"),
 		array("id" => "MODIFIED", "name" => GetMessage("BPATL_MODIFIED"), "default" => false, "sort" => "MODIFIED"),
-		array("id" => "WORKFLOW_STARTED", "name" => GetMessage("BPATL_STARTED"), "default" => false, "sort" => ""),
-		array("id" => "WORKFLOW_STARTED_BY", "name" => GetMessage("BPATL_STARTED_BY"), "default" => false, "sort" => ""),
+		array("id" => "WORKFLOW_STARTED", "name" => GetMessage("BPATL_STARTED"), "default" => false, "sort" => "WORKFLOW_STARTED"),
+		array("id" => "WORKFLOW_STARTED_BY", "name" => GetMessage("BPATL_STARTED_BY"), "default" => false, "sort" => "WORKFLOW_STARTED_BY"),
 		array("id" => "OVERDUE_DATE", "name" => GetMessage("BPATL_OVERDUE_DATE"), "default" => false, "sort" => "OVERDUE_DATE"),
-		array("id" => "WORKFLOW_NAME", "name" => GetMessage("BPATL_WORKFLOW_NAME"), "default" => false, "sort" => ""),
-		array("id" => "WORKFLOW_STATE", "name" => GetMessage("BPATL_WORKFLOW_STATE"), "default" => false, "sort" => ""),
+		array("id" => "WORKFLOW_TEMPLATE_NAME", "name" => GetMessage("BPATL_WORKFLOW_NAME"), "default" => false, "sort" => "WORKFLOW_TEMPLATE_NAME"),
+		array("id" => "WORKFLOW_STATE", "name" => GetMessage("BPATL_WORKFLOW_STATE"), "default" => false, "sort" => "WORKFLOW_STATE"),
 	);
 
 	foreach ($arResult["HEADERS"] as $h)
@@ -110,10 +114,10 @@ if (strlen($arResult["FatalErrorMessage"]) <= 0 && !$arParams['COUNTERS_ONLY'])
 
 	$arResult['DOCUMENT_TYPES'] = array(
 		'*' => array('NAME' => GetMessage('BPATL_FILTER_DOCTYPE_ALL'), 'COUNTER_KEY' => '*'),
-		'processes' => array('NAME' => GetMessage('BPATL_FILTER_DOCTYPE_CLAIMS'), 'FILTER' => array('MODULE_ID' => 'lists'), 'COUNTER_KEY' => 'lists'),
+		'processes' => array('NAME' => GetMessage('BPATL_FILTER_DOCTYPE_CLAIMS'), 'FILTER' => array('MODULE_ID' => 'lists', 'ENTITY' => 'BizprocDocument'), 'COUNTER_KEY' => 'lists'),
 		'crm' => array('NAME' => GetMessage('BPATL_FILTER_DOCTYPE_CRM'), 'FILTER' => array('MODULE_ID' => 'crm'), 'COUNTER_KEY' => 'crm'),
 		'disk' => array('NAME' => GetMessage('BPATL_FILTER_DOCTYPE_DISK'), 'FILTER' => array('MODULE_ID' => 'disk'), 'COUNTER_KEY' => 'disk'),
-		'lists' => array('NAME' => GetMessage('BPATL_FILTER_DOCTYPE_LISTS'), 'FILTER' => array('MODULE_ID' => 'iblock'), 'COUNTER_KEY' => 'iblock')
+		'lists' => array('NAME' => GetMessage('BPATL_FILTER_DOCTYPE_LISTS'), 'FILTER' => array('MODULE_ID' => 'lists', 'ENTITY' => 'Bitrix\Lists\BizprocDocumentLists'), 'COUNTER_KEY' => 'iblock')
 	);
 
 	if (!empty($_REQUEST['type']) && isset($arResult['DOCUMENT_TYPES'][$_REQUEST['type']]))
@@ -130,9 +134,12 @@ if (strlen($arResult["FatalErrorMessage"]) <= 0 && !$arParams['COUNTERS_ONLY'])
 	if (empty($arParams["WORKFLOW_ID"]))
 	{
 		$ar = array("" => GetMessage("BPATL_WORKFLOW_ID_ANY"));
+		$tmpFilter = $arFilter;
+		unset($tmpFilter['USER_STATUS']);
+
 		$dbResTmp = CBPTaskService::GetList(
 			array("WORKFLOW_TEMPLATE_NAME" => "ASC"),
-			$arFilter,
+			$tmpFilter,
 			array("WORKFLOW_TEMPLATE_TEMPLATE_ID", "WORKFLOW_TEMPLATE_NAME"),
 			false,
 			array("WORKFLOW_TEMPLATE_TEMPLATE_ID", "WORKFLOW_TEMPLATE_NAME")
@@ -202,17 +209,17 @@ if (strlen($arResult["FatalErrorMessage"]) <= 0 && !$arParams['COUNTERS_ONLY'])
 
 		if ($newKey == 'USER_ID')
 		{
-			if (!$value || $value == $arParams["USER_ID"])
+			if (!$value || $value == $targetUserId)
 				continue;
 
-			if (!CBPHelper::checkUserSubordination($arParams["USER_ID"], $value))
+			if ($isAdmin || CBPHelper::checkUserSubordination($currentUserId, $value))
 			{
-				$arResult['ERRORS'][] = GetMessage('BPATL_ERROR_SUBORDINATION');
-				$value = 0;
+				$targetUserId = $value;
 			}
 			else
 			{
-				$targetUserId = $value;
+				$arResult['ERRORS'][] = GetMessage('BPATL_ERROR_SUBORDINATION');
+				$value = 0;
 			}
 		}
 
@@ -232,11 +239,11 @@ if (strlen($arResult["FatalErrorMessage"]) <= 0 && !$arParams['COUNTERS_ONLY'])
 			if (strpos($action, 'set_status_') === 0)
 			{
 				$status = substr($action, strlen('set_status_'));
-				CBPDocument::setTasksUserStatus($arParams['USER_ID'], $status, $ids, $arResult['ERRORS']);
+				CBPDocument::setTasksUserStatus($targetUserId, $status, $ids, $arResult['ERRORS']);
 			}
 			if ($action == 'delegate_to' && !empty($_REQUEST['ACTION_DELEGATE_TO_ID']))
 			{
-				if (CBPHelper::checkUserSubordination($arParams['USER_ID'], $_REQUEST['ACTION_DELEGATE_TO_ID']))
+				if ($isAdmin || CBPHelper::checkUserSubordination($currentUserId, $_REQUEST['ACTION_DELEGATE_TO_ID']))
 				{
 					CBPDocument::delegateTasks($targetUserId, $_REQUEST['ACTION_DELEGATE_TO_ID'], $ids, $arResult['ERRORS']);
 				}
@@ -253,9 +260,8 @@ if (strlen($arResult["FatalErrorMessage"]) <= 0 && !$arParams['COUNTERS_ONLY'])
 		$gridOptions->GetNavParams(),
 		$arSelectFields
 	);
-	$arResult['IS_MY_TASKS'] = $arParams['USER_ID'] == $targetUserId;
+	$arResult['IS_MY_TASKS'] = $currentUserId == $targetUserId;
 	$arResult['TARGET_USER_ID'] = (int)$targetUserId;
-
 
 	$useComments = (bool)CModule::IncludeModule("forum");
 	$workflows = array();
@@ -284,19 +290,21 @@ if (strlen($arResult["FatalErrorMessage"]) <= 0 && !$arParams['COUNTERS_ONLY'])
 		if (array_key_exists("DESCRIPTION", $arRecord))
 			$arRecord["DESCRIPTION"] = nl2br($arRecord["DESCRIPTION"]);
 
-		if (count(array_intersect($arSelectFields, array("WORKFLOW_NAME", "WORKFLOW_STATE", "WORKFLOW_STARTED", "WORKFLOW_STARTED_BY"))) > 0)
+		if (isset($arRecord['WORKFLOW_TEMPLATE_NAME']))
+			$arRecord["WORKFLOW_NAME"] = $arRecord["WORKFLOW_TEMPLATE_NAME"]; // compatibility
+		if (isset($arRecord['WORKFLOW_STARTED']))
+			$arRecord["WORKFLOW_STARTED"] = FormatDateFromDB($arRecord["WORKFLOW_STARTED"]);
+
+		if (!empty($arRecord['WORKFLOW_STARTED_BY']))
 		{
-			$arState = CBPStateService::GetWorkflowState($arRecord["WORKFLOW_ID"]);
-			$arRecord["WORKFLOW_NAME"] = $arState["TEMPLATE_NAME"];
-			$arRecord["WORKFLOW_STATE"] = $arState["STATE_TITLE"];
-			$arRecord["WORKFLOW_STARTED"] = FormatDateFromDB($arState["STARTED_FORMATTED"]);
+			$tmpUserId = (int) $arRecord['WORKFLOW_STARTED_BY'];
 			$arRecord["WORKFLOW_STARTED_BY"] = "";
-			if (intval($arState["STARTED_BY"]) > 0)
+			if ($tmpUserId > 0)
 			{
-				$dbUserTmp = CUser::GetByID($arState["STARTED_BY"]);
+				$dbUserTmp = CUser::GetByID($tmpUserId);
 				$arUserTmp = $dbUserTmp->fetch();
 				$arRecord["WORKFLOW_STARTED_BY"] = CUser::FormatName($arParams["NAME_TEMPLATE"], $arUserTmp, true);
-				$arRecord["WORKFLOW_STARTED_BY"] .= " [".$arState["STARTED_BY"]."]";
+				$arRecord["WORKFLOW_STARTED_BY"] .= " [".$tmpUserId."]";
 			}
 		}
 
@@ -340,7 +348,7 @@ if (strlen($arResult["FatalErrorMessage"]) <= 0 && !$arParams['COUNTERS_ONLY'])
 
 if ($arParams["SHOW_TRACKING"] == "Y")
 {
-	$arResult["H_GRID_ID"] = "bizproc_tasksListH_".$arParams["USER_ID"];
+	$arResult["H_GRID_ID"] = "bizproc_tasksListH_".$currentUserId;
 
 	$hgridOptions = new CGridOptions($arResult["H_GRID_ID"]);
 	$hgridColumns = $hgridOptions->GetVisibleColumns();
@@ -355,7 +363,7 @@ if ($arParams["SHOW_TRACKING"] == "Y")
 
 	$arResult["H_RECORDS"] = array();
 
-	$arFilter = array("MODIFIED_BY" => $arParams["USER_ID"]);
+	$arFilter = array("MODIFIED_BY" => $targetUserId);
 	if (!empty($arParams["WORKFLOW_ID"]))
 		$arFilter["WORKFLOW_ID"] = $arParams["WORKFLOW_ID"];
 

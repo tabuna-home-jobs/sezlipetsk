@@ -1,5 +1,5 @@
 <?
-$sSectionName = "Технологическое присоединение / подключение";
+$sSectionName = "Connection to utilities";
 $arDirProperties = Array(
 
 );

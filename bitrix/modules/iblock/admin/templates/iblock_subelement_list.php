@@ -1,11 +1,21 @@
 <?
 /** @global CUser $USER */
+/** @global CDatabase $DB */
+/** @global CMain $APPLICATION */
+/** @global string $strSubIBlockType */
+/** @global int $intSubPropValue */
+/** @global int $strSubTMP_ID */
+/** @global array $arCatalog */
+/** @global array $arSubIBlock */
+/** @global string $by */
+/** @global string $order */
+/** @global array $FIELDS_del */
+use Bitrix\Main,
+	Bitrix\Main\Loader,
+	Bitrix\Currency;
+
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)
 	die();
-
-global $APPLICATION;
-
-IncludeModuleLangFile(__FILE__);
 
 /*
 * B_ADMIN_SUBELEMENTS
@@ -38,6 +48,9 @@ if (!defined('B_ADMIN_SUBELEMENTS') || 1 != B_ADMIN_SUBELEMENTS)
 if (!defined('B_ADMIN_SUBELEMENTS_LIST'))
 	return '';
 
+IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"].BX_ROOT."/modules/iblock/admin/iblock_element_admin.php");
+IncludeModuleLangFile(__FILE__);
+
 $strSubElementAjaxPath = trim($strSubElementAjaxPath);
 $strSubIBlockType = trim($strSubIBlockType);
 $intSubIBlockID = (int)$intSubIBlockID;
@@ -55,13 +68,13 @@ $strSaveWithoutPrice = '';
 $boolCatalogRead = false;
 $boolCatalogPrice = false;
 $boolCatalogPurchasInfo = false;
+$catalogPurchasInfoEdit = false;
 $boolCatalogSet = false;
 $arProductTypeList = array();
-
 if ($boolSubCatalog)
 {
-	$strUseStoreControl = COption::GetOptionString("catalog", "default_use_store_control");
-	$strSaveWithoutPrice = COption::GetOptionString('catalog','save_product_without_price','N');
+	$strUseStoreControl = COption::GetOptionString('catalog', 'default_use_store_control');
+	$strSaveWithoutPrice = COption::GetOptionString('catalog','save_product_without_price');
 	$boolCatalogRead = $USER->CanDoOperation('catalog_read');
 	$boolCatalogPrice = $USER->CanDoOperation('catalog_price');
 	$boolCatalogPurchasInfo = $USER->CanDoOperation('catalog_purchas_info');
@@ -69,6 +82,8 @@ if ($boolSubCatalog)
 	$arProductTypeList = array(
 		CCatalogProduct::TYPE_OFFER => GetMessage('IBEL_CATALOG_TYPE_MESS_OFFER')
 	);
+	if ($boolCatalogPurchasInfo)
+		$catalogPurchasInfoEdit = $boolCatalogPrice && $strUseStoreControl != 'Y';
 }
 
 define("MODULE_ID", "iblock");
@@ -76,24 +91,21 @@ define("ENTITY", "CIBlockDocument");
 define("DOCUMENT_TYPE", "iblock_".$intSubIBlockID);
 
 if (isset($_REQUEST['mode']) && ($_REQUEST['mode']=='list' || $_REQUEST['mode']=='frame'))
-{
 	CFile::DisableJSFunction(true);
-}
 
-$intSubPropValue = intval($intSubPropValue);
+$intSubPropValue = (int)$intSubPropValue;
 
-$strSubTMP_ID = intval($strSubTMP_ID);
-
-IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"].BX_ROOT."/modules/iblock/admin/iblock_element_admin.php");
-IncludeModuleLangFile(__FILE__);
+$strSubTMP_ID = (int)$strSubTMP_ID;
 
 require_once($_SERVER['DOCUMENT_ROOT'].'/bitrix/modules/iblock/classes/general/subelement.php');
 
+$listImageSize = Main\Config\Option::get('iblock', 'list_image_size');
 $minImageSize = array("W" => 1, "H"=>1);
 $maxImageSize = array(
-	"W" => COption::GetOptionString("iblock", "list_image_size"),
-	"H" => COption::GetOptionString("iblock", "list_image_size"),
+	"W" => $listImageSize,
+	"H" => $listImageSize,
 );
+unset($listImageSize);
 
 $dbrFProps = CIBlockProperty::GetList(
 	array(
@@ -127,12 +139,9 @@ $arFilterFields = array(
 
 $find_section_section = -1;
 
-//We have to handle current section in a special way
 $section_id = intval($find_section_section);
 $lAdmin->InitFilter($arFilterFields);
 $find_section_section = $section_id;
-//This is all parameters needed for proper navigation
-//$sThisSectionUrl = '&type='.urlencode($strSubIBlockType).'&lang='.LANG.'&IBLOCK_ID='.$intSubIBlockID.'&find_section_section='.intval($find_section_section);
 $sThisSectionUrl = '';
 
 // simple filter
@@ -342,12 +351,24 @@ if (defined('B_ADMIN_SUBELEMENTS_LIST') && true === B_ADMIN_SUBELEMENTS_LIST)
 						$arCatalogProduct['VAT_INCLUDED'] = $arFields['CATALOG_VAT_INCLUDED'];
 					if (isset($arFields['CATALOG_QUANTITY_TRACE']) && !empty($arFields['CATALOG_QUANTITY_TRACE']))
 						$arCatalogProduct['QUANTITY_TRACE'] = $arFields['CATALOG_QUANTITY_TRACE'];
+					if (isset($arFields['CATALOG_MEASURE']) && is_string($arFields['CATALOG_MEASURE']) && (int)$arFields['CATALOG_MEASURE'] > 0)
+						$arCatalogProduct['MEASURE'] = $arFields['CATALOG_MEASURE'];
 					if ('Y' != $strUseStoreControl)
 					{
 						if (isset($arFields['CATALOG_QUANTITY']) && '' != $arFields['CATALOG_QUANTITY'])
 							$arCatalogProduct['QUANTITY'] = $arFields['CATALOG_QUANTITY'];
 					}
-
+					if ($catalogPurchasInfoEdit)
+					{
+						if (
+							isset($arFields['CATALOG_PURCHASING_PRICE']) && is_string($arFields['CATALOG_PURCHASING_PRICE']) && $arFields['CATALOG_PURCHASING_PRICE'] != ''
+							&& isset($arFields['CATALOG_PURCHASING_CURRENCY']) && is_string($arFields['CATALOG_PURCHASING_CURRENCY']) && $arFields['CATALOG_PURCHASING_CURRENCY'] != ''
+						)
+						{
+							$arCatalogProduct['PURCHASING_PRICE'] = $arFields['CATALOG_PURCHASING_PRICE'];
+							$arCatalogProduct['PURCHASING_CURRENCY'] = $arFields['CATALOG_PURCHASING_CURRENCY'];
+						}
+					}
 					if (!CCatalogProduct::IsExistProduct($subID))
 					{
 						$arCatalogProduct['ID'] = $subID;
@@ -369,17 +390,13 @@ if (defined('B_ADMIN_SUBELEMENTS_LIST') && true === B_ADMIN_SUBELEMENTS_LIST)
 							array('ID', 'PRODUCT_ID')
 						);
 						if ($arRatio = $rsRatios->Fetch())
-						{
-							$intRatioID = intval($arRatio['ID']);
-						}
-						if (0 < $intRatioID)
-						{
+							$intRatioID = (int)$arRatio['ID'];
+						unset($arRatio, $rsRatios);
+
+						if ($intRatioID > 0)
 							CCatalogMeasureRatio::update($intRatioID, array('RATIO' => trim($arFields['CATALOG_MEASURE_RATIO'])));
-						}
 						else
-						{
 							CCatalogMeasureRatio::add(array('PRODUCT_ID' => $subID, 'RATIO' => trim($arFields['CATALOG_MEASURE_RATIO'])));
-						}
 					}
 				}
 			}
@@ -398,6 +415,7 @@ if (defined('B_ADMIN_SUBELEMENTS_LIST') && true === B_ADMIN_SUBELEMENTS_LIST)
 				$CATALOG_PRICE_old = $_POST["CATALOG_old_PRICE"];
 				$CATALOG_CURRENCY_old = $_POST["CATALOG_old_CURRENCY"];
 
+				$arCatExtraUp = array();
 				$db_extras = CExtra::GetList(array("ID" => "ASC"));
 				while ($extras = $db_extras->Fetch())
 					$arCatExtraUp[$extras["ID"]] = $extras["PERCENTAGE"];
@@ -711,7 +729,7 @@ if (defined('B_ADMIN_SUBELEMENTS_LIST') && true === B_ADMIN_SUBELEMENTS_LIST)
 			case "unlock":
 				if ($bWorkFlow && !CIBlockElementRights::UserHasRightTo($intSubIBlockID, $subID, "element_edit"))
 				{
-					$lAdmin->AddGroupError(GetMessage("IBEL_A_UPDERR3")." (ID:".$ID.")", $ID);
+					$lAdmin->AddGroupError(GetMessage("IBEL_A_UPDERR3")." (ID:".$subID.")", $subID);
 					continue;
 				}
 				if ($bBizproc)
@@ -739,9 +757,8 @@ if (defined('B_ADMIN_SUBELEMENTS_LIST') && true === B_ADMIN_SUBELEMENTS_LIST)
 
 CJSCore::Init(array('translit'));
 
-$CAdminCalendar_ShowScript = '';
 if (true == B_ADMIN_SUBELEMENTS_LIST)
-	$CAdminCalendar_ShowScript = CAdminCalendar::ShowScript();
+	CJSCore::Init(array('date'));
 
 $arHeader = array();
 if ($boolSubCatalog)
@@ -794,7 +811,7 @@ foreach ($arProps as &$arFProps)
 if (isset($arFProps))
 	unset($arFProps);
 
-$arWFStatus = Array();
+$arWFStatus = array();
 if ($boolSubWorkFlow)
 {
 	$rsWF = CWorkflowStatus::GetDropDownList('Y');
@@ -809,6 +826,11 @@ if ($boolSubCatalog)
 		"content" => GetMessage("IBEL_CATALOG_QUANTITY_EXT"),
 		"align" => "right",
 		"sort" => "CATALOG_QUANTITY",
+	);
+	$arHeader[] = array(
+		"id" => "CATALOG_QUANTITY_RESERVED",
+		"content" => GetMessage("IBEL_CATALOG_QUANTITY_RESERVED"),
+		"align" => "right"
 	);
 	$arHeader[] = array(
 		"id" => "CATALOG_MEASURE_RATIO",
@@ -878,7 +900,7 @@ if ($boolSubCatalog)
 			"content" => htmlspecialcharsex(!empty($arCatalogGroup["NAME_LANG"]) ? $arCatalogGroup["NAME_LANG"] : $arCatalogGroup["NAME"]),
 			"align" => "right",
 			"sort" => "CATALOG_PRICE_".$arCatalogGroup["ID"],
-			"default" => ($arBaseGroup['ID'] == $arCatalogGroup["ID"] ? true : false),
+			"default" => ($arBaseGroup['ID'] == $arCatalogGroup["ID"]),
 		);
 		$arCatGroup[$arCatalogGroup["ID"]] = $arCatalogGroup;
 	}
@@ -914,11 +936,12 @@ $lAdmin->AddHeaders($arHeader);
 
 $arSelectedFields = $lAdmin->GetVisibleHeaderColumns();
 
-$arSelectedProps = Array();
+$arSelectedProps = array();
+$arSelect = array();
 foreach ($arProps as $i => $arProperty)
 {
 	$k = array_search("PROPERTY_".$arProperty['ID'], $arSelectedFields);
-	if ($k!==false)
+	if ($k !== false)
 	{
 		$arSelectedProps[] = $arProperty;
 		if ($arProperty["PROPERTY_TYPE"] == "L")
@@ -994,17 +1017,9 @@ if ($boolSubCatalog)
 	}
 	if ($boolPriceInc)
 	{
-		$boolSubCurrency = CModule::IncludeModule('currency');
+		$boolSubCurrency = Loader::includeModule('currency');
 		if ($boolSubCurrency)
-		{
-			$by1 = 'sort';
-			$order1 = 'asc';
-			$rsCurrencies = CCurrency::GetList($by1, $order1);
-			while ($arCurrency = $rsCurrencies->GetNext())
-			{
-				$arCurrencyList[] = $arCurrency;
-			}
-		}
+			$arCurrencyList = array_keys(Currency\CurrencyManager::getCurrencyList());
 	}
 	unset($boolPriceInc);
 }
@@ -1012,6 +1027,15 @@ if ($boolSubCatalog)
 $arSelectedFieldsMap = array();
 foreach ($arSelectedFields as $field)
 	$arSelectedFieldsMap[$field] = true;
+
+$measureList = array(0 => ' ');
+if (isset($arSelectedFieldsMap['CATALOG_MEASURE']))
+{
+	$measureIterator = CCatalogMeasure::getList(array(), array(), false, false, array('ID', 'MEASURE_TITLE', 'SYMBOL_RUS'));
+	while($measure = $measureIterator->Fetch())
+		$measureList[$measure['ID']] = ($measure['SYMBOL_RUS'] != '' ? $measure['SYMBOL_RUS'] : $measure['MEASURE_TITLE']);
+	unset($measure, $measureIterator);
+}
 
 if (!(false == B_ADMIN_SUBELEMENTS_LIST && $bCopy))
 {
@@ -1062,11 +1086,9 @@ if (!(false == B_ADMIN_SUBELEMENTS_LIST && $bCopy))
 	}
 
 	$arRows = array();
-	$arMeasureList = array();
-	$arMeasureIDs = array();
 	$arProductGroupIDs = array();
 
-	$boolSubSearch = CModule::IncludeModule('search');
+	$boolSubSearch = Loader::includeModule('search');
 
 	$boolOldOffers = false;
 	while ($arRes = $rsData->NavNext(true, "f_"))
@@ -1127,11 +1149,9 @@ if (!(false == B_ADMIN_SUBELEMENTS_LIST && $bCopy))
 		}
 		if (isset($arSelectedFieldsMap['CATALOG_MEASURE']))
 		{
-			$arRes['CATALOG_MEASURE'] = intval($arRes['CATALOG_MEASURE']);
-			if (0 < $arRes['CATALOG_MEASURE'])
-				$arMeasureIDs[$arRes['CATALOG_MEASURE']] = true;
-			else
-				$arRes['CATALOG_MEASURE'] = '';
+			$arRes['CATALOG_MEASURE'] = (int)$arRes['CATALOG_MEASURE'];
+			if ($arRes['CATALOG_MEASURE'] < 0)
+				$arRes['CATALOG_MEASURE'] = 0;
 		}
 
 		$arRes['lockStatus'] = $lockStatus;
@@ -1158,23 +1178,16 @@ if (!(false == B_ADMIN_SUBELEMENTS_LIST && $bCopy))
 			$row->AddViewField("USER_NAME", '<a href="/bitrix/admin/user_edit.php?lang='.LANGUAGE_ID.'&ID='.$f_MODIFIED_BY.'" title="'.GetMessage("IBEL_A_USERINFO").'">'.$f_USER_NAME.'</a>');
 		$row->AddViewField("CREATED_USER_NAME", '<a href="/bitrix/admin/user_edit.php?lang='.LANGUAGE_ID.'&ID='.$f_CREATED_BY.'" title="'.GetMessage("IBEL_A_USERINFO").'">'.$f_CREATED_USER_NAME.'</a>');
 
-		if ($bSubWorkFlow || $bSubBizproc)
+		if ($boolSubWorkFlow || $boolSubBizproc)
 		{
-			$lamp = "/bitrix/images/workflow/".$lockStatus.".gif";
-			if ($lockStatus=="green")
-				$lamp_alt = GetMessage("IBLOCK_GREEN_ALT");
-			elseif ($lockStatus=="yellow")
-				$lamp_alt = GetMessage("IBLOCK_YELLOW_ALT");
-			else
-				$lamp_alt = GetMessage("IBLOCK_RED_ALT");
-
+			$lamp = '<span class="adm-lamp adm-lamp-in-list adm-lamp-'.$lockStatus.'"></span>';
 			if ($lockStatus=='red' && $arRes_orig['LOCKED_USER_NAME']!='')
-				$row->AddViewField("LOCK_STATUS", '<table cellpadding="0" cellspacing="0" border="0"><tr><td><img hspace="4" src="'.$lamp.'" alt="'.htmlspecialcharsbx($lamp_alt).'" title="'.htmlspecialcharsbx($lamp_alt).'" /></td><td>'.$arRes_orig['LOCKED_USER_NAME'].$unlock.'</td></tr></table>');
+				$row->AddViewField("LOCK_STATUS", $lamp.$arRes_orig['LOCKED_USER_NAME']);
 			else
-				$row->AddViewField("LOCK_STATUS", '<img src="'.$lamp.'" hspace="4" alt="'.htmlspecialcharsbx($lamp_alt).'" title="'.htmlspecialcharsbx($lamp_alt).'" />');
+				$row->AddViewField("LOCK_STATUS", $lamp);
 		}
 
-		if ($bSubBizproc)
+		if ($boolSubBizproc)
 			$row->AddCheckField("BP_PUBLISHED", false);
 
 		$row->arRes['props'] = array();
@@ -1559,14 +1572,14 @@ if (!(false == B_ADMIN_SUBELEMENTS_LIST && $bCopy))
 								if ($CatGroup["BASE"]=="Y")
 									$selectCur .= ' onchange="top.SubChangeBaseCurrency('.$f_ID.')"';
 								$selectCur .= '>';
-								foreach ($arCurrencyList as &$arOneCurrency)
+								foreach ($arCurrencyList as &$currencyCode)
 								{
-									$selectCur .= '<option value="'.$arOneCurrency["CURRENCY"].'"';
-									if ($arOneCurrency["~CURRENCY"] == $arRes["CATALOG_CURRENCY_".$CatGroup["ID"]])
+									$selectCur .= '<option value="'.$currencyCode.'"';
+									if ($currencyCode == $arRes["CATALOG_CURRENCY_".$CatGroup["ID"]])
 										$selectCur .= ' selected';
-									$selectCur .= '>'.$arOneCurrency["CURRENCY"].'</option>';
+									$selectCur .= '>'.$currencyCode.'</option>';
 								}
-								unset($arOneCurrency);
+								unset($currencyCode);
 								$selectCur .= '</select>';
 							}
 						}
@@ -1657,9 +1670,9 @@ if (!(false == B_ADMIN_SUBELEMENTS_LIST && $bCopy))
 
 	$boolIBlockElementAdd = CIBlockSectionRights::UserHasRightTo($intSubIBlockID, $find_section_section, "section_element_bind");
 
-$availQuantityTrace = COption::GetOptionString("catalog", "default_quantity_trace", 'N');
+$availQuantityTrace = COption::GetOptionString('catalog', 'default_quantity_trace');
 $arQuantityTrace = array(
-	"D" => GetMessage("IBEL_DEFAULT_VALUE")." (".($availQuantityTrace=='Y' ? GetMessage("IBEL_YES_VALUE") : GetMessage("IBEL_NO_VALUE")).")",
+	"D" => GetMessage("IBEL_DEFAULT_VALUE")." (".($availQuantityTrace == 'Y' ? GetMessage("IBEL_YES_VALUE") : GetMessage("IBEL_NO_VALUE")).")",
 	"Y" => GetMessage("IBEL_YES_VALUE"),
 	"N" => GetMessage("IBEL_NO_VALUE"),
 );
@@ -1720,21 +1733,7 @@ if (!empty($arRows))
 			}
 		}
 	}
-	if (isset($arSelectedFieldsMap['CATALOG_MEASURE']) && !empty($arMeasureIDs))
-	{
-		$rsMeasures = CCatalogMeasure::getList(
-			array(),
-			array('@ID' => array_keys($arMeasureIDs)),
-			false,
-			false,
-			array()
-		);
-		while ($arMeasure = $rsMeasures->Fetch())
-		{
-			$arMeasure['ID'] = (int)$arMeasure['ID'];
-			$arMeasureList[$arMeasure['ID']] = ('' != $arMeasure['SYMBOL_RUS'] ? $arMeasure['SYMBOL_RUS'] : $arMeasure['MEASURE_TITLE']);
-		}
-	}
+
 	if (isset($arSelectedFieldsMap['CATALOG_MEASURE_RATIO']))
 	{
 		$rsRatios = CCatalogMeasureRatio::getList(
@@ -1895,17 +1894,32 @@ if (!empty($arRows))
 				$row->AddCheckField("CATALOG_VAT_INCLUDED");
 				if ($boolCatalogPurchasInfo)
 				{
-					if (0 < doubleval($row->arRes["CATALOG_PURCHASING_PRICE"]))
+					$price = '';
+					if ((float)$row->arRes['CATALOG_PURCHASING_PRICE'] > 0)
 					{
 						if ($boolSubCurrency)
-						{
 							$price = CCurrencyLang::CurrencyFormat($row->arRes["CATALOG_PURCHASING_PRICE"], $row->arRes["CATALOG_PURCHASING_CURRENCY"], true);
-						}
 						else
-						{
 							$price = $row->arRes["CATALOG_PURCHASING_PRICE"]." ".$row->arRes["CATALOG_PURCHASING_CURRENCY"];
+					}
+					$row->AddViewField("CATALOG_PURCHASING_PRICE", htmlspecialcharsEx($price));
+					unset($price);
+					if ($catalogPurchasInfoEdit && $boolSubCurrency)
+					{
+						$editFieldCode = '<input type="hidden" name="FIELDS_OLD['.$f_ID.'][CATALOG_PURCHASING_PRICE]" value="'.$row->arRes['CATALOG_PURCHASING_PRICE'].'">';
+						$editFieldCode .= '<input type="hidden" name="FIELDS_OLD['.$f_ID.'][CATALOG_PURCHASING_CURRENCY]" value="'.$row->arRes['CATALOG_PURCHASING_CURRENCY'].'">';
+						$editFieldCode .= '<input type="text" size="5" name="FIELDS['.$f_ID.'][CATALOG_PURCHASING_PRICE]" value="'.$row->arRes['CATALOG_PURCHASING_PRICE'].'">';
+						$editFieldCode .= '<select name="FIELDS['.$f_ID.'][CATALOG_PURCHASING_CURRENCY]">';
+						foreach ($arCurrencyList as &$currencyCode)
+						{
+							$editFieldCode .= '<option value="'.$currencyCode.'"';
+							if ($currencyCode == $row->arRes['CATALOG_PURCHASING_CURRENCY'])
+								$editFieldCode .= ' selected';
+							$editFieldCode .= '>'.$currencyCode.'</option>';
 						}
-						$row->AddViewField("CATALOG_PURCHASING_PRICE", htmlspecialcharsEx($price));
+						$editFieldCode .= '</select>';
+						$row->AddEditField('CATALOG_PURCHASING_PRICE', $editFieldCode);
+						unset($editFieldCode);
 					}
 				}
 				$row->AddInputField("CATALOG_MEASURE_RATIO");
@@ -1918,18 +1932,16 @@ if (!empty($arRows))
 				$row->AddCheckField("CATALOG_VAT_INCLUDED", false);
 				if ($boolCatalogPurchasInfo)
 				{
-					if (0 < doubleval($row->arRes["CATALOG_PURCHASING_PRICE"]))
+					$price = '';
+					if ((float)$row->arRes["CATALOG_PURCHASING_PRICE"] > 0)
 					{
 						if ($boolSubCurrency)
-						{
 							$price = CCurrencyLang::CurrencyFormat($row->arRes["CATALOG_PURCHASING_PRICE"], $row->arRes["CATALOG_PURCHASING_CURRENCY"], true);
-						}
 						else
-						{
 							$price = $row->arRes["CATALOG_PURCHASING_PRICE"]." ".$row->arRes["CATALOG_PURCHASING_CURRENCY"];
-						}
-						$row->AddViewField("CATALOG_PURCHASING_PRICE", htmlspecialcharsEx($price));
 					}
+					$row->AddViewField("CATALOG_PURCHASING_PRICE", htmlspecialcharsEx($price));
+					unset($price);
 				}
 				$row->AddInputField("CATALOG_MEASURE_RATIO", false);
 			}
@@ -1954,18 +1966,16 @@ if (!empty($arRows))
 				$row->AddCheckField("CATALOG_VAT_INCLUDED", false);
 				if ($boolCatalogPurchasInfo)
 				{
-					if (0 < doubleval($row->arRes["CATALOG_PURCHASING_PRICE"]))
+					$price = '';
+					if ((float)$row->arRes["CATALOG_PURCHASING_PRICE"] > 0)
 					{
 						if ($boolSubCurrency)
-						{
 							$price = CCurrencyLang::CurrencyFormat($row->arRes["CATALOG_PURCHASING_PRICE"], $row->arRes["CATALOG_PURCHASING_CURRENCY"], true);
-						}
 						else
-						{
 							$price = $row->arRes["CATALOG_PURCHASING_PRICE"]." ".$row->arRes["CATALOG_PURCHASING_CURRENCY"];
-						}
-						$row->AddViewField("CATALOG_PURCHASING_PRICE", htmlspecialcharsEx($price));
 					}
+					$row->AddViewField("CATALOG_PURCHASING_PRICE", htmlspecialcharsEx($price));
+					unset($price);
 				}
 				$row->AddInputField("CATALOG_MEASURE_RATIO", false);
 			}
@@ -1981,8 +1991,19 @@ if (!empty($arRows))
 		}
 		if ($bCatalog && isset($arSelectedFieldsMap['CATALOG_MEASURE']))
 		{
-			$strMeasure = (isset($arMeasureList[$row->arRes['CATALOG_MEASURE']]) ? $arMeasureList[$row->arRes['CATALOG_MEASURE']] : '');
-			$row->AddViewField('CATALOG_MEASURE', $strMeasure);
+			if (isset($arElementOps[$f_ID]["element_edit_price"]) && $boolCatalogPrice)
+			{
+				$row->AddSelectField('CATALOG_MEASURE', $measureList);
+			}
+			else
+			{
+				$measureTitle = (isset($measureList[$row->arRes['CATALOG_MEASURE']])
+					? $measureList[$row->arRes['CATALOG_MEASURE']]
+					: $measureList[0]
+				);
+				$row->AddViewField('CATALOG_MEASURE', $measureTitle);
+				unset($measureTitle);
+			}
 		}
 
 		$arActions = array();
@@ -2434,12 +2455,6 @@ function ShowSkuGenerator(id)
 	}
 }
 </script><?
-
-	if (true == B_ADMIN_SUBELEMENTS_LIST)
-	{
-		echo $CAdminCalendar_ShowScript;
-	}
-
 	//We need javascript not in excel mode
 	if (($_REQUEST["mode"]=='list' || $_REQUEST["mode"]=='frame') && $boolSubCatalog && $boolSubCurrency)
 	{
@@ -2571,6 +2586,14 @@ function ShowSkuGenerator(id)
 	$lAdmin->CheckListMode();
 
 	$lAdmin->DisplayList(B_ADMIN_SUBELEMENTS_LIST);
+	if ($boolSubWorkFlow || $boolSubBizproc)
+	{
+		echo BeginNote();?>
+		<span class="adm-lamp adm-lamp-green"></span> - <?echo GetMessage("IBLOCK_GREEN_ALT")?><br>
+		<span class="adm-lamp adm-lamp-yellow"></span> - <?echo GetMessage("IBLOCK_YELLOW_ALT")?><br>
+		<span class="adm-lamp adm-lamp-red"></span> - <?echo GetMessage("IBLOCK_RED_ALT")?><br>
+		<?echo EndNote();
+	}
 }
 else
 {

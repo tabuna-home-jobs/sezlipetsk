@@ -24,13 +24,6 @@ unset($arParams["IBLOCK_TYPE"]);
 $arParams["IBLOCK_ID"] = intval($arParams["IBLOCK_ID"]);
 
 $arParams["DETAIL_URL"]=trim($arParams["DETAIL_URL"]);
-$arParams["COMPARE_URL"]=trim($arParams["COMPARE_URL"]);
-if($arParams["COMPARE_URL"] == '')
-	$arParams["COMPARE_URL"] = "compare.php";
-
-$arParams["NAME"]=trim($arParams["NAME"]);
-if($arParams["NAME"] == '')
-	$arParams["NAME"] = "CATALOG_COMPARE_LIST";
 
 $arParams["ACTION_VARIABLE"] = trim($arParams["ACTION_VARIABLE"]);
 if ($arParams["ACTION_VARIABLE"] == '' || !preg_match("/^[A-Za-z_][A-Za-z01-9_]*$/", $arParams["ACTION_VARIABLE"]))
@@ -39,6 +32,27 @@ if ($arParams["ACTION_VARIABLE"] == '' || !preg_match("/^[A-Za-z_][A-Za-z01-9_]*
 $arParams["PRODUCT_ID_VARIABLE"] = trim($arParams["PRODUCT_ID_VARIABLE"]);
 if ($arParams["PRODUCT_ID_VARIABLE"] == '' || !preg_match("/^[A-Za-z_][A-Za-z01-9_]*$/", $arParams["PRODUCT_ID_VARIABLE"]))
 	$arParams["PRODUCT_ID_VARIABLE"] = "id";
+
+$arParams['COMPARE_URL'] = (isset($arParams['COMPARE_URL']) ? trim($arParams['COMPARE_URL']) : '');
+if($arParams['COMPARE_URL'] == '')
+{
+	$comparePath = "compare.php?";
+}
+else
+{
+	$comparePath = CHTTP::urlDeleteParams(
+		$arParams['COMPARE_URL'],
+		array($arParams['PRODUCT_ID_VARIABLE'], $arParams['ACTION_VARIABLE'], ''),
+		array('delete_system_params' => true)
+	);
+	$comparePath .= (stripos($comparePath, '?') === false ? '?' : '&');
+}
+$arParams['COMPARE_URL'] = $comparePath.$arParams['ACTION_VARIABLE'].'=COMPARE';
+unset($comparePath);
+
+$arParams["NAME"]=trim($arParams["NAME"]);
+if($arParams["NAME"] == '')
+	$arParams["NAME"] = "CATALOG_COMPARE_LIST";
 
 if(!isset($_SESSION[$arParams["NAME"]]) || !is_array($_SESSION[$arParams["NAME"]]))
 	$_SESSION[$arParams["NAME"]] = array();

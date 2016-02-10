@@ -31,6 +31,7 @@ $arDefaultUrlTemplates404 = array(
 	"bp" => "#block_id#/bp.php",
 	"setvar" => "#block_id#/setvar.php",
 	"log" => "#block_id#/log-#bp_id#.php",
+	'instances' => 'instances.php'
 );
 $arDefaultUrlTemplatesN404 = array(
 	"index" => "page=index",
@@ -43,6 +44,7 @@ $arDefaultUrlTemplatesN404 = array(
 	"bp" => "page=bp&block_id=#block_id#",
 	"setvar" => "page=setvar&block_id=#block_id#",
 	"log" => "page=log&block_id=#block_id#&bp_id=#bp_id#",
+	'instances' => 'page=instances'
 );
 $arDefaultVariableAliases404 = array();
 $arDefaultVariableAliases = array();
@@ -122,9 +124,12 @@ $arResult = array_merge(
 if (isset($arResult["VARIABLES"]["block_id"]))
 {
 	global $CACHE_MANAGER;
-	if ($CACHE_MANAGER->Read(86400, "component_bizproc_wizards_templates"))
+
+	$cacheTag = 'component_bizproc_wizards_templates_'.$arParams["IBLOCK_TYPE"];
+
+	if ($CACHE_MANAGER->Read(86400, $cacheTag))
 	{
-		$arComponentTemplates = $CACHE_MANAGER->Get("component_bizproc_wizards_templates");
+		$arComponentTemplates = $CACHE_MANAGER->Get($cacheTag);
 	}
 	else
 	{
@@ -144,7 +149,7 @@ if (isset($arResult["VARIABLES"]["block_id"]))
 			}
 		}
 
-		$CACHE_MANAGER->Set("component_bizproc_wizards_templates", $arComponentTemplates);
+		$CACHE_MANAGER->Set($cacheTag, $arComponentTemplates);
 	}
 
 	$arResult["COMPONENT_TEMPLATES"] = (array_key_exists($arResult["VARIABLES"]["block_id"], $arComponentTemplates) ? $arComponentTemplates[$arResult["VARIABLES"]["block_id"]] : array());

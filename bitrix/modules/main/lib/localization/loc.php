@@ -9,7 +9,8 @@ final class Loc
 {
 	private static $currentLang = null;
 	private static $messages = array();
-	private static $customMessages = null;
+	private static $customMessages = array();
+	private static $userMessages = null;
 	private static $includedFiles = array();
 	private static $lazyLoadFiles = array();
 
@@ -26,8 +27,9 @@ final class Loc
 	{
 		if($language === null)
 		{
+			//function call optimization
 			if(static::$currentLang === null)
-				static::$currentLang = self::getCurrentLang();
+				self::getCurrentLang();
 
 			$language = static::$currentLang;
 		}
@@ -68,10 +70,19 @@ final class Loc
 
 	private static function getCurrentLang()
 	{
-		$context = Context::getCurrent();
-		if($context !== null)
-			return $context->getLanguage();
-		return 'en';
+		if(self::$currentLang === null)
+		{
+			$context = Context::getCurrent();
+			if($context !== null)
+			{
+				self::$currentLang = $context->getLanguage();
+			}
+			else
+			{
+				self::$currentLang = 'en';
+			}
+		}
+		return self::$currentLang;
 	}
 
 	public static function setCurrentLang($language)
@@ -79,33 +90,11 @@ final class Loc
 		static::$currentLang = $language;
 	}
 
-	/**
-	 * Loads language messages for specified file
-	 *
-	 * @param string $file
-	 * @param string $language
-	 * @return array
-	 */
-	public static function loadLanguageFile($file, $language = null)
+	private static function includeLangFiles($file, $language)
 	{
-		if($language === null)
-		{
-			if(static::$currentLang === null)
-				static::$currentLang = self::getCurrentLang();
-
-			$language = static::$currentLang;
-		}
-
-		if(!isset(self::$messages[$language]))
-			self::$messages[$language] = array();
-
-		//first time call only for lang
-		if(self::$customMessages === null)
-			self::$customMessages = self::loadCustomMessages($language);
+		static $langDirCache = array();
 
 		$path = Path::getDirectory($file);
-
-		static $langDirCache = array();
 
 		if(isset($langDirCache[$path]))
 		{
@@ -151,14 +140,79 @@ final class Loc
 			{
 				$mess = array_merge($mess, self::includeFile($langFile));
 			}
+		}
 
-			foreach($mess as $key => $val)
+		return $mess;
+	}
+
+	/**
+	 * Loads language messages for specified file
+	 *
+	 * @param string $file
+	 * @param string $language
+	 * @return array
+	 */
+	public static function loadLanguageFile($file, $language = null)
+	{
+		if($language === null)
+		{
+			$language = self::getCurrentLang();
+		}
+
+		if(!isset(self::$messages[$language]))
+		{
+			self::$messages[$language] = array();
+		}
+
+		//first time call only for lang
+		if(self::$userMessages === null)
+		{
+			self::$userMessages = self::loadUserMessages($language);
+		}
+
+		//let's find language folder and include lang files
+		$mess = self::includeLangFiles($file, $language);
+
+		foreach($mess as $key => $val)
+		{
+			if(isset(self::$customMessages[$language][$key]))
+			{
+				self::$messages[$language][$key] = $mess[$key] = self::$customMessages[$language][$key];
+			}
+			else
 			{
 				self::$messages[$language][$key] = $val;
 			}
 		}
 
 		return $mess;
+	}
+
+	/**
+	 * Loads custom messages from the file to overwrite messages by their IDs.
+	 *
+	 * @param $file
+	 * @param null $language
+	 */
+	public static function loadCustomMessages($file, $language = null)
+	{
+		if($language === null)
+		{
+			$language = self::getCurrentLang();
+		}
+
+		if(!isset(self::$customMessages[$language]))
+		{
+			self::$customMessages[$language] = array();
+		}
+
+		//let's find language folder and include lang files
+		$mess = self::includeLangFiles(Path::normalize($file), $language);
+
+		foreach($mess as $key => $val)
+		{
+			self::$customMessages[$language][$key] = $val;
+		}
 	}
 
 	private static function loadLazy($code, $language)
@@ -221,11 +275,14 @@ final class Loc
 	}
 
 	/**
-	 * Read messages from user defined lang file
+	 * Reads messages from user defined lang file
+	 *
+	 * @param string $lang
+	 * @return array
 	 */
-	private static function loadCustomMessages($lang)
+	private static function loadUserMessages($lang)
 	{
-		$customMess = array();
+		$userMess = array();
 		$documentRoot = Main\Application::getDocumentRoot();
 		if(($fname = Main\Loader::getLocal("php_interface/user_lang/".$lang."/lang.php", $documentRoot)) !== false)
 		{
@@ -234,13 +291,16 @@ final class Loc
 			// typical call is Loc::loadMessages(__FILE__)
 			// __FILE__ can differ from path used in the user file
 			foreach($mess as $key => $val)
-				$customMess[str_replace("\\", "/", realpath($documentRoot.$key))] = $val;
+				$userMess[str_replace("\\", "/", realpath($documentRoot.$key))] = $val;
 		}
-		return $customMess;
+		return $userMess;
 	}
 
 	/**
-	 * Read messages from lang file
+	 * Reads messages from lang file.
+	 *
+	 * @param string $path
+	 * @return array
 	 */
 	private static function includeFile($path)
 	{
@@ -251,11 +311,11 @@ final class Loc
 		include($path);
 
 		//redefine messages from user lang file
-		if(!empty(self::$customMessages))
+		if(!empty(self::$userMessages))
 		{
 			$path = str_replace("\\", "/", realpath($path));
-			if(is_array(self::$customMessages[$path]))
-				foreach(self::$customMessages[$path] as $key => $val)
+			if(is_array(self::$userMessages[$path]))
+				foreach(self::$userMessages[$path] as $key => $val)
 					$MESS[$key] = $val;
 		}
 

@@ -10,5 +10,10 @@ $arActivityDescription = array(
 	"CATEGORY" => array(
 		"ID" => "document",
 	),
+	'FILTER' => array(
+		'EXCLUDE' => array(
+			array('disk'),
+		)
+	)
 );
 ?>

@@ -30,6 +30,7 @@ unset($arr, $rsIBlock, $iblockFilter);
 $arProperty = array();
 $arProperty_N = array();
 $arProperty_X = array();
+$arProperty_F = array();
 if ($iblockExists)
 {
 	$propertyIterator = Iblock\PropertyTable::getList(array(
@@ -54,6 +55,11 @@ if ($iblockExists)
 				$arProperty_X[$propertyCode] = $propertyName;
 			elseif ($property['PROPERTY_TYPE'] == Iblock\PropertyTable::TYPE_ELEMENT && (int)$property['LINK_IBLOCK_ID'] > 0)
 				$arProperty_X[$propertyCode] = $propertyName;
+		}
+		else
+		{
+			if ($property['MULTIPLE'] == 'N')
+				$arProperty_F[$propertyCode] = $propertyName;
 		}
 
 		if ($property['PROPERTY_TYPE'] == Iblock\PropertyTable::TYPE_NUMBER)
@@ -93,13 +99,18 @@ if (!empty($arCurrentValues['LINK_IBLOCK_ID']) && (int)$arCurrentValues['LINK_IB
 }
 
 $arUserFields_S = array("-"=>" ");
+$arUserFields_F = array("-"=>" ");
 if ($iblockExists)
 {
-	$arUserFields = $USER_FIELD_MANAGER->GetUserFields('IBLOCK_'.$arCurrentValues['IBLOCK_ID'].'_SECTION');
+	$arUserFields = $USER_FIELD_MANAGER->GetUserFields('IBLOCK_'.$arCurrentValues['IBLOCK_ID'].'_SECTION', 0, LANGUAGE_ID);
 	foreach ($arUserFields as $FIELD_NAME => $arUserField)
 	{
+		$arUserField['LIST_COLUMN_LABEL'] = (string)$arUserField['LIST_COLUMN_LABEL'];
+		$arProperty_UF[$FIELD_NAME] = $arUserField['LIST_COLUMN_LABEL'] ? '['.$FIELD_NAME.']'.$arUserField['LIST_COLUMN_LABEL'] : $FIELD_NAME;
 		if ($arUserField["USER_TYPE"]["BASE_TYPE"] == "string")
-			$arUserFields_S[$FIELD_NAME] = $arUserField["LIST_COLUMN_LABEL"] ? $arUserField["LIST_COLUMN_LABEL"]: $FIELD_NAME;
+			$arUserFields_S[$FIELD_NAME] = $arProperty_UF[$FIELD_NAME];
+		if ($arUserField["USER_TYPE"]["BASE_TYPE"] == "file" && $arUserField['MULTIPLE'] == 'N')
+			$arUserFields_F[$FIELD_NAME] = $arProperty_UF[$FIELD_NAME];
 	}
 	unset($arUserFields);
 }
@@ -209,6 +220,7 @@ $arComponentParameters = array(
 			"SECTION_ID" => array(
 				"NAME" => GetMessage("CP_BC_VARIABLE_ALIASES_SECTION_ID"),
 			),
+
 		),
 		"AJAX_MODE" => array(),
 		"SEF_MODE" => array(
@@ -394,6 +406,14 @@ $arComponentParameters = array(
 			"DEFAULT" => "-",
 			"VALUES" => array_merge(array("-"=>" ", "NAME" => GetMessage("IBLOCK_FIELD_NAME")), $arUserFields_S),
 		),
+		"SECTION_BACKGROUND_IMAGE" =>array(
+			"PARENT" => "LIST_SETTINGS",
+			"NAME" => GetMessage("CP_BC_SECTION_BACKGROUND_IMAGE"),
+			"TYPE" => "LIST",
+			"DEFAULT" => "-",
+			"MULTIPLE" => "N",
+			"VALUES" => array_merge(array("-"=>" "), $arUserFields_F)
+		),
 		"DETAIL_PROPERTY_CODE" => array(
 			"PARENT" => "DETAIL_SETTINGS",
 			"NAME" => GetMessage("IBLOCK_PROPERTY"),
@@ -444,12 +464,22 @@ $arComponentParameters = array(
 			"TYPE" => "CHECKBOX",
 			"DEFAULT" => "N"
 		),
+		"DETAIL_BACKGROUND_IMAGE" =>array(
+			"PARENT" => "DETAIL_SETTINGS",
+			"NAME" => GetMessage("CP_BC_DETAIL_BACKGROUND_IMAGE"),
+			"TYPE" => "LIST",
+			"MULTIPLE" => "N",
+			"DEFAULT" => "-",
+			"VALUES" => array_merge(array("-"=>" "),$arProperty_F)
+		),
+
 		"SHOW_DEACTIVATED" => array(
 			"PARENT" => "DETAIL_SETTINGS",
 			"NAME" => GetMessage('CP_BC_SHOW_DEACTIVATED'),
 			"TYPE" => "CHECKBOX",
 			"DEFAULT" => "N"
 		),
+
 		"CACHE_TIME"  =>  array("DEFAULT"=>36000000),
 		"CACHE_FILTER" => array(
 			"PARENT" => "CACHE_SETTINGS",

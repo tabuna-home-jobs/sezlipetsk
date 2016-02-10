@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Arrangement");
+$APPLICATION->SetTitle("SEZ location");
 ?>
 	<div class="main ">
 		<section class="top_block_main">
@@ -18,17 +18,17 @@ $APPLICATION->SetTitle("Arrangement");
 				<h3><?=$APPLICATION->GetTitle();?></h3>
 				<div class="row" style="padding-left: 15px;">
 					<p>
-						Особая экономическая зона «Липецк» расположена в центре Европейской части России, что позволяет оптимизировать логистические схемы и сократить транспортные издержки. <img width="500" alt="34.png" src="/upload/medialibrary/b7d/b7d0939684998dab65df9bf9dcbd2a71.png" height="543" title="34.png" align="right" style="margin-right: 10px;">
+						The Lipetsk Special Economic Zone is located in the center of European Russia, offering improved logistics and reduced transportation costs.<img width="500" alt="34.png" src="/upload/medialibrary/b7d/b7d0939684998dab65df9bf9dcbd2a71.png" height="543" title="34.png" align="right" style="margin-right: 10px;">
 					</p>
 					<br>
 					<p>
-						Расстояние до Москвы – около 450 км.
+						450 kilometers to Moscow
 					</p>
 					<p>
 						<img width="78" alt="33.png" src="/upload/medialibrary/da6/da62e8c37384b1c3e5dedddbaa1c792a.png" height="74" title="33.png" align="left" style="margin-right: 10px;"><br>
 					</p>
 					<p>
-						Удобные выходы на федеральные трассы М-4 и М-6
+						Convenient access to M-4 and M-6 federal highways
 					</p>
 					<p>
 						<br>
@@ -37,7 +37,7 @@ $APPLICATION->SetTitle("Arrangement");
 						<img width="78" alt="44.png" src="/upload/medialibrary/f0e/f0ea6fecf862c97d0746e26cbdddea4a.png" height="81" title="44.png" align="left" style="margin-right: 10px;"><br>
 					</p>
 					<p>
-						В 35 км от ОЭЗ расположен международный аэропорт
+						35 kilometers to the international airport
 					</p>
 					<p>
 						<br>
@@ -46,12 +46,12 @@ $APPLICATION->SetTitle("Arrangement");
 						<img width="77" alt="55.png" src="/upload/medialibrary/2ef/2ef8b633fec4cb9d4c1ecd02ff24513e.png" height="76" title="55.png" align="left" style="margin-right: 10px;"><br>
 					</p>
 					<p>
-						Внутренние ж/д пути ОЭЗ соединены с федеральной ж/д линией
+						Internal railroads connected with the federal railway line
 					</p>
 				</div>
 				<div class="row" style="padding-left: 15px;">
 					<p>
-						Особая экономическая зона «Липецк» расположена на территории Грязинского муниципального района Липецкой области, в непосредственной близости между городами Липецк, с населением более 500 тысяч человек, и Грязи, с населением около 50 тысяч жителей.
+						The Lipetsk Special Economic Zone is located in the municipality of Gryazi, Lipetsk Region, in close proximity to Lipetsk (pop. 500,000) and Gryazi (pop. 50,000).
 					</p>
 					<br>
 					<p>
@@ -64,13 +64,13 @@ $APPLICATION->SetTitle("Arrangement");
 						<br>
 					</p>
 					<p>
-						ОЭЗ «Липецк» расположена между двумя железнодорожными станциями:
+						. Lipetsk SEZ is located between two railway stations:
 					</p>
 					<p>
-						- ж/д станция «Казинка» (0,2 км);
+						- Kazinka (0.2 km)
 					</p>
 					<p>
-						- ж/д станция «Грязи-Орловские» (8 км). В непосредственной близости от ОЭЗ находятся ж/д вокзал «Липецк» - 20 км и ж/д вокзал «Грязи-Воронежские» - 10 км. Ж/д пути ОЭЗ «Липецк» соединены с ж/д станцией «Казинка».
+						- Gryazi-Orlovskie (8 km) Also in close proximity to Lipetsk SEZ are two railway passenger stations – Lipetsk (20 km) and Gryazi Voronezhskie (10 km). Lipetsk SEZ railway roads are linked with the Kazinka station.
 					</p>
 				</div>
 			</div>

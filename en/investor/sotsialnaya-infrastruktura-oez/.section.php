@@ -1,5 +1,5 @@
 <?
-$sSectionName = " Social infrastructure of the region";
+$sSectionName = "Social infrastructure";
 $arDirProperties = Array(
 
 );

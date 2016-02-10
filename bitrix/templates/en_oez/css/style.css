@@ -861,6 +861,10 @@ footer {
     font-size: 18px;
     margin-bottom:10px;
     color:#666666;
+    padding-right: 50px;
+}
+.citater+div{
+    padding-right: 50px;
 }
 .ministr {
     background-image:url('../img/ministrbg.png');
@@ -1776,6 +1780,12 @@ footer {
     }
     .padding_block {
         padding: 0 10px!important;
+    }
+    .stupid_images>div{
+      height: auto !important;
+    }
+    .stupid_images>div>img{
+      height: auto !important;
     }
 }
 @media (max-width: 768px) and (max-width: 767px) {
@@ -2719,6 +2729,9 @@ textarea {
 .all {
     color:#d94462;
     display: inline-block;
+}
+.dop_smi>.all{
+  display: none;
 }
 .img_conatiner {
     height: 100%;

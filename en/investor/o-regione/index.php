@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("About a region");
+$APPLICATION->SetTitle("Lipetsk Region");
 ?>
 
 	<div class="main ">
@@ -25,13 +25,13 @@ $APPLICATION->SetTitle("About a region");
 
 						<div class="scrollbar-outer resize_scroll">
 							<div class="lin">
-								Липецкая область расположена в центральной части европейской территории России, в 370 км к югу от Москвы (расстояние от столицы до областного центра — около 450 км). Область граничит с Курской, Орловской, Тульской, Рязанской, Тамбовской и Воронежской областями.
+								The Lipetsk Region is situated in the center of European Russia, 370 km south of Moscow (the distance between Moscow and Lipetsk is 450 km). It borders with the Kursk, Oryol, Tula, Ryazan, Tambov and Voronezh regions. 
 								<br><br>
-								<strong>Территория Липецкой области</strong> — 24 000 км² <br>
-								<strong>Население</strong> — 1 171 тыс. человек <br>
-								<strong> Административный центр</strong> — Липецк — 508 тыс. человек <br>
-								<strong> Крупные города</strong> — Елец (108 тыс. человек), Грязи (46 тыс. человек). <br>
-								<strong> ВРП</strong> — 254,7 млр. рублей в 2010 году <br>
+								<strong> Area:</strong> 24,000 sq km<br>
+								<strong> Population:</strong> 1,171,000 people <br>
+								<strong> Capital:</strong> — Lipetsk (pop. 508,000) <br>
+								<strong> Large cities:</strong> Yelets (pop. 108,000), Gryazi (pop. 46,000) <br>
+								<strong> GRP:</strong> — RUB 254.7 billion in 2010 <br>
 							</div>
 						</div>
 					</div>
@@ -44,7 +44,7 @@ $APPLICATION->SetTitle("About a region");
 		<section class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<h2>Основные отрасли экономики региона</h2>
+					<h2>Key sectors of the regional economy</h2>
 					<div class="row otrasl">
 
 
@@ -53,7 +53,7 @@ $APPLICATION->SetTitle("About a region");
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/metal.png" class="red">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/black6.png" class="black">
 							</div>
-							<div>Металлургия и металлообработка</div>
+							<div>Steelmaking and metalworking</div>
 						</div>
 
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal2">
@@ -61,35 +61,35 @@ $APPLICATION->SetTitle("About a region");
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/gears.png" class="red">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/black2.png" class="black">
 							</div>
-							<div>Машиностроение</div>
+							<div>Mechanical engineering</div>
 						</div>
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal3">
 							<div>
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/colba.png" class="red">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/black5.png" class="black">
 							</div>
-							<div>Нефтехимическая промышленность</div>
+							<div>Petrochemical industry</div>
 						</div>
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal4">
 							<div>
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/bytteh.png" class="red">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/black1.png" class="black">
 							</div>
-							<div>Производство бытовой техники</div>
+							<div>Domestic appliances</div>
 						</div>
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal5">
 							<div>
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/lopata.png" class="red">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/black4.png" class="black">
 							</div>
-							<div>Производство строительных конструкций</div>
+							<div>Construction materials</div>
 						</div>
 						<div class="col-xs-6 otrasl_item" data-toggle="modal" data-target="#modal6">
 							<div>
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/cow.png" class="red">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/black3.png" class="black">
 							</div>
-							<div>Сельское хозяйство</div>
+							<div>Agriculture</div>
 						</div>
 					</div>
 				</div>
@@ -101,13 +101,13 @@ $APPLICATION->SetTitle("About a region");
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								<h4 class="modal-title" id="myModalLabel">Металлургия и металлообработка</h4>
+								<h4 class="modal-title" id="myModalLabel"> Steelmaking and metalworking</h4>
 							</div>
 							<div class="modal-body">
-								<p style="text-align: justify;">Промышленное производство является основой экономического потенциала области, на его долю приходится около 66 % валового регионального продукта. Регион занимает четвёртое место по производству стали (14 %) и проката черных металлов (16 %), В числе крупнейших промышленных предприятий — ОАО «Новолипецкий металлургический комбинат», Завод «Свободный сокол»</p>
+								<p style="text-align: justify;">Industrial production underlies the regional economic potential and accounts for nearly 66% of the gross regional product. The Lipetsk region is ranked fourth in terms of steel production (14%) and rolled products (16%). The largest steel makers are Novolipetsk Steel and Svobodny Sokol.</p>
 							</div>
 							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 							</div>
 						</div>
 					</div>
@@ -119,15 +119,16 @@ $APPLICATION->SetTitle("About a region");
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								<h4 class="modal-title" id="myModalLabel2">Машиностроение</h4>
+								<h4 class="modal-title" id="myModalLabel2">Mechanical engineering</h4>
 							</div>
 							<div class="modal-body">
-								<p style="text-align: justify;">В Липецкой области более 350 крупных, средних и малых предприятиях. Машиностроительной отрасли. На  них трудятся более 16 тыс. человек, из них производством машин и оборудования заняты почти 13 тыс. человек. Удельный вес машиностроения и металлообработки в структуре промышленного производства региона составляет 7 %. Ежегодно предприятия отрасли отгружают продукции на сумму свыше 24 млрд. рублей. За январь-июль 2015 года этот объем вырос почти на 6 % к соответствующему периоду прошлого года и составил 17,2 млрд. рублей.</p> 
+								<p style="text-align: justify;">В The Lipetsk region is home to more than 350 mechanical engineering companies employing over 16,000 people, including 13,000 people engaged in equipment manufacturing. Engineering and metalworking companies account for 7% of the regional industrial output, with their aggregate annual revenue exceeding 24 billion rubles. In January–June 2015, revenue increased by almost 6% year-over-year and reached 17.2 billion rubles.</p> 
 
-								<p style="text-align: justify;">Основными центрами машиностроения являются Липецк, Елец, Грязи, Лебедянь, Чаплыгин, Усмань. Среди наиболее крупных предприятий - ЗАО «Индезит Интернэшнл», «Липецкий завод гусеничных тягачей», ООО «Липецкое станкостроительное предприятие», акционерные общества «Гидромаш», «Елецгидроагрегат», «Гидропривод», «Грязинский культиваторный завод», «Строймаш», а также ООО «Лебедянский машиностроительный завод», ООО «РАЦИОНАЛ».</p>
+								<p style="text-align: justify;">
+Engineering companies are concentrated in Lipetsk, Yelets, Gryazi, Lebedyan, Chaplygin and Usman. The largest of them are Indesit International, Lipetsk Caterpillar Tractor Plant, Lipetsk Machine Tool Company, Gidromash, Yeletsgidroagregat, Gidroprivod, Gryazi Cultivator Plant, Stroymash, Lebedyan Engineering Plant and RAZIONAL.</p>
 							</div>
 							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 							</div>
 						</div>
 					</div>
@@ -139,18 +140,18 @@ $APPLICATION->SetTitle("About a region");
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								<h4 class="modal-title" id="myModalLabel3">Нефтехимическая промышленность</h4>
+								<h4 class="modal-title" id="myModalLabel3">Petrochemical industry</h4>
 							</div>
 							<div class="modal-body">
-								<p style="text-align: justify;">В Липецком  регионе успешно работает ряд предприятий, представляющих нефтехимическую промышленность:</p>
+								<p style="text-align: justify;">Petrochemical companies operating in the Lipetsk region include:</p>
 								<ul>
-									<li style="text-align: justify;">ОАО «СИЛАН» — именно данное предприятие раньше остальных приступило к изготовлению кремнийорганических изделий. Основу ассортимента образуют соединения, для получения которых применяют кристаллический кремний высокой чистоты совместно с хлорпроизводными углеводородами.</li>
-									<li style="text-align: justify;">ОАО «Полимер» — основной специализацией данного предприятия является изготовление полимерных изделий. К числу таковых следует отнести упаковочные товары, пакеты на полимерной основе, применяемые для фасовки, продукцию из пластмасс (к примеру, бочки), а также товары народного потребления на основе пластмассы.</li>
-									<li style="text-align: justify;">ООО «Ланксесс Липецк» производит добавки для шинной промышленности.</li>
+									<li style="text-align: justify;">SILAN (organic silicon products made chemical compounds synthesized from high-purity crystalline silicon and chlorinated hydrocarbons)</li>
+									<li style="text-align: justify;">Polimer (polymer products, including packaging materials, bags, plastic ware (e.g. barrels) and plastic consumer products)</li>
+									<li style="text-align: justify;">ООО LANXESS Lipetsk (tire and rubber additives)</li>
 								</ul>
 							</div>
 							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 							</div>
 						</div>
 					</div>
@@ -162,13 +163,13 @@ $APPLICATION->SetTitle("About a region");
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								<h4 class="modal-title" id="myModalLabel4">Производство бытовой техники</h4>
+								<h4 class="modal-title" id="myModalLabel4">Domestic appliances</h4>
 							</div>
 							<div class="modal-body">
-								<p style="text-align: justify;">Регион занимает первое место в Российской Федерации по производству бытовых холодильников и морозильников (более 40 % от общероссийского производства). Крупнейший производитель холодильников и стиральных машин – ЗАО «Индезит Интернешнл».</p>
+								<p style="text-align: justify;">The Lipetsk region is ranked first in terms of domestic refrigerators produced (over 40% of the total Russian output). Indesit International is the largest local producer of refrigerators and washing machines.</p>
 							</div>
 							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 							</div>
 						</div>
 					</div>
@@ -180,14 +181,14 @@ $APPLICATION->SetTitle("About a region");
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								<h4 class="modal-title" id="myModalLabel5">Сельское хозяйство</h4>
+								<h4 class="modal-title" id="myModalLabel5">Agriculture</h4>
 							</div>
 							<div class="modal-body">
-								<p style="text-align: justify;">Благоприятные климатические условия, наличие чернозёмов, способствуют развитию растениеводства. Площадь сельхозугодий занимает свыше 1,8 млн га, из них пашня — более 80 %. 22,3 тыс. га земли отведено под плодовые сады, где в основном выращивают яблони, груши, сливы. В области насчитывается около 300 сельскохозяйственных предприятий, основными направлениями которых являются: производство зерновых, сахарной свеклы, картофеля, разведение крупного рогатого скота, свиноводство, птицеводство. Объём валовой продукции сельского хозяйства в 2010 году составил около 35,3 млрд рублей.</p>
-								<p style="text-align: justify;">В настоящее время крупная российская продовольственная компания «Черкизово» осуществляет строительство в Елецком районе Липецкой области крупнейшего в России агропромышленного комплекса.</p>
+								<p style="text-align: justify;">Favorable climatic conditions and fertile black soils contribute to the crop production. Agricultural lands cover more than 1.8 million hectares, including over 80% of tillable land. Orchards growing largely apple, pear and plum trees cover 22,300 hectares. The Lipetsk region is home to nearly 300 agricultural companies engaged mostly in grain crops, sugar beet, potato, cattle, pig and poultry farming. Aggregated revenue in the agricultural sector reached nearly 35.3 billion rubles in 2010.</p>
+								<p style="text-align: justify;">The largest agricultural and processing facilities in Russia are being built in the Lipetsk region by a major Russian food producer Cherkizovo.</p>
 							</div>
 							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 							</div>
 						</div>
 					</div>
@@ -199,16 +200,16 @@ $APPLICATION->SetTitle("About a region");
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								<h4 class="modal-title" id="myModalLabel6">Производство строительных конструкций</h4>
+								<h4 class="modal-title" id="myModalLabel6">Construction materials</h4>
 							</div>
 							<div class="modal-body">
-								<p style="text-align: justify;">К перспективным отраслям относится промышленность строительных материалов, которая призвана удовлетворить потребности строительства в собственных строительных материалах. С этой целью предусматривается ввод новых производственных мощностей - строительство новых заводов (цементного, по производству стеновых материалов, стекольного и др.) и связанных с ними разработка карьеров и рост добычи цементного и черепично-кирпичного сырья, производство и обогащение стекольных песков. Развиваются производства новых современных строительных материалов.</p>
-								<p style="text-align: justify;"><b>ОАО «Липецкцемент»</b> – единственный производитель цемента в Липецкой области. Продукция предприятия пользуется широкой известностью среди потребителей строительного комплекса Москвы, Липецкой, Тамбовской, Курской, Тульской, Орловской, Московской областей и других регионов России.</p> 
-								<p style="text-align: justify;"><b>ООО «ЗСК СЭНДВИЧ-ПАНЕЛЬ», ООО «ЗАВОД СТРОИТЕЛЬНЫХ КОНСТРУКЦИЙ»</b></p>
-								<p style="text-align: justify;">Это предприятия нового поколения, одни из крупнейших Российских производителей сэндвич-панелей (1,5 млн. кв. метров в год). Выпускаемые трехслойные стеновые и кровельные сэндвич-панели имеют толщину от 60 до 250 мм и предназначаются для единой системы быстровозводимых зданий и металлоконструкций.</p>
+								<p style="text-align: justify;">The construction materials industry is a promising sector of the regional economy. Plans are to satisfy demand of construction companies with locally produced construction materials. The industry development strategy provides for cement, walling, glass and other plants to be established in the region and the subsequent development of open-pit mines and production of raw materials for cement, brick and glass factories. Local businesses develop the production of advanced construction materials.</p>
+								<p style="text-align: justify;"><b>ОАО LipetskCement</b> is yet the only local cement manufacturer supplying its products to Moscow, Lipetsk, Tambov, Kursk, Tula, Oryol and other Russian regions.</p> 
+								<p style="text-align: justify;"><b>ООО ZSK Sandwich Panel and Building Structures Plant</b></p>
+								<p style="text-align: justify;">These are new generation facilities and major Russian producers of sandwich panels (1.5 million square meters annually). Sandwich panels with thickness from 60 to 250 mm are designed to be used in pre-engineered steel structures and prefabricated buildings.</p>
 							</div>
 							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 							</div>
 						</div>
 					</div>
@@ -218,23 +219,23 @@ $APPLICATION->SetTitle("About a region");
 
 
 				<div class="col-md-6">
-					<h2>Международные рейтинги и инвестиционный климат</h2>
+					<h2>International rankings and investment climate</h2>
 
 					<div>
 						<h3>Fitch Ratings:</h3>
 						<ul class="red_dotes_ul">
-							<li><span>долгосрочные рейтинги в иностранной и национальной валюте «BB» с прогнозом «стабильный»;</span>
+							<li><span>Long-term BB rating in foreign and national currency, outlook stable</span>
 							</li>
-							<li><span>краткосрочный рейтинг в иностранной валюте «B»;</span></li>
-							<li><span>национальный долгосрочный рейтинг «AA-(rus)» с прогнозом «стабильный»</span></li>
+							<li><span>Short-term B rating in foreign currency</span></li>
+							<li><span>Long-term national AA-(rus) rating, outlook stable</span></li>
 						</ul>
 					</div>
 					<div>
 						<h3>Standard & Poors:</h3>
 						<ul class="red_dotes_ul">
-							<li><span>долгосрочный кредитный рейтинг «ВВ»;</span>
+							<li><span>Long-term BB credit rating</span>
 							</li>
-							<li><span>рейтинг по национальной шкале «ruAA». Прогноз — «Стабильный».</span></li>
+							<li><span>National ruAA rating, outlook stable</span></li>
 						</ul>
 					</div>
 				</div>

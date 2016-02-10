@@ -61,6 +61,7 @@ class CSiteCheckerTest
 			array('check_server_vars' =>GetMessage('SC_T_SERVER')),
 			array('check_session' => GetMessage('SC_T_SESS')),
 			array('check_mbstring' =>GetMessage('SC_T_MBSTRING')),
+			array('check_install_scripts' => GetMessage('SC_T_INSTALL_SCRIPTS')),
 			array('check_socket' => GetMessage('SC_T_SOCK')),
 		);
 
@@ -106,7 +107,6 @@ class CSiteCheckerTest
 			array('check_bx_crontab' => GetMessage("MAIN_SC_AGENTS_CRON")),
 			array('check_session_ua' => GetMessage('SC_T_SESS_UA')),
 			array('check_sites' => GetMessage('SC_T_SITES')),
-			array('check_install_scripts' => GetMessage('SC_T_INSTALL_SCRIPTS')),
 			array('check_clone' => GetMessage('SC_T_CLONE')),
 
 			array('check_pcre_recursion' => GetMessage('SC_T_RECURSION')),
@@ -158,6 +158,7 @@ class CSiteCheckerTest
 						array('check_mysql_connection_charset' => GetMessage('SC_CONNECTION_CHARSET')),
 						array('check_mysql_db_charset' => GetMessage('SC_DB_CHARSET')),
 						array('check_mysql_table_charset' => GetMessage('SC_T_CHARSET')),
+						array('check_mysql_table_structure' => GetMessage('SC_T_STRUCTURE')),
 					);
 				break;
 				case 3:
@@ -1931,6 +1932,7 @@ class CSiteCheckerTest
 		$cnt = $res->SelectedRowsCount();
 
 		$arExclusion = array(
+			'b_sale_loc_search_word' => 'WORD',
 			'b_search_content_stem' => 'STEM',
 			'b_search_content_freq' => 'STEM',
 			'b_search_stem' => 'STEM',
@@ -1948,7 +1950,21 @@ class CSiteCheckerTest
 				continue;
 			}
 
-			$res0 = $DB->Query('SHOW CREATE TABLE `' . $table . '`');
+			$res0 = $DB->Query('SHOW CREATE TABLE `' . $table . '`', true);
+			if ($res0 === false)
+			{
+				if ($this->fix_mode)
+				{
+					$res0 = $DB->Query('DROP TABLE `' . $table . '`', true);
+				}
+				else
+				{
+					$strError .= GetMessage('SC_TABLE_BROKEN',array('#TABLE#'=>$table))."<br>";
+					$this->arTestVars['iError']++;
+					$this->arTestVars['iErrorAutoFix']++;
+				}
+				continue;
+			}
 			$f0 = $res0->Fetch();
 
 			if (preg_match('/DEFAULT CHARSET=([a-z0-9\-_]+)/i', $f0['Create Table'], $regs))
@@ -2069,6 +2085,11 @@ class CSiteCheckerTest
 		global $DB;
 		$strError = '';
 
+		$arInsertExclude = array(
+			'b_seo_search_engine' => 1,
+			'b_hot_keys_code' => 1,
+		);
+
 		if ($this->arTestVars['table_charset_fail'])
 			return $this->Result(null, GetMessage('SC_TABLE_COLLATION_NA'));
 
@@ -2154,7 +2175,7 @@ class CSiteCheckerTest
 					elseif (preg_match('#^INSERT INTO *`?([a-z0-9_]+)`?[^\(]*\(?([^)]*)\)?[^V]*VALUES[^\(]*\((.+)\);?$#mis',$sql,$regs))
 					{
 						$table = $regs[1];
-						if (!$arTables[$table])
+						if (!$arTables[$table] || $arInsertExclude[$table])
 							continue;
 						$tmp_table = 'site_checker_'.$table;
 
@@ -2371,7 +2392,7 @@ class CSiteCheckerTest
 
 	function CommonTest()
 	{
-		if (!IsModuleInstalled('intranet') || defined('BX_CRONTAB') || (defined('CHK_EVENT') && CHK_EVENT === true)) // can't get real HTTP server vars from cron
+		if (defined('BX_CRONTAB') || (defined('CHK_EVENT') && CHK_EVENT === true)) // can't get real HTTP server vars from cron
 			return "CSiteCheckerTest::CommonTest();";
 		if (($ntlm_varname = COption::GetOptionString('ldap', 'ntlm_varname', 'REMOTE_USER')) && ($user = trim($_SERVER[$ntlm_varname])))
 			return "CSiteCheckerTest::CommonTest();"; // Server NTLM is enabled, no way to connect through a socket
@@ -2392,7 +2413,12 @@ class CSiteCheckerTest
 			if ($oTest->result === false)
 			{
 				$ar = Array(
-					"MESSAGE" => GetMessage("MAIN_SC_GOT_ERRORS", array('#LINK#' => "/bitrix/admin/site_checker.php?lang=".LANGUAGE_ID."&express_test=Y")),
+					"MESSAGE" => 
+						(
+							IsModuleInstalled('intranet') ?
+							GetMessage("MAIN_SC_GOT_ERRORS", array('#LINK#' => "/bitrix/admin/site_checker.php?lang=".LANGUAGE_ID."&express_test=Y")) :
+							GetMessage("MAIN_SC_SITE_GOT_ERRORS", array('#LINK#' => "/bitrix/admin/site_checker.php?lang=".LANGUAGE_ID."&start_test=Y"))
+						),
 					"TAG" => "SITE_CHECKER",
 					"MODULE_ID" => "MAIN",
 					'TYPE' => 'ERROR'

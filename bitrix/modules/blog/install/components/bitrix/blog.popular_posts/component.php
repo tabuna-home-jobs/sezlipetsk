@@ -188,16 +188,18 @@ else
 				else
 					$arTmp["IMG"] = CFile::ShowImage($arPost["ATTACH_IMG"], false, false, 'align="left" hspace="2" vspace="2"');
 
-				$arTmp["DETAIL_TEXT"] = htmlspecialcharsbx($arPost["~DETAIL_TEXT"]);
+				$arTmp["DETAIL_TEXT"] = htmlspecialcharsbx($arPost["DETAIL_TEXT"]);
 				
-				$text = preg_replace(array("#\[img\](.+?)\[/img\]#ie", "/\[document id=\d+([^\]]*)\]/is"), "", $arPost["~DETAIL_TEXT"]);
+				$text = preg_replace(array("#\[img\](.+?)\[/img\]#is", "/\[document id=\d+([^\]]*)\]/is"), "", $arPost["DETAIL_TEXT"]);
 				$text = preg_replace("#\[url(.+?)\](.*?)\[/url\]#is", "\\2", $text);
-				$text = preg_replace("#\[video(.+?)\](.+?)\[/video\]#ie", "", $text);
+				$text = preg_replace("#\[video(.+?)\](.+?)\[/video\]#is", "", $text);
 				$text = preg_replace("#^(.+?)<cut[\s]*(/>|>).*?$#is", "\\1", $text);
 				$text = preg_replace("#^(.+?)\[cut[\s]*(/\]|\]).*?$#is", "\\1", $text);
 				$text = preg_replace("#(\[|<)(/?)(b|u|i|list|code|quote|url|img|color|font|right|left|center|justify|/*)(.*?)(\]|>)#is", "", $text);
 				$text1 = $text = TruncateText($text, $arParams["MESSAGE_LENGTH"]);
+
 				$text = $p->convert($text, true, false, array("HTML" => "N", "ANCHOR" => "N", "BIU" => "N", "IMG" => "N", "QUOTE" => "N", "CODE" => "N", "FONT" => "N", "LIST" => "N", "SMILES" => "Y", "NL2BR" => "N"));
+
 				$text = CBlogTools::DeleteDoubleBR($text);
 
 				$arTmp["TEXT_FORMATED"] = $text;

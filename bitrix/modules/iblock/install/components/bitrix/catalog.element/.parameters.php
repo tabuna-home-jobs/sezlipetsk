@@ -27,6 +27,7 @@ $arProperty = array();
 $arProperty_LS = array();
 $arProperty_N = array();
 $arProperty_X = array();
+$arProperty_F = array();
 if ($iblockExists)
 {
 	$propertyIterator = Iblock\PropertyTable::getList(array(
@@ -51,6 +52,11 @@ if ($iblockExists)
 				$arProperty_X[$propertyCode] = $propertyName;
 			elseif ($property['PROPERTY_TYPE'] == Iblock\PropertyTable::TYPE_ELEMENT && (int)$property['LINK_IBLOCK_ID'] > 0)
 				$arProperty_X[$propertyCode] = $propertyName;
+		}
+		else
+		{
+			if ($property['MULTIPLE'] == 'N')
+				$arProperty_F[$propertyCode] = $propertyName;
 		}
 
 		if ($property['PROPERTY_TYPE'] == Iblock\PropertyTable::TYPE_LIST || $property['PROPERTY_TYPE'] == Iblock\PropertyTable::TYPE_STRING)
@@ -523,6 +529,14 @@ $arComponentParameters = array(
 			"NAME" => GetMessage("IBLOCK_LINK_ELEMENTS_URL"),
 			"TYPE" => "STRING",
 			"DEFAULT" => "link.php?PARENT_ELEMENT_ID=#ELEMENT_ID#",
+		),
+		"BACKGROUND_IMAGE" =>array(
+			"PARENT" => "VISUAL",
+			"NAME" => GetMessage("T_IBLOCK_BACKGROUND_IMAGE"),
+			"TYPE" => "LIST",
+			"MULTIPLE" => "N",
+			"DEFAULT" => "-",
+			"VALUES" => array_merge(array("-"=>" "),$arProperty_F)
 		),
 		"CACHE_TIME"  =>  array("DEFAULT"=>36000000),
 		"CACHE_GROUPS" => array(
