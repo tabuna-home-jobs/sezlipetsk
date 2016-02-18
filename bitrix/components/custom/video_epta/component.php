@@ -70,7 +70,7 @@
 
 	$arParams["NEWS_COUNT"] = intval($arParams["NEWS_COUNT"]);
 	if($arParams["NEWS_COUNT"]<=0)
-		$arParams["NEWS_COUNT"] = 20;
+		$arParams["NEWS_COUNT"] = 40;
 
 	$arParams["CACHE_FILTER"] = $arParams["CACHE_FILTER"]=="Y";
 	if(!$arParams["CACHE_FILTER"] && count($arrFilter)>0)
@@ -334,8 +334,10 @@
 			}
 
 
-			$info_item = $arItem['IBLOCK_ID'];
-
+			//$info_item = $arItem['IBLOCK_ID'];
+			//var_dump($info_item);
+			//die('lkjhg');
+			$info_item = $arResult['ID'];
 			//Получаем главную картинку альбома
 			if(isset($arParams['ALBUM4EG_ID'])){
 
@@ -356,7 +358,38 @@
 				}
 			}
 
+			//Все видео
+				$arSelect = Array("ID", "NAME", "DATE_ACTIVE_FROM", "DETAIL_PAGE_URL", "PREVIEW_PICTURE","PREVIEW_TEXT", "DETAIL_TEXT");
+				/// выборка значений полей.  CODE - код дополнительного свойства(если есть) , DETAIL_TEXT - детальное описание элемента
+				$arFilter = Array("IBLOCK_ID"=>$info_item, "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
+				//nPageSize - количество элементов которые будемм грузить в рраздел "Все видео"
+ 				$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>500), $arSelect);
+				while($ob = $res->GetNextElement()) // "бежим" по элементам
+				{
+					$arFields[] = $ob->GetFields();  // $arFields массив значений полей текущего элемента
+				}
 
+				// :D
+				$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion = 0;
+
+				foreach($arFields as $AllPhoto){
+
+
+					$arResult["allPhotoz"][$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion] = array(
+						'ID' => $AllPhoto['ID'],
+						'EXTERNAL_ID' => $AllPhoto['EXTERNAL_ID'],
+						'NAME' => $AllPhoto['NAME'],
+						'PREVIEW_PICTURE' => $AllPhoto['PREVIEW_PICTURE'],
+						'DETAIL_PICTURE' => $AllPhoto['DETAIL_PICTURE'],
+						'IBLOCK_SECTION_ID' => $AllPhoto['IBLOCK_SECTION_ID'],
+						"PREVIEW_TEXT" => $AllPhoto['PREVIEW_TEXT'],
+						"DETAIL_TEXT" => $AllPhoto['DETAIL_TEXT']
+					);
+					// :D
+					$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion++;
+				}
+
+				
 
 			/* Получаем разделы и элеметы инфоблока */
 			$rs_Section = CIBlockSection::GetList(array('left_margin' => 'desc'), array('IBLOCK_ID' =>$info_item,'depth_level' => '1'),false,array('UF_*'));
@@ -384,42 +417,15 @@
 				//Описываем фильтр по каком будет выборка
 				$arFilter = Array("IBLOCK_ID"=>$info_item,'SECTION_ID' =>$ar_Section['ID'], 'depth_level' => '2',"ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
 				//Делаем запрос
-				$rs_Section_child = CIBlockElement::GetList(Array(), $arFilter, false, Array(), $arSelect);
+				//nPageSize - Количество видюх в разделек
+				$rs_Section_child = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>500), $arSelect);
 
 
 				//$rs_Section_child = CIBlockSection::GetList(array('left_margin' => 'desc'), array('IBLOCK_ID' =>$arItem['IBLOCK_ID'],'SECTION_ID' =>$ar_Section['ID'],'depth_level' => '2'),false, array('UF_*'));
 
 
 
-				//Все видео
-				$arSelect = Array("ID", "NAME", "DATE_ACTIVE_FROM", "DETAIL_PAGE_URL", "PREVIEW_PICTURE","PREVIEW_TEXT", "DETAIL_TEXT");
-				/// выборка значений полей.  CODE - код дополнительного свойства(если есть) , DETAIL_TEXT - детальное описание элемента
-				$arFilter = Array("IBLOCK_ID"=>$info_item, "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
-				$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>50), $arSelect);
-				while($ob = $res->GetNextElement()) // "бежим" по элементам
-				{
-					$arFields[] = $ob->GetFields();  // $arFields массив значений полей текущего элемента
-				}
-
-				// :D
-				$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion = 0;
-
-				foreach($arFields as $AllPhoto){
-
-
-					$arResult["allPhotoz"][$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion] = array(
-						'ID' => $AllPhoto['ID'],
-						'EXTERNAL_ID' => $AllPhoto['EXTERNAL_ID'],
-						'NAME' => $AllPhoto['NAME'],
-						'PREVIEW_PICTURE' => $AllPhoto['PREVIEW_PICTURE'],
-						'DETAIL_PICTURE' => $AllPhoto['DETAIL_PICTURE'],
-						'IBLOCK_SECTION_ID' => $AllPhoto['IBLOCK_SECTION_ID'],
-						"PREVIEW_TEXT" => $AllPhoto['PREVIEW_TEXT'],
-						"DETAIL_TEXT" => $AllPhoto['DETAIL_TEXT']
-					);
-					// :D
-					$imgIteratorWithVeryLongNameJustForFunDoYouShareThisOpinion++;
-				}
+				
 
 
 				$jj = 0;
@@ -448,6 +454,7 @@
 					$kk = 0;
 
 					while($ar_element = $rs_element->GetNextElement()){
+						//var_dump($kkk);
 						$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['row'] =$ar_element->GetFields();
 						$arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties'] =$ar_element->GetProperties();
 						if ($arResult["razdel"][$ii]["child"][$jj]['element'][$kk]['properties']['FILES']["PROPERTY_TYPE"] == "F")
